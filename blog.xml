@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский (RU)" rtl="0">
+ <app key="blog" version="102001">
+  <word key="__app_blog" js="0">Блоги</word>
+  <word key="frontnavigation_blogs" js="0">Блоги</word>
+  <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
+  <word key="__indefart_blog_entry" js="0">запись в блоге</word>
+  <word key="__defart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
+  <word key="__defart_blog_entry" js="0">запись в блоге</word>
+  <word key="blog_entry_container" js="0">блог</word>
+  <word key="blog_entry_pl_lc" js="0">записи блога</word>
+  <word key="module__blog_blogs" js="0">Блоги</word>
+  <word key="menu__blog_blogs" js="0">Блоги</word>
+  <word key="menu__blog_blogs_settings" js="0">Настройки</word>
+  <word key="menu__blog_blogs_blogs" js="0">Блоги</word>
+  <word key="acp_search_title_blog_Blogs" js="0">Блоги</word>
+  <word key="acplog__entries_published" js="0">Автоматически опубликованы %s записи в блоге</word>
+  <word key="filestorage__blog_Entries" js="0">Записи в приложении Блоги</word>
+  <word key="add_blog" js="0">Добавить блог</word>
+  <word key="block_blog_Overview" js="0">Статистика блогов</word>
+  <word key="editor__blog_Blogs" js="0">Блоги</word>
+  <word key="editor__blog_Entries" js="0">Записи блога</word>
+  <word key="task__blogrssimport" js="0">Проверяет RSS-ленты на наличие новых статей для импорта в Блоги.</word>
+  <word key="filestorage__blog_Blogs" js="0">Обложки блогов</word>
+  <word key="entry_blog_id" js="0">Блог</word>
+  <word key="r__blogs" js="0">Блоги</word>
+  <word key="r__blog_settings_manage" js="0">Может изменять настройки блогов</word>
+  <word key="r__blogs_manage" js="0">Может управлять блогами</word>
+  <word key="blog_member_deleted" js="0">Пользователь был удалён</word>
+  <word key="rebuilding_blog_entry_images" js="0">Перестроение изображений записей блогов</word>
+  <word key="acplogs__blog_settings" js="0">Обновлены настройки блогов</word>
+  <word key="blog_enable_rating" js="0">Включить рейтинг блогов</word>
+  <word key="blog_settings_rss" js="0">Настройки RSS-лент</word>
+  <word key="blog_allow_rssimport" js="0">Включить RSS-импорт</word>
+  <word key="blog_allow_rss" js="0">Включить RSS-экспорт</word>
+  <word key="blog_allow_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
+  <word key="blogs" js="0">Блоги</word>
+  <word key="blog_word_custom" js="0">Название блога</word>
+  <word key="blog_blog_member_id" js="0">Автор блога</word>
+  <word key="blogs_sg" js="0">Блог</word>
+  <word key="create_blog" js="0">Создать блог</word>
+  <word key="create_new_blog" js="0">Создать новый блог</word>
+  <word key="add_entry_to" js="0">Добавить запись в блог</word>
+  <word key="blog_entry" js="0">Запись блога</word>
+  <word key="blog_entry_pl" js="0">Записи блога</word>
+  <word key="blog_entry_comment" js="0">Комментарий блога</word>
+  <word key="add_blog_entry" js="0">Добавить запись в блог</word>
+  <word key="entry_pl" js="0">Записи блога</word>
+  <word key="blog_entry_comment_pl" js="0">Комментарии блога</word>
+  <word key="blog_entry_comment_pl_lc" js="0">Комментарии блога</word>
+  <word key="entry_comments" js="0">Комментарии</word>
+  <word key="blog_num_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="manage_blog" js="0">Управление блогом</word>
+  <word key="select_blog" js="0">Выбрать блог</word>
+  <word key="search_contextual_item_blogs" js="0">В этом блоге</word>
+  <word key="search_contextual_item_blog_entry" js="0">В этой записи</word>
+  <word key="blog_settings" js="0">Настройки блога</word>
+  <word key="blog_name" js="0">Название</word>
+  <word key="blog_name_group" js="0">Название</word>
+  <word key="blog_desc" js="0">Описание</word>
+  <word key="blog_desc_group" js="0">Описание</word>
+  <word key="blog_desc_placeholder" js="0">Добавить описание...</word>
+  <word key="blog_type" js="0">Тип</word>
+  <word key="blog_type_normal" js="0">Для одного пользователя</word>
+  <word key="blog_type_group" js="0">Для нескольких пользователей</word>
+  <word key="blog_type_group_desc" js="0">Блоги для нескольких пользователей могут изменяться всеми выбранными группами.</word>
+  <word key="blog_groupblog_ids" js="0">Группы</word>
+  <word key="blog_member_id" js="0">Владелец</word>
+  <word key="blog_groupblog_name" js="0">Название группы</word>
+  <word key="blog_groupblog_name_desc" js="0">При просмотре блога используется в качестве имени его владельца.</word>
+  <word key="edit_blog" js="0">Изменение блога</word>
+  <word key="delete_blog" js="0">Удалить блог</word>
+  <word key="blog_privacy" js="0">Конфиденциальность</word>
+  <word key="blog_privacy_open" js="0">Все могут читать этот блог</word>
+  <word key="blog_privacy_private" js="0">Только пользователи, которых я выберу, смогут читать этот блог</word>
+  <word key="blog_social_group" js="0">Пользователи, которым разрешено читать этот блог</word>
+  <word key="no_blog_author_selected" js="0">Автор блога не выбран</word>
+  <word key="modlog__action_delete_blog" js="0">Удалён блог %s</word>
+  <word key="delete_blog_confirm" js="0">Вы уверены в том, что хотите удалить этот блог?</word>
+  <word key="submit_entry" js="0">Создать новую запись</word>
+  <word key="blog_entry_title" js="0">Заголовок</word>
+  <word key="blog_entry_tags" js="0">Теги</word>
+  <word key="blog_entry_auto_follow" js="0">Автоматическая подписка</word>
+  <word key="blog_entry_auto_follow_suffix" js="0">Уведомлять меня, когда другие пользователи отправляют комментарии</word>
+  <word key="blog_entry_content" js="0">Публикация</word>
+  <word key="blog_entry_date" js="0">Время публикации</word>
+  <word key="blog_entry_publish" js="0">Опубликовать запись</word>
+  <word key="blog_entry_mainTab" js="0">Запись блога</word>
+  <word key="blog_entry_pollTab" js="0">Опрос</word>
+  <word key="create_blog_entry" js="0">Создать запись блога</word>
+  <word key="entry_submit" js="0">Отправить запись</word>
+  <word key="entry_information" js="0">Детали записи</word>
+  <word key="blog_entry__save" js="0">Сохранить</word>
+  <word key="entry_ip_address" js="0">IP-адрес</word>
+  <word key="entry_gallery_album" js="0">Альбом</word>
+  <word key="entry_gallery_album_desc" js="0">Вы можете связать альбом из Галереи с этой записью, чтобы отображать изображения рядом с текстом записи</word>
+  <word key="block_entryFeed" js="0">Лента записей блогов</word>
+  <word key="block_entryFeed_desc" js="0">Создаёт ленту из записей блогов</word>
+  <word key="widget_feed_container_blog_entry" js="0">Блоги</word>
+  <word key="block_latestComments" js="0">Последние комментарии в ваших блогах</word>
+  <word key="block_latestComments_desc" js="0">Отображает список последних комментариев из блогов зарегистрированных пользователей</word>
+  <word key="view_this_entry" js="0">Просмотреть запись %s</word>
+  <word key="block_blogStatistics" js="0">Статистика блогов</word>
+  <word key="block_blogStatistics_desc" js="0">Отображает основную статистику блогов</word>
+  <word key="total_blogs" js="0">Всего блогов</word>
+  <word key="total_entries" js="0">Всего записей</word>
+  <word key="block_recentEntries" js="0">Последние записи</word>
+  <word key="block_recentEntries_desc" js="0">Отображает последние изображения</word>
+  <word key="prev_entry" js="0">Предыдущая запись</word>
+  <word key="next_entry" js="0">Следующая запись</word>
+  <word key="blog_entry__comment_placeholder" js="0">Добавить комментарий...</word>
+  <word key="blog_entry_submit_comment" js="0">Добавить комментарий</word>
+  <word key="entry_actions" js="0">Действия с записью</word>
+  <word key="edit_title_blog" js="0">Изменить эту запись</word>
+  <word key="feature_title_blog" js="0">Сделать эту запись блога рекомендуемой</word>
+  <word key="unfeature_title_blog" js="0">Сделать эту запись блога обычной</word>
+  <word key="pin_title_blog" js="0">Закрепить эту запись</word>
+  <word key="unpin_title_blog" js="0">Открепить эту запись блога</word>
+  <word key="hide_title_blog" js="0">Скрыть эту запись</word>
+  <word key="unhide_title_blog" js="0">Показать эту запись блога</word>
+  <word key="blog_lock_title" js="0">Закрыть эту запись</word>
+  <word key="blog_unlock_title" js="0">Разблокировать эту запись</word>
+  <word key="blog_move_title" js="0">Переместить эту запись</word>
+  <word key="blog_delete_title" js="0">Удалить эту запись</word>
+  <word key="approve_title_blog" js="0">Утвердить запись в блоге</word>
+  <word key="report_entry" js="0">Жалоба</word>
+  <word key="unpublished" js="0">Не опубликовано</word>
+  <word key="blog_entry_locked_can_comment" js="0">Эта запись в блоге закрыта, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="blog_entry_locked_cannot_comment" js="0">Эта запись в блоге закрыта для комментирования.</word>
+  <word key="entry_posted" js="0">Запись опубликована</word>
+  <word key="entry_future_posted" js="0">Запись будет опубликована</word>
+  <word key="entry_images" js="0">Изображения</word>
+  <word key="blog_comments" js="0">{!# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="blog_entries" js="0">{!# [0:записей][1:запись][2:записи][3:записи][4:записи][11:записей][12:записей][13:записей][14:записей][*1:запись][*2:записи][*3:записи][*4:записи][?:записей]}</word>
+  <word key="blog_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="recent_entries" js="0">Последние записи</word>
+  <word key="featured_entries" js="0">Рекомендуемые записи</word>
+  <word key="our_community_blogs" js="0">Блоги сайта</word>
+  <word key="my_blogs" js="0">Мои блоги</word>
+  <word key="blogs_with_content" js="0">Блоги с записями</word>
+  <word key="sort_last_edate" js="0">Последняя запись</word>
+  <word key="sort_rating_total" js="0">Рейтинг</word>
+  <word key="from_the_blog" js="0">Из блога</word>
+  <word key="see_more_entries" js="0">Просмотреть больше записей от %s</word>
+  <word key="no_entries_yet" js="0">Здесь ещё нет записей</word>
+  <word key="read_more_entry" js="0">Прочитать больше об этой записи</word>
+  <word key="see_comments_on_entry" js="0">Просмотреть комментарии к записи</word>
+  <word key="add_entry" js="0">Добавить запись</word>
+  <word key="this_is_group" js="0">Это блог группы пользователей</word>
+  <word key="unread_blog" js="0">Эта запись не прочитана</word>
+  <word key="read_blog" js="0">Вы прочитали эту запись</word>
+  <word key="go_to_blog" js="0">Перейти к блогу %s</word>
+  <word key="latest_entry" js="0">Последняя запись</word>
+  <word key="no_entries" js="0">В этом блоге ещё нет записей</word>
+  <word key="pin_blog" js="0">Закрепить</word>
+  <word key="unpin_blog" js="0">Открепить</word>
+  <word key="blog_by" js="0">Блог пользователя: %s</word>
+  <word key="group_blog_by" js="0">Блог группы: %s</word>
+  <word key="contributors_to_this" js="0">Авторы блога:</word>
+  <word key="num_contributors_to_this" js="0">{# [0:авторов][1:автор][2:автора][3:автора][4:автора][11:авторов][12:авторов][13:авторов][14:авторов][*1:автор][*2:автора][*3:автора][*4:автора][?:авторов]} в этом блоге</word>
+  <word key="about_this_blog" js="0">Об этом блоге</word>
+  <word key="entries_in_this_blog" js="0">Записи в этом блоге</word>
+  <word key="blog_rss_offline" js="0">RSS-лента отключена</word>
+  <word key="blog_rss_offline_admin" js="0">Эта RSS-лента отключена т.к. настройка &quot;Включить RSS-экспорт&quot; в данный момент выключена или это отключено в индивидуальных настройках блога.</word>
+  <word key="blog_enable_rss" js="0">Включить RSS-ленту</word>
+  <word key="blog_enable_rss_desc" js="0">Разрешить этому блогу объединение с другими посредством RSS</word>
+  <word key="blog_rss_title" js="0">Последние записи</word>
+  <word key="blog_rss_import" js="0">Импорт Atom/RSS</word>
+  <word key="blog_rss_import_url" js="0">Ссылка</word>
+  <word key="blog_rss_import_auth_user" js="0">Имя пользователя HTTP</word>
+  <word key="blog_rss_import_auth_user_desc" js="0">Обычно ленты не требуют авторизации и вы можете оставить это поле пустым</word>
+  <word key="blog_rss_import_auth_pass" js="0">Пароль HTTP-авторизации</word>
+  <word key="blog_rss_import_auth_pass_desc" js="0">Обычно ленты не требуют авторизации и вы можете оставить это поле пустым</word>
+  <word key="blog_rss_import_tags" js="0">Теги</word>
+  <word key="blog_rss_import_show_link" js="0">Текст ссылки</word>
+  <word key="blog_rss_import_show_link_desc" js="0">Появляется внизу записи, направлена на оригинальную запись</word>
+  <word key="blog_rss_import_show_link_default" js="0">Прочитать полностью</word>
+  <word key="blog_enable_rss_import" js="0">Включить RSS-импорт</word>
+  <word key="blog_enable_rss_import_desc" js="0">Импорт записей из внешнего источника используя RSS</word>
+  <word key="embed_blog_entry" js="0">Запись блога</word>
+  <word key="embed_blog" js="0">Блог</word>
+  <word key="view_this_blog" js="0">Просмотреть этот блог</word>
+  <word key="user_blogs" js="0">Блоги</word>
+  <word key="profile_blog_blog" js="0">Блоги</word>
+  <word key="also_contributes" js="0">Другие авторы:</word>
+  <word key="contributes_to" js="0">Авторы блога:</word>
+  <word key="most_recent_entry" js="0">Последняя запись</word>
+  <word key="blog_byline_nodate" js="0">Блог %s</word>
+  <word key="blog_last_entry_date" js="0">Последняя запись опубликована %s</word>
+  <word key="num_blog_comments" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="num_blog_entries" js="0">{# [0:записей][1:запись][2:записи][3:записи][4:записи][11:записей][12:записей][13:записей][14:записей][*1:запись][*2:записи][*3:записи][*4:записи][?:записей]}</word>
+  <word key="num_blog_views" js="0">{# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="digest_area_blog_blog" js="0">Блоги</word>
+  <word key="digest_area_blog_entry" js="0">Записи</word>
+  <word key="x_created_blog" js="0">%s создал блог</word>
+  <word key="x_created_entry_in" js="0">%s опубликовал запись в блоге %s</word>
+  <word key="x_commented_entry" js="0">%s оставил комментарий в записи</word>
+  <word key="x_commented_blog_entry" js="0">%s оставил комментарий в записи блога</word>
+  <word key="loc_blog_viewing_index" js="0">Просматривает блоги</word>
+  <word key="loc_blog_creating" js="0">Создаёт блог</word>
+  <word key="loc_blog_viewing_blog" js="0">Просматривает блог: %s</word>
+  <word key="loc_blog_adding_entry" js="0">Добавляется запись в блог: %s</word>
+  <word key="loc_blog_viewing_entry" js="0">Просматривает запись: %s</word>
+  <word key="modperms__core_Content_blog_Entry" js="0">Блоги</word>
+  <word key="can_pin_blog_entry" js="0">Может закреплять записи</word>
+  <word key="can_unpin_blog_entry" js="0">Может откреплять записи</word>
+  <word key="can_feature_blog_entry" js="0">Может отмечать записи рекомендуемыми</word>
+  <word key="can_unfeature_blog_entry" js="0">Может отмечать записи обычными</word>
+  <word key="can_edit_blog_entry" js="0">Может редактировать записи?</word>
+  <word key="can_hide_blog_entry" js="0">Может скрывать записи?</word>
+  <word key="can_unhide_blog_entry" js="0">Может отменять скрытие записей</word>
+  <word key="can_view_hidden_blog_entry" js="0">Может просматривать скрытые записи</word>
+  <word key="can_move_blog_entry" js="0">Может перемещать записи?</word>
+  <word key="can_move_blog_entry_desc" js="0">Сможет перемещать записи только между блогами, которые он может модерировать, но не в любые другие блоги.</word>
+  <word key="can_lock_blog_entry" js="0">Может закрывать записи?</word>
+  <word key="can_unlock_blog_entry" js="0">Может открывать записи</word>
+  <word key="can_reply_to_locked_blog_entry" js="0">Может отвечать в закрытые записи</word>
+  <word key="can_delete_blog_entry" js="0">Может удалять записи?</word>
+  <word key="can_edit_blog_entry_comment" js="0">Может редактировать комментарии?</word>
+  <word key="can_hide_blog_entry_comment" js="0">Может скрывать комментарии?</word>
+  <word key="can_unhide_blog_entry_comment" js="0">Может отменять скрытие комментариев</word>
+  <word key="can_view_hidden_blog_entry_comment" js="0">Может просматривать скрытые комментарии</word>
+  <word key="can_delete_blog_entry_comment" js="0">Может удалять комментарии?</word>
+  <word key="can_future_publish_blog_entry" js="0">Может устанавливать дату публикации</word>
+  <word key="can_view_future_blog_entry" js="0">Может просматривать ожидающие публикации записи блогов, созданные другими пользователями</word>
+  <word key="can_feature_comments_blog_entry" js="0">Может рекомендовать комментарии к записям</word>
+  <word key="can_unfeature_comments_blog_entry" js="0">Может удалять рекомендации комментариев в записях</word>
+  <word key="can_add_item_message_blog_entry" js="0">Может добавлять сообщения к записям</word>
+  <word key="can_edit_item_message_blog_entry" js="0">Может изменять сообщения к записям</word>
+  <word key="can_delete_item_message_blog_entry" js="0">Может удалять сообщения к записям</word>
+  <word key="group__blog_Blog" js="0">Блог</word>
+  <word key="g_blog_allowlocal" js="0">Может создавать блоги</word>
+  <word key="g_blog_maxblogs" js="0">Максимальное количество блогов</word>
+  <word key="g_blog_allowprivate" js="0">Может создавать личные блоги</word>
+  <word key="g_blog_allowprivate_desc" js="0">Личные блоги видны только тем, кого выберет создатель блога.</word>
+  <word key="g_blog_allowpoll" js="0">Может добавлять опросы в записи блога</word>
+  <word key="g_blog_allowcomment" js="0">Может комментировать записи блога?</word>
+  <word key="g_blog_allowownmod" js="0">Может модерировать свои записи блога?</word>
+  <word key="g_blog_allowownmod_desc" js="0">Пользователь сможет редактировать комментарии и записи, удалять комментарии и записи и закрывать комментирование записей</word>
+  <word key="g_blog_allowdelete" js="0">Может удалять свои блоги</word>
+  <word key="block_blogCommentFeed" js="0">Комментарии блогов</word>
+  <word key="block_blogCommentFeed_desc" js="0">Отображает комментарии в блогах</word>
+  <word key="block_blogs" js="0">Блоги</word>
+  <word key="block_blogs_desc" js="0">Отображает список блогов</word>
+  <word key="widget_blog_last_date" js="0">Последняя опубликованная запись</word>
+  <word key="widget__blog_edate" js="0">Дата последней записи</word>
+  <word key="widget__blog_count_entries" js="0">Количество записей</word>
+  <word key="widget__blog_count_comments" js="0">Количество комментариев</word>
+  <word key="__api_blog_comments" js="0">Комментарии</word>
+  <word key="__api_blog_entries" js="0">Записи</word>
+  <word key="__api_blog_blogs" js="0">Блоги</word>
+  <word key="blog_sidebar_enabled" js="0">Включить настраиваемый боковой блок</word>
+  <word key="blog_sidebar" js="0">Содержимое бокового блока</word>
+  <word key="blog_enable_sidebar" js="0">Включить настраиваемый боковой блок</word>
+  <word key="blog_enable_sidebar_desc" js="0">Пользователи с соответствующими правами на управление блогами смогут добавлять контент в верхнюю часть боковых блоков, куда смогут поместить ссылки на социальные сети и так далее.</word>
+  <word key="blog_sidebar_title" js="0">Информация о блоге</word>
+  <word key="blog_bm_filters" js="0">Блог</word>
+  <word key="mf_has_blog" js="0">У пользователя есть блог?</word>
+ </app>
+</language>

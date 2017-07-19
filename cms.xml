@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский (RU)" rtl="0">
+ <app key="cms" version="102001">
+  <word key="__app_cms" js="0">Страницы</word>
+  <word key="menutab__cms" js="0">Страницы</word>
+  <word key="menutab__cms_icon" js="0">files-o</word>
+  <word key="__indefart_content_db_lang_sl" js="0">%s</word>
+  <word key="__indefart_content_record_comments_title" js="0">комментарий</word>
+  <word key="__indefart_content_record_reviews_title" js="0">отзыв</word>
+  <word key="__defart_content_db_lang_sl" js="0">%s</word>
+  <word key="__defart_content_record_comments_title" js="0">комментарий</word>
+  <word key="__defart_content_record_reviews_title" js="0">отзыв</word>
+  <word key="rebuilding_cms_database_categories" js="0">Перестроение категорий: %s</word>
+  <word key="rebuilding_cms_database_reciprocal_map" js="0">Перестроения карты взаимных связей %s (ID поля - %s)</word>
+  <word key="rebuilding_cms_database_records" js="0">Перестроение записей: %s</word>
+  <word key="rebuilding_cms_database_sync_topics" js="0">Перестроение %s синхронизированных тем</word>
+  <word key="module_no_permission" js="0">Нет прав</word>
+  <word key="converting_pages_34x" js="0">Конвертация BBCode-страниц в HTML</word>
+  <word key="sitemap_cms_Databases" js="0">Записи базы данных</word>
+  <word key="sitemap_cms_Pages" js="0">Страницы</word>
+  <word key="sitemap_databases_count" js="0">Количество включаемых записей</word>
+  <word key="sitemap_databases_priority" js="0">Приоритет записей</word>
+  <word key="sitemap_databases_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
+  <word key="sitemap_pages_count" js="0">Количество включаемых страниц</word>
+  <word key="sitemap_pages_priority" js="0">Приоритет странци</word>
+  <word key="sitemap_pages_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
+  <word key="can_pin_record" js="0">Может закреплять %s?</word>
+  <word key="can_unpin_record" js="0">Может откреплять %s?</word>
+  <word key="can_feature_record" js="0">Может отмечать %s рекомендуемыми</word>
+  <word key="can_unfeature_record" js="0">Может отмечать %s обычными</word>
+  <word key="can_edit_record" js="0">Может редактировать %s?</word>
+  <word key="can_hide_record" js="0">Может скрывать %s?</word>
+  <word key="can_unhide_record" js="0">Может показывать %s</word>
+  <word key="can_view_hidden_record" js="0">Может просматривать скрытые %s?</word>
+  <word key="can_move_record" js="0">Может перемещать %s?</word>
+  <word key="can_move_record_desc" js="0">Сможет перемещать только между категориями, которые он может модерировать, но не в любые другие категории.</word>
+  <word key="can_lock_record" js="0">Может закрывать %s?</word>
+  <word key="can_unlock_record" js="0">Может открывать %s?</word>
+  <word key="can_reply_to_locked_record" js="0">Может отвечать в закрытые %s?</word>
+  <word key="can_delete_record" js="0">Может удалять %s?</word>
+  <word key="can_split_merge_record" js="0">Может разделять и объединять %s?</word>
+  <word key="can_future_publish_record" js="0">Может использовать отложенную публикацию?</word>
+  <word key="can_view_future_record" js="0">Может просматривать %s с отложенной публикацией?</word>
+  <word key="can_edit_rcomment" js="0">Может редактировать комментарии к %s?</word>
+  <word key="can_hide_rcomment" js="0">Может скрывать комментарии к %s?</word>
+  <word key="can_unhide_rcomment" js="0">Может показывать комментарии к %s</word>
+  <word key="can_view_hidden_rcomment" js="0">Может просматривать скрытые комментарии к %s?</word>
+  <word key="can_delete_rcomment" js="0">Может удалять комментарии к %s?</word>
+  <word key="can_edit_rreview" js="0">Может редактировать отзывы к %s</word>
+  <word key="can_hide_rreview" js="0">Может скрывать отзывы к %s</word>
+  <word key="can_unhide_rreview" js="0">Может показывать отзывы к %s</word>
+  <word key="can_view_hidden_rreview" js="0">Может просматривать скрытые отзывы к %s</word>
+  <word key="can_delete_rreview" js="0">Может удалять отзывы к %s</word>
+  <word key="can_feature_comments_record" js="0">Может рекомендовать комментарии к %s</word>
+  <word key="can_unfeature_comments_record" js="0">Может удалять рекомендации комментариев к %s</word>
+  <word key="can_add_item_message_record" js="0">Может добавлять сообщения к %s</word>
+  <word key="can_edit_item_message_record" js="0">Может изменять сообщения к %s</word>
+  <word key="can_delete_item_message_record" js="0">Может удалять сообщения к %s</word>
+  <word key="can_copy_topic_database" js="0">Может копировать темы в базу данных</word>
+  <word key="can_copy_topic_database_desc" js="0">Если включено, тогда пользователи смогут копировать темы из разделов форума, которые они могут модерировать, в базу данных, в которой они могут создавать записи.</word>
+  <word key="r__page_add" js="0">Может создавать страницы</word>
+  <word key="r__page_edit" js="0">Может изменять страницы</word>
+  <word key="r__page_delete" js="0">Может удалять страницы</word>
+  <word key="r__pages" js="0">Страницы</word>
+  <word key="r__page_permissions" js="0">Может изменять права доступа к страницам</word>
+  <word key="r__page_manage" js="0">Может просмтривать блоки</word>
+  <word key="r__block_add" js="0">Может добавлять блоки</word>
+  <word key="r__block_edit" js="0">Может изменять блоки</word>
+  <word key="r__block_delete" js="0">Может удалять блоки</word>
+  <word key="r__blocks" js="0">Блоки</word>
+  <word key="r__block_manage" js="0">Может просматривать блоки</word>
+  <word key="r__block_permissions" js="0">Может управлять правами доступа к блокам?</word>
+  <word key="r__template_add_edit" js="0">Может создавать/изменять шаблоны</word>
+  <word key="r__template_delete" js="0">Может удалять шаблоны</word>
+  <word key="r__templates" js="0">Шаблоны</word>
+  <word key="r__template_manage" js="0">Может просматривать шаблоны</word>
+  <word key="r__databases_add" js="0">Может добавлять базы данных</word>
+  <word key="r__databases_edit" js="0">Может изменять базы данных</word>
+  <word key="r__databases_delete" js="0">Может удалять базы данных</word>
+  <word key="r__databases" js="0">Базы данных</word>
+  <word key="r__databases_manage" js="0">Может просматривать базы данных</word>
+  <word key="r__records_add" js="0">Может создавать записи</word>
+  <word key="r__records_edit" js="0">Может изменять записи</word>
+  <word key="r__records_delete" js="0">Может удалять записи</word>
+  <word key="r__records" js="0">Записи</word>
+  <word key="r__records_manage" js="0">Может просматривать записи</word>
+  <word key="r__cms_fields" js="0">Дополнительные поля</word>
+  <word key="r__cms_fields_manage" js="0">Может просматривать дополнительные поля</word>
+  <word key="r__cms_fields_add" js="0">Может создавать дополнительные поля</word>
+  <word key="r__cms_fields_edit" js="0">Может изменять дополнительные поля</word>
+  <word key="r__cms_fields_delete" js="0">Может удалять дополнительные поля</word>
+  <word key="editor__cms_BlockContent" js="0">Настраиваемые блоки</word>
+  <word key="editor__cms_PageContent" js="0">Страницы CMS</word>
+  <word key="editor__cms_Widgets" js="0">Блоки CMS</word>
+  <word key="editor__cms_Records" js="0">Записи CMS</word>
+  <word key="filestorage__cms_Records" js="0">Записи CMS</word>
+  <word key="filestorage__cms_Pages" js="0">Страницы CMS</word>
+  <word key="filestorage__cms_Media" js="0">CMS Медиа</word>
+  <word key="modperms__cms_Databases" js="0">Базы данных</word>
+  <word key="can_content_revisions_content" js="0">Может управлять версиями</word>
+  <word key="can_content_edit_meta_tags" js="0">Может управлять мета-тегами</word>
+  <word key="can_content_edit_meta_tags_desc" js="0">Разрешить пользователям добавлять/изменять ключевые слова и описание при создании/изменении записей</word>
+  <word key="can_content_edit_record_slugs" js="0">Может изменять URL-адреса записей</word>
+  <word key="can_content_edit_record_slugs_desc" js="0">Включение разрешит установку пользовательских окончаний ЧПУ в записях.</word>
+  <word key="can_content_view_others_records" js="0">Может видеть все записи</word>
+  <word key="can_content_view_others_records_desc" js="0">Отображать записи в категориях, которые настроены на отображение записей только их авторам.</word>
+  <word key="cms" js="0">Категории</word>
+  <word key="menu__cms_pages" js="0">Страницы</word>
+  <word key="menu__cms_pages_pages" js="0">Менеджер страниц</word>
+  <word key="menu__cms_pages_menu" js="0">Меню</word>
+  <word key="menu__cms_pages_blocks" js="0">Блоки</word>
+  <word key="menu__cms_pages_templates" js="0">Шаблоны</word>
+  <word key="menu__cms_databases" js="0">Содержимое</word>
+  <word key="menu__cms_databases_databases" js="0">Базы данных</word>
+  <word key="menu__cms_records" js="0">Записи</word>
+  <word key="menu__cms_categories" js="0">Категории</word>
+  <word key="menu__cms_fields" js="0">Поля</word>
+  <word key="module__cms_pages" js="0">Страницы</word>
+  <word key="module__cms_database" js="0">Базы данных</word>
+  <word key="content_block_cat_add" js="0">Создать категорию</word>
+  <word key="content_block_block_add" js="0">Создать блок</word>
+  <word key="content_block_block_edit" js="0">Изменить блок</word>
+  <word key="content_block_block_editing" js="0">Изменение блока %s</word>
+  <word key="container_name" js="0">Название</word>
+  <word key="container_parent_id" js="0">Категория</word>
+  <word key="content_block_add_type" js="0">Тип</word>
+  <word key="content_block_add_type_plugin" js="0">Плагин</word>
+  <word key="content_block_add_type_plugin_desc" js="0">Вы можете использовать один из существующих плагинов.</word>
+  <word key="content_block_add_type_custom" js="0">Код</word>
+  <word key="content_block_add_type_custom_desc" js="0">Вы можете написать собственный PHP или HTML-код.</word>
+  <word key="content_block_add_custom_type_wysiwyg" js="0">Визуальный редактор</word>
+  <word key="content_block_add_custom_type_html" js="0">Редактор HTML</word>
+  <word key="content_block_add_custom_type_html_desc" js="0">Разрешено использование HTML и логики шаблонов Invision Community, которые вы введёте вручную.</word>
+  <word key="content_block_add_custom_type_php" js="0">Редактор PHP</word>
+  <word key="content_block_add_custom_type_php_desc" js="0"><![CDATA[Разрешено использование PHP, который вы введёте вручную. Примечание: не включайте теги &lt;?php ?&gt;; Invision Community сделает это за вас.]]></word>
+  <word key="content_block_add_custom_type" js="0">Редактор</word>
+  <word key="content_block_form_tab__details" js="0">Данные</word>
+  <word key="content_block_form_tab__content" js="0">Содержимое</word>
+  <word key="content_block_form_tab__feed" js="0">Конфигурация ленты</word>
+  <word key="block_name" js="0">Название</word>
+  <word key="block_description" js="0">Описание</word>
+  <word key="block_category" js="0">Категория</word>
+  <word key="block_content" js="0">Содержимое</word>
+  <word key="block_content_recursive_error" js="0">Вы не можете поместить тег {block} внутрь его самого.</word>
+  <word key="content_block_type_feed" js="0">Лента</word>
+  <word key="content_block_plugin_select" js="0">Выбрать плагин</word>
+  <word key="content_block_add_select_plugin_message" js="0">Вы создаёте новый блок-плагин. Выберите ниже, какой плагин вы хотите использовать.</word>
+  <word key="content_block_add_select_feed_message" js="0">Вы создаёте новый блок-ленту. Выберите ниже, какую ленту вы хотите использовать.</word>
+  <word key="content_block_feed_add" js="0">Добавить блок-ленту</word>
+  <word key="block_content_type" js="0">Тип содержимого</word>
+  <word key="block_template_id" js="0">Шаблон</word>
+  <word key="block_content_type_template" js="0">Шаблон</word>
+  <word key="block_content_type_manual" js="0">Пользовательский</word>
+  <word key="content_block_template_use_default" js="0">Стандартный шаблон</word>
+  <word key="block_template_use_how_use" js="0">Использовать этот шаблон как есть</word>
+  <word key="block_template_use_how_copy" js="0">Использовать как основу для пользовательского шаблона</word>
+  <word key="cms_block_feed_form_message" js="0">Вы создаёте новый блок, использую данные из плагина &quot;%s&quot;.</word>
+  <word key="cms_error_block_plugin_not_found" js="0">Не удалось найти ленту данных, требуемых для этого блока.</word>
+  <word key="cms_block_view_template" js="0">Просмотреть шаблон</word>
+  <word key="block_save_as_template" js="0">Сохранить как шаблон</word>
+  <word key="block_save_as_template_desc" js="0">Вы можете использовать это содержимое только для этого блока или сохранить его как шаблон и использовать для других блоков</word>
+  <word key="block_save_as_template_name" js="0">Название шаблона</word>
+  <word key="cms_error_no_template_found" js="0">Не удалось найти этот шаблон</word>
+  <word key="cms_block_preview_refresh" js="0">Обновить предпросмотр</word>
+  <word key="cms_db_feed_title" js="0">Лента базы данных</word>
+  <word key="cms_db_feed_block_with_name" js="0">Лента из %s</word>
+  <word key="cms_db_feed_block_with_name_disabled" js="0">Невозможно создать ленту %s т.к. эта база данных не привязана к странице</word>
+  <word key="cms_db_relational_with_name_disabled" js="0">Невозможно использовать базу данных &quot;%s&quot;, так как она не привязана к странице.</word>
+  <word key="cms_block_form_display" js="0">Шаблоны</word>
+  <word key="block_key" js="0">Ключ шаблона</word>
+  <word key="block_key_desc" js="0"><![CDATA[<p class='ipsMessage ipsMessage_info'>Ключ блока может быть использован в шаблонах и на страницах для получения данных из блока, например: <span class='ipsType_monospace'>{block="my_block_key"}</span></p><br>Ключ должен быть уникальным в базе данных. Если не введено, ключ будет создан автоматически.]]></word>
+  <word key="cms_block_key_not_unique" js="0">Ключ блока не является уникальным</word>
+  <word key="block_cache" js="0">Кэшировать этот блок</word>
+  <word key="block_cache_desc" js="0">Если ваш блок содержит динамические элементы, такие как данные пользователей, счётчики базы данных и так далее, вы не должны кэшировать этот блок.</word>
+  <word key="content_record_title_pl" js="0">Записи</word>
+  <word key="content_template_type_block" js="0">Шаблон блока-плагина</word>
+  <word key="content_template_type_page" js="0">Шаблоны страниц</word>
+  <word key="content_template_type_css" js="0">Страница CSS</word>
+  <word key="content_template_type_js" js="0">Страница JS</word>
+  <word key="content_template_type_database" js="0">Шаблоны баз данных</word>
+  <word key="content_template_load_file" js="0">Выберите шаблон для загрузки</word>
+  <word key="content_template_editor_fields_params" js="0">Переменные</word>
+  <word key="content_template_editor_fields_desc" js="0">Описание</word>
+  <word key="content_template_editor_fields_title" js="0">Название</word>
+  <word key="content_templates_modified" js="0">Изменено</word>
+  <word key="content_templates_custom" js="0">Добавлено</word>
+  <word key="content_template_add_template_block" js="0"><![CDATA[Добавить шаблон <strong>блока</strong>]]></word>
+  <word key="content_template_add_template_page" js="0"><![CDATA[Добавить шаблон <strong>страницы</strong>]]></word>
+  <word key="content_template_add_template_database" js="0"><![CDATA[Добавить шаблон <strong>базы</strong>]]></word>
+  <word key="content_template_add_template_css" js="0"><![CDATA[Добавить <strong>CSS</strong> файл]]></word>
+  <word key="content_template_add_template_js" js="0"><![CDATA[Добавить <strong>JavaScript</strong> файл]]></word>
+  <word key="content_template_add_template_block_title" js="0">Добавить шаблон блока</word>
+  <word key="content_template_add_template_page_title" js="0">Добавить шаблон страницы</word>
+  <word key="content_template_add_template_database_title" js="0">Добавить шаблон базы</word>
+  <word key="content_template_add_template_css_title" js="0">Добавить CSS файл</word>
+  <word key="content_template_add_template_js_title" js="0">Добавить JavaScript файл</word>
+  <word key="template_title" js="0">Название</word>
+  <word key="template_params" js="0">Параметры</word>
+  <word key="template_description" js="0">Описание</word>
+  <word key="template_container" js="0">Категория</word>
+  <word key="content_template_editor_fields_container" js="0">Категория</word>
+  <word key="content_rel_type" js="0">Тип</word>
+  <word key="template_content" js="0">Содержимое</word>
+  <word key="template_group" js="0">Лента</word>
+  <word key="block_template_plugin_import" js="0">Плагин</word>
+  <word key="block_template_theme_import" js="0">Стиль</word>
+  <word key="template_database_group" js="0">Тип</word>
+  <word key="cms_new_db_template_group_listing" js="0">Список записей (Страница внутри категории)</word>
+  <word key="cms_new_db_template_group_featured" js="0">Рекомендуемые записи (первая страница при просмотре базы данных отображает рекомендуемые записи)</word>
+  <word key="cms_new_db_template_group_categories" js="0">Список категорий (Первая страница базы данных)</word>
+  <word key="cms_new_db_template_group_display" js="0">Просмотр записи (Содержимое записи и комментарии)</word>
+  <word key="cms_new_db_template_group_form" js="0">Форма записи (Форма добавления/изменения записи)</word>
+  <word key="database_template_type" js="0">Тип шаблона</word>
+  <word key="content_import_dev_templates" js="0">Импортировать шаблоны разработчика</word>
+  <word key="perm_cms_block_perm__view" js="0">Просмотр блока</word>
+  <word key="theme_js" js="0">JS</word>
+  <word key="theme_html" js="0">HTML</word>
+  <word key="database_assign_to" js="0">Присвоить базе данных</word>
+  <word key="cms_new_db_assign_to_db_none" js="0">Ничего</word>
+  <word key="template_group_existing" js="0">Существующая группа</word>
+  <word key="template_group_new" js="0">Новая группа</word>
+  <word key="template_group_new_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название группы должно начинаться с буквы или подчёркивания.</word>
+  <word key="template_title_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название должно начинаться с буквы или подчёркивания.</word>
+  <word key="template_reserved_word" js="0">Имя шаблона не может быть любым из этого списка: %s</word>
+  <word key="cms_theme_designer_mode_warning" js="0"><![CDATA[Изменение стиля сейчас невозможно т.к. включен режим дизайнера. <br><a href='%s'>Отключите режим дизайнера</a>.]]></word>
+  <word key="cms_templates_export_title" js="0">Скачать шаблоны</word>
+  <word key="cms_templates_export_description" js="0">Выберите шаблоны для экспорта из списка ниже. Эти шаблоны будут добавлены в XML-файл, который может быть импортирован на другом сайте, работающем на Invision Community.</word>
+  <word key="templates_block" js="0">Блоки</word>
+  <word key="templates_database" js="0">База данных</word>
+  <word key="templates_page" js="0">Страницы</word>
+  <word key="cms_no_templates_selected" js="0">Вы должны выбрать шаблоны для экспорта</word>
+  <word key="cms_templates_import_title" js="0">Загрузить шаблоны</word>
+  <word key="cms_templates_import" js="0">Загрузить</word>
+  <word key="cms_templates_imported" js="0">Шаблоны импортированы</word>
+  <word key="cms_template_database_options" js="0">Параметры группы шаблонов базы данных</word>
+  <word key="cms_database_group_name" js="0">Название группы</word>
+  <word key="cms_database_group_name_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название группы должно начинаться с буквы или подчёркивания. Вы можете использовать нижнее подчёркивание, которое будет отображаться как пробел при просмотре шаблонов.</word>
+  <word key="cms_database_template_used_in" js="0">Этот шаблон используется в: %s</word>
+  <word key="page_database_display" js="0">База данных: %s</word>
+  <word key="content_edit_folder" js="0">Изменить папку</word>
+  <word key="content_add_folder" js="0">Добавить папку</word>
+  <word key="content_add_page" js="0">Добавить страницу</word>
+  <word key="content_edit_page" js="0">Изменить страницу</word>
+  <word key="content_editing_page" js="0">Изменение страницы %s</word>
+  <word key="folder_name" js="0">Название папки</word>
+  <word key="folder_parent_id" js="0">Родительская папка</word>
+  <word key="content_folder_name_in_use" js="0">Это название папки уже используется. Пожалуйста, введите другое название.</word>
+  <word key="content_page_file_name_in_use" js="0">Это название страницы уже используется. Пожалуйста, введите другое название.</word>
+  <word key="perm_content_page_perm__view" js="0">Просмотр страницы</word>
+  <word key="content_page_form_tab__details" js="0">Данные</word>
+  <word key="content_page_form_tab__meta" js="0">Заголовок и метатеги</word>
+  <word key="content_page_form_tab__content" js="0">Содержимое</word>
+  <word key="page_name" js="0">Название страницы</word>
+  <word key="page_title" js="0">Заголовок</word>
+  <word key="page_title_desc" js="0">Это значение будет использовано в HTML-теге title документа. Если не введено, будет использоваться заголовок страницы.</word>
+  <word key="page_seo_name" js="0">Имя файла страницы</word>
+  <word key="page_folder_id" js="0">Папка страницы</word>
+  <word key="page_meta_keywords" js="0">Ключевые слова</word>
+  <word key="page_meta_description" js="0">Описание</word>
+  <word key="page_show_sidebar" js="0">Отображать боковые блоки сайта</word>
+  <word key="page_type" js="0">Редактор</word>
+  <word key="page_type_builder" js="0">Конструктор</word>
+  <word key="page_type_builder_desc" js="0">Визуальный редактор для создания страницы перетаскиванием нужных блоков мышкой</word>
+  <word key="page_type_manual" js="0">HTML</word>
+  <word key="page_type_manual_desc" js="0">Редактор исходного кода страницы с возможностью полной кастомизации всех элементов</word>
+  <word key="page_ipb_wrapper" js="0">Использовать HTML-оболочку сайта</word>
+  <word key="page_ipb_wrapper_desc" js="0">При отключении вы должны будете сами создать полную HTML-страницу (включая DOCTYPE, head, body и другие теги).</word>
+  <word key="content_err_no_page" js="0">Невозможно загрузить страницу для изменения</word>
+  <word key="content_edit_page_content_title" js="0">Изменение содержимого страницы %s</word>
+  <word key="page_content" js="0">Содержимое</word>
+  <word key="content_default_page" js="0">Сделать стандартной в папке</word>
+  <word key="content_database_form_options_page" js="0">Страница</word>
+  <word key="content_database_form_options_page_msg" js="0">Вы можете создать страницу для этой базы данных. После создания, вы можете изменять эту страницу в обычном режиме.</word>
+  <word key="database_create_page" js="0">Страница базы данных</word>
+  <word key="database_create_page_existing" js="0">Добавить базу данных на существующую страницу</word>
+  <word key="database_create_page_new" js="0">Создать новую страницу для этой баз данных</word>
+  <word key="content_err_page_save_exception" js="0">Невозможно сохранить страницу: %s</word>
+  <word key="cms_err_db_page_never_used" js="0">Эта база данных ещё не была добавлена ни на одну страницу</word>
+  <word key="cms_err_db_already_on_page" js="0">На странице может находиться только одна база данных</word>
+  <word key="cms_err_db_does_not_exist" js="0">Этой базы данных не существует.</word>
+  <word key="cms_err_db_in_use_other_page" js="0">Добавленная база данных уже используется на другой странице.</word>
+  <word key="content_acp_page_builder_msg_new" js="0">Вы сможете изменить эти настройки после создания страницы</word>
+  <word key="content_acp_page_builder_msg_edit" js="0"><![CDATA[Вы можете изменить содержимое страницы, посетив эту <a href='%s' target='_blank'>страницу</a>.]]></word>
+  <word key="content_launch_page_builder" js="0">Открыть конструктор</word>
+  <word key="content_launch_page_view" js="0">Просмотр страницы</word>
+  <word key="page_theme" js="0">Стиль</word>
+  <word key="page_theme_desc" js="0">Выберите, какой стиль использовать для этой страницы. Стиль может использоваться для стандартных блоков и глобального шаблона.</word>
+  <word key="cms_page_theme_id_default" js="0">Стиль по умолчанию</word>
+  <word key="page_template" js="0">Шаблон</word>
+  <word key="page_template_desc" js="0">Выберите, какой шаблон будет использоваться для этой страницы. Изменение этого параметра для существующей страницы может привести к потере разметки блоков.</word>
+  <word key="content_launch_page" js="0">Просмотр страницы</word>
+  <word key="cms_db_used_on_page" js="0">Страница: %s</word>
+  <word key="content_folder_name_furl_collision" js="0">Это название папки недопустимо т.к. приводит к конфликту с другим приложением.</word>
+  <word key="content_folder_name_furl_collision_pages" js="0">Это название файла не может использоваться так как оно вызываем конфликт с папкой в данном расположении.</word>
+  <word key="content_folder_name_furl_collision_pages_app" js="0">Это название файла не может использоваться так как оно вызываем конфликт со ссылкой другого приложения.</word>
+  <word key="content_folder_name_furl_collision_folder" js="0">Это название папки не может использоваться так как оно вызываем конфликт со страницей в данном расположении.</word>
+  <word key="content_page_form_tab__includes" js="0">Файлы</word>
+  <word key="page_includes_js" js="0">JavaScript</word>
+  <word key="page_includes_css" js="0">CSS</word>
+  <word key="cms_page_includes_message" js="0"><![CDATA[Страница не будет работать до тех пор, пока ваше содержимое или шаблон содержат следующие теги:<br><span class='ipsType_monospace'>{template="includeCSS" app="core" group="global" location="global" params=""} {template="includeJS" app="core" group="global" location="global" params=""}</span>]]></word>
+  <word key="page_wrapper_template" js="0">Оболочка страницы</word>
+  <word key="page_wrapper_template_desc" js="0">Шаблон оболочки для этой страницы</word>
+  <word key="cms_page_wrapper_template_none" js="0">Отсутствует</word>
+  <word key="cms_page_error_bad_syntax" js="0">Синтаксис HTML-тегов или HTML-логики имеет ошибки.</word>
+  <word key="cms_pages_settings" js="0">Расширенные настройки</word>
+  <word key="cms_use_different_gateway" js="0">Использовать шлюз в корне сайта</word>
+  <word key="cms_use_different_gateway_desc" js="0"><![CDATA[Включите это, если сайт установлен в поддиректорию и вы хотите, чтобы приложение страницы работало в корне сайта. <a href='{external.devdocs-pages_different_root}' target='_blank'>Подробнее</a>]]></word>
+  <word key="cms_root_page_url" js="0">Ссылка к файлу шлюза</word>
+  <word key="pages_gateway_url_not_exist" js="0">Невозможно найти данный адрес.</word>
+  <word key="cms_pages_different_gateway_impossible" js="0">Ваш Invision Community уже установлен в корневую директорию домена.</word>
+  <word key="pages_different_gateway_load_error" js="0">Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файл &quot;index.php&quot;?</word>
+  <word key="pages_different_gateway_load_error_rewrite" js="0"><![CDATA[Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файлы "index.php" и ".htaccess"? <a href='{external.devdocs-pages_different_root}' target='_blank'>Подробнее</a>]]></word>
+  <word key="cms_root_page_url_rewrite_desc" js="0"><![CDATA[Для включения поддержки этой функции вы должны <a href='{internal.app=cms&module=pages&controller=pages&do=htaccess}'><strong><u>скачать этот файл</u></strong></a>, переименовать его в ".htaccess" (без расширения файла) и загрузить его рядом с файлом "index.php" приложения Страницы. Если файл .htaccess уже существует, добавьте содержимое этого файла в существующий.<br>Если вы не уверены в том, как сделать это, свяжитесь с технической поддержкой для получения помощи.]]></word>
+  <word key="cms_tag_blocks" js="0">Блоки</word>
+  <word key="cms_tag_databases" js="0">Базы данных</word>
+  <word key="cms_tag_pages" js="0">Страницы</word>
+  <word key="cms_error_page" js="0">Страница ошибки</word>
+  <word key="cms_error_page_desc" js="0">Настраиваемая страница ошибки будет отображаться, когда возникает ошибка. Страницы, созданные с помощью конструктора, не могут быть страницами ошибок.</word>
+  <word key="cms_error_page_none" js="0">Не использовать страницу ошибки</word>
+  <word key="cms_error_page_message" js="0">Сообщение об ошибке</word>
+  <word key="cms_error_page_code" js="0">Страница ошибки</word>
+  <word key="cms_articles_homepage_form" js="0">Настройки главной страницы</word>
+  <word key="cms_move_to_root" js="0">Переместить страницы в корень (без папки)</word>
+  <word key="cms_move_pages" js="0">Переместить страницы и папки в</word>
+  <word key="folder" js="0">Папка</word>
+  <word key="menu_content_page" js="0">Страница</word>
+  <word key="content_page_form_tab__menu" js="0">Меню</word>
+  <word key="page_add_to_menu" js="0">Добавить меню</word>
+  <word key="menu_title_page_type" js="0">Заголовок</word>
+  <word key="menu_title_page_inherit" js="0">Использовать название страницы</word>
+  <word key="menu_title_page_custom" js="0">Я укажу другой заголовок</word>
+  <word key="menu_title_page" js="0">Заголовок</word>
+  <word key="menu_title_page_desc" js="0">Вы можете оставить это поле пустым, чтобы использовать заголовок страницы.</word>
+  <word key="menu_parent" js="0">Родительское</word>
+  <word key="field_title" js="0">Заголовок</word>
+  <word key="field_description" js="0">Описание</word>
+  <word key="field_type" js="0">Тип</word>
+  <word key="field_extra" js="0">Содержимое</word>
+  <word key="field_validator" js="0">Проверка поля</word>
+  <word key="field_unique" js="0">Уникальное поле</word>
+  <word key="field_unique_desc" js="0">Это поле может принимать только уникальное значение во всей базе данных, если эта настройка включена.</word>
+  <word key="field_unique_entry_not_unique" js="0">Это значение используется в другой %s</word>
+  <word key="content_validator_none" js="0">Ничего</word>
+  <word key="content_validator_custom" js="0">Своё</word>
+  <word key="content_validator_email" js="0">E-Mail адрес</word>
+  <word key="content_validator_integer" js="0">Целое число</word>
+  <word key="content_validator_url" js="0">Ссылка</word>
+  <word key="field_format_opts_on" js="0">Форматирование текста</word>
+  <word key="content_format_strtolower" js="0">Все буквы строчные</word>
+  <word key="content_format_strtoupper" js="0">Все буквы прописные</word>
+  <word key="content_format_ucfirst" js="0">Первая буква прописная</word>
+  <word key="content_format_ucwords" js="0">Первая буква каждого слова прописная</word>
+  <word key="content_format_punct" js="0">Удалите излишки пунктуации</word>
+  <word key="content_format_numerical" js="0">Числовое значение</word>
+  <word key="field_validator_custom" js="0">Регулярное выражение</word>
+  <word key="field_validator_error" js="0">Пользовательская ошибка</word>
+  <word key="field_max_length" js="0">Максимальная длина</word>
+  <word key="field_format_opts" js="0">Настройки форматирования</word>
+  <word key="field_display_listing" js="0">Отображать в шаблоне списка</word>
+  <word key="field_display_listing_desc" js="0">Шаблон списка используется при отображении списка записей в категории</word>
+  <word key="field_display_display" js="0">Отображать в шаблоне записей</word>
+  <word key="field_display_display_desc" js="0">Шаблон записей используется при отображении записей</word>
+  <word key="field_topic_format" js="0">Формат темы</word>
+  <word key="field_topic_format_desc" js="0">Это настройка определяет, будет ли поле включено в создаваемую тему на форуме и как это поле будет отображено в ней. Используйте {title}для заголовка поля и {value} для значения поля. Оставьте пустым, чтобы не включать поле в тему.</word>
+  <word key="field_displayoptions" js="0">Настройки отображения</word>
+  <word key="field_truncate" js="0">Ограничение символов</word>
+  <word key="field_truncate_desc" js="0">Количество строк для отображения в шаблоне списка.</word>
+  <word key="field_required" js="0">Поле обязательное</word>
+  <word key="field_html" js="0">Разрешить HTML</word>
+  <word key="field_html_warning" js="0">Если включено, пользователи с правами на изменение этого поля смогут публиковать HTML-код. Размещение пользователями HTML-кода является чрезвычайно опасным и  пользователи могут использовать это возможность для повреждения вашего сайта. Настоятельно рекомендуется не включать эту функцию всем пользователям или включать только для доверенных групп администрации.</word>
+  <word key="field_show_map_listing" js="0">Отображать карту</word>
+  <word key="field_show_map_listing_desc" js="0">Не рекомендуется отображать карту на странице списка записей, если у вас нет собственного шаблона, адаптированного под отображение карты.</word>
+  <word key="field_show_map_display" js="0">Отображать карту</word>
+  <word key="field_show_map_listing_dims" js="0">Размер карты</word>
+  <word key="field_show_map_display_dims" js="0">Размер карты</word>
+  <word key="perm_content_field_perm__view" js="0">Просмотр содержимого поля</word>
+  <word key="perm_content_field_perm__edit" js="0">Изменение содержимого поля</word>
+  <word key="perm_content_field_perm__add" js="0">Добавление содержимого поля</word>
+  <word key="perm_content_field_perm__label" js="0">Группы</word>
+  <word key="field_default_value" js="0">Значение по умолчанию</word>
+  <word key="field_filter" js="0">Разрешить фильтрацию</word>
+  <word key="field_filter_desc" js="0">Если включено, вы можете осуществлять фильтрацию по этому полю при просмотре списка записей.</word>
+  <word key="field_is_searchable" js="0">Разрешить поиск</word>
+  <word key="content_fields_is_title" js="0">Заголовок</word>
+  <word key="content_fields_is_content" js="0">Содержимое</word>
+  <word key="content_fields_fixed_title" js="0">Поля публикации</word>
+  <word key="content_fields_fixed_record_publish_date" js="0">Дата публикации</word>
+  <word key="content_fields_fixed_record_publish_date_desc" js="0">Это поле будет доступно только для тех модераторов, которые имеют право доступа &quot;Может устанавливать дату публикации&quot;.</word>
+  <word key="content_fields_fixed_record_expiry_date" js="0">Дата архивации</word>
+  <word key="content_fields_fixed_record_allow_comments" js="0">Разрешить комментарии/отзывы</word>
+  <word key="content_fields_fixed_record_comment_cutoff" js="0">Дата закрытия комментариев</word>
+  <word key="content_fields_fixed_record_image" js="0">Изображение записи</word>
+  <word key="content_perm_fixed_fields__label" js="0">Группы пользователей</word>
+  <word key="content_perm_fixed_fields__view" js="0">Просмотр содержимого поля</word>
+  <word key="content_perm_fixed_fields__edit" js="0">Изменить содержимое поля</word>
+  <word key="content_perm_fixed_fields__add" js="0">Добавить содержимое в поле</word>
+  <word key="content_field_toggle_visibile" js="0">Видимое</word>
+  <word key="content_field_toggle_invisibile" js="0">Скрыта</word>
+  <word key="content_exception_invalid_custom_validation" js="0">Введённое значение является некорректным</word>
+  <word key="content_content_form_header__fields" js="0">Из полей</word>
+  <word key="category_fields" js="0">Дополнительные поля</word>
+  <word key="category_fields_desc" js="0">Выбранные поля будут отображаться при просмотре профиля</word>
+  <word key="cms_edit_field" js="0">Изменение поля %s</word>
+  <word key="cms_add_field" js="0">Добавить поле</word>
+  <word key="field_display_commentform" js="0">Разрешить редактирование полей</word>
+  <word key="field_display_commentform_desc" js="0">Если включено, будет возможность изменять значение полей со страницы отображения записи без изменения самой записи.</word>
+  <word key="field_no_value_entered" js="0"><![CDATA[<em>Нет значения</em>]]></word>
+  <word key="cms_set_field_as_title" js="0">Установить как поле заголовка</word>
+  <word key="cms_set_field_as_content" js="0">Установить как поле содержимого</word>
+  <word key="cms_cannot_find_field" js="0">Не удалось найти это настраиваемое поле</word>
+  <word key="cms_badge_label" js="0">Поле</word>
+  <word key="cms_badge_value" js="0">Значение</word>
+  <word key="field_display_display_json_badge" js="0">Форматирование</word>
+  <word key="field_display_custom" js="0">Пользовательское</word>
+  <word key="field_display_display_json_custom" js="0">Пользовательский формат отображения</word>
+  <word key="field_display_display_json_custom_desc" js="0"><![CDATA[Используйте {$label} для отображения заголовка поля, {$value} для отображения значения поля и {$formValue} для отображения значения поля из формы.<br>К примеру, ваш выпадающий список может использовать ключ "open" со значением "Запись открыта". В этом примере {$formValue} будет содержать "open" и {$value} будет содержать "Запись открыта". Вы можете добавить модификатор "|raw" для форматирования HTML, например {$value|raw}. Но это может вызвать проблемы с безопасностью, если не использовать это осторожно. Вы можете использовать логику шаблонов Invision Community, такую как {{if}}.<br>При использовании поле Адрес, вы можете отобразить карту с помощью {map} и адрес с помощью {address}.<br>Если вы используете поле для загрузки нескольких файлов, то они будут находиться в массиве файловых объектов $value.]]></word>
+  <word key="field_display_listing_json_badge" js="0">Форматирование</word>
+  <word key="field_display_listing_json_custom" js="0">Пользовательский формат списка</word>
+  <word key="field_display_listing_json_custom_desc" js="0"><![CDATA[Используйте {$label} для отображения заголовка поля, {$value} для отображения значения поля и {$formValue} для отображения значения поля из формы.<br>К примеру, ваш выпадающий список может использовать ключ "open" со значением "Запись открыта". В этом примере {$formValue} будет содержать "open" и {$value} будет содержать "Запись открыта". Вы можете добавить модификатор "|raw" для форматирования HTML, например {$value|raw}. Но это может вызвать проблемы с безопасностью, если не использовать это осторожно. Вы можете использовать логику шаблонов Invision Community, такую как {{if}}.<br>При использовании поле Адрес, вы можете отобразить карту с помощью {map} и адрес с помощью {address}.<br>Если вы используете поле для загрузки нескольких файлов, то они будут находиться в массиве файловых объектов $value.]]></word>
+  <word key="field_display_listing_json_badge_right" js="0">Отображать в правой части списка</word>
+  <word key="cms_field_error_bad_syntax" js="0">Синтакс HTML для пользовательского формата является некорректным.</word>
+  <word key="field_key" js="0">Ключ шаблона</word>
+  <word key="field_key_desc" js="0"><![CDATA[<p class='ipsMessage ipsMessage_info'>Ключ поля может быть использован в HTML-шаблонах для отображения определённого поля, например: <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('my_key', 'listing')|raw}</span></p><br>Ключ должен быть уникальным. Если ключ не введён, он будет создан автоматически. Действительные значения для второго параметра: "listing", "display", "raw" и "processed".]]></word>
+  <word key="cms_field_key_not_unique" js="0">Ключ поля не является уникальным</word>
+  <word key="field_generaloptions" js="0">Основные настройки</word>
+  <word key="pfield_options" js="0">Настройки</word>
+  <word key="field_display_none" js="0">Не форматировать</word>
+  <word key="pf_type_Youtube" js="0">YouTube</word>
+  <word key="pf_type_Relational" js="0">Взаимосвязь баз данных</word>
+  <word key="media_display_listing_method" js="0">В списке, отображать как</word>
+  <word key="media_display_display_method" js="0">В записи, отображать как</word>
+  <word key="media_display_as_player" js="0">Встроенный проигрыватель</word>
+  <word key="media_display_as_url" js="0">Обычная ссылка</word>
+  <word key="media_params" js="0">Параметры</word>
+  <word key="media_params_desc" js="0">Вы можете добавить любые специальные параметры плеера здесь. Если вы не укажете &quot;width&quot; и &quot;height&quot;, будут использованы стандартные значения.</word>
+  <word key="pf_type_Spotify" js="0">Spotify</word>
+  <word key="pf_type_Soundcloud" js="0">SoundCloud</word>
+  <word key="field_placeholder_youtube" js="0">Ссылка YouTube</word>
+  <word key="field_placeholder_spotify" js="0">Ссылка Spotify</word>
+  <word key="field_placeholder_soundcloud" js="0">Ссылка SoundCloud</word>
+  <word key="field_placeholder_relational" js="0">Начните вводить заголовок %s</word>
+  <word key="cms_upload_field_is_image" js="0">Только изображения</word>
+  <word key="cms_upload_field_is_not_image" js="0">Любые файлы</word>
+  <word key="field_image_size" js="0">Максимальные размеры изображения</word>
+  <word key="field_image_size_desc" js="0">Любое изображение больше этих размеров будет автоматически сжато</word>
+  <word key="field_upload_is_image" js="0">Тип файлов</word>
+  <word key="cms_field_no_type_warning" js="0">Данный тип поля %s не существует. Пожалуйста, укажите действительный тип.</word>
+  <word key="field_display_opts_title" js="0"><![CDATA[Это поле установлено в качестве заголовка записи. Заголовок не включается в список настраиваемых полей при отображении на стандартном шаблоне. Вы можете настроить его отображение при использовании этого кода <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('title_key', ['display|listing'])|raw}</span>. При использовании <span class='ipsType_monospace'>$record->_title</span> всегда будет использоваться отформатированный заголовок.]]></word>
+  <word key="field_display_opts_content" js="0"><![CDATA[Это поле установлено в качестве содержимого записи. Содержимое записи не включается в список настраиваемых полей при отображении на стандартном шаблоне. Вы можете настроить его отображение при использовании этого кода <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('content_key', ['display|listing'])|raw}</span>. При использовании <span class='ipsType_monospace'>$record->_content</span> всегда будет использоваться отформатированное содержимое.]]></word>
+  <word key="field_date_time_override" js="0">Часовой пояс</word>
+  <word key="field_date_time_time" js="0">Включить поле времени</word>
+  <word key="field_date_timezone" js="0">Часовой пояс</word>
+  <word key="field_default_update_existing" js="0">Обновить существующие записи</word>
+  <word key="field_default_update_existing_desc" js="0">Это обновит существующие записи с текущим значением по умолчанию на новое значение</word>
+  <word key="field_upload_is_multiple" js="0">Разрешить мультизагрузку</word>
+  <word key="field_relational_db" js="0">База данных</word>
+  <word key="field_crosslink" js="0">Создавать взаимосвязь между записями?</word>
+  <word key="field_crosslink_desc" js="0">Включение этой настройки позволит отобразить записи в базе данных, относящиеся к данной записи в другой базе данных.</word>
+  <word key="cms_relational_field_no_dbs" js="0">Нет баз данных, доступных для выбора</word>
+  <word key="cms_relational_field_no_db_selected" js="0">Вы должны выбрать базу данных</word>
+  <word key="field_display_display_json_where" js="0">Отображать</word>
+  <word key="field_display_display_json_where_desc" js="0">Данная настройка может не работать, если используется изменённый шаблон</word>
+  <word key="cms_field_display_top" js="0">Над содержимым статьи</word>
+  <word key="cms_field_display_bottom" js="0">Под содержимым статьи</word>
+  <word key="field_number_decimals_on" js="0">Разрешить десятичные знаки</word>
+  <word key="field_number_decimals" js="0">Количество знаков после запятой</word>
+  <word key="field_date_tz_utc" js="0">UTC</word>
+  <word key="field_date_tz_set" js="0">Выбрать часовой пояс вручную</word>
+  <word key="field_date_tz_user" js="0">Использовать часовой пояс пользователя</word>
+  <word key="field_allow_attachments" js="0">Разрешить вложения</word>
+  <word key="field_upload_thumb" js="0">Эскиз</word>
+  <word key="field_upload_thumb_none" js="0">Не создавать эскиз</word>
+  <word key="content_content_form_tab__config" js="0">Конфигурация</word>
+  <word key="content_cat_db_title" js="0">Категория %s</word>
+  <word key="content_cat_furl_not_unique" js="0">URL-адрес не является уникальным</word>
+  <word key="category_furl_name_choice" js="0">Пользовательский URL-адрес</word>
+  <word key="category_furl_name" js="0">Введите URL-адрес</word>
+  <word key="category_parent_id" js="0">Родительская категория</word>
+  <word key="category_show_records" js="0">Отображать записи</word>
+  <word key="category_has_perms" js="0">Установить пользовательские права доступа</word>
+  <word key="category_has_perms_desc" js="0">Если включено, вы можете указать права доступа для групп независимо от прав базы данных</word>
+  <word key="category_can_view_others" js="0">Пользователи могут видеть записи, опубликованные другими пользователями</word>
+  <word key="category_can_view_others_desc" js="0"><![CDATA[Модератору могут видеть все записи (где они имеют на это права). Вы можете использовать это настройку для создания базы данных, где пользователи могут приватно общаться с сотрудниками.<br>Записи, опубликованные в категории, которая не позволяет другим просматривать чужие записи, не будут отображаться в боковых блоках.]]></word>
+  <word key="category_can_view_others_database_desc" js="0"><![CDATA[Модератору могут видеть все записи (где они имеют на это права). Вы можете использовать это настройку для создания базы данных, где пользователи могут приватно общаться с сотрудниками.<br>Записи, опубликованные в базе данных, которая не позволяет другим просматривать чужие записи, не будут отображаться в боковых блоках.]]></word>
+  <word key="category_show_records_desc" js="0">Если включено, в категории будут отображаться подкатегории и записи. Если выключено, в категории будут отображаться только подкатегории. </word>
+  <word key="content_content_form_header__meta" js="0">Метатеги и заголовок</word>
+  <word key="category_meta_keywords" js="0">Ключевые слова</word>
+  <word key="category_meta_description" js="0">Описание</word>
+  <word key="content_content_form_tab__forum" js="0">Форум</word>
+  <word key="category_forum_override" js="0">Переопределить настройки базы данных</word>
+  <word key="category_page_title" js="0">Название категории</word>
+  <word key="category_page_title_desc" js="0">Это значение будет использовано в HTML-теге title документа. Если не введено, будет использоваться заголовок страницы.</word>
+  <word key="category_allow_rating" js="0">Включить звёзды рейтинга</word>
+  <word key="cms_categories_header_display" js="0">Отображение</word>
+  <word key="cms_categories_use_database" js="0">Использовать шаблон базы данных</word>
+  <word key="category_template_listing" js="0">Шаблон списка</word>
+  <word key="category_template_display" js="0">Шаблон записей</word>
+  <word key="content_cat_furl_collision" js="0">Это название категории не может быть использовано т.к. это зарезервированное слово.</word>
+  <word key="content_tree_title" js="0">Дерево категорий</word>
+  <word key="content_record_db_title" js="0">Записи в базе %s</word>
+  <word key="content_db_table_title" js="0">Заголовок</word>
+  <word key="content_db_table_primary_id_field" js="0">ID</word>
+  <word key="content_db_table_record_publish_date" js="0">Дата</word>
+  <word key="content_db_table_category_id" js="0">Категория</word>
+  <word key="content_db_table_record_approved" js="0">Статус</word>
+  <word key="content_db_table_unapproved" js="0">Не утверждённые</word>
+  <word key="content_db_table_filter_approved" js="0">Утверждённые</word>
+  <word key="content_db_table_filter_unapproved" js="0">Не утверждённые</word>
+  <word key="content_db_table_filter_hidden" js="0">Скрытые</word>
+  <word key="content_db_table_filter_pinned" js="0">Закреплённые</word>
+  <word key="content_db_table_as_no_cat" js="0">Любая категория</word>
+  <word key="content_db_table_record_comments" js="0">Комментарии открыты</word>
+  <word key="content_db_table_as_comments_null" js="0">Не учитывать</word>
+  <word key="content_db_table_as_comments_yes" js="0">Да</word>
+  <word key="content_db_table_as_comments_no" js="0">Нет</word>
+  <word key="content_database_record_tab_content" js="0">Содержимое</word>
+  <word key="content_record_form_container" js="0">Категория</word>
+  <word key="content_record_form_tags" js="0">Теги</word>
+  <word key="content_record_form_date" js="0">Дата публикации</word>
+  <word key="content_database_record_tab_publish" js="0">Настройки публикации</word>
+  <word key="record_status" js="0">Статус</word>
+  <word key="content_record_status_unapproved" js="0">Не утверждённые</word>
+  <word key="content_record_status_approved" js="0">Утверждённые</word>
+  <word key="content_record_status_hidden" js="0">Скрыта</word>
+  <word key="record_publish_date" js="0">Дата публикации</word>
+  <word key="record_expiry_date" js="0">Дата архивации</word>
+  <word key="record_expiry_date_desc" js="0">После этой даты запись будет отображаться только в архиве. Оставьте пустым для отключения.</word>
+  <word key="record_author_choice" js="0">Автор</word>
+  <word key="record_author_choice_me" js="0">Я являюсь автором</word>
+  <word key="record_author_choice_notme" js="0">Выбрать пользователя</word>
+  <word key="record_author_choice_guest" js="0">Гость</word>
+  <word key="record_member_id" js="0">Имя автора</word>
+  <word key="content_database_record_tab_comments" js="0">Комментарии</word>
+  <word key="record_allow_comments" js="0">Разрешить комментарии</word>
+  <word key="record_comment_cutoff" js="0">Дата закрытия комментариев</word>
+  <word key="record_comment_cutoff_desc" js="0">Оставьте пустым для отключения функции</word>
+  <word key="record_pinned" js="0">Закрепить запись</word>
+  <word key="content_database_record_tab_meta" js="0">Метатеги</word>
+  <word key="record_meta_keywords" js="0">Ключевые слова</word>
+  <word key="record_meta_description" js="0">Описание</word>
+  <word key="record_datetime_noval" js="0">Не указывать</word>
+  <word key="field_allowed_extensions" js="0">Разрешённые расширения файлов</word>
+  <word key="content_any_extensions" js="0">Любые расширения</word>
+  <word key="field_is_multiple" js="0">Множественный выбор</word>
+  <word key="record_deleted" js="0">Удалено</word>
+  <word key="record_static_furl_set" js="0">Переопределить URL-адрес</word>
+  <word key="record_static_url_prefix" js="0">%spage/{page}/{category}/</word>
+  <word key="record_static_furl_set_desc" js="0">По умолчанию URL-адрес записи будет иметь вид /заголовок-r{record_id}. Вы можете установить свой URL-адрес.</word>
+  <word key="record_static_furl" js="0">Пользовательский URL-адрес</word>
+  <word key="content_record_slug_not_unique" js="0">Этот URL-адрес уже используется. Пожалуйста, введите уникальный URL-адрес.</word>
+  <word key="record_image" js="0">Изображения</word>
+  <word key="record_edit_reason" js="0">Причина изменения</word>
+  <word key="record_edit_show" js="0">Отображать, что сообщение было изменено</word>
+  <word key="record_edit_show_desc" js="0">Администрация всё равно сможет видеть это</word>
+  <word key="content_edit_view_revisions" js="0">(отображать изменения)</word>
+  <word key="feature_title_record" js="0">Сделать это %s рекомендуемым</word>
+  <word key="unfeature_title_record" js="0">Сделать это %s обычным</word>
+  <word key="pin_title_record" js="0">Закрепить %s</word>
+  <word key="unpin_title_record" js="0">Открепить %s</word>
+  <word key="hide_title_record" js="0">Скрыть %s</word>
+  <word key="unhide_title_record" js="0">Показать %s</word>
+  <word key="approve_title_record" js="0">Утвердить %s</word>
+  <word key="lock_title_record" js="0">Закрыть %s</word>
+  <word key="unlock_title_record" js="0">Открыть %s</word>
+  <word key="move_title_record" js="0">Переместить %s</word>
+  <word key="delete_title_record" js="0">Удалить %s</word>
+  <word key="database_select_category" js="0">Выберите категорию</word>
+  <word key="content_database_name" js="0">Название</word>
+  <word key="content_word_custom" js="0">Название</word>
+  <word key="content_database_category_count" js="0">Категорий</word>
+  <word key="content_database_record_count" js="0">Записей</word>
+  <word key="content_database_manage_records" js="0">Управление записями</word>
+  <word key="content_database_manage_permissions" js="0">Права доступа</word>
+  <word key="content_database_manage_categories" js="0">Управление категориями</word>
+  <word key="content_database_manage_fields" js="0">Управление полями</word>
+  <word key="content_database_field_area" js="0">Поля в базе %s</word>
+  <word key="content_database_form_details" js="0">Данные</word>
+  <word key="content_database_form_options" js="0">Настройки</word>
+  <word key="content_database_form_lang" js="0">Язык</word>
+  <word key="database_use_as_page_title" js="0">Заголовок страницы</word>
+  <word key="database_use_as_page_title_desc" js="0">Определяет, что будет использоваться при просмотре базы данных</word>
+  <word key="database_use_as_page_title_yes" js="0">Использовать название базы данных</word>
+  <word key="database_use_as_page_title_no" js="0">Использовать заголовок страницы</word>
+  <word key="database_name" js="0">Название</word>
+  <word key="database_description" js="0">Описание</word>
+  <word key="database_template_categories" js="0">Категория шаблонов</word>
+  <word key="database_template_listing" js="0">Шаблон списка записей</word>
+  <word key="database_template_display" js="0">Шаблон записей</word>
+  <word key="database_lang_sl" js="0">Единственное число, нижний регистр</word>
+  <word key="database_lang_sl_desc" js="0">По умолчанию: record</word>
+  <word key="database_lang_pl" js="0">Множественное число, нижний регистр</word>
+  <word key="database_lang_pl_desc" js="0">По умолчанию: records</word>
+  <word key="database_lang_su" js="0">Единственное число, с большой буквы</word>
+  <word key="database_lang_su_desc" js="0">По умолчанию: Record</word>
+  <word key="database_lang_pu" js="0">Множественное число, с большой буквы</word>
+  <word key="database_lang_pu_desc" js="0">По умолчанию: Records</word>
+  <word key="database_lang_ia" js="0">Неопределённый артикль</word>
+  <word key="database_lang_ia_desc" js="0">По умолчанию: a record</word>
+  <word key="database_all_editable" js="0">Вики-стиль редактирования</word>
+  <word key="database_all_editable_desc" js="0"><![CDATA[Включение этой настройки позволит <strong>любому пользователю изменять</strong> любые не закрытые записи, как в Википедии. Если отключено, пользователи смогут изменять только свои не закрытые записи (при наличии прав).]]></word>
+  <word key="cms_bitoptions_indefinite_own_edit" js="0">Неограниченное редактирование собственных публикаций</word>
+  <word key="cms_bitoptions_indefinite_own_edit_desc" js="0"><![CDATA[Включение этой настройки позволит автору записи редактировать его открытые и видимые записи без ограничений.<br>Если не включено, то используются права доступа на изменение публикаций из <a href='{internal.app=core&module=members&controller=groups}'>настроек групп</a>.]]></word>
+  <word key="database_revisions" js="0">Хранить старые версии</word>
+  <word key="database_revisions_desc" js="0">Когда пользователи или администраторы изменяют записи в базе данных, копия оригинальной записи будет сохранена и может быть восстановлена позже.</word>
+  <word key="database_search" js="0">Разрешить поиск</word>
+  <word key="database_comment_bump" js="0">Обновлять последнее изменение</word>
+  <word key="database_comment_bump_desc" js="0">Последнее действие отображается при просмотре категории и влияет на сортировку записей.</word>
+  <word key="database_comment_bump_edit_comment" js="0">Когда запись изменена или добавлен комментарий</word>
+  <word key="database_comment_bump_edit" js="0">Только когда запись изменена</word>
+  <word key="database_comment_bump_comment" js="0">Только когда добавлен комментарий</word>
+  <word key="database_rss_enable" js="0">Включить RSS-ленту</word>
+  <word key="database_rss_enable_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
+  <word key="database_rss" js="0">Количество записей для отображения</word>
+  <word key="database_tags_enabled" js="0">Можно использовать теги</word>
+  <word key="database_tags_noprefixes" js="0">Можно использовать префикс?</word>
+  <word key="database_tags_predefined" js="0">Предопределённые теги</word>
+  <word key="database_tags_predefined_unlimited" js="0">По умолчанию</word>
+  <word key="database_tags_predefined_desc" js="0">При использовании закрытой системы тегов, пользователям придётся выбирать их из этого списка. При использовании открытой системы тегов, они будут отображены как рекомендации.</word>
+  <word key="content_database_form_options_fields" js="0">Настройки полей</word>
+  <word key="sortby" js="0">Сортировать по</word>
+  <word key="sortdirection" js="0">Сортировать по</word>
+  <word key="database_field_sort" js="0">Сортировка</word>
+  <word key="database_field_direction" js="0">Порядок сортировки</word>
+  <word key="database_field_perpage" js="0">Записей на страницу</word>
+  <word key="database_field__id" js="0">ID записи</word>
+  <word key="database_field__member" js="0">ID пользователя</word>
+  <word key="database_field__saved" js="0">Дата публикации</word>
+  <word key="database_field__updated" js="0">Последнее обновление</word>
+  <word key="database_field__edited" js="0">Дата последнего изменения</word>
+  <word key="database_field__rating" js="0">Рейтинг</word>
+  <word key="database_field__views" js="0">Просмотры</word>
+  <word key="database_field__approved" js="0">Утверждено</word>
+  <word key="database_field__comments" js="0">Комментарии</word>
+  <word key="database_field__locked" js="0">Закрыто</word>
+  <word key="database_sort_asc" js="0">По возрастанию (0-9)</word>
+  <word key="database_sort_desc" js="0">По убыванию (9-0)</word>
+  <word key="content_database_form_options_forums" js="0">Форум</word>
+  <word key="database_forum_record" js="0">Публиковать темы</word>
+  <word key="database_forum_record__desc" js="0">Публиковать тему в определённый раздел при создании новых записей.</word>
+  <word key="database_forum_record__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='Перестроить синхронизированное содержимое темы'>Перестроить синхронизированное содержимое темы</a>.]]></word>
+  <word key="database_forum_comments" js="0">Использовать для комментариев</word>
+  <word key="database_forum_comments_desc" js="0">Комментарии будут публиковаться как сообщения. Если вы измените метод хранения комментариев, существующие комментарии отображаться не будут. Комментарии не будут скопированы в темы или во внешнюю базу данных при изменении этой опции.</word>
+  <word key="database_forum_forum" js="0">Раздел</word>
+  <word key="database_forum_prefix" js="0">Префикс темы</word>
+  <word key="database_forum_suffix" js="0">Суффикс темы</word>
+  <word key="database_forum_delete" js="0">Удалять темы</word>
+  <word key="database_forum_delete_desc" js="0">Автоматически удалять темы при удалении записей</word>
+  <word key="database_does_not_exist" js="0">Базы данных не существует</word>
+  <word key="perm_content_perm__view" js="0">Просмотр базы данных</word>
+  <word key="perm_content_perm__read" js="0">Просмотр записей</word>
+  <word key="perm_content_perm__add" js="0">Добавление записей</word>
+  <word key="perm_content_perm__edit" js="0">Изменение записей</word>
+  <word key="perm_content_perm__reply" js="0">Комментирование</word>
+  <word key="perm_content_perm__rate" js="0">Изменение рейтинга</word>
+  <word key="perm_content_category_perm__view" js="0">Просматривать категорию</word>
+  <word key="perm_content_category_perm__read" js="0">Просматривать записи</word>
+  <word key="perm_content_category_perm__add" js="0">Добавлять записи</word>
+  <word key="perm_content_category_perm__edit" js="0">Изменять записи</word>
+  <word key="perm_content_category_perm__reply" js="0">Добавлять комментарии</word>
+  <word key="perm_content_category_perm__rate" js="0">Оценивать записи</word>
+  <word key="perm_content_category_perm__review" js="0">Добавлять отзывы на записи</word>
+  <word key="content_database_noun_sl" js="0">запись</word>
+  <word key="content_database_noun_su" js="0">Запись</word>
+  <word key="content_database_noun_pl" js="0">записей</word>
+  <word key="content_database_noun_pu" js="0">Записи</word>
+  <word key="content_database_noun_ia" js="0">запись</word>
+  <word key="content_acp_err_db_creation_fail" js="0">Невозможно создать базу данных: %s</word>
+  <word key="database_cat_index_type" js="0">Главная страница</word>
+  <word key="database_display_index_as_categories" js="0"><![CDATA[<span data-lang='index_as_categories'>Список категорий</span>	]]></word>
+  <word key="database_display_index_as_articles" js="0">Отображать записи как статьи</word>
+  <word key="database_display_index_as_articles_desc" js="0">Отображать записи в формате блога или статей.</word>
+  <word key="database_template_featured" js="0">Шаблоны записей</word>
+  <word key="database_template_form" js="0">Шаблон добавления/изменения</word>
+  <word key="database_featured_perpage" js="0">Записей для отображения</word>
+  <word key="database_featured_pagination" js="0">Разрешить пагинацию</word>
+  <word key="database_featured_pagination_desc" js="0">Если записей больше, чем указано в поле &quot;Записей для отображения&quot;, то, если доступно, будет отображаться переключение страниц (пагинация).</word>
+  <word key="database_featured_sort" js="0">Сортировка по</word>
+  <word key="database_featured_direction" js="0">Порядок сортировки</word>
+  <word key="cms_download_db" js="0">Скачать базу данных</word>
+  <word key="cms_download_db_explain" js="0"><![CDATA[Скачать файл базы данных с её настройками, шаблонами, полями и категориями.<br>Записи <em>не</em> будут включены.]]></word>
+  <word key="cms_database_add" js="0">Добавить базу данных</word>
+  <word key="cms_database_add_new" js="0">Новая</word>
+  <word key="cms_database_add_upload" js="0">Существующая</word>
+  <word key="cms_add_db_normal" js="0">Создать новую базу данных для этого сайта</word>
+  <word key="cms_database_import" js="0">Файл .xml с базой данных</word>
+  <word key="cms_db_import_progress" js="0">Импортирование %s</word>
+  <word key="cms_manage_database" js="0">Настройка базы данных</word>
+  <word key="cms_database_permissions" js="0">Права доступа базы данных</word>
+  <word key="database_use_categories" js="0">Использовать категории</word>
+  <word key="database_use_categories_desc" js="0">Вы можете не использовать категории, в которых должны храниться записи. В этом случае записи будут храниться в самой базе данных, а не в категориях.</word>
+  <word key="database_use_categories_impossible" js="0">Эта база данных содержит %s категорий. У вас может быть только одна категория для хранения записей непосредственно в базе данных.</word>
+  <word key="database_use_categories_yes" js="0"><![CDATA[<strong>Да</strong>, хранить записи в категориях базы данных]]></word>
+  <word key="database_use_categories_no" js="0"><![CDATA[<strong>Нет</strong>, хранить записи напрямую в базе данных]]></word>
+  <word key="cms_db_cats_disabled" js="0"><![CDATA[<em>Категории не используются</em>]]></word>
+  <word key="database_featured_featured" js="0">Отображать только рекомендуемые записи</word>
+  <word key="cms_bitoptions_comments" js="0">Разрешить комментарии</word>
+  <word key="cms_bitoptions_comments_mod" js="0">Комментарии должны быть утверждены</word>
+  <word key="cms_bitoptions_reviews" js="0">Разрешить отзывы</word>
+  <word key="cms_bitoptions_reviews_mod" js="0">Отзывы должны быть утверждены</word>
+  <word key="cms_comments_and_reviews" js="0">Комментарии и отзывы</word>
+  <word key="perm_content_perm__review" js="0">Добавление отзывов</word>
+  <word key="cms_all_categories" js="0">Любые категории</word>
+  <word key="database_featured_categories" js="0">Категории</word>
+  <word key="cms_database_form_display" js="0">Шаблоны</word>
+  <word key="database_key" js="0">Ключ шаблона</word>
+  <word key="database_key_desc" js="0"><![CDATA[<p class='ipsMessage ipsMessage_info'>Ключ базы данных может быть использован в шаблонах и на страницах для использования данной базы данных, например: <span class='ipsType_monospace'>{database="my_database_key"}</span></p><br>Ключ должен быть уникальным и не использоваться в других базах. Если не введено, ключ будет создан автоматически.]]></word>
+  <word key="cms_database_key_not_unique" js="0">Ключ базы данных не является уникальным</word>
+  <word key="cms_editing_database" js="0">Изменение базы данных: %s</word>
+  <word key="cms_adding_database" js="0">Добавление базы данных</word>
+  <word key="content_database_form_options_field_record_image_settings" js="0">Настройка изображений</word>
+  <word key="fixed_field_setting__record_image__image_dims" js="0">Максимальные размеры изображения</word>
+  <word key="fixed_field_setting__record_image__thumb_dims" js="0">Максимальные размеры вложения</word>
+  <word key="content_database_record_image_disabled" js="0">Изображения записей в данный момент отключены.</word>
+  <word key="cms_database_not_exist" js="0">Базы данных не существует</word>
+  <word key="database_record_approve" js="0">Модерировать новые записи</word>
+  <word key="database_record_image" js="0">Включить загрузку изображений</word>
+  <word key="database_record_image_desc" js="0">Если включено, на страницу создания/изменения записей будет добавлена форма для загрузки изображений. По умолчанию изображение отображается в области содержимого записи.</word>
+  <word key="cms_no_db_page_no_forum_link" js="0">Эти настройки не имеют значения, пока база данных не будет добавлена на страницу.</word>
+  <word key="cms_database_no_forum_selected" js="0">Вы включили публикацию темы, но не выбрали необходимый раздел.</word>
+  <word key="cms_database_promote" js="0">Получение с Форума</word>
+  <word key="cms_promote_enabled" js="0">Включен</word>
+  <word key="cms_promote_cat" js="0">Добавить в категорию</word>
+  <word key="cms_promote_groups" js="0">Доступно для</word>
+  <word key="database_rebuild_topics_desc" js="0">Этот инструмент добавить фоновую задачу на повторную синхронизацию содержимого первого сообщения в темах, созданных этой базой данных. Он также создаст темы для записей, если они в настоящий момент не существуют.</word>
+  <word key="database_rebuild_topics_button" js="0">Продолжить</word>
+  <word key="database_rebuild_added" js="0">Задача на перестроение была добавлена в очередь.</word>
+  <word key="menu__cms_pages_media" js="0">Медиа</word>
+  <word key="r__media" js="0">Медиа</word>
+  <word key="r__media_manage" js="0">Просматривать медиа</word>
+  <word key="r__media_add" js="0">Добавлять медиа</word>
+  <word key="r__media_edit" js="0">Изменять медиа</word>
+  <word key="r__media_delete" js="0">Удалять медиа</word>
+  <word key="cms_add_media_folder" js="0">Создать папку</word>
+  <word key="cms_add_media" js="0">Загрузить новое медиа</word>
+  <word key="cms_delete_selected_media" js="0">Удалить выбранное</word>
+  <word key="cms_search_media" js="0">Поиск медиа...</word>
+  <word key="media_folders" js="0">Папки</word>
+  <word key="media_file_overview" js="0">Обзор файла</word>
+  <word key="media_root_folder" js="0">Приложение Страницы</word>
+  <word key="media_tag_title" js="0">Медиа-тег</word>
+  <word key="media_tag_desc" js="0">Вставьте этот тег в ваши страницы/шаблоны для вставки этого медиа.</word>
+  <word key="media_folder_name" js="0">Название</word>
+  <word key="media_folder_parent" js="0">Родительский</word>
+  <word key="cms_media_preview" js="0">Просмотр</word>
+  <word key="cms_no_media" js="0">Не удалось обнаружить данный медиа-файл</word>
+  <word key="media_filename" js="0">Название файла</word>
+  <word key="media_uploaded" js="0">Загружен</word>
+  <word key="media_size" js="0">Размер файла</word>
+  <word key="media_dims" js="0">Разрешение</word>
+  <word key="media_parent" js="0">Родительский</word>
+  <word key="cms_media_key" js="0">Просмотреть тег страницы и шаблона</word>
+  <word key="cms_key_view" js="0"><![CDATA[Этот ключ может быть использован в блоках, страницах или шаблонах для вставки ссылки на это медиа.<br>Текущая ссылка на этот элемент: %s]]></word>
+  <word key="cms_delete_folder_media" js="0">Удалить папку</word>
+  <word key="content_categories_title" js="0">Категории</word>
+  <word key="content_subcategories_title" js="0">Подкатегории</word>
+  <word key="x_records" js="0">%d %s</word>
+  <word key="x_records_in_this_category" js="0">%d %s в этой категории</word>
+  <word key="content_categories_index_no_records" js="0">Ещё нет %s</word>
+  <word key="content_records_stat_comments" js="0">{!# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="content_records_stat_reviews" js="0">{!# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][?:отзывов]}</word>
+  <word key="content_records_stat_num_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="content_record_started_by" js="0">От %s</word>
+  <word key="content_record_actions" js="0">Изменить</word>
+  <word key="content_record_report" js="0">Жалоба</word>
+  <word key="content_record_form__comment_placeholder" js="0">Добавить комментарий...</word>
+  <word key="content_record_form_submit_comment" js="0">Добавить комментарий</word>
+  <word key="content_record_comment_on_this" js="0">Комментарий на %s</word>
+  <word key="content_record_form_auto_follow_suffix" js="0">Сообщать о новых ответах</word>
+  <word key="content_create_new_button" js="0">Добавить %s</word>
+  <word key="create_record_state" js="0">После публикации...</word>
+  <word key="create_record_locked" js="0">Закрыть запись</word>
+  <word key="create_record_pinned" js="0">Прикрепить запись</word>
+  <word key="create_record_hidden" js="0">Скрыть запись</word>
+  <word key="create_record_featured" js="0">Сделать рекомендуемой</word>
+  <word key="content_record_form_save" js="0">Сохранить</word>
+  <word key="content_record_form_new_record" js="0">Добавить %s</word>
+  <word key="content_record_comment_title" js="0">Комментарий к %s</word>
+  <word key="content_record_comments_title" js="0">Комментарии к %s</word>
+  <word key="content_record_comments_title_lc" js="0">комментарии к %s</word>
+  <word key="content_record_review_title" js="0">Отзыв к %s</word>
+  <word key="content_record_reviews_title" js="0">%s отзывов</word>
+  <word key="content_record_reviews_title_lc" js="0">отзывы к %s</word>
+  <word key="record_type" js="0">Тип</word>
+  <word key="content_all_records" js="0">Всё</word>
+  <word key="content_open_records" js="0">Открыть</word>
+  <word key="content_locked_records" js="0">Закрыто</word>
+  <word key="content_locked_record" js="0">Запись закрыта</word>
+  <word key="content_record_last_comment" js="0">Дата последнего комментария</word>
+  <word key="content_record_comments" js="0">Количество комментариев</word>
+  <word key="content_record_views" js="0">Количество просмотров</word>
+  <word key="content_record_title" js="0">Заголовок</word>
+  <word key="content_record_publish_date" js="0">Дата публикации</word>
+  <word key="content_record_form_edit_record" js="0">Изменение %s</word>
+  <word key="content_view_revisions" js="0">Версии</word>
+  <word key="content_view_revisions_none" js="0">Нет версий для отображения</word>
+  <word key="content_revision_record_title" js="0">Все изменения &quot;%s&quot;</word>
+  <word key="content_revision_button_view" js="0">Просмотр</word>
+  <word key="content_revision_button_delete" js="0">Удалить</word>
+  <word key="content_record_revision_title_revision" js="0">Версия</word>
+  <word key="content_record_revision_title_record" js="0">Текущая</word>
+  <word key="content_record_revision_title" js="0">Версия от %s (%s)</word>
+  <word key="content_conflict_use_this_revision" js="0">Восстановить эту версию</word>
+  <word key="content_conflict_use_this_record" js="0">Оставить текущую версию</word>
+  <word key="content_revision_restore" js="0">Восстановить</word>
+  <word key="modlog__cms_revision_restored" js="0">Восстановлена запись '%s' версии #%s</word>
+  <word key="content_view_record" js="0">Просмотреть полную %s</word>
+  <word key="cms_mark_read" js="0">Отметить прочитанным</word>
+  <word key="cms_add_new_record_button" js="0">Добавить %s</word>
+  <word key="cms_front_update_fields" js="0">Обновить %s</word>
+  <word key="filters_any_value" js="0">- Любое значение -</word>
+  <word key="cms_database_filtered_by" js="0">Отфильтровано по:</word>
+  <word key="cms_database_filtered_clear" js="0">Очистить фильтры</word>
+  <word key="cms_filters_cleared" js="0">Фильтры очищены</word>
+  <word key="cms_no_cats_to_show" js="0">Нет категорий для отображения</word>
+  <word key="cms_no_records_to_show" js="0">Нет %s для отображения</word>
+  <word key="cms_unread_record" js="0">Не прочитано</word>
+  <word key="cms_byline" js="0"><![CDATA[От %s, в <a href='%s'>%s</a>,]]></word>
+  <word key="cms_show_categories" js="0">Показать все категории</word>
+  <word key="cms_show_featured" js="0">Показать рекомендуемые %s</word>
+  <word key="content_record_form_rating_value" js="0">Ваша оценка</word>
+  <word key="content_record_form_review_text" js="0">Ваш отзыв</word>
+  <word key="content_record_form__review_placeholder" js="0">Добавить отзыв...</word>
+  <word key="cms_review_count" js="0">{# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][?:отзывов]}</word>
+  <word key="cms_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="cms_comment_no_count" js="0">Комментарии</word>
+  <word key="cms_row_commented_by" js="0">Комментарий от %s</word>
+  <word key="cms_row_added_by" js="0">Добавлено %s</word>
+  <word key="cms_row_updated_by" js="0">Изменено %s</word>
+  <word key="cms_back_to_category_with_title" js="0">Перейти к %s</word>
+  <word key="cms_back_to_category" js="0">Перейти к %s</word>
+  <word key="cms_view_next_unread_title" js="0">Перейти к следующей непрочитанной %s</word>
+  <word key="cms_next_unread_title" js="0">Следующая непрочитанная %s</word>
+  <word key="cms_record_field_changed" js="0"><![CDATA[Значение <strong>%s</strong> изменено на: <strong>%s</strong>]]></word>
+  <word key="cms_locked_can_comment" js="0">В настоящее время комментирование закрыто</word>
+  <word key="cms_select_category" js="0">Выберите категорию</word>
+  <word key="cms_create_menu_records_x" js="0">%s в %s</word>
+  <word key="record_display_field_change" js="0">Добавить комментарий об изменении</word>
+  <word key="record_information" js="0">Информация о %s</word>
+  <word key="record_no_revision_data" js="0">Никаких изменений не записано</word>
+  <word key="record_locked_cannot_comment" js="0">В настоящее время комментирование закрыто</word>
+  <word key="cms_moderator_options" js="0">Настройки модератора</word>
+  <word key="cms_db_in_use_by_page" js="0">База данных &quot;%s&quot; уже используется на странице &quot;%s&quot;.</word>
+  <word key="records_linking_to_me" js="0">%s связан с этой %s</word>
+  <word key="field_daterange_start_end" js="0">%s к %s</word>
+  <word key="field_daterange_start" js="0">От %s</word>
+  <word key="field_daterange_end" js="0">К %s</word>
+  <word key="cms_rf_database" js="0">База данных</word>
+  <word key="cms_rf_database_desc" js="0">Изменение невозможно. Если вы хотите создать ленту из другой базы, создайте новый пользовательский блока.</word>
+  <word key="cms_rf_database_description" js="0"><![CDATA[<br>Изменение невозможно. Если вы хотите создать ленту из другой базы, создайте новый пользовательский блока.]]></word>
+  <word key="cms_rf_category" js="0">Категории</word>
+  <word key="cms_rf_all_categories" js="0">Все категории</word>
+  <word key="cms_rf_record_status" js="0">Статус записи</word>
+  <word key="cms_rf_open_status_open" js="0">Открыта</word>
+  <word key="cms_rf_open_status_closed" js="0">Закрыта</word>
+  <word key="cms_rf_open_status_pinned" js="0">Закреплена</word>
+  <word key="cms_rf_open_status_notpinned" js="0">Не закреплена</word>
+  <word key="cms_rf_open_status_visible" js="0">Видима</word>
+  <word key="cms_rf_open_status_hidden" js="0">Скрыта</word>
+  <word key="cms_rf_open_status_featured" js="0">Рекомендуемая</word>
+  <word key="cms_rf_open_status_notfeatured" js="0">Не рекомендуемая</word>
+  <word key="cms_rf_author" js="0">Запись написана</word>
+  <word key="cms_rf_min_posts" js="0">Минимум комментариев к записи</word>
+  <word key="cms_rf_min_posts_any" js="0">любой</word>
+  <word key="cms_rf_show" js="0">Записей для отображения</word>
+  <word key="cms_rf_sort_on" js="0">Сортировка</word>
+  <word key="cms_rf_record_last_comment" js="0">Последний комментарий</word>
+  <word key="cms_rf_title" js="0">Заголовок</word>
+  <word key="cms_rf_record_comments" js="0">Количество комментариев</word>
+  <word key="cms_rf_record_publish_date" js="0">Дата публикации</word>
+  <word key="cms_rf_record_views" js="0">Просмотров записи</word>
+  <word key="cms_rf_sort_dir" js="0">Направление</word>
+  <word key="cms_rf_sort_dir_dsc" js="0">По убыванию (9-0)</word>
+  <word key="cms_rf_sort_dir_asc" js="0">По возрастанию (0-9)</word>
+  <word key="block_RecordFeed" js="0">Лента записей</word>
+  <word key="block_RecordFeed_desc" js="0">Создать настраиваемую ленту записей базы данных</word>
+  <word key="block_Editor" js="0">Обычный редактор HTML</word>
+  <word key="block_Editor_desc" js="0">Добавляет введённый текст как HTML-код</word>
+  <word key="block_Wysiwyg" js="0">Редактор WYSIWYG</word>
+  <word key="block_Wysiwyg_desc" js="0">Визуальный редактор текста</word>
+  <word key="block_Database" js="0">База данных</word>
+  <word key="block_Database_desc" js="0">Добавляет базу данных на страницу</word>
+  <word key="block_LatestArticles" js="0">Последние записи</word>
+  <word key="block_LatestArticles_desc" js="0">Отображает последние записи базы данных</word>
+  <word key="block_no_database_selected" js="0">Пожалуйста, выберите базу данных для блока</word>
+  <word key="block_latest_records" js="0">Последние %s</word>
+  <word key="block_DatabaseFilters" js="0">Фильтры базы данных</word>
+  <word key="block_DatabaseFilters_title" js="0">Фильтры %s</word>
+  <word key="block_DatabaseFilters_desc" js="0">Отображает фильтры записей при просмотре категории базы данных</word>
+  <word key="block_Categories" js="0">Меню категорий базы данных</word>
+  <word key="block_Categories_desc" js="0">Отображает список категорий базы данных, которая используется на странице</word>
+  <word key="cms_err_no_databases_to_use" js="0">Нет баз данных, доступных для добавления.</word>
+  <word key="cms_widget_filters_remember_text" js="0">Запомнить фильтры</word>
+  <word key="block_Blocks" js="0">Пользовательские блоки</word>
+  <word key="block_Blocks_desc" js="0">Выберите один из созданных вами блоков</word>
+  <word key="cms_err_no_pugins_to_use" js="0">Нет пользовательских блоков, доступных для добавления.</word>
+  <word key="cms_widget_custom_block" js="0">Пользовательский блок</word>
+  <word key="database" js="0">База данных</word>
+  <word key="block_Rss" js="0">Импорт RSS-ленты</word>
+  <word key="block_Rss_desc" js="0">Импортировать из RSS-ленты</word>
+  <word key="block_rss_import_title" js="0">Заголовок</word>
+  <word key="block_rss_import_url" js="0">Ссылка RSS-ленты</word>
+  <word key="block_rss_import_number" js="0">Количество записей для отображения</word>
+  <word key="block_rss_import_cache" js="0">Кешировать</word>
+  <word key="block_rss_import_cache_suffix" js="0">минут</word>
+  <word key="widget_feed_container_cms" js="0">Категории</word>
+  <word key="loc_cms_viewing_page" js="0">Просматривает %s</word>
+  <word key="loc_cms_viewing_db_cat" js="0">Просматривает категорию %s в %s</word>
+  <word key="loc_cms_viewing_db_record" js="0">Просматривает %s в категории %s: %s</word>
+  <word key="loc_cms_viewing_db_record_no_cats" js="0">Просматривает %s в %s</word>
+  <word key="content_err_page_404" js="0">Невозможно найти запрашиваемую страницу</word>
+  <word key="content_err_page_403" js="0">У вас нет прав для просмотра этой страницы</word>
+  <word key="content_err_page_500" js="0">Эта страница не может быть отображена в данный момент. Пожалуйста, попробуйте позже.</word>
+  <word key="content_err_page_500_admin" js="0">Возникла ошибка парсинга на этой странице.</word>
+  <word key="cms_delete_linked_topic" js="0">Эта тема используется для комментариев к %s и не может быть удалена</word>
+  <word key="digest_area_cms_cms" js="0">%s</word>
+  <word key="x_created_cms_in" js="0">%s опубликовал %s в %s</word>
+  <word key="x_created_cms_in_embed" js="0">%s опубликовал %s в %s</word>
+  <word key="x_commented_cms" js="0">%s оставил комментарий на %s</word>
+  <word key="x_commented_cms_embed" js="0">%s оставил комментарий к %s</word>
+  <word key="x_reviewed_cms_embed" js="0">%s оставил отзыв к %s</word>
+  <word key="acplogs__cms_added_database" js="0">Добавлена база данных: %s</word>
+  <word key="acplogs__cms_edited_database" js="0">Изменена база данных: %s</word>
+  <word key="acplogs__cms_deleted_database" js="0">Удалена база данных: %s</word>
+  <word key="block_embed_options" js="0">Код для внешней вставки</word>
+  <word key="block_embed_title" js="0">Код для внешней вставки</word>
+  <word key="embed_message" js="0"><![CDATA[Данная возможность позволяет вам встроить этот блок на внешнюю страницу, которая <strong>не</strong> является частью Invision Community. Для страниц, созданных через Invision Community, используйте обычный метод встраивания.]]></word>
+  <word key="embed_1_title" js="0">Встраивание этого блока</word>
+  <word key="embed_1_desc" js="0">Для встраивания этого блока вставьте указанный код на страницу, где вы хотите его отображать. Вы можете автоматически применить к нему некоторые стили (шрифт, цвет ссылок и т.д.) на странице, где он будет отображён.</word>
+  <word key="embed_1_toggle" js="0">Наследовать ключи стилей с родительской страницы</word>
+  <word key="embed_2_title" js="0">Вставить загрузчик</word>
+  <word key="embed_2_desc" js="0"><![CDATA[Вам также потребуется вставить на вашу страницу загрузчик. Это нужно сделать <strong>один раз на страницу</strong>, даже если вы хотите встроить несколько блоков. Его нужно вставить либо в тег <code>&lt;head&gt;</code>, либо перед тегом <code>&lt;/body&gt;</code>.]]></word>
+  <word key="view_this_cmsrecord" js="0">Просмотреть %s %s</word>
+  <word key="rebuilding_comment_likes" js="0">Перестройка базы данных репутации</word>
+  <word key="sort_record_last_comment" js="0">Последний комментарий</word>
+  <word key="sort_record_comments" js="0">Комментарии</word>
+  <word key="sort_record_views" js="0">Просмотры</word>
+  <word key="sort_record_publish_date" js="0">Дата публикации</word>
+  <word key="__api_cms_comments" js="0">Комментарии в базе данных</word>
+  <word key="__api_cms_records" js="0">Записи в базе данных</word>
+  <word key="__api_cms_reviews" js="0">Отзывы в базе данных</word>
+  <word key="copy_topic_to_database" js="0">Копировать в базу данных</word>
+  <word key="copy_select_database" js="0">Выберите базу данных</word>
+  <word key="copy_select_category" js="0">Выбрать категорию</word>
+  <word key="record_category_id" js="0">Категория</word>
+  <word key="copy_comments" js="0">Копировать сообщения?</word>
+  <word key="copy_comments_desc" js="0">Если вы выбираете &quot;Да&quot;, то все сообщении из темы будут также скопированы и добавлены в качестве комментариев в новой %s</word>
+  <word key="copy_author" js="0">Использовать оригинального автора</word>
+  <word key="copy_author_desc" js="0">Если вы выбираете &quot;Да&quot;, то автором новой %s станет автор темы. В противном случае, будет использоваться ваш аккаунт.</word>
+  <word key="copying_comments" js="0">Копирование комментариев...</word>
+  <word key="cms_download_db" js="1">Скачать базу данных</word>
+  <word key="cms_download_db_explain" js="1"><![CDATA[Скачать файл базы данных с её настройками, шаблонами, полями и категориями.<br>Записи <em>не</em> будут включены.]]></word>
+  <word key="index_as_categories" js="1">Показать категории</word>
+  <word key="index_as_records" js="1">Показать список записей</word>
+  <word key="mediaNoneSelected" js="1">Нет выбранных медиа</word>
+  <word key="mediaMultipleSelected" js="1">{# [0:выбранных файлов][1:выбранный файл][2:выбранных файла][3:выбранных файла][4:выбранных файла][11:выбранных файлов][12:выбранных файлов][13:выбранных файлов][14:выбранных файлов][*1:выбранный файл][*2:выбранных файла][*3:выбранных файла][*4:выбранных файла][?:выбранных файлов]}</word>
+  <word key="mediaEmptyFolder" js="1">В этой папке ещё нет элементов</word>
+  <word key="mediaConfirmDelete" js="1">Вы уверены, что хотите удалить {!# [0:# выбранных файлов][1:этот файл][2:# выбранных файла][3:# выбранных файла][4:# выбранных файла][11:# выбранных файлов][12:# выбранных файлов][13:# выбранных файлов][14:# выбранных файлов][*1:# выбранных файл][*2:# выбранных файла][*3:# выбранных файла][*4:# выбранных файла][?:# выбранных файлов]}?</word>
+  <word key="mediaErrorDeleting" js="1">Возникла ошибка при удалении {!# [1:этого файла][?:этих файлов]}</word>
+  <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
+  <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
+ </app>
+</language>

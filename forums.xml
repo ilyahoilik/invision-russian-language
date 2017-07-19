@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский (RU)" rtl="0">
+ <app key="forums" version="102001">
+  <word key="__app_forums" js="0">Форум</word>
+  <word key="frontnavigation_forums" js="0">Форум</word>
+  <word key="__indefart_post" js="0">сообщение в теме</word>
+  <word key="__indefart_topic" js="0">тему</word>
+  <word key="__indefart_answer" js="0">ответ на вопрос</word>
+  <word key="__indefart_question" js="0">вопрос</word>
+  <word key="__defart_post" js="0">сообщение в теме</word>
+  <word key="__defart_topic" js="0">тему</word>
+  <word key="__defart_answer" js="0">ответ на вопрос</word>
+  <word key="__defart_question" js="0">вопрос</word>
+  <word key="topic_container" js="0">Раздел</word>
+  <word key="search_contextual_item_forums" js="0">В этом разделе</word>
+  <word key="search_contextual_item_topic" js="0">В этой теме</word>
+  <word key="module__forums_forums" js="0">Форум</word>
+  <word key="module__forums_stats" js="0">Статистика</word>
+  <word key="filestorage__forums_Icons" js="0">Значки разделов</word>
+  <word key="post" js="0">Сообщение</word>
+  <word key="post_lc" js="0">сообщение</word>
+  <word key="editor__forums_Forums" js="0">Разделы и темы</word>
+  <word key="acp_search_title_forums_Forums" js="0">Форум</word>
+  <word key="menu__forums_forums" js="0">Форум</word>
+  <word key="menu__forums_forums_forums" js="0">Категории и разделы</word>
+  <word key="menu__forums_forums_savedActions" js="0">Сохранённые действия</word>
+  <word key="menu__forums_forums_rss" js="0">Управление RSS-лентой</word>
+  <word key="menu__forums_stats" js="0">Форум</word>
+  <word key="menu__forums_stats_topics" js="0">Новые темы</word>
+  <word key="menu__forums_stats_posts" js="0">Новые сообщения</word>
+  <word key="r__forums" js="0">Форум</word>
+  <word key="r__forums_manage" js="0">Может просматривать категории и разделы</word>
+  <word key="r__forums_add" js="0">Может создавать категории и разделы</word>
+  <word key="r__forums_edit" js="0">Может изменять категории и разделы</word>
+  <word key="r__forums_perms" js="0">Может изменять права доступа к разделам</word>
+  <word key="r__forums_massManageContent" js="0">Может массово перемещать/удалять темы в разделах?</word>
+  <word key="r__forums_delete" js="0">Может удалять категории и разделы</word>
+  <word key="r__archive_manage" js="0">Может изменять настройки архивирования</word>
+  <word key="r__settings_access" js="0">Имеет доступ к настройкам</word>
+  <word key="r__forum_settings" js="0">Может изменять настройки разделов</word>
+  <word key="r__rss" js="0">Ленты</word>
+  <word key="r__rss_manage" js="0">Может просматривать импортируемые ленты</word>
+  <word key="r__rss_add" js="0">Может создавать импортируемые ленты</word>
+  <word key="r__rss_edit" js="0">Может изменять импортируемые ленты</word>
+  <word key="r__rss_delete" js="0">Может удалять импортируемые ленты</word>
+  <word key="r__rss_run" js="0">Может запускать импорт лент</word>
+  <word key="r__savedActions" js="0">Сохранённые действия</word>
+  <word key="r__savedActions_manage" js="0">Может просматривать сохранённые действия</word>
+  <word key="r__savedActions_add" js="0">Может создавать сохранённые действия</word>
+  <word key="r__savedActions_edit" js="0">Может изменять сохранённые действия</word>
+  <word key="r__savedActions_delete" js="0">Может удалять сохранённые действия</word>
+  <word key="r__topics" js="0">Статистика тем</word>
+  <word key="r__topics_manage" js="0">Может просматривать статистику новых тем</word>
+  <word key="r__posts" js="0">Статистика сообщений</word>
+  <word key="r__posts_manage" js="0">Может просматривать статистику новых сообщений</word>
+  <word key="modperms__core_Content_forums_Topic" js="0">Форум</word>
+  <word key="can_pin_topic" js="0">Может закреплять темы/вопросы</word>
+  <word key="can_unpin_topic" js="0">Может откреплять темы/вопросы</word>
+  <word key="can_feature_topic" js="0">Может отмечать темы/вопросы рекомендуемыми</word>
+  <word key="can_unfeature_topic" js="0">Может отмечать темы/вопросы обычными</word>
+  <word key="can_edit_topic" js="0">Может изменять темы/вопросы</word>
+  <word key="can_hide_topic" js="0">Может скрывать темы/вопросы</word>
+  <word key="can_unhide_topic" js="0">Может отменять скрытие тем/вопросов</word>
+  <word key="can_view_hidden_topic" js="0">Может просматривать скрытые темы/вопросы</word>
+  <word key="can_move_topic" js="0">Может перемещать темы/вопросы</word>
+  <word key="can_move_topic_desc" js="0">Сможет перемещать записи только между разделами, которые он может модерировать, но не в любые другие разделы.</word>
+  <word key="can_lock_topic" js="0">Может закрывать темы/вопросы</word>
+  <word key="can_unlock_topic" js="0">Может открывать темы/вопросы</word>
+  <word key="can_reply_to_locked_topic" js="0">Может отвечать в закрытые темы/вопросы</word>
+  <word key="can_delete_topic" js="0">Может удалять темы/вопросы</word>
+  <word key="can_split_merge_topic" js="0">Может разделять и объединять темы/вопросы</word>
+  <word key="can_edit_post" js="0">Может изменять сообщения/ответы</word>
+  <word key="can_hide_post" js="0">Может скрывать сообщения/ответы</word>
+  <word key="can_unhide_post" js="0">Может отменять скрытие сообщений/ответов</word>
+  <word key="can_view_hidden_post" js="0">Может просматривать скрытые сообщения/ответы</word>
+  <word key="can_delete_post" js="0">Может удалять сообщения/ответы</word>
+  <word key="can_read_all_topics" js="0">Может просматривать все темы/вопросы</word>
+  <word key="can_read_all_topics_desc" js="0">Некоторые разделы настроены на отображение только своих тем/вопросов.</word>
+  <word key="can_set_best_answer" js="0">Может отмечать лучший ответ в вопросах</word>
+  <word key="can_feature_comments_topic" js="0">Может рекомендовать сообщениям в темах</word>
+  <word key="can_unfeature_comments_topic" js="0">Может удалять рекомендации сообщений в темах</word>
+  <word key="can_add_item_message_topic" js="0">Может добавлять сообщения к темам</word>
+  <word key="can_edit_item_message_topic" js="0">Может изменять сообщения к темам</word>
+  <word key="can_delete_item_message_topic" js="0">Может удалять сообщения к темам</word>
+  <word key="forums" js="0">Категории и разделы</word>
+  <word key="forums_sg" js="0">Раздел</word>
+  <word key="forums_add_child" js="0">Создать подраздел</word>
+  <word key="forums_add_child_cat" js="0">Создать раздел</word>
+  <word key="forum_name" js="0">Название</word>
+  <word key="forum_description" js="0">Описание</word>
+  <word key="forum_description_placeholder" js="0">Добавить описание...</word>
+  <word key="forum_type" js="0">Тип</word>
+  <word key="forum_type_normal" js="0">Раздел</word>
+  <word key="forum_type_normal_desc" js="0">Можно создавать темы и ответы в них. Ответы располагаются в хронологическом порядке.</word>
+  <word key="forum_type_qa" js="0">Вопрос-ответ</word>
+  <word key="forum_type_qa_desc" js="0">Можно создавать вопросы и ответы в них. Ответы располагаются в порядке их рейтинга.</word>
+  <word key="forum_type_category" js="0">Категория</word>
+  <word key="forum_type_category_desc" js="0">Можно создавать только разделы. Размещать темы и сообщения внутри категории нельзя.</word>
+  <word key="forum_type_redirect" js="0">Cсылка</word>
+  <word key="forum_type_redirect_desc" js="0">Можно настроить переход пользователей на другое расположение при клике на неё.</word>
+  <word key="forum_password_on" js="0">Защитить паролем?</word>
+  <word key="forum_password_on_desc" js="0">Если активировано, пользователи, имеющие доступ к разделу, должны будут ввести пароль для доступа к нему. Данная функция не распространяется на вложенные разделы.</word>
+  <word key="forum_password" js="0">Пароль</word>
+  <word key="forum_password_override" js="0">Не требовать пароль</word>
+  <word key="forum_display" js="0">Отображение</word>
+  <word key="forum_topicfilter" js="0">Фильтр по умолчанию</word>
+  <word key="forum_rules" js="0">Правила</word>
+  <word key="forum_show_rules" js="0">Отображать правила?</word>
+  <word key="forum_show_rules_none" js="0">Не отображать</word>
+  <word key="forum_show_rules_link" js="0">Отображать ссылку на правила</word>
+  <word key="forum_show_rules_link_desc" js="0">Ссылка на страницу правил будет отображаться в шапке сайта</word>
+  <word key="forum_show_rules_full" js="0">Отображать текст правил</word>
+  <word key="forum_show_rules_full_desc" js="0">Правила будут отображаться в шапке сайта</word>
+  <word key="forum_rules_title" js="0">Заголовок правил</word>
+  <word key="forum_rules_text" js="0">Правила</word>
+  <word key="forum_settings" js="0">Общие настройки</word>
+  <word key="posting_settings" js="0">Публикация</word>
+  <word key="forum_allow_poll" js="0">Активировать опросы?</word>
+  <word key="posts" js="0">Сообщения</word>
+  <word key="forum_preview_posts" js="0">Сообщения должны быть утверждены</word>
+  <word key="forum_preview_posts_qa" js="0">Сообщения должны быть утверждены</word>
+  <word key="forum_preview_posts_topics" js="0">Новые темы</word>
+  <word key="forum_preview_posts_questions" js="0">Новые вопросы</word>
+  <word key="forum_preview_posts_posts" js="0">Ответы</word>
+  <word key="forum_preview_posts_answers" js="0">Ответы</word>
+  <word key="forum_inc_postcount" js="0">Увеличивать счётчик сообщений?</word>
+  <word key="forum_inc_postcount_desc" js="0">Если выключено, счётчик публикаций пользователей не будет увеличиваться при публикации контента в этом форуме.</word>
+  <word key="forum_redirect_url" js="0">Ссылка</word>
+  <word key="forum_redirect_hits" js="0">Счётчик переходов</word>
+  <word key="forum_redirect_hits_desc" js="0">Количество кликов по ссылке. Этот счётчик работает автоматически, но вы можете указать своё значение.</word>
+  <word key="forum_permission_custom_error" js="0">Сообщение об отсутствии прав</word>
+  <word key="forum_permission_custom_error_desc" js="0">Если указано, это сообщение будет отображено при попытке доступа к разделу пользователями, которые не имеют соответствующих прав.</word>
+  <word key="forum_permerror_placeholder" js="0">Добавить сообщение об ошибке...</word>
+  <word key="forum_skin_id" js="0">Переопределить стиль</word>
+  <word key="forum_skin_id_desc" js="0">При просмотре этого раздела будет использоваться выбранный стиль независимо от настроек пользователя.</word>
+  <word key="forum_skin_id_default" js="0">- Не переопределять -</word>
+  <word key="forum_display_forum" js="0">Отображение раздела</word>
+  <word key="forum_display_topic" js="0">Отображение тем</word>
+  <word key="forum_display_question" js="0">Отображение вопросов</word>
+  <word key="forum_forum_allow_rating" js="0">Включить рейтинг тем</word>
+  <word key="forum_forum_allow_rating_desc" js="0"><![CDATA[Вы можете контролировать, какие группы могут оставлять рейтинг в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>.]]></word>
+  <word key="posting_requirements" js="0">Требования для публикации</word>
+  <word key="forum_min_posts_view" js="0">Минимум сообщений для просмотра раздела</word>
+  <word key="forum_min_posts_post" js="0">Минимум сообщений для возможности публикации</word>
+  <word key="forum_can_view_others" js="0">Пользователи могут видеть чужие темы?</word>
+  <word key="forum_can_view_others_desc" js="0">Модераторы могут (где у них есть права) видеть все темы. Вы можете создавать такие разделы, например, для общения пользователей с администрацией сайта.</word>
+  <word key="forum_can_view_others_qa" js="0">Пользователи могут видеть чужие вопросы?</word>
+  <word key="forum_can_view_others_qa_desc" js="0">Модераторы могут (где у них есть права) видеть все вопросы. Вы можете создавать такие разделы, например, для поддержки пользователей.</word>
+  <word key="forum_permission_showtopic" js="0">Пользователи без права чтения могут открывать раздел</word>
+  <word key="forum_permission_showtopic_desc" js="0">Если пользователь имеет права на просмотр раздела, но не имеет права на чтение тем, эта настройка контролирует, может ли пользователь открыть раздел и увидеть заголовки тем.</word>
+  <word key="forum_permission_showtopic_qa" js="0">Пользователи без права чтения могут открывать раздел</word>
+  <word key="forum_permission_showtopic_qa_desc" js="0">Если пользователь имеет права на просмотр раздела, но не имеет права на чтение вопросов, эта настройка контролирует, может ли пользователь открыть раздел и увидеть заголовки вопросов.</word>
+  <word key="forum_disable_sharelinks" js="0">Включить публикацию контента</word>
+  <word key="forum_disable_sharelinks_desc" js="0"><![CDATA[<a href='{internal.app=core&module=promotion&controller=sharelinks}'>Настройки публикации контента</a>]]></word>
+  <word key="forum_tag_predefined" js="0">Предопределённые теги</word>
+  <word key="forum_tag_predefined_unlimited" js="0">По умолчанию</word>
+  <word key="forum_tag_predefined_desc" js="0">При использовании закрытой системы тегов, пользователям придётся выбирать их из этого списка. При использовании открытой системы тегов, они будут отображены как рекомендации.</word>
+  <word key="forum_ipseo_priority" js="0">Приоритет в карте сайта</word>
+  <word key="forum_ipseo_priority_desc" js="0"><![CDATA[Приоритет помогает указать поисковым системам важность индексации той или иной страницы. <a href='{internal.app=core&module=promotion&controller=seo&tab=sitemap}'>Настройка карты сайта</a>]]></word>
+  <word key="forum_viglink" js="0">Включить VigLink</word>
+  <word key="forum_qa_rate_questions" js="0">Кто может оценивать вопросы?</word>
+  <word key="forum_qa_rate_questions_desc" js="0">Вопросы с лучшим рейтингом за последние 30 дней отобразятся в блоке &quot;Популярные вопросы&quot; на главной странице форума.</word>
+  <word key="forum_qa_rate_answers" js="0">Кто может оценивать ответы?</word>
+  <word key="forum_qa_rate_answers_desc" js="0">Ответы сортируются в зависимости от их рейтинга.</word>
+  <word key="bw_enable_answers_member" js="0">Пользователь, задавший вопрос, может выбрать лучший ответ?</word>
+  <word key="bw_enable_answers_member_desc" js="0">Лучший ответ всегда отображается над всеми ответами.</word>
+  <word key="forum_icon" js="0">Значок</word>
+  <word key="forum_icon_desc" js="0"><![CDATA[Значок отображается рядом с разделом с списке разделов. Она будет автоматически затухать при отсутствии непрочитанных сообщений.<br>Если не настроено, будет использоваться стандартный значок.]]></word>
+  <word key="forum_parent_id" js="0">Родительский раздел</word>
+  <word key="forum_parent_id_error" js="0">Только категории могут не иметь родителя.</word>
+  <word key="forums_posts_per_page" js="0">Сообщений на страницу</word>
+  <word key="add_forum" js="0">Добавить раздел</word>
+  <word key="edit_forum" js="0">Изменение раздела</word>
+  <word key="node_no_parentf" js="0">Отсутствует</word>
+  <word key="forum_use_feature_color" js="0">Использовать цветовое свойство</word>
+  <word key="forum_use_feature_color_desc" js="0">Цветовое свойство отображается в виде бейджа рядом с заголовком раздела.</word>
+  <word key="forum_feature_color" js="0">Цветовое свойство</word>
+  <word key="rebuilding_starter_ids" js="0">Перестроение идентификаторов автором тем</word>
+  <word key="forums_topic_post" js="0">Сообщения в разделе</word>
+  <word key="forums_topic" js="0">Темы в разделе</word>
+  <word key="forums_topic_pl" js="0">Темы</word>
+  <word key="menu__forums_forums_settings" js="0">Настройки форума</word>
+  <word key="forums_popular_now" js="0">Тема становится популярной при</word>
+  <word key="forums_popular_now_desc" js="0">Популярные темы выделяются в общем списке.</word>
+  <word key="posts_in_the_last" js="0">сообщениях за последние</word>
+  <word key="acplogs__forums_settings" js="0">Обновлены настройки форума</word>
+  <word key="topics" js="0">Темы</word>
+  <word key="questions" js="0">Вопросы</word>
+  <word key="topic_settings" js="0">Настройки тем</word>
+  <word key="question_settings" js="0">Настройки вопросов</word>
+  <word key="forums_questions_downvote" js="0">Отрицательный рейтинг для вопросов</word>
+  <word key="forums_answers_downvote" js="0">Отрицательный рейтинг для ответов</word>
+  <word key="forums_new_questions" js="0">Новые вопросы</word>
+  <word key="forums_new_questions_desc" js="0">Новые вопросы отображаются при просмотре раздела.</word>
+  <word key="forums_new_questions_best" js="0">Вопросы, где не был выбран лучший ответ.</word>
+  <word key="forums_new_questions_any" js="0">Вопросы, которые не получили никаких ответов.</word>
+  <word key="forums_rss" js="0">Включить RSS-ленту</word>
+  <word key="forums_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
+  <word key="forums_topics_per_page" js="0">Количество тем на страницу</word>
+  <word key="forums_default_view" js="0">Стандартный вид форума</word>
+  <word key="forums_default_view_table" js="0">Таблица: Традиционная таблица разделов</word>
+  <word key="forums_default_view_grid" js="0">Сетка: Отображает разделы в виде карточек в сетке</word>
+  <word key="forums_default_view_fluid" js="0">Динамический: Упрощённый динамический список тем с фильтров по разделу</word>
+  <word key="forums_default_view_fluid_desc" js="0">Динамический вид работает наилучшим образом с небольшим количеством разделов и несложной иерархией. Фильтр разделов динамического вида будет отображать до трёх уровней вложенности.</word>
+  <word key="forums_default_view_choose" js="0">Пользователь может выбрать сам?</word>
+  <word key="forums_default_view_choose_desc" js="0">Укажите виды, из которых вы разрешите пользователям выбирать</word>
+  <word key="forums_default_view_choose_none" js="0">Не разрешать пользователям выбирать виды</word>
+  <word key="forums_fluid_pinned" js="0">Учитывать прикреплённые темы</word>
+  <word key="forums_fluid_pinned_desc" js="0">Отображать прикреплённые темы из выбранных разделов наверху списка тем при использовании динамического вида</word>
+  <word key="forums_default_view_choose_error" js="0">Вы должны указать как минимум два вида, которые пользователи смогут выбрать</word>
+  <word key="archiving" js="0">Архивация</word>
+  <word key="archiving_blurb" js="0">Если у вас очень большой сайт, это может быть выгодно для уменьшения размера таблицы базы данных, в которой хранятся сообщения. Архивирование тем является альтернативой удалению, но они по-прежнему доступны. Основное отличие в том, что они перемещаются в отдельную таблицу в базе данных и недоступны для изменения. Вы сможете восстановить темы из архива в любое время.</word>
+  <word key="archive_topics_where" js="0"><![CDATA[Архивировать темы при выполнении <em>всех</em> условий]]></word>
+  <word key="archive_topic_forums" js="0">В разделах</word>
+  <word key="archive_topic_not_forums" js="0">В разделах</word>
+  <word key="archive_topic_pinned" js="0">Закреплённые/Откреплённые</word>
+  <word key="archive_topic_featured" js="0">Рекомендуемые/Обычные</word>
+  <word key="archive_topic_state" js="0">Закрытые/Открытые</word>
+  <word key="unlocked" js="0">Открытые</word>
+  <word key="archive_topic_approved" js="0">Скрытые/Не скрытые</word>
+  <word key="unhidden" js="0">Показываемые</word>
+  <word key="archive_topic_poll" js="0">Опросы</word>
+  <word key="topic_has_poll" js="0">Имеется опрос</word>
+  <word key="topic_does_not_have_poll" js="0">Не имеется опрос</word>
+  <word key="poll_with_recent_vote" js="0">Последний голос в опросе: %s</word>
+  <word key="archive_topic_post" js="0">Сообщений</word>
+  <word key="archive_topic_view" js="0">Просмотров</word>
+  <word key="archive_topic_rating" js="0">Рейтинг</word>
+  <word key="archive_topic_starter" js="0">Автор</word>
+  <word key="archive_topic_starter_not" js="0">Автор не</word>
+  <word key="archive_topics_not_where" js="0"><![CDATA[Не архивировать темы при выполнении <em>любого</em> условия]]></word>
+  <word key="archive_not_topic_post" js="0">Сообщений</word>
+  <word key="archive_not_topic_view" js="0">Просмотров</word>
+  <word key="archive_not_topic_rating" js="0">Рейтинг</word>
+  <word key="archive_last_post" js="0">Последнее сообщение</word>
+  <word key="archive_not_last_post" js="0">Последнее сообщение</word>
+  <word key="archive_storage" js="0">Хранение архивированных сообщений</word>
+  <word key="archive_storage_location" js="0">Перемещать сообщения в</word>
+  <word key="archive_storage_location_desc" js="0">Если вы уже настроили архивацию и хотите изменить расположение архива, вы должны вручную переместить сообщения, которые уже находятся в архиве. Свяжитесь с технической поддержкой для получения помощи.</word>
+  <word key="archive_storage_location_local" js="0">В таблицу основной базы данных сайта</word>
+  <word key="archive_storage_location_remote" js="0">В удалённую таблицу</word>
+  <word key="greater_than" js="0">Более чем</word>
+  <word key="less_than" js="0">Менее чем</word>
+  <word key="any_time" js="0">Все время</word>
+  <word key="archive_rules_effects" js="0">Количество тем, которые будут архивированы</word>
+  <word key="forum_sort_key" js="0">Сортировка по умолчанию</word>
+  <word key="forum_sort_key_qa" js="0">Сортировка по умолчанию</word>
+  <word key="archive_settings" js="0">Настройки архивации</word>
+  <word key="archive_on" js="0">Включить архивацию</word>
+  <word key="task__archive" js="0">Архивирует сообщения.</word>
+  <word key="task__unarchive" js="0">Разархивирует сообщения.</word>
+  <word key="remove_archive_exlude" js="0">Разрешить архивацию этой темы</word>
+  <word key="unarchive" js="0">Разархивировать</word>
+  <word key="unarchive_confirm" js="0">Разархивированая тема будет исключена из архивирования в будущем. После подтверждения пройдёт около {# [0:минут][1:минуты][*1:минуты][?:минут]}, прежде чем тема разархивируется.</word>
+  <word key="uanrchive_settings_change" js="0">Некоторые темы, которые находятся в архиве, не соответствуют текущим настройкам архивации. Вы хотите разархивировать их?</word>
+  <word key="restore_unmatched_settings" js="0">Да, восстановить темы, которые не соответствуют новым настройкам архивации</word>
+  <word key="leave_archived_topics" js="0">Нет, оставить все архивированные темы в архиве</word>
+  <word key="archive_remote_sql_host" js="0">Хост</word>
+  <word key="archive_remote_sql_user" js="0">Имя пользователя</word>
+  <word key="archive_remote_sql_pass" js="0">Пароль</word>
+  <word key="archive_remote_sql_database" js="0">База данных</word>
+  <word key="archive_remote_sql_database_desc" js="0">База данных должна быть уже создана. Если вы не знаете как создать базу данных, обратитесь к вашему хостинг-провайдеру для получения помощи.</word>
+  <word key="archive_sql_port" js="0">Порт</word>
+  <word key="archive_sql_port_desc" js="0">Если вы не уверены, оставьте стандартное значение.</word>
+  <word key="archive_sql_socket" js="0">Сокет</word>
+  <word key="archive_sql_socket_desc" js="0">Если не указано, будут использоваться стандартные настройки сервера. Если не уверены, оставьте стандартное значение.</word>
+  <word key="archive_sql_tbl_prefix" js="0">Префикс</word>
+  <word key="archive_sql_tbl_prefix_desc" js="0">Если указано, таблицы будут создаваться с указанным префиксом. Рекомендуется оставить поле пустым.</word>
+  <word key="archive_remote_db_error" js="0">Возникла проблема с удалённой базой данных: %s</word>
+  <word key="acplogs__archive_settings" js="0">Изменены настройки архивации</word>
+  <word key="perm_forum_perm__view" js="0">Просмотр раздела</word>
+  <word key="perm_forum_perm__view_rest" js="0"><![CDATA[Просмотр раздела<br><small>(с {# [0:публикациями][1:публикацией][*1:публикацией][?:публикациями]})</small>]]></word>
+  <word key="perm_forum_perm__read" js="0">Чтение тем</word>
+  <word key="perm_forum_perm__read_pass" js="0"><![CDATA[Чтение тем<br><small>(если введён пароль)</small>]]></word>
+  <word key="perm_forum_perm__read_qa" js="0">Чтение вопросов</word>
+  <word key="perm_forum_perm__read_qa_pass" js="0"><![CDATA[Чтение вопросов<br><small>(если введён пароль)</small>]]></word>
+  <word key="perm_forum_perm__read2" js="0">Чтение своих тем</word>
+  <word key="perm_forum_perm__read2_pass" js="0"><![CDATA[Чтение своих тем<br><small>(если введён пароль)</small>]]></word>
+  <word key="perm_forum_perm__read2_qa" js="0">Чтение своих вопросов</word>
+  <word key="perm_forum_perm__read2_qa_pass" js="0"><![CDATA[Чтение своих вопросов<br><small>(если введён пароль)</small>]]></word>
+  <word key="perm_forum_perm__add" js="0">Создание тем</word>
+  <word key="perm_forum_perm__add_rest" js="0"><![CDATA[Создание тем<br><small>(с {# [0:публикациями][1:публикацией][*1:публикацией][?:публикациями]})</small>]]></word>
+  <word key="perm_forum_perm__reply" js="0">Ответ в темы</word>
+  <word key="perm_forum_perm__reply_rest" js="0"><![CDATA[Ответ в темах<br><small>(с {# [0:публикациями][1:публикацией][*1:публикацией][?:публикациями]})</small>]]></word>
+  <word key="perm_forum_perm__add_qa" js="0">Создание вопросов</word>
+  <word key="perm_forum_perm__add_qa_rest" js="0"><![CDATA[Создание вопросов<br><small>(с {# [0:публикациями][1:публикацией][*1:публикацией][?:публикациями]})</small>]]></word>
+  <word key="perm_forum_perm__reply_qa" js="0">Ответ на вопросы</word>
+  <word key="perm_forum_perm__reply_qa_rest" js="0"><![CDATA[Публикация ответов<br><small>(с {# [0:публикациями][1:публикацией][*1:публикацией][?:публикациями]})</small>]]></word>
+  <word key="perm_forum_perm__attachments" js="0">Скачивание вложений</word>
+  <word key="posts_number" js="0">{# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений]}</word>
+  <word key="posts_no_number" js="0">{!# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений]}</word>
+  <word key="replies_number" js="0">{# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][?:ответов]}</word>
+  <word key="replies_no_number" js="0">{!# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][?:ответов]}</word>
+  <word key="redirect_hits" js="0">{# [0:переходов][1:переход][2:перехода][3:перехода][4:перехода][11:переходов][12:переходов][13:переходов][14:переходов][*1:переход][*2:перехода][*3:перехода][*4:перехода][?:переходов]} по ссылке</word>
+  <word key="answers_number" js="0">{# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][?:ответов]}</word>
+  <word key="answers_no_number" js="0">{!# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][?:ответов]}</word>
+  <word key="votes_number" js="0">{# [1:голос][2:голоса][3:голоса][4:голоса][11:голосов][12:голосов][13:голосов][14:голосов][*1:голос][*2:голоса][*3:голоса][*4:голоса][?:голосов]}</word>
+  <word key="votes_no_number" js="0">{!# [0:голосов][1:голос][2:голоса][3:голоса][4:голоса][11:голосов][12:голосов][13:голосов][14:голосов][*1:голос][*2:голоса][*3:голоса][*4:голоса][?:голосов]}</word>
+  <word key="queued_topics_badge" js="0">{# [0:тем][1:тема][2:темы][3:темы][4:темы][11:тем][12:тем][13:тем][14:тем][*1:тема][*2:темы][*3:темы][*4:темы][?:тем] в очереди}</word>
+  <word key="queued_posts_badge" js="0">{# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений] в очереди}</word>
+  <word key="queued_topics" js="0">Не утверждено</word>
+  <word key="queued_posts" js="0">С не утверждёнными ответами</word>
+  <word key="start_new_topic" js="0">Создать тему</word>
+  <word key="start_new_topic_lc" js="0">создать новую тему</word>
+  <word key="start_new_topic_desc" js="0">Создать новую тему в этом разделе</word>
+  <word key="ask_a_question" js="0">Задать вопрос</word>
+  <word key="ask_a_question_lc" js="0">задавать вопрос</word>
+  <word key="ask_a_question_desc" js="0">Задать вопрос в этом разделе</word>
+  <word key="answer_this_question" js="0">Ответить на вопрос</word>
+  <word key="reply_to_this_topic" js="0">Ответить в тему</word>
+  <word key="mark_forum_read" js="0">Отметить раздел прочитанным</word>
+  <word key="mark_forum_read_title" js="0">Отметить все темы в этом разделе прочитанными</word>
+  <word key="forum_password_bad" js="0">Неверный пароль.</word>
+  <word key="topic_details" js="0">Данные темы</word>
+  <word key="topic_mainTab" js="0">Содержание</word>
+  <word key="question_mainTab" js="0">Содержимое</word>
+  <word key="question_title" js="0">Вопрос</word>
+  <word key="topic_title" js="0">Заголовок</word>
+  <word key="topic_tags" js="0">Теги</word>
+  <word key="topic_auto_follow_suffix" js="0">Сообщать о новых ответах</word>
+  <word key="topic_pollTab" js="0">Опрос</word>
+  <word key="topic_open_time" js="0">Время открытия</word>
+  <word key="topic_close_time" js="0">Время закрытия</word>
+  <word key="topic_type" js="0">Фильтр</word>
+  <word key="all_topics" js="0">Все</word>
+  <word key="open_topics" js="0">Открыто</word>
+  <word key="popular_now" js="0">Популярно</word>
+  <word key="locked_topics" js="0">Закрыто</word>
+  <word key="poll" js="0">Опрос</word>
+  <word key="moved_topics" js="0">Перемещено</word>
+  <word key="topics_i_started" js="0">Опубликовано мной</word>
+  <word key="topics_i_posted_in" js="0">С моими ответами</word>
+  <word key="questions_i_asked" js="0">Вопросы, заданные мной</word>
+  <word key="questions_i_posted_in" js="0">Вопросы, на которые я давал ответы</word>
+  <word key="question_answered" js="0">Вопросы с лучшим ответом</word>
+  <word key="question_not_answered" js="0">Вопросы без лучшего ответа</word>
+  <word key="last_post" js="0">Дата последнего сообщения</word>
+  <word key="last_poster" js="0">Имя автора последнего ответа</word>
+  <word key="topic_starter" js="0">Имя автора темы</word>
+  <word key="question_asker" js="0">Имя пользователя, задавшего вопрос</word>
+  <word key="topic_started" js="0">Дата создания</word>
+  <word key="topic_started_date" js="0">Создана %s</word>
+  <word key="replies" js="0">Ответы</word>
+  <word key="sort_direction" js="0">Направление сортировки</word>
+  <word key="sort_num_replies" js="0">По количеству ответов</word>
+  <word key="sort_question_rating" js="0">По количеству голосов</word>
+  <word key="asc" js="0">По возрастанию (старые сверху/по алфавиту)</word>
+  <word key="desc" js="0">По убыванию (сначала новые)</word>
+  <word key="time_frame" js="0">Последний ответ</word>
+  <word key="show_all" js="0">В любое время</word>
+  <word key="since_last_visit" js="0">Мой последний вход (%s)</word>
+  <word key="forum_home" js="0">Главная форума</word>
+  <word key="all_questions" js="0">Все вопросы в этом разделе</word>
+  <word key="featured_question" js="0">Рекомендуемый вопрос</word>
+  <word key="most_popular_questions" js="0">Самые популярные вопросы</word>
+  <word key="from_the_past_30_days" js="0">За последние 30 дней</word>
+  <word key="explore_questions_title" js="0">Просмотр вопросов</word>
+  <word key="new_questions" js="0">Новые вопросы</word>
+  <word key="awaiting_an_answer" js="0">Ожидают ответа</word>
+  <word key="best_answer_by" js="0">Лучший ответ от %s, %s</word>
+  <word key="ask_byline" js="0">Спросил %s, %s</word>
+  <word key="ask_byline_itemprop" js="0">Вопрос задан %s, %s</word>
+  <word key="ask_byline_no_date" js="0">Спросил %s</word>
+  <word key="forum_rss_title_topics" js="0">Последние темы: %s</word>
+  <word key="forum_rss_title_questions" js="0">Последние вопросы: %s</word>
+  <word key="first_post" js="0">Первое сообщение</word>
+  <word key="latest_post" js="0">Последнее сообщение</word>
+  <word key="latest_answer" js="0">Последний ответ</word>
+  <word key="first_unread_post_hover" js="0">Первое непрочитанное</word>
+  <word key="best_answer_post" js="0">Лучший ответ</word>
+  <word key="topic_started_by" js="0">Автор %s</word>
+  <word key="topic" js="0">Тема</word>
+  <word key="answer_count" js="0">{# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][?:ответов]} на этот вопрос</word>
+  <word key="reply_count" js="0">{# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений]} в этой теме</word>
+  <word key="best_answer_tooltip" js="0">Лучший ответ на вопрос</word>
+  <word key="vote_answer_up" js="0">Голосовать за ответ</word>
+  <word key="vote_answer_down" js="0">Голосовать против ответа</word>
+  <word key="vote_question_up" js="0">Голосовать за вопрос</word>
+  <word key="vote_question_down" js="0">Голосовать против вопроса</word>
+  <word key="best_answers" js="0">Лучшие ответы</word>
+  <word key="set_as_best_answer" js="0">Отметить как лучший ответ</word>
+  <word key="unset_as_best_answer" js="0">Отозвать как лучший ответ</word>
+  <word key="sort_by_answers" js="0">Сортировать по голосам</word>
+  <word key="sort_by_date" js="0">Сортировать по дате</word>
+  <word key="select_forum" js="0">Выберите раздел</word>
+  <word key="create_new_topic" js="0">Новая тема</word>
+  <word key="ask_new_question" js="0">Задать вопрос</word>
+  <word key="no_answers" js="0">Нет ответов на вопрос</word>
+  <word key="no_forum_posts" js="0">Сообщений нет</word>
+  <word key="no_forum_posts_password" js="0">Сообщений нет</word>
+  <word key="no_posts_returned" js="0">Нет сообщений для отображения</word>
+  <word key="topic_pl" js="0">Темы</word>
+  <word key="topic_pl_lc" js="0">темы</word>
+  <word key="post_pl" js="0">Сообщения</word>
+  <word key="post_pl_lc" js="0">сообщения</word>
+  <word key="archivedpost_pl" js="0">Архивированные сообщения</word>
+  <word key="archivedpost_pl_lc" js="0">архивированные сообщения</word>
+  <word key="topic__comment_placeholder" js="0">Ответить в тему...</word>
+  <word key="question__comment_placeholder" js="0">Ответить на вопрос...</word>
+  <word key="moderator_actions" js="0">Модерировать</word>
+  <word key="toggle_this_category" js="0">Свернуть/развернуть категорию</word>
+  <word key="topic_locked" js="0">Эта тема закрыта</word>
+  <word key="topic_pinned" js="0">Это тема закреплена</word>
+  <word key="topic_hidden" js="0">Эта тема скрыта</word>
+  <word key="topic_featured" js="0">Эта тема рекомендуемая</word>
+  <word key="create_topic_locked" js="0">Закрыть тему</word>
+  <word key="create_topic_pinned" js="0">Закрепить тему</word>
+  <word key="create_topic_hidden" js="0">Скрыть тему</word>
+  <word key="create_topic_featured" js="0">Сделать рекомендуемой</word>
+  <word key="mark_topic_read" js="0">Отметить тему прочитанной</word>
+  <word key="answered" js="0">Есть лучший ответ</word>
+  <word key="awaiting_answer" js="0">Ожидает лучшего ответа</word>
+  <word key="forum_requires_password" js="0">Введите пароль к %s</word>
+  <word key="enter_forum" js="0">Вход в раздел</word>
+  <word key="enter_forum_password_1" js="0">Просмотр %s требует ввода пароля. Если вы знаете его, введите в поле ниже.</word>
+  <word key="forums_comments" js="0">{!# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][?:ответов]}</word>
+  <word key="forums_num_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="share_this_post" js="0">Поделиться сообщением</word>
+  <word key="subforums" js="0">Подразделы:</word>
+  <word key="subforums_header" js="0">Подразделы</word>
+  <word key="subforums_header_category" js="0">Разделы</word>
+  <word key="reply_to_topic" js="0">Ответить в тему</word>
+  <word key="link_to_post" js="0">Ссылка на сообщение</word>
+  <word key="share_externally" js="0">Поделиться на других сайтах</word>
+  <word key="featured_topics" js="0">Рекомендуемые темы</word>
+  <word key="no_new_posts" js="0">Нет новых сообщений в теме</word>
+  <word key="new_posts" js="0">Новые сообщения в этой теме</word>
+  <word key="featured_topic" js="0">Рекомендуемая тема</word>
+  <word key="next_question" js="0">Следующий вопрос</word>
+  <word key="next_topic" js="0">Следующая тема</word>
+  <word key="prev_question" js="0">Предыдущий вопрос</word>
+  <word key="prev_topic" js="0">Предыдущая тема</word>
+  <word key="topic_create_state" js="0">После публикации...</word>
+  <word key="topic_information" js="0">Информация о теме</word>
+  <word key="topic_moderator_options" js="0">Настройки модератора</word>
+  <word key="submit_question" js="0">Создать вопрос</word>
+  <word key="submit_topic" js="0">Отправить тему</word>
+  <word key="submit_topic_edit" js="0">Изменить тему</word>
+  <word key="submit_question_edit" js="0">Изменить вопрос</word>
+  <word key="topic_submit_comment" js="0">Отправить ответ</word>
+  <word key="edit_question" js="0">Изменение вопроса</word>
+  <word key="edit_topic" js="0">Изменение темы</word>
+  <word key="edit_reply" js="0">Изменение сообщения</word>
+  <word key="go_to_forum" js="0">Перейти на %s</word>
+  <word key="go_back_to_forum" js="0">Перейти к списку тем</word>
+  <word key="go_back_to_qa_forum" js="0">Перейти к списку вопросов</word>
+  <word key="first_unread_post" js="0">К первому непрочитанному сообщению</word>
+  <word key="get_last_post" js="0">К последнему сообщению</word>
+  <word key="topic_is_archived" js="0">Архивировано</word>
+  <word key="topic_archived_desc" js="0">Эта тема находится в архиве и закрыта для публикации сообщений.</word>
+  <word key="count_topics_in_forum" js="0">{# [0:тем][1:тема][2:темы][3:темы][4:темы][11:тем][12:тем][13:тем][14:тем][*1:тема][*2:темы][*3:темы][*4:темы][?:тем] в этом разделе}</word>
+  <word key="count_questions_in_forum" js="0">{# [0:вопросов][1:вопрос][2:вопроса][3:вопроса][4:вопроса][11:вопросов][12:вопросов][13:вопросов][14:вопросов][*1:вопрос][*2:вопроса][*3:вопроса][*4:вопроса][?:вопросов] в этом разделе}</word>
+  <word key="view_next_unread" js="0">Следующая непрочитанная тема</word>
+  <word key="view_next_unread_question" js="0">Следующий непрочитанный вопрос</word>
+  <word key="view_next_unread_title" js="0">Следующая тема с новыми публикациями</word>
+  <word key="view_next_unread_question_title" js="0">Перейти к следующему вопросу, который имеет новые ответы</word>
+  <word key="hide_all_signatures" js="0">Скрыть все подписи</word>
+  <word key="hide_members_signature" js="0">Скрыть подпись пользователя %s</word>
+  <word key="go_to_new_location" js="0">Перейти в перемещённую тему</word>
+  <word key="topic_moved_to" js="0"><![CDATA[Тема перемещена в раздел <a href='%s'><strong>%s</strong></a>]]></word>
+  <word key="question_moved_to" js="0"><![CDATA[Вопрос был перемещён в раздел <a href='%s'><strong>%s</strong></a>]]></word>
+  <word key="topic_merged_to" js="0"><![CDATA[Тема была объединена с <a href='%s'><strong>%s</strong></a>]]></word>
+  <word key="question_merged_to" js="0"><![CDATA[Вопрос был объединён с <a href='%s'><strong>%s</strong></a>]]></word>
+  <word key="this_topic" js="0">Эта тема</word>
+  <word key="this_forum" js="0">Этот раздел</word>
+  <word key="forum_id" js="0">Раздел</word>
+  <word key="announce_forums" js="0">Форум</word>
+  <word key="embed_topic" js="0">Тема раздела</word>
+  <word key="questions_with_best_answers" js="0">Вопросы с лучшим ответом</word>
+  <word key="questions_without_best_answers" js="0">Вопросы без лучшего ответа</word>
+  <word key="this_is_a_popular_post" js="0">Это популярное сообщение.</word>
+  <word key="rate_this_topic" js="0">Оцените эту тему</word>
+  <word key="rate_this_question" js="0">Оцените этот вопрос</word>
+  <word key="sign_in_rate_question" js="0">Войдите, чтобы оценить этот вопрос</word>
+  <word key="sign_in_rate_answer" js="0">Войдите, чтобы оценить этот ответ</word>
+  <word key="no_questions_in_forum" js="0">В этом разделе ещё нет вопросов</word>
+  <word key="no_topics_in_forum" js="0">Нет тем в данном разделе</word>
+  <word key="submit_first_question" js="0">Создать первый вопрос</word>
+  <word key="submit_first_topic" js="0">Создать первую тему</word>
+  <word key="topic_pending_approval" js="0">Эта тема ещё не утверждена и отображается только администрации.</word>
+  <word key="topic_locked_can_comment" js="0">Эта тема закрыта, но ваши права доступа позволяют вам добавлять новые сообщения.</word>
+  <word key="topic_poll_can_comment" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые ответы.</word>
+  <word key="topic_locked_cannot_comment" js="0">Эта тема закрыта для публикации сообщений.</word>
+  <word key="ip_prefix" js="0">IP: %s</word>
+  <word key="popular_questions_title" js="0">Популярные вопросы за последний месяц</word>
+  <word key="no_popular_questions" js="0">Нет популярных вопросов для отображения</word>
+  <word key="new_questions_title_no_answer" js="0">Вопросы без ответов</word>
+  <word key="new_questions_title_no_best" js="0">Вопросы без лучших ответов</word>
+  <word key="no_new_questions" js="0">В данный момент нет новых вопросов</word>
+  <word key="topic_delete_title" js="0">Удалить эту тему</word>
+  <word key="approve_title_topic" js="0">Утвердить эту тему</word>
+  <word key="no_perm_topic_password" js="0">Эта тема не может быть отображена т.к. она находится в защищённом паролем разделе.</word>
+  <word key="no_perm_topic_min_posts" js="0">Эта тема не может быть отображена т.к. она находится в разделе, который требует {# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений]} для просмотра.</word>
+  <word key="no_perm_post_password" js="0">Это сообщение может быть отображено т.к. оно находится в защищённом паролем разделе.</word>
+  <word key="no_perm_post_min_posts" js="0">Это сообщение не может быть отображено т.к. оно находится в разделе, который требует {# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений]} для просмотра.</word>
+  <word key="enter_password" js="0">Введите пароль</word>
+  <word key="topic_unlocks_at" js="0">Тема будет автоматически открыта %s в %s</word>
+  <word key="topic_unlocks_at_short" js="0">Открытие: %s</word>
+  <word key="topic_locks_at" js="0">Тема будет автоматически закрыта %s в %s</word>
+  <word key="topic_locks_at_short" js="0">Закрытие: %s</word>
+  <word key="saved_actions" js="0">Сохранённые действия</word>
+  <word key="saved_actions_sg" js="0">Сохранённые действия</word>
+  <word key="mm_title" js="0">Название</word>
+  <word key="mm_forums" js="0">Форум</word>
+  <word key="topic_properties" js="0">Особенности</word>
+  <word key="mm_leave" js="0">Не изменять</word>
+  <word key="topic_state" js="0">Закрыть/Открыть</word>
+  <word key="topic_pin" js="0">Закрепить/Открепить</word>
+  <word key="topic_approve" js="0">Скрыть/Показать</word>
+  <word key="topic_move" js="0">Переместить в</word>
+  <word key="topic_move_none" js="0">Не перемещать</word>
+  <word key="topic_move_link" js="0">Оставить ссылку на новое расположение</word>
+  <word key="topic_title_st" js="0">Добавить в начало заголовка</word>
+  <word key="topic_title_end" js="0">Добавить в конец заголовка</word>
+  <word key="add_reply" js="0">Добавить ответ</word>
+  <word key="topic_reply" js="0">Добавить ответ</word>
+  <word key="topic_reply_content" js="0">Ответ</word>
+  <word key="topic_reply_postcount" js="0">Увеличить счётчик сообщений?</word>
+  <word key="can_use_saved_actions" js="0">Может использовать сохранённые действия</word>
+  <word key="modlog__saved_action" js="0"><![CDATA[Запущено сохранённое действие "%s" в теме: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__unarchived_topic" js="0"><![CDATA[Разархивирована тема: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Удалена пометка "исключить из архива" с темы: <a href='%s'>%s</a>]]></word>
+  <word key="task__rssimport" js="0">Проверяет RSS-ленту на наличие новых статей и импортирует их в IP.Board</word>
+  <word key="queue_deleting_legacy_topics" js="0">Удаление устаревших данных тем</word>
+  <word key="queue_deleting_legacy_posts" js="0">Удаление устаревших данных сообщений</word>
+  <word key="queue_fixing_hidden_first_post" js="0">Обновление неправильно скрытых тем</word>
+  <word key="queue_rebuilding_new_topic_flag" js="0">Перестроение флагов новых тем в сообщениях</word>
+  <word key="block_forumStatistics" js="0">Статистика форума</word>
+  <word key="block_forumStatistics_desc" js="0">Отображает основную статистику форума</word>
+  <word key="total_topics" js="0">Всего тем</word>
+  <word key="total_posts" js="0">Всего сообщений</word>
+  <word key="block_latestTopics" js="0">Последние темы</word>
+  <word key="block_latestTopics_desc" js="0">Отображает последние отвеченные темы</word>
+  <word key="view_this_topic" js="0">Просмотреть тему %s</word>
+  <word key="block_hotTopics" js="0">Сейчас популярно</word>
+  <word key="block_hotTopics_desc" js="0">Отображает популярные темы на сайте</word>
+  <word key="block_featuredTopics" js="0">Рекомендуемые темы</word>
+  <word key="block_featuredTopics_desc" js="0">Отображает рекомендуемые темы на сайте</word>
+  <word key="block_topicFeed" js="0">Лента тем</word>
+  <word key="block_topicFeed_desc" js="0">Отображает ленту тем согласно заданным критериям</word>
+  <word key="block_postFeed" js="0">Лента сообщений</word>
+  <word key="block_postFeed_desc" js="0">Создать ленту сообщений согласно заданным критериям</word>
+  <word key="digest_area_forums_topic" js="0">Темы</word>
+  <word key="digest_area_forums_forum" js="0">Форум</word>
+  <word key="x_created_topic_in" js="0">%s опубликовал тему в %s</word>
+  <word key="x_asked_new_question" js="0">%s ответил на вопрос в %s</word>
+  <word key="x_replied_to_a_topic" js="0">%s ответил в тему</word>
+  <word key="x_answered_a_question" js="0">%s ответил на вопрос</word>
+  <word key="loc_forums_viewing_topic" js="0">Тема %s</word>
+  <word key="loc_forums_viewing_forum" js="0">Раздел %s</word>
+  <word key="loc_forums_creating_topic" js="0">Создание темы в %s</word>
+  <word key="loc_forums_index" js="0">Главная страница</word>
+  <word key="ad_forum_listing" js="0">После первой темы в каждом разделе</word>
+  <word key="ad_topic_view" js="0">После первого сообщения в каждой теме</word>
+  <word key="ad_fluid_index_view" js="0">Динамический вид списка тем, между темами</word>
+  <word key="ad_fluid_index_view_number" js="0">Отображать эту рекламу после каждой</word>
+  <word key="ad_fluid_index_view_number_suffix" js="0">строки с темой при просмотре в режиме fluid</word>
+  <word key="ad_fluid_index_view_repeat" js="0">Повторяется</word>
+  <word key="ad_fluid_index_view_repeat_suffix" js="0">раз</word>
+  <word key="stats_new_topics" js="0">Новые темы</word>
+  <word key="stats_new_posts" js="0">Новые сообщения</word>
+  <word key="stats_topics_title" js="0">Новые темы за период</word>
+  <word key="stats_posts_title" js="0">Новые сообщения за период</word>
+  <word key="widget_feed_container_topic" js="0">Форумы</word>
+  <word key="block_topicFeed_title" js="0">Темы</word>
+  <word key="block_postFeed_title" js="0">Сообщения</word>
+  <word key="rssimport_task_error" js="0">Попытка импортировать ленту не удалась: %s</word>
+  <word key="block_poll" js="0">Опрос</word>
+  <word key="block_poll_desc" js="0">Создаёт блок с опросом из темы</word>
+  <word key="widget_poll_tid" js="0">Тема</word>
+  <word key="widget_poll_tid_desc" js="0">Начните вводить название темы</word>
+  <word key="poll_view_topic" js="0">Просмотреть тему</word>
+  <word key="__api_forums_posts" js="0">Сообщения</word>
+  <word key="__api_forums_topics" js="0">Темы</word>
+  <word key="__api_forums_forums" js="0">Категории</word>
+  <word key="recommend_post" js="0">Порекомендовать сообщение</word>
+  <word key="recommended_posts" js="0">Рекомендуемые сообщения</word>
+  <word key="forums_simple_name_with_container" js="0"><![CDATA[От %s в <a href='%s'>%s</a>]]></word>
+  <word key="forums_show_all_forums" js="0">Табличный вид</word>
+  <word key="forums_show_all_forums_tooltip" js="0">Отображает таблицу категорий и разделов</word>
+  <word key="forum_simple_view_last_post" js="0">Последнее действие</word>
+  <word key="forums_show_fluid_forums" js="0">Динамический вид</word>
+  <word key="forums_show_fluid_forums_tooltip" js="0">Отображает все темы с блоком фильтров по разделу</word>
+  <word key="forums_simple_view_change_tooltip" js="0">Изменить вид</word>
+  <word key="forums_simple_filter_by" js="0">Фильтр тем по разделу</word>
+  <word key="forums_simple_dialog_title" js="0">Фильтр по разделу</word>
+  <word key="done_forum_filtering" js="0">Завершить</word>
+  <word key="forums_chosen_forums" js="0">Эти разделы</word>
+  <word key="forumMarkedRead" js="1">Раздел отмечен прочитанным</word>
+  <word key="topicMarkedRead" js="1">Тема отмечена прочитанной</word>
+  <word key="js_num_topic_posts" js="1">{# [0:сообщений][1:сообщение][2:сообщения][3:сообщения][4:сообщения][11:сообщений][12:сообщений][13:сообщений][14:сообщений][*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][?:сообщений]} в этой теме</word>
+  <word key="votes_no_number" js="1">{!#  [-1:голосов][0:голосов][1:голос][2:голоса][3:голоса][4:голоса][11:голосов][12:голосов][13:голосов][14:голосов][*1:голос][*2:голоса][*3:голоса][*4:голоса][?:голосов]}</word>
+  <word key="topicsFromAllForums" js="1">Отображаются темы со всех разделов</word>
+  <word key="topicsFromXForums" js="1">Отображаются темы с {# [1:раздела][*1:раздела][*2:разделов][*3:разделов][*4:разделов][?:разделов]}</word>
+  <word key="markForumAsReadConfirm" js="1">Вы уверены, что хотите отметить все темы в этом разделе прочитанными?</word>
+ </app>
+</language>

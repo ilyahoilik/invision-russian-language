@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский (RU)" rtl="0">
+ <app key="calendar" version="102001">
+  <word key="__app_calendar" js="0">Календарь</word>
+  <word key="frontnavigation_calendar" js="0">Календарь</word>
+  <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
+  <word key="__indefart_calendar_event" js="0">событие в календаре</word>
+  <word key="__indefart_calendar_event_review" js="0">отзыв к событию в календаре</word>
+  <word key="__defart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
+  <word key="__defart_calendar_event" js="0">событие в календаре</word>
+  <word key="__defart_calendar_event_review" js="0">отзыв к событию в календаре</word>
+  <word key="calendar_event_container" js="0">календарь</word>
+  <word key="menu__calendar_calendars" js="0">Календарь</word>
+  <word key="menu__calendar_calendars_calendars" js="0">Календари</word>
+  <word key="menu__calendar_calendars_ical" js="0">Ленты iCalendar</word>
+  <word key="menu__calendar_calendars_settings" js="0">Настройки календаря</word>
+  <word key="module__calendar_calendar" js="0">Календарь</word>
+  <word key="module__calendar_calendars" js="0">Календари</word>
+  <word key="module__calendar_events" js="0">События</word>
+  <word key="menu__calendar_venues" js="0">Места</word>
+  <word key="event" js="0">Событие</word>
+  <word key="editor__calendar_Events" js="0">События календаря</word>
+  <word key="editor__calendar_Calendar" js="0">Календари</word>
+  <word key="editor__calendar_Venue" js="0">Места</word>
+  <word key="acp_search_title_calendar_Calendars" js="0">Календари</word>
+  <word key="calendar_event_pl_lc" js="0">события календаря</word>
+  <word key="search_contextual_item_calendars" js="0">В этом календаре</word>
+  <word key="search_contextual_item_calendar_event" js="0">В этом событии</word>
+  <word key="r__calendars" js="0">Календари</word>
+  <word key="r__calendars_manage" js="0">Может изменять календари</word>
+  <word key="r__calendars_add" js="0">Может добавлять календари</word>
+  <word key="r__calendars_edit" js="0">Может изменять календари</word>
+  <word key="r__calendars_permissions" js="0">Может изменять права доступа к календарям</word>
+  <word key="r__calendars_massManageContent" js="0">Может массово перемещать/удалять события в календарях?</word>
+  <word key="r__calendars_delete" js="0">Может удалять календари</word>
+  <word key="r__ical" js="0">Ленты iCalendar</word>
+  <word key="r__calendar_feeds_manage" js="0">Может изменять импортируемые ленты iCalendar</word>
+  <word key="r__calendar_feeds_add" js="0">Может добавлять импортируемые ленты iCalendar</word>
+  <word key="r__calendar_feeds_edit" js="0">Может изменять импортируемые ленты iCalendar</word>
+  <word key="r__calendar_feeds_delete" js="0">Может удалять импортируемые ленты iCalendar</word>
+  <word key="loc_calendar_viewing_calendar" js="0">Календарь %s</word>
+  <word key="loc_calendar_viewing_calendar_all" js="0">Календарь</word>
+  <word key="loc_calendar_viewing_event" js="0">Событие %s</word>
+  <word key="show_bday_calendar" js="0">Дни рождения в календаре</word>
+  <word key="show_bday_calendar_desc" js="0">Если включено, календарь будет отображать количество пользователей, у которых сегодня день рождения и список этих пользователей при просмотре даты.</word>
+  <word key="ipb_calendar_mon" js="0">Начинать неделю с понедельника</word>
+  <word key="ipb_calendar_mon_desc" js="0">По умолчанию календарь использует воскресенье в качестве первого дня недели. Вы можете использовать эту настройку для изменения первого дня недели.</word>
+  <word key="calendar_rss_feed" js="0">Включить RSS-ленту ближайших событий</word>
+  <word key="calendar_rss_feed_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
+  <word key="calendar_rss_feed_days" js="0">Количество ближайших событий в ленте</word>
+  <word key="acplogs__calendar_settings" js="0">Обновлены настройки календаря</word>
+  <word key="calendar_default_view" js="0">Основная разметка</word>
+  <word key="calendar_default_view_desc" js="0">Эта настройка позволяет вам контролировать основную разметку главной страницы календаря. Пользователи могут изменять основную разметку по своему желанию.</word>
+  <word key="cal_df_month" js="0">Текущий месяц</word>
+  <word key="cal_df_week" js="0">Текущая неделя</word>
+  <word key="cal_df_day" js="0">Текущий день</word>
+  <word key="cal_df_stream" js="0">Лента ближайших событий</word>
+  <word key="filestorage__calendar_Events" js="0">Обложки событий в Календаре</word>
+  <word key="calendar_df_locale" js="0">Использовать по умолчанию</word>
+  <word key="calendar_df_d_sm_y" js="0">ДД МММ ГГГГ (Пример: 01 Янв 2000)</word>
+  <word key="calendar_df_d_lm_y" js="0">ДД Месяц ГГГГ (Пример: 01 Январь 2000)</word>
+  <word key="calendar_df_sm_d_y" js="0">МММ ДД, ГГГГ (Пример: Янв 01, 2000)</word>
+  <word key="calendar_df_lm_d_y" js="0">Месяц ДД, ГГГГ (Пример: Январь 01, 2000)</word>
+  <word key="calendar_custom_df" js="0">Или укажите пользовательский формат даты</word>
+  <word key="calendar_date_format" js="0">Формат даты событий</word>
+  <word key="calendar_date_format_custom" js="0">Пользовательский формат даты</word>
+  <word key="calendar_date_format_custom_desc" js="0"><![CDATA[Вы можете использовать любые варианты <a href='http://php.net/strftime' target='_blank'>PHP strftime</a> для указания пользовательских форматов дат в календаре]]></word>
+  <word key="calendar_no_date_format" js="0">Вы должны выбрать определенный формат даты или задать пользовательский</word>
+  <word key="calendars" js="0">Календари</word>
+  <word key="calendars_sg" js="0">Календарь</word>
+  <word key="calendar_settings" js="0">Настройки</word>
+  <word key="calendar_permissions" js="0">Права доступа</word>
+  <word key="calendar_moderation" js="0">Модерация</word>
+  <word key="cal_title" js="0">Название</word>
+  <word key="cal_moderate" js="0">События должны быть утверждены</word>
+  <word key="cal_comment_moderate" js="0">Комментарии должны быть утверждены</word>
+  <word key="cal_allow_comments" js="0">Разрешить комментарии</word>
+  <word key="cal_allow_reviews" js="0">Разрешить отзывы</word>
+  <word key="cal_review_moderate" js="0">Отзывы должны быть утверждены</word>
+  <word key="calperm_perm__view" js="0">Просмотр календаря</word>
+  <word key="calperm_perm__read" js="0">Просмотр событий</word>
+  <word key="calperm_perm__add" js="0">Создание событий</word>
+  <word key="calperm_perm__reply" js="0">Комментирование</word>
+  <word key="calperm_perm__askrsvp" js="0">Подтверждение участия</word>
+  <word key="calperm_perm__rsvp" js="0">Запрос подтверждения участия</word>
+  <word key="calperm_perm__review" js="0">Добавление отзывов</word>
+  <word key="cal_color" js="0">Цвет</word>
+  <word key="add_calendar" js="0">Добавить календарь</word>
+  <word key="edit_calendar" js="0">Редактировать календарь</word>
+  <word key="modperms__core_Content_calendar_Event" js="0">Календарь</word>
+  <word key="calendar_calendars" js="0">Календари</word>
+  <word key="can_pin_calendar_event" js="0">Может закреплять события</word>
+  <word key="can_unpin_calendar_event" js="0">Может откреплять события</word>
+  <word key="can_feature_calendar_event" js="0">Может отмечать события рекомендуемыми</word>
+  <word key="can_unfeature_calendar_event" js="0">Может отмечать события обычными</word>
+  <word key="can_move_calendar_event" js="0">Может перемещать события</word>
+  <word key="can_move_calendar_event_desc" js="0">Сможет перемещать события только между календарями, которые он может модерировать, но не в любые другие календари.</word>
+  <word key="can_lock_calendar_event" js="0">Может закрывать события</word>
+  <word key="can_unlock_calendar_event" js="0">Может открывать события</word>
+  <word key="can_reply_to_locked_calendar_event" js="0">Может отвечать в закрытые события</word>
+  <word key="can_edit_calendar_event" js="0">Может изменять события</word>
+  <word key="can_hide_calendar_event" js="0">Может скрывать события</word>
+  <word key="can_unhide_calendar_event" js="0">Может отменять скрытие событий</word>
+  <word key="can_view_hidden_calendar_event" js="0">Может просматривать скрытые события</word>
+  <word key="can_delete_calendar_event" js="0">Разрешить удалять события</word>
+  <word key="can_edit_calendar_event_comment" js="0">Может изменять комментарии</word>
+  <word key="can_hide_calendar_event_comment" js="0">Может скрывать комментарии</word>
+  <word key="can_unhide_calendar_event_comment" js="0">Может отменять скрытие комментариев</word>
+  <word key="can_view_hidden_calendar_event_comment" js="0">Может просматривать скрытые комментарии</word>
+  <word key="can_delete_calendar_event_comment" js="0">Разрешить удалять комментарии</word>
+  <word key="can_edit_calendar_event_review" js="0">Может изменять отзывы</word>
+  <word key="can_hide_calendar_event_review" js="0">Может скрывать отзывы</word>
+  <word key="can_unhide_calendar_event_review" js="0">Может отменять скрытие отзывов</word>
+  <word key="can_view_hidden_calendar_event_review" js="0">Может просматривать скрытые отзывы</word>
+  <word key="can_delete_calendar_event_review" js="0">Может удалять отзывы</word>
+  <word key="can_feature_comments_calendar_event" js="0">Может рекомендовать комментарии к событиям</word>
+  <word key="can_unfeature_comments_calendar_event" js="0">Может удалять рекомендации комментариев в событиях</word>
+  <word key="can_add_item_message_calendar_event" js="0">Может добавлять сообщения к событиям</word>
+  <word key="can_edit_item_message_calendar_event" js="0">Может изменять сообщения к событиям</word>
+  <word key="can_delete_item_message_calendar_event" js="0">Может удалять сообщения к событиям</word>
+  <word key="ical_title" js="0">Импорт лент iCalendar</word>
+  <word key="ical_feed_title" js="0">Заголовок</word>
+  <word key="ical_feed_added" js="0">Добавлено</word>
+  <word key="ical_feed_lastupdated" js="0">Последнее обновление</word>
+  <word key="ical_feed_calendar_id" js="0">Календарь</word>
+  <word key="ical_feed_url" js="0">Ссылка</word>
+  <word key="calendar_feeds_add" js="0">Добавить ленту iCalendar</word>
+  <word key="calendar_feeds_upload" js="0">Загрузить файл iCalendar</word>
+  <word key="update_ical" js="0">Импортировать новые события</word>
+  <word key="feed_title" js="0">Название</word>
+  <word key="feed_url" js="0">Ссылка</word>
+  <word key="feed_url_desc" js="0">Ссылка должна начинаться с http://, https:// или webcal://</word>
+  <word key="feed_member_id" js="0">Пользователь</word>
+  <word key="feed_member_id_desc" js="0">События из этой ленты созданы этим пользователем</word>
+  <word key="feed_calendar_id" js="0">Календарь</word>
+  <word key="feed_calendar_id_desc" js="0">Выберите календарь, в который будут сохранены события из этой ленты</word>
+  <word key="feed_allow_rsvp" js="0">Включить подтверждения участия</word>
+  <word key="feed_allow_rsvp_desc" js="0">Если включено, подтверждение участния будет включено для всех импортированных событий</word>
+  <word key="acplog__ical_uploaded" js="0">Загружен файл iCalendar: %s импортировано, %s пропущено</word>
+  <word key="acplog__icalfeed_created" js="0">Добавлена лента iCalendar: %s</word>
+  <word key="acplog__icalfeed_updated" js="0">Изменена лента iCalendar: %s</word>
+  <word key="feed_uploaded" js="0">События iCalendar импортированы</word>
+  <word key="acplog__icalfeed_refreshed" js="0">Обновлена лента iCalendar: %s импортировано, %s пропущено</word>
+  <word key="feed_refreshed" js="0">Лента iCalendar обновлена</word>
+  <word key="feed_file" js="0">Файл iCalendar</word>
+  <word key="feed_file_desc" js="0">Файлы iCalendar обычно используют расширение .ics</word>
+  <word key="feed_not_found" js="0">Мы не можем найти эту ленту iCalendar</word>
+  <word key="acplog__icalfeed_deleted" js="0">Удалена лента iCalendar: %s</word>
+  <word key="keep_events" js="0">Сохранить события</word>
+  <word key="keep_events_desc" js="0">Вы можете удалить события, которые были импортированы из этого канала</word>
+  <word key="ical_error_NO_CONTENT" js="0">Лента недействительна т.к. её содержимое не было возвращено.</word>
+  <word key="ical_error_BAD_CONTENT" js="0">Лента недействительна т.к. её содержимое не соответствует ожидаемому формату.</word>
+  <word key="cal_month_title" js="0">%s %s</word>
+  <word key="cal_month_stream_title" js="0">Лента событий %s %s</word>
+  <word key="cal_week_title" js="0">%s %s %s - %s %s %s</word>
+  <word key="cal_week_title_wb" js="0">w/b %s %s %s</word>
+  <word key="cal_month_day" js="0">%s %s, %s</word>
+  <word key="cal_month_day_noyear" js="0">%s %s</word>
+  <word key="all_calendars" js="0">Все календари</word>
+  <word key="create_event" js="0">Создать событие</word>
+  <word key="select_calendar" js="0">Выберите календарь</word>
+  <word key="add_event" js="0">Добавить событие</word>
+  <word key="previous_month" js="0">Предыдущий месяц</word>
+  <word key="next_month" js="0">Следующий месяц</word>
+  <word key="day" js="0">День</word>
+  <word key="tomorrow" js="0">Завтра</word>
+  <word key="prev_day" js="0">Предыдущий день</word>
+  <word key="next_day" js="0">Следующий день</word>
+  <word key="event_stream" js="0">Лента событий</word>
+  <word key="event_stream_short" js="0">Лента</word>
+  <word key="previous_week" js="0">Предыдущая неделя</word>
+  <word key="next_week" js="0">Следующая неделя</word>
+  <word key="no_events_today" js="0">Нет событий в этот день</word>
+  <word key="no_events_month" js="0">Нет событий в этом месяце</word>
+  <word key="error_bad_date" js="0">Дата, которую вы запросили, недействительна</word>
+  <word key="birthdays_today" js="0">{# [0:дней рождения][1:день рождения][2:дня рождения][3:дня рождения][4:дня рождения][11:дней рождения][12:дней рождения][13:дней рождения][14:дней рождения][*1:день рождения][*2:дня рождения][*3:дня рождения][*4:дня рождения][?:дней рождения]} сегодня</word>
+  <word key="birthdays_count" js="0">{# [0:дней рождения][1:день рождения][2:дня рождения][3:дня рождения][4:дня рождения][11:дней рождения][12:дней рождения][13:дней рождения][14:дней рождения][*1:день рождения][*2:дня рождения][*3:дня рождения][*4:дня рождения][?:дней рождения]}</word>
+  <word key="birthdays_view_all" js="0">Просмотреть все</word>
+  <word key="calendar_event" js="0">Событие</word>
+  <word key="calendar_event_comment" js="0">Комментарий к событию</word>
+  <word key="calendar_event_review" js="0">Отзыв к событию</word>
+  <word key="calendar_event_pl" js="0">События</word>
+  <word key="calendar_event_comment_pl" js="0">Комментарии к событиям</word>
+  <word key="calendar_event_comment_pl_lc" js="0">комментарии к событию</word>
+  <word key="calendar_event_review_pl" js="0">Отзывы к событиям</word>
+  <word key="calendar_event_review_pl_lc" js="0">отзывы к событию</word>
+  <word key="event_review_count" js="0">{# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][?:отзывов]}</word>
+  <word key="event_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="event_rsvp_attendees_list" js="0">{# [0:участников][1:участник][2:участника][3:участника][4:участника][11:участников][12:участников][13:участников][14:участников][*1:участник][*2:участника][*3:участника][*4:участника][?:участников]}{!#[0: ][?:, включая]}</word>
+  <word key="calendar_rss_title" js="0">Ближайшие события</word>
+  <word key="submit_event" js="0">Создать событие</word>
+  <word key="with_calendar" js="0">С &quot;%s&quot;</word>
+  <word key="with_all_calendars" js="0">Со всеми календарями</word>
+  <word key="event_calendar_id" js="0">Календарь</word>
+  <word key="event_container" js="0">Календарь</word>
+  <word key="event_title" js="0">Заголовок</word>
+  <word key="event_ip_address" js="0">IP-адрес</word>
+  <word key="event_tags" js="0">Теги</word>
+  <word key="event_content" js="0">Описание</word>
+  <word key="event_dates" js="0">Дата</word>
+  <word key="rsvp" js="0">участник</word>
+  <word key="event_rsvp" js="0">Подтверждение участия</word>
+  <word key="event_rsvp_desc" js="0">При принятии приглашения на событие, у пользователей будет запрошено подтверждение, а также они смогут видеть список пользователей, принявших приглашение на событие. Для повторяющихся событий применяется к каждому из них.</word>
+  <word key="event_to" js="0">в</word>
+  <word key="event_all_day" js="0">Весь день</word>
+  <word key="event_repeat" js="0">Повторять</word>
+  <word key="change_timezone" js="0">Изменить часовой пояс</word>
+  <word key="event_timezone" js="0">Часовой пояс</word>
+  <word key="event_rpm_repeats" js="0">Повторять:</word>
+  <word key="event_rpm_repeats_daily" js="0">Ежедневно</word>
+  <word key="event_rpm_repeats_weekly" js="0">Еженедельно</word>
+  <word key="event_rpm_repeats_monthly" js="0">Ежемесячно</word>
+  <word key="event_rpm_repeats_yearly" js="0">Ежегодно</word>
+  <word key="event_rpm_repeatevery" js="0">Повторять каждые:</word>
+  <word key="event_rpm_repeatevery_day" js="0">дней</word>
+  <word key="event_rpm_repeatevery_week" js="0">недель</word>
+  <word key="event_rpm_repeatevery_month" js="0">месяцев</word>
+  <word key="event_rpm_repeatevery_year" js="0">лет</word>
+  <word key="event_rpm_repeaton" js="0">Повторять в:</word>
+  <word key="event_single_day" js="0">Однодневное событие</word>
+  <word key="event_rpm_ends" js="0">Окончание:</word>
+  <word key="event_rpm_ends_never" js="0">Никогда</word>
+  <word key="event_rpm_ends_afterx" js="0">После</word>
+  <word key="event_rpm_ends_occurrencesx" js="0">повторений</word>
+  <word key="event_rpm_ends_date" js="0">Вкл.</word>
+  <word key="event_auto_follow_suffix" js="0">Уведомлять меня при публикации новых комментариев</word>
+  <word key="event_rsvp_limit" js="0">Лимит участников</word>
+  <word key="event_rsvp_limit_desc" js="0">После достижения лимита, возможность подтверждения участия будет закрыта.</word>
+  <word key="event_cover_photo" js="0">Обложка события</word>
+  <word key="event_location" js="0">Расположение</word>
+  <word key="event_album" js="0">Альбом</word>
+  <word key="event_album_desc" js="0">Вы можете связать альбом из Галереи с этим событием для отображения фотографий на странице события и информации о событии на странице альбома.</word>
+  <word key="submit_event_start" js="0">Начало события</word>
+  <word key="submit_event_end" js="0">Конец события</word>
+  <word key="submit_event_summary" js="0">Краткое описание</word>
+  <word key="submit_event_repeats_check" js="0">Это событие повторяется</word>
+  <word key="submit_event_repeats" js="0">Повторяется</word>
+  <word key="submit_event_remove_repeat" js="0">удалить</word>
+  <word key="add_cal_event_header" js="0">Добавить событие</word>
+  <word key="copy_cal_event" js="0">Скопировать событие календаря</word>
+  <word key="copy_cal_event_header" js="0">Копировать %s</word>
+  <word key="calendar_jump" js="0">Перейти</word>
+  <word key="calendar_jump_today" js="0">Сегодняшний день</word>
+  <word key="jump_to_placeholder" js="0">Перейти к...</word>
+  <word key="jump_to" js="0">Перейти к</word>
+  <word key="events_happening_today" js="0">События в этот день</word>
+  <word key="day_view_all_day" js="0"><![CDATA[ВСЕ<br>ДНИ]]></word>
+  <word key="you_are_going" js="0">Вы придёте</word>
+  <word key="you_arent_going" js="0">Вы не идёте</word>
+  <word key="you_are_going_to_this" js="0">Вы придёте на это событие</word>
+  <word key="you_are_not_going_to_this" js="0">Вы не придёте на это событие</word>
+  <word key="rsvp_change" js="0">Изменить ответ</word>
+  <word key="confirm_attendance" js="0">Подтвердить участие</word>
+  <word key="featured_events" js="0">Рекомендуемые события</word>
+  <word key="end_date_before_start" js="0">Пожалуйста, выберите дату окончания события</word>
+  <word key="invalid_start_date" js="0">Указанная дата начала недействительна</word>
+  <word key="invalid_end_date" js="0">Указанная дата окончания недействительна</word>
+  <word key="event__save" js="0">Сохранить</word>
+  <word key="calendar_delete_title" js="0">Удалить событие</word>
+  <word key="blurb_date_with_time" js="0">%s %s</word>
+  <word key="blurb_start_and_end" js="0">%s - %s в %s</word>
+  <word key="blurb_start_only" js="0">%s в %s</word>
+  <word key="download_ical" js="0">Скачать событие</word>
+  <word key="download_ical_title" js="0">Скачать событие как iCal файл</word>
+  <word key="event_details" js="0">Описание события</word>
+  <word key="event_created_by" js="0">Событие создано %s</word>
+  <word key="event_rating_value" js="0">Ваша оценка</word>
+  <word key="event_review_text" js="0">Ваш отзыв</word>
+  <word key="event__review_placeholder" js="0">Добавить отзыв...</word>
+  <word key="event__comment_placeholder" js="0">Добавить комментарий...</word>
+  <word key="event_submit_comment" js="0">Добавить комментарий</word>
+  <word key="event_rsvp_attendees" js="0">Участники</word>
+  <word key="report_event" js="0">Жалоба</word>
+  <word key="calendar_edit_details" js="0">Изменить описание</word>
+  <word key="calendar_edit_details_title" js="0">Изменить описание события</word>
+  <word key="manage_event" js="0">Изменение события</word>
+  <word key="event_pending_approval" js="0">Это событие ещё не утверждено и отображается только администрации.</word>
+  <word key="rsvp_leave_event" js="0">Покинуть событие</word>
+  <word key="rsvp_attend_event" js="0">Приду</word>
+  <word key="rsvp_maybe_event" js="0">Возможно</word>
+  <word key="rsvp_notgoing_event" js="0">Не приду</word>
+  <word key="rsvp_attendees" js="0">Придут</word>
+  <word key="rsvp_maybe_attendees" js="0">Возможно</word>
+  <word key="rsvp_notgoing_attendees" js="0">Не придут</word>
+  <word key="event_address" js="0">Адрес события</word>
+  <word key="add_similar_event" js="0">Добавить похожее событие</word>
+  <word key="no_rsvps_yet" js="0">Ещё никто не сказал, что придёт.</word>
+  <word key="no_decline_rsvps_yet" js="0">Ещё никто не сказал, что не придёт.</word>
+  <word key="no_maybe_rsvps_yet" js="0">Ещё никто не сказал, что возможно придёт.</word>
+  <word key="rsvp_limit_reached" js="0">Достигнут лимит участников</word>
+  <word key="rsvp_error" js="0">У вас нет прав для участия в этом событии</word>
+  <word key="rsvp_not_going" js="0">Вы удалены из списка участников этого события</word>
+  <word key="rsvp_selection_yes" js="0">Вы добавлены в список участников этого события</word>
+  <word key="rsvp_selection_no" js="0">Вы отказались от участия в этом событии</word>
+  <word key="rsvp_selection_maybe" js="0">Вы добавлены в список возможных участников этого события</word>
+  <word key="rsvp_download" js="0">Скачать список участников</word>
+  <word key="event_rsvp_attendees_other" js="0">Другие ответы</word>
+  <word key="recur_human_yearly" js="0">Это событие повторяется каждый год</word>
+  <word key="recur_human_yearly_multi" js="0">Это событие повторяется {!# [0:каждые # лет][1:каждый год][2:каждые # года][3:каждые # года][4:каждые # года][11:каждые # лет][12:каждые # лет][13:каждые # лет][14:каждые # лет][*1:каждый # год][*2:каждые # года][*3:каждые # года][*4:каждые # года][?:каждые # лет]} %s</word>
+  <word key="recur_human_monthly" js="0">Это событие повторяется каждый месяц</word>
+  <word key="recur_human_monthly_multi" js="0">Это событие повторяется {!# [0:каждые # месяцев][1:каждый месяц][2:каждые # месяца][3:каждые # месяца][4:каждые # месяца][11:каждые # месяцев][12:каждые # месяцев][13:каждые # месяцев][14:каждые # месяцев][*1:каждый # месяц][*2:каждые # месяца][*3:каждые # месяца][*4:каждые # месяца][?:каждые # месяцев]} %s</word>
+  <word key="recur_human_weekly" js="0">Это событие повторяется каждую неделю</word>
+  <word key="recur_human_weekly_multi" js="0">Это событие повторяется {!# [0:каждые # недель][1:каждую неделю][2:каждые # недели][3:каждые # недели][4:каждые # недели][11:каждые # недель][12:каждые # недель][13:каждые # недель][14:каждые # недель][*1:каждую # неделю][*2:каждые # недели][*3:каждые # недели][*4:каждые # недели][?:каждые # недель]} %s</word>
+  <word key="recur_human_weekly_days" js="0">Это событие повторяется каждую неделю в %s %s</word>
+  <word key="recur_human_weekly_multi_days" js="0">Это событие повторяется {!# [0:каждые # недель][1:каждую неделю][2:каждые # недели][3:каждые # недели][4:каждые # недели][11:каждые # недель][12:каждые # недель][13:каждые # недель][14:каждые # недель][*1:каждую # неделю][*2:каждые # недели][*3:каждые # недели][*4:каждые # недели][?:каждые # недель]} в %s %s</word>
+  <word key="recur_human_daily" js="0">Это событие повторяется каждый день</word>
+  <word key="recur_human_daily_multi" js="0">Это событие повторяется {!# [0:каждые # дней][1:каждый день][2:каждые # дня][3:каждые # дня][4:каждые # дня][11:каждые # дней][12:каждые # дней][13:каждые # дней][14:каждые # дней][*1:каждый # день][*2:каждые # дня][*3:каждые # дня][*4:каждые # дня][?:каждые # дней]} %s</word>
+  <word key="recur_human__forever" js="0">навсегда</word>
+  <word key="recur_human__occurrences" js="0">для {# [0:совпадений][1:совпадения][?:совпадений]}</word>
+  <word key="recur_human__until" js="0">до %s</word>
+  <word key="event_rss_feed_off" js="0">Это RSS-лента в настоящее время недоступна</word>
+  <word key="event_rss_feed_off_admin" js="0">RSS-лента календаря отключена в Админцентре</word>
+  <word key="event_attendees" js="0">Участники %s</word>
+  <word key="rsvp_limit_info" js="0">{# [0:пользователей][1:пользователь][2:пользователя][3:пользователя][4:пользователя][11:пользователей][12:пользователей][13:пользователей][14:пользователей][*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][?:пользователей]} подтвердил приглашение на это событие. Всего %s могут ответить.</word>
+  <word key="rsvp_limit_nomaybe" js="0">Вы можете только указать, что придёте или не придёте т.к. установлен лимит участников. </word>
+  <word key="no_event_review" js="0">У вас нет прав для публикации отзывов на события</word>
+  <word key="task_BAD_CONTENT" js="0">Формат ленты iCalendar %s не является форматом iCalendar</word>
+  <word key="task_NO_CONTENT" js="0">Лента iCalendar %s не вернули никаких событий для обработки</word>
+  <word key="subscribe_webcal" js="0">Подписаться на ленту iCalendar</word>
+  <word key="download_webcal" js="0">Скачать файл iCalendar</word>
+  <word key="calendar_id" js="0">Календарь</word>
+  <word key="event_locked_can_comment" js="0">Это событие закрыто, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="event_locked_cannot_comment" js="0">Это событие закрыто для комментирования.</word>
+  <word key="event_images" js="0">Изображения с этого события</word>
+  <word key="event_move_title" js="0">Переместить событие</word>
+  <word key="feature_title_event" js="0">Сделать это событие рекомендуемым</word>
+  <word key="unfeature_title_event" js="0">Сделать это событие обычным</word>
+  <word key="pin_title_event" js="0">Закрепить событие</word>
+  <word key="unpin_title_event" js="0">Открепить это событие</word>
+  <word key="hide_title_event" js="0">Скрыть событие</word>
+  <word key="unhide_title_event" js="0">Показать это событие</word>
+  <word key="lock_title_event" js="0">Закрыть событие</word>
+  <word key="unlock_title_event" js="0">Открыть это событие</word>
+  <word key="approve_title_event" js="0">Утвердить событие</word>
+  <word key="event_set_reminder" js="0">Установить напоминание</word>
+  <word key="event_set_reminder_tip" js="0">Напомните мне перед наступлением этого события</word>
+  <word key="event_edit_reminder" js="0">Обновить напоминание</word>
+  <word key="event_dont_remind" js="0">Удалить напоминание</word>
+  <word key="event_remind_me" js="0">Напомнить мне</word>
+  <word key="event_remind_days_before" js="0">дней до этого события</word>
+  <word key="event_reminder_removed" js="0">Напоминание удалено</word>
+  <word key="event_reminder_added" js="0">Напоминание сохранено</word>
+  <word key="block_upcomingEvents" js="0">Ближайшие события</word>
+  <word key="block_upcomingEvents_desc" js="0">Отображает ближайшие события календаря</word>
+  <word key="auto_hide" js="0">Автоматически скрывать блок</word>
+  <word key="auto_hide_desc" js="0">Скрывать этот блок, если нет результатов для отображения</word>
+  <word key="days_ahead" js="0">Дней для отображения</word>
+  <word key="maximum_count" js="0">Количество событий</word>
+  <word key="view_this_event" js="0">Просмотреть событие %s</word>
+  <word key="block_todaysBirthdays" js="0">Дни рождения сегодня</word>
+  <word key="block_todaysBirthdays_desc" js="0">Отображает сегодняшние дни рождения</word>
+  <word key="no_members_birthday_today" js="0">Никто не отмечает сегодня день рождения</word>
+  <word key="no_upcoming_events" js="0">Ближайших событий не найдено</word>
+  <word key="member_age" js="0">({# [0:лет][1:год][2:года][3:года][4:года][11:лет][12:лет][13:лет][14:лет][*1:год][*2:года][*3:года][*4:года][?:лет]})</word>
+  <word key="block_recentReviews" js="0">Последние отзывы к событиям</word>
+  <word key="block_recentReviews_desc" js="0">Отображать последние отзывы</word>
+  <word key="no_recent_reviews" js="0">Новых отзывов не найдено</word>
+  <word key="announce_calendars" js="0">Календари</word>
+  <word key="review_count" js="0">Количество отзывов для отображения</word>
+  <word key="widget_calendar" js="0">Календарь</word>
+  <word key="embed_calendar_event" js="0">Событие календаря</word>
+  <word key="x_users_going" js="0">{# [0:пользователей собирается][1:пользователь собирается][2:пользователя собираются][3:пользователя собираются][4:пользователя собираются][11:пользователей собираются][12:пользователей собираются][13:пользователей собираются][14:пользователей собираются][*1:пользователь собирается][*2:пользователя собираются][*3:пользователя собираются][*4:пользователя собираются][?:пользователей собирается]} прийти</word>
+  <word key="timezone_offset_short" js="0">GMT %s</word>
+  <word key="timezone_offset_-12" js="0">[GMT - 12:00] Меридиан смены дат (запад)</word>
+  <word key="timezone_offset_-11" js="0">[GMT - 11:00] о. Мидуэй, Самоа</word>
+  <word key="timezone_offset_-10" js="0">[GMT - 10:00] Гавайи, о. Кука</word>
+  <word key="timezone_offset_-9.5" js="0">[GMT - 9:30] Маркизские острова</word>
+  <word key="timezone_offset_-9" js="0">[GMT - 9:00] Аляска, о. Гамбье</word>
+  <word key="timezone_offset_-8" js="0">[GMT - 8:00] Тихоокеанское время (США и Канада) и Тихуана</word>
+  <word key="timezone_offset_-7" js="0">[GMT - 7:00] Аризона</word>
+  <word key="timezone_offset_-6" js="0">[GMT - 6:00] Мехико, Центральная Америка, Центральное время (США и Канада)</word>
+  <word key="timezone_offset_-5" js="0">[GMT - 5:00] Индиана (восток), Восточное время (США и Канада)</word>
+  <word key="timezone_offset_-4.5" js="0">[GMT - 4:30] Венесуэла</word>
+  <word key="timezone_offset_-4" js="0">[GMT - 4:00] Сантьяго, Атлантическое время (Канада)</word>
+  <word key="timezone_offset_-3.5" js="0">[GMT - 3:30] Ньюфаундленд</word>
+  <word key="timezone_offset_-3" js="0">[GMT - 3:00] Бразилия, Гренландия</word>
+  <word key="timezone_offset_-2" js="0">[GMT - 3:00] Среднеатлантическое время</word>
+  <word key="timezone_offset_-1" js="0">[GMT - 1:00] Азорские острова, острова Зелёного мыса</word>
+  <word key="timezone_offset_0" js="0">[GMT] Среднее время по Гринвичу</word>
+  <word key="timezone_offset_1" js="0">[GMT + 1:00] Берлин, Мадрид, Париж, Рим, Западная Центральная Африка</word>
+  <word key="timezone_offset_2" js="0">[GMT + 2:00] Афины, Вильнюс, Калининград, Киев, Рига, Таллин, Центральная Африка</word>
+  <word key="timezone_offset_3" js="0">[GMT + 3:00] Багдад, Волгоград, Минск, Москва, Кувейт, Санкт-Петербург, Эр-рияд, Найроби</word>
+  <word key="timezone_offset_3.5" js="0">[GMT + 3:30] Тегеран</word>
+  <word key="timezone_offset_4" js="0">[GMT + 4:00] Ижевск, Самара, Баку, Ереван, Тбилиси</word>
+  <word key="timezone_offset_4.5" js="0">[GMT + 4:30] Кабул</word>
+  <word key="timezone_offset_5" js="0">[GMT + 5:00] Екатеринбург, Исламабад, Карачи, Оренбург, Ташкент</word>
+  <word key="timezone_offset_5.5" js="0">[GMT + 5:30] Бомбей, Калькутта, Мадрас, Нью-Дели</word>
+  <word key="timezone_offset_5.75" js="0">[GMT + 5:45] Катманду</word>
+  <word key="timezone_offset_6" js="0">[GMT + 6:00] Алматы, Астана, Новосибирск, Омск</word>
+  <word key="timezone_offset_6.5" js="0">[GMT + 6:30] Янгон</word>
+  <word key="timezone_offset_7" js="0">[GMT + 7:00] Бангкок, Джакарта, Красноярск, Ханой</word>
+  <word key="timezone_offset_8" js="0">[GMT + 8:00] Гонконг, Иркутск, Пекин, Сингапур</word>
+  <word key="timezone_offset_9" js="0">[GMT + 9:00] Благовещенск, Сеул, Токио, Чита, Якутск</word>
+  <word key="timezone_offset_9.5" js="0">[GMT + 9:30] Аделаида, Дарвин</word>
+  <word key="timezone_offset_10" js="0">[GMT + 10:00] Владивосток, Магадан, Сахалин, Хабаровск</word>
+  <word key="timezone_offset_10.5" js="0">[GMT + 10:30] Лорд-Хау</word>
+  <word key="timezone_offset_11" js="0">[GMT + 11:00] Среднеколымск, Чокурдах</word>
+  <word key="timezone_offset_11.5" js="0">[GMT + 11:30] о. Норфолк</word>
+  <word key="timezone_offset_12" js="0">[GMT + 12:00] Анадырь, Петропавловск-Камчатский, Фиджи</word>
+  <word key="timezone_offset_12.75" js="0">[GMT + 12:45] о. Чатем</word>
+  <word key="timezone_offset_13" js="0">[GMT + 13:00] Нукуалофа</word>
+  <word key="timezone_offset_14" js="0">[GMT + 14:00] о. Лайн</word>
+  <word key="task__icalendar" js="0">Проверяет iCalendar на наличие новых событий и импортирует их в Календарь.</word>
+  <word key="digest_area_calendar_calendar" js="0">События</word>
+  <word key="digest_area_calendar_event" js="0">Событие</word>
+  <word key="x_created_event_in" js="0">%s опубликовал событие в %s</word>
+  <word key="x_commented_event" js="0">%s оставил комментарий к событию</word>
+  <word key="x_reviewed_event" js="0">%s оставил отзыв к событию</word>
+  <word key="digest_event_on" js="0">Событие</word>
+  <word key="digest_users_going" js="0">{# [0:пользователей собирается][1:пользователь собирается][2:пользователя собираются][3:пользователя собираются][4:пользователя собираются][11:пользователей собираются][12:пользователей собираются][13:пользователей собираются][14:пользователей собираются][*1:пользователь собирается][*2:пользователя собираются][*3:пользователя собираются][*4:пользователя собираются][?:пользователей собирается]} прийти</word>
+  <word key="mailsub__calendar_notification_new_content" js="0"><![CDATA[{$content->mapped("title")|raw}]]></word>
+  <word key="email_new_calevent_plain" js="0">%s опубликовал %s, %s, for %s</word>
+  <word key="email_new_calevent" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s, <a href='%s'>%s</a>, for %s]]></word>
+  <word key="email_new_calevent_guest" js="0"><![CDATA[%s (Гость) опубликовал %s, <a href='%s'>%s</a>, for %s]]></word>
+  <word key="__api_calendar_events" js="0">События</word>
+  <word key="__api_calendar_comments" js="0">Комментарии</word>
+  <word key="__api_calendar_reviews" js="0">Отзывы</word>
+  <word key="__api_calendar_calendars" js="0">Календари</word>
+  <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s идёт на <a href='%s'>%s</a>]]></word>
+  <word key="all_activity_calendar_streamitems" js="0">Когда пользователь принимает приглашение на событие</word>
+  <word key="notifications__calendar_Events" js="0">Календарь</word>
+  <word key="notifications__event_reminder" js="0">Напоминания о событии</word>
+  <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[Напоминание о событии {$content->mapped("title")|raw}]]></word>
+  <word key="email_event_reminder" js="0"><![CDATA[Осталось менее %s до <a href='%s'>%s</a>.]]></word>
+  <word key="email_event_reminder_plain" js="0">Осталось менее %s до %s</word>
+  <word key="email_event_reminder_when" js="0">Когда: %s</word>
+  <word key="email_event_reminder_where" js="0">Когда: %s</word>
+  <word key="days_to_go" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]}</word>
+  <word key="notification__event_reminder" js="0">Осталось менее %s до %s</word>
+  <word key="menu__calendar_calendars_venues" js="0">Места</word>
+  <word key="venues" js="0">Места</word>
+  <word key="venue_title" js="0">Название места</word>
+  <word key="event_venue" js="0">Место</word>
+  <word key="venues_not_listed" js="0">Место не указано</word>
+  <word key="venue_address" js="0">Адрес</word>
+  <word key="r__venues" js="0">Места</word>
+  <word key="r__venues_manage" js="0">Может управлять местами</word>
+  <word key="module__venues_view" js="0">Места</word>
+  <word key="editor__venues_Venue" js="0">Описание места</word>
+  <word key="venue_description" js="0">Описание </word>
+  <word key="calendar_venues_enabled" js="0">Включить места</word>
+  <word key="calendar_venues_enabled_desc" js="0">Если включено, администраторы могут создавать предварительно определённые места, которые могут быть выбраны при создании событий.</word>
+  <word key="calendar_more_events_at_x" js="0">Другие события в этом месте</word>
+  <word key="venue_details" js="0">Подробнее о месте</word>
+  <word key="venue_upcoming_events" js="0">Ближайшие события</word>
+  <word key="feed_venue_id" js="0">Место</word>
+  <word key="event_new_venue" js="0">Сохранить местоположение как новое место?</word>
+  <word key="x_daily" js="1">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]}</word>
+  <word key="x_weekly" js="1">{# [0:недель][1:неделю][2:недели][3:недели][4:недели][11:недель][12:недель][13:недель][14:недель][*1:неделю][*2:недели][*3:недели][*4:недели][?:недель]}</word>
+  <word key="x_monthly" js="1">{# [0:месяцев][1:месяц][2:месяца][3:месяца][4:месяца][11:месяцев][12:месяцев][13:месяцев][14:месяцев][*1:месяц][*2:месяца][*3:месяца][*4:месяца][?:месяцев]}</word>
+  <word key="x_yearly" js="1">{# [0:лет][1:год][2:года][3:года][4:года][11:лет][12:лет][13:лет][14:лет][*1:год][*2:года][*3:года][*4:года][?:лет]}</word>
+  <word key="every_x" js="1">Каждый {{period}}</word>
+  <word key="x_times" js="1">{# [0:раз][1:раз][2:раза][3:раза][4:раза][11:раз][12:раз][13:раз][14:раз][*1:раз][*2:раза][*3:раза][*4:раза][?:раз]}</word>
+  <word key="until" js="1">до {{date}}</word>
+  <word key="with_end" js="1">{{interval}}, {{endAfter}}</word>
+  <word key="MO" js="1">Понедельник</word>
+  <word key="TU" js="1">Вторник</word>
+  <word key="WE" js="1">Среда</word>
+  <word key="TH" js="1">Четверг</word>
+  <word key="FR" js="1">Пятница</word>
+  <word key="SA" js="1">Суббота</word>
+  <word key="SU" js="1">Воскресенье</word>
+  <word key="one_day" js="1">{{first}}</word>
+  <word key="multiple_day" js="1">в {{days}} и {{last}}</word>
+  <word key="week_string" js="1">{{week}} {{days}}</word>
+  <word key="doesnt_repeat" js="1">Не повторяется</word>
+  <word key="single_not_allday" js="1"><![CDATA[<strong>{{startDate}}</strong>, с <strong>{{startTime}}</strong> до <strong>{{endTime}}</strong>]]></word>
+  <word key="single_allday" js="1"><![CDATA[<strong>{{startDate}}</strong> (весь день)]]></word>
+  <word key="not_single_not_allday" js="1"><![CDATA[С <strong>{{startDate}}</strong> в <strong>{{startTime}}</strong> до <strong>{{endDate}}</strong> в <strong>{{endTime}}</strong>]]></word>
+  <word key="not_single_allday" js="1"><![CDATA[С <strong>{{startDate}}</strong> до <strong>{{endDate}}</strong>]]></word>
+  <word key="select_time" js="1">(выберите время)</word>
+  <word key="event_reminder_removed" js="1">Напоминание удалено</word>
+  <word key="event_reminder_added" js="1">Напоминание сохранено</word>
+ </app>
+</language>

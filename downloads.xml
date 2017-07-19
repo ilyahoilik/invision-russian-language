@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский (RU)" rtl="0">
+ <app key="downloads" version="102001">
+  <word key="__app_downloads" js="0">Файлы</word>
+  <word key="frontnavigation_downloads" js="0">Файлы</word>
+  <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
+  <word key="__indefart_downloads_file" js="0">файл</word>
+  <word key="__indefart_downloads_file_review" js="0">отзыв к файлу</word>
+  <word key="__defart_downloads_file_comment" js="0">комментарий к файлу</word>
+  <word key="__defart_downloads_file" js="0">файл</word>
+  <word key="__defart_downloads_file_review" js="0">отзыв к файлу</word>
+  <word key="menu__downloads_downloads" js="0">Файлы</word>
+  <word key="module__downloads_downloads" js="0">Файлы</word>
+  <word key="menu__downloads_stats" js="0">Файлы</word>
+  <word key="module__downloads_stats" js="0">Статистика</word>
+  <word key="file_download" js="0">Файл</word>
+  <word key="downloads_file_container" js="0">категория</word>
+  <word key="search_contextual_item_downloads_categories" js="0">В этой категории</word>
+  <word key="search_contextual_item_downloads_file" js="0">В этом файле</word>
+  <word key="downloads_categories" js="0">Категории файлов</word>
+  <word key="filestorage__downloads_Files" js="0">Файлы в приложении Файлы</word>
+  <word key="filestorage__downloads_Screenshots" js="0">Скриншоты в приложении Файлы</word>
+  <word key="filestorage__downloads_FileField" js="0">Поля в приложении Файлы</word>
+  <word key="downloads_files" js="0">Загрузка файлов</word>
+  <word key="downloads_file" js="0">Файл</word>
+  <word key="modlog__action_restorebackup" js="0"><![CDATA[Восстановлена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_visibilitybackup" js="0"><![CDATA[Изменена видимость предыдущей версии файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_deletebackup" js="0"><![CDATA[Удалена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
+  <word key="editor__downloads_Categories" js="0">Категории файлов</word>
+  <word key="editor__downloads_Downloads" js="0">Файловый менеджер</word>
+  <word key="editorMedia_downloads_Files" js="0">Файловый менеджер</word>
+  <word key="menu__downloads_downloads_categories" js="0">Категории</word>
+  <word key="subcategories" js="0">Подкатегории</word>
+  <word key="cname" js="0">Название</word>
+  <word key="cbitoptions_disfiles" js="0">Разрешить файлы</word>
+  <word key="cbitoptions_disfiles_desc" js="0">Вы можете запретить загружать файлы в категорию для загрузки только в подкатегории.</word>
+  <word key="ctypes" js="0">Разрешённые расширения файлов</word>
+  <word key="cparent" js="0">Родительская категория</word>
+  <word key="any_extensions" js="0">любые расширения</word>
+  <word key="cmaxfile" js="0">Максимальный размер файла</word>
+  <word key="ccfields" js="0">Дополнительные поля</word>
+  <word key="category_screenshots" js="0">Скриншоты</word>
+  <word key="cbitoptions_allowss" js="0">Разрешить скриншоты</word>
+  <word key="cbitoptions_allowss_desc" js="0">Скриншоты загружаются вместе с файлом и отображаются на странице файла и в категории.</word>
+  <word key="cbitoptions_reqss" js="0">Требовать скриншоты</word>
+  <word key="cmaxss" js="0">Максимальный размер скриншота</word>
+  <word key="cmaxdims" js="0">Максимальное разрешение скриншота</word>
+  <word key="category_display" js="0">Отображение категории</word>
+  <word key="csortorder" js="0">Сортировка по умолчанию</word>
+  <word key="cbitoptions_comments" js="0">Разрешить комментарии</word>
+  <word key="cbitoptions_reviews" js="0">Разрешить отзывы</word>
+  <word key="cbitoptions_reviews_mod" js="0">Отзывы должны быть утверждены</word>
+  <word key="cbitoptions_reviews_download" js="0">Отзывы только после скачивания</word>
+  <word key="cbitoptions_reviews_download_desc" js="0">Разрешить оставлять отзывы только после скачивания файла. Журналирование скачиваний должно быть включено.</word>
+  <word key="cdisclaimer" js="0">Условия скачивания</word>
+  <word key="cdisclaimer_placeholder" js="0">Перед скачиванием вы должны согласиться со следующими условиями...</word>
+  <word key="category_errors" js="0">Сообщения об ошибках</word>
+  <word key="category_errors_blurb" js="0">Вы можете указать собственные тексты ошибок для этой категории. Если не указано, будут использоваться стандартное сообщение об ошибке.</word>
+  <word key="noperm_view" js="0">Невозможно просмотреть файлы</word>
+  <word key="noperm_view_placeholder" js="0">Добавить сообщение об ошибке...</word>
+  <word key="noperm_dl" js="0">Невозможно скачать файлы</word>
+  <word key="noperm_dl_placeholder" js="0">Добавить сообщение об ошибке...</word>
+  <word key="perm_file_perm__view" js="0">Просмотр категории</word>
+  <word key="perm_file_perm__read" js="0">Просмотр файлов</word>
+  <word key="perm_file_perm__add" js="0">Загрузка файлов</word>
+  <word key="perm_file_perm__download" js="0">Скачивание файлов</word>
+  <word key="perm_file_perm__comment" js="0">Комментирование</word>
+  <word key="perm_file_perm__rate" js="0">Изменение рейтинга</word>
+  <word key="perm_file_perm__reply" js="0">Комментирование</word>
+  <word key="perm_file_perm__review" js="0">Добавление отзывов</word>
+  <word key="cbitoptions_moderation" js="0">Файлы должны быть утверждены</word>
+  <word key="cbitoptions_moderation_edits" js="0">Новые версии должны быть утверждены</word>
+  <word key="cbitoptions_show_approver" js="0">Отображать, кто утвердил файл</word>
+  <word key="cbitoptions_show_approver_desc" js="0">Администрация всегда будет видеть эту информацию.</word>
+  <word key="cbitoptions_comment_moderation" js="0">Комментарии должны быть утверждены</word>
+  <word key="cversioning_on" js="0">Включить контроль версий</word>
+  <word key="cversioning_on_desc" js="0">Если включено, при загрузке новой версии старая версия сохраняется и остаётся доступна для скачивания.</word>
+  <word key="cversioning" js="0">Количество версий для хранения</word>
+  <word key="category_moderation" js="0">Модерация</word>
+  <word key="category_downloading" js="0">Скачивается</word>
+  <word key="category_comments_and_reviews" js="0">Комментарии</word>
+  <word key="category_logs" js="0">Журналы</word>
+  <word key="clog_on" js="0">Журналировать скачивания</word>
+  <word key="clog" js="0">Хранить записи</word>
+  <word key="clog_recount" js="0">Пересчитать количество скачиваний</word>
+  <word key="clog_recount_desc" js="0">Это приведет к пересчёту количества скачиваний всех файлов в этой категории в соответствии с журналом скачиваний. Если вы обновляли настройки журнала, вам нужно будет сохранить их перед запуском этого инструмента. Это действие является необратимым.</word>
+  <word key="clog_recount_done" js="0">Счётчики пересчитаны</word>
+  <word key="r__categories_recount_downloads" js="0">Может пересчитывать количество скачиваний</word>
+  <word key="cbitoptions_submitter_log" js="0">Автор файла может просматривать журнал</word>
+  <word key="cbitoptions_submitter_log_desc" js="0"><![CDATA[Вы можете контролировать, какие группы могут просматривать журнал, в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>.]]></word>
+  <word key="category_submissions" js="0">Загрузка</word>
+  <word key="category_allowed_files" js="0">Разрешённые файлы</word>
+  <word key="category_versioning" js="0">Контроль версий</word>
+  <word key="csubmissionterms" js="0">Условия загрузки</word>
+  <word key="csubmissionterms_placeholder" js="0">Перед загрузкой вы должны согласиться со следующими условиями...</word>
+  <word key="file_cat" js="0">Категория</word>
+  <word key="file_ipaddress" js="0">IP-адрес</word>
+  <word key="log_days" js="0">Журнал очищается через {# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]}</word>
+  <word key="category_forums_integration" js="0">Темы поддержки</word>
+  <word key="cforum_on" js="0">Создавать темы поддержки для файлов</word>
+  <word key="cforum_id" js="0">Раздел</word>
+  <word key="ctopic_prefix" js="0">Префикс темы</word>
+  <word key="ctopic_suffix" js="0">Суффикс темы</word>
+  <word key="cbitoptions_topic_delete" js="0">Удалять тему при удалении файла</word>
+  <word key="cbitoptions_topic_screenshot" js="0">Добавлять скриншот в тему</word>
+  <word key="node_no_parentd" js="0">Отсутствует</word>
+  <word key="view_all_files" js="0">Просмотреть все файлы</word>
+  <word key="modperms__core_Content_downloads_File" js="0">Файлы</word>
+  <word key="download_categories" js="0">Категории</word>
+  <word key="can_pin_downloads_file" js="0">Может закреплять файлы</word>
+  <word key="can_unpin_downloads_file" js="0">Может откреплять файлы</word>
+  <word key="can_feature_downloads_file" js="0">Может отмечать файлы рекомендуемыми</word>
+  <word key="can_unfeature_downloads_file" js="0">Может отмечать файлы обычными</word>
+  <word key="can_move_downloads_file" js="0">Может перемещать файлы</word>
+  <word key="can_move_downloads_file_desc" js="0">Сможет перемещать файлы только между категориями, которые он может модерировать, но не в любые другие категории.</word>
+  <word key="can_lock_downloads_file" js="0">Может закрывать файлы</word>
+  <word key="can_unlock_downloads_file" js="0">Может открывать файлы</word>
+  <word key="can_reply_to_locked_downloads_file" js="0">Может комментировать закрытые файлы</word>
+  <word key="can_edit_downloads_file" js="0">Может изменять файлы</word>
+  <word key="can_hide_downloads_file" js="0">Может скрывать файлы</word>
+  <word key="can_unhide_downloads_file" js="0">Может отменять скрытие файлов</word>
+  <word key="can_view_hidden_downloads_file" js="0">Может просматривать скрытые файлы</word>
+  <word key="can_delete_downloads_file" js="0">Может удалять файлы</word>
+  <word key="can_edit_downloads_file_comment" js="0">Может изменять комментарии</word>
+  <word key="can_hide_downloads_file_comment" js="0">Может скрывать комментарии</word>
+  <word key="can_unhide_downloads_file_comment" js="0">Может отменять скрытие комментариев</word>
+  <word key="can_view_hidden_downloads_file_comment" js="0">Может просматривать скрытые комментарии</word>
+  <word key="can_delete_downloads_file_comment" js="0">Может удалять комментарии</word>
+  <word key="can_edit_downloads_file_review" js="0">Может изменять отзывы</word>
+  <word key="can_hide_downloads_file_review" js="0">Может скрывать отзывы</word>
+  <word key="can_unhide_downloads_file_review" js="0">Может отменять скрытие отзывов</word>
+  <word key="can_view_hidden_downloads_file_review" js="0">Может просматривать скрытые отзывы</word>
+  <word key="can_delete_downloads_file_review" js="0">Может удалять отзывы</word>
+  <word key="can_feature_comments_downloads_file" js="0">Может рекомендовать комментарии к файлам</word>
+  <word key="can_unfeature_comments_downloads_file" js="0">Может удалять рекомендации комментариев к файлам</word>
+  <word key="can_add_item_message_downloads_file" js="0">Может добавлять сообщения к файлам</word>
+  <word key="can_edit_item_message_downloads_file" js="0">Может изменять сообщения к файлам</word>
+  <word key="can_delete_item_message_downloads_file" js="0">Может удалять сообщения к файлам</word>
+  <word key="menu__downloads_downloads_fields" js="0">Дополнительные поля</word>
+  <word key="r__fields" js="0">Дополнительные поля</word>
+  <word key="r__fields_manage" js="0">Может просматривать дополнительные поля</word>
+  <word key="r__fields_add" js="0">Может создавать дополнительные поля</word>
+  <word key="r__fields_edit" js="0">Может изменять дополнительные поля</word>
+  <word key="r__fields_delete" js="0">Может удалять дополнительные поля</word>
+  <word key="cf_topic" js="0">Добавлять поле в тему поддержки</word>
+  <word key="menu__downloads_downloads_settings" js="0">Настройки</word>
+  <word key="acplogs__downloads_settings" js="0">Обновлены настройки файлов</word>
+  <word key="group__downloads_Downloads" js="0">Файлы</word>
+  <word key="idm_rss" js="0">Включить RSS-ленту последних файлов</word>
+  <word key="idm_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
+  <word key="idm_link_blacklist" js="0">Чёрный список ссылок</word>
+  <word key="idm_link_blacklist_desc" js="0">Пользователи, которым разрешено указывать ссылки на файлы, не смогут указывать ссылки с этих доменов.</word>
+  <word key="idm_antileech" js="0">Запретить прямые ссылки</word>
+  <word key="idm_antileech_desc" js="0">Если включено, пользователи не смогут использовать ссылку для скачивания файла многократно, им необходимо будет снова посетить страницу скачивания файла.</word>
+  <word key="idm_watermarkpath" js="0">Водяной знак</word>
+  <word key="idm_watermarkpath_desc" js="0"><![CDATA[Данное изображение будет нанесено на все загруженные скриншоты (к примеру, для отображения копирайта). Для наилучшего результата используйте небольшие изображения с прозрачным фоном.<br><br><a href='{internal.app=downloads&module=downloads&controller=settings&do=rebuildWatermarks}'>Перестроить существующие скриншоты</a>]]></word>
+  <word key="acplogs__downloads_recount_downloads" js="0">Пересчитано количество скачиваний в категории: %s</word>
+  <word key="idm_view_approvers" js="0">Может просматривать, кто утвердил файлы</word>
+  <word key="idm_bypass_revision" js="0">Может управлять версиями?</word>
+  <word key="idm_view_downloads" js="0">Может просматривать, кто скачивал файл</word>
+  <word key="idm_view_downloads_desc" js="0">Журнал скачиваний может быть отключен для конкретной категории или автоматически очищаться.</word>
+  <word key="idm_throttling" js="0">Максимальная скорость скачивания</word>
+  <word key="idm_throttling_suffix" js="0">КБ/секунду</word>
+  <word key="idm_throttling_desc" js="0">Максимальная скорость отдачи файлов пользователю. Слишком низкое значение может привезти к таймауту соединения и обрыву сессии.</word>
+  <word key="idm_throttling_unlimited" js="0">Без ограничений</word>
+  <word key="idm_wait_period" js="0">Время ожидания перед скачиванием</word>
+  <word key="idm_bypass_revision_desc" js="0"><![CDATA[Когда пользователь загружает новую версию файла в категорию, где включен контроль версий, предыдущая версия сохраняется и остаётся доступной для скачивания. Если настройка включена, пользователь сможет активировать опцию, которая удалит предыдущую версию файла при загрузке новой, а также восстанавливать, скрывать и удалить предыдущие версии.<br>Пользователи должны иметь права на изменение файлов.]]></word>
+  <word key="limit_sim" js="0">Максимум одновременных скачиваний</word>
+  <word key="min_posts" js="0">Минимум публикаций для скачивания</word>
+  <word key="download_min_posts" js="0">Вы сможете скачать этот файл после публикации {# [0:сообщений][1:сообщения][11:сообщений][*1:сообщения][?:сообщений]}</word>
+  <word key="daily_bw" js="0">Максимальный трафик за день</word>
+  <word key="weekly_bw" js="0">Максимальный трафик за неделю</word>
+  <word key="monthly_bw" js="0">Максимальный трафик за месяц</word>
+  <word key="kb_per_day" js="0">КБ/день</word>
+  <word key="kb_per_week" js="0">КБ/неделю</word>
+  <word key="kb_per_month" js="0">КБ/месяц</word>
+  <word key="daily_dl" js="0">Максимум скачиваний за день</word>
+  <word key="weekly_dl" js="0">Максимум скачиваний за неделю</word>
+  <word key="monthly_dl" js="0">Максимум скачиваний за месяц</word>
+  <word key="downloads_requires_log" js="0">Эти настройки зависят от журнала скачивания файлов. При использовании этих ограничений рекомендуется включить журналирование скачиваний и отключить очистку журнала. В противном случае возможно проблемы.</word>
+  <word key="file_management" js="0">Управление файлами</word>
+  <word key="download_restrictions" js="0">Скачивание файлов</word>
+  <word key="bandwidth_limits" js="0">Ограничения трафика</word>
+  <word key="download_limits" js="0">Ограничение по скачиваниям</word>
+  <word key="downloads_per_day" js="0">скачиваний/день</word>
+  <word key="downloads_per_week" js="0">скачиваний/неделю</word>
+  <word key="downloads_per_month" js="0">скачиваний/месяц</word>
+  <word key="submission_permissions" js="0">Добавление файлов</word>
+  <word key="idm_linked_files" js="0">Может создавать файлы по ссылкам</word>
+  <word key="idm_import_files" js="0">Может импортировать файлы из файловой системы</word>
+  <word key="idm_import_files_desc" js="0">Если включено, пользователи смогут импортировать файлы, расположенные в директории на вашем сервере. Вы должны включать это только для администрации, где все пользователи являются доверенными.</word>
+  <word key="idm_bulk_submit" js="0">Может создавать несколько файлов за раз</word>
+  <word key="idm_screenshot_for" js="0">Скриншоты %s</word>
+  <word key="rss_offline" js="0">RSS-лента отключена</word>
+  <word key="rss_offline_admin" js="0">Настройка IP.Downloads &quot;Включить RSS-ленту последних файлов&quot; выключена. Активируйте эту настройку в Админцентре для включения RSS-ленты последних файлов.</word>
+  <word key="submit_a_file" js="0">Добавить файл</word>
+  <word key="submit_single_file" js="0">Загрузить один файл</word>
+  <word key="submit_multiple_files" js="0">Добавить несколько файлов</word>
+  <word key="submit_first_file" js="0">Загрузить первый файл</word>
+  <word key="write_review" js="0">Написать отзыв</word>
+  <word key="file_auto_follow_suffix" js="0">Уведомлять меня при публикации новых комментариев</word>
+  <word key="file" js="0">Файл</word>
+  <word key="upload_files" js="0">Загрузить ваши файлы</word>
+  <word key="dl_get_support" js="0">Поддержка</word>
+  <word key="dl_get_support_title" js="0">Получить поддержку по файлу</word>
+  <word key="file_information" js="0">Информация о файле</word>
+  <word key="url_files" js="0">Внешние файлы</word>
+  <word key="url_files_no_perm" js="0">У этого файла есть связанный файл, но вы больше не можете изменять его. Пожалуйста, свяжитесь с администрацией если вам необходимо изменить его.</word>
+  <word key="import_files" js="0">Импорт файлов</word>
+  <word key="screenshots" js="0">Скриншоты</word>
+  <word key="screenshots_ct" js="0">{# [0:скриншотов][1:скриншот][2:скриншота][3:скриншота][4:скриншота][11:скриншотов][12:скриншотов][13:скриншотов][14:скриншотов][*1:скриншот][*2:скриншота][*3:скриншота][*4:скриншота][?:скриншотов]}</word>
+  <word key="url_screenshots" js="0">Внешние скриншоты</word>
+  <word key="file_title" js="0">Название файла</word>
+  <word key="file_submitter" js="0">Автор</word>
+  <word key="file_submitted" js="0">Добавлен</word>
+  <word key="view_file" js="0">Просмотреть файл</word>
+  <word key="version" js="0">Версия</word>
+  <word key="file_version" js="0">Номер версии</word>
+  <word key="file_tags" js="0">Теги</word>
+  <word key="file_changelog" js="0">Изменения в новой версии</word>
+  <word key="new_version_details" js="0">Описание новой версии</word>
+  <word key="with_version" js="0">Версия %s:</word>
+  <word key="file_desc" js="0">Описание файла</word>
+  <word key="file_primary_screenshot" js="0">Основной скриншот</word>
+  <word key="file_primary_screenshot_desc" js="0">Основной скриншот используется в списке категорий</word>
+  <word key="download_now" js="0">Скачать файл</word>
+  <word key="file_view_details" js="0">Просмотреть файл</word>
+  <word key="downloads" js="0">Файлы</word>
+  <word key="x_downloads" js="0">{# [0:скачиваний][1:скачивание][2:скачивания][3:скачивания][4:скачивания][11:скачиваний][12:скачиваний][13:скачиваний][14:скачиваний][*1:скачивание][*2:скачивания][*3:скачивания][*4:скачивания][?:скачиваний]}</word>
+  <word key="idm_purchases" js="0">Покупки</word>
+  <word key="x_purchases" js="0">{# [0:покупок][1:покупка][2:покупки][3:покупки][4:покупки][11:покупок][12:покупок][13:покупок][14:покупок][*1:покупка][*2:покупки][*3:покупки][*4:покупки][?:покупок]}</word>
+  <word key="num_downloads" js="0">{# [0:скачиваний][1:скачивание][2:скачивания][3:скачивания][4:скачивания][11:скачиваний][12:скачиваний][13:скачиваний][14:скачиваний][*1:скачивание][*2:скачивания][*3:скачивания][*4:скачивания][?:скачиваний]}</word>
+  <word key="files_no_number" js="0">{!# [0:файлов][1:файл][2:файла][3:файла][4:файла][11:файлов][12:файлов][13:файлов][14:файлов][*1:файл][*2:файла][*3:файла][*4:файла][?:файлов]}</word>
+  <word key="downloads_file_comment" js="0">Комментарий к файлу</word>
+  <word key="downloads_file_review" js="0">Отзыв к файлу</word>
+  <word key="downloads_file_pl" js="0">Файлы</word>
+  <word key="downloads_file_pl_lc" js="0">файлы</word>
+  <word key="downloads_file_comment_pl" js="0">Комментарии к файлам</word>
+  <word key="downloads_file_comment_pl_lc" js="0">комментарии к файлам</word>
+  <word key="downloads_file_review_pl" js="0">Отзывы к файлам</word>
+  <word key="downloads_file_review_pl_lc" js="0">отзывы к файлам</word>
+  <word key="downloads_category_select" js="0">Категория:</word>
+  <word key="report_file" js="0">Жалоба</word>
+  <word key="file_review_count" js="0">{# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][?:отзывов]}</word>
+  <word key="file_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="subcategory" js="0">Подкатегория</word>
+  <word key="download_no_perm" js="0">Вы не можете скачивать этот файл.</word>
+  <word key="add_files_no_perm" js="0">Вы не можете загружать файлы в эту директорию.</word>
+  <word key="new_version_versioning" js="0">Предыдущая версия поместится в архив и пользователи по прежнему смогут скачивать её.</word>
+  <word key="file_save_revision" js="0">Сохранить предыдущую версию</word>
+  <word key="downloads_edit_details" js="0">Изменить описание</word>
+  <word key="downloads_edit_details_title" js="0">Изменить описание файла</word>
+  <word key="file__comment_placeholder" js="0">Добавить комментарий...</word>
+  <word key="file_submit_comment" js="0">Добавить комментарий</word>
+  <word key="whats_new_in_version" js="0"><![CDATA[Изменения в версии <span data-role='versionTitle'>%s</span>]]></word>
+  <word key="see_changelog" js="0">Просмотреть список изменений</word>
+  <word key="see_changelog_for" js="0">Просмотр списка изменений версии %s</word>
+  <word key="see_changelog_title" js="0">Просмотреть истории версий</word>
+  <word key="view_downloader_list" js="0">Просмотреть список скачавших</word>
+  <word key="who_downloaded" js="0">Статистика скачиваний</word>
+  <word key="downloaders" js="0">Скачавшие</word>
+  <word key="download_your_files" js="0">Скачать ваши файлы</word>
+  <word key="download_terms" js="0">Условия скачивания</word>
+  <word key="download_terms_desc" js="0">Ваш файл готов к скачиванию. Перед скачиванием вы должны согласиться со следующими правилами:</word>
+  <word key="download_file_count" js="0">{# [0:файлов][1:файл][2:файла][3:файла][4:файла][11:файлов][12:файлов][13:файлов][14:файлов][*1:файл][*2:файла][*3:файла][*4:файла][?:файлов]}</word>
+  <word key="agree_and_download" js="0">Согласиться и скачать</word>
+  <word key="cancel_downloading" js="0">Отменить скачивание</word>
+  <word key="agree_and_download_full" js="0">Согласитесь с вышеуказанными условиями и скачайте файл</word>
+  <word key="download_version" js="0">Скачать</word>
+  <word key="restore_version" js="0">Восстановить</word>
+  <word key="delete_version" js="0">Удалить</word>
+  <word key="hide_version" js="0">Скрыть от пользователей</word>
+  <word key="filesize" js="0">Размер файла</word>
+  <word key="file_pending_approval" js="0">Этот файл ещё не утверждён и отображается только администрации.</word>
+  <word key="file_approved_by" js="0">(утверждено %s, %s)</word>
+  <word key="file_requires_approval_g" js="0">Файл, который вы опубликовали, должен быть утверждён администрацией, прежде чем он будет отображён.</word>
+  <word key="file_no_changelog" js="0">Список изменений в этой версии не указан.</word>
+  <word key="file_version_released" js="0">Выпущена %s</word>
+  <word key="restore" js="0">Восстановить</word>
+  <word key="hide_from_members" js="0">Скрыть от пользователей</word>
+  <word key="unhide_from_members" js="0">Показать пользователям</word>
+  <word key="version_restore_confirm" js="0">Вы уверены, что хотите восстановить версию %s?</word>
+  <word key="version_restore_confirm_desc" js="0">Все версии, начиная с %1$s, будут удалены и файл будет восстановлен до версии %1$s.</word>
+  <word key="version_delete_confirm" js="0">Вы уверены, что хотите удалить версию %s?</word>
+  <word key="idm_rss_title" js="0">Последние файлы</word>
+  <word key="wait_x_seconds_noscript" js="0">Подождите {# [0:секунд][1:секунда][2:секунды][3:секунды][4:секунды][11:секунд][12:секунд][13:секунд][14:секунд][*1:секунда][*2:секунды][*3:секунды][*4:секунды][?:секунд]} и нажмите Скачать ещё раз.</word>
+  <word key="download_begins_in" js="0">Скачивание началось</word>
+  <word key="file_actions" js="0">Изменить</word>
+  <word key="max_simultaneous_downloads" js="0">Вы можете скачивать до {# [0:файлов][1:файла][11:файлов][*1:файла][?:файлов]} одновременно. Подождите, пока завершится скачивание {!# [1:другого файла][?:других файлов]}, и попробуйте ещё раз.</word>
+  <word key="bandwidth_limit_daily" js="0">Вы можете скачивать до %s в день. Вы сможете скачать этот файл %s.</word>
+  <word key="bandwidth_limit_week" js="0">Вы можете скачивать до %s в неделю. Вы сможете скачать этот файл %s.</word>
+  <word key="bandwidth_limit_month" js="0">Вы можете скачивать до %s в месяц. Размер файла, который вы хотите скачать, равен %s, что больше вашего лимита.</word>
+  <word key="bandwidth_limit_daily_never" js="0">Вы можете скачивать до %s в день. Размер файла, который вы хотите скачать, равен %s, что больше вашего лимита.</word>
+  <word key="bandwidth_limit_weekly" js="0">Вы можете скачивать до %s в день. Размер файла, который вы хотите скачать, равен %s, что больше вашего лимита.</word>
+  <word key="download_limit_daily" js="0">Вы можете скачивать до {# [0:файлов][1:файла][11:файлов][*1:файла][?:файлов]} за день. Вы сможете скачать этот файл %s.</word>
+  <word key="download_limit_weekly" js="0">Вы можете скачивать до {# [0:файлов][1:файла][11:файлов][*1:файла][?:файлов]} за неделю. Вы сможете скачать этот файл %s.</word>
+  <word key="download_limit_monthly" js="0">Вы можете скачивать до {# [0:файлов][1:файла][11:файлов][*1:файла][?:файлов]} за месяц. Вы сможете скачать этот файл %s.</word>
+  <word key="file_rating_value" js="0">Ваша оценка</word>
+  <word key="file_review_text" js="0">Ваш отзыв</word>
+  <word key="file__review_placeholder" js="0">Добавить отзыв...</word>
+  <word key="err_no_files" js="0">Вы должны загрузить или указать ссылку как минимум на один файл.</word>
+  <word key="err_no_screenshots" js="0">Вы должны загрузить или указать ссылку как минимум на один скриншот.</word>
+  <word key="err_url_file_blacklist" js="0">Ссылки с %s запрещены.</word>
+  <word key="err_import_files" js="0">Файла %s не существует или он недоступен на чтения.</word>
+  <word key="err_import_files_dir" js="0">%s является директорией. Вы должны ввести путь к файлу.</word>
+  <word key="change_author_d" js="0">Изменить автора</word>
+  <word key="change_author_title" js="0">Изменить автора файла</word>
+  <word key="err_submissions_blocked" js="0">Вам была заблокирована возможность загружать файлы.</word>
+  <word key="upload_new_version_title" js="0">Загрузить новую версию файла</word>
+  <word key="feature_title_file" js="0">Сделать этот файл рекомендуемым</word>
+  <word key="unfeature_title_file" js="0">Сделать этот файл обычным</word>
+  <word key="pin_title_file" js="0">Закрепить этот файл</word>
+  <word key="unpin_title_file" js="0">Открепить этот файл</word>
+  <word key="hide_title_file" js="0">Скрыть этот файл</word>
+  <word key="unhide_title_file" js="0">Показать этот файл</word>
+  <word key="approve_title_file" js="0">Утвердить файл</word>
+  <word key="lock_title_file" js="0">Закрыть файл</word>
+  <word key="unlock_title_file" js="0">Открыть этот файл</word>
+  <word key="downloads_move_title" js="0">Переместить в другую категорию</word>
+  <word key="downloads_delete_title" js="0">Удалить файл</word>
+  <word key="find_users_files" js="0">Другие файлы автора</word>
+  <word key="file_versioning_info_text" js="0">Нажмите здесь, если вы хотите загрузить новую версию файла или скриншот.</word>
+  <word key="browse_whats_new" js="0">Последние файлы</word>
+  <word key="browse_highest_rated" js="0">Наивысший рейтинг</word>
+  <word key="browse_most_downloaded" js="0">Самые скачиваемые</word>
+  <word key="no_new_files" js="0">Загруженных файлов ещё нет.</word>
+  <word key="no_rated_files" js="0">Оценённых файлов ещё нет.</word>
+  <word key="no_downloaded_files__week" js="0">Скачанных файлов за неделю ещё нет.</word>
+  <word key="no_downloaded_files__month" js="0">Скачанных файлов за месяц ещё нет.</word>
+  <word key="no_downloaded_files__year" js="0">Скачанных файлов за год ещё нет.</word>
+  <word key="no_downloaded_files" js="0">Скачанных файлов ещё нет.</word>
+  <word key="no_download_review" js="0">Вы можете оставить отзыв к файлу только после его скачивания.</word>
+  <word key="index_discover" js="0">Файлы</word>
+  <word key="index_explore" js="0">Категории</word>
+  <word key="browse_categories_d" js="0">Все категории</word>
+  <word key="no_files_in_cat" js="0">В этой категории ещё нет файлов.</word>
+  <word key="submit_form_title" js="0">Добавление нового файла</word>
+  <word key="submit_form_title_bulk" js="0">Добавление новых файлов</word>
+  <word key="submit_form_desc" js="0"><![CDATA[Добавление файла в <em>%s</em>]]></word>
+  <word key="submit_form_desc_bulk" js="0"><![CDATA[Добавление файла в <em>%s</em>]]></word>
+  <word key="select_your_files" js="0">Выберите ваши файлы</word>
+  <word key="add_files_by_url" js="0">Добавить файлы по ссылке</word>
+  <word key="add_files_by_path" js="0">Добавить файлы из папки на сервере</word>
+  <word key="submit_menu_confirm" js="0">Подтвердить</word>
+  <word key="add_screenshots" js="0">Добавить скриншоты</word>
+  <word key="add_screenshots_by_url" js="0">Добавить скриншоты по ссылке</word>
+  <word key="submit_file_information" js="0">Информация о файле</word>
+  <word key="save_and_submit_files" js="0">Добавить файл</word>
+  <word key="submit_bulk_information" js="0">Введите информацию о файле</word>
+  <word key="bulk_upload_button" js="0">Я хочу добавить несколько записей за раз</word>
+  <word key="upload_more_files" js="0">Добавить ещё файл</word>
+  <word key="featured_downloads" js="0">Рекомендуемые файлы</word>
+  <word key="next_file" js="0">Следующий файл</word>
+  <word key="prev_file" js="0">Предыдущий файл</word>
+  <word key="downloads_category_id" js="0">Категория</word>
+  <word key="announce_download_categories" js="0">Категории</word>
+  <word key="view_this_file" js="0">Просмотреть файл %s</word>
+  <word key="file_locked_can_comment" js="0">Этот файл закрыт, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="file_locked_cannot_comment" js="0">Этот файл закрыт для комментирования.</word>
+  <word key="file__save" js="0">Сохранить</word>
+  <word key="downloads_no_file" js="0">Файл не найден</word>
+  <word key="download_teaser" js="0">Создайте аккаунт или войдите в него для скачивания файла</word>
+  <word key="downloads_file_info" js="0">Скачивания</word>
+  <word key="sort_file_downloads" js="0">Наиболее скачиваемые</word>
+  <word key="block_downloads_Overview" js="0">Статистика файлов</word>
+  <word key="total_disk_spaced" js="0">Всего занято на диске</word>
+  <word key="total_files" js="0">Всего файлов</word>
+  <word key="total_downloads" js="0">Всего скачиваний</word>
+  <word key="total_bandwidth" js="0">Всего скачано</word>
+  <word key="current_month_bandwidth" js="0">Использование трафика за месяц</word>
+  <word key="largest_file" js="0">Самый большой</word>
+  <word key="most_viewed_file" js="0">Самый просматриваемый</word>
+  <word key="most_downloaded_file" js="0">Самый скачиваемый</word>
+  <word key="total_files_front" js="0">Файлов</word>
+  <word key="total_authors" js="0">Авторы</word>
+  <word key="latest_file" js="0">Последний файл</word>
+  <word key="latest_submitter" js="0">Последний автор</word>
+  <word key="top_week" js="0">Неделя</word>
+  <word key="top_month" js="0">Месяц</word>
+  <word key="top_year" js="0">Год</word>
+  <word key="top_alltime" js="0">Все</word>
+  <word key="top_avg_rating" js="0">Средний рейтинг файла</word>
+  <word key="top_submitters_empty__week" js="0">Нет лучших авторов файлов на этой неделе</word>
+  <word key="top_submitters_empty__month" js="0">Нет лучших авторов файлов в этом месяце</word>
+  <word key="top_submitters_empty__year" js="0">Нет лучших авторов файлов в этом году</word>
+  <word key="top_submitters_empty__all" js="0">Нет лучших авторов файлов</word>
+  <word key="member__downloads_Downloads" js="0">Файлы</word>
+  <word key="idm_block_submissions" js="0">Разрешить добавлять файлы</word>
+  <word key="idm_block_submissions_desc" js="0">Каждая категория имеет права доступа на добавление файлов в неё. Если выключено, пользователи не смогут добавить никаких файлов. Если включено, будут унаследованы настройки родительской категории.</word>
+  <word key="downloads_stats" js="0">Просмотреть статистику скачиваний</word>
+  <word key="submissions" js="0">{# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="deleted_file" js="0">Удалён файл</word>
+  <word key="dmid" js="0">Пользователь</word>
+  <word key="dfid" js="0">Файл</word>
+  <word key="dtime" js="0">Дата/время</word>
+  <word key="dsize" js="0">Размер файла</word>
+  <word key="dua" js="0">Браузер</word>
+  <word key="dip" js="0">IP-адрес</word>
+  <word key="member_downloads_chart" js="0">Файлы %s</word>
+  <word key="bandwidth_use" js="0">Использовано трафика</word>
+  <word key="files_submitted" js="0">Файл добавлен</word>
+  <word key="diskspace_used" js="0">Использовано места</word>
+  <word key="average_filesize_downloads" js="0">Средний размер файла</word>
+  <word key="number_of_downloads" js="0">Количество скачиваний</word>
+  <word key="downloads_bandwidth_used" js="0">Использованный трафик *</word>
+  <word key="downloads_stat_of_total" js="0">%s (%d%% от общего)</word>
+  <word key="downloads_stat_average" js="0">%s (в среднем на всех пользователей: %s)</word>
+  <word key="downloadS_stat_average_of_total" js="0">%d% от общего числа; в среднем на всех пользователей: %d</word>
+  <word key="download_stats_disclaimer" js="0">Статистика формируется на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
+  <word key="download_graph_disclaimer" js="0">Эти данные формируются на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
+  <word key="menu__downloads_stats_downloads" js="0">Файлы</word>
+  <word key="menu__downloads_stats_downloaders" js="0">Топ скачиваний</word>
+  <word key="menu__downloads_stats_submitters" js="0">Топ авторов</word>
+  <word key="r__downloads" js="0">Статистика скачиваний</word>
+  <word key="r__downloads_manage" js="0">Может просматривать статистику скачиваний</word>
+  <word key="r__downloaders_manage" js="0">Может просматривать самые скачиваемые</word>
+  <word key="r__submitters_manage" js="0">Может просматривать лучших авторов</word>
+  <word key="ipAddresses__downloads_DownloadLog" js="0">Скачивания</word>
+  <word key="block_fileFeed" js="0">Лента файлов</word>
+  <word key="block_fileFeed_desc" js="0">Создаёт ленту файлов</word>
+  <word key="widget_feed_container_downloads_file" js="0">Категории</word>
+  <word key="block_topSubmitters" js="0">Лучшие авторы</word>
+  <word key="block_topSubmitters_desc" js="0">Отображать лучших авторов</word>
+  <word key="block_downloadStats" js="0">Статистика скачиваний</word>
+  <word key="block_downloadStats_desc" js="0">Отображать статистику скачиваний</word>
+  <word key="block_topDownloads" js="0">Самые скачиваемые</word>
+  <word key="block_topDownloads_desc" js="0">Отображать самые скачиваемые файлы</word>
+  <word key="block_recentFiles" js="0">Последние файлы</word>
+  <word key="block_recentFiles_desc" js="0">Отображает последние файлы</word>
+  <word key="loc_downloads_viewing_file" js="0">Просматривает файл: %s</word>
+  <word key="loc_downloads_viewing_category" js="0">Просматривает категорию: %s</word>
+  <word key="loc_downloads_browsing_categories" js="0">Просматривает категории файлов</word>
+  <word key="loc_downloads_adding_file" js="0">Добавляет файл</word>
+  <word key="loc_downloads_browsing" js="0">Просматривает файлы</word>
+  <word key="acp_search_title_downloads_Downloads" js="0">Категории файлов</word>
+  <word key="downloads_categories_pagetitle" js="0">Категории файлов</word>
+  <word key="task__logCleanup" js="0">Очистка журнала скачиваний</word>
+  <word key="task__tempFileCleanup" js="0">Удаление временных файлов.</word>
+  <word key="digest_area_downloads_category" js="0">Файлы</word>
+  <word key="digest_area_downloads_file" js="0">Файл</word>
+  <word key="x_created_file_in" js="0">%s загрузил новый файл в %s</word>
+  <word key="x_commented_file" js="0">%s оставил комментарий на файл</word>
+  <word key="x_reviewed_file" js="0">%s оставил отзыв к файлу</word>
+  <word key="paid_file_settings" js="0">Настройки платных файлов</word>
+  <word key="idm_nexus_on" js="0">Включить платные файлы</word>
+  <word key="idm_nexus_on_desc" js="0"><![CDATA[Если включено, пользователи, которые имеют соответствующие права, смогут создавать файлы, которые должны быть куплены перед скачиванием.<br>Вы можете контролировать, какие группы могут создавать платные файлы, в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>.<br>Когда кто-либо купит файл, деньги будут зачислены на баланс аккаунта владельца файла. Вы можете контролировать, как пользователи смогут выводить средства, на странице настроек <a href='{internal.app=nexus&module=payments&controller=payouts&do=settings}'>вывода средств</a>.]]></word>
+  <word key="idm_nexus_tax" js="0">Тип налога для платных файлов</word>
+  <word key="idm_nexus_percent" js="0">Комиссия сайта</word>
+  <word key="idm_nexus_percent_desc" js="0">Процент, который будет вычтен от стоимости файла в пользу вашего сайта. Например, если вы установите его в размере 10%, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
+  <word key="idm_nexus_transfee" js="0">Комиссия за транзакцию</word>
+  <word key="idm_nexus_transfee_desc" js="0">Сумма, которая будет вычтена от стоимости файла в пользу вашего сайта. Например, если вы установите её в размере $1, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
+  <word key="idm_nexus_gateways" js="0">Способы оплаты</word>
+  <word key="idm_nexus_display" js="0">Отображаемая статистика</word>
+  <word key="idm_nexus_display_desc" js="0">В бесплатных файлах количество скачиваний отображается всегда.</word>
+  <word key="idm_nexus_gateways_desc" js="0">Клиенты смогут оплатить файл или его продление только выбранными способами оплаты.</word>
+  <word key="idm_add_paid" js="0">Может продавать файлы</word>
+  <word key="idm_add_paid_enable" js="0"><![CDATA[Для того, чтобы разрешить пользователям продавать файлы, вы должны <a href='{internal.app=downloads&module=downloads&controller=settings}'>включить платные файлы</a>.]]></word>
+  <word key="idm_bypass_paid" js="0">Может скачивать платные файлы без покупки</word>
+  <word key="file_cost_type" js="0">Тип</word>
+  <word key="file_free" js="0">Бесплатно</word>
+  <word key="file_free_feed" js="0">Бесп.</word>
+  <word key="file_paid" js="0">Платно</word>
+  <word key="file_associate_nexus" js="0">Связаны с продуктами</word>
+  <word key="file_associate_nexus_desc" js="0">Пользователи, которые приобрели один из следующих продуктов, смогут скачать этот файл.</word>
+  <word key="file_cost" js="0">Цена</word>
+  <word key="file_renewals" js="0">Продления</word>
+  <word key="file_renewals_off" js="0">Без продления - после покупки файла, пользователь сможет скачивать все будущие версии.</word>
+  <word key="file_renewals_on" js="0">Я укажу условия продления. Пользователи должны будут оплатить продление файла для скачивания будущих версий.</word>
+  <word key="file_renewal_term" js="0">Период продления</word>
+  <word key="file_renewal_term_desc" js="0">После сохранения файла, условия продления не смогут быть изменены.</word>
+  <word key="file_nexus" js="0">Связанные продукты</word>
+  <word key="file_not_purchased" js="0">Вы не купили этот файл или ваша покупка истекла.</word>
+  <word key="buy_now" js="0">Купить</word>
+  <word key="file_cost_desc_both" js="0">Из данной суммы будет вычтено %s%% комиссии в пользу сайта, а также %s комиссии за транзакцию.</word>
+  <word key="file_cost_desc_percent" js="0">Из данной суммы будет вычтено %s%% комиссии в пользу сайта.</word>
+  <word key="file_cost_desc_fee" js="0">Из данной суммы будет вычтено %s комиссии за транзакцию.</word>
+  <word key="file_renewal_term_val" js="0">Период продления: %s</word>
+  <word key="choose_file_nexus_blurb" js="0">Файл доступен в одном из следующих пакетов. Пожалуйста, добавьте один из этих пакетов в вашу корзину для продолжения.</word>
+  <word key="choose_file_nexus_title" js="0">Выберите пакет</word>
+  <word key="file_no_price_for_currency" js="0">Данный файл в настоящий момент недоступен в выбранной вами валюте.</word>
+  <word key="nexus_file_no_longer_available" js="0">Этот файл больше недоступен для скачивания.</word>
+  <word key="notifications__downloads_Files" js="0">Файлы</word>
+  <word key="notifications__new_file_version" js="0">Файл, на который я подписан, был обновлён до новой версии</word>
+  <word key="email_new_file_version_plain" js="0">%s загрузил новую версию %s,</word>
+  <word key="email_new_file_version" js="0"><![CDATA[<a href='%s'>%s</a> загрузил новую версию %s,]]></word>
+  <word key="email_new_file_version_guest" js="0">%s (Гость) загрузил новую версию %s,</word>
+  <word key="mailsub__downloads_notification_new_file_version" js="0"><![CDATA[{$content->author()->name|raw} загрузил новую версию {$content->mapped("title")|raw}]]></word>
+  <word key="notification__new_file_version" js="0">%s загрузил новую версию %s</word>
+  <word key="emailtpl_notification_new_file_version" js="0">Уведомление о новой версии файла</word>
+  <word key="block_downloadsCommentFeed" js="0">Комментарии на файлы</word>
+  <word key="block_downloadsCommentFeed_desc" js="0">Отображает ленту комментариев</word>
+  <word key="block_downloadsReviewFeed" js="0">Отзывы к файлам</word>
+  <word key="block_downloadsReviewFeed_desc" js="0">Отображает ленту отзывов</word>
+  <word key="__api_downloads_files" js="0">Файлы</word>
+  <word key="__api_downloads_comments" js="0">Комментарии</word>
+  <word key="__api_downloads_reviews" js="0">Отзывы</word>
+  <word key="__api_downloads_categories" js="0">Категории</word>
+  <word key="idm_landing_page" js="0">Главная страница</word>
+  <word key="idm_show_featured" js="0">Отображать блок &quot;Рекомендуемые файлы&quot;</word>
+  <word key="idm_featured_count" js="0">Количество отображаемых рекомендуемых файлов</word>
+  <word key="idm_show_newest" js="0">Отображать блок &quot;Последние файлы&quot;</word>
+  <word key="idm_newest_categories" js="0">Категории</word>
+  <word key="idm_show_highest_rated" js="0">Отображать блок &quot;С наивысшим рейтингом&quot;</word>
+  <word key="idm_show_most_downloaded" js="0">Отображать блок &quot;Самые скачиваемые&quot;</word>
+  <word key="idm_highest_rated_categories" js="0">Категории</word>
+  <word key="idm_show_most_downloaded_categories" js="0">Категории</word>
+  <word key="makePrimaryScreenshot" js="1">Сделан скриншот основным</word>
+  <word key="removeScreenshot" js="1">Удалить этот скриншот</word>
+ </app>
+</language>
