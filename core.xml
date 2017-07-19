@@ -701,8 +701,8 @@
   <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.0</span>
 
 <span class="ipsType_light ipsType_blendLinks">
-    <span> · <a href="https://ilyahoilik.com" target="_blank" data-ipsTooltip _title="Перейти на сайт автора">Русская локализация</a></span>
-    <span class="ipsType_warning" id="elLangUpdate" style="display: none;"><br><a href="https://ilyahoilik.com" target="_blank">Русская локализация устарела. Обновить!</a></span>
+    <span> · <a href="https://link.ilyahoilik.com/invision.lang" target="_blank" data-ipsTooltip _title="Перейти на сайт автора">Русская локализация</a></span>
+    <span class="ipsType_warning" id="elLangUpdate" style="display: none;"><br><a href="https://link.ilyahoilik.com/invision.lang-update" target="_blank">Русская локализация устарела. Обновить!</a></span>
 </span>
 
 <script>
