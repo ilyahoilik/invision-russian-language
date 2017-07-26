@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102001">
+ <app key="core" version="102004">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -175,7 +175,7 @@
   <word key="activity_member_followed" js="0">%s подписался на %s</word>
   <word key="activity_member_updated_photo" js="0">%s изменил свою фотографию </word>
   <word key="activity_member_liked" js="0">%s понравилось %s: %s</word>
-  <word key="activity_member_reacted" js="0"><![CDATA[<img src='http://localhost/internal/translate-42/uploads/%s' width='20' height='20' data-ipsTooltip title='%s'>  %s отреагировал на %s: %s]]></word>
+  <word key="activity_member_reacted" js="0"><![CDATA[<img src='http://localhost/internal/translate/uploads/%s' width='20' height='20' data-ipsTooltip title='%s'>  %s отреагировал на %s: %s]]></word>
   <word key="activity_club" js="0">%s создал клуб: %s</word>
   <word key="stream_auto_updates" js="0">Этот поток обновляется автоматически</word>
   <word key="load_more_activity" js="0">Загрузить больше активности</word>
@@ -698,7 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.0</span>
+  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.1</span>
 
 <span class="ipsType_light ipsType_blendLinks">
     <span> · <a href="https://invisionlang.ru" target="_blank" data-ipsTooltip _title="Перейти на сайт локализации">Русская локализация</a></span>
@@ -4399,7 +4399,7 @@ $("#elLangUpdate").show();
   <word key="file_storage_move_in" js="0">Файлы сейчас перемещаются в эту конфигурацию и она не может быть отредактирована. Подождите, пока перемещение будет окончено и попробуйте снова.</word>
   <word key="filestorage_move" js="0">Переместить файлы автоматически</word>
   <word key="filestorage_move_desc" js="0">Если вы уже переместили файлы, вы можете выключить это. В противном случае начнётся процесс перемещения файлов.</word>
-  <word key="moving_files" js="0">Перемещение %s файлов...</word>
+  <word key="moving_files" js="0">Перемещение файлов %s...</word>
   <word key="file_config_log_title" js="0">Просмотреть журналы</word>
   <word key="file_config_log" js="0">Журналы %s</word>
   <word key="files_log_date" js="0">Дата</word>
@@ -4417,24 +4417,24 @@ $("#elLangUpdate").show();
   <word key="files_action_move" js="0">Переместить</word>
   <word key="files_log_filter_error" js="0">Ошибки</word>
   <word key="files_log_filter_move" js="0">Перемещенные файлы, ожидающие удаления</word>
-  <word key="deleting_moved_files" js="0">Удаление оригинальных файлов</word>
+  <word key="deleting_moved_files" js="0">Удаление оригиналов перемещённых файлов</word>
   <word key="orphaned_files" js="0">Удалить потерянные файлы</word>
   <word key="orphaned_files_confirm" js="0">Вы уверены, что хотите удалить потерянные файлы, которые не имеют связанных с ними записей в базе данных? Это действие нельзя отменить. Рекомендуется создать резервную копию файлов перед продолжением.</word>
   <word key="orphaned_files_tasks_added" js="0">Фоновая задача удаления потерянных файлов была добавлена.</word>
-  <word key="finding_orphaned_files" js="0">Найдены потерянные файлы для %s</word>
-  <word key="deleting_orphaned_files" js="0">Удаление ненужных файлов %s</word>
+  <word key="finding_orphaned_files" js="0">Поиск потерянных файлов в %s</word>
+  <word key="deleting_orphaned_files" js="0">Удаление потерянных файлов в %s</word>
   <word key="acplogs__orphaned_files_tool" js="0">%s потерянных файлов удалено</word>
   <word key="removing_orphaned_files" js="0">Удаление потерянных файлов...</word>
   <word key="rebuilding_stuff" js="0">Перестроение: %s</word>
-  <word key="rebuilding_imageproxy_stuff" js="0">Перестроение кэша внешних изображений %s</word>
+  <word key="rebuilding_imageproxy_stuff" js="0">Перестроение данных внешних изображений: %s</word>
   <word key="rebuilding_member_seo_names" js="0">Перестроение имён пользователей</word>
-  <word key="mass_member_update" js="0">Обновление пользователей (поля: %s)</word>
+  <word key="mass_member_update" js="0">Обновление всех пользователей (поля: %s)</word>
   <word key="rebuilding_reputation" js="0">Перестроение репутации: %s</word>
   <word key="reindexing_stuff" js="0">Перестроение индекса: %s</word>
   <word key="rebuilding_content_images" js="0">Перестроение изображений: %s</word>
   <word key="rebuilding_noncontent_images" js="0">Перестроение изображений: %s</word>
   <word key="rebuilding_noncontent_posts" js="0">Перестроение: %s</word>
-  <word key="recounting_posts" js="0">Пересчёт количества публикаций пользователей</word>
+  <word key="recounting_posts" js="0">Пересчёт публикаций пользователей</word>
   <word key="recounting_reputation" js="0">Пересчёт репутации пользователя</word>
   <word key="recounting_votes" js="0">Пересчёт голосов в опросах</word>
   <word key="file_storage_test_error_amazon" js="0"><![CDATA[Возникли проблемы с настройкой хранения файлов Amazon (%s), что может вызвать проблемы при загрузке файлов.<br>После попытки загрузить файл, при обращении к нему по ссылке возвращается ошибка HTTP %s. Измените ваши настройки и проверьте, решена ли проблема.]]></word>
@@ -4443,10 +4443,10 @@ $("#elLangUpdate").show();
   <word key="file_storage_test_error_ftp" js="0"><![CDATA[Возникли проблемы с настройкой хранения файлов FTP (%s), что может вызвать проблемы при загрузке файлов.<br>После попытки загрузить файл, при обращении к нему по ссылке возвращается ошибка HTTP %s. Измените ваши настройки и проверьте, решена ли проблема.]]></word>
   <word key="file_storage_test_ftp_unexpected_response" js="0">Возникли проблемы с настройкой хранения файлов FTP (%s). Пожалуйста, свяжитесь с технической поддержкой.</word>
   <word key="rebuilding_items" js="0">Перестроение заголовков: %s</word>
-  <word key="rebuilding_starratings" js="0">Перестроение %s звёзд рейтинга</word>
-  <word key="rebuilding_item_counts" js="0">Перестроение: %s</word>
+  <word key="rebuilding_starratings" js="0">Перестроение звёзд рейтинга: %s</word>
+  <word key="rebuilding_item_counts" js="0">Перестроение счётчиков: %s</word>
   <word key="rebuilding_attachments" js="0">Перестроение вложений</word>
-  <word key="updating_storage_urls" js="0">Обновление URL хранилища %s</word>
+  <word key="updating_storage_urls" js="0">Обновление ссылок в %s</word>
   <word key="member_photo_upload_no_animated" js="0">Вы не можете загружать анимированные аватары</word>
   <word key="profanity" js="0">Фильтры слов</word>
   <word key="profanity_action" js="0">Применяемое действие</word>
@@ -5041,7 +5041,7 @@ $("#elLangUpdate").show();
   <word key="dashboard_version_head" js="0">Доступно новое обновление!</word>
   <word key="dashboard_version_moreinfo" js="0">Подробная информация</word>
   <word key="dashboard_version_info" js="0"><![CDATA[Хорошие новости! Доступна новая версия Invision Community <strong>%s</strong>.]]></word>
-  <word key="dashboard_version_info_security" js="0"><![CDATA[Доступна новая версия Invision Community <strong>%s</strong>, которая <strong>включает в себя обновления безопасности</strong>.]]></word>
+  <word key="dashboard_version_info_security" js="0"><![CDATA[Доступна новая версия Invision Community <strong>%s</strong>, которая <strong>включает в себя обновление безопасности</strong>.]]></word>
   <word key="see_whats_new" js="0">Посмотреть что нового</word>
   <word key="whats_new_title" js="0">Изменения в версии %s</word>
   <word key="this_is_a_security_update" js="0">Она содержит обновление безопасности и мы рекомендуем вам обновиться как можно скорее.</word>
@@ -5057,12 +5057,12 @@ $("#elLangUpdate").show();
   <word key="background_process_run_content" js="0">Этот инструмент запустит все фоновые процессы до их полного завершения. Если вы закроете эту страницу, процессы будут выполнятся до полного завершения.</word>
   <word key="background_process_run_button" js="0">Запустить сейчас</word>
   <word key="background_processes_processing" js="0">Обработка %s</word>
-  <word key="backgroundQueue_follow" js="0">Отправка уведомлений %s</word>
+  <word key="backgroundQueue_follow" js="0">Отправка уведомлений о %s</word>
   <word key="backgroundQueue_move_content" js="0">Перемещение публикаций из %s в %s</word>
   <word key="backgroundQueue_deleting" js="0">Удаление %s</word>
-  <word key="backgroundQueue_membercontent_delete" js="0">Удаление публикаций пользователя %s (%s)</word>
-  <word key="backgroundQueue_membercontent_hide" js="0">Скрытие публикаций пользователя %s (%s)</word>
-  <word key="backgroundQueue_membercontent_merge" js="0">Объединение публикаций пользователя %s (%s)</word>
+  <word key="backgroundQueue_membercontent_delete" js="0">Удаление %2$s пользователя %s</word>
+  <word key="backgroundQueue_membercontent_hide" js="0">Скрытие %2$s пользователя %s</word>
+  <word key="backgroundQueue_membercontent_merge" js="0">Объединение %2$s пользователя %s</word>
   <word key="dashboard_log_not_writeable" js="0">Директория журналов недоступна для записи</word>
   <word key="dashboard_log_not_writeable_desc" js="0">Ваш сайт настроен на сохранение журналов в %s. Пожалуйста, убедитесь что папка доступна для записи</word>
   <word key="dashboard_tasks_broken" js="0">Задачи обслуживания</word>
@@ -5951,7 +5951,7 @@ $("#elLangUpdate").show();
   <word key="modcp_status_banned" js="0">%s (Заблокирован)</word>
   <word key="modcp_status_suspended" js="0">%s (Заблокирован до %s)</word>
   <word key="modcp_view_warnings" js="0">Предупреждения</word>
-  <word key="approval_queue_splash" js="0">Используйте очередь утверждения для пошаговой проверки публикаций, ожидающих утверждения модератора. Используйте кнопки на панели инструментов, чтобы принять решение по публикации и загрузить следующую автоматически.</word>
+  <word key="approval_queue_splash" js="0">Используйте очередь утверждения для пошаговой проверки публикаций, ожидающих утверждения модератором. Используйте кнопки на панели инструментов, чтобы принять решение по публикации и загрузить следующую автоматически.</word>
   <word key="approval_queue_start" js="0">Начать очередь утверждения</word>
   <word key="approval_queue_skip" js="0">Пропускать эту страницу в дальнейшем</word>
   <word key="skip_this_item" js="0">Пропустить этот элемент</word>
@@ -6337,7 +6337,7 @@ $("#elLangUpdate").show();
   <word key="ignored_users" js="0">Игнорируемые пользователи</word>
   <word key="add_ignored_user" js="0">Добавить игнорируемого пользователя</word>
   <word key="edit_ignore_for" js="0">Игнорирование %s</word>
-  <word key="ignored_users_blurb" js="0">Публикации игнорируемых пользователей не отображаются вам. Пользователи не уведомляются о том, что вы их игнорируете.</word>
+  <word key="ignored_users_blurb" js="0">Игнорирование пользователя позволяет скрыть от вас некоторые или все его публикации. Пользователи не уведомляются о том, что вы их игнорируете.</word>
   <word key="ignored_users_add" js="0">Добавить пользователя в игнорируемые</word>
   <word key="ignored_users_add_desc" js="0">Введите имя пользователя для выбора вариантов игнорирования</word>
   <word key="ignore_placeholder" js="0">Поиск пользователя для игнорирования...</word>
@@ -7327,7 +7327,7 @@ $("#elLangUpdate").show();
   <word key="profile_member_congrats" js="0">Публикации %s были самыми популярными!</word>
   <word key="members_days_won_count" js="0">Дней в лидерах</word>
   <word key="members_days_won_count_desc" js="0">Количество раз, когда публикации %s стали наиболее понравившимися за день</word>
-  <word key="rebuilding_reputation_leaderboard" js="0">Перестроение репутации Таблицы лидеров</word>
+  <word key="rebuilding_reputation_leaderboard" js="0">Перестроение репутации в Таблице лидеров</word>
   <word key="custom_date" js="0">Пользовательская дата</word>
   <word key="popular_timezone" js="0">Таблица лидеров находится в часовом поясе %s/GMT%s</word>
   <word key="popular_posted" js="0">опубликовано</word>
@@ -7647,7 +7647,7 @@ $("#elLangUpdate").show();
   <word key="clubs_header_sidebar" js="0">в боковой панели</word>
   <word key="clubs_header_desc" js="0">Информация о клубе отображается при просмотре любой страницы клуба, включая его публикации.</word>
   <word key="clubs_locations" js="0">У клубов есть физическое расположение?</word>
-  <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank'>интеграция с Google Maps</a>, то на главной странице Клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
+  <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank'>интеграция с Google Maps</a>, то на главной странице клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
   <word key="club_location" js="0">Местоположение</word>
   <word key="modperms__core_Clubs" js="0">Клубы</word>
   <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендуемыми/обычными</word>
@@ -7947,8 +7947,8 @@ $("#elLangUpdate").show();
   <word key="supportAcpAccountDisableNo" js="1">Нет, спасибо</word>
   <word key="followUpdated" js="1">Ваша подписка была обновлена</word>
   <word key="previewBtnCancel" js="1">Вернуться назад и изменить</word>
-  <word key="filesStillUploading" js="1">Одно или более вложений в настоящее время загружаются.</word>
-  <word key="filesStillUploadingDesc" js="1">Пожалуйста, подождите окончания загрузка перед отправкой этой формы.</word>
+  <word key="filesStillUploading" js="1">Одно или более вложение всё ещё загружаются.</word>
+  <word key="filesStillUploadingDesc" js="1">Пожалуйста, подождите окончания их загрузки перед отправкой этой формы.</word>
   <word key="yourUploadsFinished" js="1">{!# [1:Загрузка завершена][?:Загрузки завершены]}</word>
   <word key="notifyUploadSuccess" js="1">{# [0:файлов загружено][1:файл загружен][2:файла загружены][3:файла загружены][4:файла загружены][11:файлов загружено][12:файлов загружено][13:файлов загружено][14:файлов загружено][*1:файл загружен][*2:файла загружено][*3:файла загружено][*4:файла загружено][?:файлов загружено]} успешно</word>
   <word key="notifyUploadError" js="1">{# [0:файлов не загружено][1:файл не загружен][2:файла не загружены][3:файла не загружены][4:файла не загружены][11:файлов не загружено][12:файлов не загружено][13:файлов не загружено][14:файлов не загружено][*1:файл не загружен][*2:файла не загружено][*3:файла не загружено][*4:файла не загружено][?:файлов не загружено]} из-за ошибки.</word>
@@ -8329,5 +8329,7 @@ $("#elLangUpdate").show();
   <word key="imageProxyRebuild" js="1">Перестроить существующие публикации?</word>
   <word key="imageProxyRebuildYes" js="1">Да, перестроить</word>
   <word key="imageProxyRebuildNo" js="1">Нет</word>
+  <word key="mod_error_invalid_action" js="0">Возникла ошибка при выполнении этого действия</word>
+  <word key="mod_error_invalid_action_admin" js="0">Действие, которое вы пытались выполнить, является некорректным</word>
  </app>
 </language>

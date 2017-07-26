@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="102001">
+ <app key="gallery" version="102004">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -203,7 +203,7 @@
   <word key="gallery_watermark_path" js="0">Изображение водяного знака</word>
   <word key="gallery_watermark_path_desc" js="0"><![CDATA[Данное изображение будет наложено на все загруженные изображения в галерее (например, для отображения копирайта). Помните, что в отдельных категориях может быть отключено использование водяного знака. Для наилучшего результата используйте маленькое изображение с прозрачным фоном.<br><br><a href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildImages}'>Перестроить существующие изображения</a>]]></word>
   <word key="gallery_watermark_images" js="0">Изображения для водяного знака</word>
-  <word key="gallery_use_watermarks" js="0">Накладывать водяные изображения?</word>
+  <word key="gallery_use_watermarks" js="0">Накладывать водяные знаки?</word>
   <word key="gallery_watermark_large" js="0">Большие изображения</word>
   <word key="gallery_watermark_medium" js="0">Средние изображения</word>
   <word key="gallery_watermark_small" js="0">Малые изображения</word>

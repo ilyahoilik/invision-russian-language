@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="102001">
+ <app key="forums" version="102004">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -172,9 +172,9 @@
   <word key="add_forum" js="0">Добавить раздел</word>
   <word key="edit_forum" js="0">Изменение раздела</word>
   <word key="node_no_parentf" js="0">Отсутствует</word>
-  <word key="forum_use_feature_color" js="0">Использовать цветовое свойство</word>
-  <word key="forum_use_feature_color_desc" js="0">Цветовое свойство отображается в виде бейджа рядом с заголовком раздела.</word>
-  <word key="forum_feature_color" js="0">Цветовое свойство</word>
+  <word key="forum_use_feature_color" js="0">Использовать выделение цветом</word>
+  <word key="forum_use_feature_color_desc" js="0">Выделение цветом отображается в виде бейджа рядом с заголовком раздела.</word>
+  <word key="forum_feature_color" js="0">Выделение цветом</word>
   <word key="rebuilding_starter_ids" js="0">Перестроение идентификаторов автором тем</word>
   <word key="forums_topic_post" js="0">Сообщения в разделе</word>
   <word key="forums_topic" js="0">Темы в разделе</word>
@@ -200,7 +200,7 @@
   <word key="forums_default_view" js="0">Стандартный вид форума</word>
   <word key="forums_default_view_table" js="0">Таблица: Традиционная таблица разделов</word>
   <word key="forums_default_view_grid" js="0">Сетка: Отображает разделы в виде карточек в сетке</word>
-  <word key="forums_default_view_fluid" js="0">Динамический: Упрощённый динамический список тем с фильтров по разделу</word>
+  <word key="forums_default_view_fluid" js="0">Динамический: Упрощённый динамический список тем с фильтром по разделу</word>
   <word key="forums_default_view_fluid_desc" js="0">Динамический вид работает наилучшим образом с небольшим количеством разделов и несложной иерархией. Фильтр разделов динамического вида будет отображать до трёх уровней вложенности.</word>
   <word key="forums_default_view_choose" js="0">Пользователь может выбрать сам?</word>
   <word key="forums_default_view_choose_desc" js="0">Укажите виды, из которых вы разрешите пользователям выбирать</word>
@@ -521,9 +521,9 @@
   <word key="modlog__unarchived_topic" js="0"><![CDATA[Разархивирована тема: <a href='%s'>%s</a>]]></word>
   <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Удалена пометка "исключить из архива" с темы: <a href='%s'>%s</a>]]></word>
   <word key="task__rssimport" js="0">Проверяет RSS-ленту на наличие новых статей и импортирует их в IP.Board</word>
-  <word key="queue_deleting_legacy_topics" js="0">Удаление устаревших данных тем</word>
-  <word key="queue_deleting_legacy_posts" js="0">Удаление устаревших данных сообщений</word>
-  <word key="queue_fixing_hidden_first_post" js="0">Обновление неправильно скрытых тем</word>
+  <word key="queue_deleting_legacy_topics" js="0">Удаление устаревших данных о темах</word>
+  <word key="queue_deleting_legacy_posts" js="0">Удаление устаревших данных о сообщениях</word>
+  <word key="queue_fixing_hidden_first_post" js="0">Обновление некорректно скрытых тем</word>
   <word key="queue_rebuilding_new_topic_flag" js="0">Перестроение флагов новых тем в сообщениях</word>
   <word key="block_forumStatistics" js="0">Статистика форума</word>
   <word key="block_forumStatistics_desc" js="0">Отображает основную статистику форума</word>
