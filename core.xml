@@ -175,7 +175,7 @@
   <word key="activity_member_followed" js="0">%s подписался на %s</word>
   <word key="activity_member_updated_photo" js="0">%s изменил свою фотографию </word>
   <word key="activity_member_liked" js="0">%s понравилось %s: %s</word>
-  <word key="activity_member_reacted" js="0"><![CDATA[<img src='http://localhost/internal/translate/uploads/%s' width='20' height='20' data-ipsTooltip title='%s'>  %s отреагировал на %s: %s]]></word>
+  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src='<fileStore.core_Reaction>/%s' width='20' height='20' data-ipsTooltip title='%s'>&nbsp; %s отреагировал на %s: %s]]></word>
   <word key="activity_club" js="0">%s создал клуб: %s</word>
   <word key="stream_auto_updates" js="0">Этот поток обновляется автоматически</word>
   <word key="load_more_activity" js="0">Загрузить больше активности</word>
