@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="blog" version="102001">
+ <app key="blog" version="102004">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>

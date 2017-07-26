@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102001">
+ <app key="cms" version="102004">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -11,9 +11,9 @@
   <word key="__defart_content_record_comments_title" js="0">комментарий</word>
   <word key="__defart_content_record_reviews_title" js="0">отзыв</word>
   <word key="rebuilding_cms_database_categories" js="0">Перестроение категорий: %s</word>
-  <word key="rebuilding_cms_database_reciprocal_map" js="0">Перестроения карты взаимных связей %s (ID поля - %s)</word>
+  <word key="rebuilding_cms_database_reciprocal_map" js="0">Перестроения карты взаимных связей в %s (ID поля - %s)</word>
   <word key="rebuilding_cms_database_records" js="0">Перестроение записей: %s</word>
-  <word key="rebuilding_cms_database_sync_topics" js="0">Перестроение %s синхронизированных тем</word>
+  <word key="rebuilding_cms_database_sync_topics" js="0">Перестроение синхронизированных тем: %s</word>
   <word key="module_no_permission" js="0">Нет прав</word>
   <word key="converting_pages_34x" js="0">Конвертация BBCode-страниц в HTML</word>
   <word key="sitemap_cms_Databases" js="0">Записи базы данных</word>
@@ -930,7 +930,7 @@
   <word key="embed_2_title" js="0">Вставить загрузчик</word>
   <word key="embed_2_desc" js="0"><![CDATA[Вам также потребуется вставить на вашу страницу загрузчик. Это нужно сделать <strong>один раз на страницу</strong>, даже если вы хотите встроить несколько блоков. Его нужно вставить либо в тег <code>&lt;head&gt;</code>, либо перед тегом <code>&lt;/body&gt;</code>.]]></word>
   <word key="view_this_cmsrecord" js="0">Просмотреть %s %s</word>
-  <word key="rebuilding_comment_likes" js="0">Перестройка базы данных репутации</word>
+  <word key="rebuilding_comment_likes" js="0">Перестроение репутации в базе данных</word>
   <word key="sort_record_last_comment" js="0">Последний комментарий</word>
   <word key="sort_record_comments" js="0">Комментарии</word>
   <word key="sort_record_views" js="0">Просмотры</word>
