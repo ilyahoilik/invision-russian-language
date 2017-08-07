@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="102004">
+ <app key="gallery" version="102007">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -716,5 +716,7 @@
   <word key="images_without_data" js="1">Вы не добавили информацию для {{count}}. Вы действительно хотите продолжить?</word>
   <word key="images_without_data_desc" js="1">Для обновления изображения вы можете изменить его позже.</word>
   <word key="set_as_photo_confirm" js="1">Вы действительно хотите обновить ваше фото профиля?</word>
+  <word key="album_user_own_activity_item" js="0">%s добавил изображения в %s в</word>
+  <word key="gallery_images_no_more" js="0">Вы больше не можете загрузить изображения в этот альбом.</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102004">
+ <app key="core" version="102007">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -175,7 +175,7 @@
   <word key="activity_member_followed" js="0">%s подписался на %s</word>
   <word key="activity_member_updated_photo" js="0">%s изменил свою фотографию </word>
   <word key="activity_member_liked" js="0">%s понравилось %s: %s</word>
-  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src='<fileStore.core_Reaction>/%s' width='20' height='20' data-ipsTooltip title='%s'>&nbsp; %s отреагировал на %s: %s]]></word>
+  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src='http://localhost/internal/translate/uploads/%s' width='20' height='20' data-ipsTooltip title='%s'>&nbsp; %s отреагировал на %s: %s]]></word>
   <word key="activity_club" js="0">%s создал клуб: %s</word>
   <word key="stream_auto_updates" js="0">Этот поток обновляется автоматически</word>
   <word key="load_more_activity" js="0">Загрузить больше активности</word>
@@ -367,9 +367,9 @@
   <word key="editor_code_php" js="0">PHP</word>
   <word key="editor_code_sql" js="0">SQL</word>
   <word key="editor_code_linenumbers" js="0">Номера строк</word>
-  <word key="editor_pasted_with_formatting" js="0">Вы вставили отформатированное содержимое</word>
+  <word key="editor_pasted_with_formatting" js="0">Вставлено в виде отформатированного текста</word>
   <word key="editor_keep_formatting" js="0">Сохранять форматирование</word>
-  <word key="editor_remove_formatting" js="0">Удалить форматирование</word>
+  <word key="editor_remove_formatting" js="0">Вставить в виде обычного текста</word>
   <word key="editor_restore_formatting" js="0">Восстановить форматирование</word>
   <word key="editor_keep_no_formatting" js="0">Удалять форматирование</word>
   <word key="editor_pasted_embed_link" js="0">Ваша ссылка была автоматически встроена</word>
@@ -382,9 +382,9 @@
   <word key="editor_settings_general" js="0">Общие</word>
   <word key="editor_settings_advanced" js="0">Расширенные</word>
   <word key="editor_paste_behaviour" js="0">Действие при вставке</word>
-  <word key="editor_paste_behaviour_rich" js="0">Сохранить форматирование, но позволять пользователям удалить его.</word>
-  <word key="editor_paste_behaviour_force" js="0">Удалить форматирование и не позволять его восстановить.</word>
-  <word key="editor_paste_behaviour_desc" js="0">Форматирование, включая жирный текст, ссылки и т.п., что может быть в скопированном тексте.</word>
+  <word key="editor_paste_behaviour_rich" js="0">Вставлять отформатированный текст, но позволить пользователю вставить его в виде обычного текста.</word>
+  <word key="editor_paste_behaviour_force" js="0">Всегда вставлять в виде обычного текста.</word>
+  <word key="editor_paste_behaviour_desc" js="0"><![CDATA[Применяется как к форматированию (жирный/курсив, цвет и т.д.), так и к схематической структуре (ссылки, заголовки, списки и т.д.).<br>Пользователи могут удалить форматирование любого текста в редакторе с помощью кнопки "Удалить форматирование", если она <a href='{internal.app=core&module=editor&controller=toolbar}' target='_blank'>включена в редакторе</a>.]]></word>
   <word key="editor_paragraph_padding" js="0">Действие клавиши Enter</word>
   <word key="editor_paragraph_padding_on" js="0">Создать новый абзац.</word>
   <word key="editor_paragraph_padding_off" js="0">Перейти на следующую строку.</word>
@@ -698,7 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.1</span>
+  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.2</span>
 
 <span class="ipsType_light ipsType_blendLinks">
     <span> · <a href="https://invisionlang.ru" target="_blank" data-ipsTooltip _title="Перейти на сайт локализации">Русская локализация</a></span>
@@ -2018,7 +2018,7 @@ $("#elLangUpdate").show();
   <word key="device_list_secure_account" js="0">Видите что-то незнакомое?</word>
   <word key="secure_account" js="0">Защитить аккаунт</word>
   <word key="secure_account_blurb" js="0">Если вы заметили подозрительную активность на вашем аккаунте, вы можете совершить действия, описанные здесь, для защиты вашего аккаунта.</word>
-  <word key="secure_account_change_password" js="0">Если кто-либо ещё смог войти в ваш аккаунт, значит он смог угадать или узнать ваш пароль. не забывайте выбирать пароль, который сложно разгадать, и никогда не используйте один пароль на нескольких сайтах. Изменив пароль, вы автоматически выйдете со всех других устройств.</word>
+  <word key="secure_account_change_password" js="0">Если кто-либо ещё смог войти в ваш аккаунт, значит он смог угадать или узнать ваш пароль. Не забывайте выбирать пароль, который сложно разгадать, и никогда не используйте один пароль на нескольких сайтах. Изменив пароль, вы автоматически выйдете со всех других устройств.</word>
   <word key="secure_account_mfa_setup" js="0">Настройка дополнительной защиты вашего аккаунта защитит ключевые действия, так что даже если кто-либо узнал ваш пароль, ваш аккаунт всё ещё будет под защитой.</word>
   <word key="secure_account_mfa_revise" js="0">Для защиты безопасности вашего аккаунта, мы можем иногда производить проверку вашей личности. Это позволит обезопасить ваш аккаунт даже в случае, если кто-либо узнает ваш пароль. Вы можете просмотреть ваши настройки безопасности аккаунта.</word>
   <word key="secure_account_login_title" js="0">Социальные сети</word>
@@ -3911,7 +3911,7 @@ $("#elLangUpdate").show();
   <word key="themesetting_widget_font" js="0">Шрифт строки заголовка блока</word>
   <word key="themesetting_ajax_pagination" js="0">AJAX-навигация по страницам</word>
   <word key="themesetting_tabs_background" js="0">Фон панели вкладок</word>
-  <word key="themesetting_main_nav" js="0">Основная строка навигации</word>
+  <word key="themesetting_main_nav" js="0">Фон мобильной навигации</word>
   <word key="themesetting_main_nav_font" js="0">Шрифт основной строки навигации</word>
   <word key="themesetting_main_nav_active" js="0">Дополнительная строка навигации</word>
   <word key="themesetting_main_nav_active_font" js="0">Шрифт дополнительной строки навигации</word>
@@ -4681,7 +4681,7 @@ $("#elLangUpdate").show();
   <word key="sort_attach_filesize" js="0">По размеру файла</word>
   <word key="my_attachment_uploaded" js="0">Загружено %s</word>
   <word key="attached_to_x_posts" js="0">Используется в {# [0:сообщениях][1:сообщении][*1:сообщении][?:сообщениях]}</word>
-  <word key="ensure_signature_restrictions" js="0">Пожалуйста, убедитесь, ваша подпись соответствует со следующими правилам</word>
+  <word key="ensure_signature_restrictions" js="0">Пожалуйста, убедитесь что ваша подпись соответствует следующим правилам</word>
   <word key="terms" js="0">Правила и политика конфиденциальности</word>
   <word key="terms_guidelines" js="0">Правила поведения</word>
   <word key="gl_type" js="0">Тип</word>
@@ -6189,7 +6189,7 @@ $("#elLangUpdate").show();
   <word key="no_recent_activity" js="0">Нет активности %s для отображения</word>
   <word key="all_activity" js="0">Вся активность</word>
   <word key="userbar_my_content" js="0">Мои публикации</word>
-  <word key="profile_view_profile" js="0">Профиль</word>
+  <word key="profile_view_profile" js="0">Просмотреть профиль</word>
   <word key="all_content_by_user" js="0">Все публикации пользователя %s</word>
   <word key="content_by_user" js="0">%s, опубликованные пользователем %s</word>
   <word key="online_now" js="0">%s сейчас в сети</word>
@@ -6255,15 +6255,15 @@ $("#elLangUpdate").show();
   <word key="replog_like_comment" js="0"><![CDATA[%s понравилось <a href='%s'>%s</a> от %s в]]></word>
   <word key="replog_like_comment_no_in" js="0"><![CDATA[%s понравилось <a href='%s'>%s</a> от %s]]></word>
   <word key="replog_rate_item_gave" js="0"><![CDATA[%s <strong>изменил</strong> репутацию %s за %s,]]></word>
-  <word key="replog_rate_item_gave_no_in" js="0"><![CDATA[%s <strong>изменил</strong> репутацию %s за %s]]></word>
+  <word key="replog_rate_item_gave_no_in" js="0"><![CDATA[%s <strong>отреагировал</strong> на %s за %s]]></word>
   <word key="replog_rate_item_received" js="0"><![CDATA[%s <strong>получил</strong> репутацию от %s за %s,]]></word>
   <word key="replog_rate_item_received_no_in" js="0"><![CDATA[%s <strong>получил</strong> репутацию от %s за %s]]></word>
   <word key="replog_like_item" js="0">%s понравилось %s от %s,</word>
   <word key="replog_like_item_no_in" js="0">%s понравилось %s от %s</word>
   <word key="replog_rate_comment_gave_no_recipient" js="0"><![CDATA[%s <strong>изменил</strong> репутацию в]]></word>
   <word key="replog_rate_comment_gave_no_recipient_no_in" js="0"><![CDATA[%s <strong>изменил</strong> репутацию]]></word>
-  <word key="replog_rate_item_gave_no_recipient" js="0"><![CDATA[%s <strong>изменил</strong> репутацию за %s,]]></word>
-  <word key="replog_rate_item_gave_no_recipient_no_in" js="0"><![CDATA[%s <strong>изменил</strong> репутацию за %s]]></word>
+  <word key="replog_rate_item_gave_no_recipient" js="0"><![CDATA[%s <strong>отреагировал</strong> на %s,]]></word>
+  <word key="replog_rate_item_gave_no_recipient_no_in" js="0"><![CDATA[%s <strong>отреагировал</strong> на %s]]></word>
   <word key="replog_like_item_no_recipient" js="0">%s понравилось %s,</word>
   <word key="replog_like_item_no_recipient_no_in" js="0">%s понравилось %s</word>
   <word key="replog_like_comment_no_recipient" js="0"><![CDATA[%s понравилось <a href='%s'>%s</a> в]]></word>
@@ -6756,7 +6756,7 @@ $("#elLangUpdate").show();
   <word key="sever_time_fail_desc" js="0">Ваш сервер сообщает о том, что текущее время %s UTC, что кажется неточным. Это может вызвать проблемы с некоторыми сервисами и системой безопасности. Вам следует связаться с вашим хостинг-провайдером или системным администратором для решения этой проблемы.</word>
   <word key="help_me_fix_this" js="0">Исправить это</word>
   <word key="upgrade_check_ok" js="0">Используется последняя версия</word>
-  <word key="upgrade_check_fail" js="0">Вы используете последнюю версию</word>
+  <word key="upgrade_check_fail" js="0">Вы не используете последнюю версию</word>
   <word key="upgrade_check_patches" js="0">Вы используете последнюю версию, однако доступно необязательное обновление для исправления следующих проблем:</word>
   <word key="upgrade_apply_patch" js="0">Применить исправление</word>
   <word key="support_diagnostics" js="0">Диагностика</word>
@@ -8331,5 +8331,15 @@ $("#elLangUpdate").show();
   <word key="imageProxyRebuildNo" js="1">Нет</word>
   <word key="mod_error_invalid_action" js="0">Возникла ошибка при выполнении этого действия</word>
   <word key="mod_error_invalid_action_admin" js="0">Действие, которое вы пытались выполнить, является некорректным</word>
+  <word key="editor_paste_behaviour_rich_desc" js="0">При вставке отформатированного текста, внизу редактора появится панель с кнопкой для конвертации этого текста в обычный текст. Пользователи также могут вставить его в виде обычного текста, используя сочетание клавиш Ctrl + Shift + V в Google Chrome на Windows, или ⌥⇧⌘V в любом браузере на Mac.</word>
+  <word key="timezone__Europe/Saratov" js="0">Саратов</word>
+  <word key="stats_include_hidden_content" js="0">Счётчики, отображаемые здесь, включают в себя как скрытые, так и видимые публикации.</word>
+  <word key="promote_twitter_setup_post" js="0">Ошибка настройки Twitter</word>
+  <word key="promote_twitter_setup_post_desc" js="0">Ваше приложение в Twitter находится в режиме только чтение. Пожалуйста, измените ваше приложение Twittter и включите права на чтение и запись.</word>
+  <word key="r__fields" js="0">Дополнительные поля</word>
+  <word key="r__fields_manage" js="0">Может просматривать дополнительные поля</word>
+  <word key="r__fields_add" js="0">Может создавать дополнительные поля</word>
+  <word key="r__fields_edit" js="0">Может изменять дополнительные поля</word>
+  <word key="r__fields_delete" js="0">Может удалять дополнительные поля</word>
  </app>
 </language>
