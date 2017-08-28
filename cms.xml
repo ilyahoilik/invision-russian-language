@@ -22,7 +22,7 @@
   <word key="sitemap_databases_priority" js="0">Приоритет записей</word>
   <word key="sitemap_databases_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
   <word key="sitemap_pages_count" js="0">Количество включаемых страниц</word>
-  <word key="sitemap_pages_priority" js="0">Приоритет странци</word>
+  <word key="sitemap_pages_priority" js="0">Приоритет страниц</word>
   <word key="sitemap_pages_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
   <word key="can_pin_record" js="0">Может закреплять %s?</word>
   <word key="can_unpin_record" js="0">Может откреплять %s?</word>
@@ -63,7 +63,7 @@
   <word key="r__page_delete" js="0">Может удалять страницы</word>
   <word key="r__pages" js="0">Страницы</word>
   <word key="r__page_permissions" js="0">Может изменять права доступа к страницам</word>
-  <word key="r__page_manage" js="0">Может просмтривать блоки</word>
+  <word key="r__page_manage" js="0">Может просматривать блоки</word>
   <word key="r__block_add" js="0">Может добавлять блоки</word>
   <word key="r__block_edit" js="0">Может изменять блоки</word>
   <word key="r__block_delete" js="0">Может удалять блоки</word>
@@ -900,7 +900,7 @@
   <word key="block_rss_import_title" js="0">Заголовок</word>
   <word key="block_rss_import_url" js="0">Ссылка RSS-ленты</word>
   <word key="block_rss_import_number" js="0">Количество записей для отображения</word>
-  <word key="block_rss_import_cache" js="0">Кешировать</word>
+  <word key="block_rss_import_cache" js="0">Кэшировать</word>
   <word key="block_rss_import_cache_suffix" js="0">минут</word>
   <word key="widget_feed_container_cms" js="0">Категории</word>
   <word key="loc_cms_viewing_page" js="0">Просматривает %s</word>

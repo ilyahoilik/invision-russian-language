@@ -698,7 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.2</span>
+  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.3</span>
 
 <span class="ipsType_light ipsType_blendLinks">
     <span> · <a href="https://invisionlang.ru" target="_blank" data-ipsTooltip _title="Перейти на сайт локализации">Русская локализация</a></span>
@@ -706,7 +706,10 @@
 </span>
 
 <script>
-if ( $("#elVersionSystem").text() != $("#elVersionLang").text() )
+var elVersionSystem = $("#elVersionSystem").text().split(' ')[0].split('.');
+var elVersionLang = $("#elVersionLang").text().split(' ')[0].split('.');
+
+if ( elVersionSystem[0] != elVersionLang[0] || elVersionSystem[1] != elVersionLang[1] || elVersionSystem[2] != elVersionLang[2] )
 {
 $("#elLangUpdate").show();
 }
@@ -954,7 +957,7 @@ $("#elLangUpdate").show();
   <word key="teaser_signin" js="0">Войти</word>
   <word key="teaser_signin_desc" js="0">Уже зарегистрированы? Войдите здесь.</word>
   <word key="teaser_signin_button" js="0">Войти сейчас</word>
-  <word key="moderation_history" js="0">История модерирования</word>
+  <word key="moderation_history" js="0">История модерации</word>
   <word key="queued_comments_badge" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев] в очереди}</word>
   <word key="core_Modcp" js="0">Панель модератора</word>
   <word key="member_deletion_keep_name" js="0">Что должно отображаться в качестве имени пользователя рядом с его публикациями?</word>
@@ -1239,12 +1242,12 @@ $("#elLangUpdate").show();
   <word key="form_partial_address_opt" js="0">Вы должны указать полный адрес или оставить поля пустыми.</word>
   <word key="item_selector_added_to_container" js="0">в %s</word>
   <word key="item_selector_added_on" js="0">добавлено %s</word>
-  <word key="cannot_merge_with_self" js="0">Вы не можете объядинить публикацию саму с собой.</word>
+  <word key="cannot_merge_with_self" js="0">Вы не можете объединить публикацию саму с собой.</word>
   <word key="no_merge_permission" js="0">У вас нет прав для модерации этой %s.</word>
   <word key="edit_tabs" js="0">Изменение вкладки</word>
   <word key="applications_and_modules" js="0">Приложения</word>
   <word key="check_for_updates" js="0">Проверить обновления</word>
-  <word key="update_check_complete" js="0">Проверка обновлений заверешена</word>
+  <word key="update_check_complete" js="0">Проверка обновлений завершена</word>
   <word key="update_check_missing" js="0">В ответе отсутствует обязательное поле</word>
   <word key="developer_mode" js="0">Центр разработки</word>
   <word key="admincp_menu" js="0">Меню Админцентра</word>
@@ -1690,7 +1693,7 @@ $("#elLangUpdate").show();
   <word key="acplogs__logout_force" js="0">Все пользователи вышли из системы</word>
   <word key="logged_out_force" js="0">Все пользователи вышли из системы</word>
   <word key="login_settings" js="0">Настройки входа</word>
-  <word key="login_acp" js="0">Разрешить вход в админцентр?</word>
+  <word key="login_acp" js="0">Разрешить вход в Админцентр?</word>
   <word key="login_profile" js="0">Предлагать для заполнения в профиле?</word>
   <word key="acplogs__login_settings" js="0">Изменены настройки входа</word>
   <word key="login_ipsconnect_url" js="0">Ссылка центрального IPS Connect</word>
@@ -2112,7 +2115,7 @@ $("#elLangUpdate").show();
   <word key="rating_ip" js="0">IP-адрес</word>
   <word key="rating_rating" js="0">рейтинг</word>
   <word key="validate_type_newreg" js="0">Новая регистрация</word>
-  <word key="validate_type_lostpass" js="0">Восстановение пароля</word>
+  <word key="validate_type_lostpass" js="0">Восстановление пароля</word>
   <word key="validate_type_emailchg" js="0">Изменение email-адреса</word>
   <word key="members_validatingType" js="0">Способ проверки</word>
   <word key="members_entry_date" js="0">Дата</word>
@@ -2338,9 +2341,9 @@ $("#elLangUpdate").show();
   <word key="g_hide_own_posts" js="0">Может скрывать свои публикации</word>
   <word key="g_hide_own_posts_desc" js="0">Скрытые публикации отображаются администрации, но не обычным пользователям.</word>
   <word key="g_delete_own_posts" js="0">Может удалять свои публикации</word>
-  <word key="group_moderation" js="0">Модерирование</word>
+  <word key="group_moderation" js="0">Модерация</word>
   <word key="g_mod_preview" js="0">Требовать утверждения перед публикацией</word>
-  <word key="g_mod_post_unit" js="0">Удалить модерирование содержимого</word>
+  <word key="g_mod_post_unit" js="0">Удалить модерацию содержимого</word>
   <word key="g_avoid_flood" js="0">Отключить контроль флуда?</word>
   <word key="g_avoid_flood_desc" js="0">Контроль флуда предотвращает создание двух сообщений подряд.</word>
   <word key="g_avoid_q" js="0">Обходить модерацию публикаций?</word>
@@ -2701,7 +2704,7 @@ $("#elLangUpdate").show();
   <word key="modlogs_module" js="0">Модуль</word>
   <word key="modlog__adminlog_settings" js="0">Изменены настройки очистка журнала модераторов</word>
   <word key="moderatorlogssettings" js="0">Настройки</word>
-  <word key="prune_log_moderator" js="0">Очищать журнал модерирования</word>
+  <word key="prune_log_moderator" js="0">Очищать журнал модерации</word>
   <word key="spamlogs" js="0">Журнал Spam Defense</word>
   <word key="spamlogs_log_date" js="0">Дата</word>
   <word key="spamlogs_log_code" js="0">Ответ сервера</word>
@@ -2913,7 +2916,7 @@ $("#elLangUpdate").show();
   <word key="rep_daily_exceeded" js="0">Вам разрешено изменять репутацию только %d раз за день. Вы не можете сегодня изменять репутацию.</word>
   <word key="rep_daily_exceeded_likes" js="0">Вам разрешено изменять репутацию только %d раз за день. Вы не можете сегодня изменять репутацию.</word>
   <word key="cannot_rep_user" js="0">Вы не можете изменять репутацию этому пользователю</word>
-  <word key="cannot_view_reputation" js="0">У вас нет прав для просмотра репутации этого пользоватея</word>
+  <word key="cannot_view_reputation" js="0">У вас нет прав для просмотра репутации этого пользователя</word>
   <word key="reputation_timezone" js="0">Часовой пояс Таблицы лидеров</word>
   <word key="reputation_timezone_desc" js="0"><![CDATA[Каждый день три пользователя с наибольшим количеством репутации за день заносятся в таблицу лидеров. Этот часовой пояс используется для формировании начала и окончания суток и должен соответствовать поясу, в котором находится большинство пользователей.<br>После изменения этой настройки, вы можете <a data-ipsDialog data-ipsDialog-title='Перестроить Таблицу лидеров' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>перестроить Таблицу лидеров</a> для гарантии корректности подсчёта репутации за день.]]></word>
   <word key="reputation_leaderboard_rebuilding" js="0">Фоновая задача на перестроение Таблицы лидеров была добавлена</word>
@@ -3597,7 +3600,7 @@ $("#elLangUpdate").show();
   <word key="emailtpl_email_address_changed" js="0">Email-адрес был изменён</word>
   <word key="emailtpl_account_locked" js="0">Аккаунт заблокирован</word>
   <word key="emailtpl_notification_event_reminder" js="0">Напоминания о событии</word>
-  <word key="emailtpl_notification_club_response" js="0">Ответ на запрос наа вступление в клуб</word>
+  <word key="emailtpl_notification_club_response" js="0">Ответ на запрос на вступление в клуб</word>
   <word key="emailtpl_notification_club_request" js="0">Заявка на вступление в клуб</word>
   <word key="emailtpl_notification_club_join" js="0">Уведомление о вступлении в клуб</word>
   <word key="emailtpl_notification_club_invitation" js="0">Приглашение вступить в клуб</word>
@@ -4177,7 +4180,7 @@ $("#elLangUpdate").show();
   <word key="can_delete_content" js="0">Может удалять публикации</word>
   <word key="can_split_merge_content" js="0">Может разделять и объединять публикации</word>
   <word key="can_view_editlog" js="0">Может просматривать журнал изменений</word>
-  <word key="can_view_moderation_log" js="0">Может просматривать историю модерирования</word>
+  <word key="can_view_moderation_log" js="0">Может просматривать историю модерации</word>
   <word key="can_see_emails" js="0">Может видеть email-адреса пользователей</word>
   <word key="can_modify_profiles" js="0">Может изменять профили пользователей</word>
   <word key="can_unban" js="0">Может разблокировать пользователей?</word>
@@ -4387,7 +4390,7 @@ $("#elLangUpdate").show();
   <word key="filestorage__core_Advertisements" js="0">Реклама</word>
   <word key="filestorage__core_Emoticons" js="0">Смайлы</word>
   <word key="filestorage__core_ProfileField" js="0">Поля профиля</word>
-  <word key="filestorage__core_Imageproxycache" js="0">Кеширование внешних изображений</word>
+  <word key="filestorage__core_Imageproxycache" js="0">Кэширование внешних изображений</word>
   <word key="filestorage__core_Promote" js="0">Изображения при продвижении в соцсети</word>
   <word key="filestorage__core_Reaction" js="0">Реакции</word>
   <word key="files_edit_existing_and_used" js="0">Этот метод хранения в данный момент используется. Важные изменения будут сохранены в новую настройку хранения и будет начат процесс переноса файлов.</word>
@@ -4954,7 +4957,7 @@ $("#elLangUpdate").show();
   <word key="r__search" js="0">Настройки поиска</word>
   <word key="r__search_manage" js="0">Может изменять настройки поиска</word>
   <word key="theme_disk_cache_templates" js="0">Включить кэширование шаблонов на диске</word>
-  <word key="theme_disk_cache_templates_desc" js="0">Сохранение кэшированых шаблонов на диск в качестве исполняемых файлов может уменьшить время их обработки и использование памяти.</word>
+  <word key="theme_disk_cache_templates_desc" js="0">Сохранение кэшированных шаблонов на диск в качестве исполняемых файлов может уменьшить время их обработки и использование памяти.</word>
   <word key="theme_disk_cache_path" js="0">Путь к кэшу шаблонов на диске</word>
   <word key="theme_disk_cache_path_desc" js="0">Директория должна быть доступна для чтения и записи.</word>
   <word key="theme_disk_cache_path_wrong" js="0">Директория недоступна для чтения и записи.</word>
@@ -5035,7 +5038,7 @@ $("#elLangUpdate").show();
   <word key="acplog__slave_deleted" js="0">Ведомый сайт IPS Connect отключён</word>
   <word key="connect_failure_details" js="0">При попытке отправить запрос на сайт возникла следующая ошибка: %s</word>
   <word key="connect_slavefail_http" js="0">Полученный код состояния HTTP: %s</word>
-  <word key="BAD_JSON" js="0">Ответ ожидается в формате JSON, но он не вляется таковым</word>
+  <word key="BAD_JSON" js="0">Ответ ожидается в формате JSON, но он не является таковым</word>
   <word key="acplog__connect_queue_cleared" js="0">Очередь запросов IPS Connect была обработана вручную</word>
   <word key="connect_retry_success" js="0">Сайт корректно ответил на запрос</word>
   <word key="connect_queue_cleared" js="0">Сайт успешно скопировал все ожидающие изменения аккаунта</word>
@@ -6079,7 +6082,7 @@ $("#elLangUpdate").show();
   <word key="plugin_update_check_desc" js="0"><![CDATA[Данный адрес будет периодически запрашиваться для проверки наличия обновлений плагина. <a href='{external.devdocs-updateurl}' target='_blank'>Подробная информация</a>.]]></word>
   <word key="plugin_author_details" js="0">О разработчике</word>
   <word key="plugin_author" js="0">Название</word>
-  <word key="plugin_website" js="0">Вебсайт</word>
+  <word key="plugin_website" js="0">Веб-сайт</word>
   <word key="plugin_version" js="0">%s (%s)</word>
   <word key="plugin_details_version" js="0">Версия</word>
   <word key="plugin_hooks" js="0">Хуки</word>
@@ -6926,7 +6929,7 @@ $("#elLangUpdate").show();
   <word key="ctags_disabled" js="0">Включить теги</word>
   <word key="ctags_noprefixes" js="0">Включить префиксы</word>
   <word key="ctags_predefined" js="0">Предопределённые теги</word>
-  <word key="ctags_predefined_unlimited" js="0">Использовать по уолчанию</word>
+  <word key="ctags_predefined_unlimited" js="0">Использовать по умолчанию</word>
   <word key="ctags_predefined_desc" js="0">При использовании закрытой системы тегов, пользователям придётся выбирать их из этого списка. При использовании открытой системы тегов, они будут отображены как рекомендации.</word>
   <word key="block_members" js="0">Пользователи</word>
   <word key="block_members_desc" js="0">Отображает список пользователей, например кто в сети, у кого сегодня день рождения или другое.</word>
@@ -7043,8 +7046,8 @@ $("#elLangUpdate").show();
   <word key="api_exceptions_none" js="0">Эта конечная точка не вызывает никаких исключений</word>
   <word key="api_response" js="0">Ответ</word>
   <word key="api_response_none" js="0">Эта конечная точка не возвращает ответа.</word>
-  <word key="api_log_blurb" js="0">Запрос API журналируется, если в настройках ключа включено журналировнеи запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после %d дней.</word>
-  <word key="api_log_blurb_change" js="0"><![CDATA[Запрос API журналируется, если в настройках ключа включено журналировнеи запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после <a href='{internal.app=core&module=applications&controller=apiLogs&do=settings}' data-ipsDialog data-ipsDialog-title='Журналы API'>%s дней</a>.]]></word>
+  <word key="api_log_blurb" js="0">Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после %d дней.</word>
+  <word key="api_log_blurb_change" js="0"><![CDATA[Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после <a href='{internal.app=core&module=applications&controller=apiLogs&do=settings}' data-ipsDialog data-ipsDialog-title='Журналы API'>%s дней</a>.]]></word>
   <word key="acplogs__api_log_settings" js="0">Обновлены настройки очистки журналов API</word>
   <word key="api_log_prune" js="0">Очистить журналы API</word>
   <word key="r__api" js="0">REST API</word>
@@ -7338,7 +7341,7 @@ $("#elLangUpdate").show();
   <word key="leader_date" js="0">Дата</word>
   <word key="leader_position" js="0">Позиция</word>
   <word key="leader_rep_total_likes" js="0">Всего лайков</word>
-  <word key="leader_rep_total_rep" js="0">Общаа репутация</word>
+  <word key="leader_rep_total_rep" js="0">Общая репутация</word>
   <word key="leader_position_1" js="0">Первый</word>
   <word key="leader_position_1_short" js="0">1-ый</word>
   <word key="leader_position_2" js="0">Второй</word>

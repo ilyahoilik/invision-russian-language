@@ -21,7 +21,7 @@
   <word key="menu__gallery_stats_diskspace" js="0">Топ скачиваний</word>
   <word key="menu__gallery_stats_bandwidth" js="0">Использовано трафика</word>
   <word key="menu__gallery_gallery_settings" js="0">Настройки</word>
-  <word key="image" js="0">Изображени</word>
+  <word key="image" js="0">Изображение</word>
   <word key="gallery_image" js="0">Изображение галереи</word>
   <word key="filestorage__gallery_Images" js="0">Изображения в приложении Галерея</word>
   <word key="acp_search_title_gallery_Categories" js="0">Категории галереи</word>
@@ -155,7 +155,7 @@
   <word key="can_hide_gallery_image_comment" js="0">Может скрывать комментарии</word>
   <word key="can_unhide_gallery_image_comment" js="0">Может отменять скрытие комментариев</word>
   <word key="can_view_hidden_gallery_image_comment" js="0">Может просматривать скрытые комментарии</word>
-  <word key="can_delete_gallery_image_comment" js="0">Может удалять комментаарии</word>
+  <word key="can_delete_gallery_image_comment" js="0">Может удалять комментарии</word>
   <word key="can_feature_gallery_album" js="0">Может отмечать альбомы рекомендуемыми</word>
   <word key="can_unfeature_gallery_album" js="0">Может отмечать альбомы обычными</word>
   <word key="can_edit_gallery_album" js="0">Может изменять альбомы</word>
@@ -220,7 +220,7 @@
   <word key="remove_gallery_access" js="0">Разрешить доступ в галерею</word>
   <word key="remove_gallery_upload" js="0">Разрешить загрузку изображений</word>
   <word key="gallery_stats" js="0">Просмотр статистика галереи</word>
-  <word key="deleted_image" js="0">Удалённое иображение</word>
+  <word key="deleted_image" js="0">Удалённое изображение</word>
   <word key="bandwidth" js="0">Трафик</word>
   <word key="image_id" js="0">Изображение</word>
   <word key="bdate" js="0">Дата</word>
@@ -234,7 +234,7 @@
   <word key="images_stat_of_total" js="0">%s (%d%% от общего)</word>
   <word key="images_stat_average" js="0">%s (в среднем на всех пользователей: %s)</word>
   <word key="gallery_stats_disclaimer" js="0">* Эта статистика берётся из журнала трафика, который может быть отключен или периодически очищен</word>
-  <word key="gallery_graph_disclaimer" js="0">Эти данные берутся из журнала трафика, который может быть отключен или переодически очищен.</word>
+  <word key="gallery_graph_disclaimer" js="0">Эти данные берутся из журнала трафика, который может быть отключен или периодически очищен.</word>
   <word key="member_images_chart" js="0">Статистика изображений: %s</word>
   <word key="embed_gallery_album" js="0">Альбом галереи пользователя %s</word>
   <word key="embed_gallery_image" js="0">Изображение галереи пользователя %s</word>
@@ -299,7 +299,7 @@
   <word key="rotate_image" js="0">Повернуть</word>
   <word key="rotate_left" js="0">Повернуть влево</word>
   <word key="rotate_right" js="0">Повернуть вправо</word>
-  <word key="add_more_images" js="0">Добавить ещё изображений</word>
+  <word key="add_more_images" js="0">Добавить изображения</word>
   <word key="set_cover_photo" js="0">Установить обложку</word>
   <word key="set_for_album" js="0">Установить для альбома</word>
   <word key="set_for_category" js="0">Установить для категории</word>
@@ -353,7 +353,7 @@
   <word key="gallery_move_title" js="0">Переместить это изображение</word>
   <word key="feature_title_image" js="0">Сделать это изображение рекомендуемым</word>
   <word key="unfeature_title_image" js="0">Сделать это изображение обычным</word>
-  <word key="pin_title_image" js="0">Загрепить это изображение</word>
+  <word key="pin_title_image" js="0">Закрепить это изображение</word>
   <word key="unpin_title_image" js="0">Открепить это изображение</word>
   <word key="hide_title_image" js="0">Скрыть это изображение</word>
   <word key="unhide_title_image" js="0">Показать изображение</word>
@@ -372,7 +372,8 @@
   <word key="upload_image_too_big" js="0">Изображения должны быть меньше %s.</word>
   <word key="upload_movie_too_big" js="0">Видео должны быть меньше %s.</word>
   <word key="upload_percn_help" js="0">Вы можете использовать %n в названии изображения, и оно будет заменено на порядковый номер этого изображения в текущем наборе изображений (например, &quot;изображение %n&quot; станет &quot;изображение 1&quot;, &quot;изображение 2&quot;, &quot;изображение 3&quot; и так далее). Это полезно в случаях, когда вы хотите скопировать данные на все изображения в наборе. Вы ДОЛЖНЫ убедиться в том, что нажали кнопку Копировать описание для применения этого шаблона ко всем изображениям.</word>
-  <word key="image_info_finishcopy" js="0">Копировать данные во все изображения</word>
+  <word key="image_info_finishcopy" js="0">Копировать данные во все изображения
+Copy details to all images</word>
   <word key="cat_img_count" js="0">{# [0:изображений][1:изображение][2:изображения][3:изображения][4:изображения][11:изображений][12:изображений][13:изображений][14:изображений][*1:изображение][*2:изображения][*3:изображения][*4:изображения][?:изображений]}</word>
   <word key="cat_album_count" js="0">{# [0:альбомов][1:альбом][2:альбома][3:альбома][4:альбома][11:альбомов][12:альбомов][13:альбомов][14:альбомов][*1:альбом][*2:альбома][*3:альбома][*4:альбома][?:альбомов]}</word>
   <word key="cat_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
@@ -485,11 +486,11 @@
   <word key="editing_image" js="0">Редактирование изображения</word>
   <word key="editing_movie" js="0">Редактирование видео</word>
   <word key="ready_to_submit" js="0">Готово к публикации</word>
-  <word key="ready_to_submit_blurb" js="0"><![CDATA[Нажмите <em>завершить изменение изображений</em> для отправки ваших изображений в галерею.]]></word>
+  <word key="ready_to_submit_blurb" js="0"><![CDATA[Нажмите <em>Завершить изменение</em> для отправки ваших изображений в галерею.]]></word>
   <word key="x_of_y" js="0">%d из %d</word>
   <word key="continue_next_image" js="0">Сохранить </word>
   <word key="finish_all_images" js="0">Завершить и сохранить все изображения</word>
-  <word key="image_info_finish" js="0">Завершить изменение изображений</word>
+  <word key="image_info_finish" js="0">Завершить изменение</word>
   <word key="add_gallery_image_desc" js="0">Выберите изображения, которые вы хотите добавить в галерею</word>
   <word key="add_gallery_image_limit" js="0"><![CDATA[Планируете добавить их в альбом? Альбомы могут содержать до <strong>{# [1:изображения или видео][*1:изображения или видео][?:изображений или видео]}</strong>.]]></word>
   <word key="add_gallery_album_limit" js="0"><![CDATA[Вы можете загрузить до <strong>{# [1:изображения или видео][*1:изображения или видео][?:изображений или видео]}</strong> в этот альбом]]></word>
@@ -549,7 +550,7 @@
   <word key="IFD0.Orientation_map_7" js="0">Нулевая строка в правой части изображения, и нулевая колонка в нижней  части изображения</word>
   <word key="IFD0.Orientation_map_8" js="0">Нулевая строка в левой части изображения, и нулевая колонка в нижней части изображения</word>
   <word key="IFD0.ResolutionUnit" js="0">Единица разрешения</word>
-  <word key="IFD0.Software" js="0">Програмное обеспечение</word>
+  <word key="IFD0.Software" js="0">Программное обеспечение</word>
   <word key="IFD0.YCbCrPositioning" js="0">Цветовое пространство</word>
   <word key="IFD0.YCbCrPositioning_map_1" js="0">по центру</word>
   <word key="IFD0.YCbCrPositioning_map_2" js="0">отцентрированное</word>
@@ -616,7 +617,7 @@
   <word key="EXIF.MeteringMode" js="0">Режим замера</word>
   <word key="EXIF.MeteringMode_map_0" js="0">Неизвестный</word>
   <word key="EXIF.MeteringMode_map_1" js="0">Средний</word>
-  <word key="EXIF.MeteringMode_map_2" js="0">Центрально-взвешеный замер</word>
+  <word key="EXIF.MeteringMode_map_2" js="0">Центрально-взвешенный замер</word>
   <word key="EXIF.MeteringMode_map_3" js="0">Точечный</word>
   <word key="EXIF.MeteringMode_map_4" js="0">Мультиточечный</word>
   <word key="EXIF.MeteringMode_map_5" js="0">Узорный</word>
@@ -714,7 +715,7 @@
   <word key="unsaved_image_data" js="1">Вы не сохранили изменения этого изображения. Вы уверены, что хотите переключить изображение?</word>
   <word key="unsaved_image_data_desc" js="1">Информация этого изображения будет потеряна.</word>
   <word key="images_without_data" js="1">Вы не добавили информацию для {{count}}. Вы действительно хотите продолжить?</word>
-  <word key="images_without_data_desc" js="1">Для обновления изображения вы можете изменить его позже.</word>
+  <word key="images_without_data_desc" js="1">Вы можете изменить изображения позже для их обновления.</word>
   <word key="set_as_photo_confirm" js="1">Вы действительно хотите обновить ваше фото профиля?</word>
   <word key="album_user_own_activity_item" js="0">%s добавил изображения в %s в</word>
   <word key="gallery_images_no_more" js="0">Вы больше не можете загрузить изображения в этот альбом.</word>
