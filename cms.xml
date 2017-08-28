@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102007">
+ <app key="cms" version="102010">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -958,5 +958,6 @@
   <word key="mediaErrorDeleting" js="1">Возникла ошибка при удалении {!# [1:этого файла][?:этих файлов]}</word>
   <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
+  <word key="copy_comments_assoc_desc" js="0">Включение этой настройки свяжет новую %s с существующей темой, что приведёт к трактованию существующих сообщений как комментариев к %s</word>
  </app>
 </language>

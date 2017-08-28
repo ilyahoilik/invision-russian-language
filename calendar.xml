@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="102007">
+ <app key="calendar" version="102010">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -471,5 +471,6 @@
   <word key="select_time" js="1">(выберите время)</word>
   <word key="event_reminder_removed" js="1">Напоминание удалено</word>
   <word key="event_reminder_added" js="1">Напоминание сохранено</word>
+  <word key="event_venue_name" js="0">Место проведения события</word>
  </app>
 </language>
