@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="102007">
+ <app key="calendar" version="102011">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -135,7 +135,7 @@
   <word key="feed_calendar_id" js="0">Календарь</word>
   <word key="feed_calendar_id_desc" js="0">Выберите календарь, в который будут сохранены события из этой ленты</word>
   <word key="feed_allow_rsvp" js="0">Включить подтверждения участия</word>
-  <word key="feed_allow_rsvp_desc" js="0">Если включено, подтверждение участния будет включено для всех импортированных событий</word>
+  <word key="feed_allow_rsvp_desc" js="0">Если включено, подтверждение участия будет включено для всех импортированных событий</word>
   <word key="acplog__ical_uploaded" js="0">Загружен файл iCalendar: %s импортировано, %s пропущено</word>
   <word key="acplog__icalfeed_created" js="0">Добавлена лента iCalendar: %s</word>
   <word key="acplog__icalfeed_updated" js="0">Изменена лента iCalendar: %s</word>
@@ -471,5 +471,6 @@
   <word key="select_time" js="1">(выберите время)</word>
   <word key="event_reminder_removed" js="1">Напоминание удалено</word>
   <word key="event_reminder_added" js="1">Напоминание сохранено</word>
+  <word key="event_venue_name" js="0">Место проведения события</word>
  </app>
 </language>

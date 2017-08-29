@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102007">
+ <app key="nexus" version="102011">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -282,7 +282,7 @@
   <word key="mailsub__nexus_transactionGatewayPending" js="0"><![CDATA[Платёж за {$invoice->title|raw} обрабатывается]]></word>
   <word key="mailsub__nexus_commissionEarned" js="0">Вы заработали {$commission}!</word>
   <word key="mailsub__nexus_commissionRevoked" js="0">{$commission} комиссии возвращены</word>
-  <word key="payment_reference" js="0">Платёж связян с</word>
+  <word key="payment_reference" js="0">Платёж связан с</word>
   <word key="trans_invoice_deleted" js="0">Счёт этой транзакции был удалён.</word>
   <word key="menu__nexus_payments_paymentsettings" js="0">Настройки</word>
   <word key="payment_settings" js="0">Настройки оплаты</word>
@@ -472,10 +472,10 @@
   <word key="invoice_timeline_warning_time" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]} до генерации счёта</word>
   <word key="invoice_timeline_warning_event" js="0">Если у клиента есть деньги на балансе аккаунта или прикреплена карта, ему будет отправлено email-письмо с предупреждением о скором автоматическом платёже.</word>
   <word key="invoice_timeline_generate_time" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]} до даты окончания</word>
-  <word key="invoice_timeline_generate_event" js="0"><![CDATA[Счёт был создан. Если у клиента есть деньги на балансе аккаунта или прикреплена карта, будет произведён автоматический платёж.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия заказа будет продлена на один период продления.<br>Если покупка связана с регулярным платежём, то счёт на продлен не создан не будет.]]></word>
+  <word key="invoice_timeline_generate_event" js="0"><![CDATA[Счёт был создан. Если у клиента есть деньги на балансе аккаунта или прикреплена карта, будет произведён автоматический платёж.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия заказа будет продлена на один период продления.<br>Если покупка связана с регулярным платежом, то счёт на продлен не создан не будет.]]></word>
   <word key="invoice_timeline_ba_warn_event" js="0">Если покупка содержит связанный регулярный платёж, будет отправлено email-уведомление о том, что платёж скоро будет совершён автоматически.</word>
   <word key="invoice_timeline_grace_time" js="0">Дата истечения покупки</word>
-  <word key="invoice_timeline_grace_event" js="0"><![CDATA[Если покупка связана с регулярным платежём, платёж будет совершён.<br>Покупка в периоде отсрочки будет оставаться активной, хотя её срок действия уже истёк. Длительность периода отсрочки устанавливается в настройках продукта.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия заказа будет продлена на один период продления.]]></word>
+  <word key="invoice_timeline_grace_event" js="0"><![CDATA[Если покупка связана с регулярным платежом, платёж будет совершён.<br>Покупка в периоде отсрочки будет оставаться активной, хотя её срок действия уже истёк. Длительность периода отсрочки устанавливается в настройках продукта.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия заказа будет продлена на один период продления.]]></word>
   <word key="invoice_timeline_expire_time" js="0">После периода отсрочки</word>
   <word key="invoice_timeline_expire_event" js="0"><![CDATA[Покупка истекает, и любые привилегии, предоставляемые ей, будут отменены.<br>Если клиент оплатит счет сейчас, покупка возобновится и будет установлена <strong>новая</strong> дата окончания срока действия, равная периоду продления от текущей даты.]]></word>
   <word key="invoice_timeline_invoice_exp_time" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]} после создания счёта</word>
@@ -724,7 +724,7 @@
   <word key="payment_details" js="0">Информация об оплате</word>
   <word key="payment_ref" js="0">Ссылка</word>
   <word key="transaction_awaiting_approval" js="0">Ожидает утверждения</word>
-  <word key="transaction_paid" js="0">%s оплачен %s</word>
+  <word key="transaction_paid" js="0">%s оплачен через %s</word>
   <word key="transaction_wait" js="0">Ожидает оплаты через %s</word>
   <word key="transaction_declined" js="0">Платёж на %s от %s был отклонён</word>
   <word key="transaction_refunded" js="0">%s оплатил %s, которые были возвращены</word>
@@ -1039,11 +1039,11 @@
   <word key="cancel_type_cancel_desc" js="0">Покупка и любые привилегии, предоставляемые ей, будут немедленно отменены.</word>
   <word key="ps_can_reactivate" js="0">Клиент может возобновить</word>
   <word key="purchase_no_renew" js="0">Счёт на продление не может быть создан т.к. эта покупка не имеет сроков продления.</word>
-  <word key="purchase_canceled" js="0">Отменён</word>
+  <word key="purchase_canceled" js="0">Отменена</word>
   <word key="purchase_canceled_ra" js="0">Клиент может возобновлять</word>
   <word key="purchase_canceled_no_ra" js="0"><![CDATA[Клиент <strong>не может</strong> возобновить]]></word>
-  <word key="purchase_expired" js="0">Истёк</word>
-  <word key="purchase_active" js="0">Активен</word>
+  <word key="purchase_expired" js="0">Истекла</word>
+  <word key="purchase_active" js="0">Активна</word>
   <word key="purchase_in_grace_period_front" js="0">Оплатить до</word>
   <word key="purchase_in_grace_period" js="0">В периоде отсрочки</word>
   <word key="ps_start" js="0">Куплено</word>
@@ -1055,7 +1055,7 @@
   <word key="group_with_parent_info" js="0">Эта покупка будет объединена с родительской в единую покупку. Будет создан единый период продление и вы сможете совершать различные действия (продление, отмена и т.д.) над объединённой покупкой, а не отдельными компонентами. Все ожидающие счета будут отменены, так как больше не будут действительны.</word>
   <word key="ungroup_from_parent" js="0">Отъединить от родительского</word>
   <word key="ungroup_from_parent_info" js="0">Эта покупка будет отъединена от родительской, а также будет созданы две покупки, которые могут управляться раздельно. Они будут иметь разные периоды продления и могут быть отменены, продлены и т.д. не зависимо друг от друга. Любые ожидающие счета будут отменены т.к. они больше не будут действительными.</word>
-  <word key="purchase_grouped" js="0">Объединено</word>
+  <word key="purchase_grouped" js="0">Объединена</word>
   <word key="grouperr_currencies_dont_match" js="0">При продлении этой и родительской покупок используются разные валюты.</word>
   <word key="grouperr_no_parent" js="0">Нет родительской группы для объединения.</word>
   <word key="not_with_grouped" js="0">Вы не можете совершить это действие для сгруппированной покупки. Измените родительскую покупку или сперва отъедините её.</word>
@@ -1341,7 +1341,7 @@
   <word key="save_this_stream" js="0">Сохранить этот поток</word>
   <word key="edit_this_stream" js="0">Изменить этот поток</word>
   <word key="billing" js="0">Биллинг</word>
-  <word key="renews" js="0">Обновляет</word>
+  <word key="renews" js="0">Продление</word>
   <word key="hosting_info" js="0">Хостинг</word>
   <word key="show_fewer_rows" js="0">Показать меньше строк</word>
   <word key="show_x_rows" js="0">Показать ещё {# [0:строк][1:строку][2:строки][3:строки][4:строки][11:строк][12:строк][13:строк][14:строк][*1:строку][*2:строки][*3:строки][*4:строки][?:строк]}</word>
@@ -1549,7 +1549,7 @@
   <word key="tracked" js="0">Отслеживаются</word>
   <word key="i_have_replied" js="0">Я отвечал</word>
   <word key="unassigned" js="0">Не назначен</word>
-  <word key="not_tracking" js="0">Не отслеживается</word>
+  <word key="not_tracking" js="0">Не отслеживать</word>
   <word key="tracking" js="0">Отслеживается</word>
   <word key="tracking_notify" js="0">Отслеживать и уведомлять об ответах</word>
   <word key="tracking_no_notify" js="0">Отслеживать</word>
@@ -1681,7 +1681,7 @@
   <word key="keyboard_shortcut_severity" js="0">Уровень (V)</word>
   <word key="keyboard_shortcut_department" js="0">Отдел (D)</word>
   <word key="keyboard_shortcut_staff" js="0">Назначен на (A)</word>
-  <word key="keyboard_shortcut_tracking" js="0">Статус отслеживания (T)</word>
+  <word key="keyboard_shortcut_tracking" js="0">Отслеживание (T)</word>
   <word key="keyboard_shortcut_prev_req" js="0">Предыдущий запрос (J)</word>
   <word key="keyboard_shortcut_next_req" js="0">Следующий запрос (K)</word>
   <word key="keyboard_shortcut_purchase" js="0">Изменить связанную покупку (P)</word>
@@ -1776,7 +1776,7 @@
   <word key="customer_messages" js="0">Сообщения клиента</word>
   <word key="menu__nexus_support_volume" js="0">Запросы в поддержку</word>
   <word key="support_requests_created" js="0">Запросы в поддержку созданы</word>
-  <word key="replies_made" js="0">Сделанно ответов</word>
+  <word key="replies_made" js="0">Сделано ответов</word>
   <word key="feedback_ratings" js="0">Отзывы</word>
   <word key="average_rating" js="0">Средний рейтинг</word>
   <word key="latest_feedback" js="0">Последний отзыв</word>

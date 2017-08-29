@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102007">
+ <app key="core" version="102011">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -596,7 +596,7 @@
   <word key="lost_password" js="0">Забыли пароль</word>
   <word key="request_password" js="0">Запросить новый пароль</word>
   <word key="forgotten_password" js="0">Забыли пароль?</word>
-  <word key="no_validation_key" js="0">Вы не ожидаете подтверждения запроса на восстановления пароля.</word>
+  <word key="no_validation_key" js="0">Вы не ожидаете подтверждения запроса на восстановление пароля.</word>
   <word key="lost_pass_instructions" js="0">Введите ваш email-адрес в поле ниже. После отправки формы вы получите email-письмо для подтверждения вашего аккаунта. Это письмо также будет содержать ссылку, по которой вам необходимо перейти для установки нового пароля.</word>
   <word key="lost_pass_confirm" js="0"><![CDATA[Запрос на сброс пароля успешно отправлен.<br><br>Email-письмо для повторного подтверждения было отправлено. Пожалуйста, проверьте свой почтовый ящик через несколько минут, включая папки для нежелательной почты, которые у вас могут быть.]]></word>
   <word key="lost_pass_too_soon" js="0">Вы недавно отправляли запрос на восстановление пароля. Пожалуйста, проверьте свой почтовый ящик через несколько минут, включая папки для нежелательной почты, которые у вас могут быть.</word>
@@ -698,7 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.2</span>
+  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.3</span>
 
 <span class="ipsType_light ipsType_blendLinks">
     <span> · <a href="https://invisionlang.ru" target="_blank" data-ipsTooltip _title="Перейти на сайт локализации">Русская локализация</a></span>
@@ -706,7 +706,10 @@
 </span>
 
 <script>
-if ( $("#elVersionSystem").text() != $("#elVersionLang").text() )
+var elVersionSystem = $("#elVersionSystem").text().split(' ')[0].split('.');
+var elVersionLang = $("#elVersionLang").text().split(' ')[0].split('.');
+
+if ( elVersionSystem[0] != elVersionLang[0] || elVersionSystem[1] != elVersionLang[1] || elVersionSystem[2] != elVersionLang[2] )
 {
 $("#elLangUpdate").show();
 }
@@ -763,15 +766,15 @@ $("#elLangUpdate").show();
   <word key="years" js="0">лет</word>
   <word key="f_seconds" js="0">{# [0:секунд][1:секунда][2:секунды][3:секунды][4:секунды][11:секунд][12:секунд][13:секунд][14:секунд][*1:секунда][*2:секунды][*3:секунды][*4:секунды][?:секунд]}</word>
   <word key="f_minutes" js="0">{# [0:минут][1:минуту][2:минуты][3:минуты][4:минуты][11:минут][12:минут][13:минут][14:минут][*1:минуту][*2:минуты][*3:минуты][*4:минуты][?:минут]}</word>
-  <word key="f_minutes_short" js="0">%d мин</word>
+  <word key="f_minutes_short" js="0">{# [1:мин][?:мин]}</word>
   <word key="f_hours" js="0">{# [0:часов][1:час][2:часа][3:часа][4:часа][11:часов][12:часов][13:часов][14:часов][*1:час][*2:часа][*3:часа][*4:часа][?:часов]}</word>
-  <word key="f_hours_short" js="0">%d час</word>
+  <word key="f_hours_short" js="0">{# [1:час][?:час]}</word>
   <word key="f_days" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]}</word>
-  <word key="f_days_short" js="0">%d дн</word>
+  <word key="f_days_short" js="0">{# [1:дн][?:дн]}</word>
   <word key="f_weeks" js="0">{# [0:недель][1:неделю][2:недели][3:недели][4:недели][11:недель][12:недель][13:недель][14:недель][*1:неделю][*2:недели][*3:недели][*4:недели][?:недель]}</word>
   <word key="f_months" js="0">{# [0:месяцев][1:месяц][2:месяца][3:месяца][4:месяца][11:месяцев][12:месяцев][13:месяцев][14:месяцев][*1:месяц][*2:месяца][*3:месяца][*4:месяца][?:месяцев]}</word>
   <word key="f_years" js="0">{# [1:год][2:года][3:года][4:года][11:лет][12:лет][13:лет][14:лет][*1:год][*2:года][*3:года][*4:года][?:лет]}</word>
-  <word key="f_years_short" js="0">%d г</word>
+  <word key="f_years_short" js="0">{# [1:г][?:г]}</word>
   <word key="less_than_a_minute" js="0">Менее минуты</word>
   <word key="always" js="0">Всегда</word>
   <word key="forever" js="0">Навсегда</word>
@@ -954,7 +957,7 @@ $("#elLangUpdate").show();
   <word key="teaser_signin" js="0">Войти</word>
   <word key="teaser_signin_desc" js="0">Уже зарегистрированы? Войдите здесь.</word>
   <word key="teaser_signin_button" js="0">Войти сейчас</word>
-  <word key="moderation_history" js="0">История модерирования</word>
+  <word key="moderation_history" js="0">История модерации</word>
   <word key="queued_comments_badge" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев] в очереди}</word>
   <word key="core_Modcp" js="0">Панель модератора</word>
   <word key="member_deletion_keep_name" js="0">Что должно отображаться в качестве имени пользователя рядом с его публикациями?</word>
@@ -1239,12 +1242,12 @@ $("#elLangUpdate").show();
   <word key="form_partial_address_opt" js="0">Вы должны указать полный адрес или оставить поля пустыми.</word>
   <word key="item_selector_added_to_container" js="0">в %s</word>
   <word key="item_selector_added_on" js="0">добавлено %s</word>
-  <word key="cannot_merge_with_self" js="0">Вы не можете объядинить публикацию саму с собой.</word>
+  <word key="cannot_merge_with_self" js="0">Вы не можете объединить публикацию саму с собой.</word>
   <word key="no_merge_permission" js="0">У вас нет прав для модерации этой %s.</word>
   <word key="edit_tabs" js="0">Изменение вкладки</word>
   <word key="applications_and_modules" js="0">Приложения</word>
   <word key="check_for_updates" js="0">Проверить обновления</word>
-  <word key="update_check_complete" js="0">Проверка обновлений заверешена</word>
+  <word key="update_check_complete" js="0">Проверка обновлений завершена</word>
   <word key="update_check_missing" js="0">В ответе отсутствует обязательное поле</word>
   <word key="developer_mode" js="0">Центр разработки</word>
   <word key="admincp_menu" js="0">Меню Админцентра</word>
@@ -1690,7 +1693,7 @@ $("#elLangUpdate").show();
   <word key="acplogs__logout_force" js="0">Все пользователи вышли из системы</word>
   <word key="logged_out_force" js="0">Все пользователи вышли из системы</word>
   <word key="login_settings" js="0">Настройки входа</word>
-  <word key="login_acp" js="0">Разрешить вход в админцентр?</word>
+  <word key="login_acp" js="0">Разрешить вход в Админцентр?</word>
   <word key="login_profile" js="0">Предлагать для заполнения в профиле?</word>
   <word key="acplogs__login_settings" js="0">Изменены настройки входа</word>
   <word key="login_ipsconnect_url" js="0">Ссылка центрального IPS Connect</word>
@@ -2112,7 +2115,7 @@ $("#elLangUpdate").show();
   <word key="rating_ip" js="0">IP-адрес</word>
   <word key="rating_rating" js="0">рейтинг</word>
   <word key="validate_type_newreg" js="0">Новая регистрация</word>
-  <word key="validate_type_lostpass" js="0">Восстановение пароля</word>
+  <word key="validate_type_lostpass" js="0">Восстановление пароля</word>
   <word key="validate_type_emailchg" js="0">Изменение email-адреса</word>
   <word key="members_validatingType" js="0">Способ проверки</word>
   <word key="members_entry_date" js="0">Дата</word>
@@ -2168,7 +2171,7 @@ $("#elLangUpdate").show();
   <word key="notification__new_mention" js="0">{!#[?:%s упомянул вас в]} %s: %s</word>
   <word key="notification__new_quote" js="0">{!#[?:%s процитировал вас в]} %s: %s</word>
   <word key="notification__new_likes" js="0">{!#[?:%s понравилось]} %s</word>
-  <word key="notification__new_react" js="0">{!#[1:%s отреагировал][?:%s отреагировали]} на %s</word>
+  <word key="notification__new_react" js="0">{!#[?:%s отреагировал]} на %s</word>
   <word key="notification__new_rep" js="0">{!#[?:%s изменил вам репутацию за]} %s</word>
   <word key="notification__member_follow" js="0">%s подписался на вас</word>
   <word key="notification__unapproved_content" js="0">%s опубликовал %s (ожидает утверждения): %s</word>
@@ -2338,9 +2341,9 @@ $("#elLangUpdate").show();
   <word key="g_hide_own_posts" js="0">Может скрывать свои публикации</word>
   <word key="g_hide_own_posts_desc" js="0">Скрытые публикации отображаются администрации, но не обычным пользователям.</word>
   <word key="g_delete_own_posts" js="0">Может удалять свои публикации</word>
-  <word key="group_moderation" js="0">Модерирование</word>
+  <word key="group_moderation" js="0">Модерация</word>
   <word key="g_mod_preview" js="0">Требовать утверждения перед публикацией</word>
-  <word key="g_mod_post_unit" js="0">Удалить модерирование содержимого</word>
+  <word key="g_mod_post_unit" js="0">Удалить модерацию содержимого</word>
   <word key="g_avoid_flood" js="0">Отключить контроль флуда?</word>
   <word key="g_avoid_flood_desc" js="0">Контроль флуда предотвращает создание двух сообщений подряд.</word>
   <word key="g_avoid_q" js="0">Обходить модерацию публикаций?</word>
@@ -2701,7 +2704,7 @@ $("#elLangUpdate").show();
   <word key="modlogs_module" js="0">Модуль</word>
   <word key="modlog__adminlog_settings" js="0">Изменены настройки очистка журнала модераторов</word>
   <word key="moderatorlogssettings" js="0">Настройки</word>
-  <word key="prune_log_moderator" js="0">Очищать журнал модерирования</word>
+  <word key="prune_log_moderator" js="0">Очищать журнал модерации</word>
   <word key="spamlogs" js="0">Журнал Spam Defense</word>
   <word key="spamlogs_log_date" js="0">Дата</word>
   <word key="spamlogs_log_code" js="0">Ответ сервера</word>
@@ -2913,7 +2916,7 @@ $("#elLangUpdate").show();
   <word key="rep_daily_exceeded" js="0">Вам разрешено изменять репутацию только %d раз за день. Вы не можете сегодня изменять репутацию.</word>
   <word key="rep_daily_exceeded_likes" js="0">Вам разрешено изменять репутацию только %d раз за день. Вы не можете сегодня изменять репутацию.</word>
   <word key="cannot_rep_user" js="0">Вы не можете изменять репутацию этому пользователю</word>
-  <word key="cannot_view_reputation" js="0">У вас нет прав для просмотра репутации этого пользоватея</word>
+  <word key="cannot_view_reputation" js="0">У вас нет прав для просмотра репутации этого пользователя</word>
   <word key="reputation_timezone" js="0">Часовой пояс Таблицы лидеров</word>
   <word key="reputation_timezone_desc" js="0"><![CDATA[Каждый день три пользователя с наибольшим количеством репутации за день заносятся в таблицу лидеров. Этот часовой пояс используется для формировании начала и окончания суток и должен соответствовать поясу, в котором находится большинство пользователей.<br>После изменения этой настройки, вы можете <a data-ipsDialog data-ipsDialog-title='Перестроить Таблицу лидеров' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>перестроить Таблицу лидеров</a> для гарантии корректности подсчёта репутации за день.]]></word>
   <word key="reputation_leaderboard_rebuilding" js="0">Фоновая задача на перестроение Таблицы лидеров была добавлена</word>
@@ -2940,7 +2943,7 @@ $("#elLangUpdate").show();
   <word key="react" js="0">Отреагировать</word>
   <word key="unreact" js="0">Отменить реакцию</word>
   <word key="reaction_remove" js="0">Удалить вашу реакцию</word>
-  <word key="see_who_reacted_x" js="0">Показать, кто отреагировал в виде &quot;%s&quot;</word>
+  <word key="see_who_reacted_x" js="0">Показать, кто отреагировал &quot;%s&quot;</word>
   <word key="existing_reactions" js="0">Изменить или удалить существующие реакции?</word>
   <word key="existing_reactions_desc" js="0">Выбрав &quot;Изменить реакцию&quot;, вы измените все существующие реакции, использующие этот тип, на выбранный тип.</word>
   <word key="change_new_reaction" js="0">Изменить реакцию</word>
@@ -2949,6 +2952,7 @@ $("#elLangUpdate").show();
   <word key="individual_reactions" js="0">Отображать реакции индивидуально</word>
   <word key="overall_reaction_count" js="0">Отображать общее значение реакций</word>
   <word key="reputation_top_members_overview" js="0">Отображаемые категории</word>
+  <word key="reputation_overview_max_members" js="0">Количество отображающихся пользователей в каждой категории на странице всех категорий</word>
   <word key="reputation_top_members_filters" js="0">Доступные фильтры</word>
   <word key="edit_who_reacted" js="0">Изменить реакции</word>
   <word key="r__reactions" js="0">Реакции</word>
@@ -3144,7 +3148,7 @@ $("#elLangUpdate").show();
   <word key="siteprofilelink_slack" js="0">Slack</word>
   <word key="siteprofilelink_xing" js="0">Xing</word>
   <word key="siteprofilelink_weibo" js="0">Weibo</word>
-  <word key="siteprofilelink_vk" js="0">vk.com</word>
+  <word key="siteprofilelink_vk" js="0">ВКонтакте</word>
   <word key="site_social_profiles" js="0">Ссылки на социальные профили</word>
   <word key="menutab__core_icon" js="0">cogs</word>
   <word key="menutab__members_icon" js="0">user</word>
@@ -3383,7 +3387,7 @@ $("#elLangUpdate").show();
   <word key="promote_group_primary" js="0">Переместить в группу</word>
   <word key="promote_group_secondary" js="0">Добавить второстепенную группу</word>
   <word key="demote_group_secondary" js="0">Удалить второстепенную группу</word>
-  <word key="demote_group_secondary_desc" js="0">Вы можете пожелать удалить ранее добавленную второстепенную группу как только пользователь достигает условий нового продвижения.</word>
+  <word key="demote_group_secondary_desc" js="0">По желанию вы можете удалить ранее добавленную второстепенную группу, как только пользователь достигает условий нового продвижения.</word>
   <word key="days_ago" js="0">дней назад</word>
   <word key="or_more_than" js="0">Более чем</word>
   <word key="group_promotion_blurb" js="0"><![CDATA[Вы можете настроить правила перемещения пользователей в другие группы при достижении ими определённых критериев. Например, если у вас есть правило для продвижения пользователей после публикации 10 сообщений, и ещё одно правило после 100 сообщений, то вы должны убедиться в том, что в списке правило на 100 сообщений находится ниже правила на 10 сообщений. Вы можете исключите некоторые группы в <a href='{internal.app=core&module=members&controller=groups&searchResult=g_promote_exclude}'>настройках групп</a>.]]></word>
@@ -3596,7 +3600,7 @@ $("#elLangUpdate").show();
   <word key="emailtpl_email_address_changed" js="0">Email-адрес был изменён</word>
   <word key="emailtpl_account_locked" js="0">Аккаунт заблокирован</word>
   <word key="emailtpl_notification_event_reminder" js="0">Напоминания о событии</word>
-  <word key="emailtpl_notification_club_response" js="0">Ответ на запрос наа вступление в клуб</word>
+  <word key="emailtpl_notification_club_response" js="0">Ответ на запрос на вступление в клуб</word>
   <word key="emailtpl_notification_club_request" js="0">Заявка на вступление в клуб</word>
   <word key="emailtpl_notification_club_join" js="0">Уведомление о вступлении в клуб</word>
   <word key="emailtpl_notification_club_invitation" js="0">Приглашение вступить в клуб</word>
@@ -4176,7 +4180,7 @@ $("#elLangUpdate").show();
   <word key="can_delete_content" js="0">Может удалять публикации</word>
   <word key="can_split_merge_content" js="0">Может разделять и объединять публикации</word>
   <word key="can_view_editlog" js="0">Может просматривать журнал изменений</word>
-  <word key="can_view_moderation_log" js="0">Может просматривать историю модерирования</word>
+  <word key="can_view_moderation_log" js="0">Может просматривать историю модерации</word>
   <word key="can_see_emails" js="0">Может видеть email-адреса пользователей</word>
   <word key="can_modify_profiles" js="0">Может изменять профили пользователей</word>
   <word key="can_unban" js="0">Может разблокировать пользователей?</word>
@@ -4386,7 +4390,7 @@ $("#elLangUpdate").show();
   <word key="filestorage__core_Advertisements" js="0">Реклама</word>
   <word key="filestorage__core_Emoticons" js="0">Смайлы</word>
   <word key="filestorage__core_ProfileField" js="0">Поля профиля</word>
-  <word key="filestorage__core_Imageproxycache" js="0">Кеширование внешних изображений</word>
+  <word key="filestorage__core_Imageproxycache" js="0">Кэширование внешних изображений</word>
   <word key="filestorage__core_Promote" js="0">Изображения при продвижении в соцсети</word>
   <word key="filestorage__core_Reaction" js="0">Реакции</word>
   <word key="files_edit_existing_and_used" js="0">Этот метод хранения в данный момент используется. Важные изменения будут сохранены в новую настройку хранения и будет начат процесс переноса файлов.</word>
@@ -4953,7 +4957,7 @@ $("#elLangUpdate").show();
   <word key="r__search" js="0">Настройки поиска</word>
   <word key="r__search_manage" js="0">Может изменять настройки поиска</word>
   <word key="theme_disk_cache_templates" js="0">Включить кэширование шаблонов на диске</word>
-  <word key="theme_disk_cache_templates_desc" js="0">Сохранение кэшированых шаблонов на диск в качестве исполняемых файлов может уменьшить время их обработки и использование памяти.</word>
+  <word key="theme_disk_cache_templates_desc" js="0">Сохранение кэшированных шаблонов на диск в качестве исполняемых файлов может уменьшить время их обработки и использование памяти.</word>
   <word key="theme_disk_cache_path" js="0">Путь к кэшу шаблонов на диске</word>
   <word key="theme_disk_cache_path_desc" js="0">Директория должна быть доступна для чтения и записи.</word>
   <word key="theme_disk_cache_path_wrong" js="0">Директория недоступна для чтения и записи.</word>
@@ -5034,7 +5038,7 @@ $("#elLangUpdate").show();
   <word key="acplog__slave_deleted" js="0">Ведомый сайт IPS Connect отключён</word>
   <word key="connect_failure_details" js="0">При попытке отправить запрос на сайт возникла следующая ошибка: %s</word>
   <word key="connect_slavefail_http" js="0">Полученный код состояния HTTP: %s</word>
-  <word key="BAD_JSON" js="0">Ответ ожидается в формате JSON, но он не вляется таковым</word>
+  <word key="BAD_JSON" js="0">Ответ ожидается в формате JSON, но он не является таковым</word>
   <word key="acplog__connect_queue_cleared" js="0">Очередь запросов IPS Connect была обработана вручную</word>
   <word key="connect_retry_success" js="0">Сайт корректно ответил на запрос</word>
   <word key="connect_queue_cleared" js="0">Сайт успешно скопировал все ожидающие изменения аккаунта</word>
@@ -5068,7 +5072,7 @@ $("#elLangUpdate").show();
   <word key="dashboard_tasks_broken" js="0">Задачи обслуживания</word>
   <word key="dashboard_tasks_broken_desc" js="0"><![CDATA[Указанные <a href='{internal.app=core&module=settings&controller=advanced&do=tasks}'>задачи</a>, по всей видимости, заблокированы: %s<br>Пожалуйста, запустите их вручную. Если вам требуется дополнительная помощь, пожалуйста, создайте запрос в техническую поддержку.]]></word>
   <word key="dashboard_datastore_broken" js="0">Хранилище данных не работает</word>
-  <word key="dashboard_datastore_broken_desc" js="0"><![CDATA[Кэширование работает некорректно. Пожалуйста, проверьте ваши <a href='{internal.app=core&module=settings&controller=advanced&tab=datastore}'>настройки хранения данных</a> и измените их, если это необходимо, для уведомления скорости и производительности вашего сайта.]]></word>
+  <word key="dashboard_datastore_broken_desc" js="0"><![CDATA[Кэширование работает некорректно. Пожалуйста, проверьте ваши <a href='{internal.app=core&module=settings&controller=advanced&tab=datastore}'>настройки хранения данных</a> и измените их, если это необходимо, для увеличения скорости и производительности вашего сообщества.]]></word>
   <word key="dashboard_datastore_broken_settings" js="0">Кэширование работает некорректно. Вам, возможно, следует использовать другой метод хранения данных, или изменить настройки вашего текущего метода, расположенные ниже.</word>
   <word key="dashboard_email_broken" js="0">Неотправленные письма</word>
   <word key="dashboard_email_broken_desc" js="0"><![CDATA[Не удалось отправить email-письма. Просмотрите <a href='{internal.app=core&module=settings&controller=email&do=errorLog}'>журнал ошибок email</a> или измените <a href='{internal.app=core&module=settings&controller=email}'>настройки email</a>.<br>Если вам нужна помощь в тестировании настроек электронной почты, пожалуйста, обратитесь в техническую поддержку.]]></word>
@@ -6078,7 +6082,7 @@ $("#elLangUpdate").show();
   <word key="plugin_update_check_desc" js="0"><![CDATA[Данный адрес будет периодически запрашиваться для проверки наличия обновлений плагина. <a href='{external.devdocs-updateurl}' target='_blank'>Подробная информация</a>.]]></word>
   <word key="plugin_author_details" js="0">О разработчике</word>
   <word key="plugin_author" js="0">Название</word>
-  <word key="plugin_website" js="0">Вебсайт</word>
+  <word key="plugin_website" js="0">Веб-сайт</word>
   <word key="plugin_version" js="0">%s (%s)</word>
   <word key="plugin_details_version" js="0">Версия</word>
   <word key="plugin_hooks" js="0">Хуки</word>
@@ -6720,7 +6724,7 @@ $("#elLangUpdate").show();
   <word key="contact_support_submit" js="0">Отправить запрос в поддержку</word>
   <word key="type_of_problem_select" js="0">Чем мы можем вам помочь?</word>
   <word key="type_of_problem_advice" js="0">Мне нужен совет или информация об использовании Invision Community</word>
-  <word key="type_of_problem_issue" js="0">Что-то работает неправильно </word>
+  <word key="type_of_problem_issue" js="0">Что-то работает неправильно</word>
   <word key="support_advice_search" js="0">Что вы ищете?</word>
   <word key="support_advice_search_desc" js="0">Введите ключевое слово, характеризующее то, с чем вам нужна помощь.</word>
   <word key="support_advice_results" js="0">Это все участки Админцентра, которые вы ищете. В будущем вы можете использовать поле быстрого поиска в правом верхнем углу Админцентра.</word>
@@ -6925,7 +6929,7 @@ $("#elLangUpdate").show();
   <word key="ctags_disabled" js="0">Включить теги</word>
   <word key="ctags_noprefixes" js="0">Включить префиксы</word>
   <word key="ctags_predefined" js="0">Предопределённые теги</word>
-  <word key="ctags_predefined_unlimited" js="0">Использовать по уолчанию</word>
+  <word key="ctags_predefined_unlimited" js="0">Использовать по умолчанию</word>
   <word key="ctags_predefined_desc" js="0">При использовании закрытой системы тегов, пользователям придётся выбирать их из этого списка. При использовании открытой системы тегов, они будут отображены как рекомендации.</word>
   <word key="block_members" js="0">Пользователи</word>
   <word key="block_members_desc" js="0">Отображает список пользователей, например кто в сети, у кого сегодня день рождения или другое.</word>
@@ -7042,8 +7046,8 @@ $("#elLangUpdate").show();
   <word key="api_exceptions_none" js="0">Эта конечная точка не вызывает никаких исключений</word>
   <word key="api_response" js="0">Ответ</word>
   <word key="api_response_none" js="0">Эта конечная точка не возвращает ответа.</word>
-  <word key="api_log_blurb" js="0">Запрос API журналируется, если в настройках ключа включено журналировнеи запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после %d дней.</word>
-  <word key="api_log_blurb_change" js="0"><![CDATA[Запрос API журналируется, если в настройках ключа включено журналировнеи запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после <a href='{internal.app=core&module=applications&controller=apiLogs&do=settings}' data-ipsDialog data-ipsDialog-title='Журналы API'>%s дней</a>.]]></word>
+  <word key="api_log_blurb" js="0">Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после %d дней.</word>
+  <word key="api_log_blurb_change" js="0"><![CDATA[Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после <a href='{internal.app=core&module=applications&controller=apiLogs&do=settings}' data-ipsDialog data-ipsDialog-title='Журналы API'>%s дней</a>.]]></word>
   <word key="acplogs__api_log_settings" js="0">Обновлены настройки очистки журналов API</word>
   <word key="api_log_prune" js="0">Очистить журналы API</word>
   <word key="r__api" js="0">REST API</word>
@@ -7337,7 +7341,7 @@ $("#elLangUpdate").show();
   <word key="leader_date" js="0">Дата</word>
   <word key="leader_position" js="0">Позиция</word>
   <word key="leader_rep_total_likes" js="0">Всего лайков</word>
-  <word key="leader_rep_total_rep" js="0">Общаа репутация</word>
+  <word key="leader_rep_total_rep" js="0">Общая репутация</word>
   <word key="leader_position_1" js="0">Первый</word>
   <word key="leader_position_1_short" js="0">1-ый</word>
   <word key="leader_position_2" js="0">Второй</word>
@@ -7436,7 +7440,7 @@ $("#elLangUpdate").show();
   <word key="acplogs__promote_changed_permissions" js="0">настройки прав доступа</word>
   <word key="promote_internal_title" js="0">&quot;Наш выбор&quot; - это способ рассказать об интересных публикациях в вашем сообществе</word>
   <word key="promote_internal_desc" js="0">Когда вы делитесь публикацией, вы можете добавить примечание к публикации и она отобразится вашим пользователям в списке или боковом блоке.</word>
-  <word key="promote_acp_blurb" js="0"><![CDATA[Продвижение публикаций из вашего сообщества на страницу Facebook и в аккаунт Twitter помогает получить трафик.<br>Вы можете привязать ваши аккаунты на этой странице, а после выбрать staff members to share content on your community to them.]]></word>
+  <word key="promote_acp_blurb" js="0"><![CDATA[Продвижение публикаций из вашего сообщества на страницу Facebook и в аккаунт Twitter может помочь получить дополнительный трафик.<br>Вы можете привязать ваши аккаунты на этой странице, а затем выбирать пользователей администрации, от имени которых вы хотите делиться публикациями.]]></word>
   <word key="group_social_promotion" js="0">Продвижение в соцсети</word>
   <word key="gbw_promote" js="0">Может продвигать в соцсети</word>
   <word key="gbw_promote_desc" js="0">Позволить пользователям использовать систему продвижения, если она настроена, для публикации на ваших страницах Facebook или Twitter, а также добавлять элементы на страницу &quot;Наш выбор&quot;.</word>
@@ -7671,7 +7675,7 @@ $("#elLangUpdate").show();
   <word key="club_whats_new" js="0">Что нового в этом клубе</word>
   <word key="clubs_custom_fields" js="0">Настраиваемые поля</word>
   <word key="editor__core_Clubs" js="0">Клубы</word>
-  <word key="filestorage__core_Clubs" js="0">Изображения клубов и настраиваемые поля</word>
+  <word key="filestorage__core_Clubs" js="0">Изображения клубов</word>
   <word key="club_filter_type" js="0">Тип клуба</word>
   <word key="f_filterable" js="0">Разрешить фильтрацию</word>
   <word key="club_member" js="0">Вы участник этого клуба</word>
@@ -7792,7 +7796,7 @@ $("#elLangUpdate").show();
   <word key="profile_step_subaction_profile_fields" js="0">Поля</word>
   <word key="profile_step_text" js="0">Описание шага</word>
   <word key="profile_step_text_desc" js="0">Текст, отображающийся пользователю и стимулирующий его выполнить этот шаг, или объясняющий почему он необходим.</word>
-  <word key="profile_step_required" js="0">Необходимый</word>
+  <word key="profile_step_required" js="0">Обязательный</word>
   <word key="profile_step_completion_act" js="0">Действия для заполнения аккаунта</word>
   <word key="profile_acp_table_word_custom" js="0">Заголовок</word>
   <word key="profile_acp_table_step_completion_act" js="0">Действие</word>
@@ -7808,14 +7812,14 @@ $("#elLangUpdate").show();
   <word key="profile_live" js="0">Microsoft Live</word>
   <word key="profile_profile_fields" js="0">Иная информация профиля</word>
   <word key="profile_done" js="0">Завершить</word>
-  <word key="profile_wizard_cancel" js="0">Пропустить заолнение профиля</word>
+  <word key="profile_wizard_cancel" js="0">Пропустить заполнение профиля</word>
   <word key="complete_profile_basic_profile" js="0">Основной профиль</word>
   <word key="complete_profile_social_login" js="0">Авторизация через соцсети</word>
   <word key="profile_step_subaction_basic_profile" js="0">Поля</word>
   <word key="profile_step_subaction_social_login" js="0">Сервисы</word>
   <word key="profile_step_next" js="0">Следующий шаг:</word>
   <word key="profile_complete_skip_step" js="0">Пропустить этот шаг</word>
-  <word key="profile_complete_next" js="0">Следующий</word>
+  <word key="profile_complete_next" js="0">Далее</word>
   <word key="profile_complete_quick_register_off" js="0">Быстрая регистрация должна быть включена, прежде чем вы сможете настроить заполнение профиля.</word>
   <word key="profile_complete_quick_register_off_button" js="0">Включить быстрая регистрацию</word>
   <word key="profile_complete_quick_register_off_title" js="0">Быстрая регистрация сейчас выключена</word>
@@ -8327,11 +8331,14 @@ $("#elLangUpdate").show();
   <word key="clubMemberDeclined" js="1"><![CDATA[Заявка этого пользователя была <strong>отклонена</strong>]]></word>
   <word key="removedReaction" js="1">Ваша реакция была удалена</word>
   <word key="imageProxyRebuild" js="1">Перестроить существующие публикации?</word>
+  <word key="imageProxyRebuildBlurbEnable" js="1">По желанию, вы можете включить использование локального сервера для загрузки существующих изображений. Этот процесс происходит в фоновом режиме и может занять некоторое время.</word>
+  <word key="imageProxyRebuildBlurbDisable" js="1">По желанию, вы можете отключить использование локального сервера для загрузки существующих изображений. Этот процесс происходит в фоновом режиме и может занять некоторое время.</word>
   <word key="imageProxyRebuildYes" js="1">Да, перестроить</word>
   <word key="imageProxyRebuildNo" js="1">Нет</word>
   <word key="mod_error_invalid_action" js="0">Возникла ошибка при выполнении этого действия</word>
   <word key="mod_error_invalid_action_admin" js="0">Действие, которое вы пытались выполнить, является некорректным</word>
   <word key="editor_paste_behaviour_rich_desc" js="0">При вставке отформатированного текста, внизу редактора появится панель с кнопкой для конвертации этого текста в обычный текст. Пользователи также могут вставить его в виде обычного текста, используя сочетание клавиш Ctrl + Shift + V в Google Chrome на Windows, или ⌥⇧⌘V в любом браузере на Mac.</word>
+  <word key="promote_group_secondary_desc" js="0">При добавлении второстепенной группы учитывайте, что настройка удаления из этой второстепенной группы игнорируется, что позволяет вам повторно продвинуть пользователей.</word>
   <word key="timezone__Europe/Saratov" js="0">Саратов</word>
   <word key="stats_include_hidden_content" js="0">Счётчики, отображаемые здесь, включают в себя как скрытые, так и видимые публикации.</word>
   <word key="promote_twitter_setup_post" js="0">Ошибка настройки Twitter</word>
@@ -8341,5 +8348,10 @@ $("#elLangUpdate").show();
   <word key="r__fields_add" js="0">Может создавать дополнительные поля</word>
   <word key="r__fields_edit" js="0">Может изменять дополнительные поля</word>
   <word key="r__fields_delete" js="0">Может удалять дополнительные поля</word>
+  <word key="unhidden" js="0">Показываемые</word>
+  <word key="dashboard_tasks_cron_broken_desc_cic" js="0"><![CDATA[Ваше сообщество <a href='{internal.app=core&module=settings&controller=advanced&tab=settings&searchResult=task_use_cron}'>настроено на выполнение  задач технического обслуживания используя cron</a>, но похоже, что они не выполняются. Пожалуйста, запустите <a href='{internal.app=core&module=support&controller=support}'>инструмент поддержки</a>, и создайте запрос в поддержку, если это не решило проблему.]]></word>
+  <word key="utf8mb4_converter_cic_explain" js="0"><![CDATA[Ваша база данных в настоящий момент настроена на использование одно-байтовой кодировки UTF-8. Некоторые нестандартные символы (такие, как исторические и музыкальные символы, эмодзи) требуют четырёх-байтовую кодировку UTF-8. Если вы хотите позволить пользователям публикацию таких символов, ваша база должна быть конвертирована.<br><br>Так как четырёх-байтовая кодировка UTF-8 является надстройкой над одно-байтовой кодировкой UTF-8, конвертация может быть произведена без потери данных. Однако, она может использовать значительное количество ресурсов, поэтому рекомендуется делать её <strong>при низкой посещаемости</strong>.<br><br><strong>Этот процесс не может быть остановлен или отменён после его начала.</strong>]]></word>
+  <word key="filestorage__core_ClubField" js="0">Настраиваемые поля клубов</word>
+  <word key="view_all" js="0">Просмотреть все</word>
  </app>
 </language>
