@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102010">
+ <app key="core" version="102011">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -3148,7 +3148,7 @@ $("#elLangUpdate").show();
   <word key="siteprofilelink_slack" js="0">Slack</word>
   <word key="siteprofilelink_xing" js="0">Xing</word>
   <word key="siteprofilelink_weibo" js="0">Weibo</word>
-  <word key="siteprofilelink_vk" js="0">VKontakte</word>
+  <word key="siteprofilelink_vk" js="0">ВКонтакте</word>
   <word key="site_social_profiles" js="0">Ссылки на социальные профили</word>
   <word key="menutab__core_icon" js="0">cogs</word>
   <word key="menutab__members_icon" js="0">user</word>
