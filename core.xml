@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102011">
+ <app key="core" version="102016">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -669,8 +669,8 @@
   <word key="move_item" js="0">Переместить %s</word>
   <word key="move_to" js="0">Переместить в</word>
   <word key="move_keep_link" js="0">Оставить ссылку на новое расположение</word>
-  <word key="move_send_to_item" js="0">Переместить и перейти к этой %s</word>
-  <word key="move_send_to_container" js="0">Переместить и перейти к %s</word>
+  <word key="move_send_to_item" js="0">Переместить и перейти в %s</word>
+  <word key="move_send_to_container" js="0">Переместить и перейти в %s</word>
   <word key="_move_keep_link_desc" js="0">Ссылка будет автоматически удалена через {# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][?:дней]}</word>
   <word key="delete_thing" js="0">Удалить %s</word>
   <word key="delete_confirm" js="0">Вы уверены, что хотите удалить?</word>
@@ -698,22 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[<span id="elVersionSystem">%s</span><span id="elVersionLang" style="display: none;">4.2.3</span>
-
-<span class="ipsType_light ipsType_blendLinks">
-    <span> · <a href="https://invisionlang.ru" target="_blank" data-ipsTooltip _title="Перейти на сайт локализации">Русская локализация</a></span>
-    <span class="ipsType_warning" id="elLangUpdate" style="display: none;"><br><a href="https://invisionlang.ru" target="_blank">Русская локализация устарела. Обновить!</a></span>
-</span>
-
-<script>
-var elVersionSystem = $("#elVersionSystem").text().split(' ')[0].split('.');
-var elVersionLang = $("#elVersionLang").text().split(' ')[0].split('.');
-
-if ( elVersionSystem[0] != elVersionLang[0] || elVersionSystem[1] != elVersionLang[1] || elVersionSystem[2] != elVersionLang[2] )
-{
-$("#elLangUpdate").show();
-}
-</script>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ipshelp.ru/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.2.4. Проверить обновления">Русификация от IPSHelp.Ru</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -7089,7 +7074,7 @@ $("#elLangUpdate").show();
   <word key="menu__core_settings_mfa" js="0">Аутентификация</word>
   <word key="mfa_handlers" js="0">Способы</word>
   <word key="mfa_settings" js="0">Настройки</word>
-  <word key="mfa_blurb" js="0"><![CDATA[Двухфакторная аутентификация позволяет пользователям вашего сообщества защищать свои аккаунты дополнительным способом, наряду с обычным именем пользователя и паролем. Разные <strong>методы</strong> предлагают разные способы защиты аккаунтов.]]></word>
+  <word key="mfa_blurb" js="0"><![CDATA[Двухфакторная аутентификация позволяет пользователям вашего сообщества защищать свои аккаунты дополнительным способом, наряду с обычным именем пользователя и паролем. Разные <strong>методы</strong> предлагают разные способы защиты аккаунтов. Пользователям не будет предложено ни одного варианта двухфакторной аутентификации до тех пор, пока не будет включен хотя бы один из этих методов.]]></word>
   <word key="mfa_google_title" js="0">Google Authenticator</word>
   <word key="mfa_google_desc" js="0">Бесплатная система, которая будет отображать код в приложении на смартфоне пользователя, который ему нужно будет ввести в специальное поле.</word>
   <word key="mfa_google_desc_user" js="0">Вам потребуется установить приложение Google Authenticator на ваш смартфон. При необходимости аутентификации, вам потребуется ввести код из этого приложения.</word>
@@ -7160,7 +7145,7 @@ $("#elLangUpdate").show();
   <word key="mfa_prompt_immediate" js="0">При посещении сайта</word>
   <word key="mfa_prompt_access" js="0">При первом посещении защищённых областей</word>
   <word key="mfa_prompt_none" js="0">Никогда</word>
-  <word key="mfa_prompt_none_desc" js="0">Они смогут настроить двухфакторную аутентификацию в настройках аккаунта, но их об этом никогда не будут просить.</word>
+  <word key="mfa_prompt_none_desc" js="0">Они смогут настроить двухфакторную аутентификацию в настройках безопасности своего аккаунта, но их об этом никогда не будут просить.</word>
   <word key="r__mfa" js="0">Двухфакторная аутентификация</word>
   <word key="r__mfa_manage" js="0">Может управлять настройками двухфакторной аутентификации</word>
   <word key="r__member_mfa" js="0">Может просматривать и изменять настройки двухфакторной аутентификации пользователей</word>
@@ -8353,5 +8338,6 @@ $("#elLangUpdate").show();
   <word key="utf8mb4_converter_cic_explain" js="0"><![CDATA[Ваша база данных в настоящий момент настроена на использование одно-байтовой кодировки UTF-8. Некоторые нестандартные символы (такие, как исторические и музыкальные символы, эмодзи) требуют четырёх-байтовую кодировку UTF-8. Если вы хотите позволить пользователям публикацию таких символов, ваша база должна быть конвертирована.<br><br>Так как четырёх-байтовая кодировка UTF-8 является надстройкой над одно-байтовой кодировкой UTF-8, конвертация может быть произведена без потери данных. Однако, она может использовать значительное количество ресурсов, поэтому рекомендуется делать её <strong>при низкой посещаемости</strong>.<br><br><strong>Этот процесс не может быть остановлен или отменён после его начала.</strong>]]></word>
   <word key="filestorage__core_ClubField" js="0">Настраиваемые поля клубов</word>
   <word key="view_all" js="0">Просмотреть все</word>
+  <word key="cannot_react" js="0">Вы не можете отреагировать на это</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102011">
+ <app key="nexus" version="102016">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -2007,7 +2007,7 @@
   <word key="gift_voucher_redeem" js="0">Активировать</word>
   <word key="gift_voucher_invalid_amount" js="0">Мы должны выбрать сумму</word>
   <word key="add_gift_voucher_to_cart" js="0">Добавить подарочную карту в корзину</word>
-  <word key="redemption_code" js="0">Активация кода</word>
+  <word key="redemption_code" js="0">Код для активации</word>
   <word key="to_redeem_visit" js="0">Чтобы активировать, посетите</word>
   <word key="gift_voucher_pending_email" js="0">Это подарочная карта была отправлена получателю по электронной почте.</word>
   <word key="gift_voucher_pending_print" js="0">Вы выбрали печать подарочной карты для получателя.</word>
@@ -2143,7 +2143,7 @@
   <word key="recent_support_requests" js="0">Последние запросы в поддержку</word>
   <word key="no_recent_support_requests" js="0">Нет недавних запросов в поддержку для этого продукта.</word>
   <word key="commerce_get_support" js="0">Получить поддержку</word>
-  <word key="package_downloads" js="0">Файлы, связанный с продуктом</word>
+  <word key="package_downloads" js="0">Файлы, связанные с продуктом</word>
   <word key="reactivate_package" js="0">Возобновить</word>
   <word key="client_addresses" js="0">Адресная книга</word>
   <word key="upgrade_cost" js="0">Стоимость повышения %s.</word>
