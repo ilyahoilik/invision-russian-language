@@ -888,7 +888,7 @@
   <word key="go_to_page_x" js="0">Перейти к %d странице</word>
   <word key="no_value" js="0">Нет значения</word>
   <word key="settings" js="0">Настройки</word>
-  <word key="overview" js="0">Детали</word>
+  <word key="overview" js="0">Обзор</word>
   <word key="download" js="0">Скачать</word>
   <word key="print" js="0">Печать</word>
   <word key="email" js="0">Email-адрес</word>
@@ -1275,14 +1275,14 @@
   <word key="r__upgrade_manage" js="0">Может обновлять Invision Community</word>
   <word key="upgrade_confirm_update" js="0">Подтверждение</word>
   <word key="upgrade_login" js="0">Вход</word>
-  <word key="upgrade_ftp_details" js="0">Данные FTP</word>
+  <word key="upgrade_ftp_details" js="0">Параметры FTP</word>
   <word key="upgrade_extract_update" js="0">Обновление</word>
   <word key="upgrade_upgrade" js="0">Завершение</word>
   <word key="delta_upgrade_downloading" js="0">Скачивание</word>
   <word key="delta_upgrade_processing" js="0">Обработка</word>
   <word key="delta_upgrade_extracting" js="0">Извлечение</word>
   <word key="delta_upgrade_ftp_instructions" js="0"><![CDATA[Для загрузки обновления вы должны предоставить данные вашего FTP-сервера. Если ваш сервере не имеет доступа по FTP, <a href='%s'>нажмите здесь</a> для загрузки обновления вручную.]]></word>
-  <word key="delta_upgrade_ftp_details" js="0">Данные FTP</word>
+  <word key="delta_upgrade_ftp_details" js="0">Параметры FTP</word>
   <word key="delta_upgrade_ftp_details_err" js="0">Соединение установлено, но попытка загрузить файл не удалась. Убедитесь, что указанный путь корректный и в нём содержится установленный Invision Community, а также что пользователь FTP имеет права на чтение и запись файлов.</word>
   <word key="delta_upgrade_ftp_details_no_match" js="0">Соединение установлено, но файл conf_global.php в указанной папке не соответствует файлу conf_global.php этого сайта. Убедитесь, что по указанному пути содержится установленный Invision Community.</word>
   <word key="delta_upgrade_ftp_remember" js="0">Запомнить данные</word>
@@ -1929,7 +1929,7 @@
   <word key="import_members_fallback_group_desc" js="0">Если csv-файл не содержит данные о группе или значение недействительно, будет использоваться эта группа.</word>
   <word key="import_members_send_confirmation" js="0">Отправить письмо подтверждения</word>
   <word key="import_members_send_confirmation_desc" js="0">Если csv-файл не содержит паролей, рекомендуется включить, чтобы создавался случайный пароль и отправлялся по email. В противном случае пользователям необходимо будет использовать функцию восстановления пароля для входа на сайт.</word>
-  <word key="import_members_csv_details" js="0">Данные в CSV</word>
+  <word key="import_members_csv_details" js="0">Параметры CSV</word>
   <word key="import_members_processing" js="0">Импортирование пользователей...</word>
   <word key="import_members_contains_header" js="0">Первая строка является шапкой</word>
   <word key="import_column_number" js="0">Столбец %d</word>
@@ -4287,7 +4287,7 @@
   <word key="filehandler__Database_desc" js="0">Используйте, если у вас нет места в файловой системе или запись файлов нежелательна. Крайне не рекомендуется, т.к. производит излишнюю нагрузку на систему.</word>
   <word key="filehandler__Ftp" js="0">FTP-сервер</word>
   <word key="filehandler__Ftp_desc" js="0">Используйте, если вы хотите хранить файлы на специальном стороннем сервере.</word>
-  <word key="filehandler__Ftp_ftp_details" js="0">Детали FTP</word>
+  <word key="filehandler__Ftp_ftp_details" js="0">Параметры FTP</word>
   <word key="filehandler__Ftp_host" js="0">Хост</word>
   <word key="filehandler__Ftp_port" js="0">Порт</word>
   <word key="filehandler__Ftp_ssl" js="0">Использовать FTPS?</word>
@@ -5954,7 +5954,7 @@
   <word key="modcp_recent_warnings" js="0">Предупреждения</word>
   <word key="member_warned" js="0">Пользователь предупреждён</word>
   <word key="warned_by_" js="0">Предупреждён</word>
-  <word key="warn_details" js="0">Детали</word>
+  <word key="warn_details" js="0">Подробности</word>
   <word key="modcp_tools" js="0">Инструменты</word>
   <word key="no_results_reports" js="0">Нет жалоб для отображения</word>
   <word key="modcp_ip_tools" js="0">Инструменты IP-адресов</word>
@@ -6054,7 +6054,7 @@
   <word key="mod_queue_message" js="0">Ваша публикация должна быть проверена модератором</word>
   <word key="view_warning_details" js="0">Информация о предупреждении</word>
   <word key="view_warning_details_title" js="0">Подробная информация о предупреждении</word>
-  <word key="warning_details" js="0">Детали предупреждения</word>
+  <word key="warning_details" js="0">Подробности предупреждения</word>
   <word key="assigned_point_levels" js="0">Назначенные уровни баллов</word>
   <word key="no_warning_action_time" js="0">Вы должны указать срок действия, или выбрать &quot;Бессрочно&quot;</word>
   <word key="error_date_not_future" js="0">Пожалуйста, выберите будущую дату</word>
@@ -6973,7 +6973,7 @@
   <word key="rss_import_auth_pass_desc" js="0">Большинство лент не требуют авторизации и это можно оставить пустым.</word>
   <word key="rss_import_auth" js="0">RSS-адрес требует авторизации и указанные данные пользователя являются некорректными</word>
   <word key="rss_import_preview" js="0">Большинство лент не требуют авторизации. Можете оставить это поле пустым</word>
-  <word key="rss_import_details" js="0">Детали</word>
+  <word key="rss_import_details" js="0">Параметры</word>
   <word key="rss_import_forum_id" js="0">Раздел</word>
   <word key="rss_import_mid" js="0">Автор</word>
   <word key="rss_import_mid_desc" js="0">Пользователь, который будет автором тем, создаваемых с помощью ленты.</word>
@@ -7681,7 +7681,7 @@
   <word key="club_closed_title" js="0">Закрытый клуб</word>
   <word key="club_closed_desc" js="0">Это закрытый клуб, поэтому только его участники могут просматривать его публикации.</word>
   <word key="club_pending_members" js="0">{# [0:ожидающих][1:ожидающий][2:ожидающих][3:ожидающих][4:ожидающих][11:ожидающих][12:ожидающих][13:ожидающих][14:ожидающих][*1:ожидающий][*2:ожидающих][*3:ожидающих пользователя][*4:ожидающих][?:ожидающих]}</word>
-  <word key="clubs_no_recent_activity" js="0">Если вы являетесь участником одного или более клубов, тогда мы отобразим здесь последнюю активность из них.</word>
+  <word key="clubs_no_recent_activity" js="0">Если вы являетесь участником одного или более клубов, мы отобразим здесь последнюю активность из них.</word>
   <word key="clubs_none_joined" js="0">Вы ещё не вступили в какие-либо клубы.</word>
   <word key="club_joined" js="0">Присоединился %s</word>
   <word key="loc_clubs_directory" js="0">Просматривает каталог клубов</word>
