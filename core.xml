@@ -2057,7 +2057,7 @@
   <word key="ipAddresses__core_ModeratorLogs" js="0">Журналы модераторов</word>
   <word key="ipAddresses__core_AdminLogs" js="0">Журналы администраторов</word>
   <word key="ipAddresses__core_Messages" js="0">Личные сообщения</word>
-  <word key="ipAddresses__core_AdminLoginLogs" js="0">Журналы входа в Аминцентр</word>
+  <word key="ipAddresses__core_AdminLoginLogs" js="0">Журналы входа в Админцентр</word>
   <word key="ipAddresses__core_Dnames" js="0">Изменения отображаемого имени</word>
   <word key="ipAddresses__core_MemberHistory" js="0">История пользователя</word>
   <word key="ipAddresses__core_ErrorLogs" js="0">Журналы ошибок</word>
