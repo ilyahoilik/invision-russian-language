@@ -479,7 +479,7 @@
   <word key="submit_first_topic" js="0">Создать первую тему</word>
   <word key="topic_pending_approval" js="0">Эта тема ещё не утверждена и отображается только администрации.</word>
   <word key="topic_locked_can_comment" js="0">Эта тема закрыта, но ваши права доступа позволяют вам добавлять новые сообщения.</word>
-  <word key="topic_poll_can_comment" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые ответы.</word>
+  <word key="topic_poll_can_comment" js="0">Это тема-опрос, но ваши права доступа позволяют вам добавлять новые ответы.</word>
   <word key="topic_locked_cannot_comment" js="0">Эта тема закрыта для публикации сообщений.</word>
   <word key="ip_prefix" js="0">IP: %s</word>
   <word key="popular_questions_title" js="0">Популярные вопросы за последний месяц</word>
