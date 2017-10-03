@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="102016">
+ <app key="forums" version="102024">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -63,7 +63,7 @@
   <word key="can_unhide_topic" js="0">Может отменять скрытие тем/вопросов</word>
   <word key="can_view_hidden_topic" js="0">Может просматривать скрытые темы/вопросы</word>
   <word key="can_move_topic" js="0">Может перемещать темы/вопросы</word>
-  <word key="can_move_topic_desc" js="0">Сможет перемещать записи только между разделами, которые он может модерировать, но не в любые другие разделы.</word>
+  <word key="can_move_topic_desc" js="0">Сможет перемещать темы/вопросы только между разделами, в которых он может создавать новые публикации.</word>
   <word key="can_lock_topic" js="0">Может закрывать темы/вопросы</word>
   <word key="can_unlock_topic" js="0">Может открывать темы/вопросы</word>
   <word key="can_reply_to_locked_topic" js="0">Может отвечать в закрытые темы/вопросы</word>
@@ -210,7 +210,7 @@
   <word key="forums_default_view_choose_error" js="0">Вы должны указать как минимум два вида, которые пользователи смогут выбрать</word>
   <word key="archiving" js="0">Архивация</word>
   <word key="archiving_blurb" js="0">Если у вас очень большой сайт, это может быть выгодно для уменьшения размера таблицы базы данных, в которой хранятся сообщения. Архивирование тем является альтернативой удалению, но они по-прежнему доступны. Основное отличие в том, что они перемещаются в отдельную таблицу в базе данных и недоступны для изменения. Вы сможете восстановить темы из архива в любое время.</word>
-  <word key="archive_topics_where" js="0"><![CDATA[Архивировать темы при выполнении <em>всех</em> условий]]></word>
+  <word key="archive_topics_where" js="0"><![CDATA[Архивировать темы при выполнении <em>всех</em> условий...]]></word>
   <word key="archive_topic_forums" js="0">В разделах</word>
   <word key="archive_topic_not_forums" js="0">В разделах</word>
   <word key="archive_topic_pinned" js="0">Закреплённые/Откреплённые</word>
@@ -221,14 +221,14 @@
   <word key="unhidden" js="0">Показываемые</word>
   <word key="archive_topic_poll" js="0">Опросы</word>
   <word key="topic_has_poll" js="0">Имеется опрос</word>
-  <word key="topic_does_not_have_poll" js="0">Не имеется опрос</word>
+  <word key="topic_does_not_have_poll" js="0">Без опроса</word>
   <word key="poll_with_recent_vote" js="0">Последний голос в опросе: %s</word>
   <word key="archive_topic_post" js="0">Сообщений</word>
   <word key="archive_topic_view" js="0">Просмотров</word>
   <word key="archive_topic_rating" js="0">Рейтинг</word>
   <word key="archive_topic_starter" js="0">Автор</word>
   <word key="archive_topic_starter_not" js="0">Автор не</word>
-  <word key="archive_topics_not_where" js="0"><![CDATA[Не архивировать темы при выполнении <em>любого</em> условия]]></word>
+  <word key="archive_topics_not_where" js="0"><![CDATA[Не архивировать темы при выполнении <em>любого</em> условия...]]></word>
   <word key="archive_not_topic_post" js="0">Сообщений</word>
   <word key="archive_not_topic_view" js="0">Просмотров</word>
   <word key="archive_not_topic_rating" js="0">Рейтинг</word>
@@ -479,7 +479,7 @@
   <word key="submit_first_topic" js="0">Создать первую тему</word>
   <word key="topic_pending_approval" js="0">Эта тема ещё не утверждена и отображается только администрации.</word>
   <word key="topic_locked_can_comment" js="0">Эта тема закрыта, но ваши права доступа позволяют вам добавлять новые сообщения.</word>
-  <word key="topic_poll_can_comment" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые ответы.</word>
+  <word key="topic_poll_can_comment" js="0">Это тема-опрос, но ваши права доступа позволяют вам добавлять новые ответы.</word>
   <word key="topic_locked_cannot_comment" js="0">Эта тема закрыта для публикации сообщений.</word>
   <word key="ip_prefix" js="0">IP: %s</word>
   <word key="popular_questions_title" js="0">Популярные вопросы за последний месяц</word>

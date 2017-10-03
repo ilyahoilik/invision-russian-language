@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="102016">
+ <app key="calendar" version="102024">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -94,7 +94,7 @@
   <word key="can_feature_calendar_event" js="0">Может отмечать события рекомендуемыми</word>
   <word key="can_unfeature_calendar_event" js="0">Может отмечать события обычными</word>
   <word key="can_move_calendar_event" js="0">Может перемещать события</word>
-  <word key="can_move_calendar_event_desc" js="0">Сможет перемещать события только между календарями, которые он может модерировать, но не в любые другие календари.</word>
+  <word key="can_move_calendar_event_desc" js="0">Сможет перемещать события только между календарями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_calendar_event" js="0">Может закрывать события</word>
   <word key="can_unlock_calendar_event" js="0">Может открывать события</word>
   <word key="can_reply_to_locked_calendar_event" js="0">Может отвечать в закрытые события</word>

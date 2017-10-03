@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102016">
+ <app key="cms" version="102024">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -33,7 +33,7 @@
   <word key="can_unhide_record" js="0">Может показывать %s</word>
   <word key="can_view_hidden_record" js="0">Может просматривать скрытые %s?</word>
   <word key="can_move_record" js="0">Может перемещать %s?</word>
-  <word key="can_move_record_desc" js="0">Сможет перемещать только между категориями, которые он может модерировать, но не в любые другие категории.</word>
+  <word key="can_move_record_desc" js="0">Сможет перемещать только между категориями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_record" js="0">Может закрывать %s?</word>
   <word key="can_unlock_record" js="0">Может открывать %s?</word>
   <word key="can_reply_to_locked_record" js="0">Может отвечать в закрытые %s?</word>
@@ -597,7 +597,7 @@
   <word key="database_lang_ia" js="0">Неопределённый артикль</word>
   <word key="database_lang_ia_desc" js="0">По умолчанию: a record</word>
   <word key="database_all_editable" js="0">Вики-стиль редактирования</word>
-  <word key="database_all_editable_desc" js="0"><![CDATA[Включение этой настройки позволит <strong>любому пользователю изменять</strong> любые не закрытые записи, как в Википедии. Если отключено, пользователи смогут изменять только свои не закрытые записи (при наличии прав).]]></word>
+  <word key="database_all_editable_desc" js="0"><![CDATA[Включение этой настройки позволит <strong>любому пользователю изменять</strong> любые не закрытые записи, независимо от прав доступа на изменения записей в категории и базе данных, как в Википедии. Если отключено, пользователи смогут изменять только свои не закрытые записи (при наличии прав).]]></word>
   <word key="cms_bitoptions_indefinite_own_edit" js="0">Неограниченное редактирование собственных публикаций</word>
   <word key="cms_bitoptions_indefinite_own_edit_desc" js="0"><![CDATA[Включение этой настройки позволит автору записи редактировать его открытые и видимые записи без ограничений.<br>Если не включено, то используются права доступа на изменение публикаций из <a href='{internal.app=core&module=members&controller=groups}'>настроек групп</a>.]]></word>
   <word key="database_revisions" js="0">Хранить старые версии</word>

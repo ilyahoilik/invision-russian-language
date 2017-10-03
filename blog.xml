@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="blog" version="102016">
+ <app key="blog" version="102024">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
@@ -89,7 +89,7 @@
   <word key="blog_entry_pollTab" js="0">Опрос</word>
   <word key="create_blog_entry" js="0">Создать запись блога</word>
   <word key="entry_submit" js="0">Отправить запись</word>
-  <word key="entry_information" js="0">Детали записи</word>
+  <word key="entry_information" js="0">Подробности записи</word>
   <word key="blog_entry__save" js="0">Сохранить</word>
   <word key="entry_ip_address" js="0">IP-адрес</word>
   <word key="entry_gallery_album" js="0">Альбом</word>
@@ -168,12 +168,12 @@
   <word key="blog_rss_import" js="0">Импорт Atom/RSS</word>
   <word key="blog_rss_import_url" js="0">Ссылка</word>
   <word key="blog_rss_import_auth_user" js="0">Имя пользователя HTTP</word>
-  <word key="blog_rss_import_auth_user_desc" js="0">Обычно ленты не требуют авторизации и вы можете оставить это поле пустым</word>
+  <word key="blog_rss_import_auth_user_desc" js="0">Обычно ленты не требуют авторизации и вы можете оставить это поле пустым.</word>
   <word key="blog_rss_import_auth_pass" js="0">Пароль HTTP-авторизации</word>
-  <word key="blog_rss_import_auth_pass_desc" js="0">Обычно ленты не требуют авторизации и вы можете оставить это поле пустым</word>
+  <word key="blog_rss_import_auth_pass_desc" js="0">Обычно ленты не требуют авторизации и вы можете оставить это поле пустым.</word>
   <word key="blog_rss_import_tags" js="0">Теги</word>
   <word key="blog_rss_import_show_link" js="0">Текст ссылки</word>
-  <word key="blog_rss_import_show_link_desc" js="0">Появляется внизу записи, направлена на оригинальную запись</word>
+  <word key="blog_rss_import_show_link_desc" js="0">Появляется внизу записи, направлена на оригинальную запись.</word>
   <word key="blog_rss_import_show_link_default" js="0">Прочитать полностью</word>
   <word key="blog_enable_rss_import" js="0">Включить RSS-импорт</word>
   <word key="blog_enable_rss_import_desc" js="0">Импорт записей из внешнего источника используя RSS</word>
@@ -211,7 +211,7 @@
   <word key="can_unhide_blog_entry" js="0">Может отменять скрытие записей</word>
   <word key="can_view_hidden_blog_entry" js="0">Может просматривать скрытые записи</word>
   <word key="can_move_blog_entry" js="0">Может перемещать записи?</word>
-  <word key="can_move_blog_entry_desc" js="0">Сможет перемещать записи только между блогами, которые он может модерировать, но не в любые другие блоги.</word>
+  <word key="can_move_blog_entry_desc" js="0">Сможет перемещать записи только между блогами, в которых он может создавать новые публикации.</word>
   <word key="can_lock_blog_entry" js="0">Может закрывать записи?</word>
   <word key="can_unlock_blog_entry" js="0">Может открывать записи</word>
   <word key="can_reply_to_locked_blog_entry" js="0">Может отвечать в закрытые записи</word>
@@ -239,9 +239,9 @@
   <word key="g_blog_allowownmod_desc" js="0">Пользователь сможет редактировать комментарии и записи, удалять комментарии и записи и закрывать комментирование записей</word>
   <word key="g_blog_allowdelete" js="0">Может удалять свои блоги</word>
   <word key="block_blogCommentFeed" js="0">Комментарии блогов</word>
-  <word key="block_blogCommentFeed_desc" js="0">Отображает комментарии в блогах</word>
+  <word key="block_blogCommentFeed_desc" js="0">Отображает комментарии в блогах.</word>
   <word key="block_blogs" js="0">Блоги</word>
-  <word key="block_blogs_desc" js="0">Отображает список блогов</word>
+  <word key="block_blogs_desc" js="0">Отображает список блогов.</word>
   <word key="widget_blog_last_date" js="0">Последняя опубликованная запись</word>
   <word key="widget__blog_edate" js="0">Дата последней записи</word>
   <word key="widget__blog_count_entries" js="0">Количество записей</word>
