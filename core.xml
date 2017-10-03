@@ -461,7 +461,7 @@
   <word key="contact_text" js="0">Ваше сообщение</word>
   <word key="contact_name" js="0">Ваше имя</word>
   <word key="contact_sent" js="0">Сообщение отправлено</word>
-  <word key="contact_sent_blurb" js="0">Спасибо, ваше сообщение было отправлено администрации</word>
+  <word key="contact_sent_blurb" js="0">Спасибо, ваше сообщение было отправлено администрации.</word>
   <word key="member_post_count" js="0">{# [0:публикаций][1:публикация][2:публикации][3:публикации][4:публикации][11:публикаций][12:публикаций][13:публикаций][14:публикаций][*1:публикация][*2:публикации][*3:публикации][*4:публикации][?:публикаций]}</word>
   <word key="you" js="0">Вы</word>
   <word key="cover_photo_button" js="0">Обложка</word>
@@ -1026,7 +1026,7 @@
   <word key="remove_followers" js="0">Удалить подписчиков</word>
   <word key="followers_removed" js="0">Подписчики удалены</word>
   <word key="remove_followers_confirm" js="0">Вы уверены, что хотите удалить всех подписчиков? Это действие нельзя отменить.</word>
-  <word key="cant_remove_followers" js="0">Вы не можете удалять подписчиков</word>
+  <word key="cant_remove_followers" js="0">Вы не можете удалять подписчиков.</word>
   <word key="cant_remove_followers_admin" js="0">Вы не можете удалять подписчиков. Это право модераторов может быть настроено в Админцентре.</word>
   <word key="date" js="0">Дата</word>
   <word key="rss" js="0">RSS</word>
@@ -1294,7 +1294,7 @@
   <word key="turn_online" js="0">Включить</word>
   <word key="not_in_dev" js="0">Вы должны включить режим разработчика для использования этого инструмента.</word>
   <word key="dev_build" js="0">Собрать для публикации</word>
-  <word key="dev_built" js="0">Успешно собран</word>
+  <word key="dev_built" js="0">Успешно собран.</word>
   <word key="dev_build_ckeditor_err" js="0"><![CDATA[Возникла ошибка при сборке CKEditor - выполните следующую команду в командной строке, чтобы увидеть подробности:<br>%s]]></word>
   <word key="dev_build_ckeditor_exists_err" js="0">Возникла ошибка при сборке CKEditor - пожалуйста, удалите директорию %s</word>
   <word key="dev_acpmenu" js="0">Меню Админцентра</word>
@@ -1529,7 +1529,7 @@
   <word key="add_app_version_ph" js="0">Номер версии</word>
   <word key="add_app_versionl_ph" js="0">Номер ID</word>
   <word key="app_versions" js="0">Версия приложения</word>
-  <word key="app_directory_desc" js="0">Только буквы и цифры, начиная с буквы</word>
+  <word key="app_directory_desc" js="0">Только буквы и цифры, начиная с буквы.</word>
   <word key="make_default_module" js="0">Установить по умолчанию</word>
   <word key="no_module_for_default" js="0">Модуль, который вы пытаетесь установить по умолчанию, не может быть загружен.</word>
   <word key="upload_new_version" js="0">Загрузить новую версию</word>
@@ -1813,12 +1813,12 @@
   <word key="acplog__members_deletecontent" js="0">Удалена публикация пользователя: %s</word>
   <word key="acplog__members_hidecontent" js="0">Скрыта публикация пользователя: %s</word>
   <word key="pp_cover_photo" js="0">Обложка профиля</word>
-  <word key="account_unlocked" js="0">Аккаунт разблокирован</word>
-  <word key="account_flagged" js="0">Помечен спамером</word>
-  <word key="account_unflagged" js="0">Пометка спамером снята</word>
-  <word key="account_approved" js="0">Аккаунт утверждён</word>
-  <word key="account_banned" js="0">Аккаунт заблокирован</word>
-  <word key="validation_email_resent" js="0">Повторное письмо подтверждения отправлено</word>
+  <word key="account_unlocked" js="0">Аккаунт разблокирован.</word>
+  <word key="account_flagged" js="0">Помечен спамером.</word>
+  <word key="account_unflagged" js="0">Пометка спамером снята.</word>
+  <word key="account_approved" js="0">Аккаунт утверждён.</word>
+  <word key="account_banned" js="0">Аккаунт заблокирован.</word>
+  <word key="validation_email_resent" js="0">Повторное письмо подтверждения отправлено.</word>
   <word key="members_validating_user" js="0">Пользователь ещё не отреагировал на письмо для подтверждения.</word>
   <word key="members_validating_admin" js="0">Этот пользователь должен быть утверждён вручную.</word>
   <word key="members_validating_email_chg" js="0">Пользователь ещё не отреагировал на письмо для изменение email-адреса</word>
@@ -2476,7 +2476,7 @@
   <word key="acplogs__bulkmail_added" js="0">Добавлена массовая рассылка: %s</word>
   <word key="acplogs__bulkmail_sent" js="0">Отправлена массовая рассылка: %s</word>
   <word key="bulkmail_send_info" js="0">Помните, что объемные письма отправляются в пакетном режиме.</word>
-  <word key="couldnt_find_bulkmail" js="0">Мы не может найти массовую рассылку для отправки</word>
+  <word key="couldnt_find_bulkmail" js="0">Мы не может найти массовую рассылку для отправки.</word>
   <word key="must_supply_bm_details" js="0">Вы должны ввести тему и содержимое email-письма</word>
   <word key="no_members_to_send_to" js="0">Согласно вашим настройкам отправки, массовая рассылка не будет отправлена ни одному пользователю.</word>
   <word key="bm_send_preview" js="0">Просмотр массовой рассылки</word>
@@ -2900,7 +2900,7 @@
   <word key="like_log_title" js="0">Кому нравится это</word>
   <word key="rep_daily_exceeded" js="0">Вам разрешено изменять репутацию только %d раз за день. Вы не можете сегодня изменять репутацию.</word>
   <word key="rep_daily_exceeded_likes" js="0">Вам разрешено изменять репутацию только %d раз за день. Вы не можете сегодня изменять репутацию.</word>
-  <word key="cannot_rep_user" js="0">Вы не можете изменять репутацию этому пользователю</word>
+  <word key="cannot_rep_user" js="0">Вы не можете изменять репутацию этому пользователю.</word>
   <word key="cannot_view_reputation" js="0">У вас нет прав для просмотра репутации этого пользователя</word>
   <word key="reputation_timezone" js="0">Часовой пояс Таблицы лидеров</word>
   <word key="reputation_timezone_desc" js="0"><![CDATA[Каждый день три пользователя с наибольшим количеством репутации за день заносятся в таблицу лидеров. Этот часовой пояс используется для формировании начала и окончания суток и должен соответствовать поясу, в котором находится большинство пользователей.<br>После изменения этой настройки, вы можете <a data-ipsDialog data-ipsDialog-title='Перестроить Таблицу лидеров' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>перестроить Таблицу лидеров</a> для гарантии корректности подсчёта репутации за день.]]></word>
@@ -3601,7 +3601,7 @@
   <word key="core_theme_set_is_default" js="0">Стиль сайта по умолчанию</word>
   <word key="core_theme_set_is_acp_default" js="0">Стандартная тема для АЦ?</word>
   <word key="core_theme_set_is_default_error" js="0">Как минимум один стиль должен быть установлен по умолчанию. Включите этот параметр для нового стиля.</word>
-  <word key="cannot_delete_default_theme" js="0">Вы не можете удалить стандартный стиль</word>
+  <word key="cannot_delete_default_theme" js="0">Вы не можете удалить стандартный стиль.</word>
   <word key="core_theme_set_editor_header" js="0">Редактор</word>
   <word key="core_theme_set_editor_blurb" js="0"><![CDATA[Для настройки внешнего вида <a href='{internal.app=core&module=editor&controller=toolbar}'>редактора</a>, Invision Community использует стили CKEditor. Вы можете получить новые стили редактора на <a href='{external.ckeditor_themes}' target='_blank'>сайте CKEditor</a> (стиль должен быть совместим с версией %s). Каждый стиль может использовать разный стиль редактора.]]></word>
   <word key="core_theme_set_editor" js="0">Стиль редактора</word>
@@ -3629,7 +3629,7 @@
   <word key="theme_template_app" js="0">Приложение</word>
   <word key="theme_template_content" js="0">Содержимое HTML</word>
   <word key="theme_template_location" js="0">Расположение</word>
-  <word key="core_theme_error_template_name_exists" js="0">Файл шаблона с таким именем уже существует в данном расположении</word>
+  <word key="core_theme_error_template_name_exists" js="0">Файл шаблона с таким именем уже существует в данном расположении.</word>
   <word key="theme_css_name" js="0">Название</word>
   <word key="theme_css_name_desc" js="0">Без пробелов и только следующие символы: a-z A-Z 0-9 - _ .</word>
   <word key="theme_css_app" js="0">Приложение</word>
@@ -3653,7 +3653,7 @@
   <word key="theme_css_location_existing" js="0">Существующее расположение</word>
   <word key="theme_css_location_new" js="0">Новое расположение</word>
   <word key="theme_css_location_new_desc" js="0">Без пробелов и только следующие символы: a-z 0-9</word>
-  <word key="core_theme_error_css_name_exists" js="0">CSS-файл с таким именем уже существует в данном расположении</word>
+  <word key="core_theme_error_css_name_exists" js="0">CSS-файл с таким именем уже существует в данном расположении.</word>
   <word key="theme_css_group_type" js="0">Группа</word>
   <word key="theme_css_group_o_existing" js="0">Добавить в существующую группу</word>
   <word key="theme_css_group_o_new" js="0">Создать группу</word>
@@ -3763,7 +3763,7 @@
   <word key="core_theme_resource_location_existing" js="0">Существующее расположение</word>
   <word key="core_theme_resource_location_new" js="0">Новое расположение</word>
   <word key="core_theme_resource_location_new_desc" js="0">Без пробелов и только следующие символы: a-z 0-9</word>
-  <word key="core_theme_error_resource_name_exists" js="0">Файл ресурса с таким именем уже существует в данной расположении</word>
+  <word key="core_theme_error_resource_name_exists" js="0">Файл ресурса с таким именем уже существует в данной расположении.</word>
   <word key="core_theme_resource_filename" js="0">Ресурс</word>
   <word key="core_theme_resource_app" js="0">Приложение</word>
   <word key="core_theme_resource_name_choice" js="0">Название</word>
@@ -4337,7 +4337,7 @@
   <word key="file_config_is_the_same_as_existing" js="0">Эти настройки не могут быть сохранены. Уже существует такой же метод хранения с такими же данными.</word>
   <word key="url_is_not_real" js="0">Пользовательская ссылка %s недействительна.</word>
   <word key="uploaded_files" js="0">Управление вложениями</word>
-  <word key="dir_does_not_exist" js="0">Директория не существует</word>
+  <word key="dir_does_not_exist" js="0">Директория не существует.</word>
   <word key="dir_is_not_writable" js="0">Директория %s недоступна для записи. Пожалуйста, проверьте права доступа или свяжитесь с вашим хостинг-провайдером для получения помощи.</word>
   <word key="dir_not_provided" js="0">Не указана директория. Пожалуйста, проверьте настройки конфигурации хранения.</word>
   <word key="allowed_attachment_types" js="0">Разрешённые типы вложений</word>
@@ -4984,7 +4984,7 @@
   <word key="lang_filter_out_of_date" js="0">Устаревшие</word>
   <word key="acplogs__lang_created" js="0">Создан новый язык - %s</word>
   <word key="acplogs__lang_translate" js="0">Переведена фраза с ключом &quot;%s&quot; в языке &quot;%s&quot;</word>
-  <word key="core_lang_download_empty" js="0">Загрузка невозможна т.к. отсутствуют переведённые строки</word>
+  <word key="core_lang_download_empty" js="0">Загрузка невозможна т.к. отсутствуют переведённые строки.</word>
   <word key="translate_na" js="0">Нет</word>
   <word key="acplogs__members_language_reset" js="0">Язык всех пользователей изменён на %s</word>
   <word key="r__dashboard" js="0">Главная панель</word>
@@ -5189,7 +5189,7 @@
   <word key="messenger__comment_placeholder" js="0">Ответить в беседу...</word>
   <word key="messenger_search" js="0">Поиск сообщений в этой папке...</word>
   <word key="message_send" js="0">Сообщение</word>
-  <word key="message_sent" js="0">Сообщение отправлено</word>
+  <word key="message_sent" js="0">Сообщение отправлено.</word>
   <word key="members_in_convo" js="0">В беседе {# [0:пользователей][1:пользователь][2:пользователя][3:пользователя][4:пользователя][11:пользователей][12:пользователей][13:пользователей][14:пользователей][*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][?:пользователей]} (включая вас)</word>
   <word key="meesnger_err_bad_recipient" js="0">%s не может получать сообщения.</word>
   <word key="messenger_invalid_recipient" js="0">Вы ввели недействительное имя получателя</word>
@@ -6270,7 +6270,7 @@
   <word key="online_users_filter_loggedin" js="0">Авторизованные</word>
   <word key="online_users_no_results" js="0">Нет пользователей, соответствующих данным критериям.</word>
   <word key="online_by_group" js="0">По группе</word>
-  <word key="active_users_empty" js="0">Нет пользователей, просматривающих эту страницу</word>
+  <word key="active_users_empty" js="0">Нет пользователей, просматривающих эту страницу.</word>
   <word key="block_activeUsers" js="0">Сейчас на странице</word>
   <word key="block_activeUsers_noApp" js="0">Сейчас на странице</word>
   <word key="block_activeUsers_desc" js="0">Отображает список активных пользователей в приложении</word>
@@ -6318,7 +6318,7 @@
   <word key="chart_ColumnChart" js="0">Столбчатая диаграмма</word>
   <word key="chart_GeoChart" js="0">Отображать карту</word>
   <word key="chart_Table" js="0">Таблица</word>
-  <word key="chart_no_results" js="0">Нет результатов для отображения</word>
+  <word key="chart_no_results" js="0">Нет результатов для отображения.</word>
   <word key="dynamic_chart_timezone_info" js="0">Результаты отображаются в часовом поясе сервера.</word>
   <word key="dynamic_chart_timezone_title" js="0">Информация о часовом поясе</word>
   <word key="dynamic_chart_timezone_explain" js="0"><![CDATA[Ваш MySQL-сервер не имеет поддержки часовых поясов, что необходимо Invision Community для отображения результатов в некоторых местах в вашем часовом поясе. Из-за этого здесь отображены результаты в часовом поясе <strong>%s</strong>, который использует ваш MySQL-сервер. Для просмотра результатов в своём часовом поясе свяжитесь с хостинг-провайдером или системным администратором для <a href='{external.mysql_timezones}' target='_blank'>заполнения таблицы часовых поясов</a>.]]></word>
@@ -6346,12 +6346,12 @@
   <word key="show_this_comment" js="0">Показать этот комментарий</word>
   <word key="stop_ignoring_posts_by" js="0">Не игнорировать сообщения от %s</word>
   <word key="change_ignore_preferences" js="0">Изменить настройки игнорирования</word>
-  <word key="cannot_ignore_self" js="0">Вы не можете игнорировать себя</word>
+  <word key="cannot_ignore_self" js="0">Вы не можете игнорировать себя.</word>
   <word key="cannot_ignore_no_user" js="0">Пользователь с данным именем не найден.</word>
   <word key="ignore_remove" js="0">Вы больше не игнорируете %s</word>
   <word key="ignore_adjusted" js="0">Настройки игнорирования обновлены.</word>
   <word key="edit_signature_options" js="0">Настройки игнорирования подписей</word>
-  <word key="cannot_ignore_that_member" js="0">Вы не можете игнорировать этого пользователя</word>
+  <word key="cannot_ignore_that_member" js="0">Вы не можете игнорировать этого пользователя.</word>
   <word key="announcement" js="0">Объявление</word>
   <word key="announcements" js="0">Объявления</word>
   <word key="modcp_announcements" js="0">Объявления</word>
@@ -6750,7 +6750,7 @@
   <word key="upgrade_apply_patch" js="0">Применить исправление</word>
   <word key="support_diagnostics" js="0">Диагностика</word>
   <word key="database_changes_to_make" js="0">Возникли проблемы в вашей базе данных. В большинстве случаев система может исправить эти проблемы. Однако, вы можете исправить их самостоятельно, выполнив следующие SQL-запросы:</word>
-  <word key="database_changes_to_make_errors" js="0">Невозможно автоматически исправить проблемы в вашей базе данных .</word>
+  <word key="database_changes_to_make_errors" js="0">Невозможно автоматически исправить проблемы в вашей базе данных.</word>
   <word key="database_changes_run" js="0">Исправить автоматически</word>
   <word key="support_check_again" js="0">Проверить ещё раз</word>
   <word key="support_connection_fail" js="0">Соединения с внешними сайтами не работает. Это может вызывать проблемы со сторонними сервисами. Вам следует связаться с вашим хостинг-провайдером и попросить его решить эту проблему.</word>
@@ -7028,12 +7028,12 @@
   <word key="api_exception_code" js="0">Код</word>
   <word key="api_exception_message" js="0">Сообщение</word>
   <word key="api_exception_desc" js="0">Описание</word>
-  <word key="api_exceptions_none" js="0">Эта конечная точка не вызывает никаких исключений</word>
+  <word key="api_exceptions_none" js="0">Эта конечная точка не вызывает никаких исключений.</word>
   <word key="api_response" js="0">Ответ</word>
   <word key="api_response_none" js="0">Эта конечная точка не возвращает ответа.</word>
   <word key="api_log_blurb" js="0">Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после %d дней.</word>
   <word key="api_log_blurb_change" js="0"><![CDATA[Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после <a href='{internal.app=core&module=applications&controller=apiLogs&do=settings}' data-ipsDialog data-ipsDialog-title='Журналы API'>%s дней</a>.]]></word>
-  <word key="acplogs__api_log_settings" js="0">Обновлены настройки очистки журналов API</word>
+  <word key="acplogs__api_log_settings" js="0">Обновлены настройки очистки журналов API.</word>
   <word key="api_log_prune" js="0">Очистить журналы API</word>
   <word key="r__api" js="0">REST API</word>
   <word key="r__api_manage" js="0">Может просматривать ключи API</word>
@@ -7059,7 +7059,7 @@
   <word key="api_int_totalpages" js="0">Количество страниц в результате</word>
   <word key="api_results_thispage" js="0">Результат для этой страницы</word>
   <word key="api_opcache_disable" js="0">Документация по API не может быть отображена, потому что параметр opcache.save_comments выключен в вашей конфигурации PHP. Свяжитесь с вашим хостинг-провайдером или системным администратором для включения этого параметра для того, чтобы отобразить эту страницу.</word>
-  <word key="api_endpoint_phpdoc_error" js="0">Конечная точка %s не содержит корректной документации в шапке</word>
+  <word key="api_endpoint_phpdoc_error" js="0">Конечная точка %s не содержит корректной документации в шапке.</word>
   <word key="menu__core_settings_contactus" js="0">Обратная связь</word>
   <word key="r__contactus" js="0">Обратная связь</word>
   <word key="r__contactus_manage" js="0">Может управлять формой обратной связи</word>
@@ -7521,7 +7521,7 @@
   <word key="all_clubs" js="0">Все клубы</word>
   <word key="user_clubs" js="0">Клубы, в которые вошёл пользователь</word>
   <word key="my_clubs_empty" js="0">Вы не состоите в каких-либо клубах.</word>
-  <word key="all_clubs_empty" js="0">Нет клубов для отображения</word>
+  <word key="all_clubs_empty" js="0">Нет клубов для отображения.</word>
   <word key="club_invite_members" js="0">Пригласить пользователей</word>
   <word key="club_send_invitations" js="0">Отправить приглашения</word>
   <word key="notifications__core_Clubs" js="0">Клубы</word>
@@ -7905,7 +7905,7 @@
   <word key="tab_order_saved" js="1">Порядок вкладок был сохранён.</word>
   <word key="tab_order_not_saved" js="1">Порядок вкладок сейчас не может быть сохранён.</word>
   <word key="livesearch_no_results" js="1">Нет совпадений в этом разделе</word>
-  <word key="dashboard_cant_save" js="1">Мы не можем сохранить позицию этого блока</word>
+  <word key="dashboard_cant_save" js="1">Мы не можем сохранить позицию этого блока.</word>
   <word key="build_app" js="1">Для корректной работы приложения оно должно быть собрано. Вы хотите собрать приложение перед скачиванием?</word>
   <word key="build_download" js="1">Сначала собрать</word>
   <word key="download" js="1">Скачать</word>
