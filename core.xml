@@ -7460,7 +7460,7 @@
   <word key="promote_table_header" js="0">Наш выбор</word>
   <word key="promote_table_header_desc" js="0">Лучшие публикации со всего сайта, отобранные нами.</word>
   <word key="promote_table_none" js="0">Нет публикаций для отображения</word>
-  <word key="promote_time_sent" js="0">Отправлено: %s</word>
+  <word key="promote_time_sent" js="0">Отправлено:</word>
   <word key="promote_time_scheduled" js="0">Запланировано:</word>
   <word key="promote_time_sending_soon" js="0">Следующий на отправку</word>
   <word key="promote_item_deleted" js="0">Ожидающее продвижение было удалено</word>
