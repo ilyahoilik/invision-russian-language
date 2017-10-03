@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="102016">
+ <app key="downloads" version="102024">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -112,7 +112,7 @@
   <word key="can_feature_downloads_file" js="0">Может отмечать файлы рекомендуемыми</word>
   <word key="can_unfeature_downloads_file" js="0">Может отмечать файлы обычными</word>
   <word key="can_move_downloads_file" js="0">Может перемещать файлы</word>
-  <word key="can_move_downloads_file_desc" js="0">Сможет перемещать файлы только между категориями, которые он может модерировать, но не в любые другие категории.</word>
+  <word key="can_move_downloads_file_desc" js="0">Сможет перемещать файлы только между категориями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_downloads_file" js="0">Может закрывать файлы</word>
   <word key="can_unlock_downloads_file" js="0">Может открывать файлы</word>
   <word key="can_reply_to_locked_downloads_file" js="0">Может комментировать закрытые файлы</word>
@@ -409,7 +409,7 @@
   <word key="download_stats_disclaimer" js="0">Статистика формируется на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
   <word key="download_graph_disclaimer" js="0">Эти данные формируются на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
   <word key="menu__downloads_stats_downloads" js="0">Файлы</word>
-  <word key="menu__downloads_stats_downloaders" js="0">Топ скачиваний</word>
+  <word key="menu__downloads_stats_downloaders" js="0">Топ скачивающих</word>
   <word key="menu__downloads_stats_submitters" js="0">Топ авторов</word>
   <word key="r__downloads" js="0">Статистика скачиваний</word>
   <word key="r__downloads_manage" js="0">Может просматривать статистику скачиваний</word>

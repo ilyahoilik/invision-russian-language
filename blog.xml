@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="blog" version="102016">
+ <app key="blog" version="102024">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
@@ -89,7 +89,7 @@
   <word key="blog_entry_pollTab" js="0">Опрос</word>
   <word key="create_blog_entry" js="0">Создать запись блога</word>
   <word key="entry_submit" js="0">Отправить запись</word>
-  <word key="entry_information" js="0">Детали записи</word>
+  <word key="entry_information" js="0">Подробности записи</word>
   <word key="blog_entry__save" js="0">Сохранить</word>
   <word key="entry_ip_address" js="0">IP-адрес</word>
   <word key="entry_gallery_album" js="0">Альбом</word>
@@ -211,7 +211,7 @@
   <word key="can_unhide_blog_entry" js="0">Может отменять скрытие записей</word>
   <word key="can_view_hidden_blog_entry" js="0">Может просматривать скрытые записи</word>
   <word key="can_move_blog_entry" js="0">Может перемещать записи?</word>
-  <word key="can_move_blog_entry_desc" js="0">Сможет перемещать записи только между блогами, которые он может модерировать, но не в любые другие блоги.</word>
+  <word key="can_move_blog_entry_desc" js="0">Сможет перемещать записи только между блогами, в которых он может создавать новые публикации.</word>
   <word key="can_lock_blog_entry" js="0">Может закрывать записи?</word>
   <word key="can_unlock_blog_entry" js="0">Может открывать записи</word>
   <word key="can_reply_to_locked_blog_entry" js="0">Может отвечать в закрытые записи</word>

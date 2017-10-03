@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="102016">
+ <app key="forums" version="102024">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -63,7 +63,7 @@
   <word key="can_unhide_topic" js="0">Может отменять скрытие тем/вопросов</word>
   <word key="can_view_hidden_topic" js="0">Может просматривать скрытые темы/вопросы</word>
   <word key="can_move_topic" js="0">Может перемещать темы/вопросы</word>
-  <word key="can_move_topic_desc" js="0">Сможет перемещать записи только между разделами, которые он может модерировать, но не в любые другие разделы.</word>
+  <word key="can_move_topic_desc" js="0">Сможет перемещать темы/вопросы только между разделами, в которых он может создавать новые публикации.</word>
   <word key="can_lock_topic" js="0">Может закрывать темы/вопросы</word>
   <word key="can_unlock_topic" js="0">Может открывать темы/вопросы</word>
   <word key="can_reply_to_locked_topic" js="0">Может отвечать в закрытые темы/вопросы</word>

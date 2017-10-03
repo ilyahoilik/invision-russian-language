@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102016">
+ <app key="core" version="102024">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -1090,13 +1090,13 @@
   <word key="error_title" js="0">Упс! Что-то пошло не так!</word>
   <word key="401_error_title" js="0">К сожалению, возникла проблема</word>
   <word key="403_error_title" js="0">К сожалению, у вас нет доступа!</word>
-  <word key="404_error_title" js="0">К сожалению, мы не может найти это!</word>
+  <word key="404_error_title" js="0">К сожалению, мы не можем найти это!</word>
   <word key="500_error_title" js="0">Возникла ошибка конфигурации или сервера</word>
   <word key="page_doesnt_exist" js="0">Этой страницы не существует.</word>
   <word key="page_not_found" js="0">Страница не найдена.</word>
-  <word key="no_module_permission" js="0">Страница, к который вы пытаетесь получить доступ, недоступна для вашего аккаунта.</word>
-  <word key="no_module_permission_guest" js="0">Страница, к который вы пытаетесь получить доступ, недоступна для гостей, но, возможно, доступна для зарегистрированных пользователей.</word>
-  <word key="no_module_permission_admin" js="0">Страница, к который вы пытаетесь получить доступ, недоступна для вашего аккаунта. Для настройки прав доступа к приложениям перейдите в Админцентр → Система → Приложения.</word>
+  <word key="no_module_permission" js="0">Эта страница недоступна для вашего аккаунта.</word>
+  <word key="no_module_permission_guest" js="0">Эта страница недоступна для гостей, но, возможно, доступна для зарегистрированных пользователей.</word>
+  <word key="no_module_permission_admin" js="0">Эта страница недоступна для вашего аккаунта. Для настройки прав доступа к приложениям перейдите в Админцентр → Система → Приложения.</word>
   <word key="generic_error" js="0">Что-то пошло не так. Пожалуйста, попробуйте еще раз.</word>
   <word key="denied_oauth" js="0">Вы должны разрешить предоставление данных своего профиля прежде чем сможете войти с помощью этого сервиса.</word>
   <word key="tab_error" js="0">Что-то пошло не так. Проверьте введённые значения в отмеченных полях и повторите попытку.</word>
@@ -2170,7 +2170,7 @@
   <word key="no_results_notifications" js="0">Нет уведомлений для отображения</word>
   <word key="see_all_notifications" js="0">Все уведомления</word>
   <word key="notifications_anonymous" js="0">Кому-то</word>
-  <word key="notifications_user_count" js="0">{!# [1:Кому-то][2:# пользователя][3:# пользователя][4:# пользователя][11:# пользователей][12:# пользователей][13:# пользователей][14:# пользователей][*1:# пользователь][*2:# пользователя][*3:# пользователя][*4:# пользователя][?:# пользователей]}</word>
+  <word key="notifications_user_count" js="0">{!# [1:Кто-то][2:# пользователя][3:# пользователя][4:# пользователя][11:# пользователей][12:# пользователей][13:# пользователей][14:# пользователей][*1:# пользователь][*2:# пользователя][*3:# пользователя][*4:# пользователя][?:# пользователей]}</word>
   <word key="mailsub__core_error_log" js="0">Произошла ошибка</word>
   <word key="mailsub__core_admin_reg" js="0">Создан аккаунт на {setting=&quot;board_name&quot;}</word>
   <word key="mailsub__core_admin_spammer" js="0">Пользователь помечен спамером</word>
@@ -2988,7 +2988,7 @@
   <word key="poll_allow_public" js="0">Включить публичные опросы</word>
   <word key="poll_allow_public_desc" js="0">В публичных опросах пользователи видят, кто за какой вариант голосовал.</word>
   <word key="poll_allow_vdelete" js="0">Разрешить изменять выбранный вариант</word>
-  <word key="startpoll_cutoff" js="0">Время для создания опроса</word>
+  <word key="startpoll_cutoff" js="0">Опрос действует</word>
   <word key="view_voters" js="0">Показать, кто проголосовал за это</word>
   <word key="can_see_poll_voters" js="0">Может видеть голоса в опросах</word>
   <word key="can_edit_poll_votes" js="0">Может изменять голоса в опросах</word>
@@ -3662,9 +3662,7 @@
   <word key="theme_css_group_new_desc" js="0">Без пробелов и только следующие символы: a-z 0-9 _</word>
   <word key="theme_clone_copy_of" js="0">Копия %s</word>
   <word key="theme_set_add_setting" js="0">Добавить настройку стиля</word>
-  <word key="acplogs__themeset_delete" js="0">Удалён стиль</word>
   <word key="acplogs__themeset_created" js="0">Создан стиль - %s</word>
-  <word key="acplogs__themeset_updated" js="0">Обновлён стиль - %s</word>
   <word key="acplogs__themetemplate_updated" js="0">Обновлён шаблон - %s_%s_%s_%s</word>
   <word key="acplogs__themetemplate_deleted" js="0">Удалён или восстановлен шаблон - %s_%s_%s_%s</word>
   <word key="theme_error_not_available_in_dev" js="0">Вы не можете выполнить это действие в режиме разработчика.</word>
@@ -8339,5 +8337,11 @@
   <word key="filestorage__core_ClubField" js="0">Настраиваемые поля клубов</word>
   <word key="view_all" js="0">Просмотреть все</word>
   <word key="cannot_react" js="0">Вы не можете отреагировать на это</word>
+  <word key="reg_is_cancelled" js="0">Вы отменили свою регистрацию. Отменённые регистрации удаляются ежедневно.</word>
+  <word key="members_validating_cancelled" js="0">Этот пользователь отменил свою регистрацию</word>
+  <word key="deleting_imageproxy_files" js="0">Удаление кэшированных внешних изображений</word>
+  <word key="core_statuses_status_pl" js="0">Обновления статуса</word>
+  <word key="allow_poll_creation_after" js="0">Разрешить добавления опроса после создания публикации?</word>
+  <word key="theme_by_with_url" js="0"><![CDATA[Автор стиля: <a href='%s' target='_blank'>%s</a>.]]></word>
  </app>
 </language>

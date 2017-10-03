@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="102016">
+ <app key="gallery" version="102024">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -18,7 +18,7 @@
   <word key="menu__gallery_gallery_categories" js="0">Категории</word>
   <word key="menu__gallery_gallery_albums" js="0">Альбомы</word>
   <word key="menu__gallery_stats" js="0">Галерея</word>
-  <word key="menu__gallery_stats_diskspace" js="0">Топ скачиваний</word>
+  <word key="menu__gallery_stats_diskspace" js="0">Топ загружающих</word>
   <word key="menu__gallery_stats_bandwidth" js="0">Использовано трафика</word>
   <word key="menu__gallery_gallery_settings" js="0">Настройки</word>
   <word key="image" js="0">Изображение</word>
@@ -142,7 +142,7 @@
   <word key="can_feature_gallery_image" js="0">Может отмечать изображения рекомендуемыми</word>
   <word key="can_unfeature_gallery_image" js="0">Может отмечать изображения обычными</word>
   <word key="can_move_gallery_image" js="0">Может перемещать изображения</word>
-  <word key="can_move_gallery_image_desc" js="0">Сможет перемещать изображения только между категориями, которые он может модерировать, но не в любые другие категории.</word>
+  <word key="can_move_gallery_image_desc" js="0">Сможет перемещать изображения только между категориями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_gallery_image" js="0">Может закрывать изображения</word>
   <word key="can_unlock_gallery_image" js="0">Может открывать изображения</word>
   <word key="can_reply_to_locked_gallery_image" js="0">Может комментировать закрытые изображения</word>
@@ -163,7 +163,7 @@
   <word key="can_unhide_gallery_album" js="0">Может отменять скрытие отзывов</word>
   <word key="can_view_hidden_gallery_album" js="0">Может просматривать скрытые альбомы</word>
   <word key="can_move_gallery_album" js="0">Может перемещать альбомы</word>
-  <word key="can_move_gallery_album_desc" js="0">Сможет перемещать альбомы только между категориями, которые он может модерировать, но не в любые другие категории.</word>
+  <word key="can_move_gallery_album_desc" js="0">Сможет перемещать альбомы только между категориями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_gallery_album" js="0">Может закрывать альбомы</word>
   <word key="can_unlock_gallery_album" js="0">Может открывать альбомы</word>
   <word key="can_reply_to_locked_gallery_album" js="0">Может отвечать в закрытые альбомы</word>
