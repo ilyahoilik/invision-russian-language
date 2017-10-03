@@ -210,7 +210,7 @@
   <word key="forums_default_view_choose_error" js="0">Вы должны указать как минимум два вида, которые пользователи смогут выбрать</word>
   <word key="archiving" js="0">Архивация</word>
   <word key="archiving_blurb" js="0">Если у вас очень большой сайт, это может быть выгодно для уменьшения размера таблицы базы данных, в которой хранятся сообщения. Архивирование тем является альтернативой удалению, но они по-прежнему доступны. Основное отличие в том, что они перемещаются в отдельную таблицу в базе данных и недоступны для изменения. Вы сможете восстановить темы из архива в любое время.</word>
-  <word key="archive_topics_where" js="0"><![CDATA[Архивировать темы при выполнении <em>всех</em> условий]]></word>
+  <word key="archive_topics_where" js="0"><![CDATA[Архивировать темы при выполнении <em>всех</em> условий...]]></word>
   <word key="archive_topic_forums" js="0">В разделах</word>
   <word key="archive_topic_not_forums" js="0">В разделах</word>
   <word key="archive_topic_pinned" js="0">Закреплённые/Откреплённые</word>
@@ -228,7 +228,7 @@
   <word key="archive_topic_rating" js="0">Рейтинг</word>
   <word key="archive_topic_starter" js="0">Автор</word>
   <word key="archive_topic_starter_not" js="0">Автор не</word>
-  <word key="archive_topics_not_where" js="0"><![CDATA[Не архивировать темы при выполнении <em>любого</em> условия]]></word>
+  <word key="archive_topics_not_where" js="0"><![CDATA[Не архивировать темы при выполнении <em>любого</em> условия...]]></word>
   <word key="archive_not_topic_post" js="0">Сообщений</word>
   <word key="archive_not_topic_view" js="0">Просмотров</word>
   <word key="archive_not_topic_rating" js="0">Рейтинг</word>
