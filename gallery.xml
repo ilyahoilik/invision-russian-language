@@ -192,7 +192,7 @@
   <word key="can_edit_item_message_gallery_image" js="0">Может изменять сообщения к изображениям</word>
   <word key="can_delete_item_message_gallery_image" js="0">Может удалять сообщения к изображениям</word>
   <word key="acplogs__gallery_settings" js="0">Обновлены настройки галереи</word>
-  <word key="acplogs__gallery_rebuilt" js="0">Запущен инструмент перестроения изображений</word>
+  <word key="acplogs__gallery_rebuilt" js="0">Запущен инструмент перестроения изображений.</word>
   <word key="gallery_dims_explanation" js="0"><![CDATA[Для всех загруженных изображений создаются копии разных размеров, которые используются в интерфейсе всей галереи. Обратите внимание, что изображения, используемые в галерее, могут не соответствовать размерам, указанным здесь. Вы можете контролировать максимальное разрешение каждого типа изображений. Настройки будут применены только к новым изображениям до тех пор, пока вы не <a href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildImages}'>перестроите существующие изображения</a>.]]></word>
   <word key="gallery_large_dims" js="0">Размеры большого изображения</word>
   <word key="gallery_medium_dims" js="0">Размеры среднего изображения</word>
