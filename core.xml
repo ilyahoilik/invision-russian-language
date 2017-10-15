@@ -3007,7 +3007,7 @@
   <word key="acplogs__poll_settings" js="0">Изменены настройки опросов</word>
   <word key="poll_guest" js="0"><![CDATA[Пожалуйста, <a href='%s'>войдите</a> или <a href='%s'>зарегистрируйтесь</a> для голосования в опросе.]]></word>
   <word key="poll_no_js" js="0">Включите JavaScript для изменения данных опроса.</word>
-  <word key="poll_is_public" js="0">Этот опрос публичный. Другие пользователи могут видеть за какой вариант вы проголосовали.</word>
+  <word key="poll_is_public" js="0">Этот опрос публичный. Другие пользователи могут видеть, за какой вариант вы проголосовали.</word>
   <word key="profile_fields" js="0">Поля профиля</word>
   <word key="pfield_group_create" js="0">Создать группу</word>
   <word key="pfield_group_title" js="0">Название группы</word>
