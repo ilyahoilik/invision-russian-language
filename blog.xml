@@ -112,7 +112,7 @@
   <word key="blog_entry_submit_comment" js="0">Добавить комментарий</word>
   <word key="entry_actions" js="0">Действия с записью</word>
   <word key="edit_title_blog" js="0">Изменить эту запись</word>
-  <word key="feature_title_blog" js="0">Сделать эту запись блога рекомендуемой</word>
+  <word key="feature_title_blog" js="0">Сделать эту запись блога рекомендованной</word>
   <word key="unfeature_title_blog" js="0">Сделать эту запись блога обычной</word>
   <word key="pin_title_blog" js="0">Закрепить эту запись</word>
   <word key="unpin_title_blog" js="0">Открепить эту запись блога</word>
@@ -134,7 +134,7 @@
   <word key="blog_entries" js="0">{!# [0:записей][1:запись][2:записи][3:записи][4:записи][11:записей][12:записей][13:записей][14:записей][*1:запись][*2:записи][*3:записи][*4:записи][*11:записей][*12:записей][*13:записей][*14:записей][?:записей]}</word>
   <word key="blog_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][*11:просмотров][*12:просмотров][*13:просмотров][*14:просмотров][?:просмотров]}</word>
   <word key="recent_entries" js="0">Последние записи</word>
-  <word key="featured_entries" js="0">Рекомендуемые записи</word>
+  <word key="featured_entries" js="0">Рекомендованные записи</word>
   <word key="our_community_blogs" js="0">Блоги сайта</word>
   <word key="my_blogs" js="0">Мои блоги</word>
   <word key="blogs_with_content" js="0">Блоги с записями</word>
@@ -204,7 +204,7 @@
   <word key="modperms__core_Content_blog_Entry" js="0">Блоги</word>
   <word key="can_pin_blog_entry" js="0">Может закреплять записи</word>
   <word key="can_unpin_blog_entry" js="0">Может откреплять записи</word>
-  <word key="can_feature_blog_entry" js="0">Может отмечать записи рекомендуемыми</word>
+  <word key="can_feature_blog_entry" js="0">Может отмечать записи рекомендованными</word>
   <word key="can_unfeature_blog_entry" js="0">Может отмечать записи обычными</word>
   <word key="can_edit_blog_entry" js="0">Может редактировать записи?</word>
   <word key="can_hide_blog_entry" js="0">Может скрывать записи?</word>
