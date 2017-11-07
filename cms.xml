@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102024">
+ <app key="cms" version="102034">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -26,7 +26,7 @@
   <word key="sitemap_pages_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
   <word key="can_pin_record" js="0">Может закреплять %s?</word>
   <word key="can_unpin_record" js="0">Может откреплять %s?</word>
-  <word key="can_feature_record" js="0">Может отмечать %s рекомендуемыми</word>
+  <word key="can_feature_record" js="0">Может отмечать %s рекомендованными</word>
   <word key="can_unfeature_record" js="0">Может отмечать %s обычными</word>
   <word key="can_edit_record" js="0">Может редактировать %s?</word>
   <word key="can_hide_record" js="0">Может скрывать %s?</word>
@@ -206,7 +206,7 @@
   <word key="block_template_theme_import" js="0">Стиль</word>
   <word key="template_database_group" js="0">Тип</word>
   <word key="cms_new_db_template_group_listing" js="0">Список записей (Страница внутри категории)</word>
-  <word key="cms_new_db_template_group_featured" js="0">Рекомендуемые записи (первая страница при просмотре базы данных отображает рекомендуемые записи)</word>
+  <word key="cms_new_db_template_group_featured" js="0">Рекомендованные записи (первая страница при просмотре базы данных отображает рекомендованные записи)</word>
   <word key="cms_new_db_template_group_categories" js="0">Список категорий (Первая страница базы данных)</word>
   <word key="cms_new_db_template_group_display" js="0">Просмотр записи (Содержимое записи и комментарии)</word>
   <word key="cms_new_db_template_group_form" js="0">Форма записи (Форма добавления/изменения записи)</word>
@@ -553,7 +553,7 @@
   <word key="record_edit_show" js="0">Отображать, что сообщение было изменено</word>
   <word key="record_edit_show_desc" js="0">Администрация всё равно сможет видеть это</word>
   <word key="content_edit_view_revisions" js="0">(отображать изменения)</word>
-  <word key="feature_title_record" js="0">Сделать это %s рекомендуемым</word>
+  <word key="feature_title_record" js="0">Сделать это %s рекомендованным</word>
   <word key="unfeature_title_record" js="0">Сделать это %s обычным</word>
   <word key="pin_title_record" js="0">Закрепить %s</word>
   <word key="unpin_title_record" js="0">Открепить %s</word>
@@ -692,7 +692,7 @@
   <word key="database_use_categories_yes" js="0"><![CDATA[<strong>Да</strong>, хранить записи в категориях базы данных]]></word>
   <word key="database_use_categories_no" js="0"><![CDATA[<strong>Нет</strong>, хранить записи напрямую в базе данных]]></word>
   <word key="cms_db_cats_disabled" js="0"><![CDATA[<em>Категории не используются</em>]]></word>
-  <word key="database_featured_featured" js="0">Отображать только рекомендуемые записи</word>
+  <word key="database_featured_featured" js="0">Отображать только рекомендованные записи</word>
   <word key="cms_bitoptions_comments" js="0">Разрешить комментарии</word>
   <word key="cms_bitoptions_comments_mod" js="0">Комментарии должны быть утверждены</word>
   <word key="cms_bitoptions_reviews" js="0">Разрешить отзывы</word>
@@ -756,11 +756,11 @@
   <word key="x_records" js="0">%d %s</word>
   <word key="x_records_in_this_category" js="0">%d %s в этой категории</word>
   <word key="content_categories_index_no_records" js="0">Ещё нет %s</word>
-  <word key="content_records_stat_comments" js="0">{!# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
-  <word key="content_records_stat_reviews" js="0">{!# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][?:отзывов]}</word>
-  <word key="content_records_stat_num_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][?:просмотров]}</word>
+  <word key="content_records_stat_comments" js="0">{!# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
+  <word key="content_records_stat_reviews" js="0">{!# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]}</word>
+  <word key="content_records_stat_num_views" js="0">{!# [0:просмотров][1:просмотр][2:просмотра][3:просмотра][4:просмотра][11:просмотров][12:просмотров][13:просмотров][14:просмотров][*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][*11:просмотров][*12:просмотров][*13:просмотров][*14:просмотров][?:просмотров]}</word>
   <word key="content_record_started_by" js="0">От %s</word>
-  <word key="content_record_actions" js="0">Изменить</word>
+  <word key="content_record_actions" js="0">Действия</word>
   <word key="content_record_report" js="0">Жалоба</word>
   <word key="content_record_form__comment_placeholder" js="0">Добавить комментарий...</word>
   <word key="content_record_form_submit_comment" js="0">Добавить комментарий</word>
@@ -771,7 +771,7 @@
   <word key="create_record_locked" js="0">Закрыть запись</word>
   <word key="create_record_pinned" js="0">Прикрепить запись</word>
   <word key="create_record_hidden" js="0">Скрыть запись</word>
-  <word key="create_record_featured" js="0">Сделать рекомендуемой</word>
+  <word key="create_record_featured" js="0">Сделать рекомендованной</word>
   <word key="content_record_form_save" js="0">Сохранить</word>
   <word key="content_record_form_new_record" js="0">Добавить %s</word>
   <word key="content_record_comment_title" js="0">Комментарий к %s</word>
@@ -816,12 +816,12 @@
   <word key="cms_unread_record" js="0">Не прочитано</word>
   <word key="cms_byline" js="0"><![CDATA[От %s, в <a href='%s'>%s</a>,]]></word>
   <word key="cms_show_categories" js="0">Показать все категории</word>
-  <word key="cms_show_featured" js="0">Показать рекомендуемые %s</word>
+  <word key="cms_show_featured" js="0">Показать рекомендованные %s</word>
   <word key="content_record_form_rating_value" js="0">Ваша оценка</word>
   <word key="content_record_form_review_text" js="0">Ваш отзыв</word>
   <word key="content_record_form__review_placeholder" js="0">Добавить отзыв...</word>
-  <word key="cms_review_count" js="0">{# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][?:отзывов]}</word>
-  <word key="cms_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев]}</word>
+  <word key="cms_review_count" js="0">{# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]}</word>
+  <word key="cms_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
   <word key="cms_comment_no_count" js="0">Комментарии</word>
   <word key="cms_row_commented_by" js="0">Комментарий от %s</word>
   <word key="cms_row_added_by" js="0">Добавлено %s</word>
@@ -856,8 +856,8 @@
   <word key="cms_rf_open_status_notpinned" js="0">Не закреплена</word>
   <word key="cms_rf_open_status_visible" js="0">Видима</word>
   <word key="cms_rf_open_status_hidden" js="0">Скрыта</word>
-  <word key="cms_rf_open_status_featured" js="0">Рекомендуемая</word>
-  <word key="cms_rf_open_status_notfeatured" js="0">Не рекомендуемая</word>
+  <word key="cms_rf_open_status_featured" js="0">Рекомендованная</word>
+  <word key="cms_rf_open_status_notfeatured" js="0">Не рекомендованная</word>
   <word key="cms_rf_author" js="0">Запись написана</word>
   <word key="cms_rf_min_posts" js="0">Минимум комментариев к записи</word>
   <word key="cms_rf_min_posts_any" js="0">любой</word>
@@ -889,7 +889,7 @@
   <word key="block_Categories" js="0">Меню категорий базы данных</word>
   <word key="block_Categories_desc" js="0">Отображает список категорий базы данных, которая используется на странице</word>
   <word key="cms_err_no_databases_to_use" js="0">Нет баз данных, доступных для добавления.</word>
-  <word key="cms_widget_filters_remember_text" js="0">Запомнить фильтры</word>
+  <word key="cms_widget_filters_remember_text" js="0"><![CDATA[&nbsp; Запомнить фильтры]]></word>
   <word key="block_Blocks" js="0">Пользовательские блоки</word>
   <word key="block_Blocks_desc" js="0">Выберите один из созданных вами блоков</word>
   <word key="cms_err_no_pugins_to_use" js="0">Нет пользовательских блоков, доступных для добавления.</word>
@@ -952,9 +952,9 @@
   <word key="index_as_categories" js="1">Показать категории</word>
   <word key="index_as_records" js="1">Показать список записей</word>
   <word key="mediaNoneSelected" js="1">Нет выбранных медиа</word>
-  <word key="mediaMultipleSelected" js="1">{# [0:выбранных файлов][1:выбранный файл][2:выбранных файла][3:выбранных файла][4:выбранных файла][11:выбранных файлов][12:выбранных файлов][13:выбранных файлов][14:выбранных файлов][*1:выбранный файл][*2:выбранных файла][*3:выбранных файла][*4:выбранных файла][?:выбранных файлов]}</word>
+  <word key="mediaMultipleSelected" js="1">{# [0:выбранных файлов][1:выбранный файл][2:выбранных файла][3:выбранных файла][4:выбранных файла][11:выбранных файлов][12:выбранных файлов][13:выбранных файлов][14:выбранных файлов][*1:выбранный файл][*2:выбранных файла][*3:выбранных файла][*4:выбранных файла][*11:выбранных файлов][*12:выбранных файлов][*13:выбранных файлов][*14:выбранных файлов][?:выбранных файлов]}</word>
   <word key="mediaEmptyFolder" js="1">В этой папке ещё нет элементов</word>
-  <word key="mediaConfirmDelete" js="1">Вы уверены, что хотите удалить {!# [0:# выбранных файлов][1:этот файл][2:# выбранных файла][3:# выбранных файла][4:# выбранных файла][11:# выбранных файлов][12:# выбранных файлов][13:# выбранных файлов][14:# выбранных файлов][*1:# выбранных файл][*2:# выбранных файла][*3:# выбранных файла][*4:# выбранных файла][?:# выбранных файлов]}?</word>
+  <word key="mediaConfirmDelete" js="1">Вы уверены, что хотите удалить {!# [0:# выбранных файлов][1:этот файл][2:# выбранных файла][3:# выбранных файла][4:# выбранных файла][11:# выбранных файлов][12:# выбранных файлов][13:# выбранных файлов][14:# выбранных файлов][*1:# выбранных файл][*2:# выбранных файла][*3:# выбранных файла][*4:# выбранных файла][*11:# выбранных файлов][*12:# выбранных файлов][*13:# выбранных файлов][*14:# выбранных файлов][?:# выбранных файлов]}?</word>
   <word key="mediaErrorDeleting" js="1">Возникла ошибка при удалении {!# [1:этого файла][?:этих файлов]}</word>
   <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
