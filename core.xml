@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102024">
+ <app key="core" version="102034">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -175,7 +175,7 @@
   <word key="activity_member_followed" js="0">%s подписался на %s</word>
   <word key="activity_member_updated_photo" js="0">%s изменил свою фотографию </word>
   <word key="activity_member_liked" js="0">%s понравилось %s: %s</word>
-  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src='&lt;fileStore.core_Reaction&gt;/%s' width='20' height='20' data-ipsTooltip title='%s'>&nbsp; %s отреагировал на %s: %s]]></word>
+  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src="<fileStore.core_Reaction>/%s" width='20' height='20' data-ipsTooltip title="%s">&nbsp; %s отреагировал на %s: %s]]></word>
   <word key="activity_club" js="0">%s создал клуб: %s</word>
   <word key="stream_auto_updates" js="0">Эта лента обновляется автоматически</word>
   <word key="load_more_activity" js="0">Загрузить больше активности</word>
@@ -698,7 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ipshelp.ru/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.2.4. Проверить обновления">Русификация от IPSHelp.Ru</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ipshelp.ru/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.2.6. Проверить обновления">Русификация от IPSHelp.Ru</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -5376,7 +5376,7 @@
   <word key="country-MD" js="0">Молдавия</word>
   <word key="country-MC" js="0">Монако</word>
   <word key="country-MN" js="0">Монголия</word>
-  <word key="country-ME" js="0">Монтенегро</word>
+  <word key="country-ME" js="0">Черногория</word>
   <word key="country-MS" js="0">Монсеррат</word>
   <word key="country-MA" js="0">Марокко</word>
   <word key="country-MZ" js="0">Мозамбик</word>
@@ -8343,5 +8343,21 @@
   <word key="core_statuses_status_pl" js="0">Обновления статуса</word>
   <word key="allow_poll_creation_after" js="0">Разрешить добавления опроса после создания публикации?</word>
   <word key="theme_by_with_url" js="0"><![CDATA[Автор стиля: <a href='%s' target='_blank'>%s</a>.]]></word>
+  <word key="notifications_user_count_like" js="0">{!# [1:Кому-то][11:# пользователям][*1:# пользователю][*11:# пользователям][?:# пользователям]}</word>
+  <word key="notifications_user_count_react" js="0">{!# [1:Кто-то][2:# пользователя][3:# пользователя][4:# пользователя][11:# пользователей][12:# пользователей][13:# пользователей][14:# пользователей][*1:# пользователь][*2:# пользователя][*3:# пользователя][*4:# пользователя][*11:# пользователей][*12:# пользователей][*13:# пользователей][*14:# пользователей][?:# пользователей]}</word>
+  <word key="mailsub__core_notification_new_react" js="0"><![CDATA[Кто-то отреагировал на {$comment->indefiniteArticle( $email->language )}]]></word>
+  <word key="email_new_reacted" js="0">%s отреагировал на %s:</word>
+  <word key="acplog__log_delete_file" js="0">Удалён файл журнала: %s</word>
+  <word key="fixdellog_task" js="0">Восстановление журналов удалённых %s</word>
+  <word key="ads_force_sidebar" js="0">Принудительно отображать боковую панель</word>
+  <word key="ads_force_sidebar_desc" js="0">Обычно, если боковая панель не отображается из-за отсутствия в ней боковых блоков, реклама, настроенная на отображение в боковой панели, также не будет отображаться. Вы можете включить эту настройку для принудительного отображения боковой панели при наличии в ней рекламы даже, если боковые блоки отсутствуют.</word>
+  <word key="clubRequestApproved" js="1">Заявка одобрена</word>
+  <word key="clubRequestDenied" js="1">Заявка отклонена</word>
+  <word key="reactDailyExceeded" js="1">Извините, сегодня вы больше не можете добавлять новые реакции.</word>
+  <word key="reactError" js="1">Извините, возникла проблема при добавлении реакции к этой публикации.</word>
+  <word key="whats_new_link" js="0">Что нового</word>
+  <word key="close" js="1">Закрыть</word>
+  <word key="findOutMore" js="1">Узнать больше</word>
+  <word key="whatsNew" js="1">Что нового в Invision Community</word>
  </app>
 </language>

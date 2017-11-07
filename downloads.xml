@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="102024">
+ <app key="downloads" version="102034">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -285,7 +285,7 @@
   <word key="idm_rss_title" js="0">Последние файлы</word>
   <word key="wait_x_seconds_noscript" js="0">Подождите {# [0:секунд][1:секунда][2:секунды][3:секунды][4:секунды][11:секунд][12:секунд][13:секунд][14:секунд][*1:секунда][*2:секунды][*3:секунды][*4:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]} и нажмите Скачать ещё раз.</word>
   <word key="download_begins_in" js="0">Скачивание началось</word>
-  <word key="file_actions" js="0">Изменить</word>
+  <word key="file_actions" js="0">Действия</word>
   <word key="max_simultaneous_downloads" js="0">Вы можете скачивать до {# [0:файлов][1:файла][11:файлов][*1:файла][?:файлов]} одновременно. Подождите, пока завершится скачивание {!# [1:другого файла][?:других файлов]}, и попробуйте ещё раз.</word>
   <word key="bandwidth_limit_daily" js="0">Вы можете скачивать до %s в день. Вы сможете скачать этот файл %s.</word>
   <word key="bandwidth_limit_week" js="0">Вы можете скачивать до %s в неделю. Вы сможете скачать этот файл %s.</word>

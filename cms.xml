@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102024">
+ <app key="cms" version="102034">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -889,7 +889,7 @@
   <word key="block_Categories" js="0">Меню категорий базы данных</word>
   <word key="block_Categories_desc" js="0">Отображает список категорий базы данных, которая используется на странице</word>
   <word key="cms_err_no_databases_to_use" js="0">Нет баз данных, доступных для добавления.</word>
-  <word key="cms_widget_filters_remember_text" js="0">Запомнить фильтры</word>
+  <word key="cms_widget_filters_remember_text" js="0"><![CDATA[&nbsp; Запомнить фильтры]]></word>
   <word key="block_Blocks" js="0">Пользовательские блоки</word>
   <word key="block_Blocks_desc" js="0">Выберите один из созданных вами блоков</word>
   <word key="cms_err_no_pugins_to_use" js="0">Нет пользовательских блоков, доступных для добавления.</word>

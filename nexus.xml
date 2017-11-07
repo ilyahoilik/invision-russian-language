@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102024">
+ <app key="nexus" version="102034">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -2974,5 +2974,6 @@
   <word key="ctrl_and_enter" js="1">Ctrl+Enter</word>
   <word key="moving_customer_history" js="0">Перемещение истории клиента в историю пользователя</word>
   <word key="note_added_sent_to" js="0">Ваше примечание было добавлено и запрос был отправлен в %s.</word>
+  <word key="void_cancel_billing_agreements" js="0">Отменить все регулярные платежи?</word>
  </app>
 </language>
