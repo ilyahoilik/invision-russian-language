@@ -109,7 +109,7 @@
   <word key="download_categories" js="0">Категории</word>
   <word key="can_pin_downloads_file" js="0">Может закреплять файлы</word>
   <word key="can_unpin_downloads_file" js="0">Может откреплять файлы</word>
-  <word key="can_feature_downloads_file" js="0">Может отмечать файлы рекомендуемыми</word>
+  <word key="can_feature_downloads_file" js="0">Может отмечать файлы рекомендованными</word>
   <word key="can_unfeature_downloads_file" js="0">Может отмечать файлы обычными</word>
   <word key="can_move_downloads_file" js="0">Может перемещать файлы</word>
   <word key="can_move_downloads_file_desc" js="0">Сможет перемещать файлы только между категориями, в которых он может создавать новые публикации.</word>
@@ -307,7 +307,7 @@
   <word key="change_author_title" js="0">Изменить автора файла</word>
   <word key="err_submissions_blocked" js="0">Вам была заблокирована возможность загружать файлы.</word>
   <word key="upload_new_version_title" js="0">Загрузить новую версию файла</word>
-  <word key="feature_title_file" js="0">Сделать этот файл рекомендуемым</word>
+  <word key="feature_title_file" js="0">Сделать этот файл рекомендованным</word>
   <word key="unfeature_title_file" js="0">Сделать этот файл обычным</word>
   <word key="pin_title_file" js="0">Закрепить этот файл</word>
   <word key="unpin_title_file" js="0">Открепить этот файл</word>
@@ -349,7 +349,7 @@
   <word key="submit_bulk_information" js="0">Введите информацию о файле</word>
   <word key="bulk_upload_button" js="0">Я хочу добавить несколько записей за раз</word>
   <word key="upload_more_files" js="0">Добавить ещё файл</word>
-  <word key="featured_downloads" js="0">Рекомендуемые файлы</word>
+  <word key="featured_downloads" js="0">Рекомендованные файлы</word>
   <word key="next_file" js="0">Следующий файл</word>
   <word key="prev_file" js="0">Предыдущий файл</word>
   <word key="downloads_category_id" js="0">Категория</word>
@@ -496,8 +496,8 @@
   <word key="__api_downloads_reviews" js="0">Отзывы</word>
   <word key="__api_downloads_categories" js="0">Категории</word>
   <word key="idm_landing_page" js="0">Главная страница</word>
-  <word key="idm_show_featured" js="0">Отображать блок &quot;Рекомендуемые файлы&quot;</word>
-  <word key="idm_featured_count" js="0">Количество отображаемых рекомендуемых файлов</word>
+  <word key="idm_show_featured" js="0">Отображать блок &quot;Рекомендованные файлы&quot;</word>
+  <word key="idm_featured_count" js="0">Количество отображаемых рекомендованных файлов</word>
   <word key="idm_show_newest" js="0">Отображать блок &quot;Последние файлы&quot;</word>
   <word key="idm_newest_categories" js="0">Категории</word>
   <word key="idm_show_highest_rated" js="0">Отображать блок &quot;С наивысшим рейтингом&quot;</word>
