@@ -431,7 +431,7 @@
   <word key="venues" js="0">Места</word>
   <word key="venue_title" js="0">Название места</word>
   <word key="event_venue" js="0">Место</word>
-  <word key="venues_not_listed" js="0">Место не указано</word>
+  <word key="venues_not_listed" js="0">Указать место вручную</word>
   <word key="venue_address" js="0">Адрес</word>
   <word key="r__venues" js="0">Места</word>
   <word key="r__venues_manage" js="0">Может управлять местами</word>
