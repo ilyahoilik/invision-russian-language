@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102034">
+ <app key="cms" version="102037">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -26,7 +26,7 @@
   <word key="sitemap_pages_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
   <word key="can_pin_record" js="0">Может закреплять %s?</word>
   <word key="can_unpin_record" js="0">Может откреплять %s?</word>
-  <word key="can_feature_record" js="0">Может отмечать %s рекомендованными</word>
+  <word key="can_feature_record" js="0">Может отмечать %s рекомендуемыми</word>
   <word key="can_unfeature_record" js="0">Может отмечать %s обычными</word>
   <word key="can_edit_record" js="0">Может редактировать %s?</word>
   <word key="can_hide_record" js="0">Может скрывать %s?</word>
@@ -95,7 +95,7 @@
   <word key="editor__cms_Records" js="0">Записи CMS</word>
   <word key="filestorage__cms_Records" js="0">Записи CMS</word>
   <word key="filestorage__cms_Pages" js="0">Страницы CMS</word>
-  <word key="filestorage__cms_Media" js="0">CMS Медиа</word>
+  <word key="filestorage__cms_Media" js="0">Медиа CMS</word>
   <word key="modperms__cms_Databases" js="0">Базы данных</word>
   <word key="can_content_revisions_content" js="0">Может управлять версиями</word>
   <word key="can_content_edit_meta_tags" js="0">Может управлять мета-тегами</word>
@@ -206,7 +206,7 @@
   <word key="block_template_theme_import" js="0">Стиль</word>
   <word key="template_database_group" js="0">Тип</word>
   <word key="cms_new_db_template_group_listing" js="0">Список записей (Страница внутри категории)</word>
-  <word key="cms_new_db_template_group_featured" js="0">Рекомендованные записи (первая страница при просмотре базы данных отображает рекомендованные записи)</word>
+  <word key="cms_new_db_template_group_featured" js="0">Рекомендуемые записи (первая страница при просмотре базы данных отображает рекомендуемые записи)</word>
   <word key="cms_new_db_template_group_categories" js="0">Список категорий (Первая страница базы данных)</word>
   <word key="cms_new_db_template_group_display" js="0">Просмотр записи (Содержимое записи и комментарии)</word>
   <word key="cms_new_db_template_group_form" js="0">Форма записи (Форма добавления/изменения записи)</word>
@@ -553,7 +553,7 @@
   <word key="record_edit_show" js="0">Отображать, что сообщение было изменено</word>
   <word key="record_edit_show_desc" js="0">Администрация всё равно сможет видеть это</word>
   <word key="content_edit_view_revisions" js="0">(отображать изменения)</word>
-  <word key="feature_title_record" js="0">Сделать это %s рекомендованным</word>
+  <word key="feature_title_record" js="0">Сделать это %s рекомендуемым</word>
   <word key="unfeature_title_record" js="0">Сделать это %s обычным</word>
   <word key="pin_title_record" js="0">Закрепить %s</word>
   <word key="unpin_title_record" js="0">Открепить %s</word>
@@ -692,7 +692,7 @@
   <word key="database_use_categories_yes" js="0"><![CDATA[<strong>Да</strong>, хранить записи в категориях базы данных]]></word>
   <word key="database_use_categories_no" js="0"><![CDATA[<strong>Нет</strong>, хранить записи напрямую в базе данных]]></word>
   <word key="cms_db_cats_disabled" js="0"><![CDATA[<em>Категории не используются</em>]]></word>
-  <word key="database_featured_featured" js="0">Отображать только рекомендованные записи</word>
+  <word key="database_featured_featured" js="0">Отображать только рекомендуемые записи</word>
   <word key="cms_bitoptions_comments" js="0">Разрешить комментарии</word>
   <word key="cms_bitoptions_comments_mod" js="0">Комментарии должны быть утверждены</word>
   <word key="cms_bitoptions_reviews" js="0">Разрешить отзывы</word>
@@ -771,7 +771,7 @@
   <word key="create_record_locked" js="0">Закрыть запись</word>
   <word key="create_record_pinned" js="0">Прикрепить запись</word>
   <word key="create_record_hidden" js="0">Скрыть запись</word>
-  <word key="create_record_featured" js="0">Сделать рекомендованной</word>
+  <word key="create_record_featured" js="0">Сделать рекомендуемой</word>
   <word key="content_record_form_save" js="0">Сохранить</word>
   <word key="content_record_form_new_record" js="0">Добавить %s</word>
   <word key="content_record_comment_title" js="0">Комментарий к %s</word>
@@ -816,7 +816,7 @@
   <word key="cms_unread_record" js="0">Не прочитано</word>
   <word key="cms_byline" js="0"><![CDATA[От %s, в <a href='%s'>%s</a>,]]></word>
   <word key="cms_show_categories" js="0">Показать все категории</word>
-  <word key="cms_show_featured" js="0">Показать рекомендованные %s</word>
+  <word key="cms_show_featured" js="0">Показать рекомендуемые %s</word>
   <word key="content_record_form_rating_value" js="0">Ваша оценка</word>
   <word key="content_record_form_review_text" js="0">Ваш отзыв</word>
   <word key="content_record_form__review_placeholder" js="0">Добавить отзыв...</word>
@@ -856,8 +856,8 @@
   <word key="cms_rf_open_status_notpinned" js="0">Не закреплена</word>
   <word key="cms_rf_open_status_visible" js="0">Видима</word>
   <word key="cms_rf_open_status_hidden" js="0">Скрыта</word>
-  <word key="cms_rf_open_status_featured" js="0">Рекомендованная</word>
-  <word key="cms_rf_open_status_notfeatured" js="0">Не рекомендованная</word>
+  <word key="cms_rf_open_status_featured" js="0">Рекомендуемая</word>
+  <word key="cms_rf_open_status_notfeatured" js="0">Не рекомендуемая</word>
   <word key="cms_rf_author" js="0">Запись написана</word>
   <word key="cms_rf_min_posts" js="0">Минимум комментариев к записи</word>
   <word key="cms_rf_min_posts_any" js="0">любой</word>
@@ -959,5 +959,8 @@
   <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
   <word key="copy_comments_assoc_desc" js="0">Включение этой настройки свяжет новую %s с существующей темой, что приведёт к трактованию существующих сообщений как комментариев к %s</word>
+  <word key="database_forum_comments__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='Перестроить счётчики комментариев'>Перестроить счётчики комментариев</a>.]]></word>
+  <word key="database_rebuild_commentcount_desc" js="0">Этот инструмент создаст фоновую задачу на пересчёт количества комментариев и отзывов в каждой публикации.</word>
+  <word key="database_rebuild_commentcount_button" js="0">Продолжить</word>
  </app>
 </language>

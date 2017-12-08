@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102034">
+ <app key="nexus" version="102037">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -1925,8 +1925,8 @@
   <word key="p_support_department_desc" js="0">Это отдел будет выбран при использовании кнопки &quot;Создать запрос в поддержку&quot;. Клиент сможет изменить его перед отправкой запроса в поддержку.</word>
   <word key="p_support_severity" js="0">Уровни поддержки</word>
   <word key="p_support_severity_desc" js="0">Если клиент отправит запрос в поддержку, связанный с покупкой (дочерней или родительской) этого продукта и установит уровень по умолчанию, то этот уровень будет использоваться вместо него, даже если клиент не имеет прав на его использование. Вы можете использовать это для создания высокого приоритета для премиум-продуктов.</word>
-  <word key="p_featured" js="0">Отображать рекомендованные на главной магазина</word>
-  <word key="p_featured_desc" js="0">Может быть отображено до 10 рекомендованных продуктов. Порядок отображения продуктов меняется при каждом просмотре магазина.</word>
+  <word key="p_featured" js="0">Отображать рекомендуемые на главной магазина</word>
+  <word key="p_featured_desc" js="0">Может быть отображено до 10 рекомендуемых продуктов. Порядок отображения продуктов меняется при каждом просмотре магазина.</word>
   <word key="p_upsell" js="0">Увеличить продажи в магазине</word>
   <word key="p_upsell_desc" js="0">Если включено, когда клиент добавляет один из выбранных продуктов в корзину, этот продут будет предложен как связанный.</word>
   <word key="package_notify" js="0">Уведомления</word>
@@ -2056,7 +2056,7 @@
   <word key="size" js="0">Размер</word>
   <word key="weight" js="0">Вес</word>
   <word key="store" js="0">Магазин</word>
-  <word key="featured_products" js="0">Рекомендованные продукты</word>
+  <word key="featured_products" js="0">Рекомендуемые продукты</word>
   <word key="new_products" js="0">Новые продукты</word>
   <word key="popular_products" js="0">Популярно у других клиентов</word>
   <word key="product_added_to_cart" js="0">Добавлено в корзину</word>
@@ -2077,7 +2077,7 @@
   <word key="start_shopping" js="0">Перейти в магазин</word>
   <word key="each_short" js="0">%s шт.</word>
   <word key="each_short_with_renewal" js="0">%s + %s шт.</word>
-  <word key="products_sort_default" js="0">Рекомендованный</word>
+  <word key="products_sort_default" js="0">Рекомендуемый</word>
   <word key="products_sort_name" js="0">Название</word>
   <word key="products_sort_price_low" js="0">Цена: от низкой к высокой</word>
   <word key="products_sort_price_high" js="0">Цена: от высокой к низкой</word>

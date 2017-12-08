@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102034">
+ <app key="core" version="102037">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -477,7 +477,7 @@
   <word key="mod_confirm_unlock" js="0">Открыто</word>
   <word key="mod_confirm_hide" js="0">Скрыто</word>
   <word key="mod_confirm_unhide" js="0">Отображено</word>
-  <word key="mod_confirm_feature" js="0">Рекомендованная</word>
+  <word key="mod_confirm_feature" js="0">Рекомендуемая</word>
   <word key="mod_confirm_unfeature" js="0">Обычная</word>
   <word key="mod_confirm_restore" js="0">Восстановлено</word>
   <word key="mod_confirm_restoreAsHidden" js="0">Восстановлено (скрыто)</word>
@@ -698,7 +698,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ipshelp.ru/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.2.6. Проверить обновления">Русификация от IPSHelp.Ru</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ipshelp.ru/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.2.7. Проверить обновления">Русификация от IPSHelp.Ru</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -828,7 +828,7 @@
   <word key="cache_guest_page" js="0">Кэшировать страницы для гостей</word>
   <word key="cache_guest_page_desc" js="0"><![CDATA[При включении все страницы сайта будут кэшироваться, так что если более одного гостя просматривает сайт, каждая страница будет генерироваться только один раз, что позволить сократить использование ресурсов сервера, если у вас много гостей на сайте одновременно.<br>Чем дольше время жизни кэша, тем реже будет генерироваться страницы (затрата ресурсов сервера будет меньше), но обновление содержимого страницы для гостей будет происходить с задержкой.<br>Если на вашем сайте редко находится большое количество гостей, то рекомендуется выключить эту функцию.<br>Если у вас есть настроенный метод кэширования, то он будет использоваться. В противном случае кэш будет храниться в базе данных.]]></word>
   <word key="widget_cache_ttl" js="0">Кэшировать блоки сайта</word>
-  <word key="widget_cache_ttl_desc" js="0"><![CDATA[Постоянная генерация содержимого некоторых блоков может влиять на производительность сайта. Это настройка позволяет генерировать содержимое с определённым интервалом времени.<br>Это означает, что будет задержка в генерации содержимого. Например, если вы установить задержку 5 минут для блока "Последние темы", то после публикации темы должно пройти до 5 минут, прежде чем она появится в нём.]]></word>
+  <word key="widget_cache_ttl_desc" js="0"><![CDATA[Постоянная генерация содержимого некоторых блоков может влиять на производительность сайта. Это настройка позволяет генерировать содержимое с определённым интервалом времени.<br>Это означает, что содержимое блока будет изменяться с задержкой - например, если вы установите 5 минут и у вас есть блок, отображающий последние темы, то может пройти до 5 минут прежде чем новая тема появится в нём.]]></word>
   <word key="acplogs__general_settings" js="0">Обновлены общие настройки</word>
   <word key="from" js="0">Отправитель</word>
   <word key="to" js="0">Получатель</word>
@@ -1073,7 +1073,7 @@
   <word key="select_category" js="0">Выберите категорию</word>
   <word key="more_page_options" js="0">Больше настроек</word>
   <word key="fewer_page_options" js="0">Меньше вариантов</word>
-  <word key="featured_replies" js="0">Рекомендованные ответы</word>
+  <word key="featured_replies" js="0">Рекомендуемые ответы</word>
   <word key="recommended_by" js="0">Рекомендовано %s</word>
   <word key="go_to_this_comment" js="0">Перейти к %s</word>
   <word key="add_message" js="0">Добавить сообщение</word>
@@ -1156,8 +1156,8 @@
   <word key="node_move_state" js="0">Закрыто/Открыто</word>
   <word key="node_move_pinned" js="0">Прикреплённый/Откреплённый</word>
   <word key="node_move_pinned_not_pinned" js="0">Не прикреплённый</word>
-  <word key="node_move_featured" js="0">Рекомендованный/Не рекомендованный</word>
-  <word key="node_move_pinned_not_featured" js="0">Не рекомендованная</word>
+  <word key="node_move_featured" js="0">Рекомендуемый/Не рекомендуемый</word>
+  <word key="node_move_pinned_not_featured" js="0">Не рекомендуемая</word>
   <word key="node_move_delete" js="0">Вы не можете перемещать элементы в элемент, который удаляется.</word>
   <word key="node_move_invalid" js="0">Вы не можете переместить это сюда.</word>
   <word key="permissions_adjusted_node" js="0">Права доступа для %s изменены</word>
@@ -1705,7 +1705,7 @@
   <word key="visitors" js="0">Посетители</word>
   <word key="members_filter_banned" js="0">Забаненные</word>
   <word key="members_filter_locked" js="0">Заблокированные</word>
-  <word key="members_filter_spam" js="0">Спаммеры</word>
+  <word key="members_filter_spam" js="0">Спамеры</word>
   <word key="members_filter_validating" js="0">Неактивированные</word>
   <word key="members_filter_administrators" js="0">Администраторы</word>
   <word key="members_name" js="0">Имя пользователя</word>
@@ -2022,7 +2022,7 @@
   <word key="modlog__action_unhide" js="0"><![CDATA[Показано: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_pin" js="0"><![CDATA[Закреплено: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unpin" js="0"><![CDATA[Откреплено: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_feature" js="0"><![CDATA[Сделано рекомендованным: %s <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_feature" js="0"><![CDATA[Сделано рекомендуемым: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unfeature" js="0"><![CDATA[Сделано обычным: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_lock" js="0"><![CDATA[Закрыто: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unlock" js="0"><![CDATA[Открыто: %s <a href='%s'>%s</a>]]></word>
@@ -2111,12 +2111,12 @@
   <word key="report_comment_by" js="0">Комментарий от</word>
   <word key="report_comment_date" js="0">Дата</word>
   <word key="ip_addresses" js="0">IP-адреса</word>
-  <word key="notifications__core_Messenger" js="0">Сообщения</word>
+  <word key="notifications__core_Messenger" js="0">Личные сообщения</word>
   <word key="show_pm_popup" js="0">Отображать всплывающее окно, когда я получаю новое личное сообщение</word>
   <word key="notification_preferences" js="0">Настройки уведомлений</word>
   <word key="email_notifications_once" js="0">Отправлять только одно email-уведомление для публикаций, на которые я подписан до тех пор, пока я не посещу сайт</word>
   <word key="enable_notification_sounds" js="0">Проигрывать звук при получении уведомления</word>
-  <word key="notifications__new_private_message" js="0">Кто-либо отправляет сообщение в беседу</word>
+  <word key="notifications__new_private_message" js="0">Я получаю личное сообщение</word>
   <word key="notifications__private_message_added" js="0">Кто-либо добавляет меня в беседу</word>
   <word key="auto_track" js="0">Автоматически подписываться на публикации</word>
   <word key="auto_track_comments" js="0">Автоматически подписываться на публикации, в которых я участвовал</word>
@@ -2125,14 +2125,14 @@
   <word key="auto_follow" js="0">Уведомлять меня о новых комментариях</word>
   <word key="notification_prefs" js="0">Настройки уведомлений</word>
   <word key="notifications__core_Content" js="0">Общие</word>
-  <word key="notifications__new_content" js="0">Кто-либо публикует что-либо в содержимое, на которое я подписан</word>
-  <word key="notifications__new_comment" js="0">Кто-либо комментирует содержимое, на которое я подписан</word>
+  <word key="notifications__new_content" js="0">Новая публикация в областях, на которые я подписан</word>
+  <word key="notifications__new_comment" js="0">Кто-либо комментирует публикацию, на которую я подписан</word>
   <word key="notifications__new_review" js="0">Кто-либо публикует отзыв к публикации, на которую я подписан</word>
-  <word key="notifications__follower_content" js="0">Кто-либо, на кого я подписан, публикует новое сообщение</word>
+  <word key="notifications__follower_content" js="0">Кто-либо, на кого я подписан, делает публикацию</word>
   <word key="notifications__quote" js="0">Кто-либо цитирует публикацию, опубликованную мной</word>
-  <word key="notifications__mention" js="0">Кто-либо упоминает меня в сообщениях</word>
-  <word key="notifications__new_likes_rep" js="0">Кто-либо изменяет репутацию за содержимое, на которое я подписан</word>
-  <word key="notifications__new_likes_like" js="0">Кто-либо ставит отметку &quot;Нравится&quot; на мои сообщения</word>
+  <word key="notifications__mention" js="0">Кто-либо упоминает меня в сообщении</word>
+  <word key="notifications__new_likes_rep" js="0">Кто-либо изменяет репутацию за мою публикацию</word>
+  <word key="notifications__new_likes_like" js="0">Кто-либо ставит отметку &quot;Нравится&quot; на мою публикацию</word>
   <word key="notifications__reply_your_status" js="0">Кто-либо опубликовал ответ на мой статус</word>
   <word key="notifications__reply_any_status" js="0">Кто-либо, кому я отвечал в профиль, публикует новый статус</word>
   <word key="notifications__core_Profile" js="0">Профиль</word>
@@ -2141,9 +2141,9 @@
   <word key="notifications__new_status" js="0">Кто-либо, на кого я подписан, публикует новый статус</word>
   <word key="notifications__core_Moderation" js="0">Модерация</word>
   <word key="notifications__report_center" js="0">Кто-либо отправил жалобу</word>
-  <word key="notifications__unapproved_content" js="0">Кто-либо опубликовал содержимое, ожидающее утверждения</word>
+  <word key="notifications__unapproved_content" js="0">Кто-либо сделал публикацию, ожидающую утверждения</word>
   <word key="notifications__warning" js="0">Я получил предупреждение</word>
-  <word key="notifications__warning_mods" js="0">Модератор предупредил участника форума</word>
+  <word key="notifications__warning_mods" js="0">Другой модератор выдал предупреждение</word>
   <word key="notifications__member_follow" js="0">Кто-либо подписывается на меня</word>
   <word key="acplog__notifications_edited" js="0">Изменены уведомления</word>
   <word key="notification_options" js="0">Настройки уведомлений</word>
@@ -2714,7 +2714,7 @@
   <word key="sitemap_ping_bing_success" js="0">Запрос в Bing на обновление карты сайта успешно отправлен</word>
   <word key="sitemap_ping_already24" js="0">Ссылка на карту сайта уже была отправлена поисковикам за последние 24 часа (пропускаем)</word>
   <word key="sitemap_log_built" js="0">Карта сайта успешно создана %s</word>
-  <word key="sitemap_configuration_info" js="0">Использовать рекомендованные настройки?</word>
+  <word key="sitemap_configuration_info" js="0">Использовать рекомендуемые настройки?</word>
   <word key="sitemap_show_config" js="0">Изменить стандартные настройки карты сайта</word>
   <word key="sitemap_priority_generic" js="0">Приоритет</word>
   <word key="sitemap_priority_container" js="0">Приоритет</word>
@@ -3007,7 +3007,7 @@
   <word key="acplogs__poll_settings" js="0">Изменены настройки опросов</word>
   <word key="poll_guest" js="0"><![CDATA[Пожалуйста, <a href='%s'>войдите</a> или <a href='%s'>зарегистрируйтесь</a> для голосования в опросе.]]></word>
   <word key="poll_no_js" js="0">Включите JavaScript для изменения данных опроса.</word>
-  <word key="poll_is_public" js="0">Этот опрос публичный. Другие пользователи могут видеть, за какой вариант вы проголосовали.</word>
+  <word key="poll_is_public" js="0">Этот опрос публичный. Другие пользователи могут видеть за какой вариант вы проголосовали.</word>
   <word key="profile_fields" js="0">Поля профиля</word>
   <word key="pfield_group_create" js="0">Создать группу</word>
   <word key="pfield_group_title" js="0">Название группы</word>
@@ -3923,7 +3923,7 @@
   <word key="themesetting_headline_font_desc" js="0">По желанию, выберите шрифт Google Web Font для использования для заголовка сайта. По умолчанию, используется шрифт, определяемый в таблице стилей данного стиля.</word>
   <word key="themesetting_comment_count" js="0">Фон счётчика комментариев</word>
   <word key="themesetting_comment_count_font" js="0">Шрифт счётчика комментариев</word>
-  <word key="themesetting_featured_color" js="0">Цвет рекомендованного</word>
+  <word key="themesetting_featured_color" js="0">Цвет рекомендуемого</word>
   <word key="theme_set_import_button" js="0">Загрузить</word>
   <word key="theme_set_import_title" js="0">Загрузить новую версию %s</word>
   <word key="core_theme_add_image_error" js="0">Не удалось декодировать изображение &quot;%s&quot;</word>
@@ -4150,7 +4150,7 @@
   <word key="modperms__core_Content" js="0">Содержимое</word>
   <word key="can_pin_content" js="0">Может закреплять публикации</word>
   <word key="can_unpin_content" js="0">Может откреплять публикации</word>
-  <word key="can_feature_content" js="0">Может отмечать публикации рекомендованными</word>
+  <word key="can_feature_content" js="0">Может отмечать публикации рекомендуемыми</word>
   <word key="can_unfeature_content" js="0">Может отмечать все публикации обычными</word>
   <word key="can_edit_content" js="0">Может изменять публикации</word>
   <word key="can_hide_content" js="0">Может скрывать публикации</word>
@@ -4192,7 +4192,7 @@
   <word key="can_close_polls" js="0">Может закрывать опросы</word>
   <word key="can_close_polls_desc" js="0">Позволяет закрывать опросы, но оставлять темы открытыми.</word>
   <word key="can_remove_reactions" js="0">Может удалять реакции</word>
-  <word key="can_feature_comments_content" js="0">Может отмечать комментарии рекомендованными</word>
+  <word key="can_feature_comments_content" js="0">Может отмечать комментарии рекомендуемыми</word>
   <word key="can_unfeature_comments_content" js="0">Может отмечать комментарии обычными</word>
   <word key="can_add_item_message_content" js="0">Может добавлять сообщения</word>
   <word key="can_edit_item_message_content" js="0">Может изменять сообщения</word>
@@ -4580,7 +4580,7 @@
   <word key="google_adsense_login_link" js="0">Подробнее</word>
   <word key="google_adsense_ajax_header" js="0">Страницы с AJAX</word>
   <word key="google_adsense_ajax_intro" js="0">AJAX является технологией, позволяющей динамически загружать содержимое страницы без перезагрузки страницы. Invision Community использует её в некоторых областях сайта. Например, при просмотре тем с более одной страницей, вы можете заметить, что при перемещении по страницам загружается только часть страницы и страница не перезагружается полностью.</word>
-  <word key="google_adsense_ajax_blurb" js="0">Google требует немедленно отображение рекламы после загрузки страницы и запрещает их загрузку через AJAX. Это означает, что если вы разместите рекламу там, где доступна загрузка через AJAX, то вам необходимо будет отключить эту возможность в Invision Community. Чтобы сделать это:</word>
+  <word key="google_adsense_ajax_blurb" js="0">Google требует немедленное отображение рекламы после загрузки страницы и запрещает их загрузку через AJAX. Это означает, что если вы разместите рекламу там, где доступна загрузка через AJAX, то вам необходимо будет отключить эту возможность в Invision Community. Чтобы сделать это:</word>
   <word key="google_adsense_ajax_ins_1" js="0"><![CDATA[Перейдите в раздел Админцентра <a href='{internal.app=core&module=customization&controller=themes}' target='_blank'>Стили</a>.]]></word>
   <word key="google_adsense_ajax_ins_2" js="0">Для каждого установленного стиля нажмите кнопку Изменить.</word>
   <word key="google_adsense_ajax_ins_3" js="0">Перейдите во вкладку Другие.</word>
@@ -4736,10 +4736,10 @@
   <word key="send_email_form" js="0">Отправить страницу по email</word>
   <word key="send_email_form_with_title" js="0">Отправить эту страниц по email ( %s )</word>
   <word key="share_autoshare_Facebook" js="0">Пользователи могут поделиться контентом при его публикации</word>
-  <word key="share_autoshare_Facebook_desc" js="0"><![CDATA[Если пользователь привязан аккаунт Facebook, то при отправке публикации он увидит флажок, который позволит поделиться ею в Facebook.<br>Для работы этой настройки вам необходимо проделать дополнительные действия с Facebook. <a href='{external.login_facebook}' target='_blank'>Подробнее</a>]]></word>
+  <word key="share_autoshare_Facebook_desc" js="0"><![CDATA[Если пользователь привязал аккаунт Facebook, то при отправке публикации он увидит флажок, который позволит поделиться ею в Facebook.<br>Для работы этой настройки вам необходимо проделать дополнительные действия с Facebook. <a href='{external.login_facebook}' target='_blank'>Подробнее</a>]]></word>
   <word key="share_autoshare_Facebook_disabled" js="0"><![CDATA[Для включения этой настройки вам нужно <a href='{internal.app=core&module=settings&controller=login&do=form&id=Facebook}'>настроить вход через Facebook</a>.]]></word>
   <word key="share_autoshare_Twitter" js="0">Пользователи могут поделиться контентом при его публикации</word>
-  <word key="share_autoshare_Twitter_desc" js="0">Если пользователь привязан аккаунт Twitter, то при отправке публикации он увидит флажок, который позволит поделиться ею в Twitter.</word>
+  <word key="share_autoshare_Twitter_desc" js="0">Если пользователь привязал аккаунт Twitter, то при отправке публикации он увидит флажок, который позволит поделиться ею в Twitter.</word>
   <word key="share_autoshare_Twitter_disabled" js="0"><![CDATA[Для включения этой настройки вам нужно <a href='{internal.app=core&module=settings&controller=login&do=form&id=Twitter}'>настроить вход через Twitter</a>.]]></word>
   <word key="auto_share_facebook" js="0"><![CDATA[<i class='fa fa-facebook-square'></i> Поделиться в Facebook]]></word>
   <word key="auto_share_twitter" js="0"><![CDATA[<i class='fa fa-twitter-square'></i> Поделиться в Twitter]]></word>
@@ -4820,7 +4820,7 @@
   <word key="edit_log_public_desc" js="0"><![CDATA[При отключении, только модераторы смогут просматривать журнал изменений публикаций. Остальные пользователи будут видеть только дату последнего изменения.<br>При включении, все пользователи смогут видеть историю изменений содержимого. Изменения, внесённые модератором, отображаться не будут.]]></word>
   <word key="edit_log_prune" js="0">Очищать журнал изменений через</word>
   <word key="edit_log_prune_desc" js="0">Записи в журнале изменений будет очищены через указанный период.</word>
-  <word key="merge_concurrent_posts" js="0">Объединение одновременных сообщений</word>
+  <word key="merge_concurrent_posts" js="0">Слияние параллельных сообщений</word>
   <word key="merge_concurrent_posts_desc" js="0">Если пользователь отправляет комментарий и затем снова отправляет комментарий к той же публикации в определённый промежуток времени до любого другого пользователя, то его комментарии будут объединены. Запрет на редактирование сообщений не влияет на эту функцию.</word>
   <word key="flood_control" js="0">Контроль флуда</word>
   <word key="flood_control_desc" js="0"><![CDATA[После того, как пользователь отправит сообщение и комментарий, он не сможет отправить другое сообщение в течение определённого времени, если настройка слияния параллельных сообщений выше включена. Вы можете отключить это для определённых групп в <a href='{internal.app=core&module=members&controller=groups&searchResult=4_g_avoid_flood}'>настройках групп</a>.]]></word>
@@ -4845,7 +4845,7 @@
   <word key="task_method_ips_desc" js="0">Invision Community in the Cloud контролирует запускаемые задачи автоматически.</word>
   <word key="task_method_cron" js="0">Использовать Cron (рекомендуется)</word>
   <word key="task_method_web" js="0">Использовать веб-сервис</word>
-  <word key="task_method_normal_desc" js="0">Система будет автоматически запускать задачи, когда пользователи просматривают сайт. Подходит для большинства сайтов, но если пользователи вашего сайта не обеспечивают достаточный трафик, то задачи будут откладываться. Задачи будут выполняться только при посещении пользователями, не гостями. Если задачи будут отлажены, отобразится специальное сообщение на Главной панели Админцентра.</word>
+  <word key="task_method_normal_desc" js="0">Система будет автоматически запускать задачи, когда пользователи просматривают сайт. Подходит для большинства сайтов, но если пользователи вашего сайта не обеспечивают достаточный трафик, то задачи будут откладываться. Задачи будут выполняться только при посещении пользователями, не гостями. Если задачи будут отложены, отобразится специальное сообщение на Главной панели Админцентра.</word>
   <word key="task_method_cron_desc" js="0">Если у вас есть возможность настроить Cron на вашем сервере, он может выполнять эти задачи самостоятельно. Это более надёжно и рекомендуется использовать этот метод, если он возможен на вашем сервере.</word>
   <word key="task_method_web_desc" js="0"><![CDATA[Вы можете использовать веб-сервис, такой как <a href='{external.easycron}' target='_blank'>EasyCron</a>, для удалённого запуска этих задач. Подходит для сайтов с недостаточным трафиком пользователей и при невозможности использования Cron.]]></word>
   <word key="task_method_cron_warning" js="0"><![CDATA[Если эта настройка включена, вы <strong>ДОЛЖНЫ</strong> убедиться в том, что cron настроен корректно. Если эта настройка включена, но cron не настроен, это может вызвать повреждение вашего сайта.<br><br>Вы должны настроить cron на запуск этой команды каждую минуту:<br><code>%s</code>]]></word>
@@ -6434,9 +6434,9 @@
   <word key="no_edit_history" js="0">Здесь нет истории для отображения или этот комментарий был изменён модератором</word>
   <word key="feature_mod_note" js="0">Примечание модератора</word>
   <word key="feature_mod_note_desc" js="0">Краткое примечание об этой публикации, которое будет отображаться пользователям.</word>
-  <word key="this_is_a_featured_post" js="0">Рекомендованный комментарий</word>
+  <word key="this_is_a_featured_post" js="0">Рекомендуемый комментарий</word>
   <word key="recommended" js="0">Рекомендовано</word>
-  <word key="recommended_replies" js="0">Рекомендованные комментарии</word>
+  <word key="recommended_replies" js="0">Рекомендуемые комментарии</word>
   <word key="recommend_content" js="0">Порекомендовать</word>
   <word key="unrecommend_content" js="0">Удалить рекомендацию</word>
   <word key="recommend_comment" js="0">Порекомендовать комментарий</word>
@@ -6477,7 +6477,7 @@
   <word key="widget_feed_status" js="0">Фильтры</word>
   <word key="widget_feed_status_locked" js="0">Статус</word>
   <word key="widget_feed_status_pinned" js="0">Закреплена</word>
-  <word key="widget_feed_status_featured" js="0">Рекомендованная</word>
+  <word key="widget_feed_status_featured" js="0">Рекомендуемая</word>
   <word key="mod_confirm_either" js="0">Неважно</word>
   <word key="widget_feed_author" js="0">Авторы</word>
   <word key="widget_feed_author_desc" js="0">Если задано, то будут отображаться публикации только от выбранных пользователей.</word>
@@ -6493,7 +6493,7 @@
   <word key="widget_feed_tags_desc" js="0">При вводе нескольких тегов они должны образовывать строку.</word>
   <word key="widget_feed_item_status_locked" js="0">%s - Статус</word>
   <word key="widget_feed_item_status_pinned" js="0">%s - Закреплено</word>
-  <word key="widget_feed_item_status_featured" js="0">%s - Рекомендованная</word>
+  <word key="widget_feed_item_status_featured" js="0">%s - Рекомендуемая</word>
   <word key="widget_feed_comment_status_visible" js="0">Видимость комментариев</word>
   <word key="widget_feed_item_author" js="0">%s - Автор</word>
   <word key="widget_feed_item_min_posts" js="0">Минимум сообщений</word>
@@ -6731,11 +6731,11 @@
   <word key="md5_fail_download_2" js="0">После загрузки, нажмите на кнопку ниже, чтобы вернуться к диагностике.</word>
   <word key="requirements_check_ok" js="0">Проверка системы пройдена</word>
   <word key="requirements_check_fail" js="0">Возникла проблема с вашим сервером</word>
-  <word key="recommendations_check_ok" js="0">Рекомендованные изменения не найдены</word>
+  <word key="recommendations_check_ok" js="0">Рекомендуемые изменения не найдены</word>
   <word key="recommendations_check_fail" js="0">Есть некоторые необязательные изменения, которые мы рекомендуем произвести</word>
-  <word key="recommendations_check_link" js="0">Просмотреть рекомендованные изменения</word>
+  <word key="recommendations_check_link" js="0">Просмотреть рекомендуемые изменения</word>
   <word key="requirements_check_link" js="0">Просмотреть требуемые изменения</word>
-  <word key="requirements_check_link_rec" js="0">Просмотреть обязательные и рекомендованные изменения</word>
+  <word key="requirements_check_link_rec" js="0">Просмотреть обязательные и рекомендуемые изменения</word>
   <word key="connection_check_ok" js="0">Внешние соединения работают</word>
   <word key="connection_check_fail" js="0">Внешние соединения не работают</word>
   <word key="server_time_ok" js="0">Время сервера является точным</word>
@@ -7469,7 +7469,7 @@
   <word key="promote_time_failed_resend" js="0">Повторная попытка:</word>
   <word key="promote_time_failed_resend_soon" js="0">следующий</word>
   <word key="promote_social_content_twitter" js="0"><![CDATA[<span class='cPromoteDialog_icon cPromoteDialog_icon_twitter'><i class='fa fa-twitter'></i></span><a href='#' title='Не публиковать это в Twitter' data-ipsTooltip class='cPromote_hide' data-action='cancelShare'>×</a>]]></word>
-  <word key="promote_social_content_twitter_desc" js="0"><![CDATA[<span class='cPromoteCount' data-action='counter' data-count-field='promote_social_content_twitter' data-limit='140' data-ipsTooltip title='Осталось символов'>140</span>Публикация, которая будет отправлена в Twitter. Он позволяет отправлять не более 4 изображений.]]></word>
+  <word key="promote_social_content_twitter_desc" js="0"><![CDATA[<span class='cPromoteCount' data-action='counter' data-count-field='promote_social_content_twitter' data-limit='280' data-ipsTooltip title='Осталось символов'>140</span>Публикация, которая будет отправлена в Twitter. Он позволяет отправлять не более 4 изображений.]]></word>
   <word key="promote_social_content_internal" js="0"><![CDATA[<span class='cPromoteDialog_icon cPromoteDialog_icon_internal'><i class='fa fa-plus'></i></span><a href='#' title='Не публиковать это в сообществе' data-ipsTooltip class='cPromote_hide' data-action='cancelShare'>×</a>]]></word>
   <word key="promote_social_content_internal_desc" js="0"><![CDATA[<span class='cPromoteCount' data-action='counter' data-count-field='promote_social_content_internal' data-limit='2000' data-ipsTooltip title='Осталось символов'>2000</span>Публикация, которая будет отправлена в сообщество.]]></word>
   <word key="promote_twitter_done" js="0">Спасибо, %s!</word>
@@ -7637,8 +7637,8 @@
   <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank'>интеграция с Google Maps</a>, то на главной странице клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
   <word key="club_location" js="0">Местоположение</word>
   <word key="modperms__core_Clubs" js="0">Клубы</word>
-  <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендованными/обычными</word>
-  <word key="featured_clubs" js="0">Наши рекомендованные клубы</word>
+  <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендуемыми/обычными</word>
+  <word key="featured_clubs" js="0">Наши рекомендуемые клубы</word>
   <word key="clubs_activity_joined" js="0">%s вступил в клуб</word>
   <word key="club_about" js="0">Описание</word>
   <word key="clubs_default_sort" js="0">Стандартная сортировка клубов на главной</word>
@@ -7649,7 +7649,7 @@
   <word key="clubs_sort_name" js="0">Название</word>
   <word key="task__clubrebuild" js="0">Пересчитывает данные в клубах для сортировки.</word>
   <word key="club_home" js="0">Главная</word>
-  <word key="club_feature" js="0">Сделать этот клуб рекомендованным</word>
+  <word key="club_feature" js="0">Сделать этот клуб рекомендуемым</word>
   <word key="club_unfeature" js="0">Сделать этот клуб обычным</word>
   <word key="club_youre_invited" js="0">Вы были приглашены!</word>
   <word key="club_youre_invited_desc" js="0">%s является участником этого клуба и пригласил вас вступить в него.</word>
@@ -7754,7 +7754,7 @@
   <word key="editor__core_Meta" js="0">Метаданные публикации</word>
   <word key="complete_your_profile" js="0">Заполните свой профиль</word>
   <word key="required_fields" js="0">Необходимая информация</word>
-  <word key="suggested_fields" js="0">Рекомендованная информация</word>
+  <word key="suggested_fields" js="0">Рекомендуемая информация</word>
   <word key="other_actions" js="0">Другие действия</word>
   <word key="profile_acp_table_step_extension" js="0">Шаг</word>
   <word key="profile_completion_items" js="0">Шаги заполнения профиля</word>
@@ -8359,5 +8359,20 @@
   <word key="close" js="1">Закрыть</word>
   <word key="findOutMore" js="1">Узнать больше</word>
   <word key="whatsNew" js="1">Что нового в Invision Community</word>
+  <word key="no_flag_spam_self" js="0">Вы не можете пометить спамером себя, модератора или администратора.</word>
+  <word key="form_tags_not_allowed" js="0">Значение %s не допускается</word>
+  <word key="mailsub__core_notification_private_message_added" js="0">Вы были добавлены в беседу</word>
+  <word key="grouppromotion_warning" js="0">Это продвижение использует группу, которая больше не существует</word>
+  <word key="updates_consent_default" js="0">Стандартное значение параметра &quot;Отправлять мне новости и информацию&quot;</word>
+  <word key="updates_consent_enabled_desc" js="0">Пользователь может отказаться от получения новостей и информации.</word>
+  <word key="updates_consent_disabled_desc" js="0">Пользователь может согласиться на получение новостей и информации.</word>
+  <word key="updates_consent_enabled" js="0">Включено</word>
+  <word key="updates_consent_disabled" js="0">Отключено</word>
+  <word key="ftp_err-SSL_NOT_AVAILABLE" js="0">Функция PHP ftp_ssl_connect недоступна. Обычно это означает, что к PHP не была подключена поддержка FTP или SSL. Вам следует связаться с вашим хостинг-провайдеров для получения помощи.</word>
+  <word key="dashboard_cic_email_quota" js="0">Превышен предел квоты электронной почты</word>
+  <word key="dashboard_cic_email_quota_desc" js="0"><![CDATA[Ваше сообщество превысило квоту отправки email-сообщений в этом месяце. Пожалуйста, <a href='{internal.app=core&module=support&controller=support}'>свяжитесь
+ с поддержкой</a> для получения дополнительной информации.]]></word>
+  <word key="history_enabled_admin_mails" js="0">Подписался на новости и информацию</word>
+  <word key="history_disabled_admin_mails" js="0">Отписался от новостей и информации</word>
  </app>
 </language>
