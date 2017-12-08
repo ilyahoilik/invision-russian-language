@@ -56,7 +56,7 @@
   <word key="modperms__core_Content_forums_Topic" js="0">Форум</word>
   <word key="can_pin_topic" js="0">Может закреплять темы/вопросы</word>
   <word key="can_unpin_topic" js="0">Может откреплять темы/вопросы</word>
-  <word key="can_feature_topic" js="0">Может отмечать темы/вопросы рекомендуемыми</word>
+  <word key="can_feature_topic" js="0">Может отмечать темы/вопросы рекомендованными</word>
   <word key="can_unfeature_topic" js="0">Может отмечать темы/вопросы обычными</word>
   <word key="can_edit_topic" js="0">Может изменять темы/вопросы</word>
   <word key="can_hide_topic" js="0">Может скрывать темы/вопросы</word>
@@ -214,7 +214,7 @@
   <word key="archive_topic_forums" js="0">В разделах</word>
   <word key="archive_topic_not_forums" js="0">В разделах</word>
   <word key="archive_topic_pinned" js="0">Закреплённые/Откреплённые</word>
-  <word key="archive_topic_featured" js="0">Рекомендуемые/Обычные</word>
+  <word key="archive_topic_featured" js="0">Рекомендованные/Обычные</word>
   <word key="archive_topic_state" js="0">Закрытые/Открытые</word>
   <word key="unlocked" js="0">Открытые</word>
   <word key="archive_topic_approved" js="0">Скрытые/Не скрытые</word>
@@ -351,7 +351,7 @@
   <word key="since_last_visit" js="0">Мой последний вход (%s)</word>
   <word key="forum_home" js="0">Главная форума</word>
   <word key="all_questions" js="0">Все вопросы в этом разделе</word>
-  <word key="featured_question" js="0">Рекомендуемый вопрос</word>
+  <word key="featured_question" js="0">Рекомендованный вопрос</word>
   <word key="most_popular_questions" js="0">Самые популярные вопросы</word>
   <word key="from_the_past_30_days" js="0">За последние 30 дней</word>
   <word key="explore_questions_title" js="0">Просмотр вопросов</word>
@@ -402,11 +402,11 @@
   <word key="topic_locked" js="0">Эта тема закрыта</word>
   <word key="topic_pinned" js="0">Это тема закреплена</word>
   <word key="topic_hidden" js="0">Эта тема скрыта</word>
-  <word key="topic_featured" js="0">Эта тема рекомендуемая</word>
+  <word key="topic_featured" js="0">Это рекомендованная тема</word>
   <word key="create_topic_locked" js="0">Закрыть тему</word>
   <word key="create_topic_pinned" js="0">Закрепить тему</word>
   <word key="create_topic_hidden" js="0">Скрыть тему</word>
-  <word key="create_topic_featured" js="0">Сделать рекомендуемой</word>
+  <word key="create_topic_featured" js="0">Сделать рекомендованной</word>
   <word key="mark_topic_read" js="0">Отметить тему прочитанной</word>
   <word key="answered" js="0">Есть лучший ответ</word>
   <word key="awaiting_answer" js="0">Ожидает лучшего ответа</word>
@@ -422,10 +422,10 @@
   <word key="reply_to_topic" js="0">Ответить в тему</word>
   <word key="link_to_post" js="0">Ссылка на сообщение</word>
   <word key="share_externally" js="0">Поделиться на других сайтах</word>
-  <word key="featured_topics" js="0">Рекомендуемые темы</word>
+  <word key="featured_topics" js="0">Рекомендованные темы</word>
   <word key="no_new_posts" js="0">Нет новых сообщений в теме</word>
   <word key="new_posts" js="0">Новые сообщения в этой теме</word>
-  <word key="featured_topic" js="0">Рекомендуемая тема</word>
+  <word key="featured_topic" js="0">Рекомендованная тема</word>
   <word key="next_question" js="0">Следующий вопрос</word>
   <word key="next_topic" js="0">Следующая тема</word>
   <word key="prev_question" js="0">Предыдущий вопрос</word>
@@ -534,8 +534,8 @@
   <word key="view_this_topic" js="0">Просмотреть тему %s</word>
   <word key="block_hotTopics" js="0">Сейчас популярно</word>
   <word key="block_hotTopics_desc" js="0">Отображает популярные темы на сайте</word>
-  <word key="block_featuredTopics" js="0">Рекомендуемые темы</word>
-  <word key="block_featuredTopics_desc" js="0">Отображает рекомендуемые темы на сайте</word>
+  <word key="block_featuredTopics" js="0">Рекомендованные темы</word>
+  <word key="block_featuredTopics_desc" js="0">Отображает рекомендованные темы на сайте</word>
   <word key="block_topicFeed" js="0">Лента тем</word>
   <word key="block_topicFeed_desc" js="0">Отображает ленту тем согласно заданным критериям</word>
   <word key="block_postFeed" js="0">Лента сообщений</word>
@@ -574,7 +574,7 @@
   <word key="__api_forums_topics" js="0">Темы</word>
   <word key="__api_forums_forums" js="0">Категории</word>
   <word key="recommend_post" js="0">Порекомендовать сообщение</word>
-  <word key="recommended_posts" js="0">Рекомендуемые сообщения</word>
+  <word key="recommended_posts" js="0">Рекомендованные сообщения</word>
   <word key="forums_simple_name_with_container" js="0"><![CDATA[От %s в <a href='%s'>%s</a>]]></word>
   <word key="forums_show_all_forums" js="0">Табличный вид</word>
   <word key="forums_show_all_forums_tooltip" js="0">Отображает таблицу категорий и разделов</word>

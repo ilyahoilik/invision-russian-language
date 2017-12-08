@@ -477,7 +477,7 @@
   <word key="mod_confirm_unlock" js="0">Открыто</word>
   <word key="mod_confirm_hide" js="0">Скрыто</word>
   <word key="mod_confirm_unhide" js="0">Отображено</word>
-  <word key="mod_confirm_feature" js="0">Рекомендуемая</word>
+  <word key="mod_confirm_feature" js="0">Рекомендованная</word>
   <word key="mod_confirm_unfeature" js="0">Обычная</word>
   <word key="mod_confirm_restore" js="0">Восстановлено</word>
   <word key="mod_confirm_restoreAsHidden" js="0">Восстановлено (скрыто)</word>
@@ -1073,7 +1073,7 @@
   <word key="select_category" js="0">Выберите категорию</word>
   <word key="more_page_options" js="0">Больше настроек</word>
   <word key="fewer_page_options" js="0">Меньше вариантов</word>
-  <word key="featured_replies" js="0">Рекомендуемые ответы</word>
+  <word key="featured_replies" js="0">Рекомендованные ответы</word>
   <word key="recommended_by" js="0">Рекомендовано %s</word>
   <word key="go_to_this_comment" js="0">Перейти к %s</word>
   <word key="add_message" js="0">Добавить сообщение</word>
@@ -1156,8 +1156,8 @@
   <word key="node_move_state" js="0">Закрыто/Открыто</word>
   <word key="node_move_pinned" js="0">Прикреплённый/Откреплённый</word>
   <word key="node_move_pinned_not_pinned" js="0">Не прикреплённый</word>
-  <word key="node_move_featured" js="0">Рекомендуемый/Не рекомендуемый</word>
-  <word key="node_move_pinned_not_featured" js="0">Не рекомендуемая</word>
+  <word key="node_move_featured" js="0">Рекомендованный/Не рекомендованный</word>
+  <word key="node_move_pinned_not_featured" js="0">Не рекомендованная</word>
   <word key="node_move_delete" js="0">Вы не можете перемещать элементы в элемент, который удаляется.</word>
   <word key="node_move_invalid" js="0">Вы не можете переместить это сюда.</word>
   <word key="permissions_adjusted_node" js="0">Права доступа для %s изменены</word>
@@ -2022,7 +2022,7 @@
   <word key="modlog__action_unhide" js="0"><![CDATA[Показано: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_pin" js="0"><![CDATA[Закреплено: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unpin" js="0"><![CDATA[Откреплено: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_feature" js="0"><![CDATA[Сделано рекомендуемым: %s <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_feature" js="0"><![CDATA[Сделано рекомендованным: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unfeature" js="0"><![CDATA[Сделано обычным: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_lock" js="0"><![CDATA[Закрыто: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unlock" js="0"><![CDATA[Открыто: %s <a href='%s'>%s</a>]]></word>
@@ -2714,7 +2714,7 @@
   <word key="sitemap_ping_bing_success" js="0">Запрос в Bing на обновление карты сайта успешно отправлен</word>
   <word key="sitemap_ping_already24" js="0">Ссылка на карту сайта уже была отправлена поисковикам за последние 24 часа (пропускаем)</word>
   <word key="sitemap_log_built" js="0">Карта сайта успешно создана %s</word>
-  <word key="sitemap_configuration_info" js="0">Использовать рекомендуемые настройки?</word>
+  <word key="sitemap_configuration_info" js="0">Использовать рекомендованные настройки?</word>
   <word key="sitemap_show_config" js="0">Изменить стандартные настройки карты сайта</word>
   <word key="sitemap_priority_generic" js="0">Приоритет</word>
   <word key="sitemap_priority_container" js="0">Приоритет</word>
@@ -3007,7 +3007,7 @@
   <word key="acplogs__poll_settings" js="0">Изменены настройки опросов</word>
   <word key="poll_guest" js="0"><![CDATA[Пожалуйста, <a href='%s'>войдите</a> или <a href='%s'>зарегистрируйтесь</a> для голосования в опросе.]]></word>
   <word key="poll_no_js" js="0">Включите JavaScript для изменения данных опроса.</word>
-  <word key="poll_is_public" js="0">Этот опрос публичный. Другие пользователи могут видеть за какой вариант вы проголосовали.</word>
+  <word key="poll_is_public" js="0">Этот опрос публичный. Другие пользователи могут видеть, за какой вариант вы проголосовали.</word>
   <word key="profile_fields" js="0">Поля профиля</word>
   <word key="pfield_group_create" js="0">Создать группу</word>
   <word key="pfield_group_title" js="0">Название группы</word>
@@ -3923,7 +3923,7 @@
   <word key="themesetting_headline_font_desc" js="0">По желанию, выберите шрифт Google Web Font для использования для заголовка сайта. По умолчанию, используется шрифт, определяемый в таблице стилей данного стиля.</word>
   <word key="themesetting_comment_count" js="0">Фон счётчика комментариев</word>
   <word key="themesetting_comment_count_font" js="0">Шрифт счётчика комментариев</word>
-  <word key="themesetting_featured_color" js="0">Цвет рекомендуемого</word>
+  <word key="themesetting_featured_color" js="0">Цвет рекомендованного</word>
   <word key="theme_set_import_button" js="0">Загрузить</word>
   <word key="theme_set_import_title" js="0">Загрузить новую версию %s</word>
   <word key="core_theme_add_image_error" js="0">Не удалось декодировать изображение &quot;%s&quot;</word>
@@ -4150,7 +4150,7 @@
   <word key="modperms__core_Content" js="0">Содержимое</word>
   <word key="can_pin_content" js="0">Может закреплять публикации</word>
   <word key="can_unpin_content" js="0">Может откреплять публикации</word>
-  <word key="can_feature_content" js="0">Может отмечать публикации рекомендуемыми</word>
+  <word key="can_feature_content" js="0">Может отмечать публикации рекомендованными</word>
   <word key="can_unfeature_content" js="0">Может отмечать все публикации обычными</word>
   <word key="can_edit_content" js="0">Может изменять публикации</word>
   <word key="can_hide_content" js="0">Может скрывать публикации</word>
@@ -4192,7 +4192,7 @@
   <word key="can_close_polls" js="0">Может закрывать опросы</word>
   <word key="can_close_polls_desc" js="0">Позволяет закрывать опросы, но оставлять темы открытыми.</word>
   <word key="can_remove_reactions" js="0">Может удалять реакции</word>
-  <word key="can_feature_comments_content" js="0">Может отмечать комментарии рекомендуемыми</word>
+  <word key="can_feature_comments_content" js="0">Может отмечать комментарии рекомендованными</word>
   <word key="can_unfeature_comments_content" js="0">Может отмечать комментарии обычными</word>
   <word key="can_add_item_message_content" js="0">Может добавлять сообщения</word>
   <word key="can_edit_item_message_content" js="0">Может изменять сообщения</word>
@@ -6434,9 +6434,9 @@
   <word key="no_edit_history" js="0">Здесь нет истории для отображения или этот комментарий был изменён модератором</word>
   <word key="feature_mod_note" js="0">Примечание модератора</word>
   <word key="feature_mod_note_desc" js="0">Краткое примечание об этой публикации, которое будет отображаться пользователям.</word>
-  <word key="this_is_a_featured_post" js="0">Рекомендуемый комментарий</word>
+  <word key="this_is_a_featured_post" js="0">Рекомендованный комментарий</word>
   <word key="recommended" js="0">Рекомендовано</word>
-  <word key="recommended_replies" js="0">Рекомендуемые комментарии</word>
+  <word key="recommended_replies" js="0">Рекомендованные комментарии</word>
   <word key="recommend_content" js="0">Порекомендовать</word>
   <word key="unrecommend_content" js="0">Удалить рекомендацию</word>
   <word key="recommend_comment" js="0">Порекомендовать комментарий</word>
@@ -6477,7 +6477,7 @@
   <word key="widget_feed_status" js="0">Фильтры</word>
   <word key="widget_feed_status_locked" js="0">Статус</word>
   <word key="widget_feed_status_pinned" js="0">Закреплена</word>
-  <word key="widget_feed_status_featured" js="0">Рекомендуемая</word>
+  <word key="widget_feed_status_featured" js="0">Рекомендованная</word>
   <word key="mod_confirm_either" js="0">Неважно</word>
   <word key="widget_feed_author" js="0">Авторы</word>
   <word key="widget_feed_author_desc" js="0">Если задано, то будут отображаться публикации только от выбранных пользователей.</word>
@@ -6493,7 +6493,7 @@
   <word key="widget_feed_tags_desc" js="0">При вводе нескольких тегов они должны образовывать строку.</word>
   <word key="widget_feed_item_status_locked" js="0">%s - Статус</word>
   <word key="widget_feed_item_status_pinned" js="0">%s - Закреплено</word>
-  <word key="widget_feed_item_status_featured" js="0">%s - Рекомендуемая</word>
+  <word key="widget_feed_item_status_featured" js="0">%s - Рекомендованная</word>
   <word key="widget_feed_comment_status_visible" js="0">Видимость комментариев</word>
   <word key="widget_feed_item_author" js="0">%s - Автор</word>
   <word key="widget_feed_item_min_posts" js="0">Минимум сообщений</word>
@@ -6731,11 +6731,11 @@
   <word key="md5_fail_download_2" js="0">После загрузки, нажмите на кнопку ниже, чтобы вернуться к диагностике.</word>
   <word key="requirements_check_ok" js="0">Проверка системы пройдена</word>
   <word key="requirements_check_fail" js="0">Возникла проблема с вашим сервером</word>
-  <word key="recommendations_check_ok" js="0">Рекомендуемые изменения не найдены</word>
+  <word key="recommendations_check_ok" js="0">Рекомендованные изменения не найдены</word>
   <word key="recommendations_check_fail" js="0">Есть некоторые необязательные изменения, которые мы рекомендуем произвести</word>
-  <word key="recommendations_check_link" js="0">Просмотреть рекомендуемые изменения</word>
+  <word key="recommendations_check_link" js="0">Просмотреть рекомендованные изменения</word>
   <word key="requirements_check_link" js="0">Просмотреть требуемые изменения</word>
-  <word key="requirements_check_link_rec" js="0">Просмотреть обязательные и рекомендуемые изменения</word>
+  <word key="requirements_check_link_rec" js="0">Просмотреть обязательные и рекомендованные изменения</word>
   <word key="connection_check_ok" js="0">Внешние соединения работают</word>
   <word key="connection_check_fail" js="0">Внешние соединения не работают</word>
   <word key="server_time_ok" js="0">Время сервера является точным</word>
@@ -7637,8 +7637,8 @@
   <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank'>интеграция с Google Maps</a>, то на главной странице клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
   <word key="club_location" js="0">Местоположение</word>
   <word key="modperms__core_Clubs" js="0">Клубы</word>
-  <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендуемыми/обычными</word>
-  <word key="featured_clubs" js="0">Наши рекомендуемые клубы</word>
+  <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендованными/обычными</word>
+  <word key="featured_clubs" js="0">Наши рекомендованные клубы</word>
   <word key="clubs_activity_joined" js="0">%s вступил в клуб</word>
   <word key="club_about" js="0">Описание</word>
   <word key="clubs_default_sort" js="0">Стандартная сортировка клубов на главной</word>
@@ -7649,7 +7649,7 @@
   <word key="clubs_sort_name" js="0">Название</word>
   <word key="task__clubrebuild" js="0">Пересчитывает данные в клубах для сортировки.</word>
   <word key="club_home" js="0">Главная</word>
-  <word key="club_feature" js="0">Сделать этот клуб рекомендуемым</word>
+  <word key="club_feature" js="0">Сделать этот клуб рекомендованным</word>
   <word key="club_unfeature" js="0">Сделать этот клуб обычным</word>
   <word key="club_youre_invited" js="0">Вы были приглашены!</word>
   <word key="club_youre_invited_desc" js="0">%s является участником этого клуба и пригласил вас вступить в него.</word>
@@ -7754,7 +7754,7 @@
   <word key="editor__core_Meta" js="0">Метаданные публикации</word>
   <word key="complete_your_profile" js="0">Заполните свой профиль</word>
   <word key="required_fields" js="0">Необходимая информация</word>
-  <word key="suggested_fields" js="0">Рекомендуемая информация</word>
+  <word key="suggested_fields" js="0">Рекомендованная информация</word>
   <word key="other_actions" js="0">Другие действия</word>
   <word key="profile_acp_table_step_extension" js="0">Шаг</word>
   <word key="profile_completion_items" js="0">Шаги заполнения профиля</word>

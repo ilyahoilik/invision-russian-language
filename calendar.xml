@@ -91,7 +91,7 @@
   <word key="calendar_calendars" js="0">Календари</word>
   <word key="can_pin_calendar_event" js="0">Может закреплять события</word>
   <word key="can_unpin_calendar_event" js="0">Может откреплять события</word>
-  <word key="can_feature_calendar_event" js="0">Может отмечать события рекомендуемыми</word>
+  <word key="can_feature_calendar_event" js="0">Может отмечать события рекомендованными</word>
   <word key="can_unfeature_calendar_event" js="0">Может отмечать события обычными</word>
   <word key="can_move_calendar_event" js="0">Может перемещать события</word>
   <word key="can_move_calendar_event_desc" js="0">Сможет перемещать события только между календарями, в которых он может создавать новые публикации.</word>
@@ -200,7 +200,7 @@
   <word key="event_dates" js="0">Дата</word>
   <word key="rsvp" js="0">участник</word>
   <word key="event_rsvp" js="0">Подтверждение участия</word>
-  <word key="event_rsvp_desc" js="0">При принятии приглашения на событие, у пользователей будет запрошено подтверждение, а также они смогут видеть список пользователей, принявших приглашение на событие. Для повторяющихся событий применяется к каждому из них.</word>
+  <word key="event_rsvp_desc" js="0">Требовать у пользователя подтверждение участия. Список подтвердивших участие будет доступен всем участникам. Для повторяющихся событий применяется к каждому из них.</word>
   <word key="event_to" js="0">в</word>
   <word key="event_all_day" js="0">Весь день</word>
   <word key="event_repeat" js="0">Повторять</word>
@@ -251,7 +251,7 @@
   <word key="you_are_not_going_to_this" js="0">Вы не придёте на это событие</word>
   <word key="rsvp_change" js="0">Изменить ответ</word>
   <word key="confirm_attendance" js="0">Подтвердить участие</word>
-  <word key="featured_events" js="0">Рекомендуемые события</word>
+  <word key="featured_events" js="0">Рекомендованные события</word>
   <word key="end_date_before_start" js="0">Пожалуйста, выберите дату окончания события</word>
   <word key="invalid_start_date" js="0">Указанная дата начала недействительна</word>
   <word key="invalid_end_date" js="0">Указанная дата окончания недействительна</word>
@@ -323,7 +323,7 @@
   <word key="event_locked_cannot_comment" js="0">Это событие закрыто для комментирования.</word>
   <word key="event_images" js="0">Изображения с этого события</word>
   <word key="event_move_title" js="0">Переместить событие</word>
-  <word key="feature_title_event" js="0">Сделать это событие рекомендуемым</word>
+  <word key="feature_title_event" js="0">Сделать это событие рекомендованным</word>
   <word key="unfeature_title_event" js="0">Сделать это событие обычным</word>
   <word key="pin_title_event" js="0">Закрепить событие</word>
   <word key="unpin_title_event" js="0">Открепить это событие</word>
@@ -431,7 +431,7 @@
   <word key="venues" js="0">Места</word>
   <word key="venue_title" js="0">Название места</word>
   <word key="event_venue" js="0">Место</word>
-  <word key="venues_not_listed" js="0">Место не указано</word>
+  <word key="venues_not_listed" js="0">Указать место вручную</word>
   <word key="venue_address" js="0">Адрес</word>
   <word key="r__venues" js="0">Места</word>
   <word key="r__venues_manage" js="0">Может управлять местами</word>

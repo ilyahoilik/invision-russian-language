@@ -139,7 +139,7 @@
   <word key="gallery_categories" js="0">Категории</word>
   <word key="can_pin_gallery_image" js="0">Может закреплять изображения</word>
   <word key="can_unpin_gallery_image" js="0">Может откреплять изображения</word>
-  <word key="can_feature_gallery_image" js="0">Может отмечать изображения рекомендуемыми</word>
+  <word key="can_feature_gallery_image" js="0">Может отмечать изображения рекомендованными</word>
   <word key="can_unfeature_gallery_image" js="0">Может отмечать изображения обычными</word>
   <word key="can_move_gallery_image" js="0">Может перемещать изображения</word>
   <word key="can_move_gallery_image_desc" js="0">Сможет перемещать изображения только между категориями, в которых он может создавать новые публикации.</word>
@@ -156,7 +156,7 @@
   <word key="can_unhide_gallery_image_comment" js="0">Может отменять скрытие комментариев</word>
   <word key="can_view_hidden_gallery_image_comment" js="0">Может просматривать скрытые комментарии</word>
   <word key="can_delete_gallery_image_comment" js="0">Может удалять комментарии</word>
-  <word key="can_feature_gallery_album" js="0">Может отмечать альбомы рекомендуемыми</word>
+  <word key="can_feature_gallery_album" js="0">Может отмечать альбомы рекомендованными</word>
   <word key="can_unfeature_gallery_album" js="0">Может отмечать альбомы обычными</word>
   <word key="can_edit_gallery_album" js="0">Может изменять альбомы</word>
   <word key="can_hide_gallery_album" js="0">Может скрывать альбомы</word>
@@ -275,7 +275,7 @@
   <word key="set_image_as" js="0">Установить как</word>
   <word key="loc_gallery_browsing" js="0">Просматривает галерею</word>
   <word key="loc_gallery_browsing_categories" js="0">Просматривает категории галереи</word>
-  <word key="featured_images" js="0">Рекомендуемые изображения</word>
+  <word key="featured_images" js="0">Рекомендованные изображения</word>
   <word key="new_images" js="0">Новые изображения</word>
   <word key="new_image_comments_notification" js="0">Уведомлять меня о комментариях на это изображение</word>
   <word key="images_no_number" js="0">{!# [0:изображений][1:изображение][2:изображения][3:изображения][4:изображения][11:изображений][12:изображений][13:изображений][14:изображений][*1:изображение][*2:изображения][*3:изображения][*4:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]}</word>
@@ -351,7 +351,7 @@
   <word key="in_album" js="0">В альбоме:</word>
   <word key="image__save" js="0">Сохранить изображение</word>
   <word key="gallery_move_title" js="0">Переместить это изображение</word>
-  <word key="feature_title_image" js="0">Сделать это изображение рекомендуемым</word>
+  <word key="feature_title_image" js="0">Сделать это изображение рекомендованным</word>
   <word key="unfeature_title_image" js="0">Сделать это изображение обычным</word>
   <word key="pin_title_image" js="0">Закрепить это изображение</word>
   <word key="unpin_title_image" js="0">Открепить это изображение</word>
@@ -362,7 +362,7 @@
   <word key="approve_title_image" js="0">Утвердить изображение</word>
   <word key="delete_title_image" js="0">Удалить это </word>
   <word key="galleryalbum_move_title" js="0">Переместить этот альбом</word>
-  <word key="feature_title_album" js="0">Сделать этот альбом рекомендуемым</word>
+  <word key="feature_title_album" js="0">Сделать этот альбом рекомендованным</word>
   <word key="unfeature_title_album" js="0">Сделать этот альбом обычным</word>
   <word key="hide_title_album" js="0">Скрыть этот альбом</word>
   <word key="unhide_title_album" js="0">Отменить скрытие этого альбома</word>
