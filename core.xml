@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102037">
+ <app key="core" version="102039">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -4692,7 +4692,7 @@
   <word key="guest_terms_options" js="0">Настройки гостей</word>
   <word key="guest_terms_bar" js="0">Отображать гостям условия предоставления услуг</word>
   <word key="guest_terms_bar_text" js="0">Текст для отображения</word>
-  <word key="guest_terms_bar_text_desc" js="0"><![CDATA[По желанию вы можете использовать следующие теги:<br><ul class='ipsList_bullets ipsSpacer_top ipsSpacer_half'><li><code>{terms}</code> для вставки ссылки на страницу условий регистрации</li><li><code>{privacy}</code> для вставки ссылки на страницу политики конфиденциальности</li><li><code>{guidelines}</code> для вставки ссылки на страницу правил</li></ul>]]></word>
+  <word key="guest_terms_bar_text_desc" js="0"><![CDATA[По желанию вы можете использовать следующие теги:<br><ul class='ipsList_bullets ipsSpacer_top ipsSpacer_half'><li><code>{terms}</code> для вставки ссылки на страницу условий регистрации</li><li><code>{privacy}</code> для вставки ссылки на страницу политики конфиденциальности</li><li><code>{guidelines}</code> для вставки ссылки на страницу правил</li><li><code>{cookies}</code> для вставки предупреждения об использовании cookie</li></ul>]]></word>
   <word key="guest_terms_title" js="0">Важная информация</word>
   <word key="guest_terms_close" js="0">Я принимаю</word>
   <word key="acplogs__terms_edited" js="0">Изменены условия регистрации, политика конфиденциальности и руководства</word>
@@ -7325,12 +7325,12 @@
   <word key="leader_position" js="0">Позиция</word>
   <word key="leader_rep_total_likes" js="0">Всего лайков</word>
   <word key="leader_rep_total_rep" js="0">Общая репутация</word>
-  <word key="leader_position_1" js="0">Первый</word>
-  <word key="leader_position_1_short" js="0">1-ый</word>
-  <word key="leader_position_2" js="0">Второй</word>
-  <word key="leader_position_2_short" js="0">2-ой</word>
-  <word key="leader_position_3" js="0">Третий</word>
-  <word key="leader_position_3_short" js="0">3-ий</word>
+  <word key="leader_position_1" js="0">Первое</word>
+  <word key="leader_position_1_short" js="0">1-е</word>
+  <word key="leader_position_2" js="0">Второе</word>
+  <word key="leader_position_2_short" js="0">2-е</word>
+  <word key="leader_position_3" js="0">Третье</word>
+  <word key="leader_position_3_short" js="0">3-е</word>
   <word key="leaderboard_tab_reputation" js="0">По репутации</word>
   <word key="leaderboard_tab_posts" js="0">По публикациям</word>
   <word key="leaderboard_tab_x" js="0">По %s</word>
@@ -8374,5 +8374,17 @@
  с поддержкой</a> для получения дополнительной информации.]]></word>
   <word key="history_enabled_admin_mails" js="0">Подписался на новости и информацию</word>
   <word key="history_disabled_admin_mails" js="0">Отписался от новостей и информации</word>
+  <word key="cookies_message" js="0"><![CDATA[Чтобы сделать этот веб-сайт лучше, мы разместили <a href="%s">cookies</a> на вашем устройстве. Вы можете <a href="%s">изменить свои настройки cookies</a>, в противном случае мы будем считать, что вы согласны с этим.]]></word>
+  <word key="cookies_about" js="0">Cookies</word>
+  <word key="loc_viewing_cookie_policy" js="0">Просматривает страницу политики cookies</word>
+  <word key="cookies_about_header" js="0">Cookies – это небольшие текстовые файлы, которые сохраняются на вашем компьютере посещаемыми вами веб-сайтами. Они широко используются для работы веб-сайта, или его более эффективной работы, а также предоставления информации владельцу сайта. В зависимости от уровня вашего доступа и ваших действий на сайте, могут быть установлены различные файлы cookies для улучшения взаимодействия с сайтом. Эти cookies используются для запоминания ваших настроек стиля, языка, а также маркеров публикаций.</word>
+  <word key="cookies_change_header" js="0">Как я могу изменить свои настройки cookies?</word>
+  <word key="cookies_change_text" js="0"><![CDATA[Большинство веб-браузеров позволяют контролировать большинство cookies через свои настройки. Чтобы подробнее узнать о том, что такое cookies, какие cookies были установлены, как управлять и удалять их, посетите <a href="https://www.aboutcookies.org">www.aboutcookies.org</a> или <a href="http://www.allaboutcookies.org">www.allaboutcookies.org</a>.<br>Чтобы отказаться от отслеживания Google Analytics на всех веб-сайтах, посетите <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>.]]></word>
+  <word key="cookie_session_front" js="0">Данная cookie содержит информацию о вашей текущей сессии.</word>
+  <word key="cookie_member_id" js="0">Ваш идентификатор пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
+  <word key="cookie_login_key" js="0">Уникальный ключ для аутентификации вашего идентификатора пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
+  <word key="cookies_third_party" js="0">Сторонние Cookies</word>
+  <word key="cookies_third_party_desc" js="0">Владелец сайта может установить иные cookies в дополнение к стандартным cookies выше. Эти cookies часто используются сайтом для отслеживания его использования или устанавливаются при просмотре встроенной публикации из других сервисов, таких как YouTube, Vimeo и так далее.</word>
+  <word key="cookies_standard" js="0">Стандартные Cookies</word>
  </app>
 </language>
