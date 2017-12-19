@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102039">
+ <app key="core" version="102040">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -8386,5 +8386,7 @@
   <word key="cookies_third_party" js="0">Сторонние Cookies</word>
   <word key="cookies_third_party_desc" js="0">Владелец сайта может установить иные cookies в дополнение к стандартным cookies выше. Эти cookies часто используются сайтом для отслеживания его использования или устанавливаются при просмотре встроенной публикации из других сервисов, таких как YouTube, Vimeo и так далее.</word>
   <word key="cookies_standard" js="0">Стандартные Cookies</word>
+  <word key="history_terms_accepted_privacy" js="0">Согласился с политикой конфиденциальности</word>
+  <word key="history_terms_accepted_terms" js="0">Согласился с правилами и условиями</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102039">
+ <app key="nexus" version="102040">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
