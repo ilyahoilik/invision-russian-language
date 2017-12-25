@@ -2888,7 +2888,7 @@
   <word key="like_blurb_others_secondary" js="0">и ещё {!# [?:#]}...</word>
   <word key="react_blurb_just_you" js="0">Вы отреагировали на это</word>
   <word key="react_blurb_you_and_others" js="0">Вы</word>
-  <word key="react_blurb" js="0">%s {!# [1:%s отреагировал][?:%s отреагировали]} на это</word>
+  <word key="react_blurb" js="0">%s {!# [1:отреагировал][?:отреагировали]} на это</word>
   <word key="react_blurb_generic" js="0">{# [0:человек][1:человек][2:человека][3:человека][4:человека][11:человек][12:человек][13:человек][14:человек][*1:человек][*2:человека][*3:человека][*4:человека][*11:человек][*12:человек][*13:человек][*14:человек][?:человек]}</word>
   <word key="react_blurb_you" js="0">Вы</word>
   <word key="react_blurb_others" js="0">{# [0:других][1:другой][*1:другой][?:других]}</word>
