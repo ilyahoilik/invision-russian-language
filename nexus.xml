@@ -2735,8 +2735,8 @@
   <word key="menu__nexus_reports" js="0">Продажи</word>
   <word key="menu__nexus_reports_purchases" js="0">Продажи</word>
   <word key="purchases" js="0">Покупки</word>
-  <word key="menu__nexus_reports_markets" js="0">Продажи</word>
-  <word key="nexus_report_count" js="0">Всего продаж</word>
+  <word key="menu__nexus_reports_markets" js="0">Рынок</word>
+  <word key="nexus_report_count" js="0">Все продажи</word>
   <word key="nexus_report_income" js="0">Доход %s</word>
   <word key="nexus_report_income_by_method" js="0">Доход %s по способу оплаты</word>
   <word key="menu__nexus_reports_income" js="0">Доход</word>

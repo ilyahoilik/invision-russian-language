@@ -18,8 +18,8 @@
   <word key="menu__gallery_gallery_categories" js="0">Категории</word>
   <word key="menu__gallery_gallery_albums" js="0">Альбомы</word>
   <word key="menu__gallery_stats" js="0">Галерея</word>
-  <word key="menu__gallery_stats_diskspace" js="0">Топ загружающих</word>
-  <word key="menu__gallery_stats_bandwidth" js="0">Использовано трафика</word>
+  <word key="menu__gallery_stats_diskspace" js="0">Топ авторов</word>
+  <word key="menu__gallery_stats_bandwidth" js="0">Использование трафика</word>
   <word key="menu__gallery_gallery_settings" js="0">Настройки</word>
   <word key="image" js="0">Изображение</word>
   <word key="gallery_image" js="0">Изображение галереи</word>

@@ -408,7 +408,7 @@
   <word key="downloadS_stat_average_of_total" js="0">%d% от общего числа; в среднем на всех пользователей: %d</word>
   <word key="download_stats_disclaimer" js="0">Статистика формируется на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
   <word key="download_graph_disclaimer" js="0">Эти данные формируются на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
-  <word key="menu__downloads_stats_downloads" js="0">Файлы</word>
+  <word key="menu__downloads_stats_downloads" js="0">Скачивания</word>
   <word key="menu__downloads_stats_downloaders" js="0">Топ скачивающих</word>
   <word key="menu__downloads_stats_submitters" js="0">Топ авторов</word>
   <word key="r__downloads" js="0">Статистика скачиваний</word>
