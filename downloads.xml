@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="102040">
+ <app key="downloads" version="102041">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -137,11 +137,6 @@
   <word key="can_edit_item_message_downloads_file" js="0">Может изменять сообщения к файлам</word>
   <word key="can_delete_item_message_downloads_file" js="0">Может удалять сообщения к файлам</word>
   <word key="menu__downloads_downloads_fields" js="0">Дополнительные поля</word>
-  <word key="r__fields" js="0">Дополнительные поля</word>
-  <word key="r__fields_manage" js="0">Может просматривать дополнительные поля</word>
-  <word key="r__fields_add" js="0">Может создавать дополнительные поля</word>
-  <word key="r__fields_edit" js="0">Может изменять дополнительные поля</word>
-  <word key="r__fields_delete" js="0">Может удалять дополнительные поля</word>
   <word key="cf_topic" js="0">Добавлять поле в тему поддержки</word>
   <word key="menu__downloads_downloads_settings" js="0">Настройки</word>
   <word key="acplogs__downloads_settings" js="0">Обновлены настройки файлов</word>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102040">
+ <app key="cms" version="102041">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -640,6 +640,7 @@
   <word key="database_forum_record__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='Перестроить синхронизированное содержимое темы'>Перестроить синхронизированное содержимое темы</a>.]]></word>
   <word key="database_forum_comments" js="0">Использовать для комментариев</word>
   <word key="database_forum_comments_desc" js="0">Комментарии будут публиковаться как сообщения. Если вы измените метод хранения комментариев, существующие комментарии отображаться не будут. Комментарии не будут скопированы в темы или во внешнюю базу данных при изменении этой опции.</word>
+  <word key="database_forum_comments__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='Перестроить счётчики комментариев'>Перестроить счётчики комментариев</a>.]]></word>
   <word key="database_forum_forum" js="0">Раздел</word>
   <word key="database_forum_prefix" js="0">Префикс темы</word>
   <word key="database_forum_suffix" js="0">Суффикс темы</word>
@@ -724,6 +725,8 @@
   <word key="database_rebuild_topics_desc" js="0">Этот инструмент добавить фоновую задачу на повторную синхронизацию содержимого первого сообщения в темах, созданных этой базой данных. Он также создаст темы для записей, если они в настоящий момент не существуют.</word>
   <word key="database_rebuild_topics_button" js="0">Продолжить</word>
   <word key="database_rebuild_added" js="0">Задача на перестроение была добавлена в очередь.</word>
+  <word key="database_rebuild_commentcount_desc" js="0">Этот инструмент создаст фоновую задачу на пересчёт количества комментариев и отзывов в каждой публикации.</word>
+  <word key="database_rebuild_commentcount_button" js="0">Продолжить</word>
   <word key="menu__cms_pages_media" js="0">Медиа</word>
   <word key="r__media" js="0">Медиа</word>
   <word key="r__media_manage" js="0">Просматривать медиа</word>
@@ -944,6 +947,7 @@
   <word key="record_category_id" js="0">Категория</word>
   <word key="copy_comments" js="0">Копировать сообщения?</word>
   <word key="copy_comments_desc" js="0">Если вы выбираете &quot;Да&quot;, то все сообщении из темы будут также скопированы и добавлены в качестве комментариев в новой %s</word>
+  <word key="copy_comments_assoc_desc" js="0">Включение этой настройки свяжет новую %s с существующей темой, что приведёт к трактованию существующих сообщений как комментариев к %s</word>
   <word key="copy_author" js="0">Использовать оригинального автора</word>
   <word key="copy_author_desc" js="0">Если вы выбираете &quot;Да&quot;, то автором новой %s станет автор темы. В противном случае, будет использоваться ваш аккаунт.</word>
   <word key="copying_comments" js="0">Копирование комментариев...</word>
@@ -958,9 +962,5 @@
   <word key="mediaErrorDeleting" js="1">Возникла ошибка при удалении {!# [1:этого файла][?:этих файлов]}</word>
   <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
-  <word key="copy_comments_assoc_desc" js="0">Включение этой настройки свяжет новую %s с существующей темой, что приведёт к трактованию существующих сообщений как комментариев к %s</word>
-  <word key="database_forum_comments__rebuild" js="0"><![CDATA[<a href='%s' data-ipsDialog data-ipsDialog-title='Перестроить счётчики комментариев'>Перестроить счётчики комментариев</a>.]]></word>
-  <word key="database_rebuild_commentcount_desc" js="0">Этот инструмент создаст фоновую задачу на пересчёт количества комментариев и отзывов в каждой публикации.</word>
-  <word key="database_rebuild_commentcount_button" js="0">Продолжить</word>
  </app>
 </language>
