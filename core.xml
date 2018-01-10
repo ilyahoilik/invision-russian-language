@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="102041">
+ <app key="core" version="102042">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -333,7 +333,7 @@
   <word key="editor__core_Reports" js="0">Жалобы</word>
   <word key="editor__core_ShareLinks" js="0">Публикация ссылок</word>
   <word key="editor__core_Signatures" js="0">Подписи</word>
-  <word key="editor__core_Staffdirectory" js="0">Список администрации</word>
+  <word key="editor__core_Staffdirectory" js="0">Наша команда</word>
   <word key="editor__core_CustomField" js="0">Поля профиля</word>
   <word key="editor__core_Announcement" js="0">Объявления</word>
   <word key="image_size" js="0">Размер</word>
@@ -2363,13 +2363,13 @@
   <word key="group_viewing_title" js="0">Отображение</word>
   <word key="g_upload_animated_photos" js="0">Разрешить анимированные аватары</word>
   <word key="g_view_displaynamehistory" js="0">Может просматривать историю имён пользователей</word>
-  <word key="r__leaders" js="0">Список администрации</word>
-  <word key="r__leaders_manage" js="0">Может просматривать список администрации</word>
-  <word key="r__leaders_add" js="0">Может добавлять пользователей в список администрации</word>
+  <word key="r__leaders" js="0">Наша команда</word>
+  <word key="r__leaders_manage" js="0">Может просматривать нашу команду</word>
+  <word key="r__leaders_add" js="0">Может добавлять пользователей в нашу команду</word>
   <word key="r__leaders_edit" js="0">Может изменять пользователей в списке администрации</word>
   <word key="r__leaders_delete" js="0">Может удалять пользователей из списка администрации</word>
-  <word key="menu__core_staff_directory" js="0">Список администрации</word>
-  <word key="staff_directory" js="0">Список администрации</word>
+  <word key="menu__core_staff_directory" js="0">Наша команда</word>
+  <word key="staff_directory" js="0">Наша команда</word>
   <word key="staff_group_title" js="0">Заголовок</word>
   <word key="staff_group_template" js="0">Макет</word>
   <word key="staff_group_template_desc" js="0"><![CDATA[<a href='{external.staffgrouptemplates}' target='_blank'>Создать макет</a>]]></word>
@@ -2385,7 +2385,7 @@
   <word key="leader_custom_title_custom" js="0">Я введу другое звание для отображения</word>
   <word key="leader_custom_bio" js="0">Биография</word>
   <word key="leader_edit_mine" js="0">Изменить информацию</word>
-  <word key="staff" js="0">Администрация</word>
+  <word key="staff" js="0">Наша команда</word>
   <word key="staff_add_group" js="0">Создать категорию</word>
   <word key="staff_add_record" js="0">Добавить группу или пользователя</word>
   <word key="leader_type" js="0">Тип</word>
@@ -2394,7 +2394,7 @@
   <word key="leader_type_group" js="0">Группа</word>
   <word key="leader_type_group_desc" js="0">Будет добавлена вся группа пользователей и список будет автоматически обновляться при добавлении или удалении новых пользователей, но пользователи не смогут настроить своё имя, заголовок и биографию.</word>
   <word key="leader_type_desc" js="0">Если пользователь и группа этого пользователя находятся в одной категории, они будут отображены единожды.</word>
-  <word key="only_one_leader" js="0">Вы уже добавили эту группу или пользователя в список администрации</word>
+  <word key="only_one_leader" js="0">Вы уже добавили эту группу или пользователя в нашу команду</word>
   <word key="ranks" js="0">Управление званиями</word>
   <word key="member_ranks_word_custom" js="0">Заголовок</word>
   <word key="member_ranks_posts" js="0">Минимум публикаций</word>
@@ -3099,7 +3099,7 @@
   <word key="module__core_online" js="0">Пользователи в сети</word>
   <word key="module__core_reports" js="0">Центр жалоб</word>
   <word key="module__core_staff" js="0">Администрация</word>
-  <word key="module__core_staffdirectory" js="0">Список администрации</word>
+  <word key="module__core_staffdirectory" js="0">Наша команда</word>
   <word key="module__core_logs" js="0">Журналы</word>
   <word key="module__core_applications" js="0">Возможности</word>
   <word key="module__core_system" js="0">Система</word>
