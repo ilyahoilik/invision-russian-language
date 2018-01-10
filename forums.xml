@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="102034">
+ <app key="forums" version="102042">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -218,7 +218,6 @@
   <word key="archive_topic_state" js="0">Закрытые/Открытые</word>
   <word key="unlocked" js="0">Открытые</word>
   <word key="archive_topic_approved" js="0">Скрытые/Не скрытые</word>
-  <word key="unhidden" js="0">Показываемые</word>
   <word key="archive_topic_poll" js="0">Опросы</word>
   <word key="topic_has_poll" js="0">Имеется опрос</word>
   <word key="topic_does_not_have_poll" js="0">Без опроса</word>
@@ -534,7 +533,7 @@
   <word key="view_this_topic" js="0">Просмотреть тему %s</word>
   <word key="block_hotTopics" js="0">Сейчас популярно</word>
   <word key="block_hotTopics_desc" js="0">Отображает популярные темы на сайте</word>
-  <word key="block_featuredTopics" js="0">Рекомендрванные темы</word>
+  <word key="block_featuredTopics" js="0">Рекомендованные темы</word>
   <word key="block_featuredTopics_desc" js="0">Отображает рекомендованные темы на сайте</word>
   <word key="block_topicFeed" js="0">Лента тем</word>
   <word key="block_topicFeed_desc" js="0">Отображает ленту тем согласно заданным критериям</word>

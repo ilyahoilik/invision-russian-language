@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102034">
+ <app key="nexus" version="102042">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -868,6 +868,7 @@
   <word key="edit_note" js="0">Изменить примечание</word>
   <word key="void_account" js="0">Аннулировать аккаунт</word>
   <word key="void_refund_transactions" js="0">Вернуть все транзакции</word>
+  <word key="void_cancel_billing_agreements" js="0">Отменить все регулярные платежи?</word>
   <word key="void_cancel_purchases" js="0">Отменить все покупки</word>
   <word key="void_cancel_invoices" js="0">Отменить все неоплаченные счета?</word>
   <word key="void_resolve_support" js="0">Пометить все запросы в поддержку решёнными?</word>
@@ -1345,6 +1346,7 @@
   <word key="hosting_info" js="0">Хостинг</word>
   <word key="show_fewer_rows" js="0">Показать меньше строк</word>
   <word key="show_x_rows" js="0">Показать ещё {# [0:строк][1:строку][2:строки][3:строки][4:строки][11:строк][12:строк][13:строк][14:строк][*1:строку][*2:строки][*3:строки][*4:строки][*11:строк][*12:строк][*13:строк][*14:строк][?:строк]}</word>
+  <word key="note_added_sent_to" js="0">Ваше примечание было добавлено и запрос был отправлен в %s.</word>
   <word key="menu__nexus_support_settings" js="0">Настройки</word>
   <word key="support_settings" js="0">Настройка поддержки</word>
   <word key="departments" js="0">Отделы</word>
@@ -2735,8 +2737,8 @@
   <word key="menu__nexus_reports" js="0">Продажи</word>
   <word key="menu__nexus_reports_purchases" js="0">Продажи</word>
   <word key="purchases" js="0">Покупки</word>
-  <word key="menu__nexus_reports_markets" js="0">Продажи</word>
-  <word key="nexus_report_count" js="0">Всего продаж</word>
+  <word key="menu__nexus_reports_markets" js="0">Рынок</word>
+  <word key="nexus_report_count" js="0">Все продажи</word>
   <word key="nexus_report_income" js="0">Доход %s</word>
   <word key="nexus_report_income_by_method" js="0">Доход %s по способу оплаты</word>
   <word key="menu__nexus_reports_income" js="0">Доход</word>
@@ -2933,6 +2935,7 @@
   <word key="__api_nexus_lkey" js="0">Лицензионные ключи</word>
   <word key="support_request_pl" js="0">Запросы в поддержку</word>
   <word key="support_request_pl_lc" js="0">запросы в поддержку</word>
+  <word key="moving_customer_history" js="0">Перемещение истории клиента в историю пользователя</word>
   <word key="MFA_nexus_AccountCredit" js="0">Просматривает баланс аккаунта, пополняет или выводит средства</word>
   <word key="MFA_nexus_Addresses" js="0">Управляет адресами</word>
   <word key="MFA_nexus_Alternatives" js="0">Управляет альтернативными контактами</word>
@@ -2972,8 +2975,5 @@
   <word key="store_currency_change_warning" js="1">Если вы измените валюту, то вы потеряете все товары в вашей корзине.</word>
   <word key="cmd_and_enter" js="1">⌘⏎</word>
   <word key="ctrl_and_enter" js="1">Ctrl+Enter</word>
-  <word key="moving_customer_history" js="0">Перемещение истории клиента в историю пользователя</word>
-  <word key="note_added_sent_to" js="0">Ваше примечание было добавлено и запрос был отправлен в %s.</word>
-  <word key="void_cancel_billing_agreements" js="0">Отменить все регулярные платежи?</word>
  </app>
 </language>

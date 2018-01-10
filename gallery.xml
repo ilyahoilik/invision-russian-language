@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="102034">
+ <app key="gallery" version="102042">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -14,12 +14,13 @@
   <word key="__defart_gallery_album" js="0">альбом в галерее</word>
   <word key="module__gallery_stats" js="0">Статистика</word>
   <word key="search_contextual_item_gallery_image" js="0">В этом изображении</word>
+  <word key="album_user_own_activity_item" js="0">%s добавил изображения в %s в</word>
   <word key="menu__gallery_gallery" js="0">Галерея</word>
   <word key="menu__gallery_gallery_categories" js="0">Категории</word>
   <word key="menu__gallery_gallery_albums" js="0">Альбомы</word>
   <word key="menu__gallery_stats" js="0">Галерея</word>
-  <word key="menu__gallery_stats_diskspace" js="0">Топ загружающих</word>
-  <word key="menu__gallery_stats_bandwidth" js="0">Использовано трафика</word>
+  <word key="menu__gallery_stats_diskspace" js="0">Топ авторов</word>
+  <word key="menu__gallery_stats_bandwidth" js="0">Использование трафика</word>
   <word key="menu__gallery_gallery_settings" js="0">Настройки</word>
   <word key="image" js="0">Изображение</word>
   <word key="gallery_image" js="0">Изображение галереи</word>
@@ -319,6 +320,7 @@
   <word key="gallery_no_metadata" js="0">В изображении нет метаданных</word>
   <word key="view_all_photo_info" js="0">Просмотреть всю EXIF-информацию фото</word>
   <word key="view_photo_info" js="0">Просмотреть EXIF информацию фото</word>
+  <word key="gallery_images_no_more" js="0">Вы больше не можете загрузить изображения в этот альбом.</word>
   <word key="gallery_images_too_many" js="0">Вы можете загрузить ещё {# [0:изображений][1:изображение][2:изображения][3:изображения][4:изображения][11:изображений][12:изображений][13:изображений][14:изображений][*1:изображение][*2:изображения][*3:изображения][*4:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]} в этот альбом.</word>
   <word key="gallery_images_too_many_at_once" js="0">Вы можете загрузить только 100 изображений за раз.</word>
   <word key="gallery_image_or_movie" js="0">Вы должны загрузить как минимум одно изображение или видео</word>
@@ -716,7 +718,5 @@
   <word key="images_without_data" js="1">Вы не добавили информацию для {{count}}. Вы действительно хотите продолжить?</word>
   <word key="images_without_data_desc" js="1">Вы можете изменить изображения позже для их обновления.</word>
   <word key="set_as_photo_confirm" js="1">Вы действительно хотите обновить ваше фото профиля?</word>
-  <word key="album_user_own_activity_item" js="0">%s добавил изображения в %s в</word>
-  <word key="gallery_images_no_more" js="0">Вы больше не можете загрузить изображения в этот альбом.</word>
  </app>
 </language>

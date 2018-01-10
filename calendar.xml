@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="102034">
+ <app key="calendar" version="102042">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -200,7 +200,7 @@
   <word key="event_dates" js="0">Дата</word>
   <word key="rsvp" js="0">участник</word>
   <word key="event_rsvp" js="0">Подтверждение участия</word>
-  <word key="event_rsvp_desc" js="0">При принятии приглашения на событие, у пользователей будет запрошено подтверждение, а также они смогут видеть список пользователей, принявших приглашение на событие. Для повторяющихся событий применяется к каждому из них.</word>
+  <word key="event_rsvp_desc" js="0">Требовать у пользователя подтверждение участия. Список подтвердивших участие будет доступен всем участникам. Для повторяющихся событий применяется к каждому из них.</word>
   <word key="event_to" js="0">в</word>
   <word key="event_all_day" js="0">Весь день</word>
   <word key="event_repeat" js="0">Повторять</word>
@@ -430,8 +430,9 @@
   <word key="menu__calendar_calendars_venues" js="0">Места</word>
   <word key="venues" js="0">Места</word>
   <word key="venue_title" js="0">Название места</word>
+  <word key="event_venue_name" js="0">Место проведения события</word>
   <word key="event_venue" js="0">Место</word>
-  <word key="venues_not_listed" js="0">Место не указано</word>
+  <word key="venues_not_listed" js="0">Указать место вручную</word>
   <word key="venue_address" js="0">Адрес</word>
   <word key="r__venues" js="0">Места</word>
   <word key="r__venues_manage" js="0">Может управлять местами</word>
@@ -471,6 +472,5 @@
   <word key="select_time" js="1">(выберите время)</word>
   <word key="event_reminder_removed" js="1">Напоминание удалено</word>
   <word key="event_reminder_added" js="1">Напоминание сохранено</word>
-  <word key="event_venue_name" js="0">Место проведения события</word>
  </app>
 </language>
