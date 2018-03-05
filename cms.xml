@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102042">
+ <app key="cms" version="102047">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -722,7 +722,7 @@
   <word key="cms_promote_enabled" js="0">Включен</word>
   <word key="cms_promote_cat" js="0">Добавить в категорию</word>
   <word key="cms_promote_groups" js="0">Доступно для</word>
-  <word key="database_rebuild_topics_desc" js="0">Этот инструмент добавить фоновую задачу на повторную синхронизацию содержимого первого сообщения в темах, созданных этой базой данных. Он также создаст темы для записей, если они в настоящий момент не существуют.</word>
+  <word key="database_rebuild_topics_desc" js="0">Этот инструмент добавит фоновую задачу на повторную синхронизацию содержимого первого сообщения в темах, созданных этой базой данных. Он также создаст темы для записей, если они в настоящий момент не существуют.</word>
   <word key="database_rebuild_topics_button" js="0">Продолжить</word>
   <word key="database_rebuild_added" js="0">Задача на перестроение была добавлена в очередь.</word>
   <word key="database_rebuild_commentcount_desc" js="0">Этот инструмент создаст фоновую задачу на пересчёт количества комментариев и отзывов в каждой публикации.</word>

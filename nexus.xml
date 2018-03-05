@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="102042">
+ <app key="nexus" version="102047">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -161,7 +161,7 @@
   <word key="tstatus_fail_set" js="0">Отказано</word>
   <word key="tstatus_rfnd" js="0">Возвращён</word>
   <word key="tstatus_rfnd_desc" js="0">Платёж был получен, но возвращён.</word>
-  <word key="tstatus_rfnd_set" js="0">Возвращён</word>
+  <word key="tstatus_rfnd_set" js="0">Возвращено</word>
   <word key="tstatus_prfd" js="0">Частично возвращено</word>
   <word key="tstatus_prfd_desc" js="0">Платёж был получен, но частично возвращён.</word>
   <word key="tstatus_prfd_set" js="0">Частично возвращено</word>
@@ -205,7 +205,7 @@
   <word key="transaction_ip" js="0">IP-адрес: %s</word>
   <word key="transaction_customer_since" js="0">Клиент с %s</word>
   <word key="transaction_spent" js="0">Потратил %s</word>
-  <word key="transaction_refund_method" js="0">Возвращено</word>
+  <word key="transaction_refund_method" js="0">Возвращено через</word>
   <word key="transaction_method_pending" js="0">Обрабатывается</word>
   <word key="maxmind_title" js="0">Проверка мошенничества MaxMind</word>
   <word key="possibility_of_fraud" js="0">вероятно мошенничество</word>
@@ -2437,7 +2437,7 @@
   <word key="easypost_price_adjustment" js="0">Корректировка цены</word>
   <word key="easypost_price_adjustment_desc" js="0"><![CDATA[Указанная цена будет добавлена к стоимости, указанной в EasyPost.<br>Например, если EasyPost сообщает, что перевозка груза будет стоить $10, и вы введёте здесь $1, с клиента будет взиматься $11.]]></word>
   <word key="easypost_delivery_adjustment" js="0">Корректировка расчётного времени доставки</word>
-  <word key="easypost_delivery_adjustment_desc" js="0">Клиент сможет видеть сроки доставки, предоставленные EasyPost, с указанием корректировки. К примеру, если EasyPost сообщает, что срок доставки 3 дня и вы введёте здесь 3 день, то клиент увидит срок доставки 4 дня.</word>
+  <word key="easypost_delivery_adjustment_desc" js="0">Клиент сможет видеть сроки доставки, предоставленные EasyPost, с указанием корректировки. К примеру, если EasyPost сообщает, что срок доставки 3 дня и вы введёте здесь 1 день, то клиент увидит срок доставки 4 дня.</word>
   <word key="easypost_delivery_estimate" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
   <word key="easypost_test" js="0">Тестировать настройки и просмотреть цены</word>
   <word key="easypost_test_blurb" js="0"><![CDATA[Этот инструмент отобразит вам цены на доставку выбранных товаров в конкретное место. Если у вас есть проблемы с EasyPost, вы можете использовать этот инструмент, чтобы увидеть, существуют ли какие-либо проблемы с некоторыми продуктами или местами назначения. Адресом отгрузки будет адрес, указанный на странице <a href='{internal.app=core&module=settings&controller=general}' target='_blank'>Общие настройки</a>.]]></word>
