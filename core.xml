@@ -6076,9 +6076,9 @@
   <word key="warning_acknowledged" js="0">Вы ознакомились</word>
   <word key="warning_not_acknowledged" js="0">Вы ещё не ознакомились</word>
   <word key="warn_action_points" js="0">Выданы баллы: %d</word>
-  <word key="warn_action_points_expire" js="0">Выданы баллы:%d, которые истекают %s</word>
-  <word key="warn_action_points_expired" js="0">Выданы баллы:%d, которые истекли %s</word>
-  <word key="warn_action_points_never_expire" js="0">Выданы баллы: %d, которые никогда не истекут.</word>
+  <word key="warn_action_points_expire" js="0">Выданы баллы: %d, которые истекают %s</word>
+  <word key="warn_action_points_expired" js="0">Выданы баллы: %d, которые истекли %s</word>
+  <word key="warn_action_points_never_expire" js="0">Выданы баллы: %d, которые никогда не истекут</word>
   <word key="warn_user" js="0">Предупредить</word>
   <word key="warn_user_title" js="0">Предупредить пользователя</word>
   <word key="members_warnings" js="0">Предупреждения %s</word>
