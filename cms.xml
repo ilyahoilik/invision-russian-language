@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="102047">
+ <app key="cms" version="103004">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -39,7 +39,7 @@
   <word key="can_reply_to_locked_record" js="0">Может отвечать в закрытые %s?</word>
   <word key="can_delete_record" js="0">Может удалять %s?</word>
   <word key="can_split_merge_record" js="0">Может разделять и объединять %s?</word>
-  <word key="can_future_publish_record" js="0">Может использовать отложенную публикацию?</word>
+  <word key="can_future_publish_record" js="0">Может использовать отложенную публикацию %s?</word>
   <word key="can_view_future_record" js="0">Может просматривать %s с отложенной публикацией?</word>
   <word key="can_edit_rcomment" js="0">Может редактировать комментарии к %s?</word>
   <word key="can_hide_rcomment" js="0">Может скрывать комментарии к %s?</word>
@@ -53,9 +53,9 @@
   <word key="can_delete_rreview" js="0">Может удалять отзывы к %s</word>
   <word key="can_feature_comments_record" js="0">Может рекомендовать комментарии к %s</word>
   <word key="can_unfeature_comments_record" js="0">Может удалять рекомендации комментариев к %s</word>
-  <word key="can_add_item_message_record" js="0">Может добавлять сообщения к %s</word>
-  <word key="can_edit_item_message_record" js="0">Может изменять сообщения к %s</word>
-  <word key="can_delete_item_message_record" js="0">Может удалять сообщения к %s</word>
+  <word key="can_add_item_message_record" js="0">Может добавлять примечания к %s</word>
+  <word key="can_edit_item_message_record" js="0">Может изменять примечания к %s</word>
+  <word key="can_delete_item_message_record" js="0">Может удалять примечания к %s</word>
   <word key="can_copy_topic_database" js="0">Может копировать темы в базу данных</word>
   <word key="can_copy_topic_database_desc" js="0">Если включено, тогда пользователи смогут копировать темы из разделов форума, которые они могут модерировать, в базу данных, в которой они могут создавать записи.</word>
   <word key="r__page_add" js="0">Может создавать страницы</word>
@@ -604,7 +604,7 @@
   <word key="database_revisions_desc" js="0">Когда пользователи или администраторы изменяют записи в базе данных, копия оригинальной записи будет сохранена и может быть восстановлена позже.</word>
   <word key="database_search" js="0">Разрешить поиск</word>
   <word key="database_comment_bump" js="0">Обновлять последнее изменение</word>
-  <word key="database_comment_bump_desc" js="0">Последнее действие отображается при просмотре категории и влияет на сортировку записей.</word>
+  <word key="database_comment_bump_desc" js="0">Последнее изменение отображается при просмотре категории и используется при стандартной сортировке/может использовать для сортировки. Обратите внимание, что эта настройка не имеет обратной силы и применяется только к комментариям или записям, которые будут редактироваться в дальнейшем.</word>
   <word key="database_comment_bump_edit_comment" js="0">Когда запись изменена или добавлен комментарий</word>
   <word key="database_comment_bump_edit" js="0">Только когда запись изменена</word>
   <word key="database_comment_bump_comment" js="0">Только когда добавлен комментарий</word>
@@ -689,7 +689,7 @@
   <word key="cms_database_permissions" js="0">Права доступа базы данных</word>
   <word key="database_use_categories" js="0">Использовать категории</word>
   <word key="database_use_categories_desc" js="0">Вы можете не использовать категории, в которых должны храниться записи. В этом случае записи будут храниться в самой базе данных, а не в категориях.</word>
-  <word key="database_use_categories_impossible" js="0">Эта база данных содержит %s категорий. У вас может быть только одна категория для хранения записей непосредственно в базе данных.</word>
+  <word key="database_use_categories_impossible" js="0">Эта база данных содержит %s категорий. У вас может быть только одна категория для хранения записей непосредственно в базе данных. Если вы хотите отключить поддержку категорий, пожалуйста, переместите все записи в одну категорию и удалите остальные категории.</word>
   <word key="database_use_categories_yes" js="0"><![CDATA[<strong>Да</strong>, хранить записи в категориях базы данных]]></word>
   <word key="database_use_categories_no" js="0"><![CDATA[<strong>Нет</strong>, хранить записи напрямую в базе данных]]></word>
   <word key="cms_db_cats_disabled" js="0"><![CDATA[<em>Категории не используются</em>]]></word>
@@ -834,7 +834,7 @@
   <word key="cms_view_next_unread_title" js="0">Перейти к следующей непрочитанной %s</word>
   <word key="cms_next_unread_title" js="0">Следующая непрочитанная %s</word>
   <word key="cms_record_field_changed" js="0"><![CDATA[Значение <strong>%s</strong> изменено на: <strong>%s</strong>]]></word>
-  <word key="cms_locked_can_comment" js="0">В настоящее время комментирование закрыто</word>
+  <word key="cms_locked_can_comment" js="0">Эта %s закрыта, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="cms_select_category" js="0">Выберите категорию</word>
   <word key="cms_create_menu_records_x" js="0">%s в %s</word>
   <word key="record_display_field_change" js="0">Добавить комментарий об изменении</word>
@@ -962,5 +962,18 @@
   <word key="mediaErrorDeleting" js="1">Возникла ошибка при удалении {!# [1:этого файла][?:этих файлов]}</word>
   <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
+  <word key="cms_page" js="0">Страница</word>
+  <word key="cms_pages_pageitem_pl" js="0">Страницы</word>
+  <word key="cms_page_pl_lc" js="0">страницы</word>
+  <word key="cms_page_pl" js="0">Страницы</word>
+  <word key="replace_media_file" js="0">Заменить файл...</word>
+  <word key="cms_forum_used" js="0"><![CDATA[Этот раздел используется приложением Страницы для хранения комментариев базы данных и не может быть удален.<br>Пожалуйста, удалите связь с базы данных %s для продолжения]]></word>
+  <word key="replaceMediaFile" js="1">Заменить файл</word>
+  <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
+  <word key="comments_show_message" js="0">Отображать примечание?</word>
+  <word key="comments_meta_message" js="0">Примечание</word>
+  <word key="comments_meta_color" js="0">Цвет примечания</word>
+  <word key="default_copyposts_message" js="0">Обратите внимание, что эти комментарии были скопированы из другого источника и что дата и время, указанные у каждого комментария, могут быть неточными.</word>
+  <word key="content_theme_dev_cannot_write_template" js="0">Невозможно записать файл %s</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="102047">
+ <app key="forums" version="103004">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -79,9 +79,9 @@
   <word key="can_set_best_answer" js="0">Может отмечать лучший ответ в вопросах</word>
   <word key="can_feature_comments_topic" js="0">Может рекомендовать сообщениям в темах</word>
   <word key="can_unfeature_comments_topic" js="0">Может удалять рекомендации сообщений в темах</word>
-  <word key="can_add_item_message_topic" js="0">Может добавлять сообщения к темам</word>
-  <word key="can_edit_item_message_topic" js="0">Может изменять сообщения к темам</word>
-  <word key="can_delete_item_message_topic" js="0">Может удалять сообщения к темам</word>
+  <word key="can_add_item_message_topic" js="0">Может добавлять примечания к темам</word>
+  <word key="can_edit_item_message_topic" js="0">Может изменять примечания к темам</word>
+  <word key="can_delete_item_message_topic" js="0">Может удалять примечания к темам</word>
   <word key="forums" js="0">Категории и разделы</word>
   <word key="forums_sg" js="0">Раздел</word>
   <word key="forums_add_child" js="0">Создать подраздел</word>
@@ -165,7 +165,7 @@
   <word key="bw_enable_answers_member" js="0">Пользователь, задавший вопрос, может выбрать лучший ответ?</word>
   <word key="bw_enable_answers_member_desc" js="0">Лучший ответ всегда отображается над всеми ответами.</word>
   <word key="forum_icon" js="0">Значок</word>
-  <word key="forum_icon_desc" js="0"><![CDATA[Значок отображается рядом с разделом с списке разделов. Она будет автоматически затухать при отсутствии непрочитанных сообщений.<br>Если не настроено, будет использоваться стандартный значок.]]></word>
+  <word key="forum_icon_desc" js="0"><![CDATA[Значок отображается рядом с разделом в списке разделов. Он будет автоматически затухать при отсутствии непрочитанных сообщений.<br>Если не настроено, будет использоваться стандартный значок.]]></word>
   <word key="forum_parent_id" js="0">Родительский раздел</word>
   <word key="forum_parent_id_error" js="0">Только категории могут не иметь родителя.</word>
   <word key="forums_posts_per_page" js="0">Сообщений на страницу</word>
@@ -592,5 +592,12 @@
   <word key="topicsFromAllForums" js="1">Отображаются темы со всех разделов</word>
   <word key="topicsFromXForums" js="1">Отображаются темы с {# [1:раздела][*1:раздела][*2:разделов][*3:разделов][*4:разделов][?:разделов]}</word>
   <word key="markForumAsReadConfirm" js="1">Вы уверены, что хотите отметить все темы в этом разделе прочитанными?</word>
+  <word key="club_node_forums" js="0">Форум клуба</word>
+  <word key="stats_topics_tab_total" js="0">Все новые темы</word>
+  <word key="stats_topics_tab_byforum" js="0">Новые темы по разделам</word>
+  <word key="stats_topics_title_byforum" js="0">Новые темы по разделам</word>
+  <word key="stats_posts_tab_total" js="0">Все новые сообщения</word>
+  <word key="stats_posts_tab_byforum" js="0">Новые сообщения по разделам</word>
+  <word key="stats_posts_title_byforum" js="0">Новые сообщения по разделам</word>
  </app>
 </language>

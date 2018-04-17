@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="102047">
+ <app key="gallery" version="103004">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -68,7 +68,7 @@
   <word key="r__bandwidth" js="0">Трафик</word>
   <word key="r__bandwidth_manage" js="0">Может просматривать статистику трафика</word>
   <word key="gcategory_parent_id" js="0">Родительская категория</word>
-  <word key="category_sort_options" js="0">Сортировка по умолчанию</word>
+  <word key="category_sort_options" js="0">Сортировка альбомов</word>
   <word key="category_approve_img" js="0">Изображения должны быть утверждены</word>
   <word key="category_comments_and_ratings" js="0">Комментарии и рейтинг</word>
   <word key="category_allow_comments" js="0">Разрешить комментарии</word>
@@ -76,7 +76,7 @@
   <word key="gcategory_allow_rating" js="0">Разрешить рейтинги?</word>
   <word key="category_can_tag" js="0">Включить теги</word>
   <word key="category_tag_prefixes" js="0">Включить префиксы</word>
-  <word key="category_allow_albums" js="0">Разрешить создание альбомов</word>
+  <word key="category_allow_albums" js="0">Альбомы</word>
   <word key="category_watermark" js="0">Изображения водяного знака?</word>
   <word key="category_preset_tags" js="0">Предопределённые теги</word>
   <word key="perm__view" js="0">Просмотр категории</word>
@@ -168,9 +168,9 @@
   <word key="can_lock_gallery_album" js="0">Может закрывать альбомы</word>
   <word key="can_unlock_gallery_album" js="0">Может открывать альбомы</word>
   <word key="can_reply_to_locked_gallery_album" js="0">Может отвечать в закрытые альбомы</word>
-  <word key="can_add_item_message_gallery_album" js="0">Может добавлять сообщения к альбомам</word>
-  <word key="can_edit_item_message_gallery_album" js="0">Может изменять сообщения к альбомам</word>
-  <word key="can_delete_item_message_gallery_album" js="0">Может удалять сообщения из альбомов</word>
+  <word key="can_add_item_message_gallery_album" js="0">Может добавлять примечания к альбомам</word>
+  <word key="can_edit_item_message_gallery_album" js="0">Может изменять примечания к альбомам</word>
+  <word key="can_delete_item_message_gallery_album" js="0">Может удалять примечания из альбомов</word>
   <word key="can_delete_gallery_album" js="0">Может удалять альбомы</word>
   <word key="can_edit_gallery_album_comment" js="0">Может изменять комментарии к альбомам</word>
   <word key="can_hide_gallery_album_comment" js="0">Может скрывать комментарии к альбомам</word>
@@ -189,25 +189,25 @@
   <word key="can_delete_gallery_image_review" js="0">Может удалять отзывы</word>
   <word key="can_feature_comments_gallery_image" js="0">Может рекомендовать комментарии к изображениям</word>
   <word key="can_unfeature_comments_gallery_image" js="0">Может удалять рекомендации комментариев к изображениям</word>
-  <word key="can_add_item_message_gallery_image" js="0">Может добавлять сообщения к изображениям</word>
-  <word key="can_edit_item_message_gallery_image" js="0">Может изменять сообщения к изображениям</word>
-  <word key="can_delete_item_message_gallery_image" js="0">Может удалять сообщения к изображениям</word>
+  <word key="can_add_item_message_gallery_image" js="0">Может добавлять примечания к изображениям</word>
+  <word key="can_edit_item_message_gallery_image" js="0">Может изменять примечания к изображениям</word>
+  <word key="can_delete_item_message_gallery_image" js="0">Может удалять примечания к изображениям</word>
   <word key="acplogs__gallery_settings" js="0">Обновлены настройки галереи</word>
   <word key="acplogs__gallery_rebuilt" js="0">Запущен инструмент перестроения изображений.</word>
-  <word key="gallery_dims_explanation" js="0"><![CDATA[Для всех загруженных изображений создаются копии разных размеров, которые используются в интерфейсе всей галереи. Обратите внимание, что изображения, используемые в галерее, могут не соответствовать размерам, указанным здесь. Вы можете контролировать максимальное разрешение каждого типа изображений. Настройки будут применены только к новым изображениям до тех пор, пока вы не <a href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildImages}'>перестроите существующие изображения</a>.]]></word>
+  <word key="gallery_dims_explanation" js="0">Копии всех загруженных в галерею изображений создаются в разных размерах и по мере необходимости используются в интерфейсе всей галереи. Ниже вы можете управлять максимальным разрешением каждого размера.</word>
   <word key="gallery_large_dims" js="0">Размеры большого изображения</word>
   <word key="gallery_medium_dims" js="0">Размеры среднего изображения</word>
-  <word key="gallery_small_dims" js="0">Размеры маленького изображения</word>
+  <word key="gallery_small_dims" js="0">Размеры миниатюры изображения</word>
   <word key="gallery_thumb_dims" js="0">Разрешение превью</word>
   <word key="gallery_use_square_thumbnails" js="0">Использовать квадратные превью</word>
   <word key="gallery_use_square_thumbnails_desc" js="0"><![CDATA[Если вы хотите изменить это, вам необходимо <a href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildImages}'>перестроить существующие изображения</a>, в противном случае изменения будут применяться только к новым изображениям.]]></word>
   <word key="gallery_watermark_path" js="0">Изображение водяного знака</word>
-  <word key="gallery_watermark_path_desc" js="0"><![CDATA[Данное изображение будет наложено на все загруженные изображения в галерее (например, для отображения копирайта). Помните, что в отдельных категориях может быть отключено использование водяного знака. Для наилучшего результата используйте маленькое изображение с прозрачным фоном.<br><br><a href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildImages}'>Перестроить существующие изображения</a>]]></word>
+  <word key="gallery_watermark_path_desc" js="0">Данное изображение будет наложено на все загруженные изображения в галерее (например, для отображения копирайта). Помните, что в отдельных категориях может быть отключено использование водяного знака. Для наилучшего результата используйте маленькое изображение с прозрачным фоном.</word>
   <word key="gallery_watermark_images" js="0">Изображения для водяного знака</word>
   <word key="gallery_use_watermarks" js="0">Накладывать водяные знаки?</word>
   <word key="gallery_watermark_large" js="0">Большие изображения</word>
   <word key="gallery_watermark_medium" js="0">Средние изображения</word>
-  <word key="gallery_watermark_small" js="0">Малые изображения</word>
+  <word key="gallery_watermark_small" js="0">Миниатюры изображений</word>
   <word key="gallery_watermark_thumb" js="0">Миниатюры</word>
   <word key="gallery_bandwidth" js="0">Запись трафика</word>
   <word key="gallery_detailed_bandwidth" js="0">Хранить подробные журналы трафика</word>
@@ -313,7 +313,7 @@
   <word key="set_as_category_done" js="0">Это изображение было установлено в качестве обложки категории</word>
   <word key="set_as_album_done" js="0">Это изображение было установлено в качестве обложки альбома</word>
   <word key="set_as_both_done" js="0">Это изображение было установлено в качестве обложки категории и альбома</word>
-  <word key="find_users_images" js="0">Другие изображения автора</word>
+  <word key="find_users_images" js="0">Другие изображения %s</word>
   <word key="change_author" js="0">Изменить автора</word>
   <word key="change_author_ititle" js="0">Изменить владельца изображения</word>
   <word key="gallery_metadata" js="0">Информация о фотографии %s</word>
@@ -380,7 +380,7 @@
   <word key="cat_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
   <word key="image_review_count" js="0">{# [0:отзывов][1:отзыв][2:отзыва][3:отзыва][4:отзыва][11:отзывов][12:отзывов][13:отзывов][14:отзывов][*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]}</word>
   <word key="image_comment_count" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
-  <word key="from_the_album" js="0">Из альбома</word>
+  <word key="from_the_album" js="0">Из альбома:</word>
   <word key="album_created_by" js="0">Альбом создал</word>
   <word key="album_everything_seen" js="0">Вы просмотрели всё, что находится в этом альбоме</word>
   <word key="album_new_content" js="0">В этом альбоме есть скрытые публикации</word>
@@ -475,7 +475,7 @@
   <word key="create_album" js="0">Создать альбом</word>
   <word key="create_an_album" js="0">Создать альбом</word>
   <word key="add_to_existing_album" js="0">Добавить в существующий альбом</word>
-  <word key="choose_existing_album" js="0">Выбрать существующий альбом</word>
+  <word key="choose_existing_album" js="0">Использовать существующий альбом</word>
   <word key="change_album" js="0">изменить</word>
   <word key="set_tags" js="0">Установить теги...</word>
   <word key="set_copyright" js="0">Установить копирайт...</word>
@@ -718,5 +718,76 @@
   <word key="images_without_data" js="1">Вы не добавили информацию для {{count}}. Вы действительно хотите продолжить?</word>
   <word key="images_without_data_desc" js="1">Вы можете изменить изображения позже для их обновления.</word>
   <word key="set_as_photo_confirm" js="1">Вы действительно хотите обновить ваше фото профиля?</word>
+  <word key="__indefart_gallery_image_review" js="0">отзыв к изображению в галерее</word>
+  <word key="__defart_gallery_image_review" js="0">отзыв к изображению в галерее</word>
+  <word key="__indefart_gallery_album_review" js="0">отзыв к альбому в галерее</word>
+  <word key="__defart_gallery_album_review" js="0">отзыв к альбому в галерее</word>
+  <word key="club_node_gallery" js="0">Изображения клуба</word>
+  <word key="community_image_categories" js="0">Изображения сообщества</word>
+  <word key="member_restrictions__gallery_Gallery" js="0">Галерея</word>
+  <word key="restriction_no_gallery_access" js="0">Запрещен доступ к галерее</word>
+  <word key="restriction_no_gallery_uploads" js="0">запрещена загрузка изображений в галерею</word>
+  <word key="content_stats__gallery_Gallery" js="0">Галерея</word>
+  <word key="category_sort_options_img" js="0">Сортировка изображений</word>
+  <word key="cat_no_allow_albums" js="0">Не разрешать альбомы</word>
+  <word key="cat_no_allow_albums_desc" js="0">Изображения смогут быть созданы только в категориях</word>
+  <word key="cat_allow_albums" js="0">Разрешить альбомы</word>
+  <word key="cat_allow_albums_desc" js="0">Изображения смогут быть созданы в категориях и альбомах, находящихся в категории.</word>
+  <word key="cat_require_albums" js="0">Требовать альбомы</word>
+  <word key="cat_require_albums_desc" js="0">Изображения смогут быть созданы только в альбомах, находящихся в категории.</word>
+  <word key="album_submit_type" js="0">Загрузка изображений</word>
+  <word key="album_submit_access_members" js="0">Разрешенные пользователи</word>
+  <word key="album_submit_access_groups" js="0">Разрешенные группы</word>
+  <word key="album_submittype_owner" js="0">Только я смогу загружать изображения в этот альбом</word>
+  <word key="album_submittype_public" js="0">Кто угодно сможет загружать изображения в этот альбом</word>
+  <word key="album_submittype_groups" js="0">Я хочу выбрать, какие группы смогут загружать изображения в этот альбом</word>
+  <word key="album_submittype_members" js="0">Я хочу выбрать, какие пользователи смогут загружать изображения в этот альбом</word>
+  <word key="album_submittype_club" js="0">Кто угодно из этого клуба сможет загружать изображения в этот альбом</word>
+  <word key="rebuilding_gallery_images" js="0">Перестроение изображений галереи</word>
+  <word key="cleaning_up_gallery_images" js="0">Очистка изображений галереи</word>
+  <word key="history_restrictions_remove_gallery_access_1" js="0">отключён доступ к галерее  </word>
+  <word key="history_restrictions_remove_gallery_access_0" js="0">восстановлен доступ к галерее </word>
+  <word key="history_restrictions_remove_gallery_upload_1" js="0">отключена возможность загружать изображения в галерею</word>
+  <word key="history_restrictions_remove_gallery_upload_0" js="0">восстановлена возможность загружать изображения в галерею</word>
+  <word key="images_stat_of_total_link" js="0">%s (%d%% от общего) %s</word>
+  <word key="ad_image_lightbox" js="0">Про просмотре изображения галереи в lightbox</word>
+  <word key="submit_all_images" js="0">Отправить все изображения</word>
+  <word key="allowed_file_types_link" js="0">Разрешённые типы файлов</word>
+  <word key="gal_notification_options" js="0">Настройки уведомлений</word>
+  <word key="submit_help_info" js="0">Выберите изображение для изменения его данных</word>
+  <word key="add_credit" js="0">Добавить источник</word>
+  <word key="add_copyright" js="0">Добавить копирайт</word>
+  <word key="submit_go_back" js="0">Сохранить данные</word>
+  <word key="image_info_saved" js="0">Информация об изображении сохранена.</word>
+  <word key="gallery_submit_prefix_album" js="0">Загрузка в альбом &quot;%s&quot;</word>
+  <word key="gallery_submit_prefix_cat" js="0">Загрузка в категорию &quot;%s&quot;</word>
+  <word key="view_this_video" js="0">Просмотреть видео %s</word>
+  <word key="gallery_image_rotated" js="0">Изображение было перевернуто</word>
+  <word key="view_fullsize_image" js="0">Просмотреть полное изображение</word>
+  <word key="unread_cat_images" js="0">В этой категории есть новые изображения</word>
+  <word key="image_tools" js="0">Инструменты изображения</word>
+  <word key="image_share" js="0">Поделиться</word>
+  <word key="submit_directly_to" js="0">Опубликовать напрямую в категории %s</word>
+  <word key="submit_new_album" js="0">Создайте новый альбом для ваших изображений</word>
+  <word key="choose_existing_album_desc" js="0">Выберите один из существующих альбомов</word>
+  <word key="use_plain_editor" js="0">Использовать обычный редактор</word>
+  <word key="use_rte_editor" js="0">Использовать визуальный редактор</word>
+  <word key="set_tags_all" js="0">Установить теги для всего</word>
+  <word key="tags_all_desc" js="0">Установит теги для всех загружаемых изображений за исключением тех, у которых вы установили теги вручную.</word>
+  <word key="specify_image_tags" js="0">Установить теги</word>
+  <word key="x_added_video_in" js="0">%s добавил видео в %s</word>
+  <word key="rebuildGalleryThumbnails" js="1">Перестроить существующие эскизы?</word>
+  <word key="rebuildGalleryThumbnailsBlurb" js="1">Перестроение существующих эскизов рекомендуется, если вы загрузили новый водяной знак или изменили разрешение эскизов</word>
+  <word key="rebuildGalleryThumbnailsYes" js="1">Да</word>
+  <word key="rebuildGalleryThumbnailsNo" js="1">Нет</word>
+  <word key="uploader_add_images" js="1">Добавить изображения</word>
+  <word key="confirmSubmitClose" js="1">Вы уверены в том, что хотите выйти? Все загруженные изображения не будут сохранены.</word>
+  <word key="addImages" js="1">Добавить изображения</word>
+  <word key="createAlbum" js="1">Создать альбом</word>
+  <word key="existingAlbum" js="1">Выберите существующий альбом</word>
+  <word key="chooseCategory" js="1">Выберите категорию</word>
+  <word key="chooseAlbum" js="1">Выберите альбом</word>
+  <word key="imageUploadErrors" js="1">У {# [0:изображений][1:изображения][*1:изображения][?:изображений]} присутствуют ошибки</word>
+  <word key="imageUploadErrorsDesc" js="1">Исправьте ошибки в {# [1:отмеченном изображении][*1:отмеченном изображении][?:отмеченных изображениях]} и отправьте еще раз.</word>
  </app>
 </language>
