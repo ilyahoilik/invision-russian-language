@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="102047">
+ <app key="downloads" version="103005">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -133,9 +133,9 @@
   <word key="can_delete_downloads_file_review" js="0">Может удалять отзывы</word>
   <word key="can_feature_comments_downloads_file" js="0">Может рекомендовать комментарии к файлам</word>
   <word key="can_unfeature_comments_downloads_file" js="0">Может удалять рекомендации комментариев к файлам</word>
-  <word key="can_add_item_message_downloads_file" js="0">Может добавлять сообщения к файлам</word>
-  <word key="can_edit_item_message_downloads_file" js="0">Может изменять сообщения к файлам</word>
-  <word key="can_delete_item_message_downloads_file" js="0">Может удалять сообщения к файлам</word>
+  <word key="can_add_item_message_downloads_file" js="0">Может добавлять примечания к файлам</word>
+  <word key="can_edit_item_message_downloads_file" js="0">Может изменять примечания к файлам</word>
+  <word key="can_delete_item_message_downloads_file" js="0">Может удалять примечания к файлам</word>
   <word key="menu__downloads_downloads_fields" js="0">Дополнительные поля</word>
   <word key="cf_topic" js="0">Добавлять поле в тему поддержки</word>
   <word key="menu__downloads_downloads_settings" js="0">Настройки</word>
@@ -148,7 +148,7 @@
   <word key="idm_antileech" js="0">Запретить прямые ссылки</word>
   <word key="idm_antileech_desc" js="0">Если включено, пользователи не смогут использовать ссылку для скачивания файла многократно, им необходимо будет снова посетить страницу скачивания файла.</word>
   <word key="idm_watermarkpath" js="0">Водяной знак</word>
-  <word key="idm_watermarkpath_desc" js="0"><![CDATA[Данное изображение будет нанесено на все загруженные скриншоты (к примеру, для отображения копирайта). Для наилучшего результата используйте небольшие изображения с прозрачным фоном.<br><br><a href='{internal.app=downloads&module=downloads&controller=settings&do=rebuildWatermarks}'>Перестроить существующие скриншоты</a>]]></word>
+  <word key="idm_watermarkpath_desc" js="0">Данное изображение будет нанесено на все загруженные скриншоты (к примеру, для отображения копирайта). Для наилучшего результата используйте небольшие изображения с прозрачным фоном.</word>
   <word key="acplogs__downloads_recount_downloads" js="0">Пересчитано количество скачиваний в категории: %s</word>
   <word key="idm_view_approvers" js="0">Может просматривать, кто утвердил файлы</word>
   <word key="idm_bypass_revision" js="0">Может управлять версиями?</word>
@@ -441,13 +441,13 @@
   <word key="idm_nexus_on_desc" js="0"><![CDATA[Если включено, пользователи, которые имеют соответствующие права, смогут создавать файлы, которые должны быть куплены перед скачиванием.<br>Вы можете контролировать, какие группы могут создавать платные файлы, в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>.<br>Когда кто-либо купит файл, деньги будут зачислены на баланс аккаунта владельца файла. Вы можете контролировать, как пользователи смогут выводить средства, на странице настроек <a href='{internal.app=nexus&module=payments&controller=payouts&do=settings}'>вывода средств</a>.]]></word>
   <word key="idm_nexus_tax" js="0">Тип налога для платных файлов</word>
   <word key="idm_nexus_percent" js="0">Комиссия сайта</word>
-  <word key="idm_nexus_percent_desc" js="0">Процент, который будет вычтен от стоимости файла в пользу вашего сайта. Например, если вы установите его в размере 10%, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
+  <word key="idm_nexus_percent_desc" js="0">Указанный процент будет вычтен из суммы, которую получит владелец файла. Например, если вы установите его в размере 10%, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
   <word key="idm_nexus_transfee" js="0">Комиссия за транзакцию</word>
-  <word key="idm_nexus_transfee_desc" js="0">Сумма, которая будет вычтена от стоимости файла в пользу вашего сайта. Например, если вы установите её в размере $1, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
+  <word key="idm_nexus_transfee_desc" js="0">Указанная сумма будет вычтена из суммы, которую получит владелец файла. Например, если вы установите её в размере $1, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
   <word key="idm_nexus_gateways" js="0">Способы оплаты</word>
   <word key="idm_nexus_display" js="0">Отображаемая статистика</word>
   <word key="idm_nexus_display_desc" js="0">В бесплатных файлах количество скачиваний отображается всегда.</word>
-  <word key="idm_nexus_gateways_desc" js="0">Клиенты смогут оплатить файл или его продление только выбранными способами оплаты.</word>
+  <word key="idm_nexus_gateways_desc" js="0">Клиенты смогут оплатить этот продукт и его продление только с помощью выбранных способов оплаты.</word>
   <word key="idm_add_paid" js="0">Может продавать файлы</word>
   <word key="idm_add_paid_enable" js="0"><![CDATA[Для того, чтобы разрешить пользователям продавать файлы, вы должны <a href='{internal.app=downloads&module=downloads&controller=settings}'>включить платные файлы</a>.]]></word>
   <word key="idm_bypass_paid" js="0">Может скачивать платные файлы без покупки</word>
@@ -473,7 +473,7 @@
   <word key="choose_file_nexus_blurb" js="0">Файл доступен в одном из следующих пакетов. Пожалуйста, добавьте один из этих пакетов в вашу корзину для продолжения.</word>
   <word key="choose_file_nexus_title" js="0">Выберите пакет</word>
   <word key="file_no_price_for_currency" js="0">Данный файл в настоящий момент недоступен в выбранной вами валюте.</word>
-  <word key="nexus_file_no_longer_available" js="0">Этот файл больше недоступен для скачивания.</word>
+  <word key="nexus_file_no_longer_available" js="0">Этот файл больше недоступен для скачивания, пожалуйста, свяжитесь с его автором для дополнительной информации.</word>
   <word key="notifications__downloads_Files" js="0">Файлы</word>
   <word key="notifications__new_file_version" js="0">Файл, на который я подписан, был обновлён до новой версии</word>
   <word key="email_new_file_version_plain" js="0">%s загрузил новую версию %s,</word>
@@ -501,5 +501,32 @@
   <word key="idm_show_most_downloaded_categories" js="0">Категории</word>
   <word key="makePrimaryScreenshot" js="1">Сделан скриншот основным</word>
   <word key="removeScreenshot" js="1">Удалить этот скриншот</word>
+  <word key="mark_category_read" js="0">Отметить категорию прочитанной</word>
+  <word key="mark_category_read_title" js="0">Отметить эту категорию прочитанной</word>
+  <word key="downloads_rebuilding_screenshots" js="0">Перестроение водяных знаков на скриншотах</word>
+  <word key="member_restrictions__downloads_Downloads" js="0">Файлы</word>
+  <word key="restriction_no_downloads" js="0">Запрещено создание файлов</word>
+  <word key="content_stats__downloads_Downloads" js="0">Файлы</word>
+  <word key="download_settings_saved_rebuilding" js="0">Сохранено. Ваши скриншоты перестраиваются в фоновом режиме.</word>
+  <word key="download_no_permission" js="0">Извините, вам не разрешено скачивать этот файл.</word>
+  <word key="download_no_permission_guest" js="0">Извините, вам не разрешено скачивать этот файл. Однако, вы сможете скачать его, если войдете на сайт.</word>
+  <word key="club_node_downloads" js="0">Файлы клуба</word>
+  <word key="file_imported_removed" js="0">Файлы были импортированы, и теперь оригинальные копии, если это необходимо, могут быть удалены с диска.</word>
+  <word key="history_restrictions_downloads_1" js="0">отключена возможность публиковать файлы</word>
+  <word key="history_restrictions_downloads_0" js="0">отключена возможности публиковать файлы</word>
+  <word key="downloads_stat_of_total_link" js="0">%s (%d%% от общего) %s</word>
+  <word key="downloads_forum_used" js="0"><![CDATA[Этот раздел используется приложением Файлы для создания тем поддержки файлов и не может быть удален.<br>Пожалуйста, удалите связь с категории %s для продолжения]]></word>
+  <word key="markCategoryAsReadConfirm" js="1">Вы уверены в том, что хотите отметить все файлы прочитанными?</word>
+  <word key="categoryMarkedRead" js="1">Категория была отмечен прочитанной</word>
+  <word key="downloadsScreenshotsWatermark" js="1">Перестроить существующие скриншоты?</word>
+  <word key="downloadsScreenshotsWatermarkBlurb" js="1">Перестроение существующих скриншотов обновит их и наложит ваш новый водяной знак.</word>
+  <word key="downloadsScreenshotsWatermarkYes" js="1">Да, перестроить</word>
+  <word key="downloadsScreenshotsWatermarkNo" js="1">Нет</word>
+  <word key="modperms__downloads_Files" js="0">Файлы</word>
+  <word key="can_make_purchasable" js="0">Может включать платные файлы?</word>
+  <word key="can_make_unpurchasable" js="0">Может выключать платные файлы?</word>
+  <word key="disable_purchases" js="0">Отключить покупки</word>
+  <word key="enable_purchases" js="0">Включить покупки</word>
+  <word key="purchasing_disabled" js="0">Этот файл в данный момент недоступен для покупки.</word>
  </app>
 </language>
