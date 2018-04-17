@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103004">
+ <app key="core" version="103005">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -8829,7 +8829,6 @@
   <word key="emoji_style_twemoji" js="0"><![CDATA[Стиль Twitter<br><div class='ipsType_large ipsSpacer_top ipsSpacer_half'><img src='https://twemoji.maxcdn.com/2/72x72/1f600.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f609.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f602.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f60d.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f918.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f926-200d-2640-fe0f.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f937-200d-2642-fe0f.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f37f.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f680.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f389.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f3f3-fe0f-200d-1f308.png' class='ipsEmoji'></div>]]></word>
   <word key="emoji_style_emojione" js="0"><![CDATA[Стиль EmojiOne<br><div class='ipsType_large ipsSpacer_top ipsSpacer_half'><img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f600.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f609.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f602.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f60d.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f918.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f926-2640.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f937-2642.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f37f.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f680.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f389.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f3f3-1f308.png' class='ipsEmoji'></div>]]></word>
   <word key="emoji_style_disabled" js="0">Не отображать стандартные эмодзи</word>
-  <word key="emoji_style_disabled_desc" js="0">Пользователи по-прежнему смогут вставлять эмодзи с помощью эмодзи-клавиатуры своего устройства, которые будут отображены в родном стиле.</word>
   <word key="emoji_utf8mb4_required" js="0"><![CDATA[Для включения поддержки стандартных эмодзи, вы должны <a href='{internal.app=core&module=support&controller=utf8mb4}' target='_blank'>сконвертировать вашу базу данных в UTF-8</a>.]]></word>
   <word key="emoji_shortcodes" js="0">Заменять :short_code: на эмодзи?</word>
   <word key="emoji_shortcodes_desc" js="0"><![CDATA[<mark>:smiley:</mark> <mark>:wink:</mark> <mark>:joy:</mark> <mark>:heart_eyes:</mark> <mark>:the_horns:</mark> <mark>:woman-facepalming:</mark> <mark>:man-shrugging:</mark> <mark>:popcorn:</mark> <mark>:rocket:</mark> <mark>:tada:</mark> <mark>:rainbow-flag:</mark><br>При написании сообщения, пользователю будут предлагаться эмодзи. Также будут предложены дополнительные эмодзи, начинающиеся и заканчивающиеся знаком двоеточия.]]></word>
@@ -8916,7 +8915,7 @@
   <word key="block_newsletter" js="0">Подписка на рассылку</word>
   <word key="block_newsletter_desc" js="0">Предлагает пользователям подписаться на массовую рассылку</word>
   <word key="block_newsletter_title" js="0">Рассылка</word>
-  <word key="block_newsletter_signup" js="0"><![CDATA[<p>Хотите узнавать о наших последних новостях и информации?</p>]]></word>
+  <word key="block_newsletter_signup" js="0">Хотите узнавать о наших последних новостях и информации?</word>
   <word key="block_newsletter_signup_button" js="0">Подписаться</word>
   <word key="block_newsletter_subscribed" js="0">Вы подписаны</word>
   <word key="stats_date_group_hourly" js="0">Ежечасно</word>
@@ -10929,5 +10928,8 @@
   <word key="form_email_bad" js="1">Этот email-адрес недействителен</word>
   <word key="promote_metadescription_container_nolink" js="0">%3$s опубликовал %1$s в %2$s, %4$s</word>
   <word key="promote_metadescription_node_nolink" js="0">%2$s добавил %1$s</word>
+  <word key="form_items_min" js="0">Вы должны указать как минимум {# [0:элементов][1:элемент][2:элемента][3:элемента][4:элемента][11:элементов][12:элементов][13:элементов][14:элементов][*1:элемент][*2:элемента][*3:элемента][*4:элемента][*11:элементов][*12:элементов][*13:элементов][*14:элементов][?:элементов]}</word>
+  <word key="form_items_max" js="0">Вы должны указать менее {# [0:элементов][1:элемента][*1:элемента][?:элементов]}</word>
+  <word key="emoji_style_desc" js="0">Независимо от выбранного варианта, пользователи по-прежнему смогут вставлять эмодзи с помощью эмодзи-клавиатуры своих устройств, которые будут отображаться в родном стиле. Эмодзи неродных стилей не будут отображаться в областях, где отображается только текст, например в лентах активности или поисковых результатах.</word>
  </app>
 </language>
