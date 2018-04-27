@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="103005">
+ <app key="nexus" version="103006">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -314,7 +314,7 @@
   <word key="nexus_checkreg_usernames" js="0">Попросить указать имя пользователя</word>
   <word key="nexus_checkreg_usernames_desc" js="0">Если нет, будет использоваться полное имя пользователя (имя и фамилия)</word>
   <word key="nexus_checkreg_captcha" js="0">Использовать вопрос-ответ</word>
-  <word key="nexus_checkreg_captcha_desc" js="0"><![CDATA[Поскольку аккаунт не будет создан, пока платёж не будет разрешён, это обычно не требуется, если система вопрос-ответ используется на всём сайте.<br><a href='{internal.app=core&module=membersettings&controller=spam&tab=qanda}'>Система вопрос-ответ</a>]]></word>
+  <word key="nexus_checkreg_captcha_desc" js="0"><![CDATA[Поскольку аккаунт не будет создан, пока платёж не будет разрешён, это обычно не требуется, если на вашем сообществе не используется система вопрос-ответ.<br><a href='{internal.app=core&module=membersettings&controller=spam&tab=qanda}'>Система вопрос-ответ</a>]]></word>
   <word key="nexus_checkreg_validate" js="0">Созданные аккаунты должны быть утверждены</word>
   <word key="nexus_checkreg_validate_desc" js="0"><![CDATA[Предоставление оплаты является надежным способом проверки пользователя, и проверка email-адреса аккаунта при совершении покупки мешает большинству пользователей. Рекомендуется оставить эту настройку выключенной<br>Это настройка не учитывается, если покупка является бесплатной.]]></word>
   <word key="acplogs__checkout_settings" js="0">Обновлены настройки оформления заказа</word>
@@ -1628,7 +1628,7 @@
   <word key="reply_action_status" js="0"><![CDATA[%s изменил статус запроса на <strong>%s</strong>]]></word>
   <word key="reply_action_moved" js="0"><![CDATA[%s переместил этот запрос в <strong>%s</strong>]]></word>
   <word key="reply_action_severity" js="0"><![CDATA[%s изменил уровень этого запроса на <strong>%s</strong>]]></word>
-  <word key="reply_action_associate" js="0"><![CDATA[%s связал этот запрос с <strong>%s</strong>]]></word>
+  <word key="reply_action_associate" js="0"><![CDATA[%s связал этот запрос с <strong><a href='%s'>%s</a></strong>]]></word>
   <word key="reply_action_unassociate" js="0">%s отвязал этот запрос от покупки</word>
   <word key="reply_action_assign" js="0">%s назначил этот запрос на %s</word>
   <word key="reply_action_unassign" js="0">%s снял назначение этого запроса</word>
@@ -1664,7 +1664,7 @@
   <word key="support_history_department_1" js="0">Переместил</word>
   <word key="support_history_department_2" js="0">запрос #%d в %s</word>
   <word key="support_history_purchase_1" js="0">Связал</word>
-  <word key="support_history_purchase_2" js="0">запрос #%d с %s</word>
+  <word key="support_history_purchase_2" js="0"><![CDATA[запрос #%d с <a href='%s'>%s</a>]]></word>
   <word key="support_history_no_purchase_1" js="0">Отвязал</word>
   <word key="support_history_no_purchase_2" js="0">запрос #%d от покупки</word>
   <word key="support_history_severity_1" js="0">Изменил уровень</word>

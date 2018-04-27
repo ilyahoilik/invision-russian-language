@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="103005">
+ <app key="cms" version="103006">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -168,7 +168,7 @@
   <word key="cms_db_relational_with_name_disabled" js="0">Невозможно использовать базу данных &quot;%s&quot;, так как она не привязана к странице.</word>
   <word key="cms_block_form_display" js="0">Шаблоны</word>
   <word key="block_key" js="0">Ключ шаблона</word>
-  <word key="block_key_desc" js="0"><![CDATA[<p class='ipsMessage ipsMessage_info'>Ключ блока может быть использован в шаблонах и на страницах для получения данных из блока, например: <span class='ipsType_monospace'>{block="my_block_key"}</span></p><br>Ключ должен быть уникальным в базе данных. Если не введено, ключ будет создан автоматически.]]></word>
+  <word key="block_key_desc" js="0"><![CDATA[<p class='ipsMessage ipsMessage_info'>Ключ блока ('my_block_key') может быть использован в HTML-шаблонах и на страницах для получения какого-либо блока, например: <span class='ipsType_monospace'>{block="my_block_key"}</span></p><br>Ключ блока должен быть уникальным. Если не указан, то ключ будет создан автоматически.]]></word>
   <word key="cms_block_key_not_unique" js="0">Ключ блока не является уникальным</word>
   <word key="block_cache" js="0">Кэшировать этот блок</word>
   <word key="block_cache_desc" js="0">Если ваш блок содержит динамические элементы, такие как данные пользователей, счётчики базы данных и так далее, вы не должны кэшировать этот блок.</word>
