@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103005">
+ <app key="core" version="103006">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -385,7 +385,7 @@
   <word key="editor_paste_behaviour_rich" js="0">Вставлять отформатированный текст, но позволить пользователю вставить его в виде обычного текста.</word>
   <word key="editor_paste_behaviour_rich_desc" js="0">При вставке отформатированного текста, внизу редактора появится панель с кнопкой для конвертации этого текста в обычный текст. Пользователи также могут вставить его в виде обычного текста, используя сочетание клавиш Ctrl + Shift + V в Google Chrome на Windows, или ⌥⇧⌘V в любом браузере на Mac.</word>
   <word key="editor_paste_behaviour_force" js="0">Всегда вставлять в виде обычного текста.</word>
-  <word key="editor_paste_behaviour_desc" js="0"><![CDATA[Применяется как к форматированию (жирный/курсив, цвет и т.д.), так и к схематической структуре (ссылки, заголовки, списки и т.д.).<br>Пользователи могут удалить форматирование любого текста в редакторе с помощью кнопки "Удалить форматирование", если она <a href='{internal.app=core&module=editor&controller=toolbar}' target='_blank'>включена в редакторе</a>.]]></word>
+  <word key="editor_paste_behaviour_desc" js="0"><![CDATA[Применяется как к форматированию (жирный/курсив, цвет и т.д.), так и к схематической структуре (ссылки, заголовки, списки и т.д.).<br>Пользователи могут удалить форматирование с любого текста только с помощью кнопки "Удалить форматирование", если она <a href='{internal.app=core&module=editor&controller=toolbar}' target='_blank'>включена в панели редактора</a>.]]></word>
   <word key="editor_paragraph_padding" js="0">Действие клавиши Enter</word>
   <word key="editor_paragraph_padding_on" js="0">Создать новый абзац.</word>
   <word key="editor_paragraph_padding_off" js="0">Перейти на следующую строку.</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.0. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.1. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -862,7 +862,7 @@
   <word key="click_hold_edit" js="0">(Нажмите и удерживайте для изменения заголовка)</word>
   <word key="unlock" js="0">Открыть</word>
   <word key="approve" js="0">Утвердить</word>
-  <word key="resend_validation_email" js="0">Выслать письмо подтверждения повторно </word>
+  <word key="resend_validation_email" js="0">Выслать повторно </word>
   <word key="licensekey_error" js="0">Ваш лицензионный ключ не был принят. Убедитесь, что ключ был введен верно или свяжитесь с технической поддержкой IPS для получения помощи.</word>
   <word key="licensekey_expired" js="0">Ваш лицензионный ключ истек. Пожалуйста, посетите область клиента и обновите его. Если вы считаете это сообщение ошибкой, свяжитесь со службой технической поддержки для получения помощи.</word>
   <word key="gt" js="0">Больше чем</word>
@@ -2206,7 +2206,7 @@
   <word key="mailsub__core_notification_report_center" js="0"><![CDATA[{$report->author()->name|raw} отправил жалобу]]></word>
   <word key="mailsub__core_notification_unapproved_content" js="0"><![CDATA[{$member->name|raw} опубликовал {$email->language->addToStack("__indefart_" . $content::$title )} (ожидает утверждения)]]></word>
   <word key="mailsub__core_notification_unapproved_content_bulk" js="0"><![CDATA[{$member->name|raw} опубликовал {$email->language->addToStack( $contentClass::$title . "_pl" )} (ожидает утверждения)]]></word>
-  <word key="mailsub__core_upgrade" js="0">Доступна версия Invision Community {$version}</word>
+  <word key="mailsub__core_upgrade" js="0">Доступна версия Invision Community {$latestVersion}</word>
   <word key="mailsub__core_unrouted" js="0"><![CDATA[Re: {$incomingEmail->subject}]]></word>
   <word key="mailsub__core_notification_private_message_added" js="0">Вы были добавлены в беседу</word>
   <word key="follow_send_me" js="0">Отправлять мне</word>
@@ -2855,7 +2855,7 @@
   <word key="reputation_title" js="0">Репутация</word>
   <word key="reputation" js="0">Реакции</word>
   <word key="rep_reactions_blurb" js="0"><![CDATA[Реакции приносят автору публикации <em>баллы репутации</em>. Каждая реакция может увеличивать или уменьшать уровень репутации автора (или оставлять его неизменным).]]></word>
-  <word key="rep_settings_blurb" js="0"><![CDATA[Система репутации позволяет пользователям зарабатывать <em>баллы репутации</em> когда другие пользователи реагируют на его публикации. Общая репутация пользователя отображается рядом с его публикациями и в его профиле, наряду с счётчиками в блоке "Популярные авторы" и Таблице лидеров.]]></word>
+  <word key="rep_settings_blurb" js="0"><![CDATA[Система репутации позволяет пользователям зарабатывать <em>баллы репутации</em>, когда другие пользователи реагируют на их публикации. Репутация пользователей отображается рядом с их публикациями и в их профилях, а также учитывается в таких функциях, как блок «Популярные авторы» и Таблица лидеров.]]></word>
   <word key="rep_leaderboard_blurb" js="0">Таблица лидеров составляет ежедневный топ-3 автором публикаций (на основе полученной репутации), а также топ публикаций на основе количества положительных реакций.</word>
   <word key="reputation_badge_tooltip" js="0">Репутация пользователя</word>
   <word key="reputation_badge_tooltip_period" js="0">Репутация пользователя за этот период</word>
@@ -3389,7 +3389,7 @@
   <word key="days_ago" js="0">дней назад</word>
   <word key="or_more_than" js="0">Более чем</word>
   <word key="group_promotion_blurb" js="0"><![CDATA[Вы можете настроить правила перемещения пользователей в другие группы при достижении ими определённых критериев. Например, если у вас есть правило для продвижения пользователей после публикации 10 сообщений, и ещё одно правило после 100 сообщений, то вы должны убедиться в том, что в списке правило на 100 сообщений находится ниже правила на 10 сообщений. Вы можете исключите некоторые группы в <a href='{internal.app=core&module=members&controller=groups&searchResult=g_promote_exclude}'>настройках групп</a>.]]></word>
-  <word key="group_promotion_blurb_commerce" js="0"><![CDATA[Вы можете настроить правила перемещения пользователей в другие группы при достижении ими определённых критериев. Например, если у вас есть правило для продвижения пользователей после публикации 10 сообщений, и ещё одно правило после 100 сообщений, то вы должны убедиться в том, что в списке правило на 100 сообщений находится ниже правила на 10 сообщений. Если пользователь покупает <a href='{internal.app=nexus&module=store&controller=packages}'>продукт</a>,  которые перемещает его в группу, то эти правила не будут применяться к нему. Вы можете исключите некоторые группы в <a href='{internal.app=core&module=members&controller=groups&searchResult=g_promote_exclude}'>настройках групп</a>.]]></word>
+  <word key="group_promotion_blurb_commerce" js="0"><![CDATA[Вы можете настроить правила перемещения пользователей в другие группы при достижении ими определённых критериев. Например, если у вас есть правило для продвижения пользователей после публикации 10 сообщений, и ещё одно правило после 100 сообщений, то вы должны убедиться в том, что в списке правило на 100 сообщений находится ниже правила на 10 сообщений. Если пользователь покупает <a href='{internal.app=nexus&module=store&controller=packages}'>продукт</a>, который перемещает его в группу, то эти правила не будут применяться к нему. Вы можете исключить определенные группы в <a href='{internal.app=core&module=members&controller=groups&searchResult=g_promote_exclude}'>настройках групп</a>.]]></word>
   <word key="grouppromotion_warning" js="0">Это продвижение использует группу, которая больше не существует</word>
   <word key="email_settings" js="0">Настройки email</word>
   <word key="email_out" js="0">Email-адрес для исходящих писем</word>
@@ -5121,7 +5121,7 @@
   <word key="display_errors_title" js="0">Включено публичное отображение ошибок PHP</word>
   <word key="display_errors_desc" js="0">Директива PHP display_errors на вашем сервере в настоящий момент включена, что не рекомендуется на рабочем окружении и мы рекомендуем отключить её. Если вы не управляете сервером самостоятельно, ваш хостинг-провайдер сможет помочь с этим.</word>
   <word key="open_basedir_title" js="0">Директива open_basedir выключена</word>
-  <word key="open_basedir_desc" js="0">Директива PHP open_basedir выключена, что может представлять риск на виртуальном хостинге. Мы рекомендуем настроить её на корневую директориями и директорию с временными файлами вашего сайта. Если вы не можете управлять вашим веб-сервером, ваш хостинг-провайдер может помочь вам с этим.</word>
+  <word key="open_basedir_desc" js="0">Директива PHP open_basedir выключена, что может представлять риск на виртуальном хостинге. Мы рекомендуем настроить её на корневую директорию и директорию с временными файлами вашего сайта. Если вы не можете управлять вашим веб-сервером, ваш хостинг-провайдер может помочь вам с этим.</word>
   <word key="htaccess_title" js="0">Защитите папки сайта от вредоносных файлов</word>
   <word key="htaccess_desc" js="0">Рекомендуется защитить директории сайта т.к. загруженные пользователями вредоносные файлы могут причинить значительный вред вашему сайту и серверу. После выполнения данной рекомендации, в потенциально опасные директории будет записан файл .htaccess, который позволит запретить выполнять вредоносные файлы.</word>
   <word key="conf_writeable_title" js="0">Ограничьте доступ к конфигурационному файлу</word>
@@ -10931,5 +10931,6 @@
   <word key="form_items_min" js="0">Вы должны указать как минимум {# [0:элементов][1:элемент][2:элемента][3:элемента][4:элемента][11:элементов][12:элементов][13:элементов][14:элементов][*1:элемент][*2:элемента][*3:элемента][*4:элемента][*11:элементов][*12:элементов][*13:элементов][*14:элементов][?:элементов]}</word>
   <word key="form_items_max" js="0">Вы должны указать менее {# [0:элементов][1:элемента][*1:элемента][?:элементов]}</word>
   <word key="emoji_style_desc" js="0">Независимо от выбранного варианта, пользователи по-прежнему смогут вставлять эмодзи с помощью эмодзи-клавиатуры своих устройств, которые будут отображаться в родном стиле. Эмодзи неродных стилей не будут отображаться в областях, где отображается только текст, например в лентах активности или поисковых результатах.</word>
+  <word key="close_warning" js="0">Приостановить эту предупреждение на неделю</word>
  </app>
 </language>
