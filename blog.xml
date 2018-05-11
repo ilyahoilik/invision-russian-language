@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="blog" version="103006">
+ <app key="blog" version="103009">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
@@ -20,7 +20,7 @@
   <word key="block_blog_Overview" js="0">Статистика блогов</word>
   <word key="editor__blog_Blogs" js="0">Блоги</word>
   <word key="editor__blog_Entries" js="0">Записи блога</word>
-  <word key="task__blogrssimport" js="0">Проверяет RSS-ленты на наличие новых статей для импорта в Блоги.</word>
+  <word key="task__blogrssimport" js="0">Проверяет RSS/Atom-ленты на наличие новых статей и импортирует их в Блоги.</word>
   <word key="filestorage__blog_Blogs" js="0">Обложки блогов</word>
   <word key="entry_blog_id" js="0">Блог</word>
   <word key="r__blogs" js="0">Блоги</word>
