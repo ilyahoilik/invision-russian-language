@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="103006">
+ <app key="forums" version="103009">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -24,7 +24,7 @@
   <word key="menu__forums_forums" js="0">Форум</word>
   <word key="menu__forums_forums_forums" js="0">Категории и разделы</word>
   <word key="menu__forums_forums_savedActions" js="0">Сохранённые действия</word>
-  <word key="menu__forums_forums_rss" js="0">Управление RSS-лентой</word>
+  <word key="menu__forums_forums_rss" js="0">Ленты RSS/Atom</word>
   <word key="menu__forums_stats" js="0">Форум</word>
   <word key="menu__forums_stats_topics" js="0">Новые темы</word>
   <word key="menu__forums_stats_posts" js="0">Новые сообщения</word>
@@ -519,7 +519,7 @@
   <word key="modlog__saved_action" js="0"><![CDATA[Запущено сохранённое действие "%s" в теме: <a href='%s'>%s</a>]]></word>
   <word key="modlog__unarchived_topic" js="0"><![CDATA[Разархивирована тема: <a href='%s'>%s</a>]]></word>
   <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Удалена пометка "исключить из архива" с темы: <a href='%s'>%s</a>]]></word>
-  <word key="task__rssimport" js="0">Проверяет RSS-ленту на наличие новых статей и импортирует их в IP.Board</word>
+  <word key="task__rssimport" js="0">Проверяет RSS/Atom-ленты на наличие новых статей и импортирует их в Форум.</word>
   <word key="queue_deleting_legacy_topics" js="0">Удаление устаревших данных о темах</word>
   <word key="queue_deleting_legacy_posts" js="0">Удаление устаревших данных о сообщениях</word>
   <word key="queue_fixing_hidden_first_post" js="0">Обновление некорректно скрытых тем</word>

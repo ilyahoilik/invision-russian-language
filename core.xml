@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103006">
+ <app key="core" version="103009">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.1. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.2. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -971,7 +971,7 @@
   <word key="_date_this_year_short" js="0">{0#} {!1#[1:янв][2:фев][3:мар][4:апр][5:мая][6:июн][7:июл][8:авг][9:сен][10:окт][11:ноя][12:дек]}</word>
   <word key="_date_this_year_long" js="0">{0#} {!1#[1:января][2:февраля][3:марта][4:апреля][5:мая][6:июня][7:июля][8:августа][9:сентября][10:октября][11:ноября][12:декабря]}</word>
   <word key="_date_last_year_short" js="0">{0#} {!1#[1:янв][2:фев][3:мар][4:апр][5:мая][6:июн][7:июл][8:авг][9:сен][10:окт][11:ноя][12:дек]}, %s</word>
-  <word key="_date_last_year_long" js="0">{0#} {!1#[1:января][2:февраля][3:марта][4:апреля][5:мая][6:июня][7:июля][8:августа][9:сентября][10:октября][11:ноября][12:декабря]}, %s</word>
+  <word key="_date_last_year_long" js="0">{0#} {!1#[1:января][2:февраля][3:марта][4:апреля][5:мая][6:июня][7:июля][8:августа][9:сентября][10:октября][11:ноября][12:декабря]} %s</word>
   <word key="_date_format_yyyy" js="0">YYYY</word>
   <word key="_date_format_mm" js="0">MM</word>
   <word key="_date_format_dd" js="0">DD</word>
@@ -1051,11 +1051,11 @@
   <word key="poll_close" js="0">Закрыть опрос</word>
   <word key="poll_open" js="0">Открыть опрос</word>
   <word key="poll_status_opened" js="0">Опрос открыт</word>
-  <word key="poll_status_closed" js="0">Опрос открыт</word>
+  <word key="poll_status_closed" js="0">Опрос закрыт</word>
   <word key="poll_status_opened_no_date" js="0">Опрос открыт, дата автозакрытия была удалена</word>
   <word key="poll_closed_for_votes" js="0">Этот опрос закрыт для новых голосов</word>
   <word key="poll_auto_closed_on" js="0">Опрос закрыт %s в %s</word>
-  <word key="poll_auto_closes_on" js="0">Опрос закрыт %s в %s</word>
+  <word key="poll_auto_closes_on" js="0">Опрос закроется %s в %s</word>
   <word key="poll_close_date" js="0">Дата закрытия опроса</word>
   <word key="poll_dont_close" js="0">Не закрывать автоматически</word>
   <word key="poll_specify_close_time" js="0">Автоматически закрыть опрос в указанную дату?</word>
@@ -6992,7 +6992,7 @@
   <word key="image_proxy_cache_period" js="0">Кэшировать сторонние изображения</word>
   <word key="image_proxy_cache_period_desc" js="0">Копия сторонних изображений будет загружаться на ваш сервер и храниться определённое время. После истечения этого времени, сохранённое изображение будет удалено и загружено снова, если оно будет просмотрено ещё раз.</word>
   <word key="task__imageproxy" js="0">Удаляет истёкшие кэшированные сторонние изображения</word>
-  <word key="rss_import" js="0">Управление RSS</word>
+  <word key="rss_import" js="0">Импорт RSS/Atom</word>
   <word key="rss_import_url" js="0">Ссылка</word>
   <word key="rss_import_invalid" js="0">Данная RSS-лента недействительна.</word>
   <word key="rss_import_auth_user" js="0">Имя пользователя HTTP</word>
@@ -7926,7 +7926,7 @@
   <word key="time_minutes_ago" js="1">{# [0:минут][1:минуту][2:минуты][3:минуты][4:минуты][11:минут][12:минут][13:минут][14:минут][*1:минуту][*2:минуты][*3:минуты][*4:минуты][*11:минут][*12:минут][*13:минут][*14:минут][?:минут]} назад</word>
   <word key="time_hours_ago" js="1">{# [0:часов][1:час][2:часа][3:часа][4:часа][11:часов][12:часов][13:часов][14:часов][*1:час][*2:часа][*3:часа][*4:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]} назад</word>
   <word key="time_1_hour_ago" js="1">1 час назад</word>
-  <word key="time_other" js="1">В {{time}}</word>
+  <word key="time_other" js="1">{{time}}</word>
   <word key="time_at" js="1">в</word>
   <word key="validation_invalid" js="1">Введённое значение является некорректным</word>
   <word key="validation_max" js="1">Максимально допустимое значение составляет {{data[1]}}</word>
@@ -8498,10 +8498,10 @@
   <word key="login_method_basic_settings" js="0">Основные настройки</word>
   <word key="login_handler_oauth_settings" js="0">Настройки приложения</word>
   <word key="login_handler_oauth_ui" js="0">Настройки отображения</word>
-  <word key="login_handler_Facebook_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_facebook}' target='_blank'>Facebook Login</a> для получения этих данных. Ссылка для перенаправления - <code>{internal.interface.oauth/callback/}</code>]]></word>
-  <word key="login_handler_Google_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_google}' target='_blank'>Google Login</a> для получения этих данных. Ссылка для перенаправления - <code>{internal.interface.oauth/callback/}</code>]]></word>
-  <word key="login_handler_Linkedin_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_linkedin}' target='_blank'> LinkedIn Login</a> для получения этих данных. Ссылка для перенаправления - <code>{internal.interface.oauth/callback/}</code>]]></word>
-  <word key="login_handler_Live_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_live}' target='_blank'>Microsoft Login</a> для получения этих данных. Ссылка для перенаправления - <code>{internal.interface.oauth/callback/}</code>]]></word>
+  <word key="login_handler_Facebook_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_facebook}' target='_blank'>Facebook Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Google_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_google}' target='_blank'>Google Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Linkedin_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_linkedin}' target='_blank'> LinkedIn Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Live_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_live}' target='_blank'>Microsoft Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
   <word key="login_handler_Twitter_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_twitter}' target='_blank'>Twitter Login</a> для получения этих данных.]]></word>
   <word key="oauth_setup_error_generic" js="0"><![CDATA[Провайдер не предоставил ожидаемый ответ. Проверьте, корректны ли настройки приложения и корректен ли введенная ссылка для перенаправления.<br><code>%s</code>]]></word>
   <word key="oauth_setup_error_secret" js="0">Указанные настройки приложения являются некорректными.</word>
@@ -8525,7 +8525,7 @@
   <word key="allow_password_changes_target" js="0">Ссылка на изменение пароля</word>
   <word key="allow_forgot_password" js="0">Разрешить пользователям использовать инструмент восстановления пароля</word>
   <word key="allow_forgot_password_normal" js="0">Да, и отправить email-письмо (рекомендуется)</word>
-  <word key="allow_forgot_password_normal_desc" js="0"><![CDATA[Пользователю будет отправлено email-письмо со ссылкой для сброса его пароля. Новый пароль будет синхронизирован с каждым методом входа, где включена соответствующая настройка.<br>Если пользователь указан ранее не использованный для входа email-адрес, но он находится во внешней базе данных, но он будет перенаправлен на  страницу инструмента восстановления пароля, указанную в настройках метода.]]></word>
+  <word key="allow_forgot_password_normal_desc" js="0"><![CDATA[Пользователю будет отправлено email-письмо со ссылкой для сброса его пароля. Новый пароль будет синхронизирован с каждым методом входа, где включена соответствующая настройка.<br>Если пользователь указал email-адрес, который ранее не использовался для входа, но при этом используется во внешней базе данных, то он будет перенаправлен на страницу инструмента восстановления пароля, заданную настройками того метода.]]></word>
   <word key="allow_forgot_password_handler" js="0">Да, но перенаправить пользователя на метод входа, который он использовал ранее</word>
   <word key="allow_forgot_password_handler_desc" js="0">Пользователь будет перенаправлен на страницу восстановления пароля, указанную в ранее использованном методе входа. Для стандартного метода входа будет отправлено email-письмо, как описано выше.</word>
   <word key="allow_forgot_password_redirect" js="0">Перенаправить на сторонний сайт</word>
@@ -8799,7 +8799,7 @@
   <word key="allow_reg_normal" js="0">Да, с быстрой формой регистрации (рекомендуется)</word>
   <word key="allow_reg_normal_desc" js="0"><![CDATA[Пользователю будет отображена простое всплывающее окно с формой регистрации. Вы можете настроить <a href='{internal.app=core&module=membersettings&controller=profilecompletion}' target='_blank'>шаги заполнения профиля</a>, которые отобразятся пользователю после регистрации, например загрузка фотографии профиля или заполнение настраиваемых полей профиля.]]></word>
   <word key="allow_reg_full" js="0">Да, с полной формой регистрации</word>
-  <word key="allow_reg_full_desc" js="0"><![CDATA[Пользователю будет отображена полная форма регистрации, которая может содержать <a href='{internal.app=core&module=membersettings&controller=profiles&tab=fields}' target='_blank'>настраиваемые поля профиля</a>. Требуется использовать COPPA или проверку возраста.]]></word>
+  <word key="allow_reg_full_desc" js="0"><![CDATA[Пользователю будет отображена полная форма регистрации, которая может содержать <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilefields}' target='_blank'>настраиваемые поля профиля</a>. Требуется использовать COPPA или проверку возраста.]]></word>
   <word key="allow_reg_redirect" js="0">Переадресация на другой сайт</word>
   <word key="allow_reg_redirect_desc" js="0">Вы можете использовать этот вариант, если ваше сообщество использует метод входа, у которого есть своя форма регистрации, как например внешняя база данных MySQL или LDAP.</word>
   <word key="allow_reg_disabled" js="0">Нет</word>
@@ -8933,7 +8933,7 @@
   <word key="search_index_timeframe_unlimited" js="0">Не исключать никаких публикаций</word>
   <word key="search_method" js="0">Поисковая система</word>
   <word key="search_method_mysql" js="0">MySQL (по умолчанию)</word>
-  <word key="search_method_elastic" js="0">Elasticsearch (рекомендуется)</word>
+  <word key="search_method_elastic" js="0">Elasticsearch (продвинутый)</word>
   <word key="search_method_elastic_desc" js="0"><![CDATA[Распределенная поисковая система рекомендуется при высокой нагрузке на сообщество с большим количеством данных. Требуется сервер Elasticsearch. <a href='{external.elasticsearch}' target='_blank'>Подробнее</a>]]></word>
   <word key="search_elastic_server" js="0">Сервер Elasticsearch</word>
   <word key="search_elastic_server_no_version" js="0">Сервер не вернул ожидаемый результат. Проверьте, корректно ли установлен Elasticsearch и доступен ли он с вашего сервера. если вы перейдете по указанной ссылке в вашем браузере, то вы должны увидеть информацию об установленной версии.</word>
@@ -9395,10 +9395,10 @@
   <word key="emoji_skin_tone" js="1">Тон кожи</word>
   <word key="emoji_skin_tone_default" js="1">Стандартный</word>
   <word key="emoji_skin_tone_light" js="1">Светлый</word>
-  <word key="emoji_skin_tone_medium_light" js="1">Средне-светлый</word>
+  <word key="emoji_skin_tone_medium_light" js="1">Полусветлый</word>
   <word key="emoji_skin_tone_medium" js="1">Средний</word>
-  <word key="emoji_skin_tone_medium_dark" js="1">Средне-темный</word>
-  <word key="emoji_skin_tone_dark" js="1">Темный</word>
+  <word key="emoji_skin_tone_medium_dark" js="1">Полутёмный</word>
+  <word key="emoji_skin_tone_dark" js="1">Тёмный</word>
   <word key="emoji-jack_o_lantern" js="1">Jack O Lantern</word>
   <word key="emoji-christmas_tree" js="1">Christmas Tree</word>
   <word key="emoji-fireworks" js="1">Fireworks</word>
@@ -10931,6 +10931,13 @@
   <word key="form_items_min" js="0">Вы должны указать как минимум {# [0:элементов][1:элемент][2:элемента][3:элемента][4:элемента][11:элементов][12:элементов][13:элементов][14:элементов][*1:элемент][*2:элемента][*3:элемента][*4:элемента][*11:элементов][*12:элементов][*13:элементов][*14:элементов][?:элементов]}</word>
   <word key="form_items_max" js="0">Вы должны указать менее {# [0:элементов][1:элемента][*1:элемента][?:элементов]}</word>
   <word key="emoji_style_desc" js="0">Независимо от выбранного варианта, пользователи по-прежнему смогут вставлять эмодзи с помощью эмодзи-клавиатуры своих устройств, которые будут отображаться в родном стиле. Эмодзи неродных стилей не будут отображаться в областях, где отображается только текст, например в лентах активности или поисковых результатах.</word>
-  <word key="close_warning" js="0">Приостановить эту предупреждение на неделю</word>
+  <word key="close_warning" js="0">Отключить предупреждение на неделю</word>
+  <word key="siteprofilelink_tumblr" js="0">Tumblr</word>
+  <word key="imagick_strip_exif" js="0">Удалять данных EXIF</word>
+  <word key="imagick_strip_exif_desc" js="0">Данные EXIF могут быть автоматически удалены из загружаемых изображений, чтобы не сохранять конфиденциальные данные (такие как данные геолокации изображений, сделанных с мобильных телефонов).</word>
+  <word key="online_now_anon" js="0">%s в сети анонимно</word>
+  <word key="search_index_maxresults" js="0">Максимум результатов</word>
+  <word key="search_index_maxresults_desc" js="0">Чем глубже в результате поиска вы находитесь (т.е. чем выше номер страницы), тем больше памяти и времени требуется для получения результатов. Этот параметр ограничивает максимальное количество возвращаемых результатов, что ограничивает объем используемой памяти. Обратите внимание, это относится не только к результатам поиска, но и к лентам активности, в том числе в профилях пользователей.</word>
+  <word key="rss_import_sg" js="0">Импорт RSS/Atom</word>
  </app>
 </language>
