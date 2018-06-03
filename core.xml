@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103009">
+ <app key="core" version="103011">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
   <word key="__indefart_report" js="0">жалобу</word>
   <word key="__indefart_report_comment" js="0">комментарий к жалобе</word>
-  <word key="__indefart_status_reply" js="0">ответ на обновление статуса</word>
-  <word key="__indefart_member_status" js="0">обновление статуса</word>
+  <word key="__indefart_status_reply" js="0">ответ на статус</word>
+  <word key="__indefart_member_status" js="0">статуса</word>
   <word key="__defart_personal_conversation" js="0">личную беседу</word>
   <word key="__defart_personal_conversation_message" js="0">сообщение в личной беседе</word>
   <word key="__defart_report" js="0">жалобу</word>
   <word key="__defart_report_comment" js="0">комментарий к жалобе</word>
-  <word key="__defart_status_reply" js="0">ответ на обновление статуса</word>
-  <word key="__defart_member_status" js="0">обновление статуса</word>
+  <word key="__defart_status_reply" js="0">ответ на статус</word>
+  <word key="__defart_member_status" js="0">статус</word>
   <word key="__defart_comment" js="0">комментарий</word>
   <word key="title_with_page_number" js="0">%s - Страница %d</word>
   <word key="embed_comment_on" js="0">%s опубликовал комментарий</word>
@@ -167,13 +167,13 @@
   <word key="all_activity_register" js="0">Когда регистрируется новый пользователь</word>
   <word key="all_activity_follow_member" js="0">Когда пользователь подписывается на другого пользователя</word>
   <word key="all_activity_follow_content" js="0">Когда пользователь подписывается на публикацию</word>
-  <word key="all_activity_photo" js="0">Когда пользователь изменяет свою фотографию</word>
+  <word key="all_activity_photo" js="0">Когда пользователь изменяет свой аватар</word>
   <word key="all_activity_like" js="0">Когда пользователю понравилось что-либо</word>
   <word key="all_activity_react" js="0">Когда пользователь реагирует на что-либо</word>
   <word key="all_activity_clubs" js="0">Когда пользователь создаёт клуб</word>
   <word key="activity_member_joined" js="0">%s зарегистрировался на сайте</word>
   <word key="activity_member_followed" js="0">%s подписался на %s</word>
-  <word key="activity_member_updated_photo" js="0">%s изменил свою фотографию </word>
+  <word key="activity_member_updated_photo" js="0">%s изменил свой аватар</word>
   <word key="activity_member_liked" js="0">%s понравилось %s: %s</word>
   <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src="<fileStore.core_Reaction>/%s" width='20' height='20' data-ipsTooltip title="%s">&nbsp; %s отреагировал на %s: %s]]></word>
   <word key="activity_club" js="0">%s создал клуб: %s</word>
@@ -313,9 +313,9 @@
   <word key="toggle_sidebar" js="0">Свернуть/развернуть боковые блоки</word>
   <word key="editor_tags" js="0">Теги</word>
   <word key="upload_progress_prefix" js="0">Ход загрузки</word>
-  <word key="uploaderr_total_size" js="0">В сумме вы можете загрузить до %sMB.</word>
-  <word key="pluploaderr_-600" js="0">Файл должен быть меньше {{max_file_size}}МБ.</word>
-  <word key="upload_too_big" js="0">Файл должен быть меньше %sМБ.</word>
+  <word key="uploaderr_total_size" js="0">В сумме вы можете загрузить до %s МБ.</word>
+  <word key="pluploaderr_-600" js="0">Файл должен быть меньше {{max_file_size}} МБ.</word>
+  <word key="upload_too_big" js="0">Файл должен быть меньше %s МБ.</word>
   <word key="pluploaderr_-601" js="0">Вы должны загрузить {{allowed_extensions}} файл.</word>
   <word key="pluploaderr_nomulti" js="0">Вы можете загрузить только один файл.</word>
   <word key="pluploaderr_SECURITY_EXCEPTION_RAISED" js="0">Возникла проблема при обработке загруженного файла. {{server_error_code}}</word>
@@ -327,7 +327,7 @@
   <word key="ckeditor_theme_moono" js="0">Moono</word>
   <word key="editor__core_Admin" js="0">Настройки Админцентра</word>
   <word key="editor__core_Contact" js="0">Обратная связь</word>
-  <word key="editor__core_Members" js="0">Обновления статусов и ответы</word>
+  <word key="editor__core_Members" js="0">Статусы и ответы на них</word>
   <word key="editor__core_Messaging" js="0">Личные беседы</word>
   <word key="editor__core_Modcp" js="0">Сообщения о блокировке и предупреждениях</word>
   <word key="editor__core_Reports" js="0">Жалобы</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.2. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.3. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -772,9 +772,9 @@
   <word key="personal_conversations" js="0">Сообщения</word>
   <word key="personal_conversation_message_pl" js="0">Сообщения</word>
   <word key="personal_conversation_message_pl_lc" js="0">сообщения</word>
-  <word key="status_updates" js="0">Обновления статусов</word>
-  <word key="status_update" js="0">Обновление статуса</word>
-  <word key="status_submit_comment" js="0">Отправить ответ</word>
+  <word key="status_updates" js="0">Статусы</word>
+  <word key="status_update" js="0">Статус</word>
+  <word key="status_submit_comment" js="0">Опубликовать ответ</word>
   <word key="notifications" js="0">Уведомления</word>
   <word key="unavailable" js="0">Недоступно</word>
   <word key="tags" js="0">Теги</word>
@@ -818,7 +818,7 @@
   <word key="clear_dname_history" js="0">Очистить историю имён</word>
   <word key="dname_history_cleared" js="0">История имён пользователя очищена</word>
   <word key="dname_history" js="0">Отображать историю имён пользователя</word>
-  <word key="membername_history" js="0">Показать историю имён</word>
+  <word key="membername_history" js="0">История имени пользователя</word>
   <word key="members_dname_history" js="0">История имени пользователя %s</word>
   <word key="merge" js="0">Объединить</word>
   <word key="ban" js="0">Заблокировать</word>
@@ -952,9 +952,9 @@
   <word key="moderation_history" js="0">История модерации</word>
   <word key="queued_comments_badge" js="0">{# [0:комментариев][1:комментарий][2:комментария][3:комментария][4:комментария][11:комментариев][12:комментариев][13:комментариев][14:комментариев][*1:комментарий][*2:комментария][*3:комментария][*4:комментария][?:комментариев] в очереди}</word>
   <word key="core_Modcp" js="0">Панель модератора</word>
-  <word key="member_deletion_keep_name" js="0">Что должно отображаться в качестве имени пользователя рядом с его публикациями?</word>
-  <word key="keep_name" js="0">Продолжить отображать &quot;%s&quot;</word>
-  <word key="remove_name" js="0">Изменить на &quot;Гость&quot;</word>
+  <word key="member_deletion_keep_name" js="0">Авторство сделанных публикаций</word>
+  <word key="keep_name" js="0">Отображать как %s</word>
+  <word key="remove_name" js="0">Сделать анонимным</word>
   <word key="member_deletion_keep_name_desc" js="0"><![CDATA[Вы также можете <a href='{internal.app=core&module=members&controller=members&do=deleteContent&id=%s}'>скрыть или удалить</a> его публикации.]]></word>
   <word key="dismiss" js="0">Отклонить</word>
   <word key="dismiss_lc" js="0">отклонить</word>
@@ -1787,7 +1787,7 @@
   <word key="ratings" js="0">Рейтинги</word>
   <word key="g_topic_rate_setting" js="0">Может оценивать публикации</word>
   <word key="g_topic_rate_change" js="0">Может изменять рейтинг</word>
-  <word key="bw_no_status_update" js="0">Может обновлять статус</word>
+  <word key="bw_no_status_update" js="0">Может публиковать статусы</word>
   <word key="members_disable_pm" js="0">Может отправлять и принимать сообщения</word>
   <word key="members_disable_pm_on" js="0">Да</word>
   <word key="members_disable_pm_member_disable" js="0">Нет, но пользователь может включить.</word>
@@ -2139,11 +2139,11 @@
   <word key="notifications__mention" js="0">Кто-либо упоминает меня в сообщении</word>
   <word key="notifications__new_likes_rep" js="0">Кто-либо изменяет репутацию за мою публикацию</word>
   <word key="notifications__new_likes_like" js="0">Кто-либо ставит отметку &quot;Нравится&quot; на мою публикацию</word>
-  <word key="notifications__reply_your_status" js="0">Кто-либо опубликовал ответ на мой статус</word>
+  <word key="notifications__reply_your_status" js="0">Кто-либо ответил на мой статус</word>
   <word key="notifications__reply_any_status" js="0">Кто-либо, кому я отвечал в профиль, публикует новый статус</word>
   <word key="notifications__core_Profile" js="0">Профиль</word>
   <word key="notifications__profile_comment" js="0">Кто-либо публикует сообщение в моём профиле</word>
-  <word key="notifications__profile_reply" js="0">Кто-либо отвечает на обновление статуса в моем профиле, или в профиле, в котором я также отвечал</word>
+  <word key="notifications__profile_reply" js="0">Кто-либо отвечает на статус в моем профиле, или в профиле, в котором я также отвечал</word>
   <word key="notifications__new_status" js="0">Кто-либо, на кого я подписан, публикует новый статус</word>
   <word key="notifications__core_Moderation" js="0">Модерация</word>
   <word key="notifications__report_center" js="0">Кто-либо отправил жалобу</word>
@@ -2191,9 +2191,9 @@
   <word key="mailsub__core_notification_new_content_bulk" js="0"><![CDATA[Новое {$email->language->addToStack( $contentClass::$title . "_pl" )} в {$container->_title}]]></word>
   <word key="mailsub__core_notification_new_private_message" js="0"><![CDATA[{$message->author()->name|raw} отправил вам сообщение]]></word>
   <word key="mailsub__core_notification_new_review" js="0"><![CDATA[{$comment->item()->mapped("title")|raw}]]></word>
-  <word key="mailsub__core_notification_profile_comment" js="0">Новый комментарий в вашей ленте</word>
-  <word key="mailsub__core_notification_profile_reply" js="0">Ответ на комментарий в вашей ленте</word>
-  <word key="mailsub__core_notification_new_status" js="0"><![CDATA[{$comment->author()->name|raw} оставил новой сообщение в ленте]]></word>
+  <word key="mailsub__core_notification_profile_comment" js="0">Новый комментарий в ленте ваших статусов</word>
+  <word key="mailsub__core_notification_profile_reply" js="0">Ответ на комментарий в ленте ваших статусов</word>
+  <word key="mailsub__core_notification_new_status" js="0"><![CDATA[{$comment->author()->name|raw} опубликовал новый статус]]></word>
   <word key="mailsub__core_notification_quote" js="0"><![CDATA[{$comment->author()->name|raw} процитировал ваше сообщение]]></word>
   <word key="mailsub__core_notification_warning_mods" js="0">Пользователь предупреждён</word>
   <word key="mailsub__core_registration_complete" js="0">Ваша регистрация завершена!</word>
@@ -2274,9 +2274,9 @@
   <word key="g_dohtml_warning" js="0"><![CDATA[Если включено, пользователи этой группы смогут публиковать HTML-код в сообщениях в местах, где это разрешено. <strong>Эта функция является небезопасной</strong> и её рекомендуется включать только для доверенных групп.]]></word>
   <word key="g_bypass_badwords" js="0">Обходить фильтры слов и ссылок</word>
   <word key="gbw_hide_group" js="0">Разрешить фильтрацию по этой группе</word>
-  <word key="gbw_hide_group_desc" js="0">Вы можете выключить эту настройку если группа используется в качестве второстепенной и вы не хотите отображать пользователей этой группы при поиске и в списке пользователей в сети.</word>
-  <word key="gbw_no_status_update" js="0">Может обновлять статус</word>
-  <word key="gbw_no_status_import" js="0">Может импортировать обновления статусов</word>
+  <word key="gbw_hide_group_desc" js="0">Вы можете выключить эту настройку, если вы не хотите отображать пользователей этой группы при поиске и в списке пользователей в сети. Второстепенные группы всегда исключены из поиска.</word>
+  <word key="gbw_no_status_update" js="0">Может публиковать статусы</word>
+  <word key="gbw_no_status_import" js="0">Может импортировать статусы</word>
   <word key="gbw_no_status_import_desc" js="0">Если вы включили интеграцию с Facebook и/или Twitter, пользователи смогут импортировать статусы из этих сервисов.</word>
   <word key="gbw_allow_upload_bgimage" js="0">Может загружать обложку профиля</word>
   <word key="g_max_bgimg_upload" js="0">Максимальный размер обложки профиля</word>
@@ -2298,17 +2298,17 @@
   <word key="group_signatures" js="0">Подписи</word>
   <word key="group_staff" js="0">Доступ администрации</word>
   <word key="g_attach" js="0">Может загружать вложения</word>
-  <word key="g_attach_max" js="0">Максимальный размер всего места для хранения</word>
-  <word key="g_attach_per_post" js="0">Максимальный размер места для хранения одной публикации</word>
+  <word key="g_attach_max" js="0">Максимальный размер хранилища</word>
+  <word key="g_attach_per_post" js="0">Максимальный размер хранилища для одной публикации</word>
   <word key="gbw_delete_attachments" js="0">Может удалять вложения</word>
   <word key="gbw_delete_attachments_desc" js="0"><![CDATA[Вложения автоматически удаляются, если публикация, к которой они привязаны, была удалена или вложение удалено из нее.<br>Если включено, пользователи в этой группе смогут удалять вложения со страницы Мои вложения. После такого удаления, везде, где эти вложения были привязаны, будет отображаться битая ссылка или изображение.]]></word>
   <word key="polls" js="0">Опросы</word>
   <word key="g_post_polls" js="0">Может создавать опросы</word>
   <word key="g_vote_polls" js="0">Может голосовать в опросах</word>
   <word key="g_close_polls" js="0">Может закрывать свои опросы</word>
-  <word key="g_photo_max_vars_size" js="0">Максимальный размер фотографии для хранения</word>
+  <word key="g_photo_max_vars_size" js="0">Максимальный вес аватара</word>
   <word key="g_photo_max_vars_none" js="0">Не разрешать загрузку фотографии</word>
-  <word key="g_photo_max_vars_wh" js="0">Максимальная ширина и высота фотографии</word>
+  <word key="g_photo_max_vars_wh" js="0">Максимальная ширина и высота аватара</word>
   <word key="g_use_signatures" js="0">Может использовать подпись?</word>
   <word key="g_signature_limit" js="0">Может использовать подпись</word>
   <word key="g_sig_max_images" js="0">Максимум изображений в подписи</word>
@@ -2811,10 +2811,10 @@
   <word key="photos" js="0">Фотографии</word>
   <word key="allow_gravatars" js="0">Включить Gravatar</word>
   <word key="allow_gravatars_desc" js="0"><![CDATA[Сервис Gravatar позволяет пользователям использовать единую фотографию для всех профилей в Интернете. Посетите <a href='{external.gravatar}' target='_blank'>Gravatar</a> для подробной информации.]]></word>
-  <word key="letter_photos" js="0">Стандартные фотографии профиля</word>
-  <word key="letterphoto_default" js="0">Использовать стандартную фотографию стиля</word>
-  <word key="letterphoto_default_desc" js="0"><![CDATA[Вы можете загрузить новую стандартную фотографию при <a href='{internal.app=core&module=customization&controller=themes}'>управлении ресурсами</a> каждого стиля.]]></word>
-  <word key="letterphoto_letters" js="0">Генерировать фотографию профиля на основе первой буквы имени пользователя</word>
+  <word key="letter_photos" js="0">Стандартные аватары</word>
+  <word key="letterphoto_default" js="0">Использовать стандартный аватар стиля</word>
+  <word key="letterphoto_default_desc" js="0"><![CDATA[Вы можете загрузить новый стандартный аватар в <a href='{internal.app=core&module=customization&controller=themes}'>управлении ресурсами</a> каждого стиля.]]></word>
+  <word key="letterphoto_letters" js="0">Генерировать аватар на основе первой буквы имени пользователя</word>
   <word key="usernames" js="0">Имена пользователей</word>
   <word key="user_name_length" js="0">Допустимая длина имени пользователя</word>
   <word key="user_name_length_too_low" js="0">Вы должны указать минимальную длину.</word>
@@ -2833,9 +2833,9 @@
   <word key="sig_max_imgsize" js="0">Изображения до %s x %s px</word>
   <word key="sig_max_urls" js="0">Максимум {# [0:ссылок][1:ссылка][2:ссылки][3:ссылки][4:ссылки][11:ссылок][12:ссылок][13:ссылок][14:ссылок][*1:ссылка][*2:ссылки][*3:ссылки][*4:ссылки][*11:ссылок][*12:ссылок][*13:ссылок][*14:ссылок][?:ссылок]}</word>
   <word key="sig_max_lines" js="0">Максимум {# [0:строк][1:строка][2:строки][3:строки][4:строки][11:строк][12:строк][13:строк][14:строк][*1:строка][*2:строки][*3:строки][*4:строки][*11:строк][*12:строк][*13:строк][*14:строк][?:строк]}</word>
-  <word key="statuses_profile_comments" js="0">Изменения статусов</word>
-  <word key="profile_comments" js="0">Обновления статусов</word>
-  <word key="profile_comment_approval" js="0">Обновления статусов должны быть утверждены</word>
+  <word key="statuses_profile_comments" js="0">Статусы</word>
+  <word key="profile_comments" js="0">Статусы</word>
+  <word key="profile_comment_approval" js="0">Статусы должны быть утверждены</word>
   <word key="sig_num_lines_exceeded" js="0">Слишком много строк</word>
   <word key="sig_num_images_exceeded" js="0">Слишком много изображений</word>
   <word key="sig_num_links_exceeded" js="0">Слишком много ссылок</word>
@@ -3569,7 +3569,7 @@
   <word key="emailtpl_registration_validate" js="0">Подтверждение регистрации</word>
   <word key="emailtpl_notification_warning_mods" js="0">Уведомление модератора при предупреждении пользователя</word>
   <word key="emailtpl_notification_quote" js="0">Уведомление о цитате</word>
-  <word key="emailtpl_notification_profile_comment" js="0">Обновление статуса</word>
+  <word key="emailtpl_notification_profile_comment" js="0">Новый статус</word>
   <word key="emailtpl_notification_profile_reply" js="0">Ответ на статус</word>
   <word key="emailtpl_notification_new_review" js="0">Новый отзыв</word>
   <word key="emailtpl_notification_new_content" js="0">Новая публикация</word>
@@ -4019,7 +4019,7 @@
   <word key="analytics_provider_ga" js="0">Google Analytics</word>
   <word key="analytics_piwik" js="0">Код отслеживания Piwik</word>
   <word key="analytics_piwik_desc" js="0"><![CDATA[Войдите в свой аккаунт <a href='{external.piwik}' target='_blank'>Piwik</a>, нажмите на своё имя пользователя в верхнем-правом углу и нажмите <em>Настройки</em>. Далее нажмите <em>Код отслеживания</em> в левом меню и найдите <em>Код отслеживания</em>. Скопируйте его и вставьте в блок выше для добавления кода отслеживания на ваше сообщество.<br>Мы автоматически зарегистрируем просмотр страницы с помощью Piwik при динамической загрузке контента на странице.]]></word>
-  <word key="analytics_provider_piwik" js="0">Piwik</word>
+  <word key="analytics_provider_piwik" js="0">Matomo</word>
   <word key="analytics_custom" js="0">Код отслеживания</word>
   <word key="analytics_custom_desc" js="0"><![CDATA[Если вы используете сервис аналитики, которого нет в списке выше, и он предоставляет JavaScript-код отслеживания для вставки его на страницы сайта, то вставьте его в блок выше. Мы добавим его на каждую страницу сообщество перед тегом &lt;/body>.]]></word>
   <word key="analytics_provider_custom" js="0">Другой</word>
@@ -4074,7 +4074,7 @@
   <word key="auto_follow_replied_to" js="0">Автоматически подписывать пользователей на публикации, в которые они отвечают</word>
   <word key="auto_follow_replied_to_desc" js="0">Включая ответы и комментарии. Пользователи могут изменить это в своих настройках уведомлений или для каждой публикации отдельно.</word>
   <word key="auto_follow_preferences" js="0">Автоматическая подписка</word>
-  <word key="auto_follow_update_all" js="0"><![CDATA[Изменение этой настройки затронет только новых пользователей до тех пор, пока вы не <a href='{internal.app=core&module=membersettings&controller=notifications&do=updateMemberFollowPrefs}' data-confirm data-confirmMessage='Это перезапишет настройки уведомлений, которые они настроили, стандартными значениями.'>измените её для существующих пользователей</a>.]]></word>
+  <word key="auto_follow_update_all" js="0"><![CDATA[Изменение этой настройки затронет только новых пользователей, пока вы не <a href='{internal.app=core&module=membersettings&controller=notifications&do=updateMemberFollowPrefs}' data-confirm data-confirmMessage='Это перезапишет настройки уведомлений, которые они настроили, стандартными значениями.'>измените её для существующих пользователей</a>.]]></word>
   <word key="warning" js="0">Предупреждение</word>
   <word key="warnings" js="0">Предупреждения</word>
   <word key="warn_reasons" js="0">Причины</word>
@@ -4383,7 +4383,7 @@
   <word key="filestorage_configurations" js="0">Конфигурация</word>
   <word key="filestorage__core_Attachment" js="0">Вложения</word>
   <word key="filestorage__core_Attachment_desc" js="0">Файлы, загруженные с сообщениями и комментариями.</word>
-  <word key="filestorage__core_Profile" js="0">Фотографии</word>
+  <word key="filestorage__core_Profile" js="0">Аватары</word>
   <word key="filestorage__core_Theme" js="0">Ресурсы стилей</word>
   <word key="filestorage__core_Theme_desc" js="0">CSS, Javascript файлы и изображения, используемые стилем.</word>
   <word key="filestorage__core_Advertisements" js="0">Реклама</word>
@@ -4655,10 +4655,10 @@
   <word key="profilesync_headline" js="0"><![CDATA[Вы вошли как <strong>%s</strong>]]></word>
   <word key="profilesync_headline_no_name" js="0">Вы вошли в %s</word>
   <word key="profilesync_options" js="0">Настройки синхронизации</word>
-  <word key="profilesync_photo" js="0"><![CDATA[Использовать <strong>фотографию профиля на %s</strong> в качестве моей фотографии профиля]]></word>
-  <word key="profilesync_status" js="0"><![CDATA[Копировать мои <strong>изменения статусов на %s</strong> в мой профиль.]]></word>
+  <word key="profilesync_photo" js="0"><![CDATA[Использовать мою <strong>фотографию из %s</strong> в качестве моего аватара]]></word>
+  <word key="profilesync_status" js="0"><![CDATA[Копировать мои <strong>статусы из %s</strong> в мой профиль.]]></word>
   <word key="profilesync_status_none" js="0">Не синхронизировать мой статус</word>
-  <word key="profilesync_cover" js="0"><![CDATA[Использовать <strong>обложку профиля на %s</strong> в качестве моей обложки профиля]]></word>
+  <word key="profilesync_cover" js="0"><![CDATA[Использовать мою <strong>обложку из %s</strong> в качестве обложки моего профиля]]></word>
   <word key="profilesync_sync_blurb" js="0">Ваш профиль периодически синхронизируется.</word>
   <word key="profilesync_last_sync" js="0">Последняя синхронизация %s</word>
   <word key="profilesync_not_synced" js="0">Не подключен</word>
@@ -4671,7 +4671,7 @@
   <word key="profilesync_logged_in_as" js="0">Вы вошли как %s</word>
   <word key="profile_disassociated" js="0">Ваш аккаунт успешно отключен от сервиса</word>
   <word key="sync_settings_syncing" js="0">Синхронизируются a, b и c</word>
-  <word key="sync_settings_photo" js="0">фото профиля</word>
+  <word key="sync_settings_photo" js="0">аватар</word>
   <word key="sync_settings_cover" js="0">обложка профиля</word>
   <word key="sync_settings_status_export" js="0">экспортируются статусы</word>
   <word key="sync_settings_status_import" js="0">импортируются статусы</word>
@@ -5973,10 +5973,10 @@
   <word key="skip_this_item" js="0">Пропустить этот элемент</word>
   <word key="posted_in_container" js="0">Опубликовано в</word>
   <word key="approval_queue_empty" js="0">Больше нет публикаций, ожидающих утверждения</word>
-  <word key="member_status_pl" js="0">Комментарии в профилях</word>
-  <word key="member_status_pl_lc" js="0">обновления статусов</word>
+  <word key="member_status_pl" js="0">Статусы</word>
+  <word key="member_status_pl_lc" js="0">статусы</word>
   <word key="member_status_container" js="0">пользователь</word>
-  <word key="status_reply_pl" js="0">Ответы в профилях</word>
+  <word key="status_reply_pl" js="0">Ответы на статус</word>
   <word key="status_reply_pl_lc" js="0">ответы на статус</word>
   <word key="modcp_recent_warnings" js="0">Предупреждения</word>
   <word key="member_warned" js="0">Пользователь предупреждён</word>
@@ -6033,9 +6033,9 @@
   <word key="report_user_reports" js="0">{# [0:жалоб][1:жалоба][2:жалобы][3:жалобы][4:жалобы][11:жалоб][12:жалоб][13:жалоб][14:жалоб][*1:жалоба][*2:жалобы][*3:жалобы][*4:жалобы][?:жалоб] пользователя}</word>
   <word key="report_date_submitted" js="0">Отправлено</word>
   <word key="report_content" js="0">Подать жалобу на публикацию</word>
-  <word key="core_statuses_status" js="0">Комментарии в профилях</word>
-  <word key="core_statuses_reply" js="0">Ответы в профилях</word>
-  <word key="core_statuses_status_pl" js="0">Обновления статуса</word>
+  <word key="core_statuses_status" js="0">Статусы</word>
+  <word key="core_statuses_reply" js="0">Ответы на статусы</word>
+  <word key="core_statuses_status_pl" js="0">Статусы</word>
   <word key="notification__report_center" js="0">%s отправил жалобу на %s: %s</word>
   <word key="update_report_status_content" js="0"><![CDATA[<strong>Обновлён статус</strong> жалобы на <strong>%s</strong>]]></word>
   <word key="modlog__action_update_report_status" js="0"><![CDATA[Обновил статус <a href='%s'>жалобы</a>]]></word>
@@ -6213,8 +6213,8 @@
   <word key="no_recent_visitors" js="0">Нет последних посетителей для отображения</word>
   <word key="disabled_recent_visitors" js="0">Блок посетителей профиля отключен и не будет отображаться другим пользователям</word>
   <word key="enable_recent_visitors" js="0">Включить</word>
-  <word key="hide_status_updates" js="0">Отключить обновления статусов</word>
-  <word key="enable_status_updates" js="0">Включить изменение статусов</word>
+  <word key="hide_status_updates" js="0">Отключить статусы</word>
+  <word key="enable_status_updates" js="0">Включить статусы</word>
   <word key="user_content_type" js="0">Тип публикации</word>
   <word key="anon_follower" js="0">(анонимно)</word>
   <word key="no_followers_yet" js="0">Нет подписчиков</word>
@@ -6238,7 +6238,7 @@
   <word key="members_reputation" js="0">Репутация %s</word>
   <word key="status_date_started" js="0">Ответил %s</word>
   <word key="status_date_replied" js="0">Ответил %s</word>
-  <word key="no_photo_to_crop" js="0">Нет доступных фотографий для обрезки</word>
+  <word key="no_photo_to_crop" js="0">Нет доступных аватаров для обрезки</word>
   <word key="user_own_activity_item" js="0">%s добавил %s в</word>
   <word key="user_own_activity_comment" js="0">%s добавил %s</word>
   <word key="user_own_activity_review" js="0">%s оставил отзыв к %s в</word>
@@ -6247,14 +6247,14 @@
   <word key="user_other_activity_comment" js="0">%1$s прокомментировал %3$s пользователя %2$s в</word>
   <word key="user_other_activity_review" js="0">%1$s оставил отзыв к %3$s пользователя %2$s в</word>
   <word key="user_other_activity_reply" js="0">%1$s ответил в %3$s пользователя %2$s в</word>
-  <word key="modperms__core_Content_core_Statuses_Status" js="0">Обновления статусов</word>
+  <word key="modperms__core_Content_core_Statuses_Status" js="0">Статусы</word>
   <word key="can_edit_member_status" js="0">Может изменять статусы</word>
   <word key="can_hide_member_status" js="0">Может скрывать статусы</word>
   <word key="can_unhide_member_status" js="0">Может отменять скрытие статусов</word>
   <word key="can_view_hidden_member_status" js="0">Может просматривать скрытые статусы</word>
   <word key="can_lock_member_status" js="0">Может закрывать статусы</word>
   <word key="can_unlock_member_status" js="0">Может открывать статусы</word>
-  <word key="can_reply_to_locked_member_status" js="0">Может отвечать в закрытые статусы</word>
+  <word key="can_reply_to_locked_member_status" js="0">Может отвечать на закрытые статусы</word>
   <word key="can_delete_member_status" js="0">Может удалять статусы</word>
   <word key="can_edit_status_reply" js="0">Может изменять ответы на статусы</word>
   <word key="can_hide_status_reply" js="0">Может скрывать ответы на статусы</word>
@@ -6316,9 +6316,9 @@
   <word key="block_relatedContent" js="0">Похожие публикации</word>
   <word key="block_relatedContent_desc" js="0">Отображает похожие по тегам публикации</word>
   <word key="toshow" js="0">Максимум результатов</word>
-  <word key="block_recentStatusUpdates" js="0">Изменения статусов</word>
-  <word key="block_recentStatusUpdates_desc" js="0">Отображает последние изменения статусов</word>
-  <word key="no_recent_statuses" js="0">Нет изменений статусов</word>
+  <word key="block_recentStatusUpdates" js="0">Последние статусы</word>
+  <word key="block_recentStatusUpdates_desc" js="0">Отображает последние статусы пользователя</word>
+  <word key="no_recent_statuses" js="0">Нет опубликованных статусов</word>
   <word key="block_topContributors" js="0">Лучшие авторы</word>
   <word key="block_topContributors_desc" js="0">Отображает пользователей с наибольшей полученной репутацией за последнюю неделю, месяц, год или всё время.</word>
   <word key="top_contributors_empty__week" js="0">Никто не получал репутацию за неделю</word>
@@ -6533,36 +6533,36 @@
   <word key="widget_feed_restrict_days_suffix" js="0">дней</word>
   <word key="mod_confirm_visible" js="0">Видимые</word>
   <word key="mod_confirm_hidden" js="0">Скрытые</word>
-  <word key="status_feed" js="0">Изменения статусов</word>
+  <word key="status_feed" js="0">Лента статусов</word>
   <word key="status_content" js="0">О чем ты думаешь?</word>
-  <word key="status__comment_placeholder" js="0">Ответить на статус...</word>
+  <word key="status__comment_placeholder" js="0">Ответить на этот статус...</word>
   <word key="status__update_placeholder" js="0"><![CDATA[Написать <em>публичное</em> сообщение в свою ленту...]]></word>
   <word key="status__update_placeholder_other" js="0"><![CDATA[Написать <em>публичное</em> сообщение в ленту пользователя %s...]]></word>
   <word key="status_report" js="0">Жалоба</word>
   <word key="member_status" js="0">Статус</word>
   <word key="notification__profile_comment" js="0">%s оставил комментарий в вашей ленте</word>
-  <word key="notification__profile_reply" js="0">%s ответил на обновление статуса.</word>
-  <word key="notification__new_status" js="0">%s опубликовал новый статус</word>
+  <word key="notification__profile_reply" js="0">%s ответил на статус.</word>
+  <word key="notification__new_status" js="0">%s опубликовал новый статус.</word>
   <word key="show_prev_comments" js="0">Показать предыдущий комментарий</word>
   <word key="show_next_comments" js="0">Показать следующий комментарий</word>
   <word key="x_more" js="0">ещё {!# [?:один][?:#]}</word>
-  <word key="status_reply" js="0">Сообщение</word>
-  <word key="status_new" js="0">Обновить статус</word>
+  <word key="status_reply" js="0">Ответ</word>
+  <word key="status_new" js="0">Опубликовать статус</word>
   <word key="status_save" js="0">Сохранить статус</word>
   <word key="global_feed" js="0">Глобальная лента</word>
   <word key="people_i_follow" js="0">Пользователи, на которых я подписан</word>
   <word key="module__core_status" js="0">Статусы</word>
-  <word key="no_status_updates" js="0">Здесь ещё нет никаких изменений статусов.</word>
-  <word key="status_updated_by" js="0">Обновление статуса опубликовано %s</word>
+  <word key="no_status_updates" js="0">Здесь ещё не публиковались статусы.</word>
+  <word key="status_updated_by" js="0">Статус опубликован пользователем %s</word>
   <word key="see_all_statuses_by_x" js="0">Все обновления %s</word>
-  <word key="viewing_single_status" js="0">Обновление статуса</word>
-  <word key="viewing_single_status_of" js="0">Обновление статуса %2$s от %1$s</word>
+  <word key="viewing_single_status" js="0">Статус</word>
+  <word key="viewing_single_status_of" js="0">Статус пользователя %2$s от %1$s</word>
   <word key="status_ignoring" js="0">Этот комментарий скрыт т.к. вы игнорируете %s</word>
-  <word key="status_widget_create" js="0">Обновить статус</word>
+  <word key="status_widget_create" js="0">Опубликовать статус</word>
   <word key="status_num_replies" js="0">{# [0:ответов][1:ответ][2:ответа][3:ответа][4:ответа][11:ответов][12:ответов][13:ответов][14:ответов][*1:ответ][*2:ответа][*3:ответа][*4:ответа][*11:ответов][*12:ответов][*13:ответов][*14:ответов][?:ответов]}</word>
   <word key="status_see_x_other_replies" js="0">(Просмотреть {# [0:других ответов][1:другой ответ][2:других ответа][3:других ответа][4:других ответа][11:других ответов][12:других ответов][13:других ответов][14:других ответов][*1:другой ответ][*2:других ответа][*3:других ответа][*4:других ответа][*11:других ответов][*12:других ответов][*13:других ответов][*14:других ответов][?:других ответов]} на этот статус)</word>
-  <word key="member_posted_status_self" js="0">%s обновил статус</word>
-  <word key="member_posted_status_other" js="0">%s обновил статус в профиле пользователя %s</word>
+  <word key="member_posted_status_self" js="0">%s опубликовал новый статус</word>
+  <word key="member_posted_status_other" js="0">%s опубликовал новый статус в профиле пользователя %s</word>
   <word key="search_content_search" js="0">Поиск публикаций</word>
   <word key="search_content_search_title" js="0">Поиск по нашим публикациям</word>
   <word key="search_member_search" js="0">Поиск пользователей</word>
@@ -6637,9 +6637,9 @@
   <word key="termsortags_or_desc" js="0"><![CDATA[Фраза <strong>ИЛИ</strong> теги]]></word>
   <word key="termsortags_and_desc" js="0"><![CDATA[Фраза <strong>И</strong> теги]]></word>
   <word key="searchIn" js="0">Искать результаты в...</word>
-  <word key="titles_and_body" js="0">Заголовках и содержании публикаций</word>
-  <word key="titles_only" js="0">Только в заголовках публикаций</word>
-  <word key="andOr" js="0">Искать результаты, которые содержат...</word>
+  <word key="titles_and_body" js="0">Заголовках и содержании</word>
+  <word key="titles_only" js="0">Только в заголовках</word>
+  <word key="andOr" js="0">Искать результаты, содержащие...</word>
   <word key="search_and" js="0"><![CDATA[<em>Все</em> слова из моего запроса]]></word>
   <word key="search_or" js="0"><![CDATA[<em>Любое</em> слово из моего запроса]]></word>
   <word key="searchType" js="0">Тип публикаций</word>
@@ -6654,7 +6654,7 @@
   <word key="search_flood_error_admin" js="0"><![CDATA[Пожалуйста, подождите {# [0:секунд][1:секунда][2:секунды][3:секунды][4:секунды][11:секунд][12:секунд][13:секунд][14:секунд][*1:секунда][*2:секунды][*3:секунды][*4:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]} перед повторной попыткой поиска. Вы можете отключить это ограничение в <a href='{internal.admin.app=core&module=members&controller=groups&searchResult=g_search_flood}'>настройках групп</a>.]]></word>
   <word key="update_results" js="0">Обновить результаты</word>
   <word key="no_searchable_apps" js="0">Здесь нет нового содержимого</word>
-  <word key="no_searchable_apps_admin" js="0">В настоящее время нет установленных приложений, которые могут отслеживать чтение статусов</word>
+  <word key="no_searchable_apps_admin" js="0">В настоящее время нет приложений, в которых есть типы публикаций, поддерживающие отслеживание статуса прочтённости.</word>
   <word key="search_index_header" js="0">Поисковый индекс</word>
   <word key="search_index_timeframe" js="0">Отрезок времени</word>
   <word key="search_index_timeframe_prefix" js="0">Исключить публикации, созданные до</word>
@@ -6723,7 +6723,7 @@
   <word key="search_hint_phrase" js="0">Фраза &quot;%s&quot;</word>
   <word key="search_join_or" js="0">ИЛИ</word>
   <word key="search_newer_first" js="0">Сначала более новые</word>
-  <word key="search_titles_and_content" js="0">%s в заголовках и публикациях</word>
+  <word key="search_titles_and_content" js="0">%s в заголовках и содержании</word>
   <word key="search_titles_only" js="0">%s только в заголовках</word>
   <word key="search_most_pertinent" js="0">Сначала более релевантные</word>
   <word key="search_all_dates" js="0">%s любой даты</word>
@@ -6875,7 +6875,7 @@
   <word key="requirements_extension_advice_exif" js="0">У вас нет расширения PHP Exif. Оно не является обязательным, но рекомендуется для автоматического поворота загруженных изображений и получения местоположения из информации о изображении. Вам следует связаться с вашим хостинг-провайдером или системным администратором для установки этого расширения.</word>
   <word key="requirements_extension_advice_phar" js="0">У вас нет расширения PHP Phar. Без этого расширения вы не сможете устанавливать сторонние приложения в Админцентре. Вам следует связаться с вашим хостинг-провайдером или системным администратором для установки этого расширения.</word>
   <word key="requirements_extension_advice_zip" js="0">У вас нет расширения PHP Zip. Без этого расширения вы не сможете устанавливать плагины CKEditor и использовать автоматическую систему обновления в Админцентре. Вам следует связаться с вашим хостинг-провайдером или системным администратором для установки этого расширения.</word>
-  <word key="requirements_missing_imagettfbbox" js="0">GD был скомпилирован без поддержки freetype. Оно не является обязательным, но рекомендуется для использования функционала автоматической генерации буквенных фотографий вместо стандартной фотографии профиля в вашем стиле. Вам следует связаться с вашим хостинг-провайдером или системным администратором и подать запрос на перекомпиляцию PHP с поддержкой freetype (флаг --with-freetype-dir=DIR).</word>
+  <word key="requirements_missing_imagettfbbox" js="0">GD был скомпилирован без поддержки freetype. Оно не является обязательным, но рекомендуется для использования функционала автоматической генерации буквенных аватаров вместо стандартного аватара вашего стиля. Вам следует связаться с вашим хостинг-провайдером или системным администратором и подать запрос на перекомпиляцию PHP с поддержкой freetype (флаг --with-freetype-dir=DIR).</word>
   <word key="requirements_memory_limit_success" js="0">Ограничение памяти %s</word>
   <word key="requirements_memory_limit_fail" js="0">Значения ограничения памяти PHP равняется %s, но должно быть 128M или больше. Вы должны связаться с вашим хостинг-провайдером или системным администратором для изменения лимита.</word>
   <word key="requirements_suhosin_limit" js="0">Настройка PHP %s имеет значение %s. Это может вызвать проблемы в некоторых местах сайта. Рекомендуется установить значение %s или выше.</word>
@@ -6981,9 +6981,9 @@
   <word key="filesize_P" js="0">%s Пб</word>
   <word key="filesize_T" js="0">%s Тб</word>
   <word key="filesize_G" js="0">%s Гб</word>
-  <word key="filesize_M" js="0">%s Мб</word>
-  <word key="filesize_k" js="0">%s Кб</word>
-  <word key="filesize_raw_k" js="0">Кб</word>
+  <word key="filesize_M" js="0">%s МБ</word>
+  <word key="filesize_k" js="0">%s КБ</word>
+  <word key="filesize_raw_k" js="0">КБ</word>
   <word key="filesize_b" js="0">%s б</word>
   <word key="remote_images" js="0">Сторонние изображения</word>
   <word key="allow_remote_images" js="0">Разрешить сторонние изображения</word>
@@ -7801,7 +7801,7 @@
   <word key="other_actions" js="0">Другие действия</word>
   <word key="profile_acp_table_step_extension" js="0">Шаг</word>
   <word key="profile_completion_items" js="0">Шаги заполнения профиля</word>
-  <word key="complete_profile_photo" js="0">Фотография</word>
+  <word key="complete_profile_photo" js="0">Аватар</word>
   <word key="complete_profile_cover_photo" js="0">Обложка профиля</word>
   <word key="complete_profile_birthday" js="0">День рождения</word>
   <word key="complete_profile_signature" js="0">Подпись</word>
@@ -8007,12 +8007,12 @@
   <word key="uploadSingleErr" js="1">Вам разрешено загрузить только 1 файл.</word>
   <word key="attachInsertOne" js="1">Выберите это вложение для вставки</word>
   <word key="attachRemove" js="1">Удалить вложение</word>
-  <word key="uploadTotalErr" js="1">Вам разрешено загрузить только {{size}}{{size_suffix}}.</word>
-  <word key="uploadSizeErr" js="1">{# [0:файлов превышают][1:файл превышает][2:файла превышают][3:файла превышают][4:файла превышают][11:файлов превышают][12:файлов превышают][13:файлов превышают][14:файлов превышают][*1:файл превышает][*2:файла превышают][*3:файла превышают][*4:файла превышают][?:файлов превышают]} больше, чем максимальный размер {{max_file_size}}{{size_suffix}}, и {# [0:файлов было пропущено][1:файл пропущен][2:файла было пропущено][3:файла было пропущено][4:файла было пропущено][11:файлов было пропущено][12:файлов было пропущено][13:файлов было пропущено][14:файлов было пропущено][*1:файл был пропущен][*2:файла было пропущено][*3:файла было пропущено][*4:файла было пропущено][*11:файлов было пропущено][*12:файлов было пропущено][*13:файлов было пропущено][*14:файлов было пропущено][?:файлов было пропущено]} </word>
+  <word key="uploadTotalErr" js="1">Вам разрешено загрузить только {{size}} {{size_suffix}}.</word>
+  <word key="uploadSizeErr" js="1">{# [0:файлов превышают][1:файл превышает][2:файла превышают][3:файла превышают][4:файла превышают][11:файлов превышают][12:файлов превышают][13:файлов превышают][14:файлов превышают][*1:файл превышает][*2:файла превышают][*3:файла превышают][*4:файла превышают][?:файлов превышают]} максимально допустимый размер в {{max_file_size}} {{size_suffix}} и {!# [1:не был загружен][?:не были загружены]} </word>
   <word key="uploadMaxFilesErr" js="1">Вы можете загрузить только {# [0:файлов][1:файл][2:файла][3:файла][4:файла][11:файлов][12:файлов][13:файлов][14:файлов][*1:файл][*2:файла][*3:файла][*4:файла][*11:файлов][*12:файлов][*13:файлов][*14:файлов][?:файлов]}</word>
-  <word key="pluploaderr_-600" js="1">Файл должен быть меньше {{max_file_size}}МБ.</word>
-  <word key="size_kb" js="1">кб</word>
-  <word key="size_mb" js="1">мб</word>
+  <word key="pluploaderr_-600" js="1">Файл должен быть меньше {{max_file_size}} МБ.</word>
+  <word key="size_kb" js="1">КБ</word>
+  <word key="size_mb" js="1">МБ</word>
   <word key="pluploaderr_-601" js="1">Разрешённые типы файлов: {{allowed_extensions}}</word>
   <word key="pluploaderr_nomulti" js="1">Вы можете загрузить только один файл.</word>
   <word key="pluploaderr_SECURITY_EXCEPTION_RAISED" js="1">Возникла проблема при обработке загруженного файла. {{server_error_code}}</word>
@@ -8039,7 +8039,7 @@
   <word key="confirmStatusCommentDelete" js="1">Вы уверены, что хотите удалить этот комментарий?</word>
   <word key="updatingStatus" js="1">Обновление...</word>
   <word key="whatsOnYourMind" js="1">О чём вы думаете?</word>
-  <word key="submitStatus" js="1">Отправить статус</word>
+  <word key="submitStatus" js="1">Опубликовать статус</word>
   <word key="toggleOn" js="1">Вкл.</word>
   <word key="toggleOff" js="1">Выкл.</word>
   <word key="saving" js="1">Сохранение...</word>
@@ -8394,7 +8394,7 @@
   <word key="preview" js="0">Предварительный просмотр</word>
   <word key="hidden_blurb_no_member" js="0">Скрыто %s - %s</word>
   <word key="primary_group" js="0">Основная группа</word>
-  <word key="spam_flag_confirm" js="0">На основе ваших настроек, это %s. если вы позже удалите этот флаг, то они не будут отменены.</word>
+  <word key="spam_flag_confirm" js="0">В соответствии с вашими настройками будут выполнены следующие действия: %s. Если позже вы удалите флаг, то предпринятые действия не будут отменены.</word>
   <word key="spam_flag_confirm_disable" js="0">ограничение создания новых публикаций</word>
   <word key="spam_flag_confirm_unapprove" js="0">скрытие уже сделанных публикаций пользователя</word>
   <word key="spam_flag_confirm_delete" js="0">удаление уже сделанных публикаций пользователя</word>
@@ -8491,7 +8491,7 @@
   <word key="oauth_custom_name_field_desc" js="0">Название параметра, если он доступен, который содержит имя пользователя, расположенного в ответе конечной точки для получения информации о пользователе. Если не указан, то у пользователя будет запрошено имя пользователя при первом входе.</word>
   <word key="oauth_custom_email_field" js="0">Параметр email-адреса</word>
   <word key="oauth_custom_email_field_desc" js="0">Название параметра, если он доступен, который содержит email-адрес пользователя, расположенного в ответе конечной точки для получения информации о пользователе. Если не указан, то у пользователя будет запрошен email-адрес при первом входе.</word>
-  <word key="oauth_custom_photo_field" js="0">Параметр ссылки на фотографию профиля</word>
+  <word key="oauth_custom_photo_field" js="0">Параметр ссылки на аватар</word>
   <word key="oauth_custom_photo_field_desc" js="0">Название параметра, если он доступен, который содержит ссылку на фотографию пользователя, расположенного в ответе конечной точки для получения информации о пользователе.</word>
   <word key="oauth_implicit_no_js" js="0">Для продолжения, пожалуйста, включите JavaScript и обновите страницу.</word>
   <word key="oauth_custom_auth_types" js="0">Текст для поля имени пользователя</word>
@@ -8600,14 +8600,14 @@
   <word key="acplog__members_edited_groups" js="0">Изменены группы пользователя: %s</word>
   <word key="acplog__members_edited_mfa" js="0">Изменены настройки двухфакторной аутентификации пользователя: %s</word>
   <word key="acplog__members_edited_restrictions" js="0">Изменены предупреждения / ограничения пользователя: %s</word>
-  <word key="acplog__members_edited_photo" js="0">Изменена фотография профиля пользователя: %s</word>
+  <word key="acplog__members_edited_photo" js="0">Изменён аватар пользователя: %s</word>
   <word key="acplog__members_edited_cover_photo" js="0">Изменена обложка профиля пользователя: %s</word>
   <word key="acplog__members_edited_login" js="0">Изменены настройки синхронизации пользователя: %s</word>
   <word key="acplog__members_edited_login_unlink" js="0">Отвязан социальный профиль пользователя: %s</word>
   <word key="acplog__members_disabled_autologin" js="0">Отключен автоматический вход с устройства пользователя: %s</word>
   <word key="memberACPProfileTitle_core_Main" js="0">Пользователь</word>
   <word key="edit_cover_photo" js="0">Изменить обложку профиля</word>
-  <word key="edit_profile_photo" js="0">Изменить фотографию профиля</word>
+  <word key="edit_profile_photo" js="0">Изменить аватар</word>
   <word key="edit_member_account" js="0">Изменить настройки</word>
   <word key="account_actions" js="0">Действия с аккаунтом</word>
   <word key="account_banned_perm" js="0">Пользователь заблокирован навсегда.</word>
@@ -8652,11 +8652,11 @@
   <word key="admin_disable_messenger_confirm" js="0">Сможет ли пользователь снова включить личные сообщения в своих настройках?</word>
   <word key="admin_enable_messenger" js="0">Включить ЛС</word>
   <word key="member_restrictions__core_Content" js="0">Публикации</word>
-  <word key="member_restrictions__core_Statuses" js="0">Обновления статусов</word>
+  <word key="member_restrictions__core_Statuses" js="0">Статусы</word>
   <word key="member_restrictions__core_Tags" js="0">Теги</word>
   <word key="restriction_no_tagging" js="0">Запрещено использование тегов</word>
   <word key="restriction_no_prefixes" js="0">Запрещено использование префиксов</word>
-  <word key="restriction_no_statuses" js="0">Запрещена отправка изменений статуса</word>
+  <word key="restriction_no_statuses" js="0">Запрещена публикация статусов</word>
   <word key="merge_with_another_account" js="0">Объединить с другим аккаунтом</word>
   <word key="member_has_active_subscription" js="0">Активная подписка</word>
   <word key="member_has_active_subscription_desc" js="0">Этот пользователь имеет активную подписку, которая переместила его в другую группу</word>
@@ -8703,10 +8703,10 @@
   <word key="sitemap_profiles_content_desc" js="0">Минимальное количество публикаций, которое нужно сделать пользователю, чтобы попасть в карту сайта.</word>
   <word key="sitemap_profiles_content_suffix" js="0">или больше</word>
   <word key="status_updates_disabled" js="0">Отключено</word>
-  <word key="status_updates_enabled_nomem" js="0">Отключено по умолчанию</word>
-  <word key="status_updates_enabled_nomem_desc" js="0">Пользователи смогут включить обновления статусов в своем аккаунте</word>
-  <word key="status_updates_enabled_mem" js="0">Включено по умолчанию</word>
-  <word key="status_updates_enabled_mem_desc" js="0">Обновления статусов буду включены по умолчанию, но пользователи смогут отключить их в своем аккаунта</word>
+  <word key="status_updates_enabled_nomem" js="0">Отключены по умолчанию</word>
+  <word key="status_updates_enabled_nomem_desc" js="0">Пользователи смогут включить статусы в своем аккаунте</word>
+  <word key="status_updates_enabled_mem" js="0">Включены по умолчанию</word>
+  <word key="status_updates_enabled_mem_desc" js="0">Статусы буду включены по умолчанию, но пользователи смогут отключить их в своем аккаунте</word>
   <word key="leaderboard_excluded_groups" js="0">Исключить эти группы</word>
   <word key="leaderboard_excluded_groups_desc" js="0"><![CDATA[Пользователи из этих групп не будут включены в таблицу лидеров.<br>После изменения этой настройки, вам потребуется <a data-ipsDialog data-ipsDialog-title='Перестроить таблицу лидеров' href='{internal.app=core&module=membersettings&controller=reputation&do=rebuildLeaderboard}'>перестроить таблицу лидеров</a> для удаления пользователей из исключенных групп из истории таблицы.]]></word>
   <word key="no_permission_poll" js="0">У вас нет прав на голосование в этом опросе, или на просмотр результатов опроса.</word>
@@ -8835,7 +8835,7 @@
   <word key="emoji_ascii" js="0">Заменять текст на эмодзи?</word>
   <word key="emoji_ascii_desc" js="0"><![CDATA[<mark>=)</mark> <mark>;)</mark>]]></word>
   <word key="rebuilding_sitemap_stuff" js="0">Перестроение карты сайта %s</word>
-  <word key="member_photo_bad_url" js="0">Ссылка на фотографию профиля некорректна</word>
+  <word key="member_photo_bad_url" js="0">Ссылка на аватар некорректна</word>
   <word key="menu__core_moderation" js="0">Модерация публикаций</word>
   <word key="menu__core_moderation_reportedContent" js="0">Автомодерация</word>
   <word key="menu__core_moderation_spam" js="0">Борьба со спамом</word>
@@ -8880,8 +8880,8 @@
   <word key="profilesync_name" js="0"><![CDATA[Обновить моё имя пользователя здесь при изменении моего <strong>имени пользователя на %s</strong>]]></word>
   <word key="profilesync_email_admin" js="0">Синхронизация email-адреса</word>
   <word key="profilesync_name_admin" js="0">Синхронизация имени пользователя</word>
-  <word key="profilesync_photo_admin" js="0">Синхронизация фотографии профиля</word>
-  <word key="profilesync_status_admin" js="0">Импорт обновлений статуса</word>
+  <word key="profilesync_photo_admin" js="0">Синхронизация аватара</word>
+  <word key="profilesync_status_admin" js="0">Импорт статусов</word>
   <word key="profilesync_cover_admin" js="0">Синхронизировать обложку профиля</word>
   <word key="profilesync_expire_blurb" js="0">Авторизация %s истекла. Войдите еще раз для продолжения синхронизации информации вашего профиля.</word>
   <word key="profilesync_sign_out_confirm" js="0">Вы не сможете больше входить через %s и ваша информация о профиле не будет синхронизироваться.</word>
@@ -9236,16 +9236,16 @@
   <word key="browse_club" js="0">Просмотр клуба</word>
   <word key="history_by_admin" js="0"> (%s)</word>
   <word key="history_by_member" js="0"> (самостоятельно)</word>
-  <word key="log_type_title_photo" js="0">Изменения фотографии профиля</word>
-  <word key="history_new_photo_custom" js="0">Загружена новая фотография профиля%s.</word>
-  <word key="history_new_photo_url" js="0">Новая фотография профиля импортирована по ссылке%s.</word>
-  <word key="history_new_photo_gravatar" js="0">Фотография профиля настроена на использование Gravatar%s.</word>
-  <word key="history_new_photo_gallery" js="0">Новая фотография профиля взята из %s%s.</word>
+  <word key="log_type_title_photo" js="0">Изменения аватара</word>
+  <word key="history_new_photo_custom" js="0">Загружен новый аватар%s.</word>
+  <word key="history_new_photo_url" js="0">Новый аватар импортирован по ссылке%s.</word>
+  <word key="history_new_photo_gravatar" js="0">Настроено использование аватара из Gravatar%s.</word>
+  <word key="history_new_photo_gallery" js="0">Новый аватар взят из %s%s.</word>
   <word key="history_new_photo_gallery_link" js="0">изображения галереи</word>
-  <word key="history_new_photo_profilesync" js="0">Фотография профиля синхронизирована с %s.</word>
-  <word key="history_photo_crop" js="0">Фотография профиля обрезана%s.</word>
-  <word key="history_photo_resize" js="0">Фотография профиля изменена%s.</word>
-  <word key="history_photo_remove" js="0">Фотография профиля удалена%s.</word>
+  <word key="history_new_photo_profilesync" js="0">Аватар синхронизирован с %s.</word>
+  <word key="history_photo_crop" js="0">Аватар обрезан%s.</word>
+  <word key="history_photo_resize" js="0">Аватар изменён%s.</word>
+  <word key="history_photo_remove" js="0">Аватар удалён%s.</word>
   <word key="log_type_title_coverphoto" js="0">Изменения обложки профиля</word>
   <word key="history_cover_photo_new" js="0">Загружена новая обложка профиля%s.</word>
   <word key="history_cover_photo_remove" js="0">Обложка профиля удалена%s.</word>
@@ -9294,9 +9294,9 @@
   <word key="history_social_sync_changes" js="0">Настройки синхронизации с %s изменены%s: %s.</word>
   <word key="history_social_sync_changed_email" js="0">%s синхронизация email-адреса</word>
   <word key="history_social_sync_changed_name" js="0">%s синхронизация имени пользователя</word>
-  <word key="history_social_sync_changed_photo" js="0">%s синхронизация фотографии профиля</word>
+  <word key="history_social_sync_changed_photo" js="0">%s синхронизация аватара</word>
   <word key="history_social_sync_changed_cover" js="0">%s синхронизация обложки профиля</word>
-  <word key="history_social_sync_changed_status" js="0">%s синхронизация обновлений статуса</word>
+  <word key="history_social_sync_changed_status" js="0">%s синхронизация статусов</word>
   <word key="history_social_sync_enabled" js="0">включена</word>
   <word key="history_social_sync_disabled" js="0">отключена</word>
   <word key="log_type_title_account" js="0">Изменения основных данных</word>
@@ -9331,9 +9331,9 @@
   <word key="history_mfa_optin" js="0">Отказался от сброса двухфакторной аутентификации%s.</word>
   <word key="history_restrictions_change" js="0">Вручную изменены ограничения%s: %s.</word>
   <word key="history_restrictions_warning_level" js="0">баллы предупреждений изменены на %s (предыдущее количество %s)</word>
-  <word key="history_restrictions_status_updates_0" js="0">восстановлена возможность публиковать обновления статусов</word>
-  <word key="history_restrictions_status_updates_1" js="0">отключена возможность публиковать обновления статусов (пользователь может включить их снова)</word>
-  <word key="history_restrictions_status_updates_2" js="0">отключена возможность публиковать обновления статусов (пользователь не может включить их снова)</word>
+  <word key="history_restrictions_status_updates_0" js="0">восстановлена возможность публиковать статусы</word>
+  <word key="history_restrictions_status_updates_1" js="0">отключена возможность публиковать статусы (пользователь может включить их снова)</word>
+  <word key="history_restrictions_status_updates_2" js="0">отключена возможность публиковать статусы (пользователь не может включить их снова)</word>
   <word key="history_restrictions_messenger_0" js="0">восстановлена возможность использовать личные сообщения</word>
   <word key="history_restrictions_messenger_1" js="0">отключена возможность использовать личные сообщения (пользователь может включить их снова)</word>
   <word key="history_restrictions_messenger_2" js="0">отключена возможность использовать личные сообщения (пользователь не может включить их снова)</word>
@@ -10939,5 +10939,45 @@
   <word key="search_index_maxresults" js="0">Максимум результатов</word>
   <word key="search_index_maxresults_desc" js="0">Чем глубже в результате поиска вы находитесь (т.е. чем выше номер страницы), тем больше памяти и времени требуется для получения результатов. Этот параметр ограничивает максимальное количество возвращаемых результатов, что ограничивает объем используемой памяти. Обратите внимание, это относится не только к результатам поиска, но и к лентам активности, в том числе в профилях пользователей.</word>
   <word key="rss_import_sg" js="0">Импорт RSS/Atom</word>
+  <word key="remove_name_desc" js="0">Отобразить &quot;Гость&quot; в качестве автора публикаций и удалить все сохраненные IP-адреса.</word>
+  <word key="members_filtered_reserved" js="0">Зарезервирован</word>
+  <word key="edit_username" js="0">Изменить имя пользователя</word>
+  <word key="edit_email_address" js="0">Изменить email-адрес</word>
+  <word key="members_name_missing_as_reserved" js="0">Без имени</word>
+  <word key="members_name_missing_add" js="0"><![CDATA[<em>Без имени</em>]]></word>
+  <word key="member_reserved_pending_deletion" js="0">Этот пользователь будет автоматически удалён через %s минут</word>
+  <word key="members_name_missing_as_reserved_tt" js="0"><![CDATA[Недавно созданные пользователи без имени или email-адреса, которые никогда не посещали сайт, автоматически удаляются.<br>Это может произойти, если они начали процесс регистрации через социальную сеть, но не завершили его. Если они войдут на сайт в ближайшее время, у них будет запрошена недостающая информация, после чего они смогут использовать свой аккаунт в обычном режиме. В противном случае, их аккаунты будут удалены в ближайшее время.]]></word>
+  <word key="member_reserved_external_email" js="0">У этого пользователя не указан email-адрес</word>
+  <word key="member_reserved_external_name" js="0">У этого пользователя не указано имя</word>
+  <word key="member_reserved_external_both" js="0">У этого пользователя не указано имя или email-адрес</word>
+  <word key="members_name_missing_as_reserved_external" js="0">Это может произойти, если аккаунт был импортирован из CSV-файла или создан через REST API, но эта информация не была предоставлена. Когда пользователь войдёт на сайт, у него будет запрошена недостающая информация, после чего он сможет использовать свой аккаунт в обычном режиме.</word>
+  <word key="member_reserved_external" js="0">У этого пользователя не указано имя</word>
+  <word key="report_comment" js="0">жалоба на комментарий</word>
+  <word key="g_attach_per_post_suffix" js="0">КБ на публикацию (сообщение, комментарий и т.д.)</word>
+  <word key="g_attach_per_post_desc" js="0">Например, если установлено значение 1000 КБ, то пользователь может загрузить одно вложение весом 1000 КБ или два вложения весом 500 КБ в каждом своём сообщении, при условии, что он не превысит свой максимально разрешенный размер хранилища.</word>
+  <word key="mf_name" js="0">Имя пользователя</word>
+  <word key="mf_name_yes" js="0">Есть имя</word>
+  <word key="mf_name_no" js="0">Нет имени</word>
+  <word key="mf_name_no_desc" js="0">Пользователи без имени, скорее всего, импортированы или не завершили регистрацию через социальную сеть.</word>
+  <word key="mf_name_whatever" js="0">Или</word>
+  <word key="history_new_photo_none" js="0">Удалён аватар</word>
+  <word key="customer_no_history" js="0">У этого клиента нет истории для отображения.</word>
+  <word key="see_all_history" js="0">Вся активность</word>
+  <word key="log_type_title_groups" js="0">Изменения группы</word>
+  <word key="r__member_export_pi" js="0">Может экспортировать персональную информацию пользователей?</word>
+  <word key="member_export_pi_title" js="0">Скачать персональные данные</word>
+  <word key="member_export_pi_explain" js="0"><![CDATA[Вы скачиваете XML-файл, содержащий персональные данные этого пользователя.<br>В этом файле <strong>будут находится</strong> известные IP-адреса, браузеры, email-адреса и другую базовую информацию о профиле.<br>В этом файле <strong>не будут находиться</strong> пароли, токены авторизации или ключи.]]></word>
+  <word key="ip_address_prune" js="0">Удалять IP-адреса после</word>
+  <word key="ip_address_prune_desc" js="0">Эта настройка контролирует количество дней, по прошествии которого будут удалены IP-адреса, с который были сделаны публикации.</word>
+  <word key="pp_desc_GoogleAnalytics" js="0">Google Analytics является сервисом веб-аналитики, предоставляемым компанией Google Inc. (&quot;Google&quot;). Google использует собранные данные для отслеживания и изучения использования этого веб-сайта, подготовки отчетов об активности и обмене ими с другими службами Google.</word>
+  <word key="pp_desc_FacebookPixel" js="0">Facebook Ads является сервисом отслеживания конверсии, предоставляемым компанией Facebook, Inc., который связывает данные из рекламной сети Facebook с действиями, совершаемыми на этом веб-сайте.</word>
+  <word key="pp_desc_Piwik" js="0">Matomo является сервисом веб-аналитики. Неидентифицируемые данные используются для сбора информации о посетителях этого веб-сайта.</word>
+  <word key="pp_desc_SpamMonitoring" js="0">Сервис IPS Spam Defense передает службе email- и IP-адреса регистрирующегося пользователя, для определения вероятности того, что этот пользователь является источником спама.</word>
+  <word key="privacy_show_processors" js="0">Добавить информацию о сторонних сервисах</word>
+  <word key="privacy_show_processors_desc" js="0">Отобразить информацию о включенных сторонних сервисах, таких как Google Analytics и Facebook Pixel</word>
+  <word key="pp_desc_SendGrid" js="0">SendGrid используется этим веб-сайтом для обработки и доставки email-писем.</word>
+  <word key="pp_third_parties" js="0">Сторонние сервисы</word>
+  <word key="pp_privacy_policy" js="0">Политика конфиденциальности</word>
+  <word key="pp_desc_captcha" js="0">Этот сайт использует CAPTCHA, что позволяет убедиться в том, что определённые действия совершаются людьми. Провайдер CAPTCHA может устанавливать cookie и получать информацию о вашем интернет-браузере и устройстве, с которого вы посещаете этот веб-сайте.</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="103009">
+ <app key="gallery" version="103011">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -57,9 +57,9 @@
   <word key="g_max_upload" js="0">Максимальный размер изображений</word>
   <word key="g_max_transfer" js="0">Максимальный потребляемый трафик</word>
   <word key="g_max_views" js="0">Максимальное количество просмотров изображений и видео</word>
-  <word key="gallery_suffix_kb" js="0">Кб</word>
+  <word key="gallery_suffix_kb" js="0">КБ</word>
   <word key="gallery_suffix_day" js="0">в день</word>
-  <word key="gallery_suffix_kb_day" js="0">Кб/день</word>
+  <word key="gallery_suffix_kb_day" js="0">КБ/день</word>
   <word key="gallery_requires_log" js="0">Эта настройка зависит от журнала использования трафика, который может быть отключён в настройках галереи или периодически очищаться. Если включено, рекомендуется включить журнал использования трафика и очищать его не чаще одного раза в 48 часов. В противном случае могут возникнуть проблемы.</word>
   <word key="r__albums" js="0">Альбомы</word>
   <word key="r__albums_manage" js="0">Может просматривать альбомы</word>
@@ -200,7 +200,6 @@
   <word key="gallery_small_dims" js="0">Размеры миниатюры изображения</word>
   <word key="gallery_thumb_dims" js="0">Разрешение превью</word>
   <word key="gallery_use_square_thumbnails" js="0">Использовать квадратные превью</word>
-  <word key="gallery_use_square_thumbnails_desc" js="0"><![CDATA[Если вы хотите изменить это, вам необходимо <a href='{internal.app=gallery&module=gallery&controller=settings&do=rebuildImages}'>перестроить существующие изображения</a>, в противном случае изменения будут применяться только к новым изображениям.]]></word>
   <word key="gallery_watermark_path" js="0">Изображение водяного знака</word>
   <word key="gallery_watermark_path_desc" js="0">Данное изображение будет наложено на все загруженные изображения в галерее (например, для отображения копирайта). Помните, что в отдельных категориях может быть отключено использование водяного знака. Для наилучшего результата используйте маленькое изображение с прозрачным фоном.</word>
   <word key="gallery_watermark_images" js="0">Изображения для водяного знака</word>
@@ -309,7 +308,7 @@
   <word key="cover_album_only" js="0">Обложка альбома</word>
   <word key="cover_album" js="0">Установить как обложку альбома</word>
   <word key="cover_both" js="0">Обложка и категории, и альбома</word>
-  <word key="set_as_profile_photo" js="0">Изображение было установлено как ваше фото профиля</word>
+  <word key="set_as_profile_photo" js="0">Изображение было установлено в качестве аватара</word>
   <word key="set_as_category_done" js="0">Это изображение было установлено в качестве обложки категории</word>
   <word key="set_as_album_done" js="0">Это изображение было установлено в качестве обложки альбома</word>
   <word key="set_as_both_done" js="0">Это изображение было установлено в качестве обложки категории и альбома</word>
@@ -336,8 +335,8 @@
   <word key="mediaLocation" js="0">Загрузить новый медиа-файл</word>
   <word key="viewfilter_thumbnails" js="0">Превью</word>
   <word key="viewfilter_large" js="0">Последние изображения</word>
-  <word key="set_gallery_image_photo" js="0">Установить как фотография профиля</word>
-  <word key="no_photo_for_media" js="0">Вы можете установить изображение только в качестве вашей фотографии профиля</word>
+  <word key="set_gallery_image_photo" js="0">Установить в качестве аватара</word>
+  <word key="no_photo_for_media" js="0">Вы можете установить изображение только в качестве своего аватара профиля</word>
   <word key="delete_album" js="0">Удалить альбом</word>
   <word key="edit_album" js="0">Редактировать альбом</word>
   <word key="sort_album_count_comments" js="0">По количеству комментариев к изображениям</word>
@@ -386,7 +385,7 @@
   <word key="album_new_content" js="0">В этом альбоме есть скрытые публикации</word>
   <word key="camera_information" js="0">Информация о камере</word>
   <word key="add_image_note" js="0">Добавить заметку</word>
-  <word key="view_in_lightbox" js="0">Просмотреть в lightbox</word>
+  <word key="view_in_lightbox" js="0">Просмотреть в лайтбоксе</word>
   <word key="view_entire_album" js="0">Просмотреть весь альбом %s</word>
   <word key="events_in_album" js="0">{!# [0:событий][1:событие][2:события][3:события][4:события][11:событий][12:событий][13:событий][14:событий][*1:событие][*2:события][*3:события][*4:события][*11:событий][*12:событий][*13:событий][*14:событий][?:событий]} в этом альбоме</word>
   <word key="notes_no_permission" js="0">У вас нет прав для изменения заметок к этому изображению</word>
@@ -717,7 +716,7 @@
   <word key="unsaved_image_data_desc" js="1">Информация этого изображения будет потеряна.</word>
   <word key="images_without_data" js="1">Вы не добавили информацию для {{count}}. Вы действительно хотите продолжить?</word>
   <word key="images_without_data_desc" js="1">Вы можете изменить изображения позже для их обновления.</word>
-  <word key="set_as_photo_confirm" js="1">Вы действительно хотите обновить ваше фото профиля?</word>
+  <word key="set_as_photo_confirm" js="1">Вы действительно хотите обновить ваш аватар?</word>
   <word key="__indefart_gallery_image_review" js="0">отзыв к изображению в галерее</word>
   <word key="__defart_gallery_image_review" js="0">отзыв к изображению в галерее</word>
   <word key="__indefart_gallery_album_review" js="0">отзыв к альбому в галерее</word>
@@ -750,7 +749,7 @@
   <word key="history_restrictions_remove_gallery_upload_1" js="0">отключена возможность загружать изображения в галерею</word>
   <word key="history_restrictions_remove_gallery_upload_0" js="0">восстановлена возможность загружать изображения в галерею</word>
   <word key="images_stat_of_total_link" js="0">%s (%d%% от общего) %s</word>
-  <word key="ad_image_lightbox" js="0">Про просмотре изображения галереи в lightbox</word>
+  <word key="ad_image_lightbox" js="0">Про лайтбоксе изображений галереи</word>
   <word key="submit_all_images" js="0">Отправить все изображения</word>
   <word key="allowed_file_types_link" js="0">Разрешённые типы файлов</word>
   <word key="gal_notification_options" js="0">Настройки уведомлений</word>
@@ -789,5 +788,6 @@
   <word key="chooseAlbum" js="1">Выберите альбом</word>
   <word key="imageUploadErrors" js="1">У {# [0:изображений][1:изображения][*1:изображения][?:изображений]} присутствуют ошибки</word>
   <word key="imageUploadErrorsDesc" js="1">Исправьте ошибки в {# [1:отмеченном изображении][*1:отмеченном изображении][?:отмеченных изображениях]} и отправьте еще раз.</word>
+  <word key="bandwidth_use_gallery" js="0">Использовано трафика</word>
  </app>
 </language>
