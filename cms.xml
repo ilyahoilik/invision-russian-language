@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="103009">
+ <app key="cms" version="103011">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -975,5 +975,7 @@
   <word key="comments_meta_color" js="0">Цвет примечания</word>
   <word key="default_copyposts_message" js="0">Обратите внимание, что эти комментарии были скопированы из другого источника и что дата и время, указанные у каждого комментария, могут быть неточными.</word>
   <word key="content_theme_dev_cannot_write_template" js="0">Невозможно записать файл %s</word>
+  <word key="database_field__last_comment" js="0">Дата последнего комментария</word>
+  <word key="sort_record_updated" js="0">Последнее обновление</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="103009">
+ <app key="nexus" version="103011">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -895,7 +895,6 @@
   <word key="manage_contacts" js="0">Управление контактами</word>
   <word key="manage_referrals" js="0">Управление приглашениями</word>
   <word key="recent_account_activity" js="0">Последняя активность аккаунта</word>
-  <word key="see_all_history" js="0">Вся активность</word>
   <word key="view_account" js="0">Просмотр аккаунта</word>
   <word key="no_alternate_contacts" js="0">Нет альтернативных контактов.</word>
   <word key="no_addresses" js="0">Нет адресов.</word>
@@ -923,7 +922,6 @@
   <word key="customer_tab_alts" js="0">Альтернативные контакты</word>
   <word key="customer_tab_referrers" js="0">Приглашённые пользователи</word>
   <word key="revenue_past_12_months" js="0">Доход за последние 12 месяцев</word>
-  <word key="customer_no_history" js="0">История клиента пуста.</word>
   <word key="menu__nexus_customers_fields" js="0">Настраиваемые поля</word>
   <word key="nexus_customer_fields" js="0">Поля клиентов</word>
   <word key="customer_field_registration" js="0">Регистрация</word>
@@ -1408,7 +1406,7 @@
   <word key="reject_notify_user_autoresolve" js="0">Отвергнуть и уведомить пользователя</word>
   <word key="create_new_request_autoresolve_desc" js="0">Будет отображаться примечание, что запрос был создан таким способом, и ссылка на оригинальный запрос.</word>
   <word key="reject_notify_user_autoresolve_desc" js="0">Пользователю будет отправлено email-уведомление о том, что его ответ не может быть обработан.</word>
-  <word key="respond_to_ticket" js="0">Ответить на этот запрос в поддержки</word>
+  <word key="respond_to_ticket" js="0">Ответить на этот запрос в поддержку</word>
   <word key="reply_request_resolved" js="0">Если клиент отвечает по email на уже решённый запрос в поддержку:</word>
   <word key="nexus_autoresolve_departments" js="0">Если запрос в отделе</word>
   <word key="nexus_autoresolve_applicable" js="0">со статусом</word>
@@ -1575,11 +1573,11 @@
   <word key="nexus_default_support_action" js="0">Действие по умолчанию при ответе на запрос в поддержку</word>
   <word key="nexus_group_departments_order" js="0">Расположение отделов при группировке по отделу</word>
   <word key="reply" js="0">Ответить</word>
-  <word key="reply_and_go_to_next" js="0">Ответить и перейти к следующему</word>
-  <word key="reply_and_go_to_first" js="0">Ответить и перейти к первому</word>
-  <word key="reply_and_go_to_list" js="0">Ответить и перейти к списку</word>
-  <word key="reply_and_return_to_list" js="0">Ответить и вернуться к списку</word>
-  <word key="reply_and_stay" js="0">Ответить и остаться здесь</word>
+  <word key="reply_and_go_to_next" js="0">Ответить и к следующему</word>
+  <word key="reply_and_go_to_first" js="0">Ответить и к первому</word>
+  <word key="reply_and_go_to_list" js="0">Ответить и к списку</word>
+  <word key="reply_and_return_to_list" js="0">Ответить и к списку</word>
+  <word key="reply_and_stay" js="0">Ответить и остаться</word>
   <word key="reply_remember_last" js="0">Запомнить мой последний выбор</word>
   <word key="add_note" js="0">Добавить примечание</word>
   <word key="display_settings" js="0">Отображение</word>
@@ -3246,5 +3244,7 @@
   <word key="dpt_subscriptions" js="0">Доступные для связи подписки</word>
   <word key="nexus_subs_non_available" js="0">В данный момент нет доступных подписок.</word>
   <word key="nexus_dont_delete_group" js="0">Некоторые пользователи приобрели пакеты или подписки, в которых настроено перемещение в эту группу при их истечении. Если вы удалите эту группу, то, вместо этого, эти пользователи будут перемещены в группу &quot;%s&quot;.</word>
+  <word key="r__customers_view_statistics" js="0">Может просматривать статистику клиента?</word>
+  <word key="r__customers_view_credit" js="0">Может просматривать баланс аккаунта клиента?</word>
  </app>
 </language>
