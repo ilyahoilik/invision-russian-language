@@ -7536,12 +7536,12 @@
   <word key="club_type_open_desc" js="0">Все могут видеть этот клуб и его публикации, но только участники могут участвовать в нём. Все могут вступить в него.</word>
   <word key="club_type_closed" js="0">Закрытый</word>
   <word key="club_type_closed_desc" js="0">Все могут видеть этот клуб и его участников, но только участники могут видеть его публикации и участвовать в нём. Пользователи должны подать заявку на вступление.</word>
-  <word key="club_type_private" js="0">Личный</word>
+  <word key="club_type_private" js="0">Приватный</word>
   <word key="club_public" js="0">Публичный клуб</word>
   <word key="club_open" js="0">Открытый клуб</word>
   <word key="club_closed" js="0">Закрытый клуб</word>
   <word key="club_private" js="0">Личный клуб</word>
-  <word key="club_type_private_desc" js="0">Только участники клуба могут видеть его и его публикации. Пользователи должны быть приглашены лидером.</word>
+  <word key="club_type_private_desc" js="0">Только участники клуба могут видеть его и публикации в нём. Пользователи должны быть приглашены лидером.</word>
   <word key="g_club_allowed_nodes" js="0">Разрешённые области контента в клубах</word>
   <word key="create_club" js="0">Создать клуб</word>
   <word key="club_name" js="0">Название</word>
