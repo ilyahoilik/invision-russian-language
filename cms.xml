@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="103011">
+ <app key="cms" version="103021">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -222,7 +222,7 @@
   <word key="template_group_new_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название группы должно начинаться с буквы или подчёркивания.</word>
   <word key="template_title_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название должно начинаться с буквы или подчёркивания.</word>
   <word key="template_reserved_word" js="0">Имя шаблона не может быть любым из этого списка: %s</word>
-  <word key="cms_theme_designer_mode_warning" js="0"><![CDATA[Изменение стиля сейчас невозможно т.к. включен режим дизайнера. <br><a href='%s'>Отключите режим дизайнера</a>.]]></word>
+  <word key="cms_theme_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование стиля через АЦ, так как у вас включен режим дизайнера.<br><a href='%s'>Отключите режим дизайнера.</a>]]></word>
   <word key="cms_templates_export_title" js="0">Скачать шаблоны</word>
   <word key="cms_templates_export_description" js="0">Выберите шаблоны для экспорта из списка ниже. Эти шаблоны будут добавлены в XML-файл, который может быть импортирован на другом сайте, работающем на Invision Community.</word>
   <word key="templates_block" js="0">Блоки</word>
@@ -977,5 +977,6 @@
   <word key="content_theme_dev_cannot_write_template" js="0">Невозможно записать файл %s</word>
   <word key="database_field__last_comment" js="0">Дата последнего комментария</word>
   <word key="sort_record_updated" js="0">Последнее обновление</word>
+  <word key="cms_media_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование медиа через АЦ, так как у вас включен режим дизайнера. <br /><a href='%s'>Выключите режим дизайнера.</a>]]></word>
  </app>
 </language>

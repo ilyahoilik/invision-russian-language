@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103011">
+ <app key="core" version="103021">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -329,7 +329,7 @@
   <word key="editor__core_Contact" js="0">Обратная связь</word>
   <word key="editor__core_Members" js="0">Статусы и ответы на них</word>
   <word key="editor__core_Messaging" js="0">Личные беседы</word>
-  <word key="editor__core_Modcp" js="0">Сообщения о блокировке и предупреждениях</word>
+  <word key="editor__core_Modcp" js="0">Сообщения о бане и предупреждения</word>
   <word key="editor__core_Reports" js="0">Жалобы</word>
   <word key="editor__core_ShareLinks" js="0">Публикация ссылок</word>
   <word key="editor__core_Signatures" js="0">Подписи</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.3. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.4. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -821,9 +821,9 @@
   <word key="membername_history" js="0">История имени пользователя</word>
   <word key="members_dname_history" js="0">История имени пользователя %s</word>
   <word key="merge" js="0">Объединить</word>
-  <word key="ban" js="0">Заблокировать</word>
-  <word key="adjust_ban" js="0">Настройка блокировки</word>
-  <word key="unban" js="0">Разблокировать</word>
+  <word key="ban" js="0">Забанить</word>
+  <word key="adjust_ban" js="0">Настройка бана</word>
+  <word key="unban" js="0">Разбанить</word>
   <word key="basic_settings" js="0">Основные настройки</word>
   <word key="more_information" js="0">Подробная информация</word>
   <word key="advanced_settings" js="0">Расширенные настройки</word>
@@ -1806,9 +1806,9 @@
   <word key="member_merge_keep_1" js="0">Этот аккаунт (%s)</word>
   <word key="member_merge_keep_2" js="0">Другой аккаунт</word>
   <word key="member_merge_keep_desc" js="0">После объединения публикации будут перенесены на выбранного пользователя и другой пользователь будет удалён. Это не моментальная операция и будет выполняться в фоновом режиме.</word>
-  <word key="member_ban_until" js="0">Блокировка до</word>
+  <word key="member_ban_until" js="0">Бан до</word>
   <word key="member_ban_group" js="0">Переместить в</word>
-  <word key="member_ban_ips" js="0">Заблокировать IP-адреса</word>
+  <word key="member_ban_ips" js="0">Забанить IP-адреса</word>
   <word key="acplog__members_created" js="0">Создан пользователь %s</word>
   <word key="acplog__members_edited" js="0">Изменён пользователь %s</word>
   <word key="acplog__members_deleted" js="0">Удалён пользователь %s</word>
@@ -1822,7 +1822,7 @@
   <word key="account_flagged" js="0">Помечен спамером.</word>
   <word key="account_unflagged" js="0">Пометка спамером снята.</word>
   <word key="account_approved" js="0">Аккаунт утверждён.</word>
-  <word key="account_banned" js="0">Аккаунт заблокирован.</word>
+  <word key="account_banned" js="0">Аккаунт забанен.</word>
   <word key="validation_email_resent" js="0">Повторное письмо подтверждения отправлено.</word>
   <word key="members_validating_user" js="0">Пользователь ещё не отреагировал на письмо для подтверждения.</word>
   <word key="members_validating_admin" js="0">Этот пользователь должен быть утверждён вручную.</word>
@@ -2257,7 +2257,7 @@
   <word key="g_icon" js="0">Значок группы</word>
   <word key="group_details" js="0">Информация о группе</word>
   <word key="group_privacy" js="0">Настройки конфиденциальности</word>
-  <word key="g_hide_online_list" js="0">Отображать в списке пользователей в сети и информации о последнем пользователе</word>
+  <word key="g_hide_online_list" js="0">Всегда используется анонимный вход?</word>
   <word key="group_allow_username_changes" js="0">Разрешить изменение имени пользователя</word>
   <word key="days_since_joining" js="0">дней с момента регистрации</word>
   <word key="approved_posts_comments" js="0">утверждённых публикаций (сообщений, комментариев и т.д.)</word>
@@ -2274,7 +2274,7 @@
   <word key="g_dohtml_warning" js="0"><![CDATA[Если включено, пользователи этой группы смогут публиковать HTML-код в сообщениях в местах, где это разрешено. <strong>Эта функция является небезопасной</strong> и её рекомендуется включать только для доверенных групп.]]></word>
   <word key="g_bypass_badwords" js="0">Обходить фильтры слов и ссылок</word>
   <word key="gbw_hide_group" js="0">Разрешить фильтрацию по этой группе</word>
-  <word key="gbw_hide_group_desc" js="0">Вы можете выключить эту настройку, если вы не хотите отображать пользователей этой группы при поиске и в списке пользователей в сети. Второстепенные группы всегда исключены из поиска.</word>
+  <word key="gbw_hide_group_desc" js="0">Вы можете выключить эту настройку, если вы не хотите, чтобы эта группа отображалась в областях, где разрешена фильтрация по группам, например в списке пользователей в сети. Это особенно полезно для групп, которые используются только как второстепенные.</word>
   <word key="gbw_no_status_update" js="0">Может публиковать статусы</word>
   <word key="gbw_no_status_import" js="0">Может импортировать статусы</word>
   <word key="gbw_no_status_import_desc" js="0">Если вы включили интеграцию с Facebook и/или Twitter, пользователи смогут импортировать статусы из этих сервисов.</word>
@@ -2452,7 +2452,7 @@
   <word key="mail_subject" js="0">Тема письма</word>
   <word key="mail_body" js="0">Содержимое письма</word>
   <word key="mail_body_desc" js="0">Стандартный шаблон email-писем содержит текст &quot;Здравствуйте, {member_name},&quot; в начале всех email-писем. Он будет показываться в предварительном просмотре.</word>
-  <word key="unsubscribed_users_mail" js="0">Следует помнить, что заблокированные пользователи и пользователи, которые отказались от получения email-писем от вашего сайта, не получат массовые рассылки независимо от вашей конфигурации.</word>
+  <word key="unsubscribed_users_mail" js="0">Следует помнить, что забаненные пользователи и пользователи, которые отказались от получения email-писем от вашего сайта, не получат массовые рассылки независимо от вашей конфигурации.</word>
   <word key="bulkmail__main" js="0">Данные письма</word>
   <word key="bulkmail__filters" js="0">Фильтр пользователей</word>
   <word key="bmf_members_groups" js="0">Группам</word>
@@ -2787,9 +2787,9 @@
   <word key="log_levels" js="0">Регистрация ошибок</word>
   <word key="prunesettings" js="0">Настройка очистки</word>
   <word key="log_prune_task" js="0">{# [0:журналов были][1:журнал был][2:журнала были][3:журнала были][4:журнала были][11:журналов были][12:журналов были][13:журналов были][14:журналов были][*1:журнал был][*2:журнала были][*3:журнала были][*4:журнала были][?:журналов были] очищены}</word>
-  <word key="menu__core_membersettings_ban" js="0">Настройки блокировки</word>
-  <word key="r__ban" js="0">Настройки блокировки</word>
-  <word key="r__ban_manage" js="0">Управление настройка блокировки</word>
+  <word key="menu__core_membersettings_ban" js="0">Настройки бана</word>
+  <word key="r__ban" js="0">Настройки бана</word>
+  <word key="r__ban_manage" js="0">Управление настройками бана</word>
   <word key="ban_filter_ip" js="0">IP-адреса</word>
   <word key="ban_filter_email" js="0">Запрещённые email-адреса</word>
   <word key="ban_filter_name" js="0">Запрещённые имена</word>
@@ -3298,8 +3298,8 @@
   <word key="r__members_merge" js="0">Может объединять пользователей</word>
   <word key="r__member_move_admin1" js="0">Может перемещать администраторов в другие группы</word>
   <word key="r__member_move_admin2" js="0">Может перемещать пользователей в группу администраторов</word>
-  <word key="r__member_ban" js="0">Может блокировать/разблокировать пользователей</word>
-  <word key="r__member_ban_admin" js="0">Может блокировать администраторов</word>
+  <word key="r__member_ban" js="0">Может банить/разбанивать пользователей</word>
+  <word key="r__member_ban_admin" js="0">Может банить администраторов</word>
   <word key="r__member_photo" js="0">Может изменять фото пользователей</word>
   <word key="r__member_photo_admin" js="0">Может изменять фото администраторов</word>
   <word key="r__membertools_validating" js="0">Может изменять аккаунты, ожидающие подтверждения</word>
@@ -3678,8 +3678,8 @@
   <word key="theme_clone_copy_of" js="0">Копия %s</word>
   <word key="theme_set_add_setting" js="0">Добавить настройку стиля</word>
   <word key="acplogs__themeset_created" js="0">Создан стиль - %s</word>
-  <word key="acplogs__themetemplate_updated" js="0">Обновлён шаблон - %s_%s_%s_%s</word>
-  <word key="acplogs__themetemplate_deleted" js="0">Удалён или восстановлен шаблон - %s_%s_%s_%s</word>
+  <word key="acplogs__themetemplate_updated" js="0">Обновлён шаблон - (%s - %s - %s - %s)</word>
+  <word key="acplogs__themetemplate_deleted" js="0">Удалён или восстановлен шаблон - (%s - %s - %s - %s)</word>
   <word key="theme_error_not_available_in_dev" js="0">Вы не можете выполнить это действие в режиме разработчика.</word>
   <word key="theme_update_check" js="0">Ссылка для проверки обновлений</word>
   <word key="theme_update_check_desc" js="0"><![CDATA[Эта ссылка будет периодически проверяться на наличие обновлений стиля. <a href='{external.devdocs-updateurl}' target='_blank'>Подробнее</a>.]]></word>
@@ -3982,7 +3982,7 @@
   <word key="spam_service_action_4_desc" js="0">Пользователь известен как спамер</word>
   <word key="spam_service_act_1" js="0">Разрешить пользователю зарегистрироваться</word>
   <word key="spam_service_act_2" js="0">Пометить аккаунт для ручной проверки</word>
-  <word key="spam_service_act_3" js="0">Зарегистрировать аккаунт и сразу заблокировать</word>
+  <word key="spam_service_act_3" js="0">Зарегистрировать аккаунт и сразу забанить</word>
   <word key="spam_service_act_4" js="0">Не разрешать регистрацию аккаунта</word>
   <word key="spam_service_error" js="0">Возникла ошибка при обращении к серверу Spam Defense. Пожалуйста, попробуйте позже или свяжитесь с технической поддержкой для дополнительной информации.</word>
   <word key="spam_service_noservice" js="0">Ваша лицензия не даёт вам права на использование Spam Defense. Пожалуйста, свяжитесь с технической поддержкой для получения помощи.</word>
@@ -4091,7 +4091,7 @@
   <word key="wa_points" js="0">Баллы</word>
   <word key="wa_mq" js="0">Премодерация</word>
   <word key="wa_rpa" js="0">Только чтение</word>
-  <word key="wa_suspend" js="0">Блокировка</word>
+  <word key="wa_suspend" js="0">Бан</word>
   <word key="wa_override" js="0">Модераторы могут переопределить вышеуказанные настройки?</word>
   <word key="acplog__wa_created" js="0">Создано наказание для %s баллов</word>
   <word key="acplog__wa_edited" js="0">Изменено наказание для %s баллов</word>
@@ -4181,7 +4181,7 @@
   <word key="can_view_moderation_log" js="0">Может просматривать историю модерации</word>
   <word key="can_see_emails" js="0">Может видеть email-адреса пользователей</word>
   <word key="can_modify_profiles" js="0">Может изменять профили пользователей</word>
-  <word key="can_unban" js="0">Может разблокировать пользователей?</word>
+  <word key="can_unban" js="0">Может разбанивать пользователей?</word>
   <word key="can_remove_followers" js="0">Может удалять подписчиков</word>
   <word key="can_feature_comments" js="0">Может рекомендовать все комментарии</word>
   <word key="can_unfeature_comments" js="0">Может удалять рекомендацию со всех комментариев</word>
@@ -5401,7 +5401,7 @@
   <word key="country-YT" js="0">Майотта</word>
   <word key="country-MX" js="0">Мексика</word>
   <word key="country-FM" js="0">Федеративные Штаты Микронезии</word>
-  <word key="country-MD" js="0">Молдавия</word>
+  <word key="country-MD" js="0">Молдова</word>
   <word key="country-MC" js="0">Монако</word>
   <word key="country-MN" js="0">Монголия</word>
   <word key="country-ME" js="0">Черногория</word>
@@ -5955,16 +5955,16 @@
   <word key="moderation_nopost" js="0">Запрещена отправка публикаций</word>
   <word key="moderation_nopost_perm" js="0">Этому пользователю запрещено добавлять любые публикации.</word>
   <word key="moderation_nopost_temp" js="0">Этому пользователю запрещено добавлять любые публикации до %s.</word>
-  <word key="moderation_banned" js="0">Заблокирован</word>
+  <word key="moderation_banned" js="0">Забанен</word>
   <word key="moderation_banned_perm" js="0">Этому пользователю запрещён доступ к сайту.</word>
   <word key="moderation_banned_temp" js="0">Этому пользователю запрещён доступ к сайту до %s.</word>
   <word key="modcp_reports_view" js="0">Жалобы на публикации - %s</word>
-  <word key="modcp_members_banned" js="0">Заблокированы</word>
+  <word key="modcp_members_banned" js="0">Забанены</word>
   <word key="modcp_members_restricted" js="0">Ограничены</word>
   <word key="modcp_members_queued" js="0">В очереди</word>
   <word key="modcp_members_suspended" js="0">Заблокированы</word>
   <word key="modcp_member_find" js="0">Найти пользователя для редактирования:</word>
-  <word key="modcp_status_banned" js="0">%s (Заблокирован)</word>
+  <word key="modcp_status_banned" js="0">%s (Забанен)</word>
   <word key="modcp_status_suspended" js="0">%s (Заблокирован до %s)</word>
   <word key="modcp_view_warnings" js="0">Предупреждения</word>
   <word key="approval_queue_splash" js="0">Используйте очередь утверждения для пошаговой проверки публикаций, ожидающих утверждения модератором. Используйте кнопки на панели инструментов, чтобы принять решение по публикации и загрузить следующую автоматически.</word>
@@ -6187,7 +6187,7 @@
   <word key="profile_edit" js="0">Изменить профиль</word>
   <word key="remove_mod_posts" js="0">Удалить из очереди модерации</word>
   <word key="remove_restrict_post" js="0">Снять ограничения на публикацию?</word>
-  <word key="remove_ban" js="0">Снять текущую блокировку?</word>
+  <word key="remove_ban" js="0">Снять текущий бан?</word>
   <word key="no_permission_edit_profile" js="0">Вы не можете изменять этот профиль</word>
   <word key="loc_viewing_profile" js="0">Профиль %s</word>
   <word key="loc_editing_profile" js="0">Изменение профиля %s</word>
@@ -6848,7 +6848,7 @@
   <word key="requirements_php_version_success" js="0">Версия PHP %s</word>
   <word key="requirements_php_version_fail" js="0">Вы используете PHP версии %s. Вы должны использовать версию %s или выше (рекомендуется %s или выше). Вы должны связаться с вашим хостинг-провайдером или системным администратором для обновления.</word>
   <word key="requirements_php_version_fail_no_recommended" js="0">Вы используете PHP версии %s. Вы должны использовать версию %s или выше. Вы должны связаться с вашим хостинг-провайдером или системным администратором для обновления.</word>
-  <word key="requirements_php_version_advice" js="0">Вы используете PHP версии %s. Эта версия совместима, но рекомендуется использовать версию %s или выше.</word>
+  <word key="requirements_php_version_advice" js="0">Вы используете PHP версии %s. Эта версия совместима, но будущие версии нашего продукта будут требовать версию %s или выше.</word>
   <word key="requirements_curl_success" js="0">Расширение cURL загружено</word>
   <word key="requirements_curl_fopen" js="0">Функция fsockopen доступна</word>
   <word key="requirements_curl_advice" js="0">У вас нет расширения PHP cURL или используется версия меньше 7.36. Модуль cURL предоставляет более эффективный и надёжный способ установки соединения между вашим и внешними веб-сайтами.</word>
@@ -6882,7 +6882,7 @@
   <word key="requirements_suhosin_cookie_encrypt" js="0">Настройка PHP suhosin.cookie.encrypt имеет значение 1. Это может вызвать проблемы в некоторых областях, таких как функционал авто-сохранения в редакторе. Мы рекомендуем установить значение 0 для отключения этой настройки.</word>
   <word key="requirements_mysql_version_success" js="0">Версия MySQL %s</word>
   <word key="requirements_mysql_version_fail" js="0">Вы используете MySQL версии %s. Вы должны использовать версию %s или выше (рекомендуется %s и выше). Вы должны связаться с вашим хостинг-провайдером или системным администратором для обновления.</word>
-  <word key="requirements_mysql_version_advice" js="0">Вы используете MySQL версии %s. Эта версия совместима, но рекомендуется использовать версию %s или выше.</word>
+  <word key="requirements_mysql_version_advice" js="0">Вы используете MySQL версии %s. Эта версия совместима, но будущие версии нашего продукта будут требовать версию %s или выше.</word>
   <word key="requirements_mysql_utf8_success" js="0">Все таблицы базы в UTF8.</word>
   <word key="requirements_mysql_utf8_fail" js="0">Все или некоторые таблицы в базе не используют сравнение UTF-8 (%s).</word>
   <word key="requirements_mysql_utf8_info" js="0">%s %s</word>
@@ -7302,7 +7302,7 @@
   <word key="authy_onetouch_off_desc" js="0">Пользователь откроет приложение Authy на своём телефоне и введёт показанный код.</word>
   <word key="authy_onetouch_desc" js="0">Не применяется во время первоначальной настройки, где всегда используется SoftToken.</word>
   <word key="authy_onetouch_message" js="0">Доступ запрошен</word>
-  <word key="banned" js="0">Заблокирован</word>
+  <word key="banned" js="0">Забанен</word>
   <word key="suspended_until" js="0">Приостановлено до %s</word>
   <word key="suspended" js="0">Заблокирован</word>
   <word key="member_banned" js="0">У вас нет прав для просмотра этого сайта.</word>
@@ -7966,10 +7966,10 @@
   <word key="errorLoadingSearch" js="1">Ошибка при загрузке результатов поиска</word>
   <word key="widgetApproving" js="1">Одобряется...</word>
   <word key="widgetApproved" js="1">Утверждено</word>
-  <word key="widgetBanning" js="1">Блокируется...</word>
-  <word key="widgetBanned" js="1">Заблокирован</word>
+  <word key="widgetBanning" js="1">Банится...</word>
+  <word key="widgetBanned" js="1">Забанен</word>
   <word key="userApproved" js="1">Регистрация {{name}} была утверждена</word>
-  <word key="userBanned" js="1">{{name}} был заблокирован</word>
+  <word key="userBanned" js="1">{{name}} был забанен</word>
   <word key="languageSave" js="1">Сохранить</word>
   <word key="check_all" js="1">Выделить всё</word>
   <word key="uncheck_all" js="1">Снять выделение</word>
@@ -8398,7 +8398,7 @@
   <word key="spam_flag_confirm_disable" js="0">ограничение создания новых публикаций</word>
   <word key="spam_flag_confirm_unapprove" js="0">скрытие уже сделанных публикаций пользователя</word>
   <word key="spam_flag_confirm_delete" js="0">удаление уже сделанных публикаций пользователя</word>
-  <word key="spam_flag_confirm_ban" js="0">блокировка аккаунту доступа к сайту</word>
+  <word key="spam_flag_confirm_ban" js="0">запретить аккаунту доступ к сайту</word>
   <word key="spam_flag_confirm_report" js="0">отправка информации о пользователе в сервис Invision Community Spam Defense для помощи в его обучении</word>
   <word key="click_hold_edit_alt" js="0">(Нажмите и удерживайте для изменения)</word>
   <word key="member_exceeded_posts_per_day" js="0">Вы достигли ограничения максимального количества сообщений, которые вы можете делать за день.</word>
@@ -8502,7 +8502,7 @@
   <word key="login_handler_Google_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_google}' target='_blank'>Google Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
   <word key="login_handler_Linkedin_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_linkedin}' target='_blank'> LinkedIn Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
   <word key="login_handler_Live_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_live}' target='_blank'>Microsoft Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
-  <word key="login_handler_Twitter_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_twitter}' target='_blank'>Twitter Login</a> для получения этих данных.]]></word>
+  <word key="login_handler_Twitter_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_twitter}' target='_blank'>Twitter Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
   <word key="oauth_setup_error_generic" js="0"><![CDATA[Провайдер не предоставил ожидаемый ответ. Проверьте, корректны ли настройки приложения и корректен ли введенная ссылка для перенаправления.<br><code>%s</code>]]></word>
   <word key="oauth_setup_error_secret" js="0">Указанные настройки приложения являются некорректными.</word>
   <word key="oauth1_setup_error" js="0"><![CDATA[Провайдер не предоставил ожидаемый ответ. Проверьте, корректны ли настройки приложения.<br><code>%s</code>]]></word>
@@ -8610,9 +8610,9 @@
   <word key="edit_profile_photo" js="0">Изменить аватар</word>
   <word key="edit_member_account" js="0">Изменить настройки</word>
   <word key="account_actions" js="0">Действия с аккаунтом</word>
-  <word key="account_banned_perm" js="0">Пользователь заблокирован навсегда.</word>
+  <word key="account_banned_perm" js="0">Пользователь забанен навсегда.</word>
   <word key="account_banned_group" js="0">Пользователь находится в группе, у которой нет прав для доступа к этому сообществу.</word>
-  <word key="account_banned_time" js="0">Пользователь заблокирован до %s.</word>
+  <word key="account_banned_time" js="0">Пользователь забанен до %s.</word>
   <word key="account_flagged_as_spammer_title" js="0">Помечен спамером</word>
   <word key="account_flagged_as_spammer" js="0">Этот аккаунт был помечен спамером администратором.</word>
   <word key="account_locked_title" js="0">Аккаунт заблокирован</word>
@@ -9113,7 +9113,7 @@
   <word key="oauth_brute_force_desc" js="0">Для предотвращения атаки перебором, если IP-адрес предоставил некорректный секретный ключ более 3 раз, все последующие запросы будут отклонены.</word>
   <word key="oauth_brute_force_ip_address" js="0">IP-адрес</word>
   <word key="oauth_brute_force_fails" js="0">Неудачные аутентификации</word>
-  <word key="oauth_brute_force_ban" js="0">Заблокировать IP-адрес</word>
+  <word key="oauth_brute_force_ban" js="0">Забанить IP-адрес</word>
   <word key="oauth_brute_force_unlock" js="0">Перестать блокировать</word>
   <word key="r__api_splash" js="0">Может получить доступ к странице REST и OAuth</word>
   <word key="r__oauth_manage" js="0">Может просматривать OAuth-клиентов, в том числе их идентификатор?</word>
@@ -9129,8 +9129,8 @@
   <word key="acplogs__oauth_revoke_member" js="0">Аннулированы все секретные ключи OAuth пользователя %s</word>
   <word key="secure_account_apps" js="0">Вы предоставили доступ к некоторым частям своего аккаунта {# [1:приложению][*1:приложению][?:приложениям]}. Убедитесь в том, что вы знаете, используете и доверяете им всем, в противном случае удалите неизвестные или непроверенные.</word>
   <word key="review_oauth_apps" js="0">Просмотр приложений</word>
-  <word key="api_response_client" js="0">Включается только, если запрос был сделан с помощью API-ключа, или если OAuth Access Token был получен через Client Credentials Grant Type.</word>
-  <word key="api_response_member" js="0">Включается только, если запрос был сделан с помощью OAuth Access Token конкретного пользователя.</word>
+  <word key="api_response_client" js="0">Доступно только в случае, когда запрос был сделан с помощью API-ключа, или если OAuth Access Token был получен через Client Credentials Grant Type.</word>
+  <word key="api_response_member" js="0">Доступно только в случае, когда запрос был сделан с помощью OAuth Access Token конкретного пользователя.</word>
   <word key="api_endpoint_member_only" js="0">Эта конечная точка доступна только для запросов, сделанных конкретным пользователем через OAuth Access Token, но не через API-ключ или Client Credentials Grant Type.</word>
   <word key="api_endpoint_member_only_err" js="0">Запрос был сделан через API-ключ или Client Credentials Grant Type.</word>
   <word key="api_endpoint_client_only" js="0">Эта конечная точка доступна только для запросов, сделанных через API-ключ или Client Credentials Grant Type, но не для конкретных пользователей через OAuth Access Token.</word>
@@ -9307,7 +9307,7 @@
   <word key="history_account_created_handler_incomplete" js="0">Начато создание аккаунта через %s (нужна дополнительная информация).%s</word>
   <word key="history_spam_defense_1" js="0"><![CDATA[Выполнена проверка Spam Defense и получена оценка <code>%s</code>.]]></word>
   <word key="history_spam_defense_2" js="0"><![CDATA[Выполнена проверка Spam Defense и получена оценка <code>%s</code> - аккаунт помечен для проверки администратором.]]></word>
-  <word key="history_spam_defense_3" js="0"><![CDATA[Выполнена проверка Spam Defense и получена оценка <code>%s</code> - аккаунт заблокирован.]]></word>
+  <word key="history_spam_defense_3" js="0"><![CDATA[Выполнена проверка Spam Defense и получена оценка <code>%s</code> - аккаунт забанен.]]></word>
   <word key="history_account_completed" js="0">Создание аккаунта завершено%s.%s</word>
   <word key="history_account_email_validated" js="0">Email-адрес подтвержден.</word>
   <word key="history_account_admin_validated" js="0">Пользователь утвержден администратором%s.</word>
@@ -9316,7 +9316,7 @@
   <word key="history_flagged_spammer_with_actions" js="0">Помечен спамером%s: %s.</word>
   <word key="history_flagged_spammer_action_delete" js="0">все публикации удалены</word>
   <word key="history_flagged_spammer_action_unapprove" js="0">все публикации скрыты</word>
-  <word key="history_flagged_spammer_action_ban" js="0">аккаунт заблокирован</word>
+  <word key="history_flagged_spammer_action_ban" js="0">аккаунт забанен</word>
   <word key="history_flagged_spammer_action_disable" js="0">запрещена отправка публикаций</word>
   <word key="history_received_warning_details" js="0">Получено %d баллов предупреждений за %s%s: %s.</word>
   <word key="history_received_warning_no_penalties" js="0">без наказания</word>
@@ -9324,7 +9324,7 @@
   <word key="history_received_warning_penalty_time" js="0">%s на %s</word>
   <word key="history_warning_revoke_mod_posts" js="0">удалена модерация публикаций</word>
   <word key="history_warning_revoke_restrict_post" js="0">удалено ограничение на публикацию</word>
-  <word key="history_warning_revoke_temp_ban" js="0">разблокирован</word>
+  <word key="history_warning_revoke_temp_ban" js="0">разбанен</word>
   <word key="history_received_warning_legacy_link" js="0"><![CDATA[Получено <a href='%s' data-ipsDialog data-ipsDialog-size='narrow'>предупреждение</a> %s.]]></word>
   <word key="history_revoke_warning" js="0">Предыдущее предупреждение аннулировано%s: %s.</word>
   <word key="history_mfa_reconfigured" js="0">%s настроен заново%s.</word>
@@ -10979,5 +10979,36 @@
   <word key="pp_third_parties" js="0">Сторонние сервисы</word>
   <word key="pp_privacy_policy" js="0">Политика конфиденциальности</word>
   <word key="pp_desc_captcha" js="0">Этот сайт использует CAPTCHA, что позволяет убедиться в том, что определённые действия совершаются людьми. Провайдер CAPTCHA может устанавливать cookie и получать информацию о вашем интернет-браузере и устройстве, с которого вы посещаете этот веб-сайте.</word>
+  <word key="stream_read_unread_desc" js="0">Непрочитанные ленты содержимого можно просматривать при помощи 'Только элементы'</word>
+  <word key="embed__fail_cant_acp" js="0">Здесь это недоступно</word>
+  <word key="acp_indev_on" js="0">В настоящий момент этот сайт работает в режиме разработчика</word>
+  <word key="acp_designersmode_on" js="0">В настоящий момент этот сайт работает в режиме дизайнера</word>
+  <word key="acp_indev_on_title" js="0">Режим разработчика</word>
+  <word key="acp_designersmode_on_title" js="0">Режим дизайнера</word>
+  <word key="acp_indev_on_blurb" js="0">В настоящий момент активирован режим разработчика (IN_DEV). Этот режим создан чтобы дать Вам возможность разрабатывать приложения и плагины для  Invision Community и предназначен для продвинутых пользователей.</word>
+  <word key="acp_designersmode_on_blurb" js="0">В настоящий момент активирован режим дизайнера. Он позволяет создавать и редактировать стили для Invision Community в среде разработчика.</word>
+  <word key="acp_not_production_tho" js="0"><![CDATA[<strong> Никогда не следует включать этот режим на работающем сайте</strong>]]></word>
+  <word key="delta_upgrade_upgradeTemplates" js="0">Обновление стилей</word>
+  <word key="download_upgrade_initial_theme_conflicts_title" js="0">Несовместиость {!#[1:Стиля][?:Стилей]}</word>
+  <word key="download_upgrade_initial_theme_conflicts_explain" js="0"><![CDATA[{!#[1:Один из][?:Несколько]} ваших стилей {!#[1:не][?:не]} совместим с версией, до которой вы обновляете, потому что {!#[1:он включает][?:они включают]} изменения в шаблонах и/или файлах CSS которые нужно обновить в этой версии.<br><br><strong>Если вы получили {!#[1:затронутый стиль][?:затронутые стили]} от создателя,</strong> вам следует связаться с ним чтобы проверить наличие крайней версии {!#[1:стиля, доступного][?:стилей, доступных]} для этой версии форума. Если обновления есть, продолжите обновление форума, а после обновите {!#[1:стиль][?:стили]}. Если нет доступного обновления, вы можете удалить {!#[1:этот стиль][?:эти стили]} или подождать когда {!#[1:новая версия станет доступна][?:новые версии станут]} перед продолжением.<br><br><strong>Если вы редактировали {!#[1:затронутый стиль][?:затронутые стили]} сами</strong>, вы можете использовать ссылки ниже чтобы просмотреть ваши изменения. Если эти изменения больше не требуются, вы можете удалить их, в противном случае вам будет нужно внести изменения новой версии в стиль. Для большей информации в изменениях стилей в этой версии, смотрите <a href='{external.themediff}' target='_blank'>Документацию по изменениям в стилях</a>.]]></word>
+  <word key="download_upgrade_initial_theme_conflicts_tip" js="0"><![CDATA[Совет: Во время просмотра шаблона или файла CSS по одной из ссылок выше, выберите <strong>Показать стандартное</strong> из <i class='fa fa-cog'></i> выпадающего меню для сравнения ваших изменений со стандартными в этой версии.]]></word>
+  <word key="ext__MemberExportPersonalInformation" js="0">Добавить дополнительные данные в XML файл персональной информации.</word>
+  <word key="ext__ContentModeratorPermissions" js="0">Добавить права модератора содержимого.</word>
+  <word key="members_last_activity" js="0">Последняя активность</word>
+  <word key="members_allow_admin_emails" js="0">Разрешить массовую рассылку?</word>
+  <word key="allow_admin_emails_any" js="0">Либо да, либо нет</word>
+  <word key="member_search_unsub" js="0">Отписать от массовой рассылки найденных участников</word>
+  <word key="member_unsub_no_results" js="0">Нет пользователей для отписки.</word>
+  <word key="unsubscribing_members" js="0">Отписывание участников</word>
+  <word key="members_queued_for_unsub" js="0">Участники были помещены в очередь на отписку</word>
+  <word key="member_unsub_confirm_msg" js="0">Это действие отпишет {# [1:участника][?:участников]} от получения массовой рассылки. Вы уверены, что хотите продолжить?</word>
+  <word key="g_hide_online_list_desc" js="0"><![CDATA[Если <a href='{internal.app=core&module=settings&controller=login&tab=settings&searchResult=disable_anonymous}' target='_blank'>это разрешено</a>, то пользователи при входе могут указать, хотят ли они входить анонимно, то есть не отображаться в списке пользователей в сети и не отображать свой статус онлайн. Если эта настройка включена, то данное поведение будет игнорироваться и пользователи из этой группы всегда будут входить анонимно.]]></word>
+  <word key="allow_reg_normal_desc_required_warning" js="0"><![CDATA[Вам требуется установить показ пользовательских полей в регистрационной форме. Форма быстрой регистрации не покажет их. Мы рекомендуем вам выбрать либо  'Да, с полной регистрационной формой', либо назначить <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilecompletion}'>шаги заполнения профиля</a> для необходимых полей.]]></word>
+  <word key="dashboard_recommended_php_version" js="0">Рекомендованная версия PHP</word>
+  <word key="dasbhoard_required_mysql_version" js="0">Рекомендованная версия MySQL</word>
+  <word key="timezone__Asia/Atyrau" js="0">Атырау</word>
+  <word key="timezone__Asia/Famagusta" js="0">Фамагуста</word>
+  <word key="timezone__Asia/Yangon" js="0">Янгон</word>
+  <word key="profile_complete_no_add" js="0">Были использованы все доступные шаги для заполнения профиля. Чтобы создать новые, пожалуйста, удалите существующие, или отредактируйте их чтобы удалить методы.</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="103011">
+ <app key="calendar" version="103021">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -477,5 +477,6 @@
   <word key="calendar_rss_feed_order" js="0">Сортировать ленту по</word>
   <word key="calendar_rss_feed_order_date" js="0">Дата события</word>
   <word key="calendar_rss_feed_order_publish" js="0">Дата публикации</word>
+  <word key="invalid_recurrence" js="0">Событие не может так часто повторяться. Каждое событие должно закончиться прежде, чем начнется новое.</word>
  </app>
 </language>

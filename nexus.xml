@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="103011">
+ <app key="nexus" version="103021">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -762,7 +762,7 @@
   <word key="f_action_hold_desc" js="0">Платёж будет разрешён, но не получен (это означает, что деньги с клиента не будут взиматься) и вы сможете получить или аннулировать оплату. Если вы не приняли мер в течении определённого срока, платёж будет получен автоматически и вы сможете утвердить или возвратить его.</word>
   <word key="f_action_fail" js="0">Отказать</word>
   <word key="f_action_desc" js="0"><![CDATA[Действие будет принято если <strong>все</strong> условия правила будут соблюдены.]]></word>
-  <word key="f_action_ban" js="0">Также заблокировать клиента</word>
+  <word key="f_action_ban" js="0">Также забанить клиента</word>
   <word key="fraud_rule_maxmind" js="0">MaxMind</word>
   <word key="f_maxmind" js="0">Оценка MaxMind</word>
   <word key="f_maxmind_desc" js="0">Более высокая оценка означает, что транзакция, скорее всего, будет обманной.</word>
@@ -774,7 +774,7 @@
   <word key="f_maxmind_phone_match" js="0">Номер телефона соответствует почтовому индексу</word>
   <word key="f_maxmind_phone_match_warning" js="0">Номер телефона может быть проверено только, если он указан; если этот параметр включен, и он не указан, данная проверка будет пропущена. Вы можете включить это, если необходимо.</word>
   <word key="f_maxmind_riskyemail" js="0">Клиент использует известный email-адрес высокого риска</word>
-  <word key="f_blurb_action_ban" js="0">Заблокировать клиента</word>
+  <word key="f_blurb_action_ban" js="0">Забанить клиента</word>
   <word key="f_blurb_join" js="0">, и</word>
   <word key="f_blurb_amount" js="0">Сумма транзакции %s %s</word>
   <word key="f_blurb_methods" js="0">Способ оплаты: %s</word>
@@ -868,7 +868,7 @@
   <word key="void_cancel_purchases" js="0">Отменить все покупки</word>
   <word key="void_cancel_invoices" js="0">Отменить все неоплаченные счета?</word>
   <word key="void_resolve_support" js="0">Пометить все запросы в поддержку решёнными?</word>
-  <word key="void_ban_account" js="0">Заблокировать аккаунт</word>
+  <word key="void_ban_account" js="0">Забанить аккаунт</word>
   <word key="void_add_note" js="0">Добавить примечание</word>
   <word key="void_add_note_placeholder" js="0">Нажмите для добавления примечания к аккаунту...</word>
   <word key="void_account_warning" js="0">Это действие нельзя отменить.</word>

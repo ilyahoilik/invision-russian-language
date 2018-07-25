@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="103011">
+ <app key="gallery" version="103021">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -749,7 +749,7 @@
   <word key="history_restrictions_remove_gallery_upload_1" js="0">отключена возможность загружать изображения в галерею</word>
   <word key="history_restrictions_remove_gallery_upload_0" js="0">восстановлена возможность загружать изображения в галерею</word>
   <word key="images_stat_of_total_link" js="0">%s (%d%% от общего) %s</word>
-  <word key="ad_image_lightbox" js="0">Про лайтбоксе изображений галереи</word>
+  <word key="ad_image_lightbox" js="0">В лайтбоксе изображений галереи</word>
   <word key="submit_all_images" js="0">Отправить все изображения</word>
   <word key="allowed_file_types_link" js="0">Разрешённые типы файлов</word>
   <word key="gal_notification_options" js="0">Настройки уведомлений</word>
