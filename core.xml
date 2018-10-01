@@ -9382,15 +9382,15 @@
   <word key="licenseRenewalNo" js="1">Нет, спасибо</word>
   <word key="licenseRenewalYes" js="1">Да, я пройду опрос</word>
   <word key="emoji" js="1">Эмодзи</word>
-  <word key="emoji-category-smileys_people" js="1"><![CDATA[Smileys & People]]></word>
-  <word key="emoji-category-animals_nature" js="1"><![CDATA[Animals & Nature]]></word>
-  <word key="emoji-category-food_drink" js="1"><![CDATA[Food & Drink]]></word>
-  <word key="emoji-category-activities" js="1">Activity</word>
-  <word key="emoji-category-travel_places" js="1"><![CDATA[Travel & Places]]></word>
-  <word key="emoji-category-objects" js="1">Objects</word>
-  <word key="emoji-category-symbols" js="1">Symbols</word>
-  <word key="emoji-category-flags" js="1">Flags</word>
-  <word key="emoji-category-recent" js="1">Recently Used</word>
+  <word key="emoji-category-smileys_people" js="1"><![CDATA[Смайлики и люди]]></word>
+  <word key="emoji-category-animals_nature" js="1"><![CDATA[Природа и животные]]></word>
+  <word key="emoji-category-food_drink" js="1"><![CDATA[Еда и напитки]]></word>
+  <word key="emoji-category-activities" js="1">Занятия</word>
+  <word key="emoji-category-travel_places" js="1"><![CDATA[Путешествия и места]]></word>
+  <word key="emoji-category-objects" js="1">Объекты</word>
+  <word key="emoji-category-symbols" js="1">Символы</word>
+  <word key="emoji-category-flags" js="1">Флаги</word>
+  <word key="emoji-category-recent" js="1">Недавно использованные</word>
   <word key="emoji_skin_tone" js="1">Тон кожи</word>
   <word key="emoji_skin_tone_default" js="1">Стандартный</word>
   <word key="emoji_skin_tone_light" js="1">Светлый</word>
