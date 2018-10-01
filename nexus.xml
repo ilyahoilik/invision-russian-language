@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="103021">
+ <app key="nexus" version="103028">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -161,8 +161,8 @@
   <word key="tstatus_rfnd" js="0">Возвращён</word>
   <word key="tstatus_rfnd_desc" js="0">Платёж был получен, но возвращён.</word>
   <word key="tstatus_rfnd_set" js="0">Возвращено</word>
-  <word key="tstatus_prfd" js="0">Частично возвращено</word>
-  <word key="tstatus_prfd_desc" js="0">Платёж был получен, но частично возвращён.</word>
+  <word key="tstatus_prfd" js="0">Возвращено</word>
+  <word key="tstatus_prfd_desc" js="0">Платёж был получен, но частично возвращён клиенту или на баланс аккаунта.</word>
   <word key="tstatus_prfd_set" js="0">Частично возвращено</word>
   <word key="tstatus_gwpd" js="0">Обрабатывается</word>
   <word key="tstatus_gwpd_desc" js="0">Платёжный шлюз в данный момент обрабатывает эту транзакцию. Статус будет автоматически изменён при завершении обработки.</word>
@@ -176,10 +176,10 @@
   <word key="transaction_flag_review" js="0">Отправить на проверку</word>
   <word key="transaction_refund" js="0">Вернуть</word>
   <word key="transaction_refund_title" js="0">Вернуть (%s)</word>
-  <word key="refund_method" js="0">Возвращено на</word>
-  <word key="refund_method_credit" js="0">Баланс аккаунта</word>
+  <word key="refund_method" js="0">Действие</word>
+  <word key="refund_method_credit" js="0">Вернуть средства на баланс аккаунта</word>
   <word key="refund_method_none" js="0">Отметить транзакцию отказанной, но не возвращать её.</word>
-  <word key="refund_amount" js="0">Сумма возврата</word>
+  <word key="refund_amount" js="0">Сумма</word>
   <word key="refund_full" js="0">Вся сумма (%s)</word>
   <word key="refund_invoice_status" js="0">Установить статус счёта</word>
   <word key="refund_invoice_paid" js="0">Оплачен</word>
@@ -948,8 +948,8 @@
   <word key="history_transaction_status_hold" js="0">отправлена на ручную проверку</word>
   <word key="history_transaction_status_revw" js="0">отправлена на проверку</word>
   <word key="history_transaction_status_fail" js="0">отказана</word>
-  <word key="history_transaction_refunded" js="0">Транзакция %s возвращена %s%s.</word>
-  <word key="history_transaction_part_refunded" js="0">%s в транзакции %s возвращены %s%s.</word>
+  <word key="history_transaction_refunded" js="0">Транзакция %s возвращена %s.</word>
+  <word key="history_transaction_part_refunded" js="0">%s в транзакции %s возвращены%s.</word>
   <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
   <word key="history_transaction_delete" js="0">Транзакция %s удалена%s.</word>
   <word key="history_shipping_ship" js="0">Отгрузка %s отправлена%s.</word>
@@ -3246,5 +3246,24 @@
   <word key="nexus_dont_delete_group" js="0">Некоторые пользователи приобрели пакеты или подписки, в которых настроено перемещение в эту группу при их истечении. Если вы удалите эту группу, то, вместо этого, эти пользователи будут перемещены в группу &quot;%s&quot;.</word>
   <word key="r__customers_view_statistics" js="0">Может просматривать статистику клиента?</word>
   <word key="r__customers_view_credit" js="0">Может просматривать баланс аккаунта клиента?</word>
+  <word key="tstatus_credited" js="0">Возвращено</word>
+  <word key="tstatus_credited_undo" js="0">Средства забраны</word>
+  <word key="transaction_refund_desc" js="0">Средства будут возвращены клиенту через платёжный метод.</word>
+  <word key="transaction_refund_credit" js="0">Вернуть</word>
+  <word key="transaction_refund_credit_title" js="0">Вернуть (%s)</word>
+  <word key="refund_method_credit_desc" js="0">Вы сохраните средства, однако на баланс клиента будет зачислена сумма, которую он сможет потратить на будущие покупки.</word>
+  <word key="refund_method_none_desc" js="0">Выберите этот вариант, если платёж был отмечен завершённым по ошибке или ручной платёж был возвращён (например, клиент отправил чек, который после был аннулирован).</word>
+  <word key="refund_credit_amount" js="0">Сумма</word>
+  <word key="refund_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> Клиент уже получил средства в размере %s. Вы можете вернуть меньшую сумму или забрать уже переданные средства, чтобы избежать ситуации, когда сумма возвращённых и зачисленных средств больше, чем сумма транзакции.</span>]]></word>
+  <word key="refund_credit_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> Клиент уже получил средства в размере %s. Вы можете зачислить на баланс меньшую сумму, чтобы избежать ситуации, когда сумма возвращённых и зачисленных средств больше, чем сумма транзакции.</span>]]></word>
+  <word key="refund_reverse_credit" js="0">Забрать %s?</word>
+  <word key="refund_reverse_credit_desc" js="0">Если выбрано, ранее переданные средства будут забраны с аккаунта пользователя.</word>
+  <word key="amount_credited" js="0">Возвращено</word>
+  <word key="transaction_part_credited" js="0">%s из этого платежа были возвращены на баланс аккаунта</word>
+  <word key="history_transaction_credited" js="0">%s возвращены%s.</word>
+  <word key="history_transaction_part_credited" js="0">%s из %s возвращены%s.</word>
+  <word key="history_transaction_undo_credit" js="0">%s за %s были забраны%s.</word>
+  <word key="nexus_subs_already_got_package" js="0">У вас уже есть активная подписка и вы не можете купить другую.</word>
+  <word key="upgrade_fix_refund_transactions" js="0">Обновление данных транзакции</word>
  </app>
 </language>
