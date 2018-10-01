@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="103021">
+ <app key="cms" version="103028">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -978,5 +978,6 @@
   <word key="database_field__last_comment" js="0">Дата последнего комментария</word>
   <word key="sort_record_updated" js="0">Последнее обновление</word>
   <word key="cms_media_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование медиа через АЦ, так как у вас включен режим дизайнера. <br /><a href='%s'>Выключите режим дизайнера.</a>]]></word>
+  <word key="cms_templates_export_return" js="0">Вернуться к редактору шаблона</word>
  </app>
 </language>

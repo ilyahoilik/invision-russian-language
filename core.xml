@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103021">
+ <app key="core" version="103028">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -98,8 +98,7 @@
   <word key="stream_button_cancel" js="0">Отмена</word>
   <word key="stream_narrow_by_type" js="0">Уточнение поиска по типу публикаций</word>
   <word key="stream_narrow_by_container" js="0">Уточнение поиска по</word>
-  <word key="stream_narrow_by_container_label" js="0">Уточнение поиска по %s
-</word>
+  <word key="stream_narrow_by_container_label" js="0">Уточнение поиска по %s</word>
   <word key="stream_title" js="0">Заголовок ленты</word>
   <word key="stream_apply" js="0">Применить изменения</word>
   <word key="stream_apply_tip" js="0">Закрытие этого меню также применяет изменения</word>
@@ -703,7 +702,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.adles.co/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.4. Проверить обновления">Русификация от Adles.co</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ilyahoilik.com/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.5. Проверить обновления">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -11010,5 +11009,13 @@
   <word key="timezone__Asia/Famagusta" js="0">Фамагуста</word>
   <word key="timezone__Asia/Yangon" js="0">Янгон</word>
   <word key="profile_complete_no_add" js="0">Были использованы все доступные шаги для заполнения профиля. Чтобы создать новые, пожалуйста, удалите существующие, или отредактируйте их чтобы удалить методы.</word>
+  <word key="acplog__members_mass_delete" js="0">Массово удалены пользователи</word>
+  <word key="acplog__members_mass_move" js="0">Массово перемещены пользователи</word>
+  <word key="acplog__members_mass_unsub" js="0">Массово отписаны пользователи</word>
+  <word key="import_name_too_long" js="0">Имя пользователя слишком длинное. Должно быть короче 255 символов.</word>
+  <word key="import_email_too_long" js="0">Email-адрес %s слишком длинный. Должен быть короче 255 символов.</word>
+  <word key="import_member_id_warning" js="0">Рекомендуется не указывать колонку с ID пользователя, чтобы он сгенерировался автоматически. Если указано, то ID должен быть числовым значением, меньшим чем %s.</word>
+  <word key="import_member_id_invalid" js="0">ID %s является некорректным ID. Должен быть числом, меньшим чем %s.</word>
+  <word key="validate_day_prune_desc" js="0">Если включено, тогда все зарегистрированные, но не подтвердившие свои учётные записи пользователи, будут удалены. Это не коснётся пользователей, ожидающих подтверждения после изменения email-адреса.</word>
  </app>
 </language>
