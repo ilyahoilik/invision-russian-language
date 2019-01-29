@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="103028">
+ <app key="cms" version="103039">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -280,7 +280,7 @@
   <word key="cms_err_db_does_not_exist" js="0">Этой базы данных не существует.</word>
   <word key="cms_err_db_in_use_other_page" js="0">Добавленная база данных уже используется на другой странице.</word>
   <word key="content_acp_page_builder_msg_new" js="0">Вы сможете изменить эти настройки после создания страницы</word>
-  <word key="content_acp_page_builder_msg_edit" js="0"><![CDATA[Вы можете изменить содержимое страницы, посетив эту <a href='%s' target='_blank'>страницу</a>.]]></word>
+  <word key="content_acp_page_builder_msg_edit" js="0"><![CDATA[Вы можете изменить содержимое страницы, посетив эту <a href='%s' target='_blank' rel='noopener'>страницу</a>.]]></word>
   <word key="content_launch_page_builder" js="0">Открыть конструктор</word>
   <word key="content_launch_page_view" js="0">Просмотр страницы</word>
   <word key="page_theme" js="0">Стиль</word>
@@ -304,12 +304,12 @@
   <word key="cms_page_error_bad_syntax" js="0">Синтаксис HTML-тегов или HTML-логики имеет ошибки.</word>
   <word key="cms_pages_settings" js="0">Расширенные настройки</word>
   <word key="cms_use_different_gateway" js="0">Использовать шлюз в корне сайта</word>
-  <word key="cms_use_different_gateway_desc" js="0"><![CDATA[Включите это, если сайт установлен в поддиректорию и вы хотите, чтобы приложение страницы работало в корне сайта. <a href='{external.devdocs-pages_different_root}' target='_blank'>Подробнее</a>]]></word>
+  <word key="cms_use_different_gateway_desc" js="0"><![CDATA[Включите это, если сайт установлен в поддиректорию и вы хотите, чтобы приложение Страницы работало в корне сайта. <a href='{external.devdocs-pages_different_root}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="cms_root_page_url" js="0">Ссылка к файлу шлюза</word>
   <word key="pages_gateway_url_not_exist" js="0">Невозможно найти данный адрес.</word>
   <word key="cms_pages_different_gateway_impossible" js="0">Ваш Invision Community уже установлен в корневую директорию домена.</word>
   <word key="pages_different_gateway_load_error" js="0">Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файл &quot;index.php&quot;?</word>
-  <word key="pages_different_gateway_load_error_rewrite" js="0"><![CDATA[Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файлы "index.php" и ".htaccess"? <a href='{external.devdocs-pages_different_root}' target='_blank'>Подробнее</a>]]></word>
+  <word key="pages_different_gateway_load_error_rewrite" js="0"><![CDATA[Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файлы "index.php" и ".htaccess"? <a href='{external.devdocs-pages_different_root}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="cms_root_page_url_rewrite_desc" js="0"><![CDATA[Для включения поддержки этой функции вы должны <a href='{internal.app=cms&module=pages&controller=pages&do=htaccess}'><strong><u>скачать этот файл</u></strong></a>, переименовать его в ".htaccess" (без расширения файла) и загрузить его рядом с файлом "index.php" приложения Страницы. Если файл .htaccess уже существует, добавьте содержимое этого файла в существующий.<br>Если вы не уверены в том, как сделать это, свяжитесь с технической поддержкой для получения помощи.]]></word>
   <word key="cms_tag_blocks" js="0">Блоки</word>
   <word key="cms_tag_databases" js="0">Базы данных</word>
@@ -772,7 +772,7 @@
   <word key="content_create_new_button" js="0">Добавить %s</word>
   <word key="create_record_state" js="0">После публикации...</word>
   <word key="create_record_locked" js="0">Закрыть запись</word>
-  <word key="create_record_pinned" js="0">Прикрепить запись</word>
+  <word key="create_record_pinned" js="0">Закрепить запись</word>
   <word key="create_record_hidden" js="0">Скрыть запись</word>
   <word key="create_record_featured" js="0">Сделать рекомендованной</word>
   <word key="content_record_form_save" js="0">Сохранить</word>
@@ -817,7 +817,7 @@
   <word key="cms_no_cats_to_show" js="0">Нет категорий для отображения</word>
   <word key="cms_no_records_to_show" js="0">Нет %s для отображения</word>
   <word key="cms_unread_record" js="0">Не прочитано</word>
-  <word key="cms_byline" js="0"><![CDATA[От %s, в <a href='%s'>%s</a>,]]></word>
+  <word key="cms_byline" js="0"><![CDATA[От %s, в <a href='%s'>%s</a>, ]]></word>
   <word key="cms_show_categories" js="0">Показать все категории</word>
   <word key="cms_show_featured" js="0">Показать рекомендованные %s</word>
   <word key="content_record_form_rating_value" js="0">Ваша оценка</word>

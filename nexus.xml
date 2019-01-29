@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="103028">
+ <app key="nexus" version="103039">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -63,13 +63,13 @@
   <word key="contact_nexus_department" js="0">Создать запрос в поддержку</word>
   <word key="contact_nexus" js="0">Отдел</word>
   <word key="contact_nexus_no_departments" js="0">Отправить в отдел Коммерции как запрос в поддержку</word>
-  <word key="contact_nexus_no_departments_desc" js="0"><![CDATA[У вас нет настроенных отделов.<br>Настройте <a href='{internal.app=nexus&module=support&controller=settings&tab=departments&do=form}' target='_blank'>новый отдел</a>]]></word>
+  <word key="contact_nexus_no_departments_desc" js="0"><![CDATA[У вас нет созданных отделов.<br>Создайте <a href='{internal.app=nexus&module=support&controller=settings&tab=departments&do=form}' target='_blank' rel='noopener'>новый отдел</a>]]></word>
   <word key="contact_nexus_title" js="0">Запрос в поддержку создан через форму обратной связи</word>
   <word key="nexus_nodeletedept_contactus" js="0"><![CDATA[Отдел, который вы пытаетесь удалить, в данный момент установлен в качестве отдела для получения сообщений из формы обратной связи. Вы должны изменить настройки <a href='{internal.app=core&module=settings&controller=contactus}'>Обратной связи</a> перед тем, как сможете удалить этот отдел.]]></word>
   <word key="menu__nexus_stock_gateways" js="0">Способы оплаты</word>
   <word key="payment_methods" js="0">Способы оплаты</word>
   <word key="gateways_gateway" js="0">Способ оплаты</word>
-  <word key="gateways_gateway_desc" js="0"><![CDATA[<a href='{external.payment_methods}' target='_blank'>Подробнее о различных способах оплаты</a>]]></word>
+  <word key="gateways_gateway_desc" js="0"><![CDATA[<a href='{external.payment_methods}' target='_blank' rel='noopener'>Подробнее о различных способах оплаты</a>]]></word>
   <word key="gateways_details" js="0">Подробности</word>
   <word key="gateway__PayPal" js="0">PayPal</word>
   <word key="paymethod_name" js="0">Название</word>
@@ -77,20 +77,20 @@
   <word key="paymethod_countries_desc" js="0"><![CDATA[Данный способ оплаты будет доступен только для <strong>платёжного адреса</strong>, который находится в выбранных странах.]]></word>
   <word key="paypal_type" js="0">Оплатить с</word>
   <word key="paypal_type_paypal" js="0">PayPal</word>
-  <word key="paypal_type_paypal_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт PayPal для оплаты с помощью аккаунта PayPal или банковской карты. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank'>должен иметь доступ</a> к Платежам PayPal.]]></word>
+  <word key="paypal_type_paypal_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт PayPal для оплаты с помощью аккаунта PayPal или банковской карты. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Платежам PayPal.]]></word>
   <word key="paypal_type_card" js="0">Карта</word>
-  <word key="paypal_type_card_desc" js="0"><![CDATA[Пользователи введут данные своей банковской карты непосредственно на странице оформления заказа. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank'>должен иметь доступ</a> к Прямым платежам.]]></word>
+  <word key="paypal_type_card_desc" js="0"><![CDATA[Пользователи введут данные своей банковской карты непосредственно на странице оформления заказа. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Прямым платежам.]]></word>
   <word key="paypal_type_desc" js="0">Чтобы разрешить пользователям выбирать между банковской картой и аккаунтом PayPal, настройте два способа оплаты PayPal.</word>
   <word key="paypal_billing_agreements" js="0">Регулярные платежи</word>
   <word key="paypal_billing_agreements_req" js="0">Обязательно: Всегда использовать регулярные платежи для покупок с периодом продления.</word>
   <word key="paypal_billing_agreements_req_desc" js="0">Учтите, что регулярные платежи могут использоваться только при заказе товаров с единым периодом продления. Если, например, клиент покупает продукт с ежемесячным продлением, в то же время как другой покупаемый продукт имеет ежегодное продление, регулярный платёж создан не будет.</word>
   <word key="paypal_billing_agreements_opt" js="0">По желанию: Разрешить клиентам выбирать между регулярными платежами и выставлением счёта.</word>
   <word key="paypal_billing_agreements_dis" js="0">Отключено: Не использовать регулярные платежи</word>
-  <word key="paypal_billing_agreements_desc" js="0"><![CDATA[Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank'>должен иметь доступ</a> к Subscriptions. <a href='{external.billing_agreements}' target='_blank'>Важная информация о регулярных платежах</a>]]></word>
+  <word key="paypal_billing_agreements_desc" js="0"><![CDATA[Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Subscriptions. <a href='{external.billing_agreements}' target='_blank' rel='noopener'>Важная информация о регулярных платежах</a>]]></word>
   <word key="paypal_vault" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="paypal_vault_desc" js="0">Данные банковской карты хранятся на серверах PayPal, не на ваших.</word>
   <word key="paypal_client_id" js="0">ID клиента</word>
-  <word key="paypal_client_id_desc" js="0"><![CDATA[Чтобы получить идентификатор клиента и секретный ключ, <a href='{external.paypal_developer}' target='_blank'>создайте приложение на сайте PayPal для разработчиков</a>. Убедитесь, что вы используете <strong>реальные учётные данные</strong>, а не тестовые.]]></word>
+  <word key="paypal_client_id_desc" js="0"><![CDATA[Чтобы получить идентификатор клиента и секретный ключ, <a href='{external.paypal_developer}' target='_blank' rel='noopener'>создайте приложение на сайте PayPal для разработчиков</a>. Убедитесь, что вы используете <strong>реальные учётные данные</strong>, а не тестовые.]]></word>
   <word key="paypal_secret" js="0">Секретный ключ</word>
   <word key="paypal_billing_agreement" js="0">Оплачивать продление автоматически</word>
   <word key="paypal_payer_status" js="0">Статус счёта PayPal: %s</word>
@@ -104,7 +104,7 @@
   <word key="stripe_risk_level" js="0">Оценка риска Stripe: %s</word>
   <word key="gateway__AuthorizeNet" js="0">Authorize.Net</word>
   <word key="authorizenet_login" js="0">Логин API ID</word>
-  <word key="authorizenet_login_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank'>Получить логин API и транзакционный ключ</a>]]></word>
+  <word key="authorizenet_login_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank' rel='noopener'>Получить логин API и транзакционный ключ</a>]]></word>
   <word key="authorizenet_tran_key" js="0">Транзакционный ключ</word>
   <word key="authorizenet_method" js="0">API</word>
   <word key="authorizenet_AIM" js="0">Расширенный метод интеграции (AIM)</word>
@@ -114,13 +114,13 @@
   <word key="authorizenet_cim" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="authorizenet_cim_desc" js="0">Используется менеджер информации о клиенте. Данные банковской карты хранятся на серверах Authorize.Net, не на ваших.</word>
   <word key="authorizenet_hash" js="0">Хэш MD5</word>
-  <word key="authorizenet_desc" js="0"><![CDATA[<a href='{external.authorizenet_hash}' target='_blank'>Получить хэш MD5</a>]]></word>
+  <word key="authorizenet_desc" js="0"><![CDATA[<a href='{external.authorizenet_hash}' target='_blank' rel='noopener'>Получить хэш MD5</a>]]></word>
   <word key="authorizenet_processor" js="0">Платёжная система</word>
   <word key="authorizenet_processor_desc" js="0">Используется для отображения поддерживаемых к оплате банковских карт и проверки того, может ли ваша платежная система обработать ваш платёж. Если вы не знаете какую платежную систему вы используете, вы можете выбрать &quot;Не знаю&quot;, тогда пользователю будут отображены все типы карт, однако не поддерживаемые будут отклонены. Вы можете связаться с Authorize.Net, чтобы выяснить или изменить используемую платёжную систему.</word>
   <word key="dont_know" js="0">Не знаю</word>
   <word key="gateway__TwoCheckout" js="0">2Checkout</word>
   <word key="twocheckout_api_username" js="0">Имя пользователя API</word>
-  <word key="twocheckout_api_username_desc" js="0"><![CDATA[<a href='{external.2checkout_api_accounts}' target='_blank'>Создать API пользователя</a>]]></word>
+  <word key="twocheckout_api_username_desc" js="0"><![CDATA[<a href='{external.2checkout_api_accounts}' target='_blank' rel='noopener'>Создать API пользователя</a>]]></word>
   <word key="twocheckout_api_password" js="0">Пароль API</word>
   <word key="twocheckout_openssl_req" js="0">Произошла ошибка при соединении с 2Checkout. Возможно, проблема заключается в том, что ваша версия OpenSSL устарела. 2Checkout не принимает соединения по протоколу SSL, этот сервис принимает соединения только по протоколу TLS версии 1.1 или выше (который требует установленный на сервере OpenSSL 1.0.1 или выше). Свяжитесь с вашим хостинг-провайдером или системным администратором для обновления OpenSSL.</word>
   <word key="gateway__Manual" js="0">Ручной (чек, банковский перевод и т.д.)</word>
@@ -144,7 +144,7 @@
   <word key="tstatus_okay_set" js="0">Утверждено</word>
   <word key="tstatus_okay_credit" js="0">Оплатить с баланса аккаунта</word>
   <word key="tstatus_pend" js="0">Ожидает</word>
-  <word key="tstatus_pend_desc" js="0"><![CDATA[Ожидания завершения оформления заказа пользователем. Если вы получили платеж, то способ оплаты настроен некорректно. <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank'>Проверьте настройки</a>, и отметьте счет, связанный с этой транзакцией, оплаченным.]]></word>
+  <word key="tstatus_pend_desc" js="0"><![CDATA[Ожидания завершения оформления заказа пользователем. Если вы получили платеж, то способ оплаты настроен некорректно. <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank' rel='noopener'>Проверьте настройки</a>, и отметьте счет, связанный с этой транзакцией, оплаченным.]]></word>
   <word key="tstatus_wait" js="0">Ожидает</word>
   <word key="tstatus_wait_desc" js="0">Платёж ещё не был получен.</word>
   <word key="tstatus_hold" js="0">Отправлен на проверку</word>
@@ -295,14 +295,14 @@
   <word key="nexus_split_payments_on_desc" js="0">Разделение платежей позволит клиентам оплачивать заказ более чем одним способом оплаты. Например, оплатить заказ двумя банковскими картами.</word>
   <word key="nexus_split_payments" js="0">Минимальная сумма для разделения платежей</word>
   <word key="nexus_require_billing" js="0">Требовать реальное имя клиента и платёжный адрес при</word>
-  <word key="nexus_require_billing_package" js="0">Покупки не физических товаров</word>
+  <word key="nexus_require_billing_package" js="0">Покупки цифровых товаров</word>
   <word key="nexus_require_billing_package_desc" js="0">При покупке физических товаров всегда требуется оказывать реальное имя пользователя, а также платёжный адрес и адрес доставки.</word>
   <word key="nexus_require_billing_gift" js="0">Покупке подарочных карт</word>
   <word key="nexus_require_billing_donation" js="0">Совершении пожертвования</word>
   <word key="nexus_require_billing_domain" js="0">Покупке доменных имён</word>
   <word key="nexus_require_billing_other" js="0">Оплате других счетов</word>
   <word key="nexus_require_billing_other_desc" js="0">Например, пополнение баланса аккаунта, платные запросы в поддержку, оплата повышения продуктов, а также все расходы по созданным вручную счетам.</word>
-  <word key="nexus_require_billing_desc" js="0"><![CDATA[При отключении какого-либо из этих вариантов помните, что без платёжного адреса:<ul><li>Некоторые <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank'>методы оплаты</a> будут недоступны для использования, включая платежи через PayPal с использованием банковских карт, регулярные платежи PayPal, 2CheckOut и некоторые способы Authorize.Net. Все методы оплаты, которые настроены на работу только в определённых странах, будут недоступны.</li><li>Если какая-либо из <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=tax}' target='_blank'>налоговых ставок</a> зависит от месторасположения клиента, то будет использоваться стандартная налоговая ставка.</li><li>Все <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=fraud}' target='_blank'>правила по борьбе с мошенничеством</a>, которые используют платёжный адрес, будут считать, что клиент находится не в той стране, которую он указал.</li><li>Если интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=nexus_MaxMind}' target='_blank'>MaxMind</a> включена, то возможность определения мошеннических транзакций будет затруднена.</li></ul>Если вы используете какой-либо функционал, описанный выше, рекомендуется оставить все флажки отмеченными, чтобы клиентам всегда предлагалось заполнить платёжный адрес.]]></word>
+  <word key="nexus_require_billing_desc" js="0"><![CDATA[При отключении какого-либо из этих вариантов помните, что без платёжного адреса:<ul><li>Некоторые <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank' rel='noopener'>методы оплаты</a> будут недоступны для использования, включая платежи через PayPal с использованием банковских карт, регулярные платежи PayPal, 2CheckOut и некоторые способы Authorize.Net. Все методы оплаты, которые настроены на работу только в определённых странах, будут недоступны.</li><li>Если какая-либо из <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=tax}' target='_blank' rel='noopener'>налоговых ставок</a> зависит от месторасположения клиента, то будет использоваться стандартная налоговая ставка.</li><li>Все <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=fraud}' target='_blank' rel='noopener'>правила по борьбе с мошенничеством</a>, которые используют платёжный адрес, будут считать, что клиент находится не в той стране, которую он указал.</li><li>Если интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=nexus_MaxMind}' target='_blank' rel='noopener'>MaxMind</a> включена, то возможность определения мошеннических транзакций будет затруднена.</li></ul>Если вы используете какой-либо функционал, описанный выше, рекомендуется оставить все флажки отмеченными, чтобы клиентам всегда предлагалось заполнить платёжный адрес.]]></word>
   <word key="nexus_minimum_order" js="0">Минимальная сумма заказа</word>
   <word key="nexus_tac" js="0">Правила и условия</word>
   <word key="nexus_tac_none" js="0">Не отображать</word>
@@ -525,7 +525,7 @@
   <word key="tax_rate" js="0">Ставка</word>
   <word key="tax_locations" js="0">Места доставки</word>
   <word key="do_not_tax" js="0">Не облагать налогом</word>
-  <word key="shipping" js="0">Отгрузки</word>
+  <word key="shipping" js="0">Доставка</word>
   <word key="shipping_rates" js="0">Стоимость доставки</word>
   <word key="all_locations" js="0">Любое</word>
   <word key="shiprate_name" js="0">Название</word>
@@ -598,7 +598,7 @@
   <word key="enhancements__nexus_MaxMind_desc" js="0">MaxMind minFraud анализирует транзакции для выявления потенциально мошеннических транзакций. Эта информация может использоваться в комбинации с настройками по борьбе с мошенничеством для отправки транзакции на проверку для ручного утверждения или отказе в транзакции.</word>
   <word key="maxmind_enable" js="0">Включить интеграцию MaxMind minFraud</word>
   <word key="maxmind_key" js="0">Лицензионный ключ</word>
-  <word key="maxmind_key_desc" js="0"><![CDATA[<a href='{external.maxmind_key}' target='_blank'>Получите лицензионный ключ</a>. Для лучшего результата убедитесь, что ваш аккаунт <a href='{external.maxmind_version}' target='_blank'>использует версию 1.3 или выше</a>.]]></word>
+  <word key="maxmind_key_desc" js="0"><![CDATA[<a href='{external.maxmind_key}' target='_blank' rel='noopener'>Получите лицензионный ключ</a>. Для лучшего результата убедитесь, что ваш аккаунт <a href='{external.maxmind_version}' target='_blank' rel='noopener'>использует версию 1.3 или выше</a>.]]></word>
   <word key="maxmind_upgrade_version" js="0">Для лучшего результата, обновите ваш аккаунт MaxMind до версии 1.3 или выше</word>
   <word key="maxmind_error" js="0">Если возникла ошибка связи с MaxMind</word>
   <word key="maxmind_error_okay" js="0">Продолжить транзакцию</word>
@@ -658,7 +658,7 @@
   <word key="payment_received" js="0">Платёж получен</word>
   <word key="total_to_pay" js="0">Всего к оплате</word>
   <word key="i_agree_to_tac" js="0">Я согласен с %s</word>
-  <word key="you_agree_to_tac" js="0"><![CDATA[Нажатием кнопки подтверждения вы соглашаетесь с <a href='%s' target='_blank'>правилами и условиями</a>.]]></word>
+  <word key="you_agree_to_tac" js="0"><![CDATA[Нажатием кнопки подтверждения вы соглашаетесь с <a href='%s' target='_blank' rel='noopener'>правилами и условиями</a>.]]></word>
   <word key="you_must_agree_to_tac" js="0">Вы должны согласиться с правилами и условиями.</word>
   <word key="terms_and_conditions" js="0">правила и условия</word>
   <word key="account_credit_with_amount" js="0">Баланс аккаунта (%s)</word>
@@ -1088,12 +1088,12 @@
   <word key="nexus_payout" js="0">Доступные методы вывода средств</word>
   <word key="withdrawal_methods" js="0">Методы вывода средств</word>
   <word key="payout__admin_PayPal" js="0">PayPal</word>
-  <word key="payout__admin_PayPal_desc" js="0"><![CDATA[Деньги будут перечислены с вашего аккаунта PayPal на аккаунт PayPal пользователя. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank'>должен поддерживать</a> Выплаты.]]></word>
+  <word key="payout__admin_PayPal_desc" js="0"><![CDATA[Деньги будут перечислены с вашего аккаунта PayPal на аккаунт PayPal пользователя. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен поддерживать</a> Выплаты.]]></word>
   <word key="paypal_api_email" js="0">Email-адрес PayPal</word>
   <word key="paypal_api_app" js="0">ID приложения PayPal</word>
-  <word key="paypal_api_app_desc" js="0"><![CDATA[<a href='{external.paypal_old_apps}' target='_blank'>Создать приложение</a>]]></word>
+  <word key="paypal_api_app_desc" js="0"><![CDATA[<a href='{external.paypal_old_apps}' target='_blank' rel='noopener'>Создать приложение</a>]]></word>
   <word key="paypal_api_username" js="0">Имя пользователя PayPal API</word>
-  <word key="paypal_api_username_desc" js="0"><![CDATA[<a href='{external.paypal_old_api}' target='_blank'>Запросить данные API</a>]]></word>
+  <word key="paypal_api_username_desc" js="0"><![CDATA[<a href='{external.paypal_old_api}' target='_blank' rel='noopener'>Запросить данные API</a>]]></word>
   <word key="paypal_api_password" js="0">Пароль PayPal API</word>
   <word key="paypal_api_signature" js="0">Подпись PayPal API</word>
   <word key="payout__front_PayPal" js="0">PayPal</word>
@@ -1500,10 +1500,10 @@
   <word key="ie_piping_no_cpanel" js="0">Если вы не используете cPanel:</word>
   <word key="ie_piping_no_cpanel_1" js="0">Настройте ваш сервер на получение email-писем с помощью этой команды, изменив email@example.com на email-адрес, с которого должны поступать письма:</word>
   <word key="ie_piping_no_cpanel_2" js="0">Если вы не знаете, как сделать это, свяжитесь с вашим хостинг-провайдером и попросите его сделать это для вас.</word>
-  <word key="ie_pop3_details" js="0"><![CDATA[Заполните следующие данные, которые могут быть получены у вашего email-провайдера. Например: <a href='{external.pop3_gmail}' target='_blank'>Gmail</a> · <a href='{external.pop3_outlook}' target='_blank'>Outlook.com</a> · <a href='{external.pop3_yahoo}' target='_blank'>Yahoo Mail</a>]]></word>
+  <word key="ie_pop3_details" js="0"><![CDATA[Заполните следующие данные, которые могут быть получены у вашего email-провайдера. Например: <a href='{external.pop3_gmail}' target='_blank' rel='noopener'>Gmail</a> · <a href='{external.pop3_outlook}' target='_blank' rel='noopener'>Outlook.com</a> · <a href='{external.pop3_yahoo}' target='_blank' rel='noopener'>Yahoo Mail</a>]]></word>
   <word key="ie_sendgrid_intro" js="0">В отличие от других вариантов, использование SendGrid требует настройки MX-записей на основном домене или направление поддомена на SendGrid. Это означает, что вы должны использовать отдельный домен или поддомен, который вы не будете использовать для получения email-писем в других целях. Это может означать, что вместо support@example.com вам нужно использовать support@support.example.com.</word>
-  <word key="ie_sendgrid_1" js="0"><![CDATA[Если вы ещё не сделали этого, то <a href='{external.sendgrid_whitelist}' target='_blank'>добавьте домен в белый список в аккаунте SendGrid</a> и убедитесь в том, что он подтверждён. Для этого необходимо создать CNAME-записи, направив их на определённое расположение, предоставленное SendGrid, чтобы доказать право владения вашим доменом. Свяжитесь с SendGrid, если вам необходима помощь с этим.]]></word>
-  <word key="ie_sendgrid_2" js="0"><![CDATA[<a href='{external.sendgrid_incoming}' target='_blank'>Настройте входящий домен в SendGrid</a>. В поле <strong>Destination URL</strong> введите ссылку ниже и убедитесь в том, что выбрана настройка <strong>POST the raw, full MIME message</strong>.]]></word>
+  <word key="ie_sendgrid_1" js="0"><![CDATA[Если вы ещё не сделали этого, то <a href='{external.sendgrid_whitelist}' target='_blank' rel='noopener'>добавьте домен в белый список в аккаунте SendGrid</a> и убедитесь в том, что он подтверждён. Для этого необходимо создать CNAME-записи, направив их на определённое расположение, предоставленное SendGrid, чтобы доказать право владения вашим доменом. Свяжитесь с SendGrid, если вам необходима помощь с этим.]]></word>
+  <word key="ie_sendgrid_2" js="0"><![CDATA[<a href='{external.sendgrid_incoming}' target='_blank' rel='noopener'>Настройте входящий домен в SendGrid</a>. В поле <strong>Destination URL</strong> введите ссылку ниже и убедитесь в том, что выбрана настройка <strong>POST the raw, full MIME message</strong>.]]></word>
   <word key="pop3_server" js="0">Сервер</word>
   <word key="pop3_port" js="0">Порт</word>
   <word key="pop3_user" js="0">Имя пользователя</word>
@@ -1517,7 +1517,7 @@
   <word key="pop3_settings" js="0">Настройки POP3</word>
   <word key="disable_pop3" js="0">Выключить POP3</word>
   <word key="ie_sendgrid" js="0">SendGrid</word>
-  <word key="ie_sendgrid_desc" js="0"><![CDATA[SendGrid это сторонний сервис для отправки и разбора входящей почты. Вы можете настроить свой домен для получения email-писем в SendGrid, тогда SendGrid будет отправлять email-письма в систему поддержки. <a href='{external.sendgrid}' target='_blank'>Подробнее</a>]]></word>
+  <word key="ie_sendgrid_desc" js="0"><![CDATA[SendGrid это сторонний сервис для отправки и разбора входящей почты. Вы можете настроить свой домен для получения email-писем в SendGrid, тогда SendGrid будет отправлять email-письма в систему поддержки. <a href='{external.sendgrid}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="ie_sendgrid_use" js="0">Использовать SendGrid</word>
   <word key="request" js="0">Запрос</word>
   <word key="menu__nexus_support_requests" js="0">Запросы в поддержку</word>
@@ -1864,7 +1864,7 @@
   <word key="lkey_Standard" js="0">Стандартный (XXXX-XXXX-XXXX-XXXX-XXXX)</word>
   <word key="lkey_Mdfive" js="0">MD5 (xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)</word>
   <word key="p_lkey_uses" js="0">Максимальное количество активаций ключа</word>
-  <word key="p_lkey_uses_desc" js="0"><![CDATA[Влияет на то, как <a href='{external.licenseapi}'>API лицензионного ключа</a> будет обрабатывать запросы на активацию.]]></word>
+  <word key="p_lkey_uses_desc" js="0"><![CDATA[Влияет на то, как <a href='{external.licenseapi}' rel='noopener'>API лицензионного ключа</a> будет обрабатывать запросы на активацию.]]></word>
   <word key="p_lkey_identifier" js="0">Идентификатор</word>
   <word key="p_lkey_identifier_desc" js="0">Если указано, это значение должно быть предоставлено со всеми вызовами API для этого ключа.</word>
   <word key="lkey_identifier_none" js="0">Без идентификатора</word>
@@ -2349,7 +2349,7 @@
   <word key="enhancements__nexus_EasyPost_desc" js="0">Простая доставка USPS, UPS, DHL, FedEx и других.</word>
   <word key="easypost_enable" js="0">Включить интеграцию с EasyPost</word>
   <word key="easypost_api_key" js="0">API ключ EasyPost</word>
-  <word key="easypost_api_key_desc" js="0"><![CDATA[Вы можете получить ваш API-ключ в <a href='{external.easypost_api_key}' target='_blank'>вашем аккаунте EasyPost</a>.]]></word>
+  <word key="easypost_api_key_desc" js="0"><![CDATA[Вы можете получить ваш API-ключ в <a href='{external.easypost_api_key}' target='_blank' rel='noopener'>вашем аккаунте EasyPost</a>.]]></word>
   <word key="easypost_address_select" js="0">Адрес отгрузки (от кого)</word>
   <word key="easypost_address_select_desc" js="0">Это адрес, который будет передан в EasyPost как адрес &quot;От кого&quot; при доставке посылки.</word>
   <word key="easypost_address_default" js="0">Физический адрес сайта (%s)</word>
@@ -2420,11 +2420,11 @@
   <word key="epc_hs_tarrif" js="0">Код товара (HS Tariff Number)</word>
   <word key="epc_origin" js="0">Страна происхождения</word>
   <word key="epc_origin_unknown" js="0">- Неизвестно / Не указано -</word>
-  <word key="shipment_cost_others" js="0"><![CDATA[Клиент оплачивает %s за доставку этого и ещё <a href='{internal.app=nexus&module=payments&controller=invoices&do=view&id=%d}' target='_blank'>%d других продуктов</a>.]]></word>
+  <word key="shipment_cost_others" js="0"><![CDATA[Клиент оплачивает %s за доставку этого и ещё <a href='{internal.app=nexus&module=payments&controller=invoices&do=view&id=%d}' target='_blank' rel='noopener'>%d других продуктов</a>.]]></word>
   <word key="shipment_cost_noothers" js="0">Клиент оплатил %s за доставку.</word>
   <word key="shipment_label" js="0">Этикетка отгрузки</word>
   <word key="easypost_show_rates" js="0">Разрешить клиентам выбирать стоимость</word>
-  <word key="easypost_show_rates_0" js="0"><![CDATA[Нет - отображать клиентам <a href='{internal.app=nexus&module=payments&controller=shippingrates}' target='_blank'>настроенные стоимости доставки</a>. Я выберу использование EasyPost и стоимость отправки посылки.]]></word>
+  <word key="easypost_show_rates_0" js="0"><![CDATA[Нет - отображать клиентам <a href='{internal.app=nexus&module=payments&controller=shippingrates}' target='_blank' rel='noopener'>настроенные стоимости доставки</a>. Я выберу использование EasyPost и стоимость отправки посылки.]]></word>
   <word key="easypost_show_rates_1" js="0">Да - отображать клиенту доступные стоимости с EasyPost и предоставить ему возможность выбора.</word>
   <word key="easypost_tax" js="0">Налог на стоимость доставки</word>
   <word key="easypost_price_adjustment" js="0">Корректировка цены</word>
@@ -2433,7 +2433,7 @@
   <word key="easypost_delivery_adjustment_desc" js="0">Клиент сможет видеть сроки доставки, предоставленные EasyPost, с указанием корректировки. К примеру, если EasyPost сообщает, что срок доставки 3 дня и вы введёте здесь 1 день, то клиент увидит срок доставки 4 дня.</word>
   <word key="easypost_delivery_estimate" js="0">{# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
   <word key="easypost_test" js="0">Тестировать настройки и просмотреть цены</word>
-  <word key="easypost_test_blurb" js="0"><![CDATA[Этот инструмент отобразит вам цены на доставку выбранных товаров в конкретное место. Если у вас есть проблемы с EasyPost, вы можете использовать этот инструмент, чтобы увидеть, существуют ли какие-либо проблемы с некоторыми продуктами или местами назначения. Адресом отгрузки будет адрес, указанный на странице <a href='{internal.app=core&module=settings&controller=general}' target='_blank'>Общие настройки</a>.]]></word>
+  <word key="easypost_test_blurb" js="0"><![CDATA[Этот инструмент отобразит вам цены на доставку выбранных товаров в конкретное место. Если у вас есть проблемы с EasyPost, вы можете использовать этот инструмент, чтобы увидеть, существуют ли какие-либо проблемы с некоторыми продуктами или местами назначения. Адресом отгрузки будет адрес, указанный на странице <a href='{internal.app=core&module=settings&controller=general}' target='_blank' rel='noopener'>Общие настройки</a>.]]></word>
   <word key="easypost_test_method" js="0">Тестовый метод</word>
   <word key="easypost_test_method_1" js="0">Выберите продукты для отправки</word>
   <word key="easypost_test_method_0" js="0">Вручную указать характеристики посылки</word>
@@ -2472,7 +2472,7 @@
   <word key="server_hostname" js="0">Имя хоста</word>
   <word key="server_cpanel_username" js="0">Имя пользователя</word>
   <word key="server_cpanel_key" js="0">Ключ удалённого доступа cPanel / Токен API</word>
-  <word key="server_cpanel_key_desc" js="0"><![CDATA[Если вы используете cPanel версии 62 или ниже, то вам необходимо использовать  <a href='{external.cpanel_key}' target='_blank'>ключ удалённого доступа</a>. Если вы используете cPanel версии 64 или выше, то вам необходимо использовать  <a href='{external.cpanel_api_token}' target='_blank'>токен API</a>. <a href='{external.cpanel_auth_change}' target='_blank'>Подробнее</a>]]></word>
+  <word key="server_cpanel_key_desc" js="0"><![CDATA[Если вы используете cPanel версии 62 или ниже, то вам необходимо использовать  <a href='{external.cpanel_key}' target='_blank' rel='noopener'>ключ удалённого доступа</a>. Если вы используете cPanel версии 64 или выше, то вам необходимо использовать  <a href='{external.cpanel_api_token}' target='_blank' rel='noopener'>токен API</a>. <a href='{external.cpanel_auth_change}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="server_cpanel_key_hostname_err" js="0">Сервер принял ключ, но сообщает об отличном от указанного имени хоста (%s). Убедитесь, что вы указали правильные сведения о сервере.</word>
   <word key="server_cpanel_call" js="0">Отправлять API-запросы в</word>
   <word key="server_max_accounts" js="0">Максимум аккаунтов</word>
@@ -2706,9 +2706,9 @@
   <word key="network_status_potential_issue" js="0">Мы обнаружили потенциальную проблему и работает над её изучением.</word>
   <word key="network_status_normal" js="0">Работает нормально.</word>
   <word key="network_status_no_issues" js="0">Все сервера включены</word>
-  <word key="hosting_cancel_warning" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank'>настроек</a>, после истечения покупки более чем на {# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}, она автоматически приостанавливается)]]></word>
-  <word key="hosting_cancel_warning_nt" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank'>настроек</a>, после истечения покупки более чем на {# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}, она автоматически приостанавливается)]]></word>
-  <word key="hosting_cancel_warning_at" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank'>настроек</a>, нет возможности приостановить действие аккаунта.]]></word>
+  <word key="hosting_cancel_warning" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настроек</a>, после истечения покупки более чем на {# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}, она автоматически приостанавливается)]]></word>
+  <word key="hosting_cancel_warning_nt" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настроек</a>, после истечения покупки более чем на {# [0:дней][1:день][2:дня][3:дня][4:дня][11:дней][12:дней][13:дней][14:дней][*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}, она автоматически приостанавливается)]]></word>
+  <word key="hosting_cancel_warning_at" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настроек</a>, нет возможности приостановить действие аккаунта.]]></word>
   <word key="p_type_Ad" js="0">Реклама</word>
   <word key="p_type_Ad_desc" js="0"><![CDATA[Продавайте рекламные места на вашем сайте, которые будут отображаться вместе с <a href='{internal.app=core&module=promotion&controller=advertisements}'>вашей собственной рекламой</a>.]]></word>
   <word key="p_locations" js="0">Отображать рекламу</word>
@@ -2982,28 +2982,28 @@
   <word key="stripe_type_card" js="0">Карта</word>
   <word key="stripe_type_card_desc" js="0">Пользователи должны будут ввести данные своей карты непосредственно на странице оформления заказа.</word>
   <word key="stripe_type_native" js="0">Функционал браузера (Apple Pay / Google Pay)</word>
-  <word key="stripe_type_native_desc" js="0"><![CDATA[Пользователи с поддерживаемыми устройствами / браузерами смогут использовать встроеный функционал браузера для оплаты (например, Apple Pay или Google Pay).<br>Этот вариант <a href='{external.https}' target='_blank'>требует наличия HTTPS</a>, а для Apple Pay вы также должны <a href='{external.stripe_applepay_register}' target='_blank'>зарегистрировать свой домен</a>.]]></word>
+  <word key="stripe_type_native_desc" js="0"><![CDATA[Пользователи с поддерживаемыми устройствами / браузерами смогут использовать встроеный функционал браузера для оплаты (например, Apple Pay или Google Pay).<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а для Apple Pay вы также должны <a href='{external.stripe_applepay_register}' target='_blank' rel='noopener'>зарегистрировать свой домен</a>.]]></word>
   <word key="stripe_type_amex" js="0">Amex Express Checkout</word>
-  <word key="stripe_type_amex_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт Amex Express Checkout для завершения оплаты. <a href='{external.stripe_amex_express}' target='_blank'>Подробнее о Amex Express Checkout</a>]]></word>
+  <word key="stripe_type_amex_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт Amex Express Checkout для завершения оплаты. <a href='{external.stripe_amex_express}' target='_blank' rel='noopener'>Подробнее о Amex Express Checkout</a>]]></word>
   <word key="stripe_amex_client_id" js="0">Amex Express Checkout Client ID</word>
-  <word key="stripe_amex_client_id_gen" js="0"><![CDATA[<a href='{external.amex_client_id}' target='_blank'>Сгенерировать</a>]]></word>
+  <word key="stripe_amex_client_id_gen" js="0"><![CDATA[<a href='{external.amex_client_id}' target='_blank' rel='noopener'>Сгенерировать</a>]]></word>
   <word key="stripe_type_alipay" js="0">Alipay</word>
-  <word key="stripe_type_alipay_desc" js="0"><![CDATA[Популярный способ оплаты в Китае. Пользователи будут перенаправлены на сайт Alipay для завершения оплаты. <a href='{external.alipay}' target='_blank'>Подробнее о Alipay</a>]]></word>
+  <word key="stripe_type_alipay_desc" js="0"><![CDATA[Популярный способ оплаты в Китае. Пользователи будут перенаправлены на сайт Alipay для завершения оплаты. <a href='{external.alipay}' target='_blank' rel='noopener'>Подробнее о Alipay</a>]]></word>
   <word key="stripe_type_bancontact" js="0">Bancontact</word>
-  <word key="stripe_type_bancontact_desc" js="0"><![CDATA[Популярный способ оплаты в Бельгии. Пользователи будут перенаправлены на сайт Bancontact для завершения оплаты. <a href='{external.bancontact}' target='_blank'>Подробнее о Bancontact</a>]]></word>
+  <word key="stripe_type_bancontact_desc" js="0"><![CDATA[Популярный способ оплаты в Бельгии. Пользователи будут перенаправлены на сайт Bancontact для завершения оплаты. <a href='{external.bancontact}' target='_blank' rel='noopener'>Подробнее о Bancontact</a>]]></word>
   <word key="stripe_type_giropay" js="0">Giropay</word>
-  <word key="stripe_type_giropay_desc" js="0"><![CDATA[Популярный способ оплаты в Германии. Пользователи будут перенаправлены на сайт Giropay для завершения оплаты. <a href='{external.giropay}' target='_blank'>Подробнее о Giropay</a>]]></word>
+  <word key="stripe_type_giropay_desc" js="0"><![CDATA[Популярный способ оплаты в Германии. Пользователи будут перенаправлены на сайт Giropay для завершения оплаты. <a href='{external.giropay}' target='_blank' rel='noopener'>Подробнее о Giropay</a>]]></word>
   <word key="stripe_type_ideal" js="0">iDEAL</word>
-  <word key="stripe_type_ideal_desc" js="0"><![CDATA[Популярный способ оплаты в Нидерландах. Пользователи будут перенаправлены на сайт iDEAL для завершения оплаты. <a href='{external.ideal}' target='_blank'>Подробнее о iDEAL</a>]]></word>
+  <word key="stripe_type_ideal_desc" js="0"><![CDATA[Популярный способ оплаты в Нидерландах. Пользователи будут перенаправлены на сайт iDEAL для завершения оплаты. <a href='{external.ideal}' target='_blank' rel='noopener'>Подробнее о iDEAL</a>]]></word>
   <word key="stripe_type_sofort" js="0">SOFORT</word>
-  <word key="stripe_type_sofort_desc" js="0"><![CDATA[Популярный способ оплаты в Европе. Пользователи будут перенаправлены на сайт SOFORT для завершения оплаты. <a href='{external.sofort}' target='_blank'>Подробнее о SOFORT</a>]]></word>
+  <word key="stripe_type_sofort_desc" js="0"><![CDATA[Популярный способ оплаты в Европе. Пользователи будут перенаправлены на сайт SOFORT для завершения оплаты. <a href='{external.sofort}' target='_blank' rel='noopener'>Подробнее о SOFORT</a>]]></word>
   <word key="stripe_webhook" js="0">Webhook</word>
-  <word key="stripe_webhook_blurb" js="0"><![CDATA[Вы должны <a href='{external.stripe_webhooks}' target='_blank'>создать webhook</a> oв своем аккаунте Stripe, указав эту ссылку в качестве конечной точки:<br><pre class='ipsCode'>%s</pre>]]></word>
+  <word key="stripe_webhook_blurb" js="0"><![CDATA[Вы должны <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>создать webhook</a> oв своем аккаунте Stripe, указав эту ссылку в качестве конечной точки:<br><pre class='ipsCode'>%s</pre>]]></word>
   <word key="stripe_webhook_secret" js="0">Секретная подпись для Webhook</word>
   <word key="stripe_webhook_secret_desc" js="0">При просмотре webhook в вашем аккаунте Stripe, вы увидите кнопку для показа секретной подписи. Значение не будет проверено, поэтому убедитесь в том, что вы ввели его правильно.</word>
   <word key="stripe_basic_settings" js="0">Основные настройки</word>
   <word key="stripe_keys" js="0">Ключи</word>
-  <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank'>раздела API вашего аккаунта в Stripe</a>.]]></word>
+  <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank' rel='noopener'>раздела API вашего аккаунта в Stripe</a>.]]></word>
   <word key="stripe_type_desc" js="0">Чтобы предоставить пользователю выбор, настройте несколько способов оплаты Stripe.</word>
   <word key="stripe_3d_secure" js="0">Система 3D Secure</word>
   <word key="stripe_3d_secure_yes" js="0">Все карты, которые поддерживают её</word>
@@ -3090,7 +3090,7 @@
   <word key="already_rated" js="0">Вы уже оценили этот отзыв</word>
   <word key="product_groups_add_child" js="0">Создать продукт в этой группе</word>
   <word key="package_custom_emails" js="0">Email-письма</word>
-  <word key="package_custom_emails_blurb" js="0">Email-письма, настроенные здесь, будут отправлены для каждой покупки, поэтому, если клиент покупает несколько копий этого продукта, то он получить письмо для каждой из копий.</word>
+  <word key="package_custom_emails_blurb" js="0">Email-письма, настроенные здесь, будут отправлены для каждой покупки, поэтому, если клиент покупает несколько копий этого продукта, то он получит письмо для каждой копии.</word>
   <word key="p_email_purchase_type" js="0">Отправлять email-письмо после покупки?</word>
   <word key="p_email_purchase_type_desc" js="0"><![CDATA[Это письмо будет отправлено <em>в дополнение</em> к письму об успешной оплате счета.]]></word>
   <word key="p_email_none" js="0">Нет</word>
@@ -3101,7 +3101,7 @@
   <word key="p_email_purchase_html" js="0">Содержание email-письма после покупки</word>
   <word key="p_email_purchase_wysiwyg" js="0">Содержание email-письма после покупки</word>
   <word key="p_email_expire_soon_type" js="0">Отправлять email-письмо при скором истечении покупки?</word>
-  <word key="p_email_expire_soon_type_desc" js="0"><![CDATA[Оно будет отправлено <em>вместо</em> <a href='{internal.app=nexus&module=payments&controller=invoices&do=settings&searchResult=cm_invoice_warning}' target='_blank'>email-уведомления об автоматическом платеже</a>, поэтому лучше сообщать клиенту о том, что если у клиента есть средства на балансе аккаунта, привязана карта или активен регулярный платеж, то платеж будет произведен автоматически.]]></word>
+  <word key="p_email_expire_soon_type_desc" js="0"><![CDATA[Оно будет отправлено <em>вместо</em> <a href='{internal.app=nexus&module=payments&controller=invoices&do=settings&searchResult=cm_invoice_warning}' target='_blank' rel='noopener'>email-уведомления об автоматическом платеже</a>, поэтому лучше сообщать клиенту о том, что если у клиента есть средства на балансе аккаунта, привязана карта или активен регулярный платеж, то платеж будет произведен автоматически.]]></word>
   <word key="p_email_expire_soon_subject" js="0">Тема email-письма при скором истечении покупки</word>
   <word key="p_email_expire_soon_html" js="0">Содержание email-письма при скором истечении покупки</word>
   <word key="p_email_expire_soon_wysiwyg" js="0">Содержание email-письма при скором истечении покупки</word>
@@ -3265,5 +3265,9 @@
   <word key="history_transaction_undo_credit" js="0">%s за %s были забраны%s.</word>
   <word key="nexus_subs_already_got_package" js="0">У вас уже есть активная подписка и вы не можете купить другую.</word>
   <word key="upgrade_fix_refund_transactions" js="0">Обновление данных транзакции</word>
+  <word key="refund_cancel_billing_agreement" js="0">Отменить регулярный платёж?</word>
+  <word key="refund_cancel_billing_agreement_desc" js="0">Эта транзакция была создана регулярным платежом. Если регулярный платёж не будет отменён, то он продолжит автоматически совершаться.</word>
+  <word key="refund_cancel_billing_agreement_warning" js="0">Невозможность отменить регулярный платёж будет означать, что платежи продолжат совершаться даже если нет привязанных покупок для продления.</word>
+  <word key="billing_agreement_cancel_error" js="0">Возникла проблема при обращении к платёжному шлюзу для отмены регулярного платежа. Платеж не был отменен. Необходимо отменить регулярный платёж в платёжном шлюзе, а затем повторить попытку с отключенной опцией отмены регулярного платежа.</word>
  </app>
 </language>
