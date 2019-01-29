@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="103028">
+ <app key="forums" version="103039">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -205,8 +205,8 @@
   <word key="forums_default_view_choose" js="0">Пользователь может выбрать сам?</word>
   <word key="forums_default_view_choose_desc" js="0">Укажите виды, из которых вы разрешите пользователям выбирать</word>
   <word key="forums_default_view_choose_none" js="0">Не разрешать пользователям выбирать виды</word>
-  <word key="forums_fluid_pinned" js="0">Учитывать прикреплённые темы</word>
-  <word key="forums_fluid_pinned_desc" js="0">Отображать прикреплённые темы из выбранных разделов наверху списка тем при использовании динамического вида</word>
+  <word key="forums_fluid_pinned" js="0">Учитывать закреплённые темы</word>
+  <word key="forums_fluid_pinned_desc" js="0">Отображать закреплённые темы из выбранных разделов наверху списка тем при использовании динамического вида</word>
   <word key="forums_default_view_choose_error" js="0">Вы должны указать как минимум два вида, которые пользователи смогут выбрать</word>
   <word key="archiving" js="0">Архивация</word>
   <word key="archiving_blurb" js="0">Если у вас очень большой сайт, это может быть выгодно для уменьшения размера таблицы базы данных, в которой хранятся сообщения. Архивирование тем является альтернативой удалению, но они по-прежнему доступны. Основное отличие в том, что они перемещаются в отдельную таблицу в базе данных и недоступны для изменения. Вы сможете восстановить темы из архива в любое время.</word>
@@ -216,7 +216,7 @@
   <word key="archive_topic_pinned" js="0">Закреплённые/Откреплённые</word>
   <word key="archive_topic_featured" js="0">Рекомендованные/Обычные</word>
   <word key="archive_topic_state" js="0">Закрытые/Открытые</word>
-  <word key="unlocked" js="0">Открытые</word>
+  <word key="unlocked" js="0">Открыто</word>
   <word key="archive_topic_approved" js="0">Скрытые/Не скрытые</word>
   <word key="archive_topic_poll" js="0">Опросы</word>
   <word key="topic_has_poll" js="0">Имеется опрос</word>

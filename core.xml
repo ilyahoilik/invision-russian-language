@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="103028">
+ <app key="core" version="103039">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -291,11 +291,11 @@
   <word key="editor_link_remove" js="0">Удалить ссылку</word>
   <word key="editor_link_no_embed" js="0">Обычная ссылка</word>
   <word key="editor_attachment_location" js="0">Расположение вложения</word>
-  <word key="embed_failure_message" js="0">Ссылка не может быть встроена из-за того, что %s.</word>
+  <word key="embed_failure_message" js="0">Ссылка не может быть встроена, так как %s.</word>
   <word key="embed_bad_image_dims" js="0">изображение неподдерживаемого формата</word>
   <word key="embed_no_oembed_type" js="0">это неподдерживаемый формат</word>
-  <word key="embed__fail_404" js="0">нет %s по этой ссылке</word>
-  <word key="embed__fail_403" js="0">%s не позволяет встраивать такие %s</word>
+  <word key="embed__fail_404" js="0">в ней отсутствует %s</word>
+  <word key="embed__fail_403" js="0">%s не позволяет встраивать %s</word>
   <word key="embed__fail_500" js="0">возникла ошибка с %s</word>
   <word key="embed__fail_1" js="0">изображение</word>
   <word key="embed__fail_2" js="0">видео</word>
@@ -384,7 +384,7 @@
   <word key="editor_paste_behaviour_rich" js="0">Вставлять отформатированный текст, но позволить пользователю вставить его в виде обычного текста.</word>
   <word key="editor_paste_behaviour_rich_desc" js="0">При вставке отформатированного текста, внизу редактора появится панель с кнопкой для конвертации этого текста в обычный текст. Пользователи также могут вставить его в виде обычного текста, используя сочетание клавиш Ctrl + Shift + V в Google Chrome на Windows, или ⌥⇧⌘V в любом браузере на Mac.</word>
   <word key="editor_paste_behaviour_force" js="0">Всегда вставлять в виде обычного текста.</word>
-  <word key="editor_paste_behaviour_desc" js="0"><![CDATA[Применяется как к форматированию (жирный/курсив, цвет и т.д.), так и к схематической структуре (ссылки, заголовки, списки и т.д.).<br>Пользователи могут удалить форматирование с любого текста только с помощью кнопки "Удалить форматирование", если она <a href='{internal.app=core&module=editor&controller=toolbar}' target='_blank'>включена в панели редактора</a>.]]></word>
+  <word key="editor_paste_behaviour_desc" js="0"><![CDATA[Применяется как к форматированию (жирный/курсив, цвет и т.д.), так и к схематической структуре (ссылки, заголовки, списки и т.д.).<br>Пользователи могут удалить форматирование с любого текста только с помощью кнопки "Удалить форматирование", если она <a href='{internal.app=core&module=editor&controller=toolbar}' target='_blank' rel='noopener'>включена в панели редактора</a>.]]></word>
   <word key="editor_paragraph_padding" js="0">Действие клавиши Enter</word>
   <word key="editor_paragraph_padding_on" js="0">Создать новый абзац.</word>
   <word key="editor_paragraph_padding_off" js="0">Перейти на следующую строку.</word>
@@ -552,7 +552,8 @@
   <word key="minimum_age_desc" js="0">Если выбран &quot;Любой возраст&quot;, то форма регистрации не будет запрашивать дату рождения пользователя до тех пор, пока COPPA не будет включен.</word>
   <word key="any_age" js="0">Любой возраст</word>
   <word key="register_denied_age" js="0">В этом сообществе запрещена регистрация пользователей младше %s лет.</word>
-  <word key="use_coppa_desc" js="0"><![CDATA[Требовать от детей младше 13 лет отправку согласия родителей по факсу или почте, перед тем, как они смогут зарегистрироваться. Это необходимо, если ваш сайт размещён в США и предназначен для детей младше 13 лет. <a href='{external.coppa}'>Подробная информация</a>. При получении формы вам необходимо будет создавать аккаунт вручную.]]></word>
+  <word key="use_coppa_desc" js="0"><![CDATA[Требовать от детей младше 13 лет отправку согласия родителей по факсу или почте, перед тем, как они смогут зарегистрироваться. Это необходимо, если ваш сайт размещён в США и предназначен для детей младше 13 лет. <a href='{external.coppa}' target='_blank'
+ rel='noopener'>Подробная информация</a>. При получении формы вам необходимо будет создавать аккаунт вручную.]]></word>
   <word key="coppa_fax" js="0">Номер факса для форм COPPA</word>
   <word key="coppa_address" js="0">Адрес для форм COPPA</word>
   <word key="age_requirements" js="0">Возрастные требования</word>
@@ -702,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ilyahoilik.com/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.5. Проверить обновления">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://link.ilyahoilik.com/from-acp" target="_blank" data-ipsTooltip _title="Версия 4.3.6. Проверить обновления">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -1114,14 +1115,14 @@
   <word key="error_technical_details_desc" js="0">Эти сведения отображены потому, что вы вошли как администратор</word>
   <word key="error_technical_details_logs" js="0"><![CDATA[Вы можете просмотреть их позже в <a href='{internal.admin.app=core&module=support&controller=systemLogs}'>разделе Журналы системы в АЦ</a>.]]></word>
   <word key="error_technical_details_dev" js="0">Эти сведения всегда отображаются в режиме разработчика</word>
-  <word key="faulty_plugin" js="0"><![CDATA[Эта ошибка, возможно, вызвана плагином %s.<br>Если проблема сохраняется, <a href="%s" target="_blank" >отключите</a> его и свяжитесь с его автором для получения помощи.]]></word>
-  <word key="faulty_app" js="0"><![CDATA[Эта ошибка, возможно, вызвана приложением %s.<br>Если проблема сохраняется, <a href="%s" target="_blank" >отключите</a> его и свяжитесь с его автором для получения помощи.]]></word>
+  <word key="faulty_plugin" js="0"><![CDATA[Эта ошибка, возможно, вызвана плагином %s.<br>Если проблема сохраняется, <a href="%s" target="_blank" rel='noopener'>отключите</a> его и свяжитесь с его автором для получения помощи.]]></word>
+  <word key="faulty_app" js="0"><![CDATA[Эта ошибка, возможно, вызвана приложением %s.<br>Если проблема сохраняется, <a href="%s" target="_blank" rel='noopener'>отключите</a> его и свяжитесь с его автором для получения помощи.]]></word>
   <word key="login_err_no_account" js="0">Введённый %s не связан ни с одним аккаунтом. Убедитесь, что вы ввели корректное значение.</word>
   <word key="login_err_bad_password" js="0">Введённый пароль является некорректным. Попробуйте ещё раз (убедитесь, что Caps Lock выключен).</word>
   <word key="login_err_locked_unlock" js="0">Ваш аккаунт заблокирован. Повторите попытку через {# [0:минут][1:минуту][2:минуты][3:минуты][4:минуты][11:минут][12:минут][13:минут][14:минут][*1:минуту][*2:минуты][*3:минуты][*4:минуты][*11:минут][*12:минут][*13:минут][*14:минут][?:минут]}.</word>
   <word key="login_err_locked_nounlock" js="0">Ваш аккаунт заблокирован. Повторите попытку позже.</word>
   <word key="sign_in_with_these" js="0">Или войдите с помощью этих сервисов</word>
-  <word key="login_err_remote_validate" js="0"><![CDATA[Вы должны подтвердить аккаунт на другом сайте, прежде чем сможете войти. Пожалуйста, <a href='%s' target='_blank'>подтвердите</a> свой аккаунт.]]></word>
+  <word key="login_err_remote_validate" js="0"><![CDATA[Вы должны подтвердить аккаунт на другом сайте, прежде чем сможете войти. Пожалуйста, <a href='%s' target='_blank' rel='noopener'>подтвердите</a> свой аккаунт.]]></word>
   <word key="login_connect_generic_error" js="0">Возникла ошибка при обработке вашего запроса входа на один из сайтов в нашей сети.</word>
   <word key="invalid_login_as_user_key" js="0">Ключ безопасности не совпадает</word>
   <word key="next_unread_not_found" js="0">Нет непрочитанных публикаций.</word>
@@ -1149,21 +1150,21 @@
   <word key="node_mass_move_delete_then" js="0">Переместить / Удалить</word>
   <word key="node_mass_move_anyone" js="0">Кто угодно</word>
   <word key="node_mass_move_any_time" js="0">За всё время</word>
-  <word key="node_mass_move_either" js="0">Либо</word>
+  <word key="node_mass_move_either" js="0">Оба варианта</word>
   <word key="node_move_comments" js="0">Количество комментариев меньше или равно</word>
   <word key="node_copy_children" js="0">Также скопировать дочерний</word>
   <word key="node_move_children" js="0">Переместить дочерние %s в</word>
   <word key="node_delete_children" js="0">Удалить дочерние</word>
   <word key="node_move_content" js="0">Переместить публикации в</word>
   <word key="node_delete_content" js="0">Удалить публикации</word>
-  <word key="node_move_author" js="0">Опубликовано</word>
-  <word key="node_move_date" js="0">Был опубликован до</word>
+  <word key="node_move_author" js="0">Автор</word>
+  <word key="node_move_date" js="0">Опубликована до (включительно)</word>
   <word key="node_move_last_post" js="0">Последний комментарий был до</word>
   <word key="node_move_state" js="0">Закрыто/Открыто</word>
-  <word key="node_move_pinned" js="0">Прикреплённый/Откреплённый</word>
-  <word key="node_move_pinned_not_pinned" js="0">Не прикреплённый</word>
-  <word key="node_move_featured" js="0">Рекомендованный/Не рекомендованный</word>
-  <word key="node_move_pinned_not_featured" js="0">Не рекомендованная</word>
+  <word key="node_move_pinned" js="0">Закреплено/Откреплено</word>
+  <word key="node_move_pinned_not_pinned" js="0">Не закреплено</word>
+  <word key="node_move_featured" js="0">Рекомендовано/Не рекомендовано</word>
+  <word key="node_move_pinned_not_featured" js="0">Не рекомендовано</word>
   <word key="node_move_delete" js="0">Вы не можете перемещать элементы в элемент, который удаляется.</word>
   <word key="node_move_invalid" js="0">Вы не можете переместить это сюда.</word>
   <word key="permissions_adjusted_node" js="0">Права доступа для %s изменены</word>
@@ -1213,7 +1214,7 @@
   <word key="form_node_disabled" js="0">Этот вариант не разрешён.</word>
   <word key="form_bad_value" js="0">Это значение не допускается.</word>
   <word key="form_multibyte_unicode" js="0">Введённое значение содержит символы, такие как эмодзи, которые не разрешены.</word>
-  <word key="form_multibyte_unicode_admin" js="0"><![CDATA[Введённое значение содержит символы, такие как эмодзи, которые не разрешены. Для включения поддержки таких символов <a href='{internal.admin.app=core&module=support&controller=utf8mb4&_new=1}' target='_blank'>включите utf8mb4</a>.]]></word>
+  <word key="form_multibyte_unicode_admin" js="0"><![CDATA[Введённое значение содержит символы, такие как эмодзи, которые не разрешены. Для включения поддержки таких символов <a href='{internal.admin.app=core&module=support&controller=utf8mb4&_new=1}' target='_blank' rel='noopener'>включите utf8mb4</a>.]]></word>
   <word key="form_bad_captcha" js="0">Вы не прошли проверку безопасности. Пожалуйста, повторите ещё раз.</word>
   <word key="unexpected_captcha" js="0">Настройки CAPTCHA являются недействительными.</word>
   <word key="unexpected_captcha_admin" js="0"><![CDATA[Настройки CAPTCHA являются недействительными. <a href='{internal.admin.app=core&module=moderation&controller=spam&tab=captcha}'>Настроить</a>]]></word>
@@ -1276,7 +1277,7 @@
   <word key="delta_upgrade_download_full" js="0">Или перейдите в область клиента Invision Community и скачайте полный пакет →</word>
   <word key="delta_upgrade_go_to_clientarea" js="0">Посетите область клиента Invision Community для скачивания</word>
   <word key="delta_upgrade_manual_footer" js="0">Как только вы загрузите файлы, нажмите на кнопку ниже для продолжения.</word>
-  <word key="delta_upgrade_mismatch_versions" js="0"><![CDATA[Вы используете версию %s приложения %s, однако у вас установлен Invision Community %s. Для загрузки обновления вам нужно использовать одинаковую версию всех приложений. Если вы больше не используете приложение %s, вы можете удалить его со страницы <a href='{internal.app=core&module=applications&controller=applications}'>Приложения</a>. Вы также можете скачать полный архив, посетив <a href='{external.client_area}' target='_blank'>область клиента</a>.]]></word>
+  <word key="delta_upgrade_mismatch_versions" js="0"><![CDATA[Вы используете версию %s приложения %s, однако у вас установлен Invision Community %s. Для загрузки обновления вам нужно использовать одинаковую версию всех приложений. Если вы больше не используете приложение %s, вы можете удалить его на странице <a href='{internal.app=core&module=applications&controller=applications}' rel='noopener'>Приложения</a>. Вы также можете скачать полный архив, посетив <a href='{external.client_area}' target='_blank' rel='noopener'>область клиента</a>.]]></word>
   <word key="upgrade_method" js="0">Метод обновления</word>
   <word key="r__upgrade" js="0">Обновление</word>
   <word key="r__upgrade_manage" js="0">Может обновлять Invision Community</word>
@@ -1489,7 +1490,7 @@
   <word key="app_hide_tab_desc" js="0">Пользователи с правами доступа всё равно смогут получить доступ к приложению, перейдя по адресу в браузере.</word>
   <word key="app_website" js="0">Сайт разработчика</word>
   <word key="app_update_check" js="0">Ссылка для проверки обновлений</word>
-  <word key="app_update_check_desc" js="0"><![CDATA[Данная ссылка будет периодически использоваться для проверки обновлений приложения. <a href='{external.devdocs-updateurl}' target='_blank'>Подробная информация</a>.]]></word>
+  <word key="app_update_check_desc" js="0"><![CDATA[Данная ссылка будет периодически вызываться для проверки обновлений приложения. <a href='{external.devdocs-updateurl}' target='_blank' rel='noopener'>Подробная информация</a>.]]></word>
   <word key="app_protected" js="0">Защищённое приложение</word>
   <word key="app_protected_desc" js="0">Защищённое приложение не может быть удалено или выключено</word>
   <word key="acplog__app_edited" js="0">Приложение &quot;%s&quot; изменено</word>
@@ -1527,7 +1528,7 @@
   <word key="app_dir_not_write" js="0">Директория applications/ должна быть доступна для записи, чтобы создать или установить приложение.</word>
   <word key="plugin_dir_not_write" js="0">Директория plugins/ должна быть доступна для записи, чтобы создать или установить приложение или плагин.</word>
   <word key="plugin_mkdir_perm" js="0">Ваша директория /plugins недоступна для записи - попытка создать директория плагина завершилась неудачей.</word>
-  <word key="plugin_fpc_perm" js="0"><![CDATA[Ваша директория /plugins/% недоступна для записи. Вам может потребоваться <a href='{external.file_folder_perms}' target='_blank'>изменить права на ваши файлы и директории</a>.]]></word>
+  <word key="plugin_fpc_perm" js="0"><![CDATA[Ваша директория /plugins/% недоступна для записи. Вам может потребоваться <a href='{external.file_folder_perms}' target='_blank' rel='noopener'>изменить права на ваши файлы и директории</a>.]]></word>
   <word key="app_no_phar" js="0">Для сборки вашего приложения вы должны убедиться, что расширение PHP Phar включено и значение phar.readonly в файле php.ini равно 1.</word>
   <word key="no_phar_extension" js="0"><![CDATA[Ваш сервер не имеет включенного расширения PHP Phar, которое необходимо для загрузки приложений. Свяжитесь с технической поддержкой вашего хостинг-провайдера или системным администратором для включения расширения PHP SSH2.<br><br>В качестве альтернативы вы можете загрузить приложение вручную, разархивировав tar-файл и загрузив директорию с приложением в директорию <em>/applications</em> на вашем сервере. После этого обновите эту страницу и установите появившееся приложение из списка. Директория, которую вы должны загрузить, содержит файл Application.php и несколько поддиректорий. Убедитесь, что вы не загружаете никаких других директорий, которые могут быть созданы программой распаковки архивов.]]></word>
   <word key="application_file" js="0">Приложение</word>
@@ -1593,7 +1594,7 @@
   <word key="ext__ProfileSteps" js="0">Добавить предлагаемые для заполнения профиля шаги</word>
   <word key="app_offline_to_groups" js="0">Это приложение выключено и доступно только для: %s.</word>
   <word key="app_offline_to_all" js="0">Это приложение выключено.</word>
-  <word key="app_force_disabled" js="0"><![CDATA[Это приложение устарело и не может быть включено, пока оно не будет обновлено. Посетите <a href='{external.client_area}' target='_blank'>клиентскую область</a> для скачивания полного пакета Invision Community.]]></word>
+  <word key="app_force_disabled" js="0"><![CDATA[Это приложение устарело и не может быть включено, пока оно не будет обновлено. Посетите <a href='{external.client_area}' target='_blank' rel='noopener'>клиентскую область</a> для скачивания полного пакета Invision Community.]]></word>
   <word key="login_handlers" js="0">Методы</word>
   <word key="login_handler_Internal" js="0">Стандартный</word>
   <word key="login_handler_External" js="0">База данных MySQL</word>
@@ -1616,7 +1617,7 @@
   <word key="login_external_table" js="0">Таблица</word>
   <word key="login_external_table_desc" js="0">Название таблицы БД, где хранятся данные пользователей.</word>
   <word key="login_external_username" js="0">Колонка с именами пользователей</word>
-  <word key="login_external_username_desc" js="0">Название колонки в таблице, указанной выше, в которой хранятся имена пользователей. Не требуется, если аутентификация происходит только при помощи email-адреса, т.к. в этом случае пользователю будет предложено ввести имя пользователя после входе.</word>
+  <word key="login_external_username_desc" js="0"><![CDATA[Название колонки в таблице, указанной выше, в которой хранятся имена пользователей. Не требуется, если аутентификация происходит только при помощи email-адреса, однако, в этом случае (или если имя пользователя <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilesettings&searchResult=form_username_characters}'>недопустимое</a>), пользователям будет предложено ввести имя пользователя после входа.]]></word>
   <word key="login_external_username_err" js="0">Если для входа используется имя пользователя, то это обязательное поле.</word>
   <word key="login_external_email" js="0">Колонка с email-адресами</word>
   <word key="login_external_email_desc" js="0">Название колонки в таблице, указанной выше, в которой хранятся email-адреса пользователей. Не требуется, если аутентификация происходит только при помощи имени пользователя, т.к. в этом случае пользователю будет предложено ввести email-адрес после входе.</word>
@@ -1631,10 +1632,10 @@
   <word key="login_live_client_desc" js="0">Нажмите кнопку Справка, чтобы узнать о том, где получить эту информацию.</word>
   <word key="login_live_secret" js="0">Пароль</word>
   <word key="login_real_name" js="0">Имя пользователя, используемое при создании аккаунта</word>
-  <word key="login_real_name_desc" js="0"><![CDATA[Применяется настройка <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}' target='_blank'>Разрешённые символы в именах пользователей</a>.]]></word>
+  <word key="login_real_name_desc" js="0"><![CDATA[Применяется настройка <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}' target='_blank' rel='noopener'>Разрешённые символы в именах пользователей</a>.]]></word>
   <word key="no_access_cp" js="0">У вас нет прав для доступа в Админцентр.</word>
-  <word key="cp_bad_ip" js="0"><![CDATA[Ваш IP-адрес не соответствует текущей сессии. <a href='{external.disable_ip_check}' target='_blank'>Помощь</a>]]></word>
-  <word key="ip_override_warn" js="0"><![CDATA[Этот параметр в данный момент переопределён, так как в вашем файле constants.php включена константа <code>BYPASS_ACP_IP_CHECK</code>. <a href='{external.disable_ip_check}' target='_blank'>Подробная информация</a>]]></word>
+  <word key="cp_bad_ip" js="0"><![CDATA[Ваш IP-адрес не соответствует текущей сессии. <a href='{external.disable_ip_check}' target='_blank' rel='noopener'>Помощь</a>]]></word>
+  <word key="ip_override_warn" js="0"><![CDATA[Этот параметр в данный момент переопределён, так как в вашем файле constants.php включена константа <code>BYPASS_ACP_IP_CHECK</code>. <a href='{external.disable_ip_check}' target='_blank' rel='noopener'>Подробная информация</a>]]></word>
   <word key="login_live" js="0">Войти через Microsoft</word>
   <word key="login_3p_bad" js="0">%s отклонил введённую информацию. Пожалуйста, проверьте данные, которые вы ввели и попробуйте ещё раз.</word>
   <word key="login_facebook_app" js="0">Идентификатор приложения</word>
@@ -1642,8 +1643,8 @@
   <word key="login_facebook_secret" js="0">Секретный ключ</word>
   <word key="login_facebook" js="0">Войти через Facebook</word>
   <word key="login_facebook_allow_status_import" js="0">Разрешить импорт статусов</word>
-  <word key="login_facebook_allow_status_import_desc" js="0"><![CDATA[Если включено, пользователи смогут импортировать свои статусы с Facebook в сообщество.<br>Для того, чтобы эта функция заработала, вы должны выполнить дополнительные действия с Facebook. <a href='{external.login_facebook}' target='_blank'>Подробнее</a>]]></word>
-  <word key="login_ldap_err" js="0"><![CDATA[Для использования LDAP ваш сервер должен иметь установленное <a href='{external.php_ldap}' target='_blank'>PHP расширение LDAP</a>.]]></word>
+  <word key="login_facebook_allow_status_import_desc" js="0"><![CDATA[Если включено, пользователи смогут импортировать свои статусы с Facebook в сообщество.<br>Для того, чтобы эта функция заработала, вы должны выполнить дополнительные действия с Facebook. <a href='{external.login_facebook}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="login_ldap_err" js="0"><![CDATA[Для использования LDAP ваш сервер должен иметь установленное <a href='{external.php_ldap}' target='_blank' rel='noopener'>PHP расширение LDAP</a>.]]></word>
   <word key="login_ldap_err_connect" js="0">Учетные данные LDAP являются недействительными. Пожалуйста, проверьте настройки LDAP или обратитесь к системному администратору.</word>
   <word key="ldap_server_protocol" js="0">Версия протокола</word>
   <word key="ldap_server_host" js="0">Имя хоста</word>
@@ -1670,7 +1671,7 @@
   <word key="login_twitter_name_screen" js="0">Псевдоним Twitter</word>
   <word key="login_twitter_name_screen_desc" js="0">например, vasya_pupkin</word>
   <word key="login_twitter_name_any" js="0">Предоставить выбор пользователю</word>
-  <word key="login_twitter_name_desc" js="0"><![CDATA[Если импортированное имя <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}'>запрещено</a>, то пользователю будет предложено указать своё имя после регистрации.]]></word>
+  <word key="login_twitter_name_desc" js="0"><![CDATA[Если импортированное имя <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}' rel='noopener'>запрещено</a>, то пользователю будет предложено указать своё имя после регистрации.]]></word>
   <word key="login_handler_Google" js="0">Google</word>
   <word key="login_google_id" js="0">Идентификатор</word>
   <word key="login_google_id_desc" js="0">Нажмите кнопку Справка, чтобы узнать о том, где получить эту информацию.</word>
@@ -1745,7 +1746,7 @@
   <word key="member_photo_upload" js="0">Загрузить фото</word>
   <word key="member_photo_url" js="0">Импортировать</word>
   <word key="member_photo_gravatar" js="0">Использовать Gravatar</word>
-  <word key="member_photo_gravatar_desc" js="0"><![CDATA[Сервис Gravatar позволяет использовать единую фотографию для всех профилей. Посетите <a href='{external.gravatar}' target='_blank'>Gravatar</a> для подробной информации.]]></word>
+  <word key="member_photo_gravatar_desc" js="0"><![CDATA[Сервис Gravatar позволяет использовать единую фотографию для всех профилей. Посетите <a href='{external.gravatar}' target='_blank' rel='noopener'>Gravatar</a> для подробной информации.]]></word>
   <word key="photo_gravatar_email" js="0">Email-адрес Gravatar</word>
   <word key="photo_gravatar_email_desc" js="0">Оставьте пустым для использования email-адреса пользователя</word>
   <word key="photo_gravatar_email_public" js="0">Email-адрес Gravatar</word>
@@ -1897,7 +1898,7 @@
   <word key="import_members_csv_file_err" js="0">Этот csv-файл недействителен.</word>
   <word key="import_column" js="0">Столбец из csv-файла</word>
   <word key="import_as" js="0">Импортировать как</word>
-  <word key="import_date_explain" js="0"><![CDATA[Если не указано иное, даты могут быть в <a href='{external.date_formats}' target='_blank'>большинстве форматов</a>.]]></word>
+  <word key="import_date_explain" js="0"><![CDATA[Если не указано иное, даты могут быть в <a href='{external.date_formats}' target='_blank' rel='noopener'>большинстве форматов</a>.]]></word>
   <word key="do_not_import" js="0">- Не импортировать -</word>
   <word key="import_basic_data" js="0">Основные данные</word>
   <word key="import_group" js="0">Группа</word>
@@ -1976,7 +1977,7 @@
   <word key="device_ips_from_member" js="0">Входы %s</word>
   <word key="device_ips_from_member_info" js="0"><![CDATA[В этой таблице отображаются все IP-адреса, которые использовал %s для входа на это сообщество с этого устройства. <a href="%s">Просмотреть все IP-адреса, использованные %1$s на этом сообществе →</a>]]></word>
   <word key="members_ips_info" js="0">В этой таблице отображаются все IP-адреса, которые использовал %s на сайте. IP-адрес представляет собой сеть, поэтому это нормально, когда один пользователь использует разные IP-адреса. Например, если пользователь входит на сайт из дома, а затем с работы, то в этой таблице вы увидите два разных IP-адреса. Также является нормальным изменение IP-адреса, поэтому даже если пользователь посещал сайт с одного места, вы можете видеть несколько IP-адресов.</word>
-  <word key="geolocation_enable_service" js="0"><![CDATA[<a href='{internal.app=core&module=applications&controller=enhancements}' target='_blank'>Включить GeoIP Service для определения примерного местоположения</a>]]></word>
+  <word key="geolocation_enable_service" js="0"><![CDATA[<a href='{internal.app=core&module=applications&controller=enhancements}' target='_blank' rel='noopener'>Включить GeoIP Service для определения примерного местоположения</a>]]></word>
   <word key="device_table_ip_address" js="0">IP-адрес</word>
   <word key="device_table_location" js="0">Примерное местоположение*</word>
   <word key="device_table_last_seen" js="0">Последний вход</word>
@@ -2368,7 +2369,7 @@
   <word key="staff_directory" js="0">Наша команда</word>
   <word key="staff_group_title" js="0">Заголовок</word>
   <word key="staff_group_template" js="0">Макет</word>
-  <word key="staff_group_template_desc" js="0"><![CDATA[<a href='{external.staffgrouptemplates}' target='_blank'>Создать макет</a>]]></word>
+  <word key="staff_group_template_desc" js="0"><![CDATA[<a href='{external.staffgrouptemplates}' target='_blank' rel='noopener'>Создать макет</a>]]></word>
   <word key="leader_id_member" js="0">Пользователь</word>
   <word key="leader_id_group" js="0">Группа</word>
   <word key="leader_use_custom_name" js="0">Имя пользователя</word>
@@ -2537,7 +2538,7 @@
   <word key="viglink_account_type" js="0">Аккаунт VigLink</word>
   <word key="viglink_account_type_create" js="0">Создать аккаунт</word>
   <word key="viglink_account_existing" js="0">Использовать существующий аккаунт</word>
-  <word key="viglink_api_key_desc" js="0"><![CDATA[Вы можете получить ключ API в <a href='{external.viglink_account}' target='_blank'>настройках аккаунта VigLink</a>.]]></word>
+  <word key="viglink_api_key_desc" js="0"><![CDATA[Вы можете получить ключ API в <a href='{external.viglink_account}' target='_blank' rel='noopener'>настройках аккаунта VigLink</a>.]]></word>
   <word key="viglink_error" js="0">Мы не может соединиться с VigLink. Пожалуйста, попробуйте позже или свяжитесь с технической поддержкой для дополнительной помощи.</word>
   <word key="unsubscribe_blurb" js="0">Хотите отказаться от получения этих писем?</word>
   <word key="unsubscribe_blurb_follow" js="0">Вы получили это письмо, потому что подписаны на %s &quot;%s&quot;.</word>
@@ -2736,7 +2737,7 @@
   <word key="seo_meta_add" js="0">Добавить метатеги</word>
   <word key="seo_meta_manage" js="0">Изменить метатеги</word>
   <word key="metatag_url" js="0">Адрес страницы</word>
-  <word key="metatag_url_desc" js="0"><![CDATA[Скопируйте и вставьте адрес страницы, на которой должны быть использованы данные метатеги. Вы можете использовать символ * в качестве шаблона. Так, например, "profile/*" покажет метатеги на всех страницах профилей. <br>[Не уверены? <a href='{internal.front.app=core&module=system&controller=metatags}' target='_blank'>Запустите визуальный редактор метатегов</a>]]]></word>
+  <word key="metatag_url_desc" js="0"><![CDATA[Скопируйте и вставьте адрес страницы, на которой должны быть использованы данные метатеги. Вы можете использовать символ * в качестве шаблона. Так, например, "profile/*" покажет метатеги на всех страницах профилей. <br>[Не уверены? <a href='{internal.front.app=core&module=system&controller=metatags}' target='_blank' rel='noopener'>Запустите визуальный редактор метатегов</a>]]]></word>
   <word key="metatag_title" js="0">Заголовок страницы</word>
   <word key="metatag_title_desc" js="0">Заголовки страниц генерируются автоматически, однако вы можете переопределить их при необходимости.</word>
   <word key="metatags_name" js="0">Название метатега</word>
@@ -2809,7 +2810,7 @@
   <word key="acplog__profile_settings" js="0">Изменены настройки профиля</word>
   <word key="photos" js="0">Фотографии</word>
   <word key="allow_gravatars" js="0">Включить Gravatar</word>
-  <word key="allow_gravatars_desc" js="0"><![CDATA[Сервис Gravatar позволяет пользователям использовать единую фотографию для всех профилей в Интернете. Посетите <a href='{external.gravatar}' target='_blank'>Gravatar</a> для подробной информации.]]></word>
+  <word key="allow_gravatars_desc" js="0"><![CDATA[Сервис Gravatar позволяет пользователям использовать единую фотографию по всему интернету. Посетите <a href='{external.gravatar}' target='_blank' rel='noopener'>Gravatar</a> для подробной информации.]]></word>
   <word key="letter_photos" js="0">Стандартные аватары</word>
   <word key="letterphoto_default" js="0">Использовать стандартный аватар стиля</word>
   <word key="letterphoto_default_desc" js="0"><![CDATA[Вы можете загрузить новый стандартный аватар в <a href='{internal.app=core&module=customization&controller=themes}'>управлении ресурсами</a> каждого стиля.]]></word>
@@ -2839,7 +2840,7 @@
   <word key="sig_num_images_exceeded" js="0">Слишком много изображений</word>
   <word key="sig_num_links_exceeded" js="0">Слишком много ссылок</word>
   <word key="sig_restrictions_exceeded" js="0">Ваша подпись не удовлетворяет правилам.</word>
-  <word key="sig_imagetoobig" js="0"><![CDATA[<a href='%s' target='_blank'>Это изображение</a>больше максимального разрешённого размера %s*%s.]]></word>
+  <word key="sig_imagetoobig" js="0"><![CDATA[<a href='%s' target='_blank' rel='noopener'>Это изображение</a>больше максимального разрешённого размера %s*%s.]]></word>
   <word key="sig_imagenotretrievable" js="0">Невозможно получить размер изображения %s для вставки в подпись. Пожалуйста, возьмите другое изображение.</word>
   <word key="profile_settings_birthdays" js="0">Дни рождения</word>
   <word key="profile_birthday_type" js="0">Включить дату рождения</word>
@@ -3486,7 +3487,7 @@
   <word key="license_check_again" js="0">Проверить снова</word>
   <word key="license_dismiss" js="0">Скрыть это сообщение</word>
   <word key="license_error_admin" js="0">Это сообщение отображается только администраторам.</word>
-  <word key="get_support_no_license" js="0"><![CDATA[Срок действия лицензии истёк. Для связи с технической поддержкой <a href='{external.client_area}' target='_blank'>продлите лицензию через клиентскую область</a>.]]></word>
+  <word key="get_support_no_license" js="0"><![CDATA[Срок действия лицензии истёк. Для связи с технической поддержкой <a href='{external.client_area}' target='_blank' rel='noopener'>продлите лицензию через клиентскую область</a>.]]></word>
   <word key="get_support_unsupported_prerelease" js="0">Вы используете предварительную версию продукта, которая не поддерживается.</word>
   <word key="get_support_unsupported_obsolete" js="0">Вы используете старую версию продукта, которая больше не поддерживается. Посетите область клиента для получения помощи по обновлению вашего сайта.</word>
   <word key="qanda_settings" js="0">Вопрос-ответ</word>
@@ -3517,7 +3518,7 @@
   <word key="acplog__log_delete" js="0">Удалёна запись %s из журнала %s</word>
   <word key="acplog__log_delete_uncategorised" js="0">Удалёна запись из журнала %s</word>
   <word key="log_view_file_logs" js="0">Просмотреть файлы журналов</word>
-  <word key="log_view_file_logs_info" js="0"><![CDATA[Если журналы должны записываться, но запись в базу не работает, будет производиться запись в файлы вместо этого. Например, это может возникнуть, если база данных полностью недоступна. Журналы в настоящий момент записываются в директорию <code>%s</code> <a class='ipsType_small' href='{external.log_directory}' target='_blank'>(изменить)</a>.]]></word>
+  <word key="log_view_file_logs_info" js="0"><![CDATA[Если журналы должны записываться, но запись в базу не работает, будет производиться запись в файлы вместо этого. Например, это может возникнуть, если база данных полностью недоступна. Журналы в настоящий момент записываются в директорию <code>%s</code> <a class='ipsType_small' href='{external.log_directory}' target='_blank' rel='noopener'>(изменить)</a>.]]></word>
   <word key="log_file_could_not_delete" js="0">Файл не может быть удалён</word>
   <word key="log_file" js="0">Файл</word>
   <word key="file_logs" js="0">Файл журнала</word>
@@ -3617,7 +3618,7 @@
   <word key="core_theme_set_is_default_error" js="0">Как минимум один стиль должен быть установлен по умолчанию. Включите этот параметр для нового стиля.</word>
   <word key="cannot_delete_default_theme" js="0">Вы не можете удалить стандартный стиль.</word>
   <word key="core_theme_set_editor_header" js="0">Редактор</word>
-  <word key="core_theme_set_editor_blurb" js="0"><![CDATA[Для настройки внешнего вида <a href='{internal.app=core&module=editor&controller=toolbar}'>редактора</a>, Invision Community использует стили CKEditor. Вы можете получить новые стили редактора на <a href='{external.ckeditor_themes}' target='_blank'>сайте CKEditor</a> (стиль должен быть совместим с версией %s). Каждый стиль может использовать разный стиль редактора.]]></word>
+  <word key="core_theme_set_editor_blurb" js="0"><![CDATA[Для настройки внешнего вида <a href='{internal.app=core&module=editor&controller=toolbar}'>редактора</a>, Invision Community использует стили CKEditor. Вы можете найти новые стили для редактора на <a href='{external.ckeditor_themes}' target='_blank' rel='noopener'>сайте CKEditor</a> (стиль должен быть совместим с версией %s). Для каждого стиля сайта вы можете использовать разные стили редактора.]]></word>
   <word key="core_theme_set_editor" js="0">Стиль редактора</word>
   <word key="core_theme_set_editor_existing_sel" js="0">Использовать уже установленный стиль</word>
   <word key="core_theme_set_editor_dev" js="0">При включённом режиме разработчика всегда используется стандартный стиль редактора.</word>
@@ -3681,7 +3682,7 @@
   <word key="acplogs__themetemplate_deleted" js="0">Удалён или восстановлен шаблон - (%s - %s - %s - %s)</word>
   <word key="theme_error_not_available_in_dev" js="0">Вы не можете выполнить это действие в режиме разработчика.</word>
   <word key="theme_update_check" js="0">Ссылка для проверки обновлений</word>
-  <word key="theme_update_check_desc" js="0"><![CDATA[Эта ссылка будет периодически проверяться на наличие обновлений стиля. <a href='{external.devdocs-updateurl}' target='_blank'>Подробнее</a>.]]></word>
+  <word key="theme_update_check_desc" js="0"><![CDATA[Эта ссылка будет периодически проверяться на наличие обновлений стиля. <a href='{external.devdocs-updateurl}' target='_blank' rel='noopener'>Подробнее</a>.]]></word>
   <word key="core_theme_set_permissions" js="0">Доступен для</word>
   <word key="core_theme_parent_id" js="0">Родитель</word>
   <word key="core_theme_parent_id_none" js="0">Ничего</word>
@@ -3739,7 +3740,7 @@
   <word key="theme_designers_mode_title" js="0">Режим дизайнера</word>
   <word key="theme_designers_mode" js="0">Включить режим дизайнера</word>
   <word key="theme_designers_mode_disable" js="0">Отключить режим дизайнера</word>
-  <word key="theme_designers_mode_explain" js="0"><![CDATA[<strong>Режим дизайнера является передовым способом изменения стилей.</strong><br>После включения вы сможете изменять HTML и CSS-код, а также изображения в директории <span class='ipsType_monospace'>%s/theme/</span>.<br>Каждый стиль имеет собственную директорию, имя которой совпадает с его ID.<br>Вы можете изменять файлы <span class='ipsType_monospace'>.phtml</span> и <span class='ipsType_monospace'>.css</span> напрямую и изменения будут применены сразу же после перезагрузки страницы.<br> После окончания изменения стиля вы должны отключить режим дизайнера для синхронизации изменений с базой.<br><strong>Этот режим не должен включаться на рабочем форуме в связи с дополнительным расходом ресурсов сервера.</strong><br><br>Подробную информацию вы найдёте в <a href="%s">документации</a>.]]></word>
+  <word key="theme_designers_mode_explain" js="0"><![CDATA[<strong>Режим дизайнера является передовым способом изменения стилей.</strong><br>После включения вы сможете изменять HTML и CSS-код, а также изображения в директории <span class='ipsType_monospace'>%s/theme/</span>.<br>Каждый стиль имеет собственную директорию, имя которой совпадает с его ID.<br>Вы можете изменять файлы <span class='ipsType_monospace'>.phtml</span> и <span class='ipsType_monospace'>.css</span> напрямую и изменения будут применены сразу же после перезагрузки страницы.<br> После окончания изменения стиля вы должны отключить режим дизайнера для синхронизации изменений с базой.<br><strong>Этот режим не должен включаться на рабочем форуме в связи с дополнительным расходом ресурсов сервера.</strong><br><br>Подробную информацию вы найдёте в <a href="%s" target='_blank' rel='noopener'>документации</a>.]]></word>
   <word key="theme_designers_mode_explain_turn_off" js="0">Включен режим дизайнера</word>
   <word key="theme_designers_mode_sync" js="0">Синхронизировать изменения</word>
   <word key="theme_designers_mode_sync_desc" js="0">Это синхронизирует ваши изменения, сделанные в HTML, CSS-файлах и изображениях с базой данных. Если вы не сделаете это, все ваши изменения будут потеряны при выключении режима дизайнера.</word>
@@ -3755,7 +3756,7 @@
   <word key="theme_designers_themes" js="0">Синхронизировать</word>
   <word key="theme_designers_themes_all" js="0">Все стили</word>
   <word key="theme_by" js="0">Автор стиля: %s.</word>
-  <word key="theme_by_with_url" js="0"><![CDATA[Автор стиля: <a href='%s' target='_blank'>%s</a>.]]></word>
+  <word key="theme_by_with_url" js="0"><![CDATA[Автор стиля: <a href='%s' target='_blank' rel='noopener'>%s</a>.]]></word>
   <word key="theme_version" js="0">Версия: %s.</word>
   <word key="search_templates" js="0">Поиск шаблонов...</word>
   <word key="theme_set_manage_resources" js="0">Управление ресурсами</word>
@@ -3832,7 +3833,7 @@
   <word key="theme_custom_setting_type" js="0">Тип</word>
   <word key="theme_custom_setting_type_other" js="0">Другой / Вручную</word>
   <word key="theme_custom_setting_manual_code" js="0">Код</word>
-  <word key="theme_custom_setting_manual_code_desc" js="0"><![CDATA[Введите PHP-код, который после выполнения вернёт объект поля (пример одного из классов \IPS\Helpers\Form\FormAbstract). Для получения информации об использовании Помощника Форм, посмотрите <a href='{external.devdocs-forms}' target='_blank'>документацию для разработчиков</a>.<br><strong>$row</strong> - это массив данных из таблицы core_theme_settings_fields, содержащий данные поля. <strong>$value</strong> - это текущее значение. <strong>$theme</strong> - это редактируемый стиль.]]></word>
+  <word key="theme_custom_setting_manual_code_desc" js="0"><![CDATA[Введите PHP-код, который после выполнения вернёт объект поля (пример одного из классов \IPS\Helpers\Form\FormAbstract). Для получения информации об использовании Помощника Форм, посмотрите <a href='{external.devdocs-forms}' target='_blank' rel='noopener'>документацию для разработчиков</a>.<br><strong>$row</strong> - это массив данных из таблицы core_theme_settings_fields, содержащий данные поля. <strong>$value</strong> - это текущее значение. <strong>$theme</strong> - это редактируемый стиль.]]></word>
   <word key="theme_custom_setting_manual_code_bad" js="0">Ваш код недействителен, или не возвращает объект поля.</word>
   <word key="theme_custom_setting_type_content" js="0">Настройки</word>
   <word key="theme_custom_setting_type_content_desc" js="0">Каждая настройка имеет ключ и значение. Значение выбирается человеком, а ключ задаётся программно.</word>
@@ -3992,7 +3993,7 @@
   <word key="enhancements__core_GoogleMaps" js="0">Google Maps</word>
   <word key="enhancements__core_GoogleMaps_desc" js="0">Google Maps предоставляет функционал автозаполнения полей адресов и карт для улучшенного отображения данных о местонахождении, например в инструментах IP-адресов.</word>
   <word key="google_maps_api_key" js="0">Ключ Google Maps API</word>
-  <word key="google_maps_api_key_desc" js="0"><![CDATA[<a href='{external.googlemapsapi}' target='_blank'>Получить API-ключ</a>]]></word>
+  <word key="google_maps_api_key_desc" js="0"><![CDATA[<a href='{external.googlemapsapi}' target='_blank' rel='noopener'>Получить API-ключ</a>]]></word>
   <word key="google_maps_api_key_req" js="0">Требуется указать API-ключ Google Maps.</word>
   <word key="google_maps_api_key_invalid" js="0">Этот API-ключ недействителен или для него не включены модули Google Maps JavaScript API и/или Google Static Maps API и/или Google Maps Geocoding API. Убедитесь, что вы сделали все действия, описанные в инструкции. Возможно, вам стоит подождать несколько минут перед включением API для получения корректного результата.</word>
   <word key="google_maps_api_error" js="0">Произошла ошибка при соединении с сервером лицензий Google API. Пожалуйста, попробуйте позднее или свяжитесь с технической поддержкой для получения помощи</word>
@@ -4008,16 +4009,16 @@
   <word key="ipbseo_ga_provider" js="0">Сервис аналитики</word>
   <word key="ipbseo_ga_enabled" js="0">Включить код отслеживания и аналитики</word>
   <word key="ipseo_ga" js="0">Код отслеживания и аналитики</word>
-  <word key="ipseo_ga_desc" js="0"><![CDATA[Вставьте JavaScript-код отслеживания, который предоставил вам ваш сервис аналитики. Он будет автоматически вставлен на все страницы вашего сообщества. Если вам нужна помощь в получении соответствующего кода отслеживания, пожалуйста, ознакомьтесь с <a href='{external.ga_support_help}' target='_blank'>этой статьёй поддержки</a>.]]></word>
+  <word key="ipseo_ga_desc" js="0"><![CDATA[Вставьте JavaScript-код отслеживания, который предоставил вам ваш сервис аналитики. Он будет автоматически вставлен на все страницы вашего сообщества. Если вам нужна помощь в получении соответствующего кода отслеживания, пожалуйста, ознакомьтесь с <a href='{external.ga_support_help}' target='_blank' rel='noopener'>этой статьёй поддержки</a>.]]></word>
   <word key="ipbseo_ga_paginatecode" js="0">Код для выполнения при пагинации</word>
   <word key="ipbseo_ga_paginatecode_desc" js="0">По умолчанию большинство сервисов аналитики не регистрируют просмотры страниц, когда они загружаются динамически на уже открытую страницу. Если вы хотите вручную подсчитывать такие просмотры, то вы можете сделать это, указав JavaScript-код в поле выше.</word>
-  <word key="analytics_description" js="0"><![CDATA[Инструменты аналитики позволяют вам отслеживать просмотры страниц и поведение пользователей на вашем сообществе. Существует большое количество сервисов аналитики; некоторые бесплатные, а некоторые могут взимать плату. Если у вас ещё нет каких-либо предпочтений к определённым сервисам, то <a href='{external.googleanalytics}' target='_blank'>Google Analytics</a> станет хорошим и бесплатным вариантом для большинства сообществ.]]></word>
+  <word key="analytics_description" js="0"><![CDATA[Инструменты аналитики позволяют вам отслеживать просмотры страниц и поведение пользователей на вашем сообществе. Существует большое количество сервисов аналитики; некоторые бесплатные, а некоторые могут взимать плату. Если у вас ещё нет каких-либо предпочтений к определённым сервисам, то <a href='{external.googleanalytics}' target='_blank' rel='noopener'>Google Analytics</a> станет хорошим и бесплатным вариантом для большинства сообществ.]]></word>
   <word key="analytics_provider_none" js="0">Нет</word>
   <word key="analytics_ga" js="0">Код отслеживания Google Analytics</word>
-  <word key="analytics_ga_desc" js="0"><![CDATA[Войдите в свой аккаунт <a href='{external.googleanalytics}' target='_blank'>Google Analytics</a> и найдите <em>Код отслеживания</em>. Скопируйте его и вставьте в блок выше для добавления кода отслеживания на ваше сообщество.<br>Мы автоматически зарегистрируем просмотр страницы с помощью Google Analytics при динамической загрузке контента на странице.]]></word>
+  <word key="analytics_ga_desc" js="0"><![CDATA[Войдите в свой аккаунт <a href='{external.googleanalytics}' target='_blank' rel='noopener'>Google Analytics</a> и перейдите к JavaScript-сниппету <em>Код отслеживания</em>. Скопируйте его и вставьте в блок выше для добавления кода отслеживания на ваше сообщество.<br>Мы автоматически зарегистрируем просмотр страницы в Google Analytics при динамической загрузке контента на страницу.]]></word>
   <word key="analytics_provider_ga" js="0">Google Analytics</word>
   <word key="analytics_piwik" js="0">Код отслеживания Piwik</word>
-  <word key="analytics_piwik_desc" js="0"><![CDATA[Войдите в свой аккаунт <a href='{external.piwik}' target='_blank'>Piwik</a>, нажмите на своё имя пользователя в верхнем-правом углу и нажмите <em>Настройки</em>. Далее нажмите <em>Код отслеживания</em> в левом меню и найдите <em>Код отслеживания</em>. Скопируйте его и вставьте в блок выше для добавления кода отслеживания на ваше сообщество.<br>Мы автоматически зарегистрируем просмотр страницы с помощью Piwik при динамической загрузке контента на странице.]]></word>
+  <word key="analytics_piwik_desc" js="0"><![CDATA[Войдите в свой аккаунт <a href='{external.piwik}' target='_blank' rel='noopener'>Piwik</a>, нажмите на своё имя пользователя в верхнем-правом углу и нажмите <em>Настройки</em>. Нажмите <em>Код отслеживания</em> в левом меню для отображения сниппета с кодом отслеживания. Скопируйте его и вставьте в блок выше для добавления кода отслеживания на ваше сообщество.<br>Мы автоматически зарегистрируем просмотр страницы в Piwik при динамической загрузке контента на страницу.]]></word>
   <word key="analytics_provider_piwik" js="0">Matomo</word>
   <word key="analytics_custom" js="0">Код отслеживания</word>
   <word key="analytics_custom_desc" js="0"><![CDATA[Если вы используете сервис аналитики, которого нет в списке выше, и он предоставляет JavaScript-код отслеживания для вставки его на страницы сайта, то вставьте его в блок выше. Мы добавим его на каждую страницу сообщество перед тегом &lt;/body>.]]></word>
@@ -4042,17 +4043,17 @@
   <word key="bot_antispam_type_desc" js="0">Компьютерные программы, известные как спам-боты, могут попытаться зарегистрироваться на вашем сайте, чтобы добавить нежелательные публикации. CAPTCHA разработана таким способом, чтобы живому человеку было легко её пройти, но роботы не смогли этого сделать. Выбранный тип CAPTCHA будет отображаться на форме регистрации на сайте и пользователю будет необходимо пройти её, чтобы зарегистрироваться.</word>
   <word key="captcha_type_none" js="0">Ничего</word>
   <word key="captcha_type_recaptcha2" js="0">reCAPTCHA v2</word>
-  <word key="captcha_type_recaptcha2_desc" js="0"><![CDATA[Пользователь должен отметить флажок "Я не робот". <a href='{external.captcha_recaptcha2}' target='_blank'>Подробнее</a>]]></word>
+  <word key="captcha_type_recaptcha2_desc" js="0"><![CDATA[Пользователь должен отметить флажок "Я не робот". <a href='{external.captcha_recaptcha2}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="captcha_type_keycaptcha" js="0">KeyCAPTCHA</word>
-  <word key="captcha_type_keycaptcha_desc" js="0"><![CDATA[Пользователь должен решить простую головоломку. <a href='{external.captcha_keycaptcha}' target='_blank'>Подробнее</a>]]></word>
+  <word key="captcha_type_keycaptcha_desc" js="0"><![CDATA[Пользователь должен решить простую головоломку. <a href='{external.captcha_keycaptcha}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="bot_antispam_type_warning" js="0">Отключение CAPTCHA сделает ваш сайт свободным для спама. Настоятельно рекомендуется включить CAPTCHA.</word>
   <word key="recaptcha2_public_key" js="0">Ключ сайта reCAPTCHA</word>
   <word key="recaptcha2_private_key" js="0">Секретный ключ reCAPTCHA</word>
-  <word key="recaptcha2_private_key_desc" js="0"><![CDATA[Вам не нужно изменять стандартный ключ, пока вы не захотите использовать <a href='{external.captcha_recaptcha2_keys}' target='_blank'>свой собственный аккаунт reCAPTCHA</a>, который позволяет вам изменять настройки безопасности.]]></word>
+  <word key="recaptcha2_private_key_desc" js="0"><![CDATA[Вам не нужно изменять стандартный ключ, пока вы не захотите использовать <a href='{external.captcha_recaptcha2_keys}' target='_blank' rel='noopener'>свой собственный аккаунт reCAPTCHA</a>, который позволяет вам изменять настройки безопасности.]]></word>
   <word key="recaptcha2_theme" js="0">Стиль reCAPTCHA</word>
   <word key="recaptcha_theme" js="0">Стиль reCAPTCHA</word>
   <word key="keycaptcha_privatekey" js="0">Ключ keyCAPTCHA</word>
-  <word key="keycaptcha_privatekey_desc" js="0"><![CDATA[Для использования keyCAPTCHA вы должны <a href='{external.captcha_keykeptcha_signup}' target='_blank'>создать аккаунт</a>  и указать ваш ключ.]]></word>
+  <word key="keycaptcha_privatekey_desc" js="0"><![CDATA[Для использования keyCAPTCHA вы должны <a href='{external.captcha_keykeptcha_signup}' target='_blank' rel='noopener'>создать аккаунт</a>  и указать ваш ключ.]]></word>
   <word key="guest_captcha" js="0">Гости должны подтвердить CAPTCHA перед публикацией?</word>
   <word key="guest_captcha_desc" js="0">Если вы разрешили гостям публикацию, рекомендуется включить эту настройку.</word>
   <word key="guest_captcha_search_target" js="0">Сообщение гостя</word>
@@ -4124,7 +4125,7 @@
   <word key="allowed_reg_email" js="0">Разрешённые для регистрации email-домены</word>
   <word key="allowed_reg_email_desc" js="0"><![CDATA[Пользователи не смогут зарегистрироваться в сообществе используя email-адрес с доменом, не содержащимся в списке разрешённых доменов. Если оставить поле пустым, то будут разрешены все не <a href='{internal.app=core&module=membersettings&controller=ban}' target='_blank'>запрещенные</a> email-адреса. Наилучшим образом работает вместе с подтверждением аккаунта по электронной почте.]]></word>
   <word key="new_reg_notify" js="0">Уведомлять о новой регистрации?</word>
-  <word key="new_reg_notify_desc" js="0"><![CDATA[Отправляет письмо на <a href='{internal.app=core&module=settings&controller=email&searchResult=email_in}' target='_blank'>email-адрес для входящих писем</a> при регистрации нового пользователя.<br>Если включено утверждение пользователей администратором, будет отправлено email-письмо о необходимости вашего утверждения. В противном случае, будет отправлено email-письмо о завершении регистрации и готовности аккаунта к использованию.]]></word>
+  <word key="new_reg_notify_desc" js="0"><![CDATA[Отправляет письмо на <a href='{internal.app=core&module=settings&controller=email&searchResult=email_in}' target='_blank' rel='noopener'>email-адрес для входящих писем</a> при регистрации нового пользователя.<br>Если включено утверждение пользователей администратором, будет отправлено email-письмо о необходимости вашего утверждения. В противном случае, будет отправлено email-письмо о завершении регистрации и готовности аккаунта к использованию.]]></word>
   <word key="reg_auth_type" js="0">Метод подтверждения новых аккаунтов</word>
   <word key="reg_auth_type_user" js="0">По электронной почте (рекомендуется)</word>
   <word key="reg_auth_type_user_desc" js="0">Пользователю будет отправлено письмо, содержащее специальную ссылку, по которой необходимо перейти для подтверждения его аккаунта.</word>
@@ -4148,7 +4149,7 @@
   <word key="modperms__core_Warnings" js="0">Предупреждения</word>
   <word key="modperms__core_Members" js="0">Управление пользователями</word>
   <word key="can_flag_as_spammer" js="0">Может использовать пометку &quot;Спамер&quot;</word>
-  <word key="can_flag_as_spammer_desc" js="0"><![CDATA[Инструмент пометки спамером позволяет вашим модераторам быстро принимать меры по отношению к аккаунтам, распространяющим спам. <a href='{internal.app=core&module=moderation&controller=spam&tab=flagging}' target='_blank'>(Настроить)</a>]]></word>
+  <word key="can_flag_as_spammer_desc" js="0"><![CDATA[Инструмент пометки спамером позволяет вашим модераторам быстро принимать меры по отношению к аккаунтам, распространяющим спам. <a href='{internal.app=core&module=moderation&controller=spam&tab=flagging}' target='_blank' rel='noopener'>(Настроить)</a>]]></word>
   <word key="moderators_allperm" js="0">Дать все права</word>
   <word key="moderators_allperm_warning" js="0">Этот модератор сейчас имеет полный доступ и такой же доступ будет предоставлен ему при установке новых приложений. Если вы измените настройки ниже, то вам понадобится настроить разрешения для новых приложений.</word>
   <word key="mod_see_warn" js="0">Может видеть предупреждения</word>
@@ -4225,14 +4226,12 @@
   <word key="editor_plugin_requirements" js="0">Вы не можете удалить этот плагин, т.к. он необходим другому плагину (%s)</word>
   <word key="editor_new_plugin" js="0">Добавить кнопку</word>
   <word key="editor_plugin_zip" js="0">Архив .zip плагина</word>
-  <word key="editor_plugin_zip_desc" js="0"><![CDATA[Вы можете получить новые плагины с <a href='{external.ckeditor_plugins}' target='_blank'>сайта CKEditor</a> (плагин должен быть совместим с версией %s).]]></word>
+  <word key="editor_plugin_zip_desc" js="0"><![CDATA[Вы можете найти новые плагины на <a href='{external.ckeditor_plugins}' target='_blank' rel='noopener'>сайте CKEditor</a> (плагин должен быть совместим с версией %s).]]></word>
   <word key="editor_plugin_already_installed" js="0">Этот плагин уже установлен.</word>
   <word key="editor_plugin_nowrite" js="0"><![CDATA[Вы должны сделать директорию <em>/applications/core/interface/ckeditor/ckeditor/plugins</em> доступной для записи, прежде чем сможете добавить плагины.]]></word>
   <word key="editor_skin_nowrite" js="0"><![CDATA[Вы должны сделать директорию <em>/applications/core/interface/ckeditor/ckeditor/skins</em> доступной для записи, прежде чем сможете добавить стиль.]]></word>
   <word key="editor_plugin_folder" js="0">Плагин для установки</word>
-  <word key="editor_plugin_folder_desc" js="0"><![CDATA[Вы можете получить новые плагины с <a href='{external.ckeditor_plugins}' target='_blank'>сайта CKEditor</a> (плагин должен быть совместим с версией %s).<br>Чтобы установить новый плагин, загрузите директорию плагина в директорию <em>/applications/core/interface/ckeditor/ckeditor/plugins</em>, а затем обновите эту страницу и выберите плагин из списка.
-
-]]></word>
+  <word key="editor_plugin_folder_desc" js="0"><![CDATA[Вы можете найти новые плагины на <a href='{external.ckeditor_plugins}' target='_blank' rel='noopener'>сайте CKEditor</a> (плагин должен быть совместим с версией %s).<br>Чтобы установить новый плагин, загрузите директорию плагина в директорию <em>/applications/core/interface/ckeditor/ckeditor/plugins</em>, а затем обновите эту страницу и выберите плагин из списка.]]></word>
   <word key="editor_permission_groups" js="0">Группы, которые могут видеть эту кнопку</word>
   <word key="editor_permission_areas" js="0">Эта кнопка отображается в</word>
   <word key="editor_button_ckeditor" js="0">Плагин CKEditor</word>
@@ -4255,7 +4254,7 @@
   <word key="parseError_URL_NOT_ALLOWED" js="0">Данный URL-адрес не разрешён: %s</word>
   <word key="editor_bad_plugin" js="0">Плагин недействителен. Убедитесь, что вы загрузили именно тот плагин, который вы скачали.</word>
   <word key="editor_bad_plugin_directory" js="0">Плагин недействителен. Убедитесь, что вы корректно распаковали его и загрузили в папку, которая не содержит вложенных папок. Директория с плагином должна содержать файл plugin.js.</word>
-  <word key="editor_missing_requirements" js="0"><![CDATA[Мы обнаружили, что требуются следующие неустановленные плагины: %s. Вы можете получить эти плагины с <a href='{external.ckeditor_plugins}' target='_blank'>сайта CKEditor</a> и установить их.<br><br>%s]]></word>
+  <word key="editor_missing_requirements" js="0"><![CDATA[Мы обнаружили, что требуются следующие неустановленные плагины: %s. Вы можете найти эти плагины на <a href='{external.ckeditor_plugins}' target='_blank' rel='noopener'>сайте CKEditor</a> и установить их.<br><br>%s]]></word>
   <word key="editor_revert" js="0">Восстановить настройки</word>
   <word key="editor_revert_confirm" js="0">Это действие удалит все пользовательские плагины и вернёт редактор в состояние по умолчанию.</word>
   <word key="editor_size_large" js="0">Большой</word>
@@ -4286,7 +4285,7 @@
   <word key="imagesuite_imagemagick" js="0">ImageMagick</word>
   <word key="imagesuite_gd" js="0">GD</word>
   <word key="imagesuite_gd_desc" js="0">Широко поддерживаемая библиотека для управления изображениями.</word>
-  <word key="imagesuite_imagemagick_desc" js="0"><![CDATA[ImageMagick это продвинутая программа для работы с изображениями, доступная на некоторых хостингах. Она обеспечивает определённые преимущества по сравнению с библиотекой GD, такие как более эффективная обработка очень больших изображений и способность сохранять анимацию в малоформатные анимированные GIF-файлы. Эта опция требует установленного на сервере <a href='{external.php_imagick}' target='_blank'>расширения PHP ImageMagick</a>.]]></word>
+  <word key="imagesuite_imagemagick_desc" js="0"><![CDATA[ImageMagick это продвинутая программа для работы с изображениями, доступная на некоторых хостингах. Она обеспечивает определённые преимущества по сравнению с библиотекой GD, такие как более эффективная обработка очень больших изображений и способность сохранять анимацию в малоформатные анимированные GIF-файлы. Эта опция требует установленного на сервере <a href='{external.php_imagick}' target='_blank' rel='noopener'>расширения PHP ImageMagick</a>.]]></word>
   <word key="image_jpg_quality" js="0">Качество JPG</word>
   <word key="image_jpg_quality_desc" js="0">Это значение влияет на качество JPG-изображений, создаваемых Invision Community. Значение 0 обеспечивает наихудшее качество, но наименьший вес файлов, в то время как значение 100 обеспечивает наилучшее качество, но наибольший вес файлов.</word>
   <word key="image_png_quality_gd" js="0">Сжатие PNG</word>
@@ -4319,15 +4318,15 @@
   <word key="ftp_bypass_validation" js="0">Отметьте этот флажок для сохранения этих данных без проверки</word>
   <word key="connect" js="0">Соединиться</word>
   <word key="filehandler__Amazon" js="0">Amazon S3</word>
-  <word key="filehandler__Amazon_desc" js="0"><![CDATA[Удалённое хранение файлов рекомендуется для крупных сайтов. Услуга платная. <a href='{external.amazons3}' target='_blank'>Подробнее</a>.]]></word>
+  <word key="filehandler__Amazon_desc" js="0"><![CDATA[Удалённое хранение файлов рекомендуется для крупных сайтов. Услуга платная. <a href='{external.amazons3}' target='_blank' rel='noopener'>Подробнее</a>.]]></word>
   <word key="filehandler__Amazon_bucket" js="0">Название корзины</word>
-  <word key="filehandler__Amazon_bucket_desc" js="0"><![CDATA[Вы можете создать корзину в своей <a href='{external.amazons3_buckets}' target='_blank'>Консоли управления S3</a>]]></word>
+  <word key="filehandler__Amazon_bucket_desc" js="0"><![CDATA[Вы можете создать корзину в своей <a href='{external.amazons3_buckets}' target='_blank' rel='noopener'>Консоли управления S3</a>]]></word>
   <word key="filehandler__Amazon_endpoint" js="0">Конечная точка</word>
-  <word key="filehandler__Amazon_endpoint_desc" js="0"><![CDATA[Введите <a href='{external.aws_regions}' target='_blank'>корректную конечную точку к региону вашей корзины</a>.]]></word>
+  <word key="filehandler__Amazon_endpoint_desc" js="0"><![CDATA[Введите <a href='{external.aws_regions}' target='_blank' rel='noopener'>корректную конечную точку к региону вашей корзины</a>.]]></word>
   <word key="filehandler__Amazon_bucket_path" js="0">Путь к корзине</word>
   <word key="filehandler__Amazon_bucket_path_desc" js="0">Вы можете указать особый путь в корзине для загрузки файлов. Если вы используете корзину для нескольких целей, то можете оставить это поле пустым.</word>
   <word key="filehandler__Amazon_access_key" js="0">Ключ доступа</word>
-  <word key="filehandler__Amazon_access_key_desc" js="0"><![CDATA[Вы можете создать и просмотреть ключи доступа и секретные ключи в своей <a href='{external.amazons3_keys}' target='_blank'>Консоли управления IAM</a>]]></word>
+  <word key="filehandler__Amazon_access_key_desc" js="0"><![CDATA[Вы можете создать и просмотреть ключи доступа и секретные ключи в своей <a href='{external.amazons3_keys}' target='_blank' rel='noopener'>Консоли управления IAM</a>]]></word>
   <word key="filehandler__Amazon_secret_key" js="0">Секретный ключ</word>
   <word key="filehandler__Amazon_toggle" js="0">Использовать пользовательскую ссылку</word>
   <word key="filehandler__Amazon_toggle_desc" js="0">Текущая ссылка для загрузок рассчитана автоматически. Активируйте для ввода другой ссылки. Вам необходимо сделать это, если вы используете CDN.</word>
@@ -4586,7 +4585,7 @@
   <word key="ad_not_found" js="0">Мы не может найти страницу, на которую ссылается рекламное объявление</word>
   <word key="ad_not_found_admin" js="0">По рекламе был произведён клик, однако мы не смогли найти запись о ней в базе данных или отсутствует ссылка, по которой пользователь должен перейти после клика.</word>
   <word key="_ad_custom_" js="0">Укажите собственные расположения</word>
-  <word key="_ad_custom__desc" js="0"><![CDATA[<a href='{external.ad-custom-location}' target='_blank'>Как использовать собственные расположения</a>.]]></word>
+  <word key="_ad_custom__desc" js="0"><![CDATA[<a href='{external.ad-custom-location}' target='_blank' rel='noopener'>Как использовать собственные расположения</a>.]]></word>
   <word key="ad_location_custom" js="0">Ключи собственного расположения</word>
   <word key="ad_promo_title" js="0">Получите улучшенные возможности рекламы</word>
   <word key="ad_promo_msg" js="0">Установите Коммерцию в Invision Community и получите улучшенные возможности управления рекламой, в том числе возможность продажи рекламных мест непосредственно с сайта.</word>
@@ -4600,7 +4599,6 @@
   <word key="google_adsense_ajax_header" js="0">Страницы с AJAX</word>
   <word key="google_adsense_ajax_intro" js="0">AJAX является технологией, позволяющей динамически загружать содержимое страницы без перезагрузки страницы. Invision Community использует её в некоторых областях сайта. Например, при просмотре тем с более одной страницей, вы можете заметить, что при перемещении по страницам загружается только часть страницы и страница не перезагружается полностью.</word>
   <word key="google_adsense_ajax_blurb" js="0">Google требует немедленное отображение рекламы после загрузки страницы и запрещает их загрузку через AJAX. Это означает, что если вы разместите рекламу там, где доступна загрузка через AJAX, то вам необходимо будет отключить эту возможность в Invision Community. Чтобы сделать это:</word>
-  <word key="google_adsense_ajax_ins_1" js="0"><![CDATA[Перейдите в раздел Админцентра <a href='{internal.app=core&module=customization&controller=themes}' target='_blank'>Стили</a>.]]></word>
   <word key="google_adsense_ajax_ins_2" js="0">Для каждого установленного стиля нажмите кнопку Изменить.</word>
   <word key="google_adsense_ajax_ins_3" js="0">Перейдите во вкладку Другие.</word>
   <word key="google_adsense_ajax_ins_4" js="0">Отключите функцию &quot;AJAX-навигация по страницам&quot; и сохраните стиль.</word>
@@ -4866,7 +4864,7 @@
   <word key="task_method_web" js="0">Использовать веб-сервис</word>
   <word key="task_method_normal_desc" js="0">Система будет автоматически запускать задачи, когда пользователи просматривают сайт. Подходит для большинства сайтов, но если пользователи вашего сайта не обеспечивают достаточный трафик, то задачи будут откладываться. Задачи будут выполняться только при посещении пользователями, не гостями. Если задачи будут отложены, отобразится специальное сообщение на Главной панели Админцентра.</word>
   <word key="task_method_cron_desc" js="0">Если у вас есть возможность настроить Cron на вашем сервере, он может выполнять эти задачи самостоятельно. Это более надёжно и рекомендуется использовать этот метод, если он возможен на вашем сервере.</word>
-  <word key="task_method_web_desc" js="0"><![CDATA[Вы можете использовать веб-сервис, такой как <a href='{external.easycron}' target='_blank'>EasyCron</a>, для удалённого запуска этих задач. Подходит для сайтов с недостаточным трафиком пользователей и при невозможности использования Cron.]]></word>
+  <word key="task_method_web_desc" js="0"><![CDATA[Вы можете использовать веб-сервис, такой как <a href='{external.easycron}' target='_blank' rel='noopener'>EasyCron</a>, для удалённого запуска этих задач. Подходит для сайтов с недостаточным трафиком пользователей и при невозможности использования Cron.]]></word>
   <word key="task_method_cron_warning" js="0"><![CDATA[Если эта настройка включена, вы <strong>ДОЛЖНЫ</strong> убедиться в том, что cron настроен корректно. Если эта настройка включена, но cron не настроен, это может вызвать повреждение вашего сайта.<br><br>Вы должны настроить cron на запуск этой команды каждую минуту:<br><code>%s</code>]]></word>
   <word key="task_method_web_warning" js="0"><![CDATA[Если эта настройка включена, вы <strong>ДОЛЖНЫ</strong> убедиться в том, что веб-сервис обращается к указанной ссылке. Если эта настройка включена, но веб-сервис не настроен, это может вызвать повреждение вашего сайта.<br><br>Вы должны настроить веб-сервис на обращение по указанной ссылке каждую минуту (или как можно чаще):<br><code>%s</code>]]></word>
   <word key="task_use_cron_executable" js="0">Для того чтобы включить эту настройку, необходимо сделать файл %s исполняемым (т.е. chmod 0777).</word>
@@ -6090,7 +6088,7 @@
   <word key="plugin_details" js="0">Описание плагина</word>
   <word key="plugin_name" js="0">Название</word>
   <word key="plugin_update_check" js="0">Ссылка для проверки обновлений</word>
-  <word key="plugin_update_check_desc" js="0"><![CDATA[Данный адрес будет периодически запрашиваться для проверки наличия обновлений плагина. <a href='{external.devdocs-updateurl}' target='_blank'>Подробная информация</a>.]]></word>
+  <word key="plugin_update_check_desc" js="0"><![CDATA[Данный адрес будет периодически запрашиваться для проверки наличия обновлений плагина. <a href='{external.devdocs-updateurl}' target='_blank' rel='noopener'>Подробная информация</a>.]]></word>
   <word key="plugin_author_details" js="0">О разработчике</word>
   <word key="plugin_author" js="0">Название</word>
   <word key="plugin_website" js="0">Веб-сайт</word>
@@ -6347,7 +6345,7 @@
   <word key="chart_no_results" js="0">Нет результатов для отображения.</word>
   <word key="dynamic_chart_timezone_info" js="0">Результаты отображаются в часовом поясе сервера.</word>
   <word key="dynamic_chart_timezone_title" js="0">Информация о часовом поясе</word>
-  <word key="dynamic_chart_timezone_explain" js="0"><![CDATA[Ваш MySQL-сервер не имеет поддержки часовых поясов, что необходимо Invision Community для отображения результатов в некоторых местах в вашем часовом поясе. Из-за этого здесь отображены результаты в часовом поясе <strong>%s</strong>, который использует ваш MySQL-сервер. Для просмотра результатов в своём часовом поясе свяжитесь с хостинг-провайдером или системным администратором для <a href='{external.mysql_timezones}' target='_blank'>заполнения таблицы часовых поясов</a>.]]></word>
+  <word key="dynamic_chart_timezone_explain" js="0"><![CDATA[Ваш MySQL-сервер не имеет поддержки часовых поясов, что необходимо в некоторых областях Invision Community для отображения результатов в вашем часовом поясе. Из-за этого здесь отображены результаты в часовом поясе <strong>%s</strong>, который использует ваш MySQL-сервер. Для просмотра результатов в своём часовом поясе свяжитесь с хостинг-провайдером или системным администратором для <a href='{external.mysql_timezones}' target='_blank'>заполнения таблицы часовых поясов</a>.]]></word>
   <word key="minimum_chart_date" js="0">Дата начала диаграммы слишком раннее. Самая ранняя доступная дата - %s.</word>
   <word key="stats_include_hidden_content" js="0">Счётчики, отображаемые здесь, включают в себя как скрытые, так и видимые публикации.</word>
   <word key="ignored_users" js="0">Игнорируемые пользователи</word>
@@ -6753,7 +6751,7 @@
   <word key="md5_check_fail" js="0">Некоторые файлы исходного кода были изменены</word>
   <word key="md5_fail_help_1" js="0">Некоторые файлы исходного кода Invision Community были изменены.</word>
   <word key="md5_fail_help_2" js="0">Вам следует скачать не изменённую копию этих файлов и загрузить их на сервер. Как только это будет сделано, проверьте, сохранится ли проблема.</word>
-  <word key="md5_build_fail" js="0"><![CDATA[Этот запрос не может быть обработан. <a href='{external.client_area}' target='_blank'>Перейдите в клиентскую область для скачивания полного пакета</a>, и загрузите весь пакет на ваш сервер, перезаписав существующие файлы (это не перезапишет ваши данные). Как только загрузка завершится, закройте это окно и заново запустите диагностическую проверку.]]></word>
+  <word key="md5_build_fail" js="0"><![CDATA[Этот запрос не может быть обработан. <a href='{external.client_area}' target='_blank' rel='noopener'>Перейдите в клиентскую область для скачивания полного пакета</a>, и загрузите весь пакет на ваш сервер, перезаписав существующие файлы (это не перезапишет ваши данные). Как только загрузка завершится, закройте это окно и заново запустите диагностическую проверку.]]></word>
   <word key="md5_fail_download" js="0">Скачать оригинальные файлы</word>
   <word key="md5_fail_download_1" js="0">Нажмите на кнопку ниже, чтобы скачать ZIP-архив с оригинальными версиями файлов исходного кода, которые были изменены. Загрузите содержимое архива на сервер с перезаписью существующих файлов (это действие не затронет ваши данные).</word>
   <word key="md5_fail_download_2" js="0">После загрузки, нажмите на кнопку ниже, чтобы вернуться к диагностике.</word>
@@ -6823,7 +6821,7 @@
   <word key="sql_toolbox_done" js="0">Запрос успешно выполнен.</word>
   <word key="sql_toolbox_not_allowed" js="0">Этот вид запроса не может быть выполнен из панели инструментов SQL.</word>
   <word key="continue_anyway" js="0">Продолжить в любом случае</word>
-  <word key="bad_datastore_configuration" js="0"><![CDATA[Вы настроили запись файлов в директорию %s, но она недоступна для записи, что может вызвать проблемы. Сделайте её доступной для записи или <a href='{internal.app=core&module=settings&controller=advanced&tab=datastore}' target='_blank'>измените ваши настройки</a> и после проверьте, решена ли эта проблема.]]></word>
+  <word key="bad_datastore_configuration" js="0"><![CDATA[Вы настроили запись файлов в директорию %s, но она недоступна для записи, что может вызвать проблемы. Сделайте её доступной для записи или <a href='{internal.app=core&module=settings&controller=advanced&tab=datastore}' target='_blank' rel='noopener'>измените ваши настройки</a> и после проверьте, решена ли эта проблема.]]></word>
   <word key="upgrade_now" js="0">Обновить сейчас</word>
   <word key="support_search" js="0">Страницы Админцентра</word>
   <word key="support_guides" js="0">Документация</word>
@@ -7093,7 +7091,7 @@
   <word key="contact_access" js="0">Отображать форму обратной связи для</word>
   <word key="contact_type" js="0">Режим работы обратной связи</word>
   <word key="contact_internal" js="0">Отправить email-письмо на адрес входящей почты</word>
-  <word key="contact_internal_desc" js="0"><![CDATA[Email-письмо будет отправлено на адрес входящей почты, который указан в <a href='{internal.app=core&module=settings&controller=email}' target='_blank'>настройках email</a>]]></word>
+  <word key="contact_internal_desc" js="0"><![CDATA[Email-письмо будет отправлено на адрес входящей почты, который указан в <a href='{internal.app=core&module=settings&controller=email}' target='_blank' rel='noopener'>настройках email</a>]]></word>
   <word key="contact_emails" js="0">Отправить email-письмо указанным адресатам</word>
   <word key="contact_redirect" js="0">Перенаправить по ссылке</word>
   <word key="ext__ContactUs" js="0">Добавить дополнительное поле в форму обратной связи и предоставить контроль над тем, куда должно быть направлено сообщение из отправленной формы</word>
@@ -7121,11 +7119,11 @@
   <word key="mfa_lockout_behaviour_lock" js="0">Пользователь должен подождать некоторое время и после этого попробовать ещё раз</word>
   <word key="mfa_lockout_behaviour_email" js="0">Отправить email-письмо со ссылкой на сброс двухфакторной аутентификации</word>
   <word key="mfa_lockout_behaviour_contact" js="0">Администратор должен сбросить её вручную</word>
-  <word key="mfa_lockout_behaviour_contact_desc" js="0"><![CDATA[Пользователь будет направлен на <a href='{internal.app=core&module=settings&controller=contactus}' target='_blank'>форму обратной связи</a>.]]></word>
+  <word key="mfa_lockout_behaviour_contact_desc" js="0"><![CDATA[Пользователь будет направлен на <a href='{internal.app=core&module=settings&controller=contactus}' target='_blank' rel='noopener'>форму обратной связи</a>.]]></word>
   <word key="mfa_forgot_behaviour" js="0">Варианты восстановления, если пользователь не может аутентифицироваться.</word>
   <word key="mfa_forgot_behaviour_email" js="0">Отправить email-письмо со ссылкой на сброс двухфакторной аутентификации</word>
   <word key="mfa_forgot_behaviour_contact" js="0">Связаться с администратором для ручного сброса</word>
-  <word key="mfa_forgot_behaviour_contact_desc" js="0"><![CDATA[Пользователь будет направлен на <a href='{internal.app=core&module=settings&controller=contactus}' target='_blank'>форму обратной связи</a>.]]></word>
+  <word key="mfa_forgot_behaviour_contact_desc" js="0"><![CDATA[Пользователь будет направлен на <a href='{internal.app=core&module=settings&controller=contactus}' target='_blank' rel='noopener'>форму обратной связи</a>.]]></word>
   <word key="mfa_lockout_time" js="0">Время ожидания пользователя</word>
   <word key="mfa_forgot_behaviour_desc" js="0">Это может случиться, например, если пользователь использует Google Authenticator и теряет свой смартфон, или он забыл ответ на свои контрольные вопросы.</word>
   <word key="mfa_header_setup" js="0">Настроить</word>
@@ -7250,9 +7248,9 @@
   <word key="authy_submit_call" js="0">Позвонить мне</word>
   <word key="authy_submit_authy" js="0">Проверить номер телефона</word>
   <word key="mfa_authy_title" js="0">Authy</word>
-  <word key="mfa_authy_desc" js="0"><![CDATA[Платная система, которая будет отправлять или push-уведомления в приложение Authy на смартфоне пользователя, или код с помощью текстового сообщение, телефонного звонка или приложения, который ему нужно будет ввести в специальное поле. <a href='{external.authy}' target='_blank'>Подробнее</a>]]></word>
+  <word key="mfa_authy_desc" js="0"><![CDATA[Платная система, которая будет отправлять или push-уведомления в приложение Authy на смартфоне пользователя, или код с помощью текстового сообщение, телефонного звонка или приложения, который ему нужно будет ввести в специальное поле. <a href='{external.authy}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="authy_key" js="0">Ключ API</word>
-  <word key="authy_key_suffix" js="0"><![CDATA[<a href='{external.authy_api_key}' target='_blank'>Получить API-ключ</a>]]></word>
+  <word key="authy_key_suffix" js="0"><![CDATA[<a href='{external.authy_api_key}' target='_blank' rel='noopener'>Получить API-ключ</a>]]></word>
   <word key="authy_groups" js="0">Группы, которые могут использовать Authy</word>
   <word key="authy_setup" js="0">Настроить методы верификации</word>
   <word key="authy_setup_desc" js="0">При настройке Authy пользователю необходимо выбрать один из включенных способов проверки его номера телефона.</word>
@@ -7414,13 +7412,13 @@
   <word key="promote_twitter_setup_user_button" js="0">Привязать свой аккаунт</word>
   <word key="promote_facebook_owned_by_you" js="0">Вы настроили продвижение в Facebook</word>
   <word key="promote_facebook_owned_by_user" js="0">%s настроил продвижение в Facebook</word>
-  <word key="promote_facebook_owned_by_user_blurb" js="0"><![CDATA[Привязано к аккаунту <a href='https://facebook.com/%s' target='_blank'>%s</a>.]]></word>
+  <word key="promote_facebook_owned_by_user_blurb" js="0"><![CDATA[Привязано к аккаунту <a href='https://facebook.com/%s' target='_blank' rel='noopener'>%s</a>.]]></word>
   <word key="promote_facebook_remove_settings" js="0">Удалить все текущие настройки Facebook</word>
   <word key="promote_facebook_remove_settings_other" js="0">Удалить все настройки Facebook %s</word>
   <word key="promote_twitter_owned_by_you" js="0">Вы настроили продвижение в Twitter</word>
   <word key="promote_twitter_owned_by_user" js="0">%s настроил продвижение в Twitter</word>
-  <word key="promote_twitter_owned_by_you_blurb" js="0"><![CDATA[Привязано к аккаунту <a href='https://twitter.com/%s' target='_blank'>%s</a>.]]></word>
-  <word key="promote_twitter_owned_by_user_blurb" js="0"><![CDATA[Привязано к аккаунту <a href='https://twitter.com/%s' target='_blank'>%s</a>.]]></word>
+  <word key="promote_twitter_owned_by_you_blurb" js="0"><![CDATA[Привязано к аккаунту <a href='https://twitter.com/%s' target='_blank' rel='noopener'>%s</a>.]]></word>
+  <word key="promote_twitter_owned_by_user_blurb" js="0"><![CDATA[Привязано к аккаунту <a href='https://twitter.com/%s' target='_blank' rel='noopener'>%s</a>.]]></word>
   <word key="promote_twitter_remove_settings" js="0">Удалить все текущие настройки Twitter</word>
   <word key="promote_twitter_remove_settings_other" js="0">Удалить все настройки Twitter %s</word>
   <word key="promote_twitter_enabled" js="0">Включить</word>
@@ -7434,7 +7432,7 @@
   <word key="promote_tab_links" js="0">Сокращение ссылок</word>
   <word key="bitly_enabled" js="0">Сокращать ссылки через Bitly</word>
   <word key="bitly_enabled_desc" js="0">Bitly предоставляет статистику использования ссылок</word>
-  <word key="bitly_generate_token" js="0"><![CDATA[<a href='{external.bitly-oauth}' target='_blank'>Сгенерировать ключ доступа</a>]]></word>
+  <word key="bitly_generate_token" js="0"><![CDATA[<a href='{external.bitly-oauth}' target='_blank' rel='noopener'>Сгенерировать ключ доступа</a>]]></word>
   <word key="bitly_token" js="0">Общий ключ доступа</word>
   <word key="bitly_auth_failed" js="0">Аутентификация Bitly неудачна. Пожалуйста, убедитесь в том, что ключ доступа корректный.</word>
   <word key="promote_twitter_tags" js="0">Хэштеги</word>
@@ -7496,7 +7494,7 @@
   <word key="promote_photo_count" js="0">{# [0:изображений][1:изображение][2:изображения][3:изображения][4:изображения][11:изображений][12:изображений][13:изображений][14:изображений][*1:изображение][*2:изображения][*3:изображения][*4:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]}</word>
   <word key="promote_failed_count" js="0">Не удалось отправить {# [0:раз][1:раз][2:раза][3:раза][4:раза][11:раз][12:раз][13:раз][14:раз][*1:раз][*2:раза][*3:раза][*4:раза][*11:раз][*12:раз][*13:раз][*14:раз][?:раз]}, но будут повторные попытки отправки.</word>
   <word key="promote_failed_totally" js="0">Эту публикацию не удалось отправить несколько раз и повторных попыток отправки больше не будет.</word>
-  <word key="promote_failed_totally_description" js="0"><![CDATA[Эту публикацию не удалось отправить. Пожалуйста, проверьте ваши <a href='{internal.admin.app=core&module=promotion&controller=promote}' target='_blank'>настройки продвижения</a>.]]></word>
+  <word key="promote_failed_totally_description" js="0"><![CDATA[Эту публикацию не удалось отправить. Пожалуйста, проверьте ваши <a href='{internal.admin.app=core&module=promotion&controller=promote}' target='_blank' rel='noopener'>настройки продвижения</a>.]]></word>
   <word key="promote_time_failed_resend" js="0">Повторная попытка:</word>
   <word key="promote_time_failed_resend_soon" js="0">следующий</word>
   <word key="promote_social_content_twitter" js="0"><![CDATA[<span class='cPromoteDialog_icon cPromoteDialog_icon_twitter'><i class='fa fa-twitter'></i></span><a href='#' title='Не публиковать это в Twitter' data-ipsTooltip class='cPromote_hide' data-action='cancelShare'>×</a>]]></word>
@@ -7535,12 +7533,12 @@
   <word key="club_type_open_desc" js="0">Все могут видеть этот клуб и его публикации, но только участники могут участвовать в нём. Все могут вступить в него.</word>
   <word key="club_type_closed" js="0">Закрытый</word>
   <word key="club_type_closed_desc" js="0">Все могут видеть этот клуб и его участников, но только участники могут видеть его публикации и участвовать в нём. Пользователи должны подать заявку на вступление.</word>
-  <word key="club_type_private" js="0">Личный</word>
+  <word key="club_type_private" js="0">Приватный</word>
   <word key="club_public" js="0">Публичный клуб</word>
   <word key="club_open" js="0">Открытый клуб</word>
   <word key="club_closed" js="0">Закрытый клуб</word>
-  <word key="club_private" js="0">Личный клуб</word>
-  <word key="club_type_private_desc" js="0">Только участники клуба могут видеть его и его публикации. Пользователи должны быть приглашены лидером.</word>
+  <word key="club_private" js="0">Приватный клуб</word>
+  <word key="club_type_private_desc" js="0">Только участники клуба могут видеть его и публикации в нём. Пользователи должны быть приглашены лидером.</word>
   <word key="g_club_allowed_nodes" js="0">Разрешённые области контента в клубах</word>
   <word key="create_club" js="0">Создать клуб</word>
   <word key="club_name" js="0">Название</word>
@@ -7631,7 +7629,7 @@
   <word key="r__fields_edit" js="0">Может изменять дополнительные поля</word>
   <word key="r__fields_delete" js="0">Может удалять дополнительные поля</word>
   <word key="clubs_modperms" js="0">Права модераторов в Клубах</word>
-  <word key="clubs_modperms_desc" js="0"><![CDATA[Лидеры и модераторы клубов смогут совершать эти действия со своими клубами, в дополнении к <a href='{internal.app=core&module=staff&controller=moderators}' target='_blank'>модераторам сообщества</a>, которые могут модерировать все публикации.]]></word>
+  <word key="clubs_modperms_desc" js="0"><![CDATA[Лидеры и модераторы клубов смогут совершать эти действия со своими клубами, в дополнении к <a href='{internal.app=core&module=staff&controller=moderators}' target='_blank' rel='noopener'>модераторам сообщества</a>, которые могут модерировать все публикации.]]></word>
   <word key="club_modperm_pin" js="0">Закреплять публикации</word>
   <word key="club_modperm_unpin" js="0">Откреплять публикации</word>
   <word key="club_modperm_hide" js="0">Скрывать публикации</word>
@@ -7660,7 +7658,7 @@
   <word key="clubs_enabled_setting" js="0">Включить клубы</word>
   <word key="clubs_enabled_setting_desc" js="0">Если вы выключите Клубы, то все существующие клубы будут скрыты и будут возвращены после их включения.</word>
   <word key="clubs_enable_blurb_1" js="0">Клубы - это области, создаваемые пользователями, которые могут содержать %s.</word>
-  <word key="clubs_enable_blurb_2" js="0"><![CDATA[Владельцы клубов могут делать свои клубы публичными или потребовать от пользователей вступить в них, прежде чем они смогут увидеть и участвовать в них. После включения клубов, вы сможете выбрать кто может создавать клубы, а также типы клубов, которые они могут создавать, в <a href='{internal.app=core&module=members&controller=groups}' target='_blank'>настройках групп</a>.]]></word>
+  <word key="clubs_enable_blurb_2" js="0"><![CDATA[Владельцы клубов могут делать свои клубы публичными или потребовать от пользователей вступить в них, прежде чем они смогут увидеть и участвовать в них. После включения клубов, вы сможете выбрать кто может создавать клубы, а также типы клубов, которые они могут создавать, в <a href='{internal.app=core&module=members&controller=groups}' target='_blank' rel='noopener'>настройках групп</a>.]]></word>
   <word key="clubs_enable_blurb_3" js="0">Владельцы клубов также могут делать других пользователей со-владельцами клуба или модераторами. После включения клубов вы сможете выбрать какие инструменты модерации доступны для них.</word>
   <word key="club" js="0">Клуб</word>
   <word key="search_contextual_item_club" js="0">Этот клуб</word>
@@ -7670,7 +7668,7 @@
   <word key="clubs_header_sidebar" js="0">в боковой панели</word>
   <word key="clubs_header_desc" js="0">Информация о клубе отображается при просмотре любой страницы клуба, включая его публикации.</word>
   <word key="clubs_locations" js="0">У клубов есть физическое расположение?</word>
-  <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank'>Google Maps</a> или <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_Mapbox}' target='_blank'>Mapbox</a>, то на главной странице клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
+  <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank' rel='noopener'>Google Maps</a> или <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_Mapbox}' target='_blank' rel='noopener'>Mapbox</a>, то на главной странице клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
   <word key="club_location" js="0">Местоположение</word>
   <word key="modperms__core_Clubs" js="0">Клубы</word>
   <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендованными/обычными</word>
@@ -7732,8 +7730,7 @@
   <word key="club_last_activity" js="0">Последняя активность</word>
   <word key="profile_settings_ignore" js="0">Игнорирование</word>
   <word key="ignore_system_on" js="0">Разрешить пользователям игнорировать других пользователей</word>
-  <word key="ignore_system_on_desc" js="0"><![CDATA[Игнорирование пользователя скрывает все его сообщения. Вы можете настроить <a href='{internal.app=core&module=members&controller=groups}' target='_blank'>группы</a> и <a href='{internal.app=core&module=staff&controller=moderators}' target='_blank'>модераторов</a>, которых нельзя игнорировать, в их настройках.
-]]></word>
+  <word key="ignore_system_on_desc" js="0"><![CDATA[Игнорирование пользователя скрывает все его сообщения. Вы можете настроить <a href='{internal.app=core&module=members&controller=groups}' target='_blank' rel='noopener'>группы</a> и <a href='{internal.app=core&module=staff&controller=moderators}' target='_blank' rel='noopener'>модераторов</a>, которых нельзя игнорировать, в их настройках.]]></word>
   <word key="promote_schedule_dialog" js="0">Запланировать:</word>
   <word key="promote_send_now" js="0">Запланировать сейчас</word>
   <word key="promote_send_now_desc" js="0">Публикации продвигаются пакетами каждые несколько минут</word>
@@ -7857,7 +7854,7 @@
   <word key="loc_viewing_cookie_policy" js="0">Просматривает страницу политики cookies</word>
   <word key="cookies_about_header" js="0">Cookies – это небольшие текстовые файлы, которые сохраняются на вашем компьютере посещаемыми вами веб-сайтами. Они широко используются для работы веб-сайта, или его более эффективной работы, а также предоставления информации владельцу сайта. В зависимости от уровня вашего доступа и ваших действий на сайте, могут быть установлены различные файлы cookies для улучшения взаимодействия с сайтом. Эти cookies используются для запоминания ваших настроек стиля, языка, а также маркеров публикаций.</word>
   <word key="cookies_change_header" js="0">Как я могу изменить свои настройки cookies?</word>
-  <word key="cookies_change_text" js="0"><![CDATA[Большинство веб-браузеров позволяют контролировать большинство cookies через свои настройки. Чтобы подробнее узнать о том, что такое cookies, какие cookies были установлены, как управлять и удалять их, посетите <a href='http://www.aboutcookies.org' rel='nofollow' target='_blank'>www.aboutcookies.org</a> или <a href='http://www.allaboutcookies.org' rel='nofollow' target='_blank'>www.allaboutcookies.org</a>.<br>Чтобы отказаться от отслеживания Google Analytics на всех веб-сайтах, посетите <a href='http://tools.google.com/dlpage/gaoptout' rel='nofollow' target='_blank'>http://tools.google.com/dlpage/gaoptout</a>.]]></word>
+  <word key="cookies_change_text" js="0"><![CDATA[Большинство веб-браузеров позволяют контролировать большинство cookies через свои настройки. Чтобы подробнее узнать о том, что такое cookies, какие cookies были установлены, как управлять ими и удалять их, посетите <a href='http://www.aboutcookies.org' rel='noopener nofollow' target='_blank'>www.aboutcookies.org</a> или <a href='http://www.allaboutcookies.org' rel='noopener nofollow' target='_blank'>www.allaboutcookies.org</a>.<br>Чтобы отказаться от отслеживания Google Analytics на всех веб-сайтах, посетите <a href='http://tools.google.com/dlpage/gaoptout' rel='noopener nofollow' target='_blank'>http://tools.google.com/dlpage/gaoptout</a>.]]></word>
   <word key="cookie_session_front" js="0">Данная cookie содержит информацию о вашей текущей сессии.</word>
   <word key="cookie_member_id" js="0">Ваш идентификатор пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
   <word key="cookie_login_key" js="0">Уникальный ключ для аутентификации вашего идентификатора пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
@@ -8009,7 +8006,7 @@
   <word key="uploadTotalErr" js="1">Вам разрешено загрузить только {{size}} {{size_suffix}}.</word>
   <word key="uploadSizeErr" js="1">{# [0:файлов превышают][1:файл превышает][2:файла превышают][3:файла превышают][4:файла превышают][11:файлов превышают][12:файлов превышают][13:файлов превышают][14:файлов превышают][*1:файл превышает][*2:файла превышают][*3:файла превышают][*4:файла превышают][?:файлов превышают]} максимально допустимый размер в {{max_file_size}} {{size_suffix}} и {!# [1:не был загружен][?:не были загружены]} </word>
   <word key="uploadMaxFilesErr" js="1">Вы можете загрузить только {# [0:файлов][1:файл][2:файла][3:файла][4:файла][11:файлов][12:файлов][13:файлов][14:файлов][*1:файл][*2:файла][*3:файла][*4:файла][*11:файлов][*12:файлов][*13:файлов][*14:файлов][?:файлов]}</word>
-  <word key="pluploaderr_-600" js="1">Файл должен быть меньше {{max_file_size}} МБ.</word>
+  <word key="pluploaderr_-600" js="1">Файл должен быть меньше {{max_file_size}}{{size_suffix}}.</word>
   <word key="size_kb" js="1">КБ</word>
   <word key="size_mb" js="1">МБ</word>
   <word key="pluploaderr_-601" js="1">Разрешённые типы файлов: {{allowed_extensions}}</word>
@@ -8448,7 +8445,7 @@
   <word key="ldap_server_user_desc" js="0">Если оставлено пустым, будет предпринята попытка анонимной привязки.</word>
   <word key="ldap_uid_field_desc" js="0">Название поля в директории, которое содержит уникальные идентификаторы пользователей.</word>
   <word key="ldap_name_field" js="0">Поле имени пользователя</word>
-  <word key="ldap_name_field_desc" js="0"><![CDATA[Название поля в директории, которое содержит имена пользователей. Это поле необязательно если вы установили тип аутентификации на "Email-адрес", однако, в этом случае (или если имя пользователя <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}'>запрещено</a>), пользователям будет предложено указать свое имя после входа.]]></word>
+  <word key="ldap_name_field_desc" js="0"><![CDATA[Название поля в директории, которое содержит имена пользователей. Это поле необязательно если вы установили тип аутентификации на "Email-адрес", однако, в этом случае (или если имя пользователя <a href='{internal.app=core&module=membersettings&controller=profiles&tab=settings&searchResult=username_characters}' rel='noopener'>запрещено</a>), пользователям будет предложено указать свое имя после входа.]]></word>
   <word key="ldap_email_field_desc" js="0">Название поля в директории, которое содержит email-адреса. Это поле необязательно если вы установили тип аутентификации на &quot;Имя пользователя&quot;, однако, в этом случае, пользователям будет предложено указать свой email-адрес после входа.</word>
   <word key="ldap_pw_required_desc" js="0">Если отключено, будет предпринята попытка анонимной привязки. Эта настройка должна быть отключена только в случае, если сервер может аутентифицировать пользователя другим способом.</word>
   <word key="oauth_consumer_key" js="0">Ключ клиента</word>
@@ -8458,9 +8455,9 @@
   <word key="login_acp_will_reauth" js="0">При входе в Админцентр пользователь должен будет ввести свой пароль еще раз, можно безопасно включить этот параметр.</word>
   <word key="login_register" js="0">Когда пользователь входит первый раз</word>
   <word key="login_register_enabled" js="0">Создать учетную запись</word>
-  <word key="login_register_enabled_desc" js="0"><![CDATA[Если необходимо, пользователю будет предложено указать свои имя и email-адрес. Настройка <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=reg_auth_type}' target='_blank'>метода подтверждения новых аккаунтов</a> будет работать за исключением случая, когда email-адрес предоставляется методом при входе, что подразумевает то, что он уже подтвержден.]]></word>
+  <word key="login_register_enabled_desc" js="0"><![CDATA[Если необходимо, пользователю будет предложено указать свои имя и email-адрес. Настройка <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=reg_auth_type}' target='_blank' rel='noopener'>метода подтверждения новых аккаунтов</a> будет работать за исключением случая, когда email-адрес предоставляется методом при входе, что подразумевает то, что он уже подтвержден.]]></word>
   <word key="login_register_disabled" js="0">Отклонить вход</word>
-  <word key="login_register_disabled_desc" js="0"><![CDATA[Вы можете выбрать этот вариант, если на вашем сообществе <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=allow_reg}' target='_blank'>отключена регистрация</a> или установлено ограничение по возрасту.]]></word>
+  <word key="login_register_disabled_desc" js="0"><![CDATA[Вы можете выбрать этот вариант, если на вашем сообществе <a href='{internal.app=core&module=settings&controller=login&tab=registration&searchResult=allow_reg}' target='_blank' rel='noopener'>отключена регистрация</a> или установлено ограничение по возрасту.]]></word>
   <word key="login_register_desc" js="0">Если пользователь ранее не входил с помощью этого метода, и уже существует учетная запись с email-адресом, предоставленным этим методом, то пользователю будет предложено связать учетные записи, как если бы он сделал это со страницы настроек аккаунта, независимо от этой настройки.</word>
   <word key="acplogs__account_management_settings" js="0">Изменены настройки управления аккаунтом</word>
   <word key="link_your_accounts_error" js="0">Ваш аккаунт должен быть связать прежде чем вы сможете войти с помощью этого метода входа. Войдите в публичной части для завершения и попробуйте еще раз.</word>
@@ -8497,11 +8494,11 @@
   <word key="login_method_basic_settings" js="0">Основные настройки</word>
   <word key="login_handler_oauth_settings" js="0">Настройки приложения</word>
   <word key="login_handler_oauth_ui" js="0">Настройки отображения</word>
-  <word key="login_handler_Facebook_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_facebook}' target='_blank'>Facebook Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
-  <word key="login_handler_Google_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_google}' target='_blank'>Google Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
-  <word key="login_handler_Linkedin_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_linkedin}' target='_blank'> LinkedIn Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
-  <word key="login_handler_Live_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_live}' target='_blank'>Microsoft Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
-  <word key="login_handler_Twitter_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_twitter}' target='_blank'>Twitter Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Facebook_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_facebook}' target='_blank' rel='noopener'>Facebook Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Google_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_google}' target='_blank' rel='noopener'>Google Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Linkedin_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_linkedin}' target='_blank' rel='noopener'> LinkedIn Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Live_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_live}' target='_blank' rel='noopener'>Microsoft Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
+  <word key="login_handler_Twitter_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_twitter}' target='_blank' rel='noopener'>Twitter Login</a> для получения этих данных. Ссылка для перенаправления - <code>%s</code>]]></word>
   <word key="oauth_setup_error_generic" js="0"><![CDATA[Провайдер не предоставил ожидаемый ответ. Проверьте, корректны ли настройки приложения и корректен ли введенная ссылка для перенаправления.<br><code>%s</code>]]></word>
   <word key="oauth_setup_error_secret" js="0">Указанные настройки приложения являются некорректными.</word>
   <word key="oauth1_setup_error" js="0"><![CDATA[Провайдер не предоставил ожидаемый ответ. Проверьте, корректны ли настройки приложения.<br><code>%s</code>]]></word>
@@ -8532,11 +8529,11 @@
   <word key="allow_forgot_password_target" js="0">Ссылка на восстановление пароля</word>
   <word key="allow_forgot_password_desc" js="0">Вы можете изменить эту настройки, если ваш основной метод входа имеет ограничения по разрешенным паролям. Если пользователь первый раз вошел с помощью метода, который не использует пароль, и включена стандартная форма регистрации, то использование инструмента восстановления пароля создаст локальный пароль.</word>
   <word key="login_sync_email_changes" js="0">Когда изменяется локальный email-адрес</word>
-  <word key="login_sync_email_changes_desc" js="0"><![CDATA[Например, если пользователь изменяет свой email-адрес в настройках аккаунта (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_email_changes}' target='_blank'>если разрешено</a>) или администратор изменяет email-адрес пользователя в Админцентре.]]></word>
+  <word key="login_sync_email_changes_desc" js="0"><![CDATA[Например, если пользователь изменяет свой email-адрес в настройках аккаунта (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_email_changes}' target='_blank' rel='noopener'>если разрешено</a>) или администратор изменяет email-адрес пользователя в Админцентре.]]></word>
   <word key="login_sync_password_changes" js="0">Когда изменяется локальный пароль</word>
-  <word key="login_sync_password_changes_desc" js="0"><![CDATA[Например, если пользователь изменяет свой пароль в настройках аккаунта (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_password_changes}' target='_blank'>если разрешено</a>) или администратор изменяет пароль пользователя в Админцентре.]]></word>
+  <word key="login_sync_password_changes_desc" js="0"><![CDATA[Например, если пользователь изменяет свой пароль в настройках аккаунта (<a href='{internal.app=core&module=settings&controller=login&tab=accountsettings&searchResult=allow_password_changes}' target='_blank' rel='noopener'>если разрешено</a>) или администратор изменяет пароль пользователя в Админцентре.]]></word>
   <word key="login_sync_name_changes" js="0">Когда изменяется локальное имя пользователя</word>
-  <word key="login_sync_name_changes_desc" js="0"><![CDATA[Например, если пользователь изменяет свое имя в настройках аккаунта (<a href='{internal.app=core&module=members&controller=groups&searchResult=group_username}' target='_blank'>если разрешено</a>) или администратор изменяет имя пользователя в Админцентре.]]></word>
+  <word key="login_sync_name_changes_desc" js="0"><![CDATA[Например, если пользователь изменяет свое имя в настройках аккаунта (<a href='{internal.app=core&module=members&controller=groups&searchResult=group_username}' target='_blank' rel='noopener'>если разрешено</a>) или администратор изменяет имя пользователя в Админцентре.]]></word>
   <word key="login_sync_changes_yes" js="0">Синхронизировать с удаленной базой</word>
   <word key="login_sync_changes_no" js="0">Не делать ничего</word>
   <word key="login_sync_password_changes_no" js="0">Не делать ничего</word>
@@ -8552,7 +8549,7 @@
   <word key="login_update_changes_no" js="0">Не делать ничего</word>
   <word key="login_handler_InvisionCommunity" js="0">Другой Invision Community</word>
   <word key="login_handler_InvisionCommunity_info_title" js="0">Настройки сообщества</word>
-  <word key="login_handler_InvisionCommunity_info" js="0"><![CDATA[На другом сообществе перейдите на страницу <strong>Админцентр → Система → REST и OAuth</strong> и создайте OAuth-клиент. Для получения подробной информации обратитесь к статье <a href='{external.login_invision}' target='_blank'>Connect Two Invision Communities</a>.]]></word>
+  <word key="login_handler_InvisionCommunity_info" js="0"><![CDATA[На другом сообществе перейдите на страницу <strong>Админцентр → Система → REST и OAuth</strong> и создайте OAuth-клиент. Для получения подробной информации обратитесь к статье <a href='{external.login_invision}' target='_blank' rel='noopener'>Connect Two Invision Communities</a>.]]></word>
   <word key="oauth_invision_grant_type" js="0">Метод входа</word>
   <word key="oauth_invision_grant_type_desc" js="0">Убедитесь в том, что вы выбрали такой же способ, который выбирали при настройке другого сообщества.</word>
   <word key="invision_grant_type_authorization_code" js="0">Кнопка (стиль социальной сети)</word>
@@ -8574,9 +8571,9 @@
   <word key="login_handler_show_in_ucp_disabled" js="0">Никогда</word>
   <word key="login_handler_wordpress" js="0">WordPress</word>
   <word key="login_handler_wordpress_settings" js="0">Настройки WordPress</word>
-  <word key="login_handler_wordpress_oauth_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_wordpress}' target='_blank'>Wordpress Login</a> для получения этих данных. Ссылка для перенаправления - <code>{internal.interface.oauth/callback/}</code>]]></word>
+  <word key="login_handler_wordpress_oauth_info" js="0"><![CDATA[Следуйте инструкциям из статьи <a href='{external.login_wordpress}' target='_blank' rel='noopener'>Wordpress Login</a> для получения этих данных. Ссылка для перенаправления - <code>{internal.interface.oauth/callback/}</code>]]></word>
   <word key="wordpress_url" js="0">Адрес сайта WordPress</word>
-  <word key="oauth_wordpress_blurb" js="0"><![CDATA[Укажите эти данные в своей Консоли WordPress. Для получения подробной информации обратитесь к статье <a href='{external.login_wordpress}' target='_blank'>Wordpress Login</a>.]]></word>
+  <word key="oauth_wordpress_blurb" js="0"><![CDATA[Укажите эти данные в своей Консоли WordPress. Для получения подробной информации обратитесь к статье <a href='{external.login_wordpress}' target='_blank' rel='noopener'>Wordpress Login</a>.]]></word>
   <word key="oauth_wordpress_app_settings" js="0">Настройки приложения</word>
   <word key="oauth_wordpress_application" js="0">Выберите приложение</word>
   <word key="oauth_wordpress_application_val" js="0">Другое</word>
@@ -8718,7 +8715,7 @@
   <word key="task__usagereporting" js="0">Отправляет данные об использовании в Invision.</word>
   <word key="site_social_profiles_desc" js="0">Отображает социальные иконки в шапке или подвале вашего сайта, в зависимости от настроек вашего стиля, со ссылками на указанные социальные профили.</word>
   <word key="site_twitter_id" js="0">Twitter ID сайта</word>
-  <word key="site_twitter_id_desc" js="0"><![CDATA[@username аккаунта сайта в Twitter, которое используется в <a href='{external.twitter-card}'>Twitter Cards</a>.]]></word>
+  <word key="site_twitter_id_desc" js="0"><![CDATA[@username аккаунта сайта в Twitter, которое используется в <a href='{external.twitter-card}' rel='noopener'>Twitter Cards</a>.]]></word>
   <word key="site_twitter_id_placeholder" js="0">@twitteruserid</word>
   <word key="menu__core_membersettings_profilecompletion" js="0">Заполнение профиля</word>
   <word key="r__communityactivity" js="0">Статистика активности сообщества</word>
@@ -8790,21 +8787,21 @@
   <word key="enhancements__core_Mapbox_desc" js="0">Mapbox предоставляет функционал карт для улучшенного отображения данных о местонахождении, например в инструментах IP-адресов.</word>
   <word key="mapbox_api_key" js="0">Ключ API</word>
   <word key="mapbox" js="0">Включить интеграцию с Mapbox?</word>
-  <word key="mapbox_api_key_desc" js="0"><![CDATA[<a href='{external.mapboxapi}' target='_blank'>Получить ключ API</a>]]></word>
+  <word key="mapbox_api_key_desc" js="0"><![CDATA[<a href='{external.mapboxapi}' target='_blank' rel='noopener'>Получить ключ API</a>]]></word>
   <word key="mapbox_api_key_req" js="0">Ключ API обязателен.</word>
   <word key="mapbox_api_key_invalid" js="0">Этот ключ API недействителен</word>
   <word key="captcha_type_invisible" js="0">Invisible reCAPTCHA</word>
-  <word key="captcha_type_invisible_desc" js="0"><![CDATA[Пользователи не должны ничего делать. Система в фоновом режиме определит, является ли пользователь человеком. <a href='{external.captcha_recaptcha_invisible}' target='_blank'>Подробнее</a>]]></word>
+  <word key="captcha_type_invisible_desc" js="0"><![CDATA[Пользователи не должны ничего делать. Система в фоновом режиме определит, является ли пользователь человеком. <a href='{external.captcha_recaptcha_invisible}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="allow_reg_normal" js="0">Да, с быстрой формой регистрации (рекомендуется)</word>
-  <word key="allow_reg_normal_desc" js="0"><![CDATA[Пользователю будет отображена простое всплывающее окно с формой регистрации. Вы можете настроить <a href='{internal.app=core&module=membersettings&controller=profilecompletion}' target='_blank'>шаги заполнения профиля</a>, которые отобразятся пользователю после регистрации, например загрузка фотографии профиля или заполнение настраиваемых полей профиля.]]></word>
+  <word key="allow_reg_normal_desc" js="0"><![CDATA[Пользователю будет отображена простое всплывающее окно с формой регистрации. Вы можете настроить <a href='{internal.app=core&module=membersettings&controller=profilecompletion}' target='_blank' rel='noopener'>шаги заполнения профиля</a>, которые будут отображены пользователю после регистрации, например загрузка фотографии профиля или заполнение настраиваемых полей профиля.]]></word>
   <word key="allow_reg_full" js="0">Да, с полной формой регистрации</word>
-  <word key="allow_reg_full_desc" js="0"><![CDATA[Пользователю будет отображена полная форма регистрации, которая может содержать <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilefields}' target='_blank'>настраиваемые поля профиля</a>. Требуется использовать COPPA или проверку возраста.]]></word>
+  <word key="allow_reg_full_desc" js="0"><![CDATA[Пользователю будет отображена полная форма регистрации, которая может содержать <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilefields}' target='_blank' rel='noopener'>настраиваемые поля профиля</a>. Требуется использовать COPPA или проверку возраста.]]></word>
   <word key="allow_reg_redirect" js="0">Переадресация на другой сайт</word>
   <word key="allow_reg_redirect_desc" js="0">Вы можете использовать этот вариант, если ваше сообщество использует метод входа, у которого есть своя форма регистрации, как например внешняя база данных MySQL или LDAP.</word>
   <word key="allow_reg_disabled" js="0">Нет</word>
   <word key="allow_reg_target" js="0">Адрес регистрации</word>
   <word key="allowed_reg_email_email_detected" js="0">Одно из введенных значений является email-адресом. Это значение должно быть именем домена, например mycompany.com</word>
-  <word key="force_reg_terms" js="0"><![CDATA[Пользователь должен согласиться с <a href='{internal.app=core&module=settings&controller=terms&searchResult=reg_rules}' target='_blank'>условиями регистрации и правилами</a>]]></word>
+  <word key="force_reg_terms" js="0"><![CDATA[Пользователь должен согласиться с <a href='{internal.app=core&module=settings&controller=terms&searchResult=reg_rules}' target='_blank' rel='noopener'>условиями регистрации и правилами</a>]]></word>
   <word key="force_reg_terms_1" js="0">Всегда</word>
   <word key="force_reg_terms_0" js="0">Только при использовании стандартной формы регистрации</word>
   <word key="reg_auth_type_desc" js="0">Подтверждение по электронной почте (но не подтверждение администратором) пропускается, если пользователь входит на сайт с помощью метода входа, который предоставляет разрешенный email-адрес.</word>
@@ -8828,7 +8825,7 @@
   <word key="emoji_style_twemoji" js="0"><![CDATA[Стиль Twitter<br><div class='ipsType_large ipsSpacer_top ipsSpacer_half'><img src='https://twemoji.maxcdn.com/2/72x72/1f600.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f609.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f602.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f60d.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f918.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f926-200d-2640-fe0f.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f937-200d-2642-fe0f.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f37f.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f680.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f389.png' class='ipsEmoji'> <img src='https://twemoji.maxcdn.com/2/72x72/1f3f3-fe0f-200d-1f308.png' class='ipsEmoji'></div>]]></word>
   <word key="emoji_style_emojione" js="0"><![CDATA[Стиль EmojiOne<br><div class='ipsType_large ipsSpacer_top ipsSpacer_half'><img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f600.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f609.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f602.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f60d.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f918.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f926-2640.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f937-2642.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f37f.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f680.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f389.png' class='ipsEmoji'> <img src='https://cdn.jsdelivr.net/emojione/assets/3.1/png/64/1f3f3-1f308.png' class='ipsEmoji'></div>]]></word>
   <word key="emoji_style_disabled" js="0">Не отображать стандартные эмодзи</word>
-  <word key="emoji_utf8mb4_required" js="0"><![CDATA[Для включения поддержки стандартных эмодзи, вы должны <a href='{internal.app=core&module=support&controller=utf8mb4}' target='_blank'>сконвертировать вашу базу данных в UTF-8</a>.]]></word>
+  <word key="emoji_utf8mb4_required" js="0"><![CDATA[Для включения поддержки стандартных эмодзи, вы должны произвести <a href='{internal.app=core&module=support&controller=utf8mb4}' target='_blank' rel='noopener'>конвертацию вашей базы в 4-байтовую кодировку UTF-8</a>.]]></word>
   <word key="emoji_shortcodes" js="0">Заменять :short_code: на эмодзи?</word>
   <word key="emoji_shortcodes_desc" js="0"><![CDATA[<mark>:smiley:</mark> <mark>:wink:</mark> <mark>:joy:</mark> <mark>:heart_eyes:</mark> <mark>:the_horns:</mark> <mark>:woman-facepalming:</mark> <mark>:man-shrugging:</mark> <mark>:popcorn:</mark> <mark>:rocket:</mark> <mark>:tada:</mark> <mark>:rainbow-flag:</mark><br>При написании сообщения, пользователю будут предлагаться эмодзи. Также будут предложены дополнительные эмодзи, начинающиеся и заканчивающиеся знаком двоеточия.]]></word>
   <word key="emoji_ascii" js="0">Заменять текст на эмодзи?</word>
@@ -8914,7 +8911,7 @@
   <word key="block_newsletter" js="0">Подписка на рассылку</word>
   <word key="block_newsletter_desc" js="0">Предлагает пользователям подписаться на массовую рассылку</word>
   <word key="block_newsletter_title" js="0">Рассылка</word>
-  <word key="block_newsletter_signup" js="0">Хотите узнавать о наших последних новостях и информации?</word>
+  <word key="block_newsletter_signup" js="0"><![CDATA[<p>Хотите узнавать о наших последних новостях и информации?</p>]]></word>
   <word key="block_newsletter_signup_button" js="0">Подписаться</word>
   <word key="block_newsletter_subscribed" js="0">Вы подписаны</word>
   <word key="stats_date_group_hourly" js="0">Ежечасно</word>
@@ -8933,7 +8930,7 @@
   <word key="search_method" js="0">Поисковая система</word>
   <word key="search_method_mysql" js="0">MySQL (по умолчанию)</word>
   <word key="search_method_elastic" js="0">Elasticsearch (продвинутый)</word>
-  <word key="search_method_elastic_desc" js="0"><![CDATA[Распределенная поисковая система рекомендуется при высокой нагрузке на сообщество с большим количеством данных. Требуется сервер Elasticsearch. <a href='{external.elasticsearch}' target='_blank'>Подробнее</a>]]></word>
+  <word key="search_method_elastic_desc" js="0"><![CDATA[Распределенная поисковая система рекомендуется при высокой нагрузке на сообщество с большим количеством данных. Требуется сервер Elasticsearch. <a href='{external.elasticsearch}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="search_elastic_server" js="0">Сервер Elasticsearch</word>
   <word key="search_elastic_server_no_version" js="0">Сервер не вернул ожидаемый результат. Проверьте, корректно ли установлен Elasticsearch и доступен ли он с вашего сервера. если вы перейдете по указанной ссылке в вашем браузере, то вы должны увидеть информацию об установленной версии.</word>
   <word key="search_elastic_server_unsupported_version" js="0">Требуется версия %s или выше. На вашем сервере Elasticsearch установлена версия %s.</word>
@@ -9011,9 +9008,9 @@
   <word key="oauth_client_name" js="0">Название</word>
   <word key="oauth_client_type" js="0">Тип клиента</word>
   <word key="client_type_invision" js="0">Другой Invision Community</word>
-  <word key="client_type_invision_desc" js="0"><![CDATA[Для получения подробной информации обратитесь к статье <a href='{external.login_invision}' target='_blank'>Connect Two Invision Communities</a>.]]></word>
+  <word key="client_type_invision_desc" js="0"><![CDATA[Для получения подробной информации обратитесь к статье <a href='{external.login_invision}' target='_blank' rel='noopener'>Соединение двух сообществ Invision Community</a> (на английском).]]></word>
   <word key="client_type_wordpress" js="0">WordPress</word>
-  <word key="client_type_wordpress_desc" js="0"><![CDATA[Для получения подробной информации обратитесь к статье <a href='{external.login_wordpress}' target='_blank'>Wordpress Login</a>.]]></word>
+  <word key="client_type_wordpress_desc" js="0"><![CDATA[Для получения подробной информации обратитесь к статье <a href='{external.login_wordpress}' target='_blank' rel='noopener'>Вход через WordPress</a> (на английском).]]></word>
   <word key="client_type_confidential" js="0"><![CDATA[Настраиваемый <strong>секретный</strong> OAuth-клиент]]></word>
   <word key="client_type_confidential_desc" js="0">Серверное приложение, например веб-сайт, код которого написан на серверном языке программирования и хранится на сервере, к которому пользователи не имеют доступа. Будет выпущен секретный ключ клиента.</word>
   <word key="client_type_public" js="0"><![CDATA[Настраиваемый <strong>публичный</strong> OAuth-клиент]]></word>
@@ -9066,7 +9063,7 @@
   <word key="oauth_token_uri" js="0">Конечная точка для получения токена</word>
   <word key="oauth_token_uri_desc" js="0">Это адрес, куда вы отправите HTTP-запрос для генерации ключа доступа (access token).</word>
   <word key="oauth_https_warning" js="0"><![CDATA[Для того, чтобы использовать ваше сообщество в качестве OAuth-сервера, вы должны получить SSL-сертификат. Свяжитесь с вашим хостинг-провайдером для подробной информации. Если у вас уже есть сертификат, убедитесь в том, что он <a href='{internal.app=core&module=settings&controller=login&do=httpsCheck}' data-ipsDialog>настроен корректно</a>.]]></word>
-  <word key="oauth_https_warning_cic" js="0"><![CDATA[Для того, чтобы использовать ваше сообщество в качестве OAuth-сервера, вы должны получить SSL-сертификат. <a href='{external.client_area}' target='_blank'>Свяжитесь с нами для подробной информации</a>]]></word>
+  <word key="oauth_https_warning_cic" js="0"><![CDATA[Для того, чтобы использовать ваше сообщество в качестве OAuth-сервера, вы должны получить SSL-сертификат. <a href='{external.client_area}' target='_blank' rel='noopener'>Свяжитесь с нами для подробной информации</a>]]></word>
   <word key="oauth_regenerate_secret" js="0">Сгенерировать новый секретный ключ</word>
   <word key="oauth_regenerate_warning" js="0">Работа текущего секретного ключа будет немедленно приостановлена и вам потребуется обновить настройки всех приложений, которые используют этот клиент. Существующие ключи доступа не будут аннулированы и продолжат работать.</word>
   <word key="oauth_client_delete_warning" js="0">Все ключи доступа будут незамедлительно аннулированы</word>
@@ -9134,7 +9131,7 @@
   <word key="api_endpoint_member_only_err" js="0">Запрос был сделан через API-ключ или Client Credentials Grant Type.</word>
   <word key="api_endpoint_client_only" js="0">Эта конечная точка доступна только для запросов, сделанных через API-ключ или Client Credentials Grant Type, но не для конкретных пользователей через OAuth Access Token.</word>
   <word key="api_endpoint_client_only_err" js="0">Запрос был сделан конкретным пользователем через OAuth Access Token.</word>
-  <word key="rest_and_oauth_blurb" js="0"><![CDATA[REST API предоставляет разработчикам возможность использовать и создавать данные на сайте из сторонних приложений и веб-сайтов. Доступ к API  может быть получен как через OAuth 2.0, так и с помощью API-ключа. <a href='{external.restapi}' target='_blank'>Узнать подробнее <i class='fa fa-external-link'></i></a>.]]></word>
+  <word key="rest_and_oauth_blurb" js="0"><![CDATA[REST API предоставляет разработчикам возможность использовать и создавать данные на сайте из сторонних приложений и веб-сайтов. Доступ к API  может быть получен как через OAuth 2.0, так и с помощью API-ключа. <a href='{external.restapi}' target='_blank' rel='noopener'>Узнать подробнее <i class='fa fa-external-link'></i></a>.]]></word>
   <word key="oauth_clients_blurb" js="0">OAuth-клиенты позволяют пользователям вашего сообщества авторизовываться на других сайтах и приложениях, поддерживающих OAuth. После этого эти приложения могут использовать ключ доступа OAuth (OAuth Access Token) для доступа к REST API в качестве авторизованного пользователя. Клиенты OAuth также могут предоставлять учетные данные (Client Credentials Access Tokens) для доступа к REST API без авторизации из-под конкретного пользователя.</word>
   <word key="api_keys_blurb" js="0">Ключи API предоставляют упрощенную альтернативу OAuth для получения доступа к REST API без авторизации из-под конкретного пользователя.</word>
   <word key="password_strength_meter_desc" js="0">При выборе пользователем пароля как при регистрации, так и при изменении, будет отображаться шкала, обозначающая сложность пароля.</word>
@@ -9142,7 +9139,7 @@
   <word key="promote_facebook_shareable_desc" js="0">При продвижении публикации, вы можете выбрать в какую из выбранных Facebook-страниц продвигать её.</word>
   <word key="promote_service_name_missing" js="0">Страница или группа Facebook</word>
   <word key="promote_facebook_page_prefix" js="0">%s</word>
-  <word key="promote_facebook_group_prefix" js="0">%s</word>
+  <word key="promote_facebook_group_prefix" js="0"><![CDATA[<i class='fa fa-users' aria-hidden='true'></i> %s]]></word>
   <word key="promotes_no_facebook_properties" js="0">Вы не выбрали страницы или группы Facebook</word>
   <word key="promote_show_original_content" js="0">Показать оригинальную публикацию</word>
   <word key="promotes_no_facebook_content" js="0">Политика платформы Facebook запрещает предварительное заполнение текста. Вы можете использовать ссылку и исходный контент выше, чтобы определить своё собственное содержание.</word>
@@ -9287,9 +9284,9 @@
   <word key="history_email_changed_api" js="0"><![CDATA[Email-адрес изменён на <a>%s</a> (предыдущий <a>%s</a>) через REST API.]]></word>
   <word key="history_email_changed_profilesync" js="0"><![CDATA[Email-адрес изменён на <a>%s</a> (предыдущий <a>%s</a>) синхронизацией с %s.]]></word>
   <word key="history_connected_social_with_account" js="0"><![CDATA[Привязан аккаунт %s <a>%s</a>.]]></word>
-  <word key="history_connected_social_with_link" js="0"><![CDATA[Привязан аккаунт %s <a href='%s' target='_blank'>%s</a>.]]></word>
+  <word key="history_connected_social_with_link" js="0"><![CDATA[Привязан аккаунт %s <a href='%s' target='_blank' rel='noopener'>%s</a>.]]></word>
   <word key="history_disconnected_social_with_account" js="0"><![CDATA[Отвязан аккаунт %s <a>%s</a>%s.]]></word>
-  <word key="history_disconnected_social_with_link" js="0"><![CDATA[Отвязан аккаунт %s <a href='%s' target='_blank'>%s</a> %s.]]></word>
+  <word key="history_disconnected_social_with_link" js="0"><![CDATA[Отвязан аккаунт %s <a href='%s' target='_blank' rel='noopener'>%s</a> %s.]]></word>
   <word key="history_social_sync_changes" js="0">Настройки синхронизации с %s изменены%s: %s.</word>
   <word key="history_social_sync_changed_email" js="0">%s синхронизация email-адреса</word>
   <word key="history_social_sync_changed_name" js="0">%s синхронизация имени пользователя</word>
@@ -9357,7 +9354,7 @@
   <word key="fb_pixel_delay" js="0">Задержка</word>
   <word key="fb_pixel_delay_seconds" js="0">секунд</word>
   <word key="fb_pixel_delay_desc" js="0">Избегайте ретаргетинга отказов, добавив небольшую задержку перед загрузкой и срабатыванием Pixel. Люди, которые проводят на вашей странице мало времени, не будут включаться в вашу аудиторию, и ваши аудитории будут более точными.</word>
-  <word key="fb_pixel_id_desc" js="0"><![CDATA[<a href='{external.facebookpixelid}' target='_blank'>Получить Pixel ID</a>]]></word>
+  <word key="fb_pixel_id_desc" js="0"><![CDATA[<a href='{external.facebookpixelid}' target='_blank' rel='noopener'>Получить Pixel ID</a>]]></word>
   <word key="member_filter_core_group_desc" js="0">в группе %s</word>
   <word key="member_filter_core_joined_range_desc" js="0">зарегистрировавшийся между %s и %s</word>
   <word key="member_filter_core_joined_days_desc" js="0">зарегистрировавшийся более %s дней назад</word>
@@ -9382,15 +9379,15 @@
   <word key="licenseRenewalNo" js="1">Нет, спасибо</word>
   <word key="licenseRenewalYes" js="1">Да, я пройду опрос</word>
   <word key="emoji" js="1">Эмодзи</word>
-  <word key="emoji-category-smileys_people" js="1"><![CDATA[Smileys & People]]></word>
-  <word key="emoji-category-animals_nature" js="1"><![CDATA[Animals & Nature]]></word>
-  <word key="emoji-category-food_drink" js="1"><![CDATA[Food & Drink]]></word>
-  <word key="emoji-category-activities" js="1">Activity</word>
-  <word key="emoji-category-travel_places" js="1"><![CDATA[Travel & Places]]></word>
-  <word key="emoji-category-objects" js="1">Objects</word>
-  <word key="emoji-category-symbols" js="1">Symbols</word>
-  <word key="emoji-category-flags" js="1">Flags</word>
-  <word key="emoji-category-recent" js="1">Recently Used</word>
+  <word key="emoji-category-smileys_people" js="1">Смайлики и люди</word>
+  <word key="emoji-category-animals_nature" js="1">Природа и животные</word>
+  <word key="emoji-category-food_drink" js="1">Еда и напитки</word>
+  <word key="emoji-category-activities" js="1">Занятия</word>
+  <word key="emoji-category-travel_places" js="1">Путешествия и места</word>
+  <word key="emoji-category-objects" js="1">Объекты</word>
+  <word key="emoji-category-symbols" js="1">Символы</word>
+  <word key="emoji-category-flags" js="1">Флаги</word>
+  <word key="emoji-category-recent" js="1">Недавно использованные</word>
   <word key="emoji_skin_tone" js="1">Тон кожи</word>
   <word key="emoji_skin_tone_default" js="1">Стандартный</word>
   <word key="emoji_skin_tone_light" js="1">Светлый</word>
@@ -10978,31 +10975,31 @@
   <word key="pp_third_parties" js="0">Сторонние сервисы</word>
   <word key="pp_privacy_policy" js="0">Политика конфиденциальности</word>
   <word key="pp_desc_captcha" js="0">Этот сайт использует CAPTCHA, что позволяет убедиться в том, что определённые действия совершаются людьми. Провайдер CAPTCHA может устанавливать cookie и получать информацию о вашем интернет-браузере и устройстве, с которого вы посещаете этот веб-сайте.</word>
-  <word key="stream_read_unread_desc" js="0">Непрочитанные ленты содержимого можно просматривать при помощи 'Только элементы'</word>
+  <word key="stream_read_unread_desc" js="0">В лентах непрочитанных публикаций можно отображать &quot;Только публикации&quot;</word>
   <word key="embed__fail_cant_acp" js="0">Здесь это недоступно</word>
   <word key="acp_indev_on" js="0">В настоящий момент этот сайт работает в режиме разработчика</word>
   <word key="acp_designersmode_on" js="0">В настоящий момент этот сайт работает в режиме дизайнера</word>
   <word key="acp_indev_on_title" js="0">Режим разработчика</word>
   <word key="acp_designersmode_on_title" js="0">Режим дизайнера</word>
-  <word key="acp_indev_on_blurb" js="0">В настоящий момент активирован режим разработчика (IN_DEV). Этот режим создан чтобы дать Вам возможность разрабатывать приложения и плагины для  Invision Community и предназначен для продвинутых пользователей.</word>
+  <word key="acp_indev_on_blurb" js="0">В настоящий момент активирован режим разработчика (IN_DEV). Этот режим позволяет вам разрабатывать приложения и плагины для Invision Community и предназначен для продвинутых пользователей.</word>
   <word key="acp_designersmode_on_blurb" js="0">В настоящий момент активирован режим дизайнера. Он позволяет создавать и редактировать стили для Invision Community в среде разработчика.</word>
-  <word key="acp_not_production_tho" js="0"><![CDATA[<strong> Никогда не следует включать этот режим на работающем сайте</strong>]]></word>
+  <word key="acp_not_production_tho" js="0"><![CDATA[<strong>Никогда не следует включать этот режим на работающем сайте.</strong>]]></word>
   <word key="delta_upgrade_upgradeTemplates" js="0">Обновление стилей</word>
-  <word key="download_upgrade_initial_theme_conflicts_title" js="0">Несовместиость {!#[1:Стиля][?:Стилей]}</word>
-  <word key="download_upgrade_initial_theme_conflicts_explain" js="0"><![CDATA[{!#[1:Один из][?:Несколько]} ваших стилей {!#[1:не][?:не]} совместим с версией, до которой вы обновляете, потому что {!#[1:он включает][?:они включают]} изменения в шаблонах и/или файлах CSS которые нужно обновить в этой версии.<br><br><strong>Если вы получили {!#[1:затронутый стиль][?:затронутые стили]} от создателя,</strong> вам следует связаться с ним чтобы проверить наличие крайней версии {!#[1:стиля, доступного][?:стилей, доступных]} для этой версии форума. Если обновления есть, продолжите обновление форума, а после обновите {!#[1:стиль][?:стили]}. Если нет доступного обновления, вы можете удалить {!#[1:этот стиль][?:эти стили]} или подождать когда {!#[1:новая версия станет доступна][?:новые версии станут]} перед продолжением.<br><br><strong>Если вы редактировали {!#[1:затронутый стиль][?:затронутые стили]} сами</strong>, вы можете использовать ссылки ниже чтобы просмотреть ваши изменения. Если эти изменения больше не требуются, вы можете удалить их, в противном случае вам будет нужно внести изменения новой версии в стиль. Для большей информации в изменениях стилей в этой версии, смотрите <a href='{external.themediff}' target='_blank'>Документацию по изменениям в стилях</a>.]]></word>
+  <word key="download_upgrade_initial_theme_conflicts_title" js="0">Несовместимость {!#[1:стиля][?:стилей]}</word>
+  <word key="download_upgrade_initial_theme_conflicts_explain" js="0"><![CDATA[{!#[1:Один из][?:Несколько]} ваших стилей {!#[?:не]} совместим с версией, до которой вы совершаете обновление, потому что {!#[1:он включает][?:они включают]} изменения в шаблонах и/или файлах CSS, которые нужно обновить в этой версии.<br><br><strong>Если вы приобрели {!#[1:затронутый стиль][?:затронутые стили]} у его дизайнера,</strong> вам следует связаться с ним для получения последней актуальной версии {!#[1:стиля, доступного][?:стилей, доступных]} для этой версии форума. Если обновления есть, продолжите обновление форума, а после обновите {!#[1:стиль][?:стили]}. Если нет доступного обновления, вы можете удалить {!#[1:этот стиль][?:эти стили]} или подождать когда {!#[1:новая версия станет доступна][?:новые версии станут]} перед продолжением.<br><br><strong>Если вы редактировали {!#[1:затронутый стиль][?:затронутые стили]} сами</strong>, вы можете использовать ссылки ниже чтобы просмотреть ваши изменения. Если эти изменения больше не требуются, вы можете удалить их, в противном случае вам будет нужно внести изменения новой версии в стиль. Для большей информации в изменениях стилей в этой версии, смотрите <a href='{external.themediff}' target='_blank' rel='noopener'>Документацию по изменениям в стилях</a>.]]></word>
   <word key="download_upgrade_initial_theme_conflicts_tip" js="0"><![CDATA[Совет: Во время просмотра шаблона или файла CSS по одной из ссылок выше, выберите <strong>Показать стандартное</strong> из <i class='fa fa-cog'></i> выпадающего меню для сравнения ваших изменений со стандартными в этой версии.]]></word>
   <word key="ext__MemberExportPersonalInformation" js="0">Добавить дополнительные данные в XML файл персональной информации.</word>
-  <word key="ext__ContentModeratorPermissions" js="0">Добавить права модератора содержимого.</word>
+  <word key="ext__ContentModeratorPermissions" js="0">Добавить права на модерацию публикаций.</word>
   <word key="members_last_activity" js="0">Последняя активность</word>
   <word key="members_allow_admin_emails" js="0">Разрешить массовую рассылку?</word>
-  <word key="allow_admin_emails_any" js="0">Либо да, либо нет</word>
+  <word key="allow_admin_emails_any" js="0">Оба варианта</word>
   <word key="member_search_unsub" js="0">Отписать от массовой рассылки найденных участников</word>
   <word key="member_unsub_no_results" js="0">Нет пользователей для отписки.</word>
   <word key="unsubscribing_members" js="0">Отписывание участников</word>
   <word key="members_queued_for_unsub" js="0">Участники были помещены в очередь на отписку</word>
-  <word key="member_unsub_confirm_msg" js="0">Это действие отпишет {# [1:участника][?:участников]} от получения массовой рассылки. Вы уверены, что хотите продолжить?</word>
-  <word key="g_hide_online_list_desc" js="0"><![CDATA[Если <a href='{internal.app=core&module=settings&controller=login&tab=settings&searchResult=disable_anonymous}' target='_blank'>это разрешено</a>, то пользователи при входе могут указать, хотят ли они входить анонимно, то есть не отображаться в списке пользователей в сети и не отображать свой статус онлайн. Если эта настройка включена, то данное поведение будет игнорироваться и пользователи из этой группы всегда будут входить анонимно.]]></word>
-  <word key="allow_reg_normal_desc_required_warning" js="0"><![CDATA[Вам требуется установить показ пользовательских полей в регистрационной форме. Форма быстрой регистрации не покажет их. Мы рекомендуем вам выбрать либо  'Да, с полной регистрационной формой', либо назначить <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilecompletion}'>шаги заполнения профиля</a> для необходимых полей.]]></word>
+  <word key="member_unsub_confirm_msg" js="0">Это действие отпишет {# [1:участника][?:участников]} от массовой рассылки. Вы уверены, что хотите продолжить?</word>
+  <word key="g_hide_online_list_desc" js="0"><![CDATA[Если <a href='{internal.app=core&module=settings&controller=login&tab=settings&searchResult=disable_anonymous}' target='_blank' rel='noopener'>это разрешено</a>, то пользователи при входе могут указать, хотят ли они входить анонимно, то есть не отображаться в списке пользователей в сети и не отображать свой статус онлайн. Если эта настройка включена, то данное поведение будет игнорироваться и пользователи из этой группы всегда будут входить анонимно.]]></word>
+  <word key="allow_reg_normal_desc_required_warning" js="0"><![CDATA[Вам требуется установить показ пользовательских полей в регистрационной форме. Форма быстрой регистрации не покажет их. Мы рекомендуем вам выбрать либо "Да, с полной формой регистрации", либо настроить <a href='{internal.app=core&module=membersettings&controller=profiles&tab=profilecompletion}'>шаги заполнения профиля</a> для необходимых полей.]]></word>
   <word key="dashboard_recommended_php_version" js="0">Рекомендованная версия PHP</word>
   <word key="dasbhoard_required_mysql_version" js="0">Рекомендованная версия MySQL</word>
   <word key="timezone__Asia/Atyrau" js="0">Атырау</word>
@@ -11017,5 +11014,31 @@
   <word key="import_member_id_warning" js="0">Рекомендуется не указывать колонку с ID пользователя, чтобы он сгенерировался автоматически. Если указано, то ID должен быть числовым значением, меньшим чем %s.</word>
   <word key="import_member_id_invalid" js="0">ID %s является некорректным ID. Должен быть числом, меньшим чем %s.</word>
   <word key="validate_day_prune_desc" js="0">Если включено, тогда все зарегистрированные, но не подтвердившие свои учётные записи пользователи, будут удалены. Это не коснётся пользователей, ожидающих подтверждения после изменения email-адреса.</word>
+  <word key="plugin_file_not_write" js="0">Для создания или установки приложения или плагина, ваш файл plugins/hooks.php должен быть доступен для записи.</word>
+  <word key="login_facebook_https" js="0"><![CDATA[Для использования входа через Facebook вы должны получить SSL сертификат. Свяжитесь с вашим хостинг-провайдером для получения подробной информации. Если у вас уже есть сертификат, убедитесь в том, что он <a href='{internal.app=core&module=settings&controller=login&do=httpsCheck}' data-ipsDialog>настроен корректно</a>.]]></word>
+  <word key="login_facebook_https_cic" js="0"><![CDATA[Для использования входа через Facebook вы должны получить SSL сертификат. <a href='{external.client_area}' target='_blank' rel='noopener'>Свяжитесь с нами для получения подробной информации</a>]]></word>
+  <word key="member_filter_bulk_mail" js="0">Подписка пользователя на массовую рассылку</word>
+  <word key="member_filter_bulk_mail_on" js="0">В данный момент не подписан</word>
+  <word key="member_filter_bulk_mail_off" js="0">В данный момент подписан</word>
+  <word key="reindexing_single_item" js="0"><![CDATA[Переиндексация <a href='%s' target='_blank' rel='noopener'>%s</a>]]></word>
+  <word key="reindexing_single_item_comments" js="0"><![CDATA[Переиндексация комментариев к <a href='%s' target='_blank' rel='noopener'>%s</a>]]></word>
+  <word key="reindexing_single_item_reviews" js="0"><![CDATA[Переиндексация отзывов к <a href='%s' target_'_blank' rel='noopener'>%s</a>]]></word>
+  <word key="datastore_method_Redis_desc" js="0">Необходимо также ниже включить Redis для кэширования, чтобы использовать его для метода хранения данных</word>
+  <word key="datastore_redis_cache" js="0">Необходимо также включить Redis для кэширования, чтобы использовать его для метода хранения данных</word>
+  <word key="facebook_https_warning_title" js="0">Требуются дополнительные действия для работы входа через Facebook</word>
+  <word key="facebook_https_warning_title2" js="0">Вход через Facebook не работает</word>
+  <word key="facebook_https_warning_desc" js="0"><![CDATA[Facebook <a href='{external.facebook_https}' target='_blank' rel='noopener'>недавно объявил</a> о том, что с <strong>6 октября 2018 года</strong> все сайты, использующие вход через Facebook, должны использовать HTTPs. Для продолжения использования входа через Facebook вы должны получить SSL сертификат. Свяжитесь с вашим хостинг-провайдером для получения подробной информации или, если у вас уже есть сертификат, убедитесь в том, что он <a href='{internal.app=core&module=settings&controller=login&do=httpsCheck}' data-ipsDialog>настроен корректно</a>. Если вы не сделаете этого, то вход через Facebook перестанет работать 6 октября 2018 года.]]></word>
+  <word key="facebook_https_warning_desc_cic" js="0"><![CDATA[Facebook <a href='{external.facebook_https}' target='_blank' rel='noopener'>недавно объявил</a> о том, что с <strong>6 октября 2018 года</strong> все сайты, использующие вход через Facebook, должны использовать HTTPs. Для продолжения использования входа через Facebook вы должны получить SSL сертификат. <a href='{external.client_area}' target='_blank' rel='noopener'>Свяжитесь с нами для получения подробной информации</a>. Если вы не сделаете этого, то вход через Facebook перестанет работать 6 октября 2018 года.]]></word>
+  <word key="acplog__support_tool_ran" js="0">Запущены инструменты поддержки</word>
+  <word key="search_blurb_date_between" js="0">между %s и %s</word>
+  <word key="promote_facebook_auth_choose" js="0">Использовать приложение Facebook</word>
+  <word key="promote_facebook_auth_choose_default" js="0">Использовать то же приложение Facebook, как и для метода входа</word>
+  <word key="promote_facebook_auth_choose_custom" js="0">Использовать другое приложение Facebook для социального продвижения</word>
+  <word key="promote_facebook_auth_choose_custom_desc" js="0"><![CDATA[Этот вариант может использоваться для прохождения проверки приложения в Facebook, настроив <a href='{external.facebook-test-apps}' target='_blank'>тестовое приложение Facebook</a>.]]></word>
+  <word key="promote_facebook_auth_id" js="0">ID приложения</word>
+  <word key="promote_facebook_auth_secret" js="0">Секретный ключ</word>
+  <word key="promote_facebook_sorted" js="0">Настройка Facebook завершена</word>
+  <word key="promote_facebook_done" js="0">Спасибо!</word>
+  <word key="promote_facebook_done_text" js="0">Вы привязали свой аккаунт, теперь вы можете закрыть это окно и вернуться в Админцентр.</word>
  </app>
 </language>

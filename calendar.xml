@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="103028">
+ <app key="calendar" version="103039">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -64,7 +64,7 @@
   <word key="calendar_custom_df" js="0">Или укажите пользовательский формат даты</word>
   <word key="calendar_date_format" js="0">Формат даты событий</word>
   <word key="calendar_date_format_custom" js="0">Пользовательский формат даты</word>
-  <word key="calendar_date_format_custom_desc" js="0"><![CDATA[Вы можете использовать любые параметры <a href='{external.php-strftime}' target='_blank'>PHP strftime</a> для указания пользовательских форматов дат в календаре]]></word>
+  <word key="calendar_date_format_custom_desc" js="0"><![CDATA[Вы можете использовать любые параметры <a href='{external.php-strftime}' target='_blank' rel='noopener'>PHP strftime</a> для указания пользовательских форматов дат в календаре]]></word>
   <word key="calendar_no_date_format" js="0">Вы должны выбрать определенный формат даты или задать пользовательский</word>
   <word key="calendars" js="0">Календари</word>
   <word key="calendars_sg" js="0">Календарь</word>
