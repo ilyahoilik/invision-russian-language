@@ -11052,15 +11052,15 @@
   <word key="guest_post_sign_in" js="0"><![CDATA[Если у вас ест ьаккаунт, <a href='{internal.front.app=core&module=system&controller=login}' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-title='Войти сейчас'>войдите в него</a> для написания от своего имени.]]></word>
   <word key="follow_guest_key_not_found" js="0">Публикация, от которой вы хотите отписаться, не найдена. Это может произойти если вы, к сожалению, от неё уже отписались. Войдите в свой аккаунт для проверки настроек подписок.</word>
   <word key="guest_unfollow_choice" js="0">Вы хотите:</word>
-  <word key="follow_guest_unfollow_title" js="0">Остановить email-уведомления</word>
-  <word key="follow_guest_unfollow_thing" js="0">Остановить email-уведомления &quot;%s&quot;</word>
+  <word key="follow_guest_unfollow_title" js="0">Остановить уведомления</word>
+  <word key="follow_guest_unfollow_thing" js="0">Остановить email-уведомления о &quot;%s&quot;</word>
   <word key="follow_guest_unfollow_thing_desc" js="0">Вы всё ещё подписаны на публикацию, но не будете получать о ней email-уведомлений.</word>
-  <word key="follow_guest_unfollow_all" js="0">Остановить email-письма обо всех {!# [?:публикациях]}, на которые вы подписаны</word>
-  <word key="follow_guest_unfollow_all_desc" js="0"><![CDATA[<a href='{internal.app=core&module=system&controller=login&ref=%s}'>Войти</a> для выбора email-уведомлений, которые нужно приостановить.]]></word>
+  <word key="follow_guest_unfollow_all" js="0">Остановить email-уведомления от {!# [1:публикации, на которую][?:всех # публикаций, на которые]} вы подписаны</word>
+  <word key="follow_guest_unfollow_all_desc" js="0"><![CDATA[<a href='{internal.app=core&module=system&controller=login&ref=%s}'>Войти</a> для выбора публикаций, от которых не нужно получать email-уведомлений.]]></word>
   <word key="follow_guest_unfollowed_thing" js="0">Вы отписались от email-уведомлений &quot;%s&quot;</word>
   <word key="follow_guest_unfollowed_all" js="0">Вы отписались от всех email-уведомлений</word>
-  <word key="follow_guest_followed_by" js="0"><![CDATA[Подписан как %s. Не %s? <a href='{internal.app=core&module=system&controller=login}'>Войти</a>]]></word>
-  <word key="follow_guest_not_notified" js="0">Вы не получаете email-уведомлений об этом</word>
+  <word key="follow_guest_followed_by" js="0"><![CDATA[Подписан как %s. Вы не %s? <a href='{internal.app=core&module=system&controller=login}'>Войти</a>]]></word>
+  <word key="follow_guest_not_notified" js="0">Вы не получаете email-уведомлений об этой публикации</word>
   <word key="demo_mode_function_blocked" js="0">Этот функционал недоступен в демо-режиме.</word>
   <word key="form_interval_min_s" js="0">Значение должно быть больше {# [*1:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]}.</word>
   <word key="form_interval_min_i" js="0">Значение должно быть больше {# [*1:минуты][*11:минут][*12:минут][*13:минут][*14:минут][?:минут]}.</word>
