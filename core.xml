@@ -3701,7 +3701,7 @@
   <word key="theme_css" js="0">CSS</word>
   <word key="theme_wrap" js="0">Переносить строки</word>
   <word key="theme_show_line" js="0">Отображать номера строк</word>
-  <word key="theme_show_original" js="0">Стандартный</word>
+  <word key="theme_show_original" js="0">Сравнить с оригиналом</word>
   <word key="theme_variables" js="0">Переменные...</word>
   <word key="theme_attributes" js="0">Атрибуты...</word>
   <word key="theme_edit_css" js="0">Изменить атрибуты CSS</word>
@@ -6046,7 +6046,7 @@
   <word key="no_punishment" js="0">Нет наказаний</word>
   <word key="warn_member" js="0">Предупредить %s</word>
   <word key="warn__save" js="0">Выдать предупреждение</word>
-  <word key="warn_punishment" js="0">Нарушение</word>
+  <word key="warn_punishment" js="0">Наказание</word>
   <word key="warning_issued" js="0">Предупреждение выдано</word>
   <word key="previous_warnings" js="0">Предыдущие предупреждения</word>
   <word key="warning_byline" js="0">Предупреждение выдано %s</word>

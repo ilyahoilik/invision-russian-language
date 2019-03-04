@@ -80,7 +80,7 @@
   <word key="submit_entry" js="0">Создать новую запись</word>
   <word key="blog_entry_title" js="0">Заголовок</word>
   <word key="blog_entry_tags" js="0">Теги</word>
-  <word key="blog_entry_auto_follow_suffix" js="0">Уведомлять меня, когда другие пользователи отправляют комментарии</word>
+  <word key="blog_entry_auto_follow_suffix" js="0">Уведомлять меня при публикации других комментариев</word>
   <word key="blog_entry_content" js="0">Публикация</word>
   <word key="blog_entry_date" js="0">Время публикации</word>
   <word key="blog_entry_publish" js="0">Опубликовать запись</word>
