@@ -223,7 +223,7 @@
   <word key="event_rpm_ends_afterx" js="0">После</word>
   <word key="event_rpm_ends_occurrencesx" js="0">повторений</word>
   <word key="event_rpm_ends_date" js="0">До</word>
-  <word key="event_auto_follow_suffix" js="0">Уведомлять меня при публикации новых комментариев</word>
+  <word key="event_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
   <word key="event_rsvp_limit" js="0">Лимит участников</word>
   <word key="event_rsvp_limit_desc" js="0">После достижения лимита, возможность подтверждения участия будет закрыта.</word>
   <word key="event_cover_photo" js="0">Обложка события</word>

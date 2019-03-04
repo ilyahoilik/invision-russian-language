@@ -252,7 +252,7 @@
   <word key="image_title" js="0">Заголовок</word>
   <word key="image_ipaddress" js="0">IP-адрес</word>
   <word key="image_tags" js="0">Теги</word>
-  <word key="image_auto_follow_suffix" js="0">Уведомлять меня о комментариях</word>
+  <word key="image_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
   <word key="image_description" js="0">Описание</word>
   <word key="image_credit_info" js="0">Авторское право</word>
   <word key="image_credit_info_desc" js="0">Если источник изображение должен быть указан, введите его в это поле</word>

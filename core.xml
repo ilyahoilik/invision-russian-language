@@ -920,7 +920,7 @@
   <word key="filter" js="0">Фильтр</word>
   <word key="last_reply" js="0">Последний ответ</word>
   <word key="member_id" js="0">ID пользователя</word>
-  <word key="submit_reply" js="0">Отправить ответ</word>
+  <word key="submit_reply" js="0">Добавить ответ</word>
   <word key="submit_comment" js="0">Отправить комментарий</word>
   <word key="final_comment_content" js="0">Окончательное содержимое комментария</word>
   <word key="final_comment_content_desc" js="0">Вы можете ввести окончательное содержимое комментария, которое будет сохранено после объединения.</word>
@@ -5159,7 +5159,7 @@
   <word key="messenger_content" js="0">Сообщение</word>
   <word key="messenger_to" js="0">Получатель</word>
   <word key="messenger__save" js="0">Отправить</word>
-  <word key="messenger_submit_comment" js="0">Отправить ответ</word>
+  <word key="messenger_submit_comment" js="0">Добавить ответ</word>
   <word key="messenger_folder_unread" js="0">Непрочитанные сообщения</word>
   <word key="messenger_folder_inbox" js="0">Входящие</word>
   <word key="messenger_folder_drafts" js="0">Черновики</word>
@@ -7192,7 +7192,7 @@
   <word key="security_questions_save" js="0">Сохранить контрольные вопросы</word>
   <word key="security_questions_unique" js="0">Вы должны предоставить {!# [*1:ответ на # контрольный вопрос][*2:ответы на # контрольных вопроса][*3:ответы на # контрольных вопроса][*4:ответы на # контрольных вопроса][*11:ответы на # контрольных вопросов][*12:ответы на # контрольных вопросов][*13:ответы на # контрольных вопросов][*14:ответы на # контрольных вопросов][1:ответ на контрольный вопрос][?:ответы на # контрольных вопросов]}.</word>
   <word key="security_questions_auth_blurb" js="0">Для защиты вашего аккаунта, пожалуйста, ответьте на следующий контрольный вопрос.</word>
-  <word key="security_answer_submit" js="0">Отправить ответ</word>
+  <word key="security_answer_submit" js="0">Добавить ответ</word>
   <word key="security_answer_incorrect" js="0">Ответ неправильный. Попробуйте ещё раз.</word>
   <word key="security_questions_groups" js="0">Группы, которые могут использовать контрольные вопросы</word>
   <word key="security_questions_prompt" js="0">Запрашивать контрольные вопросы при регистрации?</word>
@@ -8096,7 +8096,7 @@
   <word key="editorQuoteBreakout" js="1">Удалить цитату и оставить содержимое</word>
   <word key="editorQuoteRemove" js="1">Удалить цитату</word>
   <word key="editorSaid" js="1">опубликовал(а):</word>
-  <word key="submit_reply" js="1">Отправить ответ</word>
+  <word key="submit_reply" js="1">Добавить ответ</word>
   <word key="editorPrefsButton" js="1">Настройки</word>
   <word key="editorPrefsPAPT" js="1">Всегда вставлять просто текст</word>
   <word key="editorSpoiler" js="1">Скрытый текст</word>

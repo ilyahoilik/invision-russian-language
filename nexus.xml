@@ -1279,7 +1279,7 @@
   <word key="support_container" js="0">Отделы</word>
   <word key="module__nexus_support" js="0">Поддержка</word>
   <word key="support__comment_placeholder" js="0">Ответить на этот запрос...</word>
-  <word key="support_submit_comment" js="0">Отправить ответ</word>
+  <word key="support_submit_comment" js="0">Добавить ответ</word>
   <word key="support__note_placeholder" js="0">Добавить примечание...</word>
   <word key="support_ppi" js="0">Необходимо оплатить %s для отправки запроса в %s.</word>
   <word key="support_charge" js="0">Стоимость поддержки</word>
