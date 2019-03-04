@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="104005">
+ <app key="gallery" version="104009">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -804,5 +804,10 @@
   <word key="gallery_this_will_be_moderated" js="0">Из-за полученного предупреждения, ваши изображения будут скрыты до тех пор, пока модератор не проверит их.</word>
   <word key="EXIF.UndefinedTag:0xA434" js="0">Модель объектива</word>
   <word key="emailtpl__imageContent" js="0">Таблица для изображения Галереи</word>
+  <word key="node_mass_move_delete_albums" js="0">Переместить / удалить альбомы</word>
+  <word key="acplog__catalbum_mass_move" js="0">Массовое перемещение альбомов %s из %s в %s</word>
+  <word key="acplog__catalbum_mass_delete" js="0">Массовое удаление альбомов %s из %s</word>
+  <word key="galnode_mass_content_move_blurb" js="0"><![CDATA[<strong>Альбомы %s</strong> будут перемещены в %s.]]></word>
+  <word key="galnode_mass_content_delete_blurb" js="0"><![CDATA[<strong>Альбомы %s</strong> будут <strong>удалены</strong>.]]></word>
  </app>
 </language>

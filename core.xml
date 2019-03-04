@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104005">
+ <app key="core" version="104009">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.0">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.1">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -1117,8 +1117,8 @@
   <word key="error_technical_details_dev" js="0">Эти сведения всегда отображаются в режиме разработчика</word>
   <word key="faulty_plugin" js="0"><![CDATA[Эта ошибка, возможно, вызвана плагином %s.<br>Если проблема сохраняется, <a href="%s" target="_blank" rel='noopener'>отключите</a> его и свяжитесь с его автором для получения помощи.]]></word>
   <word key="faulty_app" js="0"><![CDATA[Эта ошибка, возможно, вызвана приложением %s.<br>Если проблема сохраняется, <a href="%s" target="_blank" rel='noopener'>отключите</a> его и свяжитесь с его автором для получения помощи.]]></word>
-  <word key="login_err_no_account" js="0">Введённый %s не связан ни с одним аккаунтом. Убедитесь, что вы ввели корректное значение.</word>
-  <word key="login_err_bad_password" js="0">Введённый пароль является некорректным. Попробуйте ещё раз (убедитесь, что Caps Lock выключен).</word>
+  <word key="login_err_no_account" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз (убедитесь, что Caps Lock выключен).</word>
+  <word key="login_err_bad_password" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз (убедитесь, что Caps Lock выключен).</word>
   <word key="login_err_locked_unlock" js="0">Ваш аккаунт заблокирован. Повторите попытку через {# [*1:минуту][*2:минуты][*3:минуты][*4:минуты][*11:минут][*12:минут][*13:минут][*14:минут][?:минут]}</word>
   <word key="login_err_locked_nounlock" js="0">Ваш аккаунт заблокирован. Повторите попытку позже.</word>
   <word key="sign_in_with_these" js="0">Или войдите с помощью этих сервисов</word>
@@ -6271,8 +6271,8 @@
   <word key="replog_like_item_no_recipient_no_in" js="0">%s понравилось %s</word>
   <word key="replog_like_comment_no_recipient" js="0"><![CDATA[%s понравилось <a href='%s'>%s</a> в]]></word>
   <word key="replog_like_comment_no_recipient_no_in" js="0"><![CDATA[%s понравилось <a href='%s'>%s</a>]]></word>
-  <word key="replog_member_and_one_other" js="0"><![CDATA[%s и <a href='%s' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='Все пользователи' title='Показать всех пользователей' data-ipsTooltip>ещё один</a>]]></word>
-  <word key="replog_member_and_x_other" js="0"><![CDATA[%s и <a href='%s' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='Все пользователи' title='Показать всех пользователей' data-ipsTooltip>ещё %s</a>]]></word>
+  <word key="replog_member_and_one_other" js="0"><![CDATA[%s и <a href='%s' data-ipsDialog data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='Все пользователи' title='Показать всех пользователей' data-ipsTooltip>ещё один</a>]]></word>
+  <word key="replog_member_and_x_other" js="0"><![CDATA[%s и <a href='%s' data-ipsDialog data-ipsDialog-destructOnClose data-ipsDialog-size='narrow' data-ipsDialog-title='Все пользователи' title='Показать всех пользователей' data-ipsTooltip>ещё %s</a>]]></word>
   <word key="online_users" js="0">Пользователи в сети</word>
   <word key="online_users_member_name" js="0">По имени пользователя</word>
   <word key="online_users_location_lang" js="0">Активность</word>
@@ -8391,7 +8391,7 @@
   <word key="unrestricted" js="0">Без ограничений</word>
   <word key="no_attachment_permission" js="0">Это вложение недоступно. Оно могло быть удалено или пользователь, который поделился им, может не иметь прав на это в этой области.</word>
   <word key="invalid_guestgroup_admin" js="0">Ваша настройка группы Гости некорректна. Пожалуйста, проверьте ваш файл conf_global.php и убедитесь в том, что идентификатор группы корректен.</word>
-  <word key="login_bad_username_or_password" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз.</word>
+  <word key="login_bad_username_or_password" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз (убедитесь, что Caps Lock выключен).</word>
   <word key="reauthenticate_password_blurb" js="0">Для подтверждения этих изменений, пожалуйста, введите свой пароль:</word>
   <word key="reauthenticate_password_blurb2" js="0">Введите свой пароль:</word>
   <word key="reauthenticate_alt_blurb" js="0">Или войдите с помощью одного из этих сервисов:</word>
@@ -11473,5 +11473,9 @@
   <word key="emailstats__notification_embed" js="0">Уведомление о встраивании публикации пользователя</word>
   <word key="emailstats__" js="0">Другое</word>
   <word key="dashboard_datastore_broken_desc_cic" js="0"><![CDATA[Хранилище данных работает некорректно, пожалуйста <a href='{internal.app=core&module=support&controller=support&_new=1}'>свяжитесь с поддержкой</a> для получения помощи.]]></word>
+  <word key="delta_upgrade_fail_cic_head" js="0">Последние файлы были загружены</word>
+  <word key="delta_upgrade_fail_cic_desc" js="0">Последние файлы из этого обновления были загружены на ваш сайт.</word>
+  <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[Вы можете продолжить <span data-role='counter'>через 5 минут</span>.]]></word>
+  <word key="member_photo_remove" js="0">Удалить мой аватар</word>
  </app>
 </language>
