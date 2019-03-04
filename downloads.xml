@@ -529,7 +529,7 @@
   <word key="enable_purchases" js="0">Включить покупки</word>
   <word key="purchasing_disabled" js="0">Этот файл в данный момент недоступен для покупки.</word>
   <word key="downloadcategory_topic_rebuild" js="0"><![CDATA[<a href='%s' data-confirm data-confirmMessage='Перестроить темы' data-confirmSubMessage='Это изменит первые сообщения всех тем, опубликованных файлами в этой категории, для соответствия текущим настройкам. Это может быть полезно, если вы изменили некоторые настройки. Для всех файлов, у которых ещё нет темы, она будет создана. Перестроение будет произведено в фоновом режиме и вы сможете видеть прогресс на главной панели Админцентра.'>Перестроить содержание тем</a>]]></word>
-  <word key="cf_format_desc" js="0"><![CDATA[Пример: <strong>{title}:</strong> {content}]]></word>
+  <word key="cf_format_desc" js="0"><![CDATA[Пример: &lt;strong&gt;{title}:&lt;/strong&gt; {content}]]></word>
   <word key="downloads_field_location" js="0">Место отображения</word>
   <word key="idm_cfield_below" js="0">Под описанием</word>
   <word key="idm_cfield_tab" js="0">На отдельной вкладке</word>

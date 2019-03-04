@@ -2973,7 +2973,7 @@
   <word key="tags_desc_len_max" js="0">Каждый тег должен быть не длиннее %d символов.</word>
   <word key="use_first_tag_as_prefix" js="0">Использовать первый тег как префикс</word>
   <word key="prefix_noscript" js="0">Префикс:</word>
-  <word key="select_prefix" js="0"><![CDATA[<span class='ipsType_light ipsType_unbold'>Префикс:</span>  Нет]]></word>
+  <word key="select_prefix" js="0"><![CDATA[<span class='ipsType_light ipsType_unbold'>Префикс:</span>&nbsp; Нет]]></word>
   <word key="set_prefix_to" js="0">Установить префикс для</word>
   <word key="no_prefix" js="0"><![CDATA[<em>Без префикса</em>]]></word>
   <word key="edit_tags" js="0">Изменить теги</word>
@@ -4011,7 +4011,7 @@
   <word key="analytics_piwik_desc" js="0"><![CDATA[Войдите в свой аккаунт <a href='{external.piwik}' target='_blank' rel='noopener'>Piwik</a>, нажмите на своё имя пользователя в верхнем-правом углу и нажмите <em>Настройки</em>. Нажмите <em>Код отслеживания</em> в левом меню для отображения сниппета с кодом отслеживания. Скопируйте его и вставьте в блок выше для добавления кода отслеживания на ваше сообщество.<br>Мы автоматически зарегистрируем просмотр страницы в Piwik при динамической загрузке контента на страницу.]]></word>
   <word key="analytics_provider_piwik" js="0">Matomo</word>
   <word key="analytics_custom" js="0">Код отслеживания</word>
-  <word key="analytics_custom_desc" js="0"><![CDATA[Если вы используете сервис аналитики, которого нет в списке выше, и он предоставляет JavaScript-код отслеживания для вставки его на страницы сайта, то вставьте его в блок выше. Мы добавим его на каждую страницу сообщество перед тегом &lt;/body>.]]></word>
+  <word key="analytics_custom_desc" js="0"><![CDATA[Если вы используете сервис аналитики, которого нет в списке выше, и он предоставляет JavaScript-код отслеживания для вставки его на страницы сайта, то вставьте его в блок выше. Мы добавим его на каждую страницу сообщество перед тегом &lt;/body&gt;.]]></word>
   <word key="analytics_provider_custom" js="0">Другой</word>
   <word key="analytics_none" js="0">Нет</word>
   <word key="spamprevention_flagging" js="0">Пометка спамером</word>
@@ -4355,6 +4355,7 @@
   <word key="attach_date" js="0">Загружен</word>
   <word key="attach_member_id" js="0">Загрузил</word>
   <word key="attach_hits" js="0">Скачиваний</word>
+  <word key="attach_type" js="0"><![CDATA[&nbsp;]]></word>
   <word key="attach_ext" js="0">Расширение</word>
   <word key="attach_filesize_desc" js="0">В байтах</word>
   <word key="attach_view_locations" js="0">Просмотр расположений</word>
@@ -6873,7 +6874,7 @@
   <word key="requirements_mysql_utf8_fail" js="0">Все или некоторые таблицы в базе не используют сравнение UTF-8 (%s).</word>
   <word key="requirements_mysql_utf8_info" js="0">%s %s</word>
   <word key="err_not_writable" js="0">Директория %s не имеет прав на запись. Пожалуйста, измените права доступа на 0777</word>
-  <word key="err_tmp_dir_create" js="0"><![CDATA[Ваш сервер не разрешает хранить временные файлы в настроенной временной директории. Для корректной работы, пожалуйста, создайте файл constants.php в %s и добавьте следующую строку:<br><br><span><?php<br><br>define( 'TEMP_DIRECTORY', dirname( __FILE__ ) . '/uploads' );</span>]]></word>
+  <word key="err_tmp_dir_create" js="0"><![CDATA[Ваш сервер не разрешает хранить временные файлы в настроенной временной директории. Для корректной работы, пожалуйста, создайте файл constants.php в %s и добавьте следующую строку:<br><br><span>&lt;?php<br><br>define( 'TEMP_DIRECTORY', dirname( __FILE__ ) . '/uploads' );</span>]]></word>
   <word key="err_tmp_dir_adjust" js="0"><![CDATA[Ваш сервер не разрешает хранить временные файлы в настроенной временной директории. Для корректной работы, пожалуйста, откройте файл constants.php, находящийся в %s и добавьте следующую строку:<br><br><span>define( 'TEMP_DIRECTORY', dirname( __FILE__ ) . '/uploads' );</span>]]></word>
   <word key="requirements_file_system" js="0">к файловой системе</word>
   <word key="requirements_file_writable" js="0">Каталог %s доступен для записи</word>
@@ -8059,7 +8060,7 @@
   <word key="editorLinkButtonRemove" js="1">Удалить ссылку</word>
   <word key="editorImageButtonEdit" js="1">Изменить изображение</word>
   <word key="editorImageButton" js="1">Изображение</word>
-  <word key="editorImageMaxWidth" js="1">Ширина должны быть менее {{maxheight}}px</word>
+  <word key="editorImageMaxWidth" js="1">Ширина должны быть менее {{maxwidth}}px</word>
   <word key="editorImageMaxHeight" js="1">Высота должны быть менее {{maxheight}}px</word>
   <word key="editorPreview" js="1">Предварительный просмотр</word>
   <word key="loadingLinkTitle" js="1">Загрузка заголовка ссылки...</word>
@@ -8172,8 +8173,8 @@
   <word key="day_6_short" js="1">Сб</word>
   <word key="originalPost" js="1">Оригинальное сообщение</word>
   <word key="unsavedContentConfirm" js="1">У вас есть несохранённая публикация. Вы действительно хотите уйти?</word>
-  <word key="selectedPrefix" js="1"><![CDATA[<span class='ipsType_light ipsType_unbold'>Префикс:</span> {{tag}}]]></word>
-  <word key="selectPrefix" js="1"><![CDATA[<span class='ipsType_light ipsType_unbold'>Префикс:</span> Нет]]></word>
+  <word key="selectedPrefix" js="1"><![CDATA[<span class='ipsType_light ipsType_unbold'>Префикс:</span>&nbsp; {{tag}}]]></word>
+  <word key="selectPrefix" js="1"><![CDATA[<span class='ipsType_light ipsType_unbold'>Префикс:</span>&nbsp; Нет]]></word>
   <word key="selectedNone" js="1">Ничего</word>
   <word key="tagsUpdated" js="1">Теги были обновлены</word>
   <word key="tagRemoved" js="1">Тег удалён</word>
@@ -8302,7 +8303,7 @@
   <word key="errorLoadingStream" js="1">Извините, возникла ошибка при загрузке активности.</word>
   <word key="loadNewActivity" js="1">Загрузить больше активности</word>
   <word key="noMoreActivity" js="1">Больше нет активности для отображения</word>
-  <word key="autoUpdateStopped" js="1"><![CDATA[<i class='fa fa-pause'></i> Обновите страницу для возобновления авто-обновлений]]></word>
+  <word key="autoUpdateStopped" js="1"><![CDATA[<i class='fa fa-pause'></i> Обновите страницу для возобновления авто-обновлений &nbsp;&nbsp;]]></word>
   <word key="streamDefaultTooltip" js="1">Мы также добавили вашу ленту {{title}} сюда для быстрого доступа</word>
   <word key="streamFilter_stream_include_comments_0" js="1">Только публикации</word>
   <word key="streamFilter_stream_include_comments_1" js="1">Публикации, комментарии и отзывы</word>
@@ -10996,7 +10997,7 @@
   <word key="acplog__members_mass_delete" js="0">Массово удалены пользователи</word>
   <word key="acplog__members_mass_move" js="0">Массово перемещены пользователи</word>
   <word key="acplog__members_mass_unsub" js="0">Массово отписаны пользователи</word>
-  <word key="import_name_too_long" js="0">Имя пользователя слишком длинное. Должно быть короче 255 символов.</word>
+  <word key="import_name_too_long" js="0">Имя пользователя %s слишком длинное. Должно быть короче 255 символов.</word>
   <word key="import_email_too_long" js="0">Email-адрес %s слишком длинный. Должен быть короче 255 символов.</word>
   <word key="import_member_id_warning" js="0">Рекомендуется не указывать колонку с ID пользователя, чтобы он сгенерировался автоматически. Если указано, то ID должен быть числовым значением, меньшим чем %s.</word>
   <word key="import_member_id_invalid" js="0">ID %s является некорректным ID. Должен быть числом, меньшим чем %s.</word>
