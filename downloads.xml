@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="103039">
+ <app key="downloads" version="104005">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -375,10 +375,10 @@
   <word key="top_year" js="0">Год</word>
   <word key="top_alltime" js="0">Все</word>
   <word key="top_avg_rating" js="0">Средний рейтинг файла</word>
-  <word key="top_submitters_empty__week" js="0">Нет лучших авторов файлов на этой неделе</word>
-  <word key="top_submitters_empty__month" js="0">Нет лучших авторов файлов в этом месяце</word>
-  <word key="top_submitters_empty__year" js="0">Нет лучших авторов файлов в этом году</word>
-  <word key="top_submitters_empty__all" js="0">Нет лучших авторов файлов</word>
+  <word key="top_submitters_empty__week" js="0">Нет рейтинга на этой неделе</word>
+  <word key="top_submitters_empty__month" js="0">Нет рейтинга в этом месяце</word>
+  <word key="top_submitters_empty__year" js="0">Нет рейтинга в этом году</word>
+  <word key="top_submitters_empty__all" js="0">Нет рейтинга файлов</word>
   <word key="member__downloads_Downloads" js="0">Файлы</word>
   <word key="idm_block_submissions" js="0">Разрешить добавлять файлы</word>
   <word key="idm_block_submissions_desc" js="0">Каждая категория имеет права доступа на добавление файлов в неё. Если выключено, пользователи не смогут добавить никаких файлов. Если включено, будут унаследованы настройки родительской категории.</word>
@@ -414,8 +414,8 @@
   <word key="block_fileFeed" js="0">Лента файлов</word>
   <word key="block_fileFeed_desc" js="0">Создаёт ленту файлов</word>
   <word key="widget_feed_container_downloads_file" js="0">Категории</word>
-  <word key="block_topSubmitters" js="0">Лучшие авторы</word>
-  <word key="block_topSubmitters_desc" js="0">Отображать лучших авторов</word>
+  <word key="block_topSubmitters" js="0">Лучшие авторы файлов</word>
+  <word key="block_topSubmitters_desc" js="0">Отображает лучших авторов файлов на основе рейтинга</word>
   <word key="block_downloadStats" js="0">Статистика скачиваний</word>
   <word key="block_downloadStats_desc" js="0">Отображать статистику скачиваний</word>
   <word key="block_topDownloads" js="0">Самые скачиваемые</word>
@@ -528,5 +528,12 @@
   <word key="disable_purchases" js="0">Отключить покупки</word>
   <word key="enable_purchases" js="0">Включить покупки</word>
   <word key="purchasing_disabled" js="0">Этот файл в данный момент недоступен для покупки.</word>
+  <word key="downloadcategory_topic_rebuild" js="0"><![CDATA[<a href='%s' data-confirm data-confirmMessage='Перестроить темы' data-confirmSubMessage='Это изменит первые сообщения всех тем, опубликованных файлами в этой категории, для соответствия текущим настройкам. Это может быть полезно, если вы изменили некоторые настройки. Для всех файлов, у которых ещё нет темы, она будет создана. Перестроение будет произведено в фоновом режиме и вы сможете видеть прогресс на главной панели Админцентра.'>Перестроить содержание тем</a>]]></word>
+  <word key="cf_format_desc" js="0"><![CDATA[Пример: <strong>{title}:</strong> {content}]]></word>
+  <word key="downloads_field_location" js="0">Место отображения</word>
+  <word key="idm_cfield_below" js="0">Под описанием</word>
+  <word key="idm_cfield_tab" js="0">На отдельной вкладке</word>
+  <word key="idm_cfield_sidebar" js="0">В боковом блоке</word>
+  <word key="emailstats__notification_new_file_version" js="0">Уведомление о новой версии файла</word>
  </app>
 </language>

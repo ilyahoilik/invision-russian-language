@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="gallery" version="103039">
+ <app key="gallery" version="104005">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -14,7 +14,7 @@
   <word key="__defart_gallery_album" js="0">альбом в галерее</word>
   <word key="module__gallery_stats" js="0">Статистика</word>
   <word key="search_contextual_item_gallery_image" js="0">В этом изображении</word>
-  <word key="album_user_own_activity_item" js="0">%s добавил изображения в %s в</word>
+  <word key="album_user_own_activity_item" js="0">%2$s добавил изображения в %1$s в</word>
   <word key="menu__gallery_gallery" js="0">Галерея</word>
   <word key="menu__gallery_gallery_categories" js="0">Категории</word>
   <word key="menu__gallery_gallery_albums" js="0">Альбомы</word>
@@ -539,7 +539,7 @@
   <word key="IFD0.Copyright" js="0">Копирайт</word>
   <word key="IFD0.XResolution" js="0">X-Разрешение</word>
   <word key="IFD0.YResolution" js="0">Y-Разрешение</word>
-  <word key="IFD0.DateTime" js="0">Дата съёмки</word>
+  <word key="IFD0.DateTime" js="0">Последнее изменение</word>
   <word key="IFD0.Orientation" js="0">Ориентация</word>
   <word key="IFD0.Orientation_map_1" js="0">Нулевая строка в верхней части изображения, и нулевая колонка в левой части изображения</word>
   <word key="IFD0.Orientation_map_2" js="0">Нулевая строка в верхней части изображения, и нулевая колонка в правой части изображения</word>
@@ -789,5 +789,20 @@
   <word key="imageUploadErrors" js="1">У {# [0:изображений][1:изображения][*1:изображения][?:изображений]} присутствуют ошибки</word>
   <word key="imageUploadErrorsDesc" js="1">Исправьте ошибки в {# [1:отмеченном изображении][*1:отмеченном изображении][?:отмеченных изображениях]} и отправьте еще раз.</word>
   <word key="bandwidth_use_gallery" js="0">Использовано трафика</word>
+  <word key="g_download_original" js="0">Может скачивать оригинальное изображение?</word>
+  <word key="g_download_original_desc" js="0">Пользователи по-прежнему смогут скачать полные версии изображений через свой браузер</word>
+  <word key="g_download_raw" js="0">Да, без водяного знака</word>
+  <word key="g_download_watermarked" js="0">Да, с водяным знаком</word>
+  <word key="g_download_none" js="0">Нет</word>
+  <word key="category_allow_albums_club" js="0">Разрешить альбомы?</word>
+  <word key="gallery_maps_default" js="0">Включить карты по умолчанию</word>
+  <word key="gallery_maps_default_desc" js="0">Пользователи смогут выбрать отображать или нет карту рядом с изображением, в данных которого присутствует геолокация. Этот вариант контролирует отображается ли такая карта по умолчанию или нет, однако пользователи могут изменить этот параметр при публикации своих изображений.</word>
+  <word key="cannot_download_original_image" js="0">У вас нет прав на скачивание изображений</word>
+  <word key="gallery_guest_post_normal_header" js="0">Вы публикуете в качестве гостя</word>
+  <word key="gallery_guest_post_pbr_blurb" js="0">Вы можете отправить ваши изображения сейчас и зарегистрировать аккаунт позднее.</word>
+  <word key="gallery_guest_post_mod_approval" js="0"><![CDATA[<strong>Примечание:</strong> вашим изображениям потребуется утверждение модератора после их публикации.]]></word>
+  <word key="gallery_this_will_be_moderated" js="0">Из-за полученного предупреждения, ваши изображения будут скрыты до тех пор, пока модератор не проверит их.</word>
+  <word key="EXIF.UndefinedTag:0xA434" js="0">Модель объектива</word>
+  <word key="emailtpl__imageContent" js="0">Таблица для изображения Галереи</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="103039">
+ <app key="forums" version="104005">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -599,5 +599,10 @@
   <word key="stats_posts_tab_total" js="0">Все новые сообщения</word>
   <word key="stats_posts_tab_byforum" js="0">Новые сообщения по разделам</word>
   <word key="stats_posts_title_byforum" js="0">Новые сообщения по разделам</word>
+  <word key="remove_your_vote" js="0">Удалить свой голос</word>
+  <word key="poll_widget_no_poll" js="0">В выбранной теме нет активного опроса.</word>
+  <word key="js_vote_answer_up" js="1">Проголосовать за ответ</word>
+  <word key="js_vote_answer_down" js="1">Проголосовать против ответа</word>
+  <word key="js_remove_your_vote" js="1">Удалить свой голос</word>
  </app>
 </language>
