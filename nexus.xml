@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104005">
+ <app key="nexus" version="104012">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -80,14 +80,12 @@
   <word key="paypal_type_paypal_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт PayPal для оплаты с помощью аккаунта PayPal или банковской карты. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Платежам PayPal.]]></word>
   <word key="paypal_type_card" js="0">Карта</word>
   <word key="paypal_type_card_desc" js="0"><![CDATA[Пользователи введут данные своей банковской карты непосредственно на странице оформления заказа. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Прямым платежам.]]></word>
-  <word key="paypal_type_desc" js="0"><![CDATA[<strong>Эта функциональность устарела.</strong> Новые учётные записи PayPal  
- не поддерживают использование карт. Настоятельно рекомендуется переключиться на использование Braintree, который поддерживает оплату картами.]]></word>
   <word key="paypal_billing_agreements" js="0">Регулярные платежи</word>
   <word key="paypal_billing_agreements_req" js="0">Обязательно: Всегда использовать регулярные платежи для покупок с периодом продления.</word>
   <word key="paypal_billing_agreements_req_desc" js="0">Учтите, что регулярные платежи могут использоваться только при заказе товаров с единым периодом продления. Если, например, клиент покупает продукт с ежемесячным продлением, в то же время как другой покупаемый продукт имеет ежегодное продление, регулярный платёж создан не будет.</word>
   <word key="paypal_billing_agreements_opt" js="0">По желанию: Разрешить клиентам выбирать между регулярными платежами и выставлением счёта.</word>
   <word key="paypal_billing_agreements_dis" js="0">Отключено: Не использовать регулярные платежи (рекомендуется)</word>
-  <word key="paypal_billing_agreements_desc" js="0"><![CDATA[<strong>Эта функциональность устарела.</strong> Настоятельно рекомендуется переключиться на использование Braintree, который имеет более стабильные регулярные платежи PayPal.<br>Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Subscriptions.]]></word>
+  <word key="paypal_billing_agreements_desc" js="0"><![CDATA[Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Подпискам.]]></word>
   <word key="paypal_vault" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="paypal_vault_desc" js="0">Данные банковской карты хранятся на серверах PayPal, не на ваших.</word>
   <word key="paypal_client_id" js="0">ID клиента</word>
@@ -1279,7 +1277,7 @@
   <word key="support_container" js="0">Отделы</word>
   <word key="module__nexus_support" js="0">Поддержка</word>
   <word key="support__comment_placeholder" js="0">Ответить на этот запрос...</word>
-  <word key="support_submit_comment" js="0">Отправить ответ</word>
+  <word key="support_submit_comment" js="0">Добавить ответ</word>
   <word key="support__note_placeholder" js="0">Добавить примечание...</word>
   <word key="support_ppi" js="0">Необходимо оплатить %s для отправки запроса в %s.</word>
   <word key="support_charge" js="0">Стоимость поддержки</word>
@@ -2691,7 +2689,6 @@
   <word key="account_diskspace_use" js="0">Использование места на диске</word>
   <word key="account_bandwidth_use" js="0">Использование трафика за месяц</word>
   <word key="account_ftp" js="0">FTP</word>
-  <word key="account_cpanel_control_panel" js="0">cPanel</word>
   <word key="account_edit_warning" js="0">Поля, помеченные %s, были изменены и будут обновлены на сервере. Если вы уже обновили сервер и не хотите отправлять запрос на обновление этих значений, отметьте этот флажок:</word>
   <word key="bandwidth_purchase_option" js="0">%s - %s</word>
   <word key="bandwidth_purchase_option_admin" js="0">%s - %s на 1 месяц</word>
@@ -3271,7 +3268,6 @@
   <word key="refund_cancel_billing_agreement_warning" js="0">Невозможность отменить регулярный платёж будет означать, что платежи продолжат совершаться даже если нет привязанных покупок для продления.</word>
   <word key="billing_agreement_cancel_error" js="0">Возникла проблема при обращении к платёжному шлюзу для отмены регулярного платежа. Платеж не был отменен. Необходимо отменить регулярный платёж в платёжном шлюзе, а затем повторить попытку с отключенной опцией отмены регулярного платежа.</word>
   <word key="nexus_bm_filters_total_spend" js="0">Всего потрачено</word>
-  <word key="gateway__PayPal_desc" js="0">Только базовая поддержка PayPal. Для карт и регулярных платежей, используйте Braintree, который включает в себя поддержку PayPal.</word>
   <word key="paypal_seller_protection_status" js="0">Программа защиты продавцов PayPal: %s</word>
   <word key="gateway__Braintree" js="0">Braintree</word>
   <word key="gateway__Braintree_desc" js="0">Включает поддержку PayPal.</word>
@@ -3501,5 +3497,8 @@
   <word key="emailtpl_acp_notification_Advertisement" js="0">Уведомление администратору о рекламе, ожидающей утверждения</word>
   <word key="emailtpl_acp_notification_Shipment" js="0">Уведомление администратора об ожидающей отгрузке</word>
   <word key="emailtpl_acp_notification_Withdrawal" js="0">Уведомление администратора о запросе на вывод средств</word>
+  <word key="cm_store_view_grid" js="0">Сетка</word>
+  <word key="cm_store_view_list" js="0">Список</word>
+  <word key="account_Cpanel_control_panel" js="0">CPanel</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="blog" version="104005">
+ <app key="blog" version="104012">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
@@ -80,7 +80,7 @@
   <word key="submit_entry" js="0">Создать новую запись</word>
   <word key="blog_entry_title" js="0">Заголовок</word>
   <word key="blog_entry_tags" js="0">Теги</word>
-  <word key="blog_entry_auto_follow_suffix" js="0">Уведомлять меня при публикации других комментариев</word>
+  <word key="blog_entry_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
   <word key="blog_entry_content" js="0">Публикация</word>
   <word key="blog_entry_date" js="0">Время публикации</word>
   <word key="blog_entry_publish" js="0">Опубликовать запись</word>
@@ -266,5 +266,6 @@
   <word key="view_blogs_as_grid" js="0">Просмотреть последние записи</word>
   <word key="club_blog_for" js="0">Блог клуба %s</word>
   <word key="blog_entry_cover_photo" js="0">Основная фотография</word>
+  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>Публикация перед регистрацией</a> включена, но её можно будет обойти при включении этой настройки.]]></word>
  </app>
 </language>

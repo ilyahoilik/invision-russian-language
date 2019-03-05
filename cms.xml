@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="104005">
+ <app key="cms" version="104012">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -768,7 +768,7 @@
   <word key="content_record_form__comment_placeholder" js="0">Добавить комментарий...</word>
   <word key="content_record_form_submit_comment" js="0">Добавить комментарий</word>
   <word key="content_record_comment_on_this" js="0">Комментарий на %s</word>
-  <word key="content_record_form_auto_follow_suffix" js="0">Сообщать о новых ответах</word>
+  <word key="content_record_form_auto_follow_suffix" js="0">Уведомлять о новых ответах</word>
   <word key="content_create_new_button" js="0">Добавить %s</word>
   <word key="create_record_state" js="0">После публикации...</word>
   <word key="create_record_locked" js="0">Закрыть запись</word>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="104005">
+ <app key="forums" version="104012">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -316,7 +316,7 @@
   <word key="question_title" js="0">Вопрос</word>
   <word key="topic_title" js="0">Заголовок</word>
   <word key="topic_tags" js="0">Теги</word>
-  <word key="topic_auto_follow_suffix" js="0">Сообщать о новых ответах</word>
+  <word key="topic_auto_follow_suffix" js="0">Уведомлять о новых ответах</word>
   <word key="topic_pollTab" js="0">Опрос</word>
   <word key="topic_open_time" js="0">Время открытия</word>
   <word key="topic_close_time" js="0">Время закрытия</word>
@@ -436,7 +436,7 @@
   <word key="submit_topic" js="0">Отправить тему</word>
   <word key="submit_topic_edit" js="0">Изменить тему</word>
   <word key="submit_question_edit" js="0">Изменить вопрос</word>
-  <word key="topic_submit_comment" js="0">Отправить ответ</word>
+  <word key="topic_submit_comment" js="0">Добавить ответ</word>
   <word key="edit_question" js="0">Изменение вопроса</word>
   <word key="edit_topic" js="0">Изменение темы</word>
   <word key="edit_reply" js="0">Изменение сообщения</word>

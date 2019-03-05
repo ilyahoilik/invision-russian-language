@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="104005">
+ <app key="downloads" version="104012">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -193,7 +193,7 @@
   <word key="submit_multiple_files" js="0">Добавить несколько файлов</word>
   <word key="submit_first_file" js="0">Загрузить первый файл</word>
   <word key="write_review" js="0">Написать отзыв</word>
-  <word key="file_auto_follow_suffix" js="0">Уведомлять меня при публикации новых комментариев</word>
+  <word key="file_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
   <word key="file" js="0">Файл</word>
   <word key="upload_files" js="0">Загрузить ваши файлы</word>
   <word key="dl_get_support" js="0">Поддержка</word>
