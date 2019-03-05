@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104009">
+ <app key="core" version="104012">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -11038,7 +11038,7 @@
   <word key="devices_to_show" js="0">Устройства</word>
   <word key="show_on_all_devices" js="0">Отображать на всех устройствах</word>
   <word key="post_before_register_headline" js="0">Нужно еще несколько деталей…</word>
-  <word key="post_before_register_subtext" js="0">Спасибо! Прежде чем ваша публикация станет доступна другим пользователям, нам необходимо создать для вас аккаунт.</word>
+  <word key="post_before_register_subtext" js="0"><![CDATA[Спасибо! Прежде чем публикация станет доступна другим пользователям, нам необходимо создать для вас аккаунт.<br>Если вы хотите сделать это позже, мы отправим напоминание на ваш email-адрес через несколько дней.]]></word>
   <word key="offline_message_desc_task" js="0">Пока ваше сообщество выключено, фоновые задачи не смогут выполняться как положено.</word>
   <word key="offline_message_desc_notask" js="0">Не забудьте включить сообщество обратно, когда вы будете готовы.</word>
   <word key="app_files_delete_uninstall" js="0">Все данные, принадлежащие этому приложению, будут полностью удалены, а файлы приложения, если это возможно, будут удалены с вашего сервера.</word>
@@ -11046,10 +11046,10 @@
   <word key="guest_email" js="0">Ваш email-адрес</word>
   <word key="guest_email_desc" js="0">Он не будет виден другим пользователям.</word>
   <word key="comment_guest_email" js="0">Введите ваш email-адрес (он не будет виден другим пользователям)</word>
-  <word key="guest_post_header" js="0">Присоединиться к беседе</word>
-  <word key="guest_post_pbr_blurb" js="0">Вы можете опубликовать сообщение сейчас и зарегистрироваться позднее.</word>
+  <word key="guest_post_header" js="0">Присоединяйтесь к обсуждению</word>
+  <word key="guest_post_pbr_blurb" js="0">Вы можете опубликовать сообщение сейчас, а зарегистрироваться позже.</word>
   <word key="guest_post_normal_blurb" js="0">Вы оставляете комментарий в качестве гостя.</word>
-  <word key="guest_post_sign_in" js="0"><![CDATA[Если у вас ест ьаккаунт, <a href='{internal.front.app=core&module=system&controller=login}' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-title='Войти сейчас'>войдите в него</a> для написания от своего имени.]]></word>
+  <word key="guest_post_sign_in" js="0"><![CDATA[Если у вас есть аккаунт, <a href='{internal.front.app=core&module=system&controller=login}' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-title='Войти сейчас'>войдите в него</a> для написания от своего имени.]]></word>
   <word key="follow_guest_key_not_found" js="0">Публикация, от которой вы хотите отписаться, не найдена. Это может произойти если вы, к сожалению, от неё уже отписались. Войдите в свой аккаунт для проверки настроек подписок.</word>
   <word key="guest_unfollow_choice" js="0">Вы хотите:</word>
   <word key="follow_guest_unfollow_title" js="0">Остановить уведомления</word>
@@ -11477,5 +11477,13 @@
   <word key="delta_upgrade_fail_cic_desc" js="0">Последние файлы из этого обновления были загружены на ваш сайт.</word>
   <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[Вы можете продолжить <span data-role='counter'>через 5 минут</span>.]]></word>
   <word key="member_photo_remove" js="0">Удалить мой аватар</word>
+  <word key="profilesync_already_merged" js="0">Ваш аккаунт уже связан с другим аккаунтом %s. Пожалуйста, сначала выйдите из текущего аккаунта %s, если вы хотите войти с помощью нового аккаунта %s.</word>
+  <word key="post_before_register_delete_submission" js="0">Отменить</word>
+  <word key="post_before_register_submission_cancelled" js="0">Ваши публикация и email-адрес были удалены</word>
+  <word key="pbr_row_not_found" js="0">Мы не можем найти информацию о вашей публикации.</word>
+  <word key="pbr_confirm_title" js="1">Удалить мою публикацию</word>
+  <word key="pbr_confirm_text" js="1">Это незамедлительно удалит вашу публикацию и ваш email-адрес.</word>
+  <word key="pbr_confirm_ok" js="1">Да, удалить сейчас</word>
+  <word key="pbr_confirm_cancel" js="1">Нет</word>
  </app>
 </language>
