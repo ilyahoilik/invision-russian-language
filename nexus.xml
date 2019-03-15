@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104012">
+ <app key="nexus" version="104015">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -33,7 +33,7 @@
   <word key="complete_profile_app__nexus_CustomerFields" js="0">Поля клиента</word>
   <word key="profile_step_subaction_customer_fields" js="0">Поля</word>
   <word key="complete_profile_customer_fields" js="0">Поля клиента</word>
-  <word key="paid" js="0">paid</word>
+  <word key="paid" js="0">оплаченные</word>
   <word key="editor__nexus_Admin" js="0">Настройки коммерции</word>
   <word key="editor__nexus_Customer" js="0">Поля клиентов</word>
   <word key="editor__nexus_Store" js="0">Продукты в магазине</word>
@@ -3182,7 +3182,7 @@
   <word key="nexus_subs_off_text" js="0"><![CDATA[Подписки являются простым способом оплатить перемещение в другую группу<br><br>Каждый пользователь может иметь только одну активную подписку, но может повышаться и понижаться между различными планами, которые вы настроите.]]></word>
   <word key="nexus_sub_package" js="0">Продукт</word>
   <word key="nexus_subs_show_public" js="0">Показывать подписки в профиле?</word>
-  <word key="nexus_subs_show_public_desc" js="0">Разрешить пользователям видеть на какой план подписаны другие пользователи.</word>
+  <word key="nexus_subs_show_public_desc" js="0">Разрешить другим пользователям видеть, на какой план подписан пользователь.</word>
   <word key="nexus_bm_filters_subscription_pkgs" js="0">Пользователь приобрел подписку</word>
   <word key="nexus_bm_filters_type_expired_date" js="0">Истек</word>
   <word key="nexus_bm_filters_subscription_type" js="0">Учитывать подписки со статусом</word>
@@ -3294,7 +3294,7 @@
   <word key="braintree_3d_secure" js="0">Использовать 3D Secure?</word>
   <word key="braintree_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.<br>Перед использованием этой возможности, она должна быть включена в вашем аккаунте Braintree. <a href='{external.braintree_3dsecure}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="braintree_type_venmo" js="0">Venmo</word>
-  <word key="braintree_type_venmo_desc" js="0"><![CDATA[Пользователи будут направлены в приложение Venmo для оплаты с помощью их аккаунта Venmo. Доступно только на мобильных устройствах, которые могут установить приложение Venmo.<br>Этот параметр поддерживает толкьо транзакции в долларах США и требует включённого Venmo в вашем аккаунте Braintree. <a href='{external.braintree_venmo}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="braintree_type_venmo_desc" js="0"><![CDATA[Пользователи будут направлены в приложение Venmo для оплаты с помощью их аккаунта Venmo. Доступно только на мобильных устройствах, которые могут установить приложение Venmo.<br>Этот параметр поддерживает только транзакции в долларах США и требует включённого Venmo в вашем аккаунте Braintree. <a href='{external.braintree_venmo}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
   <word key="braintree_venmo_vault" js="0">Использовать Vault?</word>
   <word key="braintree_venmo_vault_desc" js="0">Если включено, пользователи смогут сохранить свой аккаунт Venmo как банковскую карту. Плата за продление будет взиматься автоматически без повторной авторизации.</word>
   <word key="braintree_venmo_profile" js="0">ID профиля магазина Venmo</word>
