@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104012">
+ <app key="core" version="104016">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.1">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.2">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -6051,8 +6051,8 @@
   <word key="warning_issued" js="0">Предупреждение выдано</word>
   <word key="previous_warnings" js="0">Предыдущие предупреждения</word>
   <word key="warning_byline" js="0">Предупреждение выдано %s</word>
-  <word key="warning_acknowledged" js="0">Вы ознакомились</word>
-  <word key="warning_not_acknowledged" js="0">Вы ещё не ознакомились</word>
+  <word key="warning_acknowledged" js="0">Ознакомлен</word>
+  <word key="warning_not_acknowledged" js="0">Не ознакомлен</word>
   <word key="warn_action_points" js="0">Выданы баллы: %d</word>
   <word key="warn_action_points_expire" js="0">Выданы баллы: %d, которые истекают %s</word>
   <word key="warn_action_points_expired" js="0">Выданы баллы: %d, которые истекли %s</word>
@@ -6962,16 +6962,16 @@
   <word key="widget_member_joined_date" js="0">Зарегистрирован: %s</word>
   <word key="widget_member_last_active_date" js="0">Последняя активность: %s</word>
   <word key="widget_member_secondary_groups" js="0">Проверить второстепенные группы</word>
-  <word key="filesize_Y" js="0">%s Йб</word>
-  <word key="filesize_Z" js="0">%s Зб</word>
-  <word key="filesize_E" js="0">%s Эб</word>
-  <word key="filesize_P" js="0">%s Пб</word>
-  <word key="filesize_T" js="0">%s Тб</word>
-  <word key="filesize_G" js="0">%s Гб</word>
-  <word key="filesize_M" js="0">%s МБ</word>
-  <word key="filesize_k" js="0">%s КБ</word>
-  <word key="filesize_raw_k" js="0">КБ</word>
-  <word key="filesize_b" js="0">%s б</word>
+  <word key="filesize_Y" js="0">%s YB</word>
+  <word key="filesize_Z" js="0">%s ZB</word>
+  <word key="filesize_E" js="0">%s EB</word>
+  <word key="filesize_P" js="0">%s PB</word>
+  <word key="filesize_T" js="0">%s TB</word>
+  <word key="filesize_G" js="0">%s GB</word>
+  <word key="filesize_M" js="0">%s MB</word>
+  <word key="filesize_k" js="0">%s kB</word>
+  <word key="filesize_raw_k" js="0">kB</word>
+  <word key="filesize_b" js="0">%s B</word>
   <word key="remote_images" js="0">Сторонние изображения</word>
   <word key="allow_remote_images" js="0">Разрешить сторонние изображения</word>
   <word key="remote_image_proxy" js="0">Пропускать изображения через локальный сервер</word>
@@ -7290,7 +7290,7 @@
   <word key="authy_onetouch_desc" js="0">Не применяется во время первоначальной настройки, где всегда используется SoftToken.</word>
   <word key="authy_onetouch_message" js="0">Доступ запрошен</word>
   <word key="banned" js="0">Забанен</word>
-  <word key="suspended_until" js="0">Приостановлено до %s</word>
+  <word key="suspended_until" js="0">Заблокирован до %s</word>
   <word key="suspended" js="0">Заблокирован</word>
   <word key="member_banned" js="0">У вас нет прав для просмотра этого сайта.</word>
   <word key="member_banned_temp" js="0"><![CDATA[Ваш аккаунт был заблокирован и у вас, следовательно, нет прав для доступа к этому сайту.<br>Ваша блокировка будет аннулирована <strong>%s</strong>.]]></word>
@@ -7558,7 +7558,7 @@
   <word key="notifications__club_join" js="0">Пользователь вступил в клуб, где я являюсь лидером</word>
   <word key="notification__club_request" js="0">%s подал заявку на вступление в %s</word>
   <word key="notification__club_join" js="0">%s присоединился к %s</word>
-  <word key="club_members" js="0">Пользователи</word>
+  <word key="club_members" js="0">Участники</word>
   <word key="club_leaders" js="0">Лидеры и модераторы</word>
   <word key="club_all_members" js="0">Все пользователи</word>
   <word key="club_members_count" js="0">{# [*1:участник][*2:участника][*3:участника][*4:участника][*11:участников][*12:участников][*13:участников][*14:участников][?:участников]}</word>
@@ -8633,7 +8633,7 @@
   <word key="view_attachments" js="0">Просмотреть вложения</word>
   <word key="no_oauth_apps" js="0">Приложения OAuth не используются</word>
   <word key="oauth_view_details" js="0">Просмотреть данные</word>
-  <word key="club_ownership" js="0">Владелец клуба</word>
+  <word key="club_ownership" js="0">Участник клубов</word>
   <word key="admin_disable_messenger" js="0">Отключить ЛС</word>
   <word key="admin_disable_messenger_confirm" js="0">Сможет ли пользователь снова включить личные сообщения в своих настройках?</word>
   <word key="admin_enable_messenger" js="0">Включить ЛС</word>
@@ -11028,8 +11028,6 @@
   <word key="promote_facebook_sorted" js="0">Настройка Facebook завершена</word>
   <word key="promote_facebook_done" js="0">Спасибо!</word>
   <word key="promote_facebook_done_text" js="0">Вы привязали свой аккаунт, теперь вы можете закрыть это окно и вернуться в Админцентр.</word>
-  <word key="all_activity_votes" js="0">Когда пользователь голосует в опросе</word>
-  <word key="activity_voted" js="0">%2$s проголосовал в опросе: %1$s</word>
   <word key="editor__core_Widget" js="0">Блоки</word>
   <word key="uploaderr_CANNOT_WRITE_admin" js="0">Файл не может быть записан на диск. Папка для хранения файлов не существует или не имеет права для записи.</word>
   <word key="uploaderr_CANNOT_MAKE_DIR_admin" js="0">Папка для файла не может быть создана. Папка для хранения файлов не существует или не имеет права на запись.</word>
@@ -11080,7 +11078,7 @@
   <word key="export_member_password_salt" js="0">Соль пароля</word>
   <word key="go_to_public_profile" js="0">Перейти в публичный профиль</word>
   <word key="auto_track_type_desc" js="0"><![CDATA[Изменение этого параметра не затронет <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>существующие подписки на публикации</a>.]]></word>
-  <word key="notification__new_embed" js="0">{!#[1:%s опубликовал][*1:%s опубликовал][?:%s опубликовали]} ссылку на вашу публикацию в %s: %s</word>
+  <word key="notification__new_embed" js="0">%s {!#[1:опубликовал][*1:опубликовал][?:опубликовали]} ссылку на вашу публикацию в %s: %s</word>
   <word key="notifications__embed" js="0">Кто-либо публикует ссылку на мою публикацию</word>
   <word key="mailsub__core_notification_embed" js="0"><![CDATA[{$comment->author()->name|raw} опубликовал ссылку на вашу публикацию]]></word>
   <word key="mailsub__core_acp_notification_NewRegValidate" js="0"><![CDATA[{$member->name|raw} зарегистрировался и требует проверки]]></word>
@@ -11233,7 +11231,7 @@
   <word key="mailsub__core_postBeforeRegisterFollowup" js="0">Вы забыли отправить своё сообщение?</word>
   <word key="finish_this_submission" js="0">Завершить отправку</word>
   <word key="lazy_load_enabled" js="0">Ленивая загрузка содержимого?</word>
-  <word key="lazy_load_enabled_desc" js="0">Ленивая загрузка - это метод, при котором изображения, видео и встраиваемое в контент содержимое не загружаются, пока пользователь не прокручивает страницу настолько, чтобы их увидеть. Это может увеличить время загрузки страницы и уменьшить трафик.</word>
+  <word key="lazy_load_enabled_desc" js="0">Ленивая загрузка - это метод, при котором изображения, видео и встраиваемое в контент содержимое не загружаются, пока пользователь не прокручивает страницу настолько, чтобы их увидеть. Это может улучшить время загрузки страницы и уменьшить трафик.</word>
   <word key="task_running_error" js="0">Произошла проблема при выполнения этой задачи, пожалуйста, обратитесь к журналу системы для получения дополнительной информации.</word>
   <word key="task__weeklydigest" js="0">Отправляет еженедельные email-дайджесты публикаций, на которые подписаны пользователи.</word>
   <word key="redis_info" js="0">Redis</word>
@@ -11282,7 +11280,7 @@
   <word key="system_check_recommended_footer" js="0">Вам следует связаться с вашим хостинг-провайдером или системным администратором и попросить его решить эти проблемы.</word>
   <word key="system_check_recommended_email" js="0">Войдите в Админцентр для просмотра подробной информации по поводу этих рекомендаций.</word>
   <word key="clickjackprevention" js="0">Разрешить встраивание сообщества во фрейм</word>
-  <word key="clickjackprevention_xframe" js="0">Толкьо на страницах домена (рекомендуется)</word>
+  <word key="clickjackprevention_xframe" js="0">Только на страницах домена (рекомендуется)</word>
   <word key="clickjackprevention_xframe_desc" js="0"><![CDATA[Будет отправляться <a href='{external.xframeoptions}' target='_blank' rel='noopener'>HTTP-заголовок X-Frame-Options</a> со значением "sameorigin".]]></word>
   <word key="clickjackprevention_csp" js="0">Используя настраиваемую политику защиты контента</word>
   <word key="clickjackprevention_csp_desc" js="0"><![CDATA[Будет отправляться <a href='{external.csp}' target='_blank' rel='noopener'>HTTP-заголовок Content-Security-Policy</a> с указанным вами значением. Этот вариант может потребоваться, если вам необходимо встроить сообщества во iframe на другом домене.]]></word>
@@ -11485,5 +11483,6 @@
   <word key="pbr_confirm_text" js="1">Это незамедлительно удалит вашу публикацию и ваш email-адрес.</word>
   <word key="pbr_confirm_ok" js="1">Да, удалить сейчас</word>
   <word key="pbr_confirm_cancel" js="1">Нет</word>
+  <word key="cannot_merge_with_link_to_self" js="0">Вы не можете объединить публикацию со ссылками, которые ведут на неё саму.</word>
  </app>
 </language>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="104012">
+ <app key="cms" version="104016">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -799,8 +799,8 @@
   <word key="content_revision_record_title" js="0">Все изменения &quot;%s&quot;</word>
   <word key="content_revision_button_view" js="0">Просмотр</word>
   <word key="content_revision_button_delete" js="0">Удалить</word>
-  <word key="content_record_revision_title_revision" js="0">Версия</word>
-  <word key="content_record_revision_title_record" js="0">Текущая</word>
+  <word key="content_record_revision_title_revision" js="0">Эта версия</word>
+  <word key="content_record_revision_title_record" js="0">Текущая версия</word>
   <word key="content_record_revision_title" js="0">Версия от %s (%s)</word>
   <word key="content_conflict_use_this_revision" js="0">Восстановить эту версию</word>
   <word key="content_conflict_use_this_record" js="0">Оставить текущую версию</word>
@@ -980,5 +980,6 @@
   <word key="cms_media_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование медиа через АЦ, так как у вас включен режим дизайнера. <br /><a href='%s'>Выключите режим дизайнера.</a>]]></word>
   <word key="cms_templates_export_return" js="0">Вернуться к редактору шаблона</word>
   <word key="content_record_last_updated" js="0">Последнее обновление</word>
+  <word key="content_revision_restored" js="0">Версия восстановлена</word>
  </app>
 </language>
