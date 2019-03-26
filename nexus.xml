@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104015">
+ <app key="nexus" version="104016">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -3500,5 +3500,12 @@
   <word key="cm_store_view_grid" js="0">Сетка</word>
   <word key="cm_store_view_list" js="0">Список</word>
   <word key="account_Cpanel_control_panel" js="0">CPanel</word>
+  <word key="sp_renew_upgrade" js="0">Продление</word>
+  <word key="sp_renew_upgrade_desc" js="0">Так как у этого пакета не настроено продление, выберите как другие пакеты с настроенным продлением могут повышаться до или понижаться с этого пакета.</word>
+  <word key="sp_renew_upgrade_none" js="0">Не позволять клиентам повыситься до этого пакета.</word>
+  <word key="sp_renew_upgrade_full" js="0">Списывать полную стоимость пакета.</word>
+  <word key="sp_renew_upgrade_full_desc" js="0">Это спишет с клиента полную стоимость этого пакета, вне зависимости от его текущего пакета.</word>
+  <word key="sp_renew_upgrade_partial" js="0">Списывать разницу между стоимостью.</word>
+  <word key="sp_renew_upgrade_partial_desc" js="0">Например, если этот продукт стоит $20, и у клиента приобретён пакет за $10, то с него спишется $10.</word>
  </app>
 </language>

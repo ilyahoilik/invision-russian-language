@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104015">
+ <app key="core" version="104016">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -6051,8 +6051,8 @@
   <word key="warning_issued" js="0">Предупреждение выдано</word>
   <word key="previous_warnings" js="0">Предыдущие предупреждения</word>
   <word key="warning_byline" js="0">Предупреждение выдано %s</word>
-  <word key="warning_acknowledged" js="0">Пользователь ознакомился</word>
-  <word key="warning_not_acknowledged" js="0">Вы ещё не ознакомились</word>
+  <word key="warning_acknowledged" js="0">Ознакомлен</word>
+  <word key="warning_not_acknowledged" js="0">Не ознакомлен</word>
   <word key="warn_action_points" js="0">Выданы баллы: %d</word>
   <word key="warn_action_points_expire" js="0">Выданы баллы: %d, которые истекают %s</word>
   <word key="warn_action_points_expired" js="0">Выданы баллы: %d, которые истекли %s</word>
@@ -7290,7 +7290,7 @@
   <word key="authy_onetouch_desc" js="0">Не применяется во время первоначальной настройки, где всегда используется SoftToken.</word>
   <word key="authy_onetouch_message" js="0">Доступ запрошен</word>
   <word key="banned" js="0">Забанен</word>
-  <word key="suspended_until" js="0">Приостановлено до %s</word>
+  <word key="suspended_until" js="0">Заблокирован до %s</word>
   <word key="suspended" js="0">Заблокирован</word>
   <word key="member_banned" js="0">У вас нет прав для просмотра этого сайта.</word>
   <word key="member_banned_temp" js="0"><![CDATA[Ваш аккаунт был заблокирован и у вас, следовательно, нет прав для доступа к этому сайту.<br>Ваша блокировка будет аннулирована <strong>%s</strong>.]]></word>
@@ -7558,7 +7558,7 @@
   <word key="notifications__club_join" js="0">Пользователь вступил в клуб, где я являюсь лидером</word>
   <word key="notification__club_request" js="0">%s подал заявку на вступление в %s</word>
   <word key="notification__club_join" js="0">%s присоединился к %s</word>
-  <word key="club_members" js="0">Пользователи</word>
+  <word key="club_members" js="0">Участники</word>
   <word key="club_leaders" js="0">Лидеры и модераторы</word>
   <word key="club_all_members" js="0">Все пользователи</word>
   <word key="club_members_count" js="0">{# [*1:участник][*2:участника][*3:участника][*4:участника][*11:участников][*12:участников][*13:участников][*14:участников][?:участников]}</word>
@@ -8633,7 +8633,7 @@
   <word key="view_attachments" js="0">Просмотреть вложения</word>
   <word key="no_oauth_apps" js="0">Приложения OAuth не используются</word>
   <word key="oauth_view_details" js="0">Просмотреть данные</word>
-  <word key="club_ownership" js="0">Владелец клуба</word>
+  <word key="club_ownership" js="0">Участник клубов</word>
   <word key="admin_disable_messenger" js="0">Отключить ЛС</word>
   <word key="admin_disable_messenger_confirm" js="0">Сможет ли пользователь снова включить личные сообщения в своих настройках?</word>
   <word key="admin_enable_messenger" js="0">Включить ЛС</word>
@@ -11078,7 +11078,7 @@
   <word key="export_member_password_salt" js="0">Соль пароля</word>
   <word key="go_to_public_profile" js="0">Перейти в публичный профиль</word>
   <word key="auto_track_type_desc" js="0"><![CDATA[Изменение этого параметра не затронет <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>существующие подписки на публикации</a>.]]></word>
-  <word key="notification__new_embed" js="0">{!#[1:%s опубликовал][*1:%s опубликовал][?:%s опубликовали]} ссылку на вашу публикацию в %s: %s</word>
+  <word key="notification__new_embed" js="0">%s {!#[1:опубликовал][*1:опубликовал][?:опубликовали]} ссылку на вашу публикацию в %s: %s</word>
   <word key="notifications__embed" js="0">Кто-либо публикует ссылку на мою публикацию</word>
   <word key="mailsub__core_notification_embed" js="0"><![CDATA[{$comment->author()->name|raw} опубликовал ссылку на вашу публикацию]]></word>
   <word key="mailsub__core_acp_notification_NewRegValidate" js="0"><![CDATA[{$member->name|raw} зарегистрировался и требует проверки]]></word>
@@ -11483,5 +11483,6 @@
   <word key="pbr_confirm_text" js="1">Это незамедлительно удалит вашу публикацию и ваш email-адрес.</word>
   <word key="pbr_confirm_ok" js="1">Да, удалить сейчас</word>
   <word key="pbr_confirm_cancel" js="1">Нет</word>
+  <word key="cannot_merge_with_link_to_self" js="0">Вы не можете объединить публикацию со ссылками, которые ведут на неё саму.</word>
  </app>
 </language>
