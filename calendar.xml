@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="104016">
+ <app key="calendar" version="104023">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -479,5 +479,17 @@
   <word key="calendar_rss_feed_order_publish" js="0">Дата публикации</word>
   <word key="invalid_recurrence" js="0">Событие не может так часто повторяться. Каждое событие должно закончиться прежде, чем начнется новое.</word>
   <word key="__api_calendar_venues" js="0">Места</word>
+  <word key="calendar_block_past_changes" js="0">Запретить изменение прошедших событий</word>
+  <word key="calendar_block_past_changes_desc" js="0">Если включено, пользователи не смогут принять приглашение на прошедшие события или изменять прошедшие события.</word>
+  <word key="you_were_going" js="0">Вы пришли</word>
+  <word key="you_werent_going" js="0">Вы не пришли</word>
+  <word key="rsvp_attendees_past" js="0">Пришёл</word>
+  <word key="rsvp_attended_past_event" js="0">Пришёл</word>
+  <word key="rsvp_notattended_past_event" js="0">Не смог придти</word>
+  <word key="no_rsvps_past" js="0">Никто не пришёл на это событие.</word>
+  <word key="no_maybe_rsvps_past" js="0">Никто не сказал, что возможно придёт.</word>
+  <word key="no_decline_rsvps_past" js="0">Никто не отказался.</word>
+  <word key="no_rsvp_past_event" js="0">Событие уже прошло</word>
+  <word key="no_edit_past_event" js="0">У вас нет прав на изменение прошедших событий</word>
  </app>
 </language>

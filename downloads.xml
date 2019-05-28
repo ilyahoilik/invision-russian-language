@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="104016">
+ <app key="downloads" version="104023">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -274,9 +274,9 @@
   <word key="restore" js="0">Восстановить</word>
   <word key="hide_from_members" js="0">Скрыть от пользователей</word>
   <word key="unhide_from_members" js="0">Показать пользователям</word>
-  <word key="version_restore_confirm" js="0">Вы уверены, что хотите восстановить версию %s?</word>
+  <word key="version_restore_confirm" js="0">Вы уверены, что хотите восстановить эту версию?</word>
   <word key="version_restore_confirm_desc" js="0">Все версии, начиная с %1$s, будут удалены и файл будет восстановлен до версии %1$s.</word>
-  <word key="version_delete_confirm" js="0">Вы уверены, что хотите удалить версию %s?</word>
+  <word key="version_delete_confirm" js="0">Вы уверены, что хотите удалить эту версию?</word>
   <word key="idm_rss_title" js="0">Последние файлы</word>
   <word key="wait_x_seconds_noscript" js="0">Подождите {# [*1:секунду][*2:секунды][*3:секунды][*4:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]} и нажмите Скачать ещё раз.</word>
   <word key="download_begins_in" js="0">Скачивание начнётся через</word>
@@ -535,5 +535,11 @@
   <word key="idm_cfield_tab" js="0">На отдельной вкладке</word>
   <word key="idm_cfield_sidebar" js="0">В боковом блоке</word>
   <word key="emailstats__notification_new_file_version" js="0">Уведомление о новой версии файла</word>
+  <word key="cversion_numbers" js="0">Номера версий</word>
+  <word key="version_numbers_disabled" js="0">Выключены</word>
+  <word key="version_numbers_enabled" js="0">Включены</word>
+  <word key="version_numbers_required" js="0">Обязательны</word>
+  <word key="idm_paid_restrictions" js="0">Ограничения применяются к купленным файлам?</word>
+  <word key="idm_paid_restrictions_desc" js="0">Если включено, все ограничения, установленные ниже, также будут применяться и к файлам, которые приобрёл пользователь.</word>
  </app>
 </language>
