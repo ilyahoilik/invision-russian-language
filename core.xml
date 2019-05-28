@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104016">
+ <app key="core" version="104023">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.2">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.3">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -1878,7 +1878,7 @@
   <word key="members_posts" js="0">Публикации</word>
   <word key="member_edit_promoted" js="0">Пользователю сохранён и перенесён в %s</word>
   <word key="member_all_content" js="0">Удалить все публикации</word>
-  <word key="member_delete_message" js="0"><![CDATA[Вы уверены, что хотите  <strong>навсегда удалить</strong> аккаунт %s?]]></word>
+  <word key="member_delete_message" js="0"><![CDATA[Вы уверены, что хотите  <strong>навсегда удалить</strong> этого пользователя?]]></word>
   <word key="member_delete_confirm" js="0">Вы уверены, что хотите удалить %s?</word>
   <word key="member_delete_confirm_desc" js="0">Это действие нельзя отменить. Пользователь будет удален навсегда.</word>
   <word key="reputation_remove_given" js="0">Удалить отданную репутацию</word>
@@ -3061,7 +3061,6 @@
   <word key="pf_admin_only" js="0">Пользователь может видеть поле</word>
   <word key="pf_admin_only_desc" js="0">Если выключено, значение можно будет просматривать и изменять только в Админцентре.</word>
   <word key="pf_format" js="0">Формат отображения в темах</word>
-  <word key="pf_format_desc" js="0"><![CDATA[Будет отображаться рядом с публикациями пользователя. Оставьте пустым чтобы не отображать.<br>{title} - это название поля, {content} - содержимое, добавленное пользователем, и {member_id} - идентификатор пользователя.<br>Пример: &lt;strong&gt;{title}:&lt;/strong&gt; {content}]]></word>
   <word key="pf_group_id" js="0">Группа</word>
   <word key="add_profile_field" js="0">Добавить поле профиля</word>
   <word key="custom_field_change" js="0">Изменение типа этого поля удалит все данные, сохранённые в нём.</word>
@@ -5374,7 +5373,7 @@
   <word key="country-LT" js="0">Литва</word>
   <word key="country-LU" js="0">Люксембург</word>
   <word key="country-MO" js="0">Макао</word>
-  <word key="country-MK" js="0">Республика Македония</word>
+  <word key="country-MK" js="0">Северная Македония</word>
   <word key="country-MG" js="0">Мадагаскар</word>
   <word key="country-MW" js="0">Малави</word>
   <word key="country-MY" js="0">Малайзия</word>
@@ -5456,7 +5455,7 @@
   <word key="country-SD" js="0">Судан</word>
   <word key="country-SR" js="0">Суринам</word>
   <word key="country-SJ" js="0">Шпицберген и Ян-Майен</word>
-  <word key="country-SZ" js="0">Свазиленд</word>
+  <word key="country-SZ" js="0">Эсватини</word>
   <word key="country-SE" js="0">Швеция</word>
   <word key="country-CH" js="0">Швейцария</word>
   <word key="country-SY" js="0">Сирия</word>
@@ -8282,7 +8281,7 @@
   <word key="questionPlaceholder" js="1">Название вопроса</word>
   <word key="votingNow" js="1">Голосуем...</word>
   <word key="thanksForVoting" js="1">Спасибо за ваш голос!</word>
-  <word key="warn_allow_result_view" js="1">После просмотра результатов мы не сможете голосовать.</word>
+  <word key="warn_allow_result_view" js="1">После просмотра результатов вы не сможете голосовать.</word>
   <word key="theme_revert_setting" js="1">Вернуть настройки к значениям родительского стиля или к стандартным значениям?</word>
   <word key="files_overview_move_desc" js="1"><![CDATA[Эта конфигурация сейчас используется и была изменена!<br>Если вы завершите это вручную, файлы будет необходимо переместить в новое расположение.]]></word>
   <word key="files_overview_move" js="1">Переместить эти файлы</word>
@@ -8768,7 +8767,7 @@
   <word key="social_links_in_email_desc" js="0"><![CDATA[<a href='{internal.app=core&module=settings&controller=general}'>Социальные профили</a> будут отображаться в подвале писем, отправленных сайтом.]]></word>
   <word key="our_picks_in_email" js="0">Включать продвигаемые публикации в email-письма?</word>
   <word key="our_picks_in_email_desc" js="0"><![CDATA[<a href='{internal.app=core&module=promotion&controller=promote&tab=internal}'>Продвигаемые публикации</a> из "Нашего выбора" будут отображаться в нижней части email-писем, отправленных с сайта.]]></word>
-  <word key="license_renewal_soon" js="0">Ваша лицензия истечет через {!# [*1:# день][*2:# дня][*3:# дня][*4:# дня][*11:# дней][*12:# дней][*13:# дней][*14:# дней][1:завтра][2:послезавтра][?:# дней]}.</word>
+  <word key="license_renewal_soon" js="0">Ваша лицензия истечет {!# [*1:через день][*2:через # дня][*3:через # дня][*4:через # дня][*11:через # дней][*12:через # дней][*13:через # дней][*14:# дней][1:завтра][2:послезавтра][?:через # дней]}.</word>
   <word key="license_renewal_not_now" js="0">Не сейчас</word>
   <word key="emailtpl_notification_new_react" js="0">Уведомление о новой реакции на публикацию</word>
   <word key="theme_has_been_customized" js="0">Изменена</word>
@@ -11082,7 +11081,7 @@
   <word key="notifications__embed" js="0">Кто-либо публикует ссылку на мою публикацию</word>
   <word key="mailsub__core_notification_embed" js="0"><![CDATA[{$comment->author()->name|raw} опубликовал ссылку на вашу публикацию]]></word>
   <word key="mailsub__core_acp_notification_NewRegValidate" js="0"><![CDATA[{$member->name|raw} зарегистрировался и требует проверки]]></word>
-  <word key="mailsub__core_acp_notification_NewRegComplete" js="0"><![CDATA[{$notification->member()->name|raw} завершил регистрацию]]></word>
+  <word key="mailsub__core_acp_notification_NewRegComplete" js="0"><![CDATA[{$member->name|raw} завершил регистрацию]]></word>
   <word key="email_greeting_no_member" js="0">Здравствуйте!</word>
   <word key="email_embedded_your_content" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал ссылку на ваше сообщение в %s.]]></word>
   <word key="email_embedded_your_content_guest" js="0">%s (Гость) опубликовал ссылку на вашу публикацию в %s.</word>
@@ -11108,9 +11107,9 @@
   <word key="custom_field_format_default" js="0">Использовать стандартное форматирование</word>
   <word key="custom_field_format_custom" js="0">Использовать настраиваемое форматирование</word>
   <word key="pf_format_custom" js="0">Настраиваемое форматирование в темах</word>
-  <word key="pf_format_custom_desc" js="0"><![CDATA[Будет отображаться рядом с публикациями пользователя.<br>{$title} - это название поля, {$member} - это пользователь, {$member_id} - идентификатор пользователя, {$content} - отформатированное содержимое, добавленное пользователем, {$rawContent} - сырое содержимое, добавленное пользователем. Поддерживается <a href='{external.devdocs-templatelogic}' target='_blank'>логика HTML</a>.<br>Пример: &lt;strong&gt;{$title}:&lt;/strong&gt; {$content}]]></word>
+  <word key="pf_format_custom_desc" js="0"><![CDATA[Будет отображаться рядом с публикациями пользователя.<br>{$title} - это название поля, {$member} - это пользователь, {$member_id} - идентификатор пользователя, {$content} - содержание, добавленное пользователем, и {$processedContent} - содержание, готовое к отображению (если тип поля - ссылка, то {$processedContent} будет HTML-сниппетом с кодом гиперссылки). Поддерживается <a href='{external.devdocs-templatelogic}' target='_blank'>логика HTML</a>.<br>Пример: <strong>{$title}:</strong> {$content}]]></word>
   <word key="pf_profile_format_custom" js="0">Настраиваемое форматирование в профиле</word>
-  <word key="pf_profile_format_custom_desc" js="0"><![CDATA[Будет отображаться в профиле пользователя.<br>{$title} - это название поля, {$member} - это пользователь, {$member_id} - идентификатор пользователя, {$content} - отформатированное содержимое, добавленное пользователем, {$rawContent} - сырое содержимое, добавленное пользователем. Поддерживается <a href='{external.devdocs-templatelogic}' target='_blank'>логика HTML</a>.<br>Пример: &lt;strong&gt;{$title}:&lt;/strong&gt; {$content}]]></word>
+  <word key="pf_profile_format_custom_desc" js="0"><![CDATA[Будет отображаться в профиле пользователя.<br>{$title} - это название поля, {$member} - это пользователь, {$member_id} - идентификатор пользователя, {$content} - содержание, добавленное пользователем, и {$processedContent} - содержание, готовое к отображению (если тип поля - ссылка, то {$processedContent} будет HTML-сниппетом с кодом гиперссылки). Поддерживается <a href='{external.devdocs-templatelogic}' target='_blank'>логика HTML</a>.<br>Пример: <strong>{$title}:</strong> {$content}]]></word>
   <word key="r__emailstats" js="0">Статистика Email-писем</word>
   <word key="r__emailstats_manage" js="0">Может просматривать статистику email-писем?</word>
   <word key="menu__core_activitystats_emailstats" js="0">Email-письма</word>
@@ -11353,7 +11352,7 @@
   <word key="new_users_need_admin_validation" js="0">{!#[1:Пользователь, ожидающий][?:Пользователи, ожидающие]} утверждения администратором: %s</word>
   <word key="new_user_completed_registration" js="0">Новый пользователь: %s</word>
   <word key="acp_notification_Bulletin" js="0">Важная информация от Invision Power Services</word>
-  <word key="user_flagged_as_spammer" js="0">Пользователь помечен спамером: %s</word>
+  <word key="user_flagged_as_spammer" js="0">{!# [*1:Пользователь помечен спамерами][*2:Пользователя помечены спамерами][*3:Пользователя помечены спамерами][*4:Пользователя помечены спамерами][*11:Пользователей помечены спамерами][*12:Пользователей помечены спамерами][*13:Пользователей помечены спамерами][*14:Пользователей помечены спамерами][1:Пользователь помечен спамером][?:Пользователей помечены спамерами]}: %s</word>
   <word key="user_flagged_as_spammer_subtitle" js="0">%s от %s.</word>
   <word key="user_flagged_as_spammer_subtitle_with_actions" js="0">%s от %s: %s.</word>
   <word key="acp_notification_Spammer" js="0">Пользователь помечен спамером</word>
@@ -11484,5 +11483,17 @@
   <word key="pbr_confirm_ok" js="1">Да, удалить сейчас</word>
   <word key="pbr_confirm_cancel" js="1">Нет</word>
   <word key="cannot_merge_with_link_to_self" js="0">Вы не можете объединить публикацию со ссылками, которые ведут на неё саму.</word>
+  <word key="signin_anonymous_last_time_true" js="0">Последний раз вы входили с этого устройства анонимно</word>
+  <word key="member_is_currently_anon" js="0">Вы вошли анонимно. Вы не будете отображаться в списке пользователей в сети, и время вашего последнего посещения не будет показываться другим пользователям</word>
+  <word key="cant_find_unfollow" js="0">Мы не можем найти публикацию, от которой вы пытаетесь отписаться</word>
+  <word key="profilesync_unknown_name" js="0">Неизвестно</word>
+  <word key="_allow_club_moderators" js="0">Разрешить модераторам клубов</word>
+  <word key="member_joined_latest" js="0">Последний пользователь зарегистрировался %s</word>
+  <word key="acp_notification_dismiss_recur" js="0">Скрыть это уведомление</word>
+  <word key="acp_notification_NewRegComplete_title" js="0">Новые завершённые регистрации</word>
+  <word key="acp_notification_NewRegComplete_desc" js="0"><![CDATA[Чтобы продолжить получать уведомления о новых регистрациях, <a href='{internal.app=core&module=overview&controller=notifications&do=dismiss&id=}%d' data-action='dismiss'>скройте это уведомление</a> и он появится снова, когда зарегистрируется новый пользователь.]]></word>
+  <word key="acp_notification_NewRegComplete_more" js="0">{# [*1:другая][?:других]} →</word>
+  <word key="acp_notification_Spammer_title" js="0">Пользователи, помеченные спамерами</word>
+  <word key="acp_notification_Spammer_desc" js="0"><![CDATA[Чтобы продолжить получать уведомления о новых пометках, <a href='{internal.app=core&module=overview&controller=notifications&do=dismiss&id=}%d' data-action='dismiss'>скройте это уведомление</a> и оно появится снова, когда новый пользователь будет помечен спамером.]]></word>
  </app>
 </language>
