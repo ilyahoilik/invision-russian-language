@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104023">
+ <app key="core" version="104026">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -578,7 +578,7 @@
   <word key="reg_complete_details" js="0">Завершённая регистрация</word>
   <word key="reg_admin_validation_desc" js="0"><![CDATA[Ваш аккаунт должен быть утверждён, прежде чем вы сможете использовать его.<br>Мы отправим email-письмо на %s, как только всё будет готово.]]></word>
   <word key="reg_canceled" js="0">Регистрация отменена</word>
-  <word key="validate_no_record" js="0">Этот пользователь не ожидает подтверждения</word>
+  <word key="validate_no_record" js="0">Вам аккаунт не ожидает подтверждения</word>
   <word key="validate_email_confirmation" js="0">Ваш email-адрес подтверждён</word>
   <word key="existing_user" js="0">Уже зарегистрированы?</word>
   <word key="coppa_verify" js="0">Пожалуйста, укажите свою дату рождения.</word>
@@ -703,7 +703,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.3">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.4">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
   <word key="rebuilding" js="0">Перестроение...</word>
@@ -2420,7 +2420,6 @@
   <word key="bulkmail_add" js="0">Добавить рассылку</word>
   <word key="bulk_mail_queue_running" js="0">Отправляется массовая рассылка &quot;%s&quot;</word>
   <word key="resend" js="0">Выслать повторно</word>
-  <word key="continue_sending" js="0">Продолжить отправку</word>
   <word key="acplog__bulkmail_deleted" js="0">Удалена массовая рассылка: %s</word>
   <word key="acplog__bulkmail_cancelled" js="0">Отменена массовая рассылка: %s</word>
   <word key="enhancements__core_Sparkpost" js="0">SparkPost</word>
@@ -2490,8 +2489,6 @@
   <word key="smtpmail_fsock_error_initial" js="0">Сервер SMTP возвратил неожиданный код ответа: %s</word>
   <word key="smtpmail_send_error" js="0">Сервер SMTP возвратил неожиданный ответ: %s</word>
   <word key="smtpmail_tls_fail" js="0">Связь SMTP TLS не удалась (STARTTLS)</word>
-  <word key="bulkmail_sent_sofar" js="0">Массовая рассылка &quot;%s&quot; отправлена для %s</word>
-  <word key="bm_users" js="0">{# [*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][*11:пользователей][*12:пользователей][*13:пользователей][*14:пользователей][?:пользователей]}</word>
   <word key="sparkpost_error" js="0">SparkPost вернул ошибку: %s</word>
   <word key="no_write_email_debug" js="0">Файл отладки email не может быть записан в: %s</word>
   <word key="no_path_email_debug" js="0">Путь для отладки email не существует: %s</word>
@@ -2553,7 +2550,7 @@
   <word key="email_manual_instructions" js="0">Руководство</word>
   <word key="email_validate_manual" js="0">Если вы не можете нажать на кнопку ниже для подтверждения регистрации, вы можете сделать это вручную. Вставьте указанную ссылку в адресную строку браузера и на открывшейся странице вставьте указанную ниже информацию:</word>
   <word key="email_key" js="0">Ключ</word>
-  <word key="email_reg_complete" js="0">Добро пожаловать на %s и спасибо за регистрацию. Теперь вы можете войти на сайт, используя пароль, указанный при регистрации.</word>
+  <word key="email_reg_complete" js="0">Добро пожаловать на %s и спасибо за регистрацию.</word>
   <word key="email_lost_pass" js="0"><![CDATA[Для сброса пароля вам необходимо нажать на кнопку ниже. Этим вы подтвердите запрос на сброс пароля. Если вы не запрашивали сброс пароля, <strong>НЕ</strong> нажимайте на ссылку ниже и проигнорируйте это письмо.]]></word>
   <word key="email_lost_pass_plain" js="0">Для сброса пароля вам необходимо перейти по ссылки ниже. Этим вы подтвердите запрос на сброс пароля. Если вы не запрашивали сброс пароля, *НЕ* нажимайте на ссылку ниже и проигнорируйте это письмо.</word>
   <word key="email_reset_password" js="0">Сбросить пароль</word>
@@ -4589,6 +4586,7 @@
   <word key="google_adsense_ajax_header" js="0">Страницы с AJAX</word>
   <word key="google_adsense_ajax_intro" js="0">AJAX является технологией, позволяющей динамически загружать содержимое страницы без перезагрузки страницы. Invision Community использует её в некоторых областях сайта. Например, при просмотре тем с более одной страницей, вы можете заметить, что при перемещении по страницам загружается только часть страницы и страница не перезагружается полностью.</word>
   <word key="google_adsense_ajax_blurb" js="0">Google требует немедленное отображение рекламы после загрузки страницы и запрещает их загрузку через AJAX. Это означает, что если вы разместите рекламу там, где доступна загрузка через AJAX, то вам необходимо будет отключить эту возможность в Invision Community. Чтобы сделать это:</word>
+  <word key="google_adsense_ajax_ins_1" js="0"><![CDATA[Перейдите в раздел <a href='{internal.app=core&module=customization&controller=themes}' target='_blank' rel='noopener'>Стили и шаблоны</a>Админцентра.]]></word>
   <word key="google_adsense_ajax_ins_2" js="0">Для каждого установленного стиля нажмите кнопку Изменить.</word>
   <word key="google_adsense_ajax_ins_3" js="0">Перейдите во вкладку Другие.</word>
   <word key="google_adsense_ajax_ins_4" js="0">Отключите функцию &quot;AJAX-навигация по страницам&quot; и сохраните стиль.</word>
@@ -8658,7 +8656,6 @@
   <word key="mailsub__core_notification_automatic_moderation" js="0">Достигнут порог автоматической модерации</word>
   <word key="mailsub__core_notification_unapproved_club" js="0"><![CDATA[{$club->owner->name|raw} создал новый клуб (ожидает утверждения),: {$club->name|raw}]]></word>
   <word key="only_positive_values" js="0">Вы можете использовать только положительные числа</word>
-  <word key="bm_sent_succesfull" js="0">Массовая рассылка была успешно отправлена.</word>
   <word key="email_also_interesting" js="0">Вам также может быть интересно...</word>
   <word key="email_secure_account" js="0">Защитить мой аккаунт</word>
   <word key="email_content_automatic_moderation" js="0"><![CDATA[Достигнут порог автоматической модерации у %s <a href='%s'>%s</a>]]></word>
@@ -10929,8 +10926,8 @@
   <word key="edit_email_address" js="0">Изменить email-адрес</word>
   <word key="members_name_missing_as_reserved" js="0">Без имени</word>
   <word key="members_name_missing_add" js="0"><![CDATA[<em>Без имени</em>]]></word>
-  <word key="member_reserved_pending_deletion" js="0">Этот пользователь будет автоматически удалён через %s минут</word>
-  <word key="members_name_missing_as_reserved_tt" js="0"><![CDATA[Недавно созданные пользователи без имени или email-адреса, которые никогда не посещали сайт, автоматически удаляются.<br>Это может произойти, если они начали процесс регистрации через социальную сеть, но не завершили его. Если они войдут на сайт в ближайшее время, у них будет запрошена недостающая информация, после чего они смогут использовать свой аккаунт в обычном режиме. В противном случае, их аккаунты будут удалены в ближайшее время.]]></word>
+  <word key="member_reserved_pending_deletion" js="0">Этот пользователь скоро будет автоматически удалён</word>
+  <word key="members_name_missing_as_reserved_tt" js="0"><![CDATA[Недавно созданные пользователи без имени или email-адреса, которые никогда не посещали сайт, автоматически удаляются.<br>Это может произойти, если они начали процесс регистрации через социальную сеть, но не завершили его. Если они войдут на сайт в ближайшее время, им будет предложено указать недостающую информацию, после чего они смогут использовать свой аккаунт в обычном режиме. В противном случае, их аккаунты будут вскорости удалены.]]></word>
   <word key="member_reserved_external_email" js="0">У этого пользователя не указан email-адрес</word>
   <word key="member_reserved_external_name" js="0">У этого пользователя не указано имя</word>
   <word key="member_reserved_external_both" js="0">У этого пользователя не указано имя или email-адрес</word>
@@ -11227,7 +11224,7 @@
   <word key="task__postBeforeRegisterFollowup" js="0">Отправляет email-письма гостям, которые опубликовали что-либо, но не завершили регистрацию.</word>
   <word key="unsubscribe_not_needed" js="0">Если вы не предпримите никаких действий, мы удалим вам email-адрес и не будем связываться с вами. Нет необходимости отписываться.</word>
   <word key="post_before_register_followup_header" js="0">Ваше сообщение ещё не было отправлено</word>
-  <word key="mailsub__core_postBeforeRegisterFollowup" js="0">Вы забыли отправить своё сообщение?</word>
+  <word key="mailsub__core_postBeforeRegisterFollowup" js="0">Вы забыли отправить свою публикацию?</word>
   <word key="finish_this_submission" js="0">Завершить отправку</word>
   <word key="lazy_load_enabled" js="0">Ленивая загрузка содержимого?</word>
   <word key="lazy_load_enabled_desc" js="0">Ленивая загрузка - это метод, при котором изображения, видео и встраиваемое в контент содержимое не загружаются, пока пользователь не прокручивает страницу настолько, чтобы их увидеть. Это может улучшить время загрузки страницы и уменьшить трафик.</word>
@@ -11495,5 +11492,104 @@
   <word key="acp_notification_NewRegComplete_more" js="0">{# [*1:другая][?:других]} →</word>
   <word key="acp_notification_Spammer_title" js="0">Пользователи, помеченные спамерами</word>
   <word key="acp_notification_Spammer_desc" js="0"><![CDATA[Чтобы продолжить получать уведомления о новых пометках, <a href='{internal.app=core&module=overview&controller=notifications&do=dismiss&id=}%d' data-action='dismiss'>скройте это уведомление</a> и оно появится снова, когда новый пользователь будет помечен спамером.]]></word>
+  <word key="validate_my_account" js="0">Подтвердить мой аккаунт</word>
+  <word key="registration_validate_heading" js="0">Ты почти у цели, %s!</word>
+  <word key="registration_validate_explain" js="0">Нажмите на кнопку ниже для подтверждения своего аккаунта и завершении регистрации.</word>
+  <word key="any_time" js="0">В любое время</word>
+  <word key="email_reg_complete_pass" js="0">Теперь вы можете войти с помощью пароля, который вы использовали при регистрации.</word>
+  <word key="giphy_custom_apikey" js="0">Ключ Giphy</word>
+  <word key="giphy_custom_apikey_desc" js="0">Invision Community имеет предустановленный ключ Giphy, но вы можете использовать свой собственный, если он у вас есть.</word>
+  <word key="giphy_custom_apikey_default" js="0">Использовать предустановленный ключ</word>
+  <word key="giphy_custom_apikey_custom" js="0">Использовать свой ключ Giphy</word>
+  <word key="acplog__notification_settings_existing" js="0">Обновлены настройки уведомлений для существующих пользователей</word>
+  <word key="post_before_register_followup_text" js="0">Спасибо! Прежде чем публикация станет доступна другим пользователям, нам необходимо создать для вас аккаунт.</word>
+  <word key="search_elastic_server_desc" js="0">Должен работать на версии не ниже %s и не выше %s.</word>
+  <word key="search_elastic_server_unsupported_version_high" js="0">Версия %s или выше не поддерживаются. У вас установлен сервер Elasticsearch версии %s.</word>
+  <word key="emoji-firecracker" js="1">Firecracker</word>
+  <word key="emoji-red_envelope" js="1">Red Gift Envelope</word>
+  <word key="emoji-softball" js="1">Softball</word>
+  <word key="emoji-flying_disc" js="1">Flying Disc</word>
+  <word key="emoji-lacrosse" js="1">Lacrosse Stick And Ball</word>
+  <word key="emoji-nazar_amulet" js="1">Nazar Amulet</word>
+  <word key="emoji-jigsaw" js="1">Jigsaw Puzzle Piece</word>
+  <word key="emoji-teddy_bear" js="1">Teddy Bear</word>
+  <word key="emoji-chess_pawn" js="1">Chess Pawn</word>
+  <word key="emoji-thread" js="1">Spool Of Thread</word>
+  <word key="emoji-yarn" js="1">Ball Of Yarn</word>
+  <word key="emoji-abacus" js="1">Abacus</word>
+  <word key="emoji-receipt" js="1">Receipt</word>
+  <word key="emoji-toolbox" js="1">Toolbox</word>
+  <word key="emoji-magnet" js="1">Magnet</word>
+  <word key="emoji-test_tube" js="1">Test Tube</word>
+  <word key="emoji-petri_dish" js="1">Petri Dish</word>
+  <word key="emoji-dna" js="1">Dna Double Helix</word>
+  <word key="emoji-lotion_bottle" js="1">Lotion Bottle</word>
+  <word key="emoji-safety_pin" js="1">Safety Pin</word>
+  <word key="emoji-broom" js="1">Broom</word>
+  <word key="emoji-basket" js="1">Basket</word>
+  <word key="emoji-roll_of_paper" js="1">Roll Of Paper</word>
+  <word key="emoji-soap" js="1">Bar Of Soap</word>
+  <word key="emoji-sponge" js="1">Sponge</word>
+  <word key="emoji-fire_extinguisher" js="1">Fire Extinguisher</word>
+  <word key="emoji-medical_symbol" js="1">Medical Symbol</word>
+  <word key="emoji-infinity" js="1">Infinity</word>
+  <word key="emoji-pirate_flag" js="1">Pirate Flag</word>
+  <word key="emoji-skateboard" js="1">Skateboard</word>
+  <word key="emoji-compass" js="1">Compass</word>
+  <word key="emoji-bricks" js="1">Brick</word>
+  <word key="emoji-luggage" js="1">Luggage</word>
+  <word key="emoji-leafy_green" js="1">Leafy Green</word>
+  <word key="emoji-mango" js="1">Mango</word>
+  <word key="emoji-moon_cake" js="1">Moon Cake</word>
+  <word key="emoji-bagel" js="1">Bagel</word>
+  <word key="emoji-cupcake" js="1">Cupcake</word>
+  <word key="emoji-salt" js="1">Salt Shaker</word>
+  <word key="emoji-kangaroo" js="1">Kangaroo</word>
+  <word key="emoji-llama" js="1">Llama</word>
+  <word key="emoji-peacock" js="1">Peacock</word>
+  <word key="emoji-hippopotamus" js="1">Hippopotamus</word>
+  <word key="emoji-parrot" js="1">Parrot</word>
+  <word key="emoji-raccoon" js="1">Raccoon</word>
+  <word key="emoji-lobster" js="1">Lobster</word>
+  <word key="emoji-mosquito" js="1">Mosquito</word>
+  <word key="emoji-microbe" js="1">Microbe</word>
+  <word key="emoji-badger" js="1">Badger</word>
+  <word key="emoji-swan" js="1">Swan</word>
+  <word key="emoji-male_red_haired" js="1">Male Red Haired</word>
+  <word key="emoji-male_curly_haired" js="1">Male Curly Haired</word>
+  <word key="emoji-male_bald" js="1">Male Bald</word>
+  <word key="emoji-male_white_haired" js="1">Male White Haired</word>
+  <word key="emoji-female_red_haired" js="1">Female Red Haired</word>
+  <word key="emoji-female_curly_haired" js="1">Female Curly Haired</word>
+  <word key="emoji-female_bald" js="1">Female Bald</word>
+  <word key="emoji-female_white_haired" js="1">Female White Haired</word>
+  <word key="emoji-crossed_fingers" js="1">Hand With Index And Middle Fingers Crossed</word>
+  <word key="emoji-face_with_raised_eyebrow" js="1">Face With One Eyebrow Raised</word>
+  <word key="emoji-star-struck" js="1">Grinning Face With Star Eyes</word>
+  <word key="emoji-zany_face" js="1">Grinning Face With One Large And One Small Eye</word>
+  <word key="emoji-shushing_face" js="1">Face With Finger Covering Closed Lips</word>
+  <word key="emoji-face_with_symbols_on_mouth" js="1">Serious Face With Symbols Covering Mouth</word>
+  <word key="emoji-face_with_hand_over_mouth" js="1">Smiling Face With Smiling Eyes And Hand Covering Mouth</word>
+  <word key="emoji-face_vomiting" js="1">Face With Open Mouth Vomiting</word>
+  <word key="emoji-exploding_head" js="1">Shocked Face With Exploding Head</word>
+  <word key="emoji-mrs_claus" js="1">Mother Christmas</word>
+  <word key="emoji-smiling_face_with_3_hearts" js="1">Smiling Face With Smiling Eyes And Three Hearts</word>
+  <word key="emoji-partying_face" js="1">Face With Party Horn And Party Hat</word>
+  <word key="emoji-woozy_face" js="1">Face With Uneven Eyes And Wavy Mouth</word>
+  <word key="emoji-hot_face" js="1">Overheated Face</word>
+  <word key="emoji-cold_face" js="1">Freezing Face</word>
+  <word key="emoji-pleading_face" js="1">Face With Pleading Eyes</word>
+  <word key="emoji-lab_coat" js="1">Lab Coat</word>
+  <word key="emoji-goggles" js="1">Goggles</word>
+  <word key="emoji-hiking_boot" js="1">Hiking Boot</word>
+  <word key="emoji-womans_flat_shoe" js="1">Flat Shoe</word>
+  <word key="emoji-bone" js="1">Bone</word>
+  <word key="emoji-leg" js="1">Leg</word>
+  <word key="emoji-foot" js="1">Foot</word>
+  <word key="emoji-tooth" js="1">Tooth</word>
+  <word key="emoji-female_superhero" js="1">Female Superhero</word>
+  <word key="emoji-male_superhero" js="1">Male Superhero</word>
+  <word key="emoji-female_supervillain" js="1">Female Supervillain</word>
+  <word key="emoji-male_supervillain" js="1">Male Supervillain</word>
  </app>
 </language>
