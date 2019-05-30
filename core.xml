@@ -11349,7 +11349,7 @@
   <word key="new_users_need_admin_validation" js="0">{!#[1:Пользователь, ожидающий][?:Пользователи, ожидающие]} утверждения администратором: %s</word>
   <word key="new_user_completed_registration" js="0">Новый пользователь: %s</word>
   <word key="acp_notification_Bulletin" js="0">Важная информация от Invision Power Services</word>
-  <word key="user_flagged_as_spammer" js="0">{!# [*1:Пользователь помечен спамерами][*2:Пользователя помечены спамерами][*3:Пользователя помечены спамерами][*4:Пользователя помечены спамерами][*11:Пользователей помечены спамерами][*12:Пользователей помечены спамерами][*13:Пользователей помечены спамерами][*14:Пользователей помечены спамерами][1:Пользователь помечен спамером][?:Пользователей помечены спамерами]}: %s</word>
+  <word key="user_flagged_as_spammer" js="0">{!# [1:Пользователь помечен спамером][?:Пользователи помечены спамерами]}: %s</word>
   <word key="user_flagged_as_spammer_subtitle" js="0">%s от %s.</word>
   <word key="user_flagged_as_spammer_subtitle_with_actions" js="0">%s от %s: %s.</word>
   <word key="acp_notification_Spammer" js="0">Пользователь помечен спамером</word>
