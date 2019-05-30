@@ -485,7 +485,7 @@
   <word key="you_werent_going" js="0">Вы не пришли</word>
   <word key="rsvp_attendees_past" js="0">Пришёл</word>
   <word key="rsvp_attended_past_event" js="0">Пришёл</word>
-  <word key="rsvp_notattended_past_event" js="0">Не смог придти</word>
+  <word key="rsvp_notattended_past_event" js="0">Не смог прийти</word>
   <word key="no_rsvps_past" js="0">Никто не пришёл на это событие.</word>
   <word key="no_maybe_rsvps_past" js="0">Никто не сказал, что возможно придёт.</word>
   <word key="no_decline_rsvps_past" js="0">Никто не отказался.</word>
