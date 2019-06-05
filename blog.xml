@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="blog" version="104026">
+ <app key="blog" version="104027">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
@@ -34,6 +34,13 @@
   <word key="blog_allow_rssimport" js="0">Включить RSS-импорт</word>
   <word key="blog_allow_rss" js="0">Включить RSS-экспорт</word>
   <word key="blog_allow_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
+  <word key="blog_allow_grid" js="0">Включить вид сеткой</word>
+  <word key="blog_allow_grid_desc" js="0">Вид сеткой отображает записи в блоге в виде карточек с пространством для основной фотографии</word>
+  <word key="blog_view_mode" js="0">Стандартный вид</word>
+  <word key="blog_view_mode_grid" js="0">Сетка последних записей</word>
+  <word key="blog_view_mode_grid_desc" js="0">Отображает записи в виде карточек с пространством для основной фотографии</word>
+  <word key="blog_view_mode_list" js="0">Список блогов</word>
+  <word key="blog_view_mode_list_desc" js="0">Отображает список блогов в виде сортируемого и фильтруемого списка</word>
   <word key="blogs" js="0">Блоги</word>
   <word key="blog_word_custom" js="0">Название блога</word>
   <word key="blog_blog_member_id" js="0">Автор блога</word>
@@ -54,6 +61,8 @@
   <word key="select_blog" js="0">Выбрать блог</word>
   <word key="search_contextual_item_blogs" js="0">В этом блоге</word>
   <word key="search_contextual_item_blog_entry" js="0">В этой записи</word>
+  <word key="view_blogs_as_list" js="0">Просмотреть блоги</word>
+  <word key="view_blogs_as_grid" js="0">Просмотреть последние записи</word>
   <word key="blog_settings" js="0">Настройки блога</word>
   <word key="blog_name" js="0">Название</word>
   <word key="blog_name_group" js="0">Название</word>
@@ -155,6 +164,7 @@
   <word key="unpin_blog" js="0">Открепить</word>
   <word key="blog_by" js="0">Блог пользователя: %s</word>
   <word key="group_blog_by" js="0">Блог группы: %s</word>
+  <word key="club_blog_for" js="0">Блог клуба %s</word>
   <word key="contributors_to_this" js="0">Авторы блога:</word>
   <word key="num_contributors_to_this" js="0">{# [*1:автор][*2:автора][*3:автора][*4:автора][*11:авторов][*12:авторов][*13:авторов][*14:авторов][?:авторов]} в этом блоге</word>
   <word key="about_this_blog" js="0">Об этом блоге</word>
@@ -234,6 +244,7 @@
   <word key="g_blog_allowprivate_desc" js="0">Личные блоги видны только тем, кого выберет создатель блога.</word>
   <word key="g_blog_allowpoll" js="0">Может добавлять опросы в записи блога</word>
   <word key="g_blog_allowcomment" js="0">Может комментировать записи блога?</word>
+  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>Публикация перед регистрацией</a> включена, но её можно будет обойти при включении этой настройки.]]></word>
   <word key="g_blog_allowownmod" js="0">Может модерировать свои записи блога?</word>
   <word key="g_blog_allowownmod_desc" js="0">Пользователь сможет редактировать комментарии и записи, удалять комментарии и записи и закрывать комментирование записей</word>
   <word key="g_blog_allowdelete" js="0">Может удалять свои блоги</word>
@@ -255,17 +266,6 @@
   <word key="blog_sidebar_title" js="0">Информация о блоге</word>
   <word key="blog_bm_filters" js="0">Блог</word>
   <word key="mf_has_blog" js="0">У пользователя есть блог?</word>
-  <word key="blog_allow_grid" js="0">Включить вид сеткой</word>
-  <word key="blog_allow_grid_desc" js="0">Вид сеткой отображает записи в блоге в виде карточек с пространством для основной фотографии</word>
-  <word key="blog_view_mode" js="0">Стандартный вид</word>
-  <word key="blog_view_mode_grid" js="0">Сетка последних записей</word>
-  <word key="blog_view_mode_grid_desc" js="0">Отображает записи в виде карточек с пространством для основной фотографии</word>
-  <word key="blog_view_mode_list" js="0">Список блогов</word>
-  <word key="blog_view_mode_list_desc" js="0">Отображает список блогов в виде сортируемого и фильтруемого списка</word>
-  <word key="view_blogs_as_list" js="0">Просмотреть блоги</word>
-  <word key="view_blogs_as_grid" js="0">Просмотреть последние записи</word>
-  <word key="club_blog_for" js="0">Блог клуба %s</word>
   <word key="blog_entry_cover_photo" js="0">Основная фотография</word>
-  <word key="g_blog_allowcomment_guestreg" js="0"><![CDATA[<a href='{internal.admin.app=core&module=settings&controller=posting&searchResult=post_before_registering}'>Публикация перед регистрацией</a> включена, но её можно будет обойти при включении этой настройки.]]></word>
  </app>
 </language>

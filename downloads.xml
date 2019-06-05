@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="104026">
+ <app key="downloads" version="104027">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -26,9 +26,15 @@
   <word key="modlog__action_restorebackup" js="0"><![CDATA[Восстановлена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_visibilitybackup" js="0"><![CDATA[Изменена видимость предыдущей версии файла: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_deletebackup" js="0"><![CDATA[Удалена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
+  <word key="mark_category_read" js="0">Отметить категорию прочитанной</word>
+  <word key="mark_category_read_title" js="0">Отметить эту категорию прочитанной</word>
   <word key="editor__downloads_Categories" js="0">Категории файлов</word>
   <word key="editor__downloads_Downloads" js="0">Файловый менеджер</word>
   <word key="editorMedia_downloads_Files" js="0">Файловый менеджер</word>
+  <word key="downloads_rebuilding_screenshots" js="0">Перестроение водяных знаков на скриншотах</word>
+  <word key="member_restrictions__downloads_Downloads" js="0">Файлы</word>
+  <word key="restriction_no_downloads" js="0">Запрещено создание файлов</word>
+  <word key="content_stats__downloads_Downloads" js="0">Файлы</word>
   <word key="menu__downloads_downloads_categories" js="0">Категории</word>
   <word key="subcategories" js="0">Подкатегории</word>
   <word key="cname" js="0">Название</word>
@@ -73,6 +79,10 @@
   <word key="cbitoptions_show_approver" js="0">Отображать, кто утвердил файл</word>
   <word key="cbitoptions_show_approver_desc" js="0">Администрация всегда будет видеть эту информацию.</word>
   <word key="cbitoptions_comment_moderation" js="0">Комментарии должны быть утверждены</word>
+  <word key="cversion_numbers" js="0">Номера версий</word>
+  <word key="version_numbers_disabled" js="0">Выключены</word>
+  <word key="version_numbers_enabled" js="0">Включены</word>
+  <word key="version_numbers_required" js="0">Обязательны</word>
   <word key="cversioning_on" js="0">Включить контроль версий</word>
   <word key="cversioning_on_desc" js="0">Если включено, при загрузке новой версии старая версия сохраняется и остаётся доступна для скачивания.</word>
   <word key="cversioning" js="0">Количество версий для хранения</word>
@@ -105,6 +115,7 @@
   <word key="cbitoptions_topic_screenshot" js="0">Добавлять скриншот в тему</word>
   <word key="node_no_parentd" js="0">Отсутствует</word>
   <word key="view_all_files" js="0">Просмотреть все файлы</word>
+  <word key="downloadcategory_topic_rebuild" js="0"><![CDATA[<a href='%s' data-confirm data-confirmMessage='Перестроить темы' data-confirmSubMessage='Это изменит первые сообщения всех тем, опубликованных файлами в этой категории, для соответствия текущим настройкам. Это может быть полезно, если вы изменили некоторые настройки. Для всех файлов, у которых ещё нет темы, она будет создана. Перестроение будет произведено в фоновом режиме и вы сможете видеть прогресс на главной панели Админцентра.'>Перестроить содержание тем</a>]]></word>
   <word key="modperms__core_Content_downloads_File" js="0">Файлы</word>
   <word key="download_categories" js="0">Категории</word>
   <word key="can_pin_downloads_file" js="0">Может закреплять файлы</word>
@@ -136,8 +147,16 @@
   <word key="can_add_item_message_downloads_file" js="0">Может добавлять примечания к файлам</word>
   <word key="can_edit_item_message_downloads_file" js="0">Может изменять примечания к файлам</word>
   <word key="can_delete_item_message_downloads_file" js="0">Может удалять примечания к файлам</word>
+  <word key="modperms__downloads_Files" js="0">Файлы</word>
+  <word key="can_make_purchasable" js="0">Может включать платные файлы?</word>
+  <word key="can_make_unpurchasable" js="0">Может выключать платные файлы?</word>
   <word key="menu__downloads_downloads_fields" js="0">Дополнительные поля</word>
   <word key="cf_topic" js="0">Добавлять поле в тему поддержки</word>
+  <word key="cf_format_desc" js="0"><![CDATA[Пример: &lt;strong&gt;{title}:&lt;/strong&gt; {content}]]></word>
+  <word key="downloads_field_location" js="0">Место отображения</word>
+  <word key="idm_cfield_below" js="0">Под описанием</word>
+  <word key="idm_cfield_tab" js="0">На отдельной вкладке</word>
+  <word key="idm_cfield_sidebar" js="0">В боковом блоке</word>
   <word key="menu__downloads_downloads_settings" js="0">Настройки</word>
   <word key="acplogs__downloads_settings" js="0">Обновлены настройки файлов</word>
   <word key="group__downloads_Downloads" js="0">Файлы</word>
@@ -150,6 +169,7 @@
   <word key="idm_watermarkpath" js="0">Водяной знак</word>
   <word key="idm_watermarkpath_desc" js="0">Данное изображение будет нанесено на все загруженные скриншоты (к примеру, для отображения копирайта). Для наилучшего результата используйте небольшие изображения с прозрачным фоном.</word>
   <word key="acplogs__downloads_recount_downloads" js="0">Пересчитано количество скачиваний в категории: %s</word>
+  <word key="download_settings_saved_rebuilding" js="0">Сохранено. Ваши скриншоты перестраиваются в фоновом режиме.</word>
   <word key="idm_view_approvers" js="0">Может просматривать, кто утвердил файлы</word>
   <word key="idm_bypass_revision" js="0">Может управлять версиями?</word>
   <word key="idm_view_downloads" js="0">Может просматривать, кто скачивал файл</word>
@@ -185,6 +205,8 @@
   <word key="idm_import_files" js="0">Может импортировать файлы из файловой системы</word>
   <word key="idm_import_files_desc" js="0">Если включено, пользователи смогут импортировать файлы, расположенные в директории на вашем сервере. Вы должны включать это только для администрации, где все пользователи являются доверенными.</word>
   <word key="idm_bulk_submit" js="0">Может создавать несколько файлов за раз</word>
+  <word key="idm_paid_restrictions" js="0">Ограничения применяются к купленным файлам?</word>
+  <word key="idm_paid_restrictions_desc" js="0">Если включено, все ограничения, установленные ниже, также будут применяться и к файлам, которые приобрёл пользователь.</word>
   <word key="idm_screenshot_for" js="0">Скриншоты %s</word>
   <word key="rss_offline" js="0">RSS-лента отключена</word>
   <word key="rss_offline_admin" js="0">Настройка IP.Downloads &quot;Включить RSS-ленту последних файлов&quot; выключена. Активируйте эту настройку в Админцентре для включения RSS-ленты последних файлов.</word>
@@ -355,8 +377,15 @@
   <word key="file__save" js="0">Сохранить</word>
   <word key="downloads_no_file" js="0">Файл не найден</word>
   <word key="download_teaser" js="0">Создайте аккаунт или войдите в него для скачивания файла</word>
+  <word key="download_no_permission" js="0">Извините, вам не разрешено скачивать этот файл.</word>
+  <word key="download_no_permission_guest" js="0">Извините, вам не разрешено скачивать этот файл. Однако, вы сможете скачать его, если войдете на сайт.</word>
   <word key="downloads_file_info" js="0">Скачивания</word>
   <word key="sort_file_downloads" js="0">Наиболее скачиваемые</word>
+  <word key="club_node_downloads" js="0">Файлы клуба</word>
+  <word key="file_imported_removed" js="0">Файлы были импортированы, и теперь оригинальные копии, если это необходимо, могут быть удалены с диска.</word>
+  <word key="disable_purchases" js="0">Отключить покупки</word>
+  <word key="enable_purchases" js="0">Включить покупки</word>
+  <word key="purchasing_disabled" js="0">Этот файл в данный момент недоступен для покупки.</word>
   <word key="block_downloads_Overview" js="0">Статистика файлов</word>
   <word key="total_disk_spaced" js="0">Всего занято на диске</word>
   <word key="total_files" js="0">Всего файлов</word>
@@ -382,6 +411,8 @@
   <word key="member__downloads_Downloads" js="0">Файлы</word>
   <word key="idm_block_submissions" js="0">Разрешить добавлять файлы</word>
   <word key="idm_block_submissions_desc" js="0">Каждая категория имеет права доступа на добавление файлов в неё. Если выключено, пользователи не смогут добавить никаких файлов. Если включено, будут унаследованы настройки родительской категории.</word>
+  <word key="history_restrictions_downloads_1" js="0">отключена возможность публиковать файлы</word>
+  <word key="history_restrictions_downloads_0" js="0">отключена возможности публиковать файлы</word>
   <word key="downloads_stats" js="0">Просмотреть статистику скачиваний</word>
   <word key="submissions" js="0">{# [*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][*11:просмотров][*12:просмотров][*13:просмотров][*14:просмотров][?:просмотров]}</word>
   <word key="deleted_file" js="0">Удалён файл</word>
@@ -399,6 +430,7 @@
   <word key="number_of_downloads" js="0">Количество скачиваний</word>
   <word key="downloads_bandwidth_used" js="0">Использованный трафик *</word>
   <word key="downloads_stat_of_total" js="0">%s (%d%% от общего)</word>
+  <word key="downloads_stat_of_total_link" js="0">%s (%d%% от общего) %s</word>
   <word key="downloads_stat_average" js="0">%s (в среднем на всех пользователей: %s)</word>
   <word key="downloadS_stat_average_of_total" js="0">%d% от общего числа; в среднем на всех пользователей: %d</word>
   <word key="download_stats_disclaimer" js="0">Статистика формируется на основе журнала скачиваний, который может быть отключён или автоматически очищаться.</word>
@@ -482,6 +514,7 @@
   <word key="mailsub__downloads_notification_new_file_version" js="0"><![CDATA[{$content->author()->name|raw} загрузил новую версию {$content->mapped("title")|raw}]]></word>
   <word key="notification__new_file_version" js="0">%s загрузил новую версию %s</word>
   <word key="emailtpl_notification_new_file_version" js="0">Уведомление о новой версии файла</word>
+  <word key="emailstats__notification_new_file_version" js="0">Уведомление о новой версии файла</word>
   <word key="block_downloadsCommentFeed" js="0">Комментарии на файлы</word>
   <word key="block_downloadsCommentFeed_desc" js="0">Отображает ленту комментариев</word>
   <word key="block_downloadsReviewFeed" js="0">Отзывы к файлам</word>
@@ -499,47 +532,14 @@
   <word key="idm_show_most_downloaded" js="0">Отображать блок &quot;Самые скачиваемые&quot;</word>
   <word key="idm_highest_rated_categories" js="0">Категории</word>
   <word key="idm_show_most_downloaded_categories" js="0">Категории</word>
+  <word key="downloads_forum_used" js="0"><![CDATA[Этот раздел используется приложением Файлы для создания тем поддержки файлов и не может быть удален.<br>Пожалуйста, удалите связь с категории %s для продолжения]]></word>
   <word key="makePrimaryScreenshot" js="1">Сделан скриншот основным</word>
   <word key="removeScreenshot" js="1">Удалить этот скриншот</word>
-  <word key="mark_category_read" js="0">Отметить категорию прочитанной</word>
-  <word key="mark_category_read_title" js="0">Отметить эту категорию прочитанной</word>
-  <word key="downloads_rebuilding_screenshots" js="0">Перестроение водяных знаков на скриншотах</word>
-  <word key="member_restrictions__downloads_Downloads" js="0">Файлы</word>
-  <word key="restriction_no_downloads" js="0">Запрещено создание файлов</word>
-  <word key="content_stats__downloads_Downloads" js="0">Файлы</word>
-  <word key="download_settings_saved_rebuilding" js="0">Сохранено. Ваши скриншоты перестраиваются в фоновом режиме.</word>
-  <word key="download_no_permission" js="0">Извините, вам не разрешено скачивать этот файл.</word>
-  <word key="download_no_permission_guest" js="0">Извините, вам не разрешено скачивать этот файл. Однако, вы сможете скачать его, если войдете на сайт.</word>
-  <word key="club_node_downloads" js="0">Файлы клуба</word>
-  <word key="file_imported_removed" js="0">Файлы были импортированы, и теперь оригинальные копии, если это необходимо, могут быть удалены с диска.</word>
-  <word key="history_restrictions_downloads_1" js="0">отключена возможность публиковать файлы</word>
-  <word key="history_restrictions_downloads_0" js="0">отключена возможности публиковать файлы</word>
-  <word key="downloads_stat_of_total_link" js="0">%s (%d%% от общего) %s</word>
-  <word key="downloads_forum_used" js="0"><![CDATA[Этот раздел используется приложением Файлы для создания тем поддержки файлов и не может быть удален.<br>Пожалуйста, удалите связь с категории %s для продолжения]]></word>
   <word key="markCategoryAsReadConfirm" js="1">Вы уверены в том, что хотите отметить все файлы прочитанными?</word>
   <word key="categoryMarkedRead" js="1">Категория была отмечен прочитанной</word>
   <word key="downloadsScreenshotsWatermark" js="1">Перестроить существующие скриншоты?</word>
   <word key="downloadsScreenshotsWatermarkBlurb" js="1">Перестроение существующих скриншотов обновит их и наложит ваш новый водяной знак.</word>
   <word key="downloadsScreenshotsWatermarkYes" js="1">Да, перестроить</word>
   <word key="downloadsScreenshotsWatermarkNo" js="1">Нет</word>
-  <word key="modperms__downloads_Files" js="0">Файлы</word>
-  <word key="can_make_purchasable" js="0">Может включать платные файлы?</word>
-  <word key="can_make_unpurchasable" js="0">Может выключать платные файлы?</word>
-  <word key="disable_purchases" js="0">Отключить покупки</word>
-  <word key="enable_purchases" js="0">Включить покупки</word>
-  <word key="purchasing_disabled" js="0">Этот файл в данный момент недоступен для покупки.</word>
-  <word key="downloadcategory_topic_rebuild" js="0"><![CDATA[<a href='%s' data-confirm data-confirmMessage='Перестроить темы' data-confirmSubMessage='Это изменит первые сообщения всех тем, опубликованных файлами в этой категории, для соответствия текущим настройкам. Это может быть полезно, если вы изменили некоторые настройки. Для всех файлов, у которых ещё нет темы, она будет создана. Перестроение будет произведено в фоновом режиме и вы сможете видеть прогресс на главной панели Админцентра.'>Перестроить содержание тем</a>]]></word>
-  <word key="cf_format_desc" js="0"><![CDATA[Пример: &lt;strong&gt;{title}:&lt;/strong&gt; {content}]]></word>
-  <word key="downloads_field_location" js="0">Место отображения</word>
-  <word key="idm_cfield_below" js="0">Под описанием</word>
-  <word key="idm_cfield_tab" js="0">На отдельной вкладке</word>
-  <word key="idm_cfield_sidebar" js="0">В боковом блоке</word>
-  <word key="emailstats__notification_new_file_version" js="0">Уведомление о новой версии файла</word>
-  <word key="cversion_numbers" js="0">Номера версий</word>
-  <word key="version_numbers_disabled" js="0">Выключены</word>
-  <word key="version_numbers_enabled" js="0">Включены</word>
-  <word key="version_numbers_required" js="0">Обязательны</word>
-  <word key="idm_paid_restrictions" js="0">Ограничения применяются к купленным файлам?</word>
-  <word key="idm_paid_restrictions_desc" js="0">Если включено, все ограничения, установленные ниже, также будут применяться и к файлам, которые приобрёл пользователь.</word>
  </app>
 </language>
