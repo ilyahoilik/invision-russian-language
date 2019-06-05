@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104026">
+ <app key="nexus" version="104027">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -26,13 +26,18 @@
   <word key="default_menu_item_my_details" js="0">Мои данные</word>
   <word key="nexus_package_review" js="0">Отзывы на продукт</word>
   <word key="__indefart_support_request" js="0">запрос в поддержку</word>
+  <word key="__indefart_product" js="0">продукт</word>
   <word key="__indefart_product_reviews" js="0">отзыв к продукту</word>
   <word key="__defart_support_request" js="0">запрос в поддержку</word>
   <word key="__defart_product_reviews" js="0">отзыв к продукту</word>
+  <word key="__defart_product" js="0">продукт</word>
   <word key="plus_tax_rate" js="0">+ %s</word>
   <word key="complete_profile_app__nexus_CustomerFields" js="0">Поля клиента</word>
   <word key="profile_step_subaction_customer_fields" js="0">Поля</word>
   <word key="complete_profile_customer_fields" js="0">Поля клиента</word>
+  <word key="product_pl" js="0">Продукты</word>
+  <word key="product_pl_lc" js="0">продукты</word>
+  <word key="product_groups" js="0">Группы продуктов</word>
   <word key="paid" js="0">оплаченные</word>
   <word key="editor__nexus_Admin" js="0">Настройки коммерции</word>
   <word key="editor__nexus_Customer" js="0">Поля клиентов</word>
@@ -56,10 +61,15 @@
   <word key="nexus_bm_filters" js="0">Покупки</word>
   <word key="nexus_bm_filters_packages" js="0">Пользователь приобрел любой из этих продуктов</word>
   <word key="nexus_bm_filters_packages_none" js="0">Не фильтровать по покупкам</word>
+  <word key="nexus_bm_filters_subscription_none" js="0">Не фильтровать по подпискам</word>
   <word key="nexus_bm_filters_type" js="0">Считать покупки, которые</word>
   <word key="nexus_bm_filters_type_active" js="0">Активен</word>
+  <word key="nexus_bm_filters_pkg_expired" js="0">Истек</word>
   <word key="nexus_bm_filters_type_expired" js="0">Истёк</word>
   <word key="nexus_bm_filters_type_canceled" js="0">Отменён</word>
+  <word key="nexus_bm_filters_pkg_expired_days" js="0">Более чем</word>
+  <word key="nexus_bm_filters_pkg_expired_days_suffix" js="0">дней назад</word>
+  <word key="nexus_bm_filters_total_spend" js="0">Всего потрачено</word>
   <word key="contact_nexus_department" js="0">Создать запрос в поддержку</word>
   <word key="contact_nexus" js="0">Отдел</word>
   <word key="contact_nexus_no_departments" js="0">Отправить в отдел Коммерции как запрос в поддержку</word>
@@ -93,14 +103,97 @@
   <word key="paypal_secret" js="0">Секретный ключ</word>
   <word key="paypal_billing_agreement" js="0">Оплачивать продление автоматически</word>
   <word key="paypal_payer_status" js="0">Статус счёта PayPal: %s</word>
+  <word key="paypal_seller_protection_status" js="0">Программа защиты продавцов PayPal: %s</word>
   <word key="paypal_connection_error" js="0">Ваш сервер не может взаимодействовать с PayPal. Вполне возможно, что проблема связана с устаревшей версией cURL или OpenSSL. Свяжитесь с вашим хостинг-провайдером или системным администратором для обновления cURL или OpenSSL, если они не последней версии, а также убедитесь в том, что ваш сервер может открывать соединение к api.paypal.com с использованием TLS 1.2.</word>
   <word key="gateway__Test" js="0">Тестовый шлюз</word>
   <word key="gateway__Stripe" js="0">Stripe</word>
   <word key="stripe_secret_key" js="0">Секретный ключ Stripe</word>
   <word key="stripe_publishable_key" js="0">Публикуемый ключ Stripe</word>
+  <word key="stripe_type_header" js="0">Способ оплаты</word>
+  <word key="stripe_type" js="0">Оплатить через:</word>
+  <word key="stripe_type_card" js="0">Карта</word>
+  <word key="stripe_type_card_desc" js="0">Пользователи должны будут ввести данные своей карты непосредственно на странице оформления заказа.</word>
+  <word key="stripe_type_native" js="0">Функционал браузера (Apple Pay / Google Pay)</word>
+  <word key="stripe_type_native_desc" js="0"><![CDATA[Пользователи с поддерживаемыми устройствами / браузерами смогут использовать встроеный функционал браузера для оплаты (например, Apple Pay или Google Pay).<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а для Apple Pay вы также должны <a href='{external.stripe_applepay_register}' target='_blank' rel='noopener'>зарегистрировать свой домен</a>.]]></word>
+  <word key="stripe_type_amex" js="0">Amex Express Checkout</word>
+  <word key="stripe_type_amex_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт Amex Express Checkout для завершения оплаты. <a href='{external.stripe_amex_express}' target='_blank' rel='noopener'>Подробнее о Amex Express Checkout</a>]]></word>
+  <word key="stripe_amex_client_id" js="0">Amex Express Checkout Client ID</word>
+  <word key="stripe_amex_client_id_gen" js="0"><![CDATA[<a href='{external.amex_client_id}' target='_blank' rel='noopener'>Сгенерировать</a>]]></word>
+  <word key="stripe_type_alipay" js="0">Alipay</word>
+  <word key="stripe_type_alipay_desc" js="0"><![CDATA[Популярный способ оплаты в Китае. Пользователи будут перенаправлены на сайт Alipay для завершения оплаты. <a href='{external.alipay}' target='_blank' rel='noopener'>Подробнее о Alipay</a>]]></word>
+  <word key="stripe_type_bancontact" js="0">Bancontact</word>
+  <word key="stripe_type_bancontact_desc" js="0"><![CDATA[Популярный способ оплаты в Бельгии. Пользователи будут перенаправлены на сайт Bancontact для завершения оплаты. <a href='{external.bancontact}' target='_blank' rel='noopener'>Подробнее о Bancontact</a>]]></word>
+  <word key="stripe_type_giropay" js="0">Giropay</word>
+  <word key="stripe_type_giropay_desc" js="0"><![CDATA[Популярный способ оплаты в Германии. Пользователи будут перенаправлены на сайт Giropay для завершения оплаты. <a href='{external.giropay}' target='_blank' rel='noopener'>Подробнее о Giropay</a>]]></word>
+  <word key="stripe_type_ideal" js="0">iDEAL</word>
+  <word key="stripe_type_ideal_desc" js="0"><![CDATA[Популярный способ оплаты в Нидерландах. Пользователи будут перенаправлены на сайт iDEAL для завершения оплаты. <a href='{external.ideal}' target='_blank' rel='noopener'>Подробнее о iDEAL</a>]]></word>
+  <word key="stripe_type_sofort" js="0">SOFORT</word>
+  <word key="stripe_type_sofort_desc" js="0"><![CDATA[Популярный способ оплаты в Европе. Пользователи будут перенаправлены на сайт SOFORT для завершения оплаты. <a href='{external.sofort}' target='_blank' rel='noopener'>Подробнее о SOFORT</a>]]></word>
+  <word key="stripe_webhook" js="0">Webhook</word>
+  <word key="stripe_webhook_blurb" js="0"><![CDATA[Вы должны <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>создать webhook</a> oв своем аккаунте Stripe, указав эту ссылку в качестве конечной точки:<br><pre class='ipsCode'>%s</pre>]]></word>
+  <word key="stripe_webhook_secret" js="0">Секретная подпись для Webhook</word>
+  <word key="stripe_webhook_secret_desc" js="0">При просмотре webhook в вашем аккаунте Stripe, вы увидите кнопку для показа секретной подписи. Значение не будет проверено, поэтому убедитесь в том, что вы ввели его правильно.</word>
+  <word key="stripe_basic_settings" js="0">Основные настройки</word>
+  <word key="stripe_keys" js="0">Ключи</word>
+  <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank' rel='noopener'>раздела API вашего аккаунта в Stripe</a>.]]></word>
+  <word key="stripe_type_desc" js="0">Чтобы предоставить пользователю выбор, настройте несколько способов оплаты Stripe.</word>
+  <word key="stripe_3d_secure" js="0">Система 3D Secure</word>
+  <word key="stripe_3d_secure_yes" js="0">Все карты, которые поддерживают её</word>
+  <word key="stripe_3d_secure_no" js="0">Только карты, которые требуют её</word>
+  <word key="stripe_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.]]></word>
   <word key="stripe_cards" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="stripe_cards_desc" js="0">Данные банковской карты хранятся на серверах Stripe, не на ваших. Обратите внимание, что 3D Secure не используется при использовании сохраненной карты.</word>
   <word key="stripe_risk_level" js="0">Оценка риска Stripe: %s</word>
+  <word key="stripe_debug_action" js="0">[Режим отладки] Действие</word>
+  <word key="stripe_debug_succeeding_charge" js="0">Выполнить</word>
+  <word key="stripe_debug_pending_charge" js="0">Оставить в ожидании</word>
+  <word key="stripe_debug_failing_charge" js="0">Не выполнять</word>
+  <word key="stripe_cvc_check_unchecked" js="0">Проверка CVC-кода не выполнена</word>
+  <word key="stripe_cvc_check_unavailable" js="0">Проверка CVC-кода недоступна</word>
+  <word key="stripe_cvc_check_pass" js="0">Проверка CVC-кода прошла успешно</word>
+  <word key="stripe_cvc_check_fail" js="0">Проверка CVC-кода не удалась</word>
+  <word key="stripe_address_line1_check_unchecked" js="0">Проверка улицы в адресе не выполнена</word>
+  <word key="stripe_address_line1_check_unavailable" js="0">Проверка улицы в адресе недоступна</word>
+  <word key="stripe_address_line1_check_pass" js="0">Проверка улицы в адресе прошла успешно</word>
+  <word key="stripe_address_line1_check_fail" js="0">Проверка улицы в адресе не удалась</word>
+  <word key="stripe_address_zip_check_unchecked" js="0">Проверка индекса не выполнена</word>
+  <word key="stripe_address_zip_check_unavailable" js="0">Проверка индекса недоступна</word>
+  <word key="stripe_address_zip_check_pass" js="0">Проверка индекса прошла успешно</word>
+  <word key="stripe_address_zip_check_fail" js="0">Проверка индекса не удалась</word>
+  <word key="stripe_3ds_pass" js="0">Проверка 3DSecure пройдена</word>
+  <word key="stripe_3ds_fail" js="0">Проверка 3DSecure не пройдена</word>
+  <word key="stripe_3ds_not_supported" js="0">Система 3DSecure не поддерживается этой картой</word>
+  <word key="stripe_3ds_not_checked" js="0">Система 3DSecure не используется</word>
+  <word key="stripe_tokenization_apple_pay" js="0">Apple Pay</word>
+  <word key="stripe_tokenization_android_pay" js="0">Google Pay</word>
+  <word key="stripe_tokenization_other" js="0">Метод токенизации</word>
+  <word key="stripe_details_error" js="0">Невозможно получить подробную информация от Stripe об этой транзакции. Найдите идентификатор платежа в своей панели Stripe для подробной информации.</word>
+  <word key="stripe_dispute_error" js="0">Невозможно получить подробную информация от Stripe об этом споре. Найдите идентификатор платежа в своей панели Stripe для подробной информации.</word>
+  <word key="stripe_dispute_status_needs_response" js="0">Этот спор ожидает вашего ответа. Платеж уже был отменен, но он может быть возвращен вам, если вы докажете, что он был законным. Перейдите на панель управления Stripe для ответа.</word>
+  <word key="stripe_dispute_status_under_review" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. Платеж уже отменен, но если банк примет решение в вашу пользу, он может быть возвращен вам.</word>
+  <word key="stripe_dispute_status_warning_needs_response" js="0">Этот спор ожидает вашего ответа. На этом этапе платеж не был отменен, но если вы не ответите, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отменены до разрешения спора. Перейдите на панель управления Stripe для ответа.</word>
+  <word key="stripe_dispute_status_warning_under_review" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. На этом этапе платеж не был отменен, но если банк примет решение не в вашу пользу, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отменены до разрешения спора.</word>
+  <word key="transaction_dispute_won" js="0">Выигранный спор</word>
+  <word key="transaction_dispute_won_desc" js="0">Спор был выигран, и средства были вам возвращены.</word>
+  <word key="transaction_dispute_lost" js="0">Проигранный спор</word>
+  <word key="transaction_dispute_lost_desc" js="0">Спор был проигран, и средства не могут быть возвращены.</word>
+  <word key="transaction_dispute_warning_closed" js="0">Расследование закрыто</word>
+  <word key="transaction_dispute_warning_closed_desc" js="0">Время на оспаривание/поиск истекло и он не перерос в полноценный спор. Платеж не был отменен.</word>
+  <word key="stripe_dispute_reason_duplicate" js="0">Клиент утверждает, что с него за один и тот же продукт или услугу списались деньги несколько раз.</word>
+  <word key="stripe_dispute_reason_fraudulent" js="0">Клиент утверждает, что он не совершал платеж. Это может произойти, если карта была утеряна или украдена и использовалась для совершения мошеннической покупки, или если клиент не может найти платеж в выписке из банка.</word>
+  <word key="stripe_dispute_reason_subscription_canceled" js="0">Клиент утверждает, что вы продолжили взимать плату после отмены подписки.</word>
+  <word key="stripe_dispute_reason_product_unacceptable" js="0">Клиент утверждает, что продукт или услуга были получены, но были дефектными, поврежденными или не соответствовали описанию.</word>
+  <word key="stripe_dispute_reason_product_not_received" js="0">Клиент утверждает, что он не получил приобретенные продукты или услуги.</word>
+  <word key="stripe_dispute_reason_unrecognized" js="0">Клиент не может найти платеж в выписке по карте.</word>
+  <word key="stripe_dispute_reason_credit_not_processed" js="0">Клиент утверждает, что приобретенный продукт был возвращен или транзакция была отменена иным образом, но вы еще не произвели возврат.</word>
+  <word key="stripe_dispute_reason_general" js="0">Причина этого спора неизвестна (код: general). Проверьте свою панель Stripe для подробной информации.</word>
+  <word key="stripe_dispute_reason_incorrect_account_details" js="0">Причина этого спора неизвестна (код: incorrect_account_details). Проверьте свою панель Stripe для подробной информации.</word>
+  <word key="stripe_dispute_reason_insufficient_funds" js="0">Причина этого спора неизвестна (код: insufficient_funds). Проверьте свою панель Stripe для подробной информации.</word>
+  <word key="stripe_dispute_reason_bank_cannot_process" js="0">Причина этого спора неизвестна (код: bank_cannot_process). Проверьте свою панель Stripe для подробной информации.</word>
+  <word key="stripe_dispute_reason_debit_not_authorized" js="0">Причина этого спора неизвестна (код: debit_not_authorized). Проверьте свою панель Stripe для подробной информации.</word>
+  <word key="stripe_dispute_reason_customer_initiated" js="0">Причина этого спора неизвестна (код: customer_initiated). Проверьте свою панель Stripe для подробной информации.</word>
+  <word key="stripe_dispute_reference" js="0">Ссылка на спор</word>
+  <word key="trans_attention_required" js="0">Требуется действие</word>
   <word key="gateway__AuthorizeNet" js="0">Authorize.Net</word>
   <word key="authorizenet_login" js="0">Логин API ID</word>
   <word key="authorizenet_login_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank' rel='noopener'>Получить логин API и транзакционный ключ</a>]]></word>
@@ -112,7 +205,10 @@
   <word key="authorizenet_DPM_desc" js="0">Данные банковской карты будут сохранены в Authorize.Net и никогда не будут обрабатываться вашим сервером. рекомендуется, если вы не разрешили сохранять данные банковской карты.</word>
   <word key="authorizenet_cim" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="authorizenet_cim_desc" js="0">Используется менеджер информации о клиенте. Данные банковской карты хранятся на серверах Authorize.Net, не на ваших.</word>
+  <word key="authorizenet_signature_key" js="0">Ключ подписи</word>
+  <word key="authorizenet_signature_key_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank' rel='noopener'>Получить свой ключ подписи</a>]]></word>
   <word key="authorizenet_hash" js="0">Хэш MD5</word>
+  <word key="authorizenet_hash_desc" js="0">Authorize.Net больше не рекомендует использовать хэширования MD5. Введите свой ключ подписи выше, чтобы перейти к его использованию.</word>
   <word key="authorizenet_desc" js="0"><![CDATA[<a href='{external.authorizenet_hash}' target='_blank' rel='noopener'>Получить хэш MD5</a>]]></word>
   <word key="authorizenet_processor" js="0">Платёжная система</word>
   <word key="authorizenet_processor_desc" js="0">Используется для отображения поддерживаемых к оплате банковских карт и проверки того, может ли ваша платежная система обработать ваш платёж. Если вы не знаете какую платежную систему вы используете, вы можете выбрать &quot;Не знаю&quot;, тогда пользователю будут отображены все типы карт, однако не поддерживаемые будут отклонены. Вы можете связаться с Authorize.Net, чтобы выяснить или изменить используемую платёжную систему.</word>
@@ -127,6 +223,91 @@
   <word key="manual_instructions_desc" js="0">Укажите адрес для отправки чека, или банковский счёт для банковского перевода, или другие инструкции для ручного подтверждения оплаты.</word>
   <word key="manual_gateway_description_placeholder" js="0">Нажмите, для добавления описания...</word>
   <word key="invalid_gateway" js="0">Транзакция %s не может быть обработана из-за некорректности платёжного шлюза.</word>
+  <word key="gateway__Braintree" js="0">Braintree</word>
+  <word key="gateway__Braintree_desc" js="0"><![CDATA[Требуется комплексный процесс подключения. <a href='{external.braintree_doc}'>Подробнее</a>]]></word>
+  <word key="braintree_basic_settings" js="0">Основные настройки</word>
+  <word key="braintree_keys" js="0">Ключи</word>
+  <word key="braintree_keys_blurb" js="0"><![CDATA[Получите эти ключи в <a href='{external.braintree_keys}' target='_blank' rel='noopener'>разделе API настроек своего аккаунта Braintree</a>.]]></word>
+  <word key="braintree_merchant_id" js="0">ID магазина</word>
+  <word key="braintree_public_key" js="0">Публичный ключ</word>
+  <word key="braintree_private_key" js="0">Приватный ключ</word>
+  <word key="braintree_type_header" js="0">Способ оплаты</word>
+  <word key="braintree_type" js="0">Оплата через</word>
+  <word key="braintree_type_desc" js="0">Для того, чтобы дать пользователям возможность выбора, настройте несколько способов оплаты через Braintree.</word>
+  <word key="braintree_type_paypal" js="0">PayPal</word>
+  <word key="braintree_type_paypal_desc" js="0"><![CDATA[Пользователей перенаправит на сайт PayPal для оплаты с помощью их аккаунта PayPal.<br>Этот вариант требует связи между вашими аккаунтами Braintree и PayPal. <a href='{external.braintree_paypal}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="braintree_paypal_vault" js="0">Использовать Vault</word>
+  <word key="braintree_paypal_vault_desc" js="0">Если включено, пользователи будут иметь возможность сохранить свой аккаунт PayPal как обычную банковскую карту. Оплата за продления будет производиться автоматически без необходимости повторной авторизации.</word>
+  <word key="braintree_paypal_credit" js="0">Предоставлять PayPal Credit</word>
+  <word key="braintree_paypal_credit_desc" js="0"><![CDATA[Если включено, пользователи увидят кнопку PayPal Credit рядом с обычной кнопкой PayPal Checkout. Они смогут использовать её для подачи заявки на кредитную линию. Вы сразу получите полную стоимость без каких-либо комиссий, но клиент сможет произвести оплату в течение периода времени. <a href='{external.braintree_paypal_credit}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="braintree_type_card" js="0">Карта</word>
+  <word key="braintree_type_card_desc" js="0">Пользователи введут данные своей карты прямо на странице оплаты.</word>
+  <word key="braintree_cards" js="0">Разрешить пользователям сохранять данные банковской карты</word>
+  <word key="braintree_cards_desc" js="0">Данные банковской карты хранятся на серверах Braintree, не на ваших. Обратите внимание, что 3D Secure не используется при использовании сохраненной карты для автоматических платежей (но используется при оплате во время оформления заказа).</word>
+  <word key="braintree_details_error" js="0">Невозможно получить с Braintree более подробную информацию об этой транзакции. Для подробной информации произведите поиск по ссылке платежа в вашей панели Braintree.</word>
+  <word key="braintree_3d_secure" js="0">Использовать 3D Secure?</word>
+  <word key="braintree_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.<br>Перед использованием этой возможности, она должна быть включена в вашем аккаунте Braintree. <a href='{external.braintree_3dsecure}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="braintree_type_venmo" js="0">Venmo</word>
+  <word key="braintree_type_venmo_desc" js="0"><![CDATA[Пользователи будут направлены в приложение Venmo для оплаты с помощью их аккаунта Venmo. Доступно только на мобильных устройствах, которые могут установить приложение Venmo.<br>Этот параметр поддерживает только транзакции в долларах США и требует включённого Venmo в вашем аккаунте Braintree. <a href='{external.braintree_venmo}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="braintree_venmo_vault" js="0">Использовать Vault?</word>
+  <word key="braintree_venmo_vault_desc" js="0">Если включено, пользователи смогут сохранить свой аккаунт Venmo как банковскую карту. Плата за продление будет взиматься автоматически без повторной авторизации.</word>
+  <word key="braintree_venmo_profile" js="0">ID профиля магазина Venmo</word>
+  <word key="braintree_venmo_profile_desc" js="0"><![CDATA[Если у вас подключено несколько сайтов к Venmo с помощью одного шлюза Braintree, укажите ID профиля, который вы хотите использовать. Вы можете получить его в <a href='{external.braintree_keys}' target='_blank' rel='noopener'>разделе Processing настроек вашего аккаунта Braintree</a>.]]></word>
+  <word key="braintree_venmo_profile_null" js="0">Использовать стандартный профиль</word>
+  <word key="braintree_auth_error" js="0">Данные для аутентификации (ID магазина, публичный ключ и/или приватный ключ) недействительны.</word>
+  <word key="braintree_account" js="0">Аккаунт</word>
+  <word key="braintree_webhook_header" js="0">Вебхук</word>
+  <word key="braintree_webhook" js="0"><![CDATA[Вы должны настроить вебхук в <a href='{external.braintree_keys}' target='_blank' rel='noopener'>разделе Webhooks настроек вашего аккаунта Braintree</a>. Выберите все типы уведомлений в Disputes (Opened, Lost, and Won) и укажите эту конечную точку:<br><pre class='ipsCode'>%s</pre><strong>Важно:</strong> Корректность настройки не будет проверена, поэтому убедитесь что всё сделано верно.]]></word>
+  <word key="braintree_type_applepay" js="0">Apple Pay</word>
+  <word key="braintree_type_applepay_desc" js="0"><![CDATA[Пользователи поддерживаемых устройств с iOS или macOS смогут оплатить с помощью карты, привязанной к Apple Pay.<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует HTTPS</a>, а также <a href='{external.braintree_applepay_register}' target='_blank' rel='noopener'>регистрации вашего домена</a>.]]></word>
+  <word key="braintree_type_googlepay" js="0">Google Pay</word>
+  <word key="braintree_type_googlepay_desc" js="0"><![CDATA[Пользователи смогут оплатить с помощью карты, привязанной к Google Pay.<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует HTTPS</a>, должен быть <a href='{external.braintree_googlepay}' target='_blank' rel='noopener'>включен в вашем аккаунте Braintree</a>,а также <a href='{external. braintree_googlepay_register}' target='_blank' rel='noopener'>регистрации вашего домена</a>.]]></word>
+  <word key="braintree_googlepay_merchant" js="0">ID магазина Google Pay</word>
+  <word key="braintree_googlepay_merchant_desc" js="0">Он будет предоставлен вам после регистрации вашего домена в Google.</word>
+  <word key="braintree_advanced_fraud" js="0">Использовать Advanced Fraud Tools?</word>
+  <word key="braintree_advanced_fraud_desc" js="0"><![CDATA[Для начала вам необходимо <a href='{external.braintree_advanced_fraud}' target='_blank' rel='noopener'>включить Advanced Fraud Tools в своём аккаунте Braintree</a>.]]></word>
+  <word key="braintree_risk_level" js="0">Решение Kount:</word>
+  <word key="braintree_dispute_reason_cancelled_recurring_transaction" js="0">Клиент жалуется, что вы продолжаете взимать плату после отмены подписки.</word>
+  <word key="braintree_dispute_reason_credit_not_processed" js="0">Клиент жалуется, что купленный продукт был возвращён или транзакция была отменена, но вы всё ещё не оформили возврат или не вернули средства на баланс.</word>
+  <word key="braintree_dispute_reason_duplicate" js="0">Клиент жалуется, что за один и тот же продукт или услугу средства были сняты дважды.</word>
+  <word key="braintree_dispute_reason_fraud" js="0">Клиент жалуется, что он не авторизовал платёж. Обычно это происходит, если карта была утеряна или украдена и использовалась для совершения мошеннический покупок, или клиент не может распознать платеж, который отображается в банковской выписке.</word>
+  <word key="braintree_dispute_reason_general" js="0">Причина спора неизвестна. Просмотрите свою панель Braintree для получения подробной информации.</word>
+  <word key="braintree_dispute_reason_invalid_account" js="0">Карта истекла, имеет некорректный номер счёта или имеет номер счёта, который не совпадает с номером карты оригинальной транзакции.</word>
+  <word key="braintree_dispute_reason_not_recognized" js="0">Клиент не распознает платеж, указанный в выписке по карте.</word>
+  <word key="braintree_dispute_reason_product_not_received" js="0">Клиент утверждает, что не получил приобретенные продукты или услуги.</word>
+  <word key="braintree_dispute_reason_product_unsatisfactory" js="0">Клиент утверждает, что полученные продукт или услуга были дефектными, поврежденными или не соответствующими описанию.</word>
+  <word key="braintree_dispute_reason_transaction_amount_differs" js="0">Клиент утверждает, что списанная сумма отличается от той, которую он согласился заплатить.</word>
+  <word key="braintree_dispute_status_open" js="0">Этот спор ожидает вашего ответа. Платеж уже был отменен, но, доказав, что сделка была законной, он может быть возвращен вам. Перейдите в панель Braintree, чтобы ответить.</word>
+  <word key="braintree_dispute_status_disputed" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. Платеж уже отменен, но если банк примет решение в вашу пользу, он может быть возвращен вам.</word>
+  <word key="braintree_dispute_status_open_r" js="0">Этот спор ожидает вашего ответа. На данном этапе платеж не был отменен, но если вы не ответите, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отозваны до разрешения спора. Перейдите в панель Braintree, чтобы ответить.</word>
+  <word key="braintree_dispute_status_disputed_r" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. На данном этапе платеж не был отменен, но если банк не примет решение в вашу пользу, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отозваны до разрешения спора.</word>
+  <word key="braintree_dispute_error" js="0">Невозможно получить с Braintree более подробную информацию об этом споре. Для подробной информации произведите поиск по ссылке платежа в вашей панели Braintree.</word>
+  <word key="braintree_3ds_pass" js="0">Проверка 3DSecure пройдена</word>
+  <word key="braintree_3ds_fail" js="0">3DSecure не аутентифицирован</word>
+  <word key="braintree_3ds_not_checked" js="0">Система 3DSecure не используется</word>
+  <word key="braintree_3ds_unsupported_card" js="0">неподдерживаемая карта</word>
+  <word key="braintree_3ds_lookup_error" js="0">ошибки</word>
+  <word key="braintree_3ds_lookup_enrolled" js="0">клиент отменил</word>
+  <word key="braintree_3ds_lookup_not_enrolled" js="0">карта не распознана</word>
+  <word key="braintree_3ds_lookup_bypassed" js="0">эмитент карты обошел проверку</word>
+  <word key="braintree_3ds_authenticate_successful_issuer_not_participating" js="0">эмитент карты не участвует</word>
+  <word key="braintree_3ds_authentication_unavailable" js="0">В аккаунт Braintree не настроен 3DSecure</word>
+  <word key="braintree_3ds_authenticate_signature_verification_failed" js="0">Произошла ошибка</word>
+  <word key="braintree_3ds_authenticate_successful" js="0">Аутентификация прошла успешно</word>
+  <word key="braintree_3ds_authenticate_attempt_successful" js="0">Эмитент карты прошел проверку подлинности без действий клиента</word>
+  <word key="braintree_3ds_authenticate_failed" js="0">Клиент провалил аутентификацию</word>
+  <word key="braintree_3ds_authenticate_unable_to_authenticate" js="0">Ошибка со стороны эмитента карты</word>
+  <word key="braintree_3ds_authenticate_error" js="0">Произошла ошибка</word>
+  <word key="braintree_avsStreetAddressResponseCode" js="0">Проверка улицы адреса</word>
+  <word key="braintree_avsPostalCodeResponseCode" js="0">Проверка индекса</word>
+  <word key="braintree_cvvResponseCode" js="0">Проверка CVC</word>
+  <word key="braintree_avscvv_M" js="0">проверка пройдена</word>
+  <word key="braintree_avscvv_N" js="0">проверка не пройдена</word>
+  <word key="braintree_avscvv_U" js="0">не выполнено</word>
+  <word key="braintree_avscvv_I" js="0">недоступно</word>
+  <word key="braintree_avscvv_S" js="0">недоступно - эмитент карты не участвует</word>
+  <word key="braintree_avscvv_A" js="0">не применимо</word>
+  <word key="braintree_avscvv_B" js="0">обойдено</word>
   <word key="menu__nexus_payments_transactions" js="0">Транзакции</word>
   <word key="transaction_history" js="0">История транзакции</word>
   <word key="t_status" js="0">Статус</word>
@@ -163,8 +344,14 @@
   <word key="tstatus_prfd" js="0">Возвращено</word>
   <word key="tstatus_prfd_desc" js="0">Платёж был получен, но частично возвращён клиенту или на баланс аккаунта.</word>
   <word key="tstatus_prfd_set" js="0">Частично возвращено</word>
+  <word key="tstatus_credited" js="0">Возвращено</word>
+  <word key="tstatus_credited_undo" js="0">Средства забраны</word>
   <word key="tstatus_gwpd" js="0">Обрабатывается</word>
   <word key="tstatus_gwpd_desc" js="0">Платёжный шлюз в данный момент обрабатывает эту транзакцию. Статус будет автоматически изменён при завершении обработки.</word>
+  <word key="tstatus_dspd" js="0">Оспаривается</word>
+  <word key="tstatus_dspd_desc" js="0">Клиент оспорил эту транзакцию. Для избежания отмены платежа, необходим ваш ответ на этот спор.</word>
+  <word key="tstatus_dspd_set" js="0">Оспаривается</word>
+  <word key="tstatus_dspd_inquiry_set" js="0">Расследуется банком</word>
   <word key="transaction_number" js="0">Транзакция № %d</word>
   <word key="transaction_approve" js="0">Утвердить</word>
   <word key="transaction_capture" js="0">Получить и утвердить</word>
@@ -174,12 +361,29 @@
   <word key="transaction_void_err" js="0"><![CDATA[Платёжный шлюз не смог аннулировать платёж. Если платёжный шлюз уже аннулировал его автоматически или нет необходимости в его аннулировании платёжным шлюзом, вы можете пропустить эту ошибку. <a href='%s'>Пропустить</a>]]></word>
   <word key="transaction_flag_review" js="0">Отправить на проверку</word>
   <word key="transaction_refund" js="0">Вернуть</word>
+  <word key="transaction_refund_desc" js="0">Средства будут возвращены клиенту через платёжный метод.</word>
   <word key="transaction_refund_title" js="0">Вернуть (%s)</word>
+  <word key="transaction_refund_credit" js="0">Вернуть</word>
+  <word key="transaction_refund_credit_title" js="0">Вернуть (%s)</word>
   <word key="refund_method" js="0">Действие</word>
   <word key="refund_method_credit" js="0">Вернуть средства на баланс аккаунта</word>
+  <word key="refund_method_credit_desc" js="0">Вы сохраните средства, однако на баланс клиента будет зачислена сумма, которую он сможет потратить на будущие покупки.</word>
   <word key="refund_method_none" js="0">Отметить транзакцию отказанной, но не возвращать её.</word>
+  <word key="refund_method_none_desc" js="0">Выберите этот вариант, если платёж был отмечен завершённым по ошибке или ручной платёж был возвращён (например, клиент отправил чек, который после был аннулирован).</word>
   <word key="refund_amount" js="0">Сумма</word>
   <word key="refund_full" js="0">Вся сумма (%s)</word>
+  <word key="refund_full_remaining" js="0">Оставшаяся сумма (%s)</word>
+  <word key="refund_credit_amount" js="0">Сумма</word>
+  <word key="refund_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> Клиент уже получил средства в размере %s. Вы можете вернуть меньшую сумму или забрать уже переданные средства, чтобы избежать ситуации, когда сумма возвращённых и зачисленных средств больше, чем сумма транзакции.</span>]]></word>
+  <word key="refund_credit_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> Клиент уже получил средства в размере %s. Вы можете зачислить на баланс меньшую сумму, чтобы избежать ситуации, когда сумма возвращённых и зачисленных средств больше, чем сумма транзакции.</span>]]></word>
+  <word key="refund_reverse_credit" js="0">Забрать %s?</word>
+  <word key="refund_reverse_credit_desc" js="0">Если выбрано, ранее переданные средства будут забраны с аккаунта пользователя.</word>
+  <word key="refund_reason" js="0">Причина возврата</word>
+  <word key="trans_refund_reason" js="0">Причина возврата транзакции №%d</word>
+  <word key="refund_reason_duplicate" js="0">Двойная транзакция</word>
+  <word key="refund_reason_stripe_fraudulent" js="0">Мошенничество</word>
+  <word key="refund_reason_stripe_fraudulent_desc" js="0">Это действие добавит карту и email-адрес клиента в ваш черный список Stripe Radar. Оно также поможет машинному обучению Stripe определять подобные случаи в будущем.</word>
+  <word key="refund_reason_requested_by_customer" js="0">Запрошен клиентом</word>
   <word key="refund_invoice_status" js="0">Установить статус счёта</word>
   <word key="refund_invoice_paid" js="0">Оплачен</word>
   <word key="refund_invoice_paid_desc" js="0">В аккаунте клиента ничего не изменится. Выберите этот вариант, если возврат является знаком доброй воли или уважения к клиенту.</word>
@@ -193,6 +397,9 @@
   <word key="refund_time_limit" js="0">Платёжный шлюз не смог обработать возврат т.к. прошло слишком много времени с момента оплаты. Вам нужно вернуться назад и вернуть средства на баланс аккаунта.</word>
   <word key="refund_already_processed" js="0">Платёжный шлюз сообщает, что транзакция уже была возвращена. Вам нужно вернуться назад и отметить транзакцию отказанной.</word>
   <word key="refund_failed" js="0">Платёжный шлюз не смог обработать возврат. Это могло произойти, если прошло слишком много времени с момента совершения платежа или недостаточно средств на вашем аккаунте для совершения возврата. Вы можете вернуться назад и вернуть средства на баланс аккаунта или связаться с платёжным шлюзом для ручного возврата и последующей отмены транзакции.</word>
+  <word key="refund_cancel_billing_agreement" js="0">Отменить регулярный платёж?</word>
+  <word key="refund_cancel_billing_agreement_desc" js="0">Эта транзакция была создана регулярным платежом. Если регулярный платёж не будет отменён, то он продолжит автоматически совершаться.</word>
+  <word key="refund_cancel_billing_agreement_warning" js="0">Невозможность отменить регулярный платёж будет означать, что платежи продолжат совершаться даже если нет привязанных покупок для продления.</word>
   <word key="address_invalid" js="0">Платёжный шлюз сообщил, что платёжный адрес или адрес доставки являются недействительными. Пожалуйста, проверьте корректность введённых адресов.</word>
   <word key="invoice_addresses" js="0">Адреса счёта</word>
   <word key="transaction_total" js="0">Всего</word>
@@ -202,7 +409,9 @@
   <word key="transaction_method" js="0">Оплачено через %s</word>
   <word key="transaction_ip" js="0">IP-адрес: %s</word>
   <word key="transaction_customer_since" js="0">Клиент с %s</word>
+  <word key="transaction_customer_since_header" js="0">Клиент с</word>
   <word key="transaction_spent" js="0">Потратил %s</word>
+  <word key="transaction_spent_header" js="0">Всего потрачено</word>
   <word key="transaction_refund_method" js="0">Возвращено через</word>
   <word key="transaction_method_pending" js="0">Обрабатывается %s</word>
   <word key="maxmind_title" js="0">Проверка мошенничества MaxMind</word>
@@ -282,6 +491,8 @@
   <word key="mailsub__nexus_commissionRevoked" js="0">{$commission} комиссии возвращены</word>
   <word key="payment_reference" js="0">Платёж связан с</word>
   <word key="trans_invoice_deleted" js="0">Счёт этой транзакции был удалён.</word>
+  <word key="amount_refunded" js="0">Возвращен</word>
+  <word key="amount_credited" js="0">Возвращено</word>
   <word key="menu__nexus_payments_paymentsettings" js="0">Настройки</word>
   <word key="payment_settings" js="0">Настройки оплаты</word>
   <word key="currencies" js="0">Валюты</word>
@@ -410,6 +621,8 @@
   <word key="invoice_shipment_x" js="0">Отгрузка № %d</word>
   <word key="invoice_in_shipment" js="0">В этой отгрузке</word>
   <word key="item_id" js="0">ID</word>
+  <word key="invoice_mailsub_paid" js="0">Помечен оплаченным</word>
+  <word key="invoice_mailsub_pend" js="0">Ожидает оплаты</word>
   <word key="generate_invoice" js="0">Создать счёт</word>
   <word key="cannot_edit_paid_invoice" js="0">Вы не можете изменять счёт, который был помечен оплаченным.</word>
   <word key="invoice_generate_member" js="0">Клиент</word>
@@ -456,6 +669,7 @@
   <word key="invoice_flow_visualise" js="0"><![CDATA[<a href='{internal.app=nexus&module=payments&controller=invoiceTimeline}' data-ipsDialog data-ipsDialog-title='График жизни счёта'>Просмотреть график жизни счетов</a>]]></word>
   <word key="payment" js="0">Платёж</word>
   <word key="secure_payment" js="0">Безопасный платёж</word>
+  <word key="secure_page" js="0">Это страница безопасна</word>
   <word key="renewal_invoices" js="0">Счета на продление</word>
   <word key="acplogs__invoice_settings" js="0">Обновлены настройки счетов</word>
   <word key="invoice_layout" js="0">Макет</word>
@@ -489,6 +703,7 @@
   <word key="billing_agreement_canceled" js="0">Отменено</word>
   <word key="billing_agreement_unknown" js="0">Статус неизвестен</word>
   <word key="billing_agreement_error" js="0">Возникла проблема при обращении к платёжному шлюзу для получения информации о регулярном платеже.</word>
+  <word key="billing_agreement_cancel_error" js="0">Возникла проблема при обращении к платёжному шлюзу для отмены регулярного платежа. Платеж не был отменен. Необходимо отменить регулярный платёж в платёжном шлюзе, а затем повторить попытку с отключенной опцией отмены регулярного платежа.</word>
   <word key="billing_agreement_error_public" js="0">Запрашиваемое действие не может быть выполнено. Пожалуйста, свяжитесь с нами для дополнительной информации.</word>
   <word key="billing_agreement_term" js="0">Условие</word>
   <word key="billing_agreement_next_payment" js="0">Следующий платёж</word>
@@ -593,6 +808,7 @@
   <word key="mailsub__nexus_shipment" js="0"><![CDATA[Уведомление об отгрузке {$shipment->invoice->title|raw}]]></word>
   <word key="err_no_easypost" js="0">EasyPost не может предоставить цены для данного продукта. Это может произойти, если перевозчики не могут произвести доставку до указанного адреса доставки. Свяжитесь с EasyPost для получения дополнительной информации или выберите другой способ доставки.</word>
   <word key="err_err_easypost" js="0">Возникла ошибка при обращении к EasyPost. Свяжитесь с технической поддержкой для подробной информации или выберите альтернативный способ доставки.</word>
+  <word key="shipment_details" js="0">Информация об отгрузке</word>
   <word key="enhancements__nexus_MaxMind" js="0">MaxMind minFraud</word>
   <word key="enhancements__nexus_MaxMind_desc" js="0">MaxMind minFraud анализирует транзакции для выявления потенциально мошеннических транзакций. Эта информация может использоваться в комбинации с настройками по борьбе с мошенничеством для отправки транзакции на проверку для ручного утверждения или отказе в транзакции.</word>
   <word key="maxmind_enable" js="0">Включить интеграцию MaxMind minFraud</word>
@@ -611,6 +827,7 @@
   <word key="card_number_invalid" js="0">Этот номер карты недействителен.</word>
   <word key="card_expire" js="0">Дата окончания</word>
   <word key="card_expires" js="0">Истекает</word>
+  <word key="card_expires_lc" js="0">истекает</word>
   <word key="card_expire_expired" js="0">Срок действия карты истёк.</word>
   <word key="card_ccv" js="0">Код безопасности</word>
   <word key="card_ccv_desc" js="0">Последние 3 цифры на задней стороне карты или 4 цифры на передней стороны карты American Express</word>
@@ -619,9 +836,13 @@
   <word key="ccv_invalid_3" js="0">Указанный код безопасности недействителен. Это должны быть последние 3 цифры на полосе подписи с задней стороны карты.</word>
   <word key="ccv_invalid_4" js="0">Указанный код безопасности недействителен. Это должны быть последние 4 цифры в верхнем-правом углу с передней стороны карты.</word>
   <word key="gateway_err" js="0">Возникла ошибка при обработке платежа. Пожалуйста, попробуйте другой способ оплаты или свяжитесь с нами для получения помощи.</word>
+  <word key="card_origin" js="0">Оригинал:</word>
+  <word key="card_holder_name" js="0">Владелец карты:</word>
   <word key="card_refused" js="0">Ваша карта была отклонена. Пожалуйста, попробуйте другую карту или обратитесь к эмитенту вашей карты за помощью.</word>
+  <word key="card_information_invalid" js="0">Предоставленная информация о карте является некорректной или устарела. Пожалуйста, проверьте введённую информацию или свяжитесь с нами для получения помощи.</word>
   <word key="payment_refused" js="0">Ваш платёж был отклонён платежной системой. Пожалуйста, попробуйте другой способ оплаты, или свяжитесь с нами для получения помощи.</word>
   <word key="card_bad_type" js="0">Мы не принимаем карты %s</word>
+  <word key="card_is_duplicate" js="0">Эта карта уже сохранена в вашем аккаунте.</word>
   <word key="card_types" js="0">Мы принимаем %s</word>
   <word key="card_type" js="0">Тип</word>
   <word key="card_type_visa" js="0">Visa</word>
@@ -630,14 +851,19 @@
   <word key="card_type_american_express" js="0">American Express</word>
   <word key="card_type_diners_club" js="0">Diners Club</word>
   <word key="card_type_jcb" js="0">JCB</word>
+  <word key="card_type_paypal" js="0">Аккаунт PayPal</word>
+  <word key="card_type_venmo" js="0">Аккаунт Venmo</word>
   <word key="card_type_generic" js="0">Карта</word>
   <word key="card_save" js="0">Сохранить карту для дальнейших покупок и автоматического продления</word>
+  <word key="braintree_vault_save" js="0">Сохранить аккаунт для дальнейших покупок и автоматического продления</word>
   <word key="use_stored_card" js="0">Использовать сохранённую карту</word>
   <word key="use_new_card" js="0">Использовать новую карту</word>
+  <word key="use_new_braintree_vault" js="0">Использовать другой аккаунт</word>
   <word key="do_you_have_coupon" js="0">У вас есть купон?</word>
   <word key="apply_coupon" js="0">Применить купон</word>
   <word key="partial_payment_desc" js="0">Частичный платеж № %d</word>
   <word key="subtotal" js="0">Итого</word>
+  <word key="cart_subtotal" js="0">Сумма</word>
   <word key="total" js="0">Всего</word>
   <word key="card_requires_js" js="0">Пожалуйста, включите JavaScript в вашем браузере для продолжения.</word>
   <word key="checkout_login" js="0">Зарегистрироваться или войти</word>
@@ -717,6 +943,7 @@
   <word key="transaction_title_pending" js="0">Платёж обрабатывается</word>
   <word key="transaction_title_refused" js="0">Проблема с платежом</word>
   <word key="payment_details" js="0">Информация об оплате</word>
+  <word key="refund_details" js="0">Информация о возврате</word>
   <word key="payment_ref" js="0">Ссылка</word>
   <word key="transaction_awaiting_approval" js="0">Ожидает утверждения</word>
   <word key="transaction_paid" js="0">%s оплачен через %s</word>
@@ -724,6 +951,7 @@
   <word key="transaction_declined" js="0">Платёж на %s от %s был отклонён</word>
   <word key="transaction_refunded" js="0">%s оплатил %s, которые были возвращены</word>
   <word key="transaction_part_refunded" js="0">%s были возвращёны с этого платежа</word>
+  <word key="transaction_part_credited" js="0">%s из этого платежа были возвращены на баланс аккаунта</word>
   <word key="transaction_processing" js="0">Обрабатывается</word>
   <word key="try_another_payment" js="0">Попробуйте другой способ оплаты</word>
   <word key="split_payment" js="0">Разделить платеж</word>
@@ -806,6 +1034,7 @@
   <word key="f_customer_spend" js="0">Всего потрачено на предыдущие покупки</word>
   <word key="f_customer_spend_desc" js="0">Учитываются только утверждённые, не возвращённые транзакции</word>
   <word key="f_blurb_customer_spend" js="0">Клиент ранее потратил %s %s</word>
+  <word key="fraud_rule_blurb" js="0">Каждое правило проверяется в том порядке, в котором они отображаются здесь, пока не будет сработано одно из них, после чего ни одно из последующих правил не будет проверено. Не забудьте правильно упорядочить правила, чтобы обеспечить необходимые действия.</word>
   <word key="fraud_rule_conflict" js="0"><![CDATA[Правило никогда не будет использоваться, потому что все транзакции, соответствующие ему, также соответствуют <em>%s</em>. Вы должны изменить порядок правил для определения желаемых мер.]]></word>
   <word key="triggered_fraud_rule" js="0">Сработало правило по борьбе с мошенничеством</word>
   <word key="f_last_okay_trans" js="0">Последняя успешная транзакция</word>
@@ -822,6 +1051,7 @@
   <word key="f_blurb_custom_discrete" js="0">%s - %s</word>
   <word key="f_blurb_custom_text" js="0">%s %s %s</word>
   <word key="f_blurb_custom_numeric" js="0">%s - %s %s</word>
+  <word key="f_has_preceeding" js="0">Ни одно из выше перечисленных правил не подходит</word>
   <word key="customerTable_cm_first_name" js="0">Имя</word>
   <word key="customerTable_cm_last_name" js="0">Фамилия</word>
   <word key="customerTable_email" js="0">Email-адрес</word>
@@ -888,11 +1118,11 @@
   <word key="edit_information" js="0">Изменить информацию</word>
   <word key="customer_since" js="0">Клиент с %s</word>
   <word key="manage_notes" js="0">Управление примечаниями</word>
-  <word key="manage_credit_cards" js="0">Управление банковскими картами</word>
-  <word key="manage_billing_agreements" js="0">Управление регулярными платежами</word>
+  <word key="customer_manage_cards" js="0">Управление кредитными картами</word>
+  <word key="customer_manage_paypal" js="0">Управление регулярными платежами</word>
   <word key="billing_agreements" js="0">Регулярные платежи</word>
-  <word key="manage_contacts" js="0">Управление контактами</word>
-  <word key="manage_referrals" js="0">Управление приглашениями</word>
+  <word key="customer_manage_alts" js="0">Управление контактами</word>
+  <word key="customer_manage_referrers" js="0">Управление приглашениями</word>
   <word key="recent_account_activity" js="0">Последняя активность аккаунта</word>
   <word key="view_account" js="0">Просмотр аккаунта</word>
   <word key="no_alternate_contacts" js="0">Нет альтернативных контактов.</word>
@@ -904,7 +1134,6 @@
   <word key="no_referrals" js="0">Нет приглашённых клиентов.</word>
   <word key="see_all_support" js="0">{!# [1:Один запрос][?:Все запросы]}</word>
   <word key="see_all_invoices" js="0">{!# [1:Один счёт][?:Все счета]}</word>
-  <word key="see_all_purchases" js="0">{!# [1:Одна покупка][?:Все покупки]}</word>
   <word key="no_support_requests" js="0">Нет запросов в поддержку для отображения.</word>
   <word key="invoice_created" js="0">Счёт создан</word>
   <word key="no_invoices" js="0">У этого клиента нет счетов</word>
@@ -913,6 +1142,7 @@
   <word key="referred_by" js="0">Пригласил</word>
   <word key="history_added_note" js="0">Добавлена заметка %s</word>
   <word key="history_edited_note" js="0">Изменена заметка %s</word>
+  <word key="history_deleted_note" js="0">Удалена заметка %s</word>
   <word key="nexus_no_security_answers" js="0">Нет контрольных вопросов</word>
   <word key="loading_customer_stats" js="0">Статистика клиента загружается...</word>
   <word key="customer_tab_overview" js="0">Информация</word>
@@ -921,6 +1151,10 @@
   <word key="customer_tab_alts" js="0">Альтернативные контакты</word>
   <word key="customer_tab_referrers" js="0">Приглашённые пользователи</word>
   <word key="revenue_past_12_months" js="0">Доход за последние 12 месяцев</word>
+  <word key="memberACPProfileTitle_nexus_Main" js="0">Клиент</word>
+  <word key="purchase_tab_active" js="0">Активные</word>
+  <word key="purchase_tab_expired" js="0">Истёкшие</word>
+  <word key="purchase_tab_canceled" js="0">Отменённые</word>
   <word key="menu__nexus_customers_fields" js="0">Настраиваемые поля</word>
   <word key="nexus_customer_fields" js="0">Поля клиентов</word>
   <word key="customer_field_registration" js="0">Регистрация</word>
@@ -947,9 +1181,12 @@
   <word key="history_transaction_status_hold" js="0">отправлена на ручную проверку</word>
   <word key="history_transaction_status_revw" js="0">отправлена на проверку</word>
   <word key="history_transaction_status_fail" js="0">отказана</word>
+  <word key="history_transaction_status_dspd" js="0">оспаривается</word>
   <word key="history_transaction_refunded" js="0">Транзакция %s возвращена %s.</word>
+  <word key="history_transaction_credited" js="0">%s возвращены%s.</word>
+  <word key="history_transaction_part_credited" js="0">%s из %s возвращены%s.</word>
+  <word key="history_transaction_undo_credit" js="0">%s за %s были забраны%s.</word>
   <word key="history_transaction_part_refunded" js="0">%s в транзакции %s возвращены%s.</word>
-  <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
   <word key="history_transaction_delete" js="0">Транзакция %s удалена%s.</word>
   <word key="history_shipping_ship" js="0">Отгрузка %s отправлена%s.</word>
   <word key="history_shipping_new" js="0">Отгрузка %s создана из %s.</word>
@@ -960,9 +1197,12 @@
   <word key="history_purchase_edited" js="0">Покупка %s изменена%s.</word>
   <word key="history_purchase_renewals_changed" js="0">Период продления покупки %s изменён%s на %s.</word>
   <word key="history_purchase_renewals_removed" js="0">Период продления покупки %s удалён%s.</word>
+  <word key="history_purchase_never_expire" js="0">Для покупки %s отменен срок истечения%s.</word>
+  <word key="history_purchase_restored_expire" js="0">Для покупки %s установлен обычный срок истечения%s.</word>
   <word key="history_purchase_transfer_from" js="0">Покупка %s перемещена %s%s.</word>
   <word key="history_purchase_transfer_to" js="0">Покупка %s перемещена от %s%s.</word>
   <word key="history_purchase_canceled" js="0">Покупка %s отменена%s.</word>
+  <word key="history_purchase_canceled_api" js="0">Покупка %s отменена через REST API%s.</word>
   <word key="history_purchase_reactivated" js="0">Покупка %s возобновлена%s.</word>
   <word key="history_purchase_expired" js="0">Покупка %s истекла.</word>
   <word key="history_purchase_deleted" js="0">Покупка %s удалена.</word>
@@ -1044,6 +1284,7 @@
   <word key="view_original_invoice" js="0">Просмотреть оригинальный счёт</word>
   <word key="purchase_associated_invoices" js="0">Связанные счета</word>
   <word key="purchase_renewal_commission" js="0">%s%% от стоимости продления идёт %s.</word>
+  <word key="purchase_renewal_commission_fee" js="0">%s%% от стоимости продления, за минусом комиссии за транзакцию в размере %s, идёт %s.</word>
   <word key="package_product" js="0">Продукт</word>
   <word key="group_with_parent" js="0">Объединить с родительским</word>
   <word key="group_with_parent_info" js="0">Эта покупка будет объединена с родительской в единую покупку. Будет создан единый период продление и вы сможете совершать различные действия (продление, отмена и т.д.) над объединённой покупкой, а не отдельными компонентами. Все ожидающие счета будут отменены, так как больше не будут действительны.</word>
@@ -1138,6 +1379,8 @@
   <word key="acplogs__payout_deleted" js="0">Удалён запрос на вывод %d</word>
   <word key="acplogs__payout_settings" js="0">Обновлены настройки баланса аккаунтов</word>
   <word key="account_credit_mass_payout" js="0">Утвердить все %s запросов на вывод средств</word>
+  <word key="payout_view" js="0">Просмотреть вывод средств</word>
+  <word key="payout_details" js="0">Информация о выводе средств</word>
   <word key="r__transactions" js="0">Транзакции</word>
   <word key="r__transactions_manage" js="0">Может просматривать транзакции</word>
   <word key="r__transactions_edit" js="0">Может утверждать/аннулировать транзакции</word>
@@ -1194,8 +1437,11 @@
   <word key="r__requests_block_sev" js="0">Может отменять/восстанавливать права пользователей на установку уровней запросов</word>
   <word key="r__requests_ratings" js="0">Может просматривать рейтинг клиентов на ответ поддержки</word>
   <word key="r__requests_ratings_feedback" js="0">Может просматривать отзыв клиентов на ответ поддержки (требуются права на просмотр рейтинга)</word>
+  <word key="already_rated" js="0">Вы уже оценили этот отзыв</word>
   <word key="r__customers" js="0">Клиенты</word>
   <word key="r__customers_view" js="0">Может просматривать клиентов</word>
+  <word key="r__customers_view_statistics" js="0">Может просматривать статистику клиента?</word>
+  <word key="r__customers_view_credit" js="0">Может просматривать баланс аккаунта клиента?</word>
   <word key="r__customers_edit_details" js="0">Может изменять данные о клиенте</word>
   <word key="r__customers_edit_credit" js="0">Может изменять баланс аккаунтов</word>
   <word key="r__customers_edit_cards" js="0">Может просматривать и управлять номерами банковских карт (полный номер карт никогда не отображается)</word>
@@ -1349,6 +1595,7 @@
   <word key="dpt_packages" js="0">Связанные продукты</word>
   <word key="dpt_packages_desc" js="0">Продукты, которые клиент может выбрать как связанные с запросом в поддержку. Например, для отдела поддержки, вы можете выбирать продукты, на которые распространяется поддержка.</word>
   <word key="do_not_associate_requests" js="0">Не связывать запрос с продуктами</word>
+  <word key="do_not_associate_sub_requests" js="0">Не связывать запросы с пакетами подписки</word>
   <word key="dpt_require_package" js="0">Требовать связанную покупку</word>
   <word key="dpt_email" js="0">Email-адрес</word>
   <word key="dpt_email_desc" js="0"><![CDATA[Если вы настроили <a href='{internal.app=nexus&module=support&controller=settings&tab=incomingemail}'>входящие email</a>, письма, полученные с этого адреса будут отправлены в этот отдел. Когда сотрудник ответит на него, email-письмо будет отправлено с этого адреса.]]></word>
@@ -1475,6 +1722,7 @@
   <word key="nexus_support_satisfaction" js="0">Включить отзывы пользователей</word>
   <word key="nexus_support_satisfaction_desc" js="0">Позволяет клиентам оценивать ответы сотрудников и оставлять примечания.</word>
   <word key="acplogs__customerfeedback_settings" js="0">Обновлены настройки отзывов клиентов</word>
+  <word key="dpt_subscriptions" js="0">Доступные для связи подписки</word>
   <word key="incoming_email_setup" js="0">Настройка входящих email-писем</word>
   <word key="ie_splash_intro" js="0"><![CDATA[Система поддержки может получать email-письма, позволяя вам использовать запросы в поддержку для общения с клиентами, отправляющими вам письма по электронной почте. Каждый <a href='{internal.app=nexus&module=support&controller=settings&tab=departments}'>отдел</a> имеет свой email-адрес.]]></word>
   <word key="ie_splash_methods" js="0">Email-письма могут быть прочитаны несколькими способами:</word>
@@ -1739,6 +1987,7 @@
   <word key="customer_full_name" js="0">Полное имя клиента</word>
   <word key="department_name" js="0">Название отдела</word>
   <word key="department_email" js="0">Email-адрес отдела</word>
+  <word key="default_content" js="0">Стандартное содержимое ответа</word>
   <word key="menu__nexus_support_reports" js="0">Эффективность</word>
   <word key="performance_reports" js="0">Отчеты о производительности</word>
   <word key="staff_productivity" js="0">Продуктивность поддержки</word>
@@ -1776,7 +2025,7 @@
   <word key="latest_feedback" js="0">Последний отзыв</word>
   <word key="menu__nexus_store" js="0">Магазин</word>
   <word key="menu__nexus_store_packages" js="0">Продукты</word>
-  <word key="menu__nexus_store_packages_add_child" js="0">Создать продукт в этой группе</word>
+  <word key="product_groups_add_child" js="0">Создать продукт в этой группе</word>
   <word key="product" js="0">Продукт</word>
   <word key="create_new_group" js="0">Создать новую группу</word>
   <word key="pg_name" js="0">Название</word>
@@ -1784,6 +2033,7 @@
   <word key="pg_desc" js="0">Описание</word>
   <word key="pg_desc_placeholder" js="0">Нажмите для добавления описания.</word>
   <word key="pg_image" js="0">Обложка</word>
+  <word key="pg_filters" js="0">Фильтры продуктов</word>
   <word key="package_settings" js="0">Настройки продукта</word>
   <word key="package" js="0">Пакет</word>
   <word key="p_type" js="0">Тип</word>
@@ -1844,6 +2094,30 @@
   <word key="p_downgrade_refund_full_desc" js="0">К примеру, если продукт стоит $20 и клиент понизится до продукта стоимостью $15, ему будет уплачено $5.</word>
   <word key="p_downgrade_refund_prorate" js="0">Пропорциональная разница между ценой продления.</word>
   <word key="p_downgrade_refund_prorate_desc" js="0">Например, если продление этого продукта стоит $20 за месяц, у клиента был этот продукт в течение половины месяца и он понижает его до продукта со стоимостью продления в $10 за месяц, ему будет возвращена разница ($10) за оставшуюся половину месяца, то есть $5.</word>
+  <word key="package_custom_emails" js="0">Email-письма</word>
+  <word key="package_custom_emails_blurb" js="0">Email-письма, настроенные здесь, будут отправлены для каждой покупки, поэтому, если клиент покупает несколько копий этого продукта, то он получит письмо для каждой копии.</word>
+  <word key="p_email_purchase_type" js="0">Отправлять email-письмо после покупки?</word>
+  <word key="p_email_purchase_type_desc" js="0"><![CDATA[Это письмо будет отправлено <em>в дополнение</em> к письму об успешной оплате счета.]]></word>
+  <word key="p_email_none" js="0">Нет</word>
+  <word key="p_email_wysiwyg" js="0">Да, использовать WYSIWYG-редактор</word>
+  <word key="p_email_html_template" js="0">Да, использовать HTML-код со стандартным шаблоном</word>
+  <word key="p_email_html_raw" js="0">Да, использовать HTML-код без шаблона</word>
+  <word key="p_email_purchase_subject" js="0">Тема email-письма после покупки</word>
+  <word key="p_email_purchase_html" js="0">Содержание email-письма после покупки</word>
+  <word key="p_email_purchase_wysiwyg" js="0">Содержание email-письма после покупки</word>
+  <word key="p_email_expire_soon_type" js="0">Отправлять email-письмо при скором истечении покупки?</word>
+  <word key="p_email_expire_soon_type_desc" js="0"><![CDATA[Оно будет отправлено <em>вместо</em> <a href='{internal.app=nexus&module=payments&controller=invoices&do=settings&searchResult=cm_invoice_warning}' target='_blank' rel='noopener'>email-уведомления об автоматическом платеже</a>, поэтому лучше сообщать клиенту о том, что если у клиента есть средства на балансе аккаунта, привязана карта или активен регулярный платеж, то платеж будет произведен автоматически.]]></word>
+  <word key="p_email_expire_soon_subject" js="0">Тема email-письма при скором истечении покупки</word>
+  <word key="p_email_expire_soon_html" js="0">Содержание email-письма при скором истечении покупки</word>
+  <word key="p_email_expire_soon_wysiwyg" js="0">Содержание email-письма при скором истечении покупки</word>
+  <word key="p_email_expire_type" js="0">Отправлять email-письмо при истечении покупки?</word>
+  <word key="p_email_expire_subject" js="0">Тема email-письма при истечении покупки</word>
+  <word key="p_email_expire_html" js="0">Содержание email-письма при истечении покупки</word>
+  <word key="p_email_expire_wysiwyg" js="0">Содержание email-письма при истечении покупки</word>
+  <word key="p_email_preview_example" js="0">Пример</word>
+  <word key="p_email_tag_expire" js="0">Дата истечения</word>
+  <word key="p_email_tag_field" js="0">Значение настраиваемого поля (замените 1 на ID поля)</word>
+  <word key="p_email_tag_url" js="0">Ссылка на область клиента</word>
   <word key="package_benefits" js="0">Привилегии покупки</word>
   <word key="p_primary_group" js="0">Переместить клиента в группу</word>
   <word key="p_primary_group_desc" js="0"><![CDATA[Вы можете указать группы, пользователи из которых не будут перемещены, в <a href='{internal.app=nexus&module=store&controller=settings}'>настройках магазина</a>.]]></word>
@@ -1960,6 +2234,24 @@
   <word key="change_renew_ba_skip" js="0">Пропустить покупки с регулярным платежом</word>
   <word key="change_renew_ba_cancel" js="0">Отменить регулярный платёж</word>
   <word key="change_renew_ba_go_back" js="0">Вернуться и изменить настройки</word>
+  <word key="p_set_discounts" js="0">Настроить скидки</word>
+  <word key="menu__nexus_store_filters" js="0">Фильтры продуктов</word>
+  <word key="product_filters_blurb" js="0"><![CDATA[Фильтры позволяют пользователям легче находить продукты, которые они ищут в категории. Например, вы можете настроить фильтры Бренд, Цвет, Размер или похожие. После создания фильтров, перейдите на страницу <a href='{internal.app=nexus&module=store&controller=packages}'>Продукты</a> и добавьте каждый фильтр к необходимым категориям, после чего укажите значения для каждого продукта в категории.]]></word>
+  <word key="pfilter_basic_settings" js="0">Названия фильтров</word>
+  <word key="pfilter_admin_name" js="0">Внутреннее название</word>
+  <word key="pfilter_admin_name_desc" js="0">Это то, что вы увидите в качестве названия фильтра в Админцентре.</word>
+  <word key="pfilter_public_name" js="0">Публичное название</word>
+  <word key="pfilter_public_name_desc" js="0">Это то, что пользователи увидят в качестве названия фильтра в магазине. Вы можете использовать разные названия, если у вас есть фильтры с одним и тем же названием, но разными вариантами. Например, вы можете создать несколько фильтров Размер, так как вариантами размеров для разных категорий могут быть разными.</word>
+  <word key="pfilter_options" js="0">Значения</word>
+  <word key="pg_basic_settings" js="0">Основные настройки</word>
+  <word key="pg_filters_header" js="0">Фильтры</word>
+  <word key="pg_price_filters" js="0">Фильтр по цене</word>
+  <word key="pg_price_filters_desc" js="0"><![CDATA[Пользователи смогут фильтровать продукты по базовой цене в заданных порогах. Введите верхний предел каждого порога: например, если вы вводите значения <strong>200 ₽</strong> и <strong>500 ₽</strong>, пользователь увидит следующие фильтры: <strong>0 ₽ –200 ₽</strong>, <strong>200 ₽ –500 ₽</strong>, и <strong>500 ₽+</strong>.]]></word>
+  <word key="product_delete_blurb" js="0">Есть существующие покупки этого продукта. Если вы удалите его, с пользователей всё ещё будут взимать плату, но большинство вещей, которые происходят при истечении или реактивации (например, изменение группы) происходить не будут.</word>
+  <word key="subscription_delete_blurb" js="0">Есть существующие подписчики этого плана. Если вы удалите его, с пользователей всё ещё будут взимать плату, но они не переместятся в первоначальную группу при истечении подписки.</word>
+  <word key="product_delete_confirm" js="0">Удалить</word>
+  <word key="product_delete_hide" js="0">Скрыть из магазина, но не удалять</word>
+  <word key="package_not_in_store" js="0">Не в магазине</word>
   <word key="menu__nexus_store_fields" js="0">Настраиваемые поля</word>
   <word key="cf_packages" js="0">Продукты</word>
   <word key="cf_sticky" js="0">Использовать для идентификации покупки</word>
@@ -2090,6 +2382,15 @@
   <word key="kg" js="0">кг</word>
   <word key="renewal_amount_with_pc_saving" js="0">%s (экономия %s%%)</word>
   <word key="renewal_amount_with_cost_saving" js="0">%s (экономия %s)</word>
+  <word key="store_empty" js="0">Нет продуктов, соответствующих вашим критериям.</word>
+  <word key="store_filter_by" js="0">Фильтр</word>
+  <word key="store_clear_filters" js="0">Очистить фильтры</word>
+  <word key="price_filter" js="0">Фильтр по цене</word>
+  <word key="price_filter_set" js="0">Установить фильтр по цене</word>
+  <word key="minPrice" js="0">Минимальная цена</word>
+  <word key="maxPrice" js="0">Максимальная цена</word>
+  <word key="minRating" js="0">Рейтинг</word>
+  <word key="in_stock_only" js="0">Отображать только продукты в наличии</word>
   <word key="menu__nexus_store_settings" js="0">Настройки</word>
   <word key="store_settings" js="0">Настройки магазина</word>
   <word key="nexus_gift_vouchers" js="0">Подарочные карты</word>
@@ -2114,6 +2415,8 @@
   <word key="nexus_reg_force" js="0">Заставить пользователей совершить покупку при регистрации</word>
   <word key="nexus_reg_force_desc" js="0"><![CDATA[Вы можете настроить предлагаемые продукты на странице <a href='{internal.app=nexus&module=store&controller=packages}'>Продукты</a>.]]></word>
   <word key="themesetting_cm_store_view" js="0">Основная разметка магазина</word>
+  <word key="cm_store_view_grid" js="0">Сетка</word>
+  <word key="cm_store_view_list" js="0">Список</word>
   <word key="nexus_show_renew_option_savings" js="0">Отображать экономию по скидке</word>
   <word key="nexus_show_renew_option_savings_desc" js="0">Если у продукта есть несколько вариантов продления с разной ценой, то может быть отображена сумма, которую пользователь экономит при выборе определённого варианта.</word>
   <word key="nexus_show_renew_option_savings_none" js="0">Не отображать</word>
@@ -2677,7 +2980,6 @@
   <word key="hosting_errors_blurb" js="0"><![CDATA[Если возникла ошибка связи и сервером, это может привести к рассинхронизации с сервером. Например, если аккаунт истекает, но сервер в это время выключен, аккаунт не станет истёкшим. Любые возникающие ошибки записываются сюда, поэтому вы можете попробовать ещё раз или исправить сервер вручную. Также можно периодически <a href='{internal.app=nexus&module=hosting&controller=servers&do=audit}'>проверять все серверы</a>, чтобы обеспечить корректность их синхронизации.]]></word>
   <word key="hosrting_error_retry_done" js="0">Вызов API успешно отправлен</word>
   <word key="nexus_hosting_error_emails" js="0">Email-адрес для уведомлений при возникновении ошибок</word>
-  <word key="mailsub__nexus_hostingError" js="0">Неудачная связь с сервером</word>
   <word key="hosting_error_email_intro" js="0">Возникла ошибка при отправке запроса к серверу хостинга.</word>
   <word key="acplogs__host_err_settings" js="0">Обновлены настройки уведомлений об ошибках хостинга</word>
   <word key="hosting_no_server" js="0">Нет доступных серверов, которые может использовать этот продукт. Убедитесь в том, что продукт настроен на использование корректной группы серверов, и как минимум один сервер находится в ней.</word>
@@ -2689,6 +2991,7 @@
   <word key="account_diskspace_use" js="0">Использование места на диске</word>
   <word key="account_bandwidth_use" js="0">Использование трафика за месяц</word>
   <word key="account_ftp" js="0">FTP</word>
+  <word key="account_Cpanel_control_panel" js="0">CPanel</word>
   <word key="account_edit_warning" js="0">Поля, помеченные %s, были изменены и будут обновлены на сервере. Если вы уже обновили сервер и не хотите отправлять запрос на обновление этих значений, отметьте этот флажок:</word>
   <word key="bandwidth_purchase_option" js="0">%s - %s</word>
   <word key="bandwidth_purchase_option_admin" js="0">%s - %s на 1 месяц</word>
@@ -2725,15 +3028,19 @@
   <word key="advertisement_pending_approval" js="0">Реклама в данный момент ожидает утверждения.</word>
   <word key="advertisement_active" js="0">Реклама включена и она будет периодически отображаться.</word>
   <word key="advertisement_expired" js="0">Срок действия рекламы закончился и она больше не будет отображаться.</word>
+  <word key="view_advertisements" js="0">Просмотреть рекламу</word>
   <word key="menu__nexus_reports" js="0">Продажи</word>
   <word key="menu__nexus_reports_purchases" js="0">Продажи</word>
   <word key="purchases" js="0">Покупки</word>
+  <word key="active_purchases" js="0">Активные покупки</word>
   <word key="menu__nexus_reports_markets" js="0">Рынок</word>
   <word key="nexus_report_count" js="0">Все продажи</word>
   <word key="nexus_report_income" js="0">Доход %s</word>
   <word key="nexus_report_income_by_method" js="0">Доход %s по способу оплаты</word>
   <word key="menu__nexus_reports_income" js="0">Доход</word>
   <word key="nexus_report_income_totals" js="0">Весь доход</word>
+  <word key="nexus_report_income_members" js="0">Лучшие клиенты</word>
+  <word key="nexus_report_income_by_member" js="0">Топ клиентов по %s</word>
   <word key="performance_rated_by" js="0">%s оценил ответ %s</word>
   <word key="module__nexus_promotion" js="0">Приглашения</word>
   <word key="menu__nexus_customers_referrals" js="0">Приглашения</word>
@@ -2809,6 +3116,10 @@
   <word key="email_thanks_for_order" js="0">Спасибо за ваш заказ на %s. Ваш платёж был получен и утверждён.</word>
   <word key="email_shipping_note" js="0">Мы отправим вам email-письмо, когда {!# [1:ваш товар будет отправлен][?:ваши товары будут отправлены]}.</word>
   <word key="email_transaction_refunded" js="0">Уведомляем вас о том, что мы вернули ваш платеж, указанный ниже.</word>
+  <word key="email_transaction_refunded_paid" js="0">Статус вашего заказа не был изменён и никакие дальнейшие действия не требуются.</word>
+  <word key="email_transaction_refunded_pend" js="0">Если вы не ожидали возврат, ваш заказ, скорее всего, не прошел наши шаги по предотвращению мошенничества. Пожалуйста, просмотрите ваш заказ ниже, а затем попробуйте совершить платеж еще раз, нажав кнопку Оплатить сейчас.</word>
+  <word key="email_transaction_refunded_expd" js="0">Пожалуйста, свяжитесь с нами, если у вас есть какие-либо вопросы.</word>
+  <word key="email_transaction_refunded_canc" js="0">Ваш заказ был отменён и никакие дальнейшие действия не требуются.</word>
   <word key="email_transaction_failed" js="0">К сожалению, возникла проблема с обработкой вашего платежа. Пожалуйста, проверьте ваш заказ ниже, после повторите отправку платежа ещё раз, нажав кнопку Оплатить сейчас.</word>
   <word key="email_transaction_waiting" js="0">Спасибо за ваш заказ на %s. Ваш заказ ожидает оплаты. Мы вышлем вам email-письмо с дальнейшей информацией, как только ваш платеж будет получен.</word>
   <word key="email_held_approval" js="0"><![CDATA[Спасибо за ваш заказ. Ваш платеж по счету, указанному ниже, был получен и <strong>в данный момент отправлен на проверку</strong>.<br>На этом этапе от вас не требуется никаких дальнейших действий. Мы вышлем вам email-письмо, как только ваш платеж будет утвержден.]]></word>
@@ -2867,6 +3178,7 @@
   <word key="email_renewal_cost" js="0">Стоимость продления</word>
   <word key="email_card_on_file" js="0">Способ оплаты</word>
   <word key="email_ending_in" js="0">заканчивается в %s</word>
+  <word key="email_paymethod_account" js="0">Аккаунт</word>
   <word key="email_invoice_paid" js="0">Ваш счет был помечен оплаченным.</word>
   <word key="email_invoice_shipping" js="0">Мы отправим вам email-письмо, когда ваши товары будут отправлены.</word>
   <word key="emailtpl_transactionWaiting" js="0">Транзакция в ожидании</word>
@@ -2905,10 +3217,21 @@
   <word key="emailtpl_autoresolveWarning" js="0">Предупреждение об автозакрытии запроса в поддержку</word>
   <word key="email_timeelapsed" js="0">Прошло времени</word>
   <word key="emailtpl_unsubscribeStaffNotify" js="0">Отписка от уведомлений администрации</word>
+  <word key="emailtpl_package_customemail" js="0">Настраиваемое письмо продукта</word>
+  <word key="email_expire_warning_can_cancel" js="0">Обновите ваши настройки продления</word>
   <word key="block_pendingActions" js="0">Статистика коммерции</word>
   <word key="block_pendingActions_desc" js="0">Отображает информацию, такую как ожидающие транзакции и запросы в поддержку.</word>
   <word key="block_donations" js="0">Цели пожертвований</word>
   <word key="block_donations_desc" js="0">Отображать текущие цели пожертвований и разрешить пользователям жертвовать</word>
+  <word key="block_latestProducts" js="0">Последние продукты</word>
+  <word key="block_latestProducts_desc" js="0">Отображает список новых продуктов</word>
+  <word key="block_bestSellers" js="0">Лучшие продавцы</word>
+  <word key="block_bestSellers_desc" js="0">Отображает список лучших продавцов продуктов</word>
+  <word key="block_recentCommerceReviews" js="0">Последние отзывы на продукты</word>
+  <word key="block_recentCommerceReviews_desc" js="0">Отображает последние отзывы на продукты</word>
+  <word key="block_featuredProduct" js="0">Рекомендованные продукты</word>
+  <word key="block_featuredProduct_desc" js="0">Отображает список рекомендованных продуктов</word>
+  <word key="widget_group" js="0">Категория</word>
   <word key="modperms__core_Content_nexus_Package_Review" js="0">Отзывы на продукты</word>
   <word key="can_edit_product_reviews" js="0">Может изменять отзывы на продукт</word>
   <word key="can_delete_product_reviews" js="0">Может удалять отзывы на продукт</word>
@@ -2933,6 +3256,7 @@
   <word key="MFA_nexus_BillingAgreements" js="0">Управляет регулярными платежами PayPal</word>
   <word key="MFA_nexus_BillingInfo" js="0">Изменяет платёжную информацию</word>
   <word key="MFA_nexus_Cards" js="0">Управляет платёжными картами</word>
+  <word key="memberlog_app_nexus" js="0">Действия клиента</word>
   <word key="log_type_title_invoice" js="0">Созданные счета</word>
   <word key="log_type_title_transaction" js="0">Оплачена/Возвращена транзакция</word>
   <word key="log_type_title_shipping" js="0">Создана/Изменена отгрузка</word>
@@ -2950,172 +3274,10 @@
   <word key="log_type_title_billingagreement" js="0">Создания/изменения регулярных платежей</word>
   <word key="log_type_title_note" js="0">Создано/Изменено примечание</word>
   <word key="log_type_title_custom" js="0">Остальное</word>
+  <word key="log_type_title_subscription" js="0">Подписки</word>
   <word key="a_product_in_our_store" js="0">Продукт в нашем магазине</word>
   <word key="a_product_in_our_store_cat" js="0">В %s</word>
   <word key="x_reviewed_product" js="0">%s оставил отзыв к продукту</word>
-  <word key="payment_error" js="1">Возникла ошибка при обработке платежа. Пожалуйста, попробуйте другой способ оплаты или свяжитесь с нами для получения помощи.</word>
-  <word key="support_ajax_error" js="1">Возникла ошибка. Ваша сессия истекла. Обновите страницу и попробуйте ещё раз.</word>
-  <word key="click_to_show_url" js="1">Нажмите для отображения реальной ссылки</word>
-  <word key="add_to_cart_js" js="1">Добавить в корзину</word>
-  <word key="out_of_stock" js="1">Нет в наличии</word>
-  <word key="cartReview" js="1">Обзор корзины</word>
-  <word key="confirmRemoveItem" js="1">Вы уверены, что хотите удалить этот товар из вашей корзины?</word>
-  <word key="changeShippingAddress" js="1">Изменить адрес доставки</word>
-  <word key="makePrimaryProductImage" js="1">Сделать изображение основным</word>
-  <word key="removeProductImage" js="1">Удалить это изображение</word>
-  <word key="store_currency_change_warning" js="1">Если вы измените валюту, то вы потеряете все товары в вашей корзине.</word>
-  <word key="cmd_and_enter" js="1">⌘⏎</word>
-  <word key="ctrl_and_enter" js="1">Ctrl+Enter</word>
-  <word key="__indefart_product" js="0">продукт</word>
-  <word key="__defart_product" js="0">продукт</word>
-  <word key="product_pl" js="0">Продукты</word>
-  <word key="product_pl_lc" js="0">продукты</word>
-  <word key="product_groups" js="0">Группы продуктов</word>
-  <word key="nexus_bm_filters_subscription_none" js="0">Не фильтровать по подпискам</word>
-  <word key="nexus_bm_filters_pkg_expired" js="0">Истек</word>
-  <word key="nexus_bm_filters_pkg_expired_days" js="0">Более чем</word>
-  <word key="nexus_bm_filters_pkg_expired_days_suffix" js="0">дней назад</word>
-  <word key="stripe_type_header" js="0">Способ оплаты</word>
-  <word key="stripe_type" js="0">Оплатить через:</word>
-  <word key="stripe_type_card" js="0">Карта</word>
-  <word key="stripe_type_card_desc" js="0">Пользователи должны будут ввести данные своей карты непосредственно на странице оформления заказа.</word>
-  <word key="stripe_type_native" js="0">Функционал браузера (Apple Pay / Google Pay)</word>
-  <word key="stripe_type_native_desc" js="0"><![CDATA[Пользователи с поддерживаемыми устройствами / браузерами смогут использовать встроеный функционал браузера для оплаты (например, Apple Pay или Google Pay).<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а для Apple Pay вы также должны <a href='{external.stripe_applepay_register}' target='_blank' rel='noopener'>зарегистрировать свой домен</a>.]]></word>
-  <word key="stripe_type_amex" js="0">Amex Express Checkout</word>
-  <word key="stripe_type_amex_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт Amex Express Checkout для завершения оплаты. <a href='{external.stripe_amex_express}' target='_blank' rel='noopener'>Подробнее о Amex Express Checkout</a>]]></word>
-  <word key="stripe_amex_client_id" js="0">Amex Express Checkout Client ID</word>
-  <word key="stripe_amex_client_id_gen" js="0"><![CDATA[<a href='{external.amex_client_id}' target='_blank' rel='noopener'>Сгенерировать</a>]]></word>
-  <word key="stripe_type_alipay" js="0">Alipay</word>
-  <word key="stripe_type_alipay_desc" js="0"><![CDATA[Популярный способ оплаты в Китае. Пользователи будут перенаправлены на сайт Alipay для завершения оплаты. <a href='{external.alipay}' target='_blank' rel='noopener'>Подробнее о Alipay</a>]]></word>
-  <word key="stripe_type_bancontact" js="0">Bancontact</word>
-  <word key="stripe_type_bancontact_desc" js="0"><![CDATA[Популярный способ оплаты в Бельгии. Пользователи будут перенаправлены на сайт Bancontact для завершения оплаты. <a href='{external.bancontact}' target='_blank' rel='noopener'>Подробнее о Bancontact</a>]]></word>
-  <word key="stripe_type_giropay" js="0">Giropay</word>
-  <word key="stripe_type_giropay_desc" js="0"><![CDATA[Популярный способ оплаты в Германии. Пользователи будут перенаправлены на сайт Giropay для завершения оплаты. <a href='{external.giropay}' target='_blank' rel='noopener'>Подробнее о Giropay</a>]]></word>
-  <word key="stripe_type_ideal" js="0">iDEAL</word>
-  <word key="stripe_type_ideal_desc" js="0"><![CDATA[Популярный способ оплаты в Нидерландах. Пользователи будут перенаправлены на сайт iDEAL для завершения оплаты. <a href='{external.ideal}' target='_blank' rel='noopener'>Подробнее о iDEAL</a>]]></word>
-  <word key="stripe_type_sofort" js="0">SOFORT</word>
-  <word key="stripe_type_sofort_desc" js="0"><![CDATA[Популярный способ оплаты в Европе. Пользователи будут перенаправлены на сайт SOFORT для завершения оплаты. <a href='{external.sofort}' target='_blank' rel='noopener'>Подробнее о SOFORT</a>]]></word>
-  <word key="stripe_webhook" js="0">Webhook</word>
-  <word key="stripe_webhook_blurb" js="0"><![CDATA[Вы должны <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>создать webhook</a> oв своем аккаунте Stripe, указав эту ссылку в качестве конечной точки:<br><pre class='ipsCode'>%s</pre>]]></word>
-  <word key="stripe_webhook_secret" js="0">Секретная подпись для Webhook</word>
-  <word key="stripe_webhook_secret_desc" js="0">При просмотре webhook в вашем аккаунте Stripe, вы увидите кнопку для показа секретной подписи. Значение не будет проверено, поэтому убедитесь в том, что вы ввели его правильно.</word>
-  <word key="stripe_basic_settings" js="0">Основные настройки</word>
-  <word key="stripe_keys" js="0">Ключи</word>
-  <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank' rel='noopener'>раздела API вашего аккаунта в Stripe</a>.]]></word>
-  <word key="stripe_type_desc" js="0">Чтобы предоставить пользователю выбор, настройте несколько способов оплаты Stripe.</word>
-  <word key="stripe_3d_secure" js="0">Система 3D Secure</word>
-  <word key="stripe_3d_secure_yes" js="0">Все карты, которые поддерживают её</word>
-  <word key="stripe_3d_secure_no" js="0">Только карты, которые требуют её</word>
-  <word key="stripe_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.]]></word>
-  <word key="stripe_debug_action" js="0">[Режим отладки] Действие</word>
-  <word key="stripe_debug_succeeding_charge" js="0">Выполнить</word>
-  <word key="stripe_debug_pending_charge" js="0">Оставить в ожидании</word>
-  <word key="stripe_debug_failing_charge" js="0">Не выполнять</word>
-  <word key="stripe_cvc_check_unchecked" js="0">Проверка CVC-кода не выполнена</word>
-  <word key="stripe_cvc_check_unavailable" js="0">Проверка CVC-кода недоступна</word>
-  <word key="stripe_cvc_check_pass" js="0">Проверка CVC-кода прошла успешно</word>
-  <word key="stripe_cvc_check_fail" js="0">Проверка CVC-кода не удалась</word>
-  <word key="stripe_address_line1_check_unchecked" js="0">Проверка улицы в адресе не выполнена</word>
-  <word key="stripe_address_line1_check_unavailable" js="0">Проверка улицы в адресе недоступна</word>
-  <word key="stripe_address_line1_check_pass" js="0">Проверка улицы в адресе прошла успешно</word>
-  <word key="stripe_address_line1_check_fail" js="0">Проверка улицы в адресе не удалась</word>
-  <word key="stripe_address_zip_check_unchecked" js="0">Проверка индекса не выполнена</word>
-  <word key="stripe_address_zip_check_unavailable" js="0">Проверка индекса недоступна</word>
-  <word key="stripe_address_zip_check_pass" js="0">Проверка индекса прошла успешно</word>
-  <word key="stripe_address_zip_check_fail" js="0">Проверка индекса не удалась</word>
-  <word key="stripe_3ds_pass" js="0">Проверка 3DSecure пройдена</word>
-  <word key="stripe_3ds_fail" js="0">Проверка 3DSecure не пройдена</word>
-  <word key="stripe_3ds_not_supported" js="0">Система 3DSecure не поддерживается этой картой</word>
-  <word key="stripe_3ds_not_checked" js="0">Система 3DSecure не используется</word>
-  <word key="stripe_tokenization_apple_pay" js="0">Apple Pay</word>
-  <word key="stripe_tokenization_android_pay" js="0">Google Pay</word>
-  <word key="stripe_tokenization_other" js="0">Метод токенизации</word>
-  <word key="stripe_details_error" js="0">Невозможно получить подробную информация от Stripe об этой транзакции. Найдите идентификатор платежа в своей панели Stripe для подробной информации.</word>
-  <word key="stripe_dispute_error" js="0">Невозможно получить подробную информация от Stripe об этом споре. Найдите идентификатор платежа в своей панели Stripe для подробной информации.</word>
-  <word key="stripe_dispute_status_needs_response" js="0">Этот спор ожидает вашего ответа. Платеж уже был отменен, но он может быть возвращен вам, если вы докажете, что он был законным. Перейдите на панель управления Stripe для ответа.</word>
-  <word key="stripe_dispute_status_under_review" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. Платеж уже отменен, но если банк примет решение в вашу пользу, он может быть возвращен вам.</word>
-  <word key="stripe_dispute_status_warning_needs_response" js="0">Этот спор ожидает вашего ответа. На этом этапе платеж не был отменен, но если вы не ответите, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отменены до разрешения спора. Перейдите на панель управления Stripe для ответа.</word>
-  <word key="stripe_dispute_status_warning_under_review" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. На этом этапе платеж не был отменен, но если банк примет решение не в вашу пользу, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отменены до разрешения спора.</word>
-  <word key="transaction_dispute_won" js="0">Выигранный спор</word>
-  <word key="transaction_dispute_won_desc" js="0">Спор был выигран, и средства были вам возвращены.</word>
-  <word key="transaction_dispute_lost" js="0">Проигранный спор</word>
-  <word key="transaction_dispute_lost_desc" js="0">Спор был проигран, и средства не могут быть возвращены.</word>
-  <word key="transaction_dispute_warning_closed" js="0">Расследование закрыто</word>
-  <word key="transaction_dispute_warning_closed_desc" js="0">Время на оспаривание/поиск истекло и он не перерос в полноценный спор. Платеж не был отменен.</word>
-  <word key="stripe_dispute_reason_duplicate" js="0">Клиент утверждает, что с него за один и тот же продукт или услугу списались деньги несколько раз.</word>
-  <word key="stripe_dispute_reason_fraudulent" js="0">Клиент утверждает, что он не совершал платеж. Это может произойти, если карта была утеряна или украдена и использовалась для совершения мошеннической покупки, или если клиент не может найти платеж в выписке из банка.</word>
-  <word key="stripe_dispute_reason_subscription_canceled" js="0">Клиент утверждает, что вы продолжили взимать плату после отмены подписки.</word>
-  <word key="stripe_dispute_reason_product_unacceptable" js="0">Клиент утверждает, что продукт или услуга были получены, но были дефектными, поврежденными или не соответствовали описанию.</word>
-  <word key="stripe_dispute_reason_product_not_received" js="0">Клиент утверждает, что он не получил приобретенные продукты или услуги.</word>
-  <word key="stripe_dispute_reason_unrecognized" js="0">Клиент не может найти платеж в выписке по карте.</word>
-  <word key="stripe_dispute_reason_credit_not_processed" js="0">Клиент утверждает, что приобретенный продукт был возвращен или транзакция была отменена иным образом, но вы еще не произвели возврат.</word>
-  <word key="stripe_dispute_reason_general" js="0">Причина этого спора неизвестна (код: general). Проверьте свою панель Stripe для подробной информации.</word>
-  <word key="stripe_dispute_reason_incorrect_account_details" js="0">Причина этого спора неизвестна (код: incorrect_account_details). Проверьте свою панель Stripe для подробной информации.</word>
-  <word key="stripe_dispute_reason_insufficient_funds" js="0">Причина этого спора неизвестна (код: insufficient_funds). Проверьте свою панель Stripe для подробной информации.</word>
-  <word key="stripe_dispute_reason_bank_cannot_process" js="0">Причина этого спора неизвестна (код: bank_cannot_process). Проверьте свою панель Stripe для подробной информации.</word>
-  <word key="stripe_dispute_reason_debit_not_authorized" js="0">Причина этого спора неизвестна (код: debit_not_authorized). Проверьте свою панель Stripe для подробной информации.</word>
-  <word key="stripe_dispute_reason_customer_initiated" js="0">Причина этого спора неизвестна (код: customer_initiated). Проверьте свою панель Stripe для подробной информации.</word>
-  <word key="stripe_dispute_reference" js="0">Ссылка на спор</word>
-  <word key="trans_attention_required" js="0">Требуется действие</word>
-  <word key="tstatus_dspd" js="0">Оспаривается</word>
-  <word key="tstatus_dspd_desc" js="0">Клиент оспорил эту транзакцию. Для избежания отмены платежа, необходим ваш ответ на этот спор.</word>
-  <word key="tstatus_dspd_set" js="0">Оспаривается</word>
-  <word key="tstatus_dspd_inquiry_set" js="0">Расследуется банком</word>
-  <word key="refund_full_remaining" js="0">Оставшаяся сумма (%s)</word>
-  <word key="refund_reason" js="0">Причина возврата</word>
-  <word key="trans_refund_reason" js="0">Причина возврата транзакции №%d</word>
-  <word key="refund_reason_duplicate" js="0">Двойная транзакция</word>
-  <word key="refund_reason_stripe_fraudulent" js="0">Мошенничество</word>
-  <word key="refund_reason_stripe_fraudulent_desc" js="0">Это действие добавит карту и email-адрес клиента в ваш черный список Stripe Radar. Оно также поможет машинному обучению Stripe определять подобные случаи в будущем.</word>
-  <word key="refund_reason_requested_by_customer" js="0">Запрошен клиентом</word>
-  <word key="amount_refunded" js="0">Возвращен</word>
-  <word key="secure_page" js="0">Это страница безопасна</word>
-  <word key="card_expires_lc" js="0">истекает</word>
-  <word key="card_origin" js="0">Оригинал:</word>
-  <word key="card_is_duplicate" js="0">Эта карта уже сохранена в вашем аккаунте.</word>
-  <word key="fraud_rule_blurb" js="0">Каждое правило проверяется в том порядке, в котором они отображаются здесь, пока не будет сработано одно из них, после чего ни одно из последующих правил не будет проверено. Не забудьте правильно упорядочить правила, чтобы обеспечить необходимые действия.</word>
-  <word key="f_has_preceeding" js="0">Ни одно из выше перечисленных правил не подходит</word>
-  <word key="customer_manage_cards" js="0">Управление кредитными картами</word>
-  <word key="customer_manage_paypal" js="0">Управление регулярными платежами</word>
-  <word key="customer_manage_alts" js="0">Управление контактами</word>
-  <word key="customer_manage_referrers" js="0">Управление приглашениями</word>
-  <word key="history_deleted_note" js="0">Удалена заметка %s</word>
-  <word key="memberACPProfileTitle_nexus_Main" js="0">Клиент</word>
-  <word key="history_transaction_status_dspd" js="0">оспаривается</word>
-  <word key="history_purchase_never_expire" js="0">Для покупки %s отменен срок истечения%s.</word>
-  <word key="history_purchase_restored_expire" js="0">Для покупки %s установлен обычный срок истечения%s.</word>
-  <word key="purchase_renewal_commission_fee" js="0">%s%% от стоимости продления, за минусом комиссии за транзакцию в размере %s, идёт %s.</word>
-  <word key="already_rated" js="0">Вы уже оценили этот отзыв</word>
-  <word key="product_groups_add_child" js="0">Создать продукт в этой группе</word>
-  <word key="package_custom_emails" js="0">Email-письма</word>
-  <word key="package_custom_emails_blurb" js="0">Email-письма, настроенные здесь, будут отправлены для каждой покупки, поэтому, если клиент покупает несколько копий этого продукта, то он получит письмо для каждой копии.</word>
-  <word key="p_email_purchase_type" js="0">Отправлять email-письмо после покупки?</word>
-  <word key="p_email_purchase_type_desc" js="0"><![CDATA[Это письмо будет отправлено <em>в дополнение</em> к письму об успешной оплате счета.]]></word>
-  <word key="p_email_none" js="0">Нет</word>
-  <word key="p_email_wysiwyg" js="0">Да, использовать WYSIWYG-редактор</word>
-  <word key="p_email_html_template" js="0">Да, использовать HTML-код со стандартным шаблоном</word>
-  <word key="p_email_html_raw" js="0">Да, использовать HTML-код без шаблона</word>
-  <word key="p_email_purchase_subject" js="0">Тема email-письма после покупки</word>
-  <word key="p_email_purchase_html" js="0">Содержание email-письма после покупки</word>
-  <word key="p_email_purchase_wysiwyg" js="0">Содержание email-письма после покупки</word>
-  <word key="p_email_expire_soon_type" js="0">Отправлять email-письмо при скором истечении покупки?</word>
-  <word key="p_email_expire_soon_type_desc" js="0"><![CDATA[Оно будет отправлено <em>вместо</em> <a href='{internal.app=nexus&module=payments&controller=invoices&do=settings&searchResult=cm_invoice_warning}' target='_blank' rel='noopener'>email-уведомления об автоматическом платеже</a>, поэтому лучше сообщать клиенту о том, что если у клиента есть средства на балансе аккаунта, привязана карта или активен регулярный платеж, то платеж будет произведен автоматически.]]></word>
-  <word key="p_email_expire_soon_subject" js="0">Тема email-письма при скором истечении покупки</word>
-  <word key="p_email_expire_soon_html" js="0">Содержание email-письма при скором истечении покупки</word>
-  <word key="p_email_expire_soon_wysiwyg" js="0">Содержание email-письма при скором истечении покупки</word>
-  <word key="p_email_expire_type" js="0">Отправлять email-письмо при истечении покупки?</word>
-  <word key="p_email_expire_subject" js="0">Тема email-письма при истечении покупки</word>
-  <word key="p_email_expire_html" js="0">Содержание email-письма при истечении покупки</word>
-  <word key="p_email_expire_wysiwyg" js="0">Содержание email-письма при истечении покупки</word>
-  <word key="p_email_preview_example" js="0">Пример</word>
-  <word key="p_email_tag_expire" js="0">Дата истечения</word>
-  <word key="p_email_tag_field" js="0">Значение настраиваемого поля (замените 1 на ID поля)</word>
-  <word key="p_email_tag_url" js="0">Ссылка на область клиента</word>
-  <word key="p_set_discounts" js="0">Настроить скидки</word>
-  <word key="nexus_report_income_members" js="0">Лучшие клиенты</word>
-  <word key="nexus_report_income_by_member" js="0">Топ клиентов по %s</word>
-  <word key="memberlog_app_nexus" js="0">Действия клиента</word>
-  <word key="log_type_title_subscription" js="0">Подписки</word>
   <word key="menu__nexus_subscriptions" js="0">Подписки</word>
   <word key="menu__nexus_subscriptions_subscriptions" js="0">Планы подписок</word>
   <word key="menu__nexus_subscriptions_subscribers" js="0">Подписчики</word>
@@ -3141,9 +3303,16 @@
   <word key="sp_featured" js="0">Сделать рекомендованной</word>
   <word key="sp_featured_desc" js="0">Рекомендованные подписки будут выделяться на странице всех подписок</word>
   <word key="sp_desc" js="0">Описание</word>
+  <word key="sp_renew_upgrade" js="0">Повышение/Понижение</word>
+  <word key="sp_renew_upgrade_desc" js="0">Так как у этого пакета не настроено продление, выберите как другие пакеты с настроенным продлением могут повышаться до или понижаться с этого пакета.</word>
   <word key="nexus_subs_display" js="0">Отображение</word>
   <word key="nexus_subs_groups" js="0">Преимущества</word>
   <word key="nexus_subs_renewals" js="0">Продления</word>
+  <word key="sp_renew_upgrade_none" js="0">Не позволять клиентам повыситься до этого пакета.</word>
+  <word key="sp_renew_upgrade_full" js="0">Списывать полную стоимость пакета.</word>
+  <word key="sp_renew_upgrade_full_desc" js="0">Это спишет с клиента полную стоимость этого пакета, вне зависимости от его текущего пакета.</word>
+  <word key="sp_renew_upgrade_partial" js="0">Списывать разницу между стоимостью.</word>
+  <word key="sp_renew_upgrade_partial_desc" js="0">Например, если этот продукт стоит $20, и у клиента приобретён пакет за $10, то с него спишется $10.</word>
   <word key="nexus_subs_cost" js="0">Цена</word>
   <word key="sp_image" js="0">Обложка</word>
   <word key="acplog__nexus_subs_settings" js="0">Изменены настройки подписок</word>
@@ -3192,6 +3361,7 @@
   <word key="nexus_subs_after_conversion" js="0">После конвертации</word>
   <word key="sp_after_conversion_delete" js="0">Удалить исходный продукт из магазина</word>
   <word key="nexus_package_converted_lovely" js="0">Продукт был сконвертирован</word>
+  <word key="nexus_subs_already_got_package" js="0">У вас уже есть активная подписка и вы не можете купить другую.</word>
   <word key="nexus_subs_widget_title" js="0">Доступные подписки</word>
   <word key="nexus_subs_widget_title_and_price" js="0">%s - %s</word>
   <word key="nexus_sub_member_id" js="0">Имя пользователя</word>
@@ -3231,6 +3401,7 @@
   <word key="nexus_sub_cancel_now_desc" js="0">Незамедлительная отмена завершит вашу подписку прямо сейчас и вам не будет создан новый счет</word>
   <word key="nexus_sub_change_confirm_upgrade" js="0">Повышение с %s до %s будет стоить %s.</word>
   <word key="nexus_sub_change_confirm_downgrade" js="0">Понижение с %s до %s вернет вам %s.</word>
+  <word key="nexus_sub_change_no_charge" js="0">Вы уверены в том, что хотите переместиться на эту подписку?</word>
   <word key="nexus_sub_sign_up_title" js="0">Регистрация: выберите подписку</word>
   <word key="nexus_sub_sign_up_desc" js="0">Пожалуйста, выберите одну из следующих подписок к покупке для продолжения</word>
   <word key="nexus_subs_subscriber" js="0">План подписки %s</word>
@@ -3238,181 +3409,10 @@
   <word key="block_subscriptions" js="0">Подписки пользователя</word>
   <word key="block_subscriptions_desc" js="0">Отображает список доступных пакетов подписки клиентам, которые еще не подписались</word>
   <word key="nexus_require_billing_subscriptions" js="0">Подписки пользователя</word>
-  <word key="do_not_associate_sub_requests" js="0">Не связывать запросы с пакетами подписки</word>
-  <word key="dpt_subscriptions" js="0">Доступные для связи подписки</word>
   <word key="nexus_subs_non_available" js="0">В данный момент нет доступных подписок.</word>
   <word key="nexus_dont_delete_group" js="0">Некоторые пользователи приобрели пакеты или подписки, в которых настроено перемещение в эту группу при их истечении. Если вы удалите эту группу, то, вместо этого, эти пользователи будут перемещены в группу &quot;%s&quot;.</word>
-  <word key="r__customers_view_statistics" js="0">Может просматривать статистику клиента?</word>
-  <word key="r__customers_view_credit" js="0">Может просматривать баланс аккаунта клиента?</word>
-  <word key="tstatus_credited" js="0">Возвращено</word>
-  <word key="tstatus_credited_undo" js="0">Средства забраны</word>
-  <word key="transaction_refund_desc" js="0">Средства будут возвращены клиенту через платёжный метод.</word>
-  <word key="transaction_refund_credit" js="0">Вернуть</word>
-  <word key="transaction_refund_credit_title" js="0">Вернуть (%s)</word>
-  <word key="refund_method_credit_desc" js="0">Вы сохраните средства, однако на баланс клиента будет зачислена сумма, которую он сможет потратить на будущие покупки.</word>
-  <word key="refund_method_none_desc" js="0">Выберите этот вариант, если платёж был отмечен завершённым по ошибке или ручной платёж был возвращён (например, клиент отправил чек, который после был аннулирован).</word>
-  <word key="refund_credit_amount" js="0">Сумма</word>
-  <word key="refund_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> Клиент уже получил средства в размере %s. Вы можете вернуть меньшую сумму или забрать уже переданные средства, чтобы избежать ситуации, когда сумма возвращённых и зачисленных средств больше, чем сумма транзакции.</span>]]></word>
-  <word key="refund_credit_amount_descwarn" js="0"><![CDATA[<span class="ipsType_issue"><i class="fa fa-exclamation-triangle"></i> Клиент уже получил средства в размере %s. Вы можете зачислить на баланс меньшую сумму, чтобы избежать ситуации, когда сумма возвращённых и зачисленных средств больше, чем сумма транзакции.</span>]]></word>
-  <word key="refund_reverse_credit" js="0">Забрать %s?</word>
-  <word key="refund_reverse_credit_desc" js="0">Если выбрано, ранее переданные средства будут забраны с аккаунта пользователя.</word>
-  <word key="amount_credited" js="0">Возвращено</word>
-  <word key="transaction_part_credited" js="0">%s из этого платежа были возвращены на баланс аккаунта</word>
-  <word key="history_transaction_credited" js="0">%s возвращены%s.</word>
-  <word key="history_transaction_part_credited" js="0">%s из %s возвращены%s.</word>
-  <word key="history_transaction_undo_credit" js="0">%s за %s были забраны%s.</word>
-  <word key="nexus_subs_already_got_package" js="0">У вас уже есть активная подписка и вы не можете купить другую.</word>
   <word key="upgrade_fix_refund_transactions" js="0">Обновление данных транзакции</word>
-  <word key="refund_cancel_billing_agreement" js="0">Отменить регулярный платёж?</word>
-  <word key="refund_cancel_billing_agreement_desc" js="0">Эта транзакция была создана регулярным платежом. Если регулярный платёж не будет отменён, то он продолжит автоматически совершаться.</word>
-  <word key="refund_cancel_billing_agreement_warning" js="0">Невозможность отменить регулярный платёж будет означать, что платежи продолжат совершаться даже если нет привязанных покупок для продления.</word>
-  <word key="billing_agreement_cancel_error" js="0">Возникла проблема при обращении к платёжному шлюзу для отмены регулярного платежа. Платеж не был отменен. Необходимо отменить регулярный платёж в платёжном шлюзе, а затем повторить попытку с отключенной опцией отмены регулярного платежа.</word>
-  <word key="nexus_bm_filters_total_spend" js="0">Всего потрачено</word>
-  <word key="paypal_seller_protection_status" js="0">Программа защиты продавцов PayPal: %s</word>
-  <word key="gateway__Braintree" js="0">Braintree</word>
-  <word key="gateway__Braintree_desc" js="0"><![CDATA[Требуется комплексный процесс подключения. <a href='{external.braintree_doc}'>Подробнее</a>]]></word>
-  <word key="braintree_basic_settings" js="0">Основные настройки</word>
-  <word key="braintree_keys" js="0">Ключи</word>
-  <word key="braintree_keys_blurb" js="0"><![CDATA[Получите эти ключи в <a href='{external.braintree_keys}' target='_blank' rel='noopener'>разделе API настроек своего аккаунта Braintree</a>.]]></word>
-  <word key="braintree_merchant_id" js="0">ID магазина</word>
-  <word key="braintree_public_key" js="0">Публичный ключ</word>
-  <word key="braintree_private_key" js="0">Приватный ключ</word>
-  <word key="braintree_type_header" js="0">Способ оплаты</word>
-  <word key="braintree_type" js="0">Оплата через</word>
-  <word key="braintree_type_desc" js="0">Для того, чтобы дать пользователям возможность выбора, настройте несколько способов оплаты через Braintree.</word>
-  <word key="braintree_type_paypal" js="0">PayPal</word>
-  <word key="braintree_type_paypal_desc" js="0"><![CDATA[Пользователей перенаправит на сайт PayPal для оплаты с помощью их аккаунта PayPal.<br>Этот вариант требует связи между вашими аккаунтами Braintree и PayPal. <a href='{external.braintree_paypal}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
-  <word key="braintree_paypal_vault" js="0">Использовать Vault</word>
-  <word key="braintree_paypal_vault_desc" js="0">Если включено, пользователи будут иметь возможность сохранить свой аккаунт PayPal как обычную банковскую карту. Оплата за продления будет производиться автоматически без необходимости повторной авторизации.</word>
-  <word key="braintree_paypal_credit" js="0">Предоставлять PayPal Credit</word>
-  <word key="braintree_paypal_credit_desc" js="0"><![CDATA[Если включено, пользователи увидят кнопку PayPal Credit рядом с обычной кнопкой PayPal Checkout. Они смогут использовать её для подачи заявки на кредитную линию. Вы сразу получите полную стоимость без каких-либо комиссий, но клиент сможет произвести оплату в течение периода времени. <a href='{external.braintree_paypal_credit}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
-  <word key="braintree_type_card" js="0">Карта</word>
-  <word key="braintree_type_card_desc" js="0">Пользователи введут данные своей карты прямо на странице оплаты.</word>
-  <word key="braintree_cards" js="0">Разрешить пользователям сохранять данные банковской карты</word>
-  <word key="braintree_cards_desc" js="0">Данные банковской карты хранятся на серверах Braintree, не на ваших. Обратите внимание, что 3D Secure не используется при использовании сохраненной карты для автоматических платежей (но используется при оплате во время оформления заказа).</word>
-  <word key="braintree_details_error" js="0">Невозможно получить с Braintree более подробную информацию об этой транзакции. Для подробной информации произведите поиск по ссылке платежа в вашей панели Braintree.</word>
-  <word key="braintree_3d_secure" js="0">Использовать 3D Secure?</word>
-  <word key="braintree_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.<br>Перед использованием этой возможности, она должна быть включена в вашем аккаунте Braintree. <a href='{external.braintree_3dsecure}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
-  <word key="braintree_type_venmo" js="0">Venmo</word>
-  <word key="braintree_type_venmo_desc" js="0"><![CDATA[Пользователи будут направлены в приложение Venmo для оплаты с помощью их аккаунта Venmo. Доступно только на мобильных устройствах, которые могут установить приложение Venmo.<br>Этот параметр поддерживает только транзакции в долларах США и требует включённого Venmo в вашем аккаунте Braintree. <a href='{external.braintree_venmo}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
-  <word key="braintree_venmo_vault" js="0">Использовать Vault?</word>
-  <word key="braintree_venmo_vault_desc" js="0">Если включено, пользователи смогут сохранить свой аккаунт Venmo как банковскую карту. Плата за продление будет взиматься автоматически без повторной авторизации.</word>
-  <word key="braintree_venmo_profile" js="0">ID профиля магазина Venmo</word>
-  <word key="braintree_venmo_profile_desc" js="0"><![CDATA[Если у вас подключено несколько сайтов к Venmo с помощью одного шлюза Braintree, укажите ID профиля, который вы хотите использовать. Вы можете получить его в <a href='{external.braintree_keys}' target='_blank' rel='noopener'>разделе Processing настроек вашего аккаунта Braintree</a>.]]></word>
-  <word key="braintree_venmo_profile_null" js="0">Использовать стандартный профиль</word>
-  <word key="braintree_auth_error" js="0">Данные для аутентификации (ID магазина, публичный ключ и/или приватный ключ) недействительны.</word>
-  <word key="braintree_account" js="0">Аккаунт</word>
-  <word key="braintree_webhook_header" js="0">Вебхук</word>
-  <word key="braintree_webhook" js="0"><![CDATA[Вы должны настроить вебхук в <a href='{external.braintree_keys}' target='_blank' rel='noopener'>разделе Webhooks настроек вашего аккаунта Braintree</a>. Выберите все типы уведомлений в Disputes (Opened, Lost, and Won) и укажите эту конечную точку:<br><pre class='ipsCode'>%s</pre><strong>Важно:</strong> Корректность настройки не будет проверена, поэтому убедитесь что всё сделано верно.]]></word>
-  <word key="braintree_type_applepay" js="0">Apple Pay</word>
-  <word key="braintree_type_applepay_desc" js="0"><![CDATA[Пользователи поддерживаемых устройств с iOS или macOS смогут оплатить с помощью карты, привязанной к Apple Pay.<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует HTTPS</a>, а также <a href='{external.braintree_applepay_register}' target='_blank' rel='noopener'>регистрации вашего домена</a>.]]></word>
-  <word key="braintree_type_googlepay" js="0">Google Pay</word>
-  <word key="braintree_type_googlepay_desc" js="0"><![CDATA[Пользователи смогут оплатить с помощью карты, привязанной к Google Pay.<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует HTTPS</a>, должен быть <a href='{external.braintree_googlepay}' target='_blank' rel='noopener'>включен в вашем аккаунте Braintree</a>,а также <a href='{external. braintree_googlepay_register}' target='_blank' rel='noopener'>регистрации вашего домена</a>.]]></word>
-  <word key="braintree_googlepay_merchant" js="0">ID магазина Google Pay</word>
-  <word key="braintree_googlepay_merchant_desc" js="0">Он будет предоставлен вам после регистрации вашего домена в Google.</word>
-  <word key="braintree_advanced_fraud" js="0">Использовать Advanced Fraud Tools?</word>
-  <word key="braintree_advanced_fraud_desc" js="0"><![CDATA[Для начала вам необходимо <a href='{external.braintree_advanced_fraud}' target='_blank' rel='noopener'>включить Advanced Fraud Tools в своём аккаунте Braintree</a>.]]></word>
-  <word key="braintree_risk_level" js="0">Решение Kount:</word>
-  <word key="braintree_dispute_reason_cancelled_recurring_transaction" js="0">Клиент жалуется, что вы продолжаете взимать плату после отмены подписки.</word>
-  <word key="braintree_dispute_reason_credit_not_processed" js="0">Клиент жалуется, что купленный продукт был возвращён или транзакция была отменена, но вы всё ещё не оформили возврат или не вернули средства на баланс.</word>
-  <word key="braintree_dispute_reason_duplicate" js="0">Клиент жалуется, что за один и тот же продукт или услугу средства были сняты дважды.</word>
-  <word key="braintree_dispute_reason_fraud" js="0">Клиент жалуется, что он не авторизовал платёж. Обычно это происходит, если карта была утеряна или украдена и использовалась для совершения мошеннический покупок, или клиент не может распознать платеж, который отображается в банковской выписке.</word>
-  <word key="braintree_dispute_reason_general" js="0">Причина спора неизвестна. Просмотрите свою панель Braintree для получения подробной информации.</word>
-  <word key="braintree_dispute_reason_invalid_account" js="0">Карта истекла, имеет некорректный номер счёта или имеет номер счёта, который не совпадает с номером карты оригинальной транзакции.</word>
-  <word key="braintree_dispute_reason_not_recognized" js="0">Клиент не распознает платеж, указанный в выписке по карте.</word>
-  <word key="braintree_dispute_reason_product_not_received" js="0">Клиент утверждает, что не получил приобретенные продукты или услуги.</word>
-  <word key="braintree_dispute_reason_product_unsatisfactory" js="0">Клиент утверждает, что полученные продукт или услуга были дефектными, поврежденными или не соответствующими описанию.</word>
-  <word key="braintree_dispute_reason_transaction_amount_differs" js="0">Клиент утверждает, что списанная сумма отличается от той, которую он согласился заплатить.</word>
-  <word key="braintree_dispute_status_open" js="0">Этот спор ожидает вашего ответа. Платеж уже был отменен, но, доказав, что сделка была законной, он может быть возвращен вам. Перейдите в панель Braintree, чтобы ответить.</word>
-  <word key="braintree_dispute_status_disputed" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. Платеж уже отменен, но если банк примет решение в вашу пользу, он может быть возвращен вам.</word>
-  <word key="braintree_dispute_status_open_r" js="0">Этот спор ожидает вашего ответа. На данном этапе платеж не был отменен, но если вы не ответите, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отозваны до разрешения спора. Перейдите в панель Braintree, чтобы ответить.</word>
-  <word key="braintree_dispute_status_disputed_r" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. На данном этапе платеж не был отменен, но если банк не примет решение в вашу пользу, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отозваны до разрешения спора.</word>
-  <word key="braintree_dispute_error" js="0">Невозможно получить с Braintree более подробную информацию об этом споре. Для подробной информации произведите поиск по ссылке платежа в вашей панели Braintree.</word>
-  <word key="braintree_3ds_pass" js="0">Проверка 3DSecure пройдена</word>
-  <word key="braintree_3ds_fail" js="0">3DSecure не аутентифицирован</word>
-  <word key="braintree_3ds_not_checked" js="0">Система 3DSecure не используется</word>
-  <word key="braintree_3ds_unsupported_card" js="0">неподдерживаемая карта</word>
-  <word key="braintree_3ds_lookup_error" js="0">ошибки</word>
-  <word key="braintree_3ds_lookup_enrolled" js="0">клиент отменил</word>
-  <word key="braintree_3ds_lookup_not_enrolled" js="0">карта не распознана</word>
-  <word key="braintree_3ds_lookup_bypassed" js="0">эмитент карты обошел проверку</word>
-  <word key="braintree_3ds_authenticate_successful_issuer_not_participating" js="0">эмитент карты не участвует</word>
-  <word key="braintree_3ds_authentication_unavailable" js="0">В аккаунт Braintree не настроен 3DSecure</word>
-  <word key="braintree_3ds_authenticate_signature_verification_failed" js="0">Произошла ошибка</word>
-  <word key="braintree_3ds_authenticate_successful" js="0">Аутентификация прошла успешно</word>
-  <word key="braintree_3ds_authenticate_attempt_successful" js="0">Эмитент карты прошел проверку подлинности без действий клиента</word>
-  <word key="braintree_3ds_authenticate_failed" js="0">Клиент провалил аутентификацию</word>
-  <word key="braintree_3ds_authenticate_unable_to_authenticate" js="0">Ошибка со стороны эмитента карты</word>
-  <word key="braintree_3ds_authenticate_error" js="0">Произошла ошибка</word>
-  <word key="braintree_avsStreetAddressResponseCode" js="0">Проверка улицы адреса</word>
-  <word key="braintree_avsPostalCodeResponseCode" js="0">Проверка индекса</word>
-  <word key="braintree_cvvResponseCode" js="0">Проверка CVC</word>
-  <word key="braintree_avscvv_M" js="0">проверка пройдена</word>
-  <word key="braintree_avscvv_N" js="0">проверка не пройдена</word>
-  <word key="braintree_avscvv_U" js="0">не выполнено</word>
-  <word key="braintree_avscvv_I" js="0">недоступно</word>
-  <word key="braintree_avscvv_S" js="0">недоступно - эмитент карты не участвует</word>
-  <word key="braintree_avscvv_A" js="0">не применимо</word>
-  <word key="braintree_avscvv_B" js="0">обойдено</word>
-  <word key="transaction_customer_since_header" js="0">Клиент с</word>
-  <word key="transaction_spent_header" js="0">Всего потрачено</word>
-  <word key="invoice_mailsub_paid" js="0">Помечен оплаченным</word>
-  <word key="invoice_mailsub_pend" js="0">Ожидает оплаты</word>
-  <word key="shipment_details" js="0">Информация об отгрузке</word>
-  <word key="card_holder_name" js="0">Владелец карты:</word>
-  <word key="card_information_invalid" js="0">Предоставленная информация о карте является некорректной или устарела. Пожалуйста, проверьте введённую информацию или свяжитесь с нами для получения помощи.</word>
-  <word key="card_type_paypal" js="0">Аккаунт PayPal</word>
-  <word key="card_type_venmo" js="0">Аккаунт Venmo</word>
-  <word key="braintree_vault_save" js="0">Сохранить аккаунт для дальнейших покупок и автоматического продления</word>
-  <word key="use_new_braintree_vault" js="0">Использовать другой аккаунт</word>
-  <word key="refund_details" js="0">Информация о возврате</word>
-  <word key="purchase_tab_active" js="0">Активные</word>
-  <word key="purchase_tab_expired" js="0">Истёкшие</word>
-  <word key="purchase_tab_canceled" js="0">Отменённые</word>
-  <word key="history_purchase_canceled_api" js="0">Покупка %s отменена через REST API%s.</word>
-  <word key="payout_view" js="0">Просмотреть вывод средств</word>
-  <word key="payout_details" js="0">Информация о выводе средств</word>
-  <word key="default_content" js="0">Стандартное содержимое ответа</word>
-  <word key="pg_filters" js="0">Фильтры продуктов</word>
-  <word key="menu__nexus_store_filters" js="0">Фильтры продуктов</word>
-  <word key="product_filters_blurb" js="0"><![CDATA[Фильтры позволяют пользователям легче находить продукты, которые они ищут в категории. Например, вы можете настроить фильтры Бренд, Цвет, Размер или похожие. После создания фильтров, перейдите на страницу <a href='{internal.app=nexus&module=store&controller=packages}'>Продукты</a> и добавьте каждый фильтр к необходимым категориям, после чего укажите значения для каждого продукта в категории.]]></word>
-  <word key="pfilter_basic_settings" js="0">Названия фильтров</word>
-  <word key="pfilter_admin_name" js="0">Внутреннее название</word>
-  <word key="pfilter_admin_name_desc" js="0">Это то, что вы увидите в качестве названия фильтра в Админцентре.</word>
-  <word key="pfilter_public_name" js="0">Публичное название</word>
-  <word key="pfilter_public_name_desc" js="0">Это то, что пользователи увидят в качестве названия фильтра в магазине. Вы можете использовать разные названия, если у вас есть фильтры с одним и тем же названием, но разными вариантами. Например, вы можете создать несколько фильтров Размер, так как вариантами размеров для разных категорий могут быть разными.</word>
-  <word key="pfilter_options" js="0">Значения</word>
-  <word key="pg_basic_settings" js="0">Основные настройки</word>
-  <word key="pg_filters_header" js="0">Фильтры</word>
-  <word key="pg_price_filters" js="0">Фильтр по цене</word>
-  <word key="pg_price_filters_desc" js="0"><![CDATA[Пользователи смогут фильтровать продукты по базовой цене в заданных порогах. Введите верхний предел каждого порога: например, если вы вводите значения <strong>200 ₽</strong> и <strong>500 ₽</strong>, пользователь увидит следующие фильтры: <strong>0 ₽ –200 ₽</strong>, <strong>200 ₽ –500 ₽</strong>, и <strong>500 ₽+</strong>.]]></word>
-  <word key="store_empty" js="0">Нет продуктов, соответствующих вашим критериям.</word>
-  <word key="store_filter_by" js="0">Фильтр</word>
-  <word key="store_clear_filters" js="0">Очистить фильтры</word>
-  <word key="price_filter" js="0">Фильтр по цене</word>
-  <word key="price_filter_set" js="0">Установить фильтр по цене</word>
-  <word key="minPrice" js="0">Минимальная цена</word>
-  <word key="maxPrice" js="0">Максимальная цена</word>
-  <word key="minRating" js="0">Рейтинг</word>
-  <word key="in_stock_only" js="0">Отображать только продукты в наличии</word>
-  <word key="view_advertisements" js="0">Просмотреть рекламу</word>
-  <word key="active_purchases" js="0">Активные покупки</word>
-  <word key="email_transaction_refunded_paid" js="0">Статус вашего заказа не был изменён и никакие дальнейшие действия не требуются.</word>
-  <word key="email_transaction_refunded_pend" js="0">Если вы не ожидали возврат, ваш заказ, скорее всего, не прошел наши шаги по предотвращению мошенничества. Пожалуйста, просмотрите ваш заказ ниже, а затем попробуйте совершить платеж еще раз, нажав кнопку Оплатить сейчас.</word>
-  <word key="email_transaction_refunded_expd" js="0">Пожалуйста, свяжитесь с нами, если у вас есть какие-либо вопросы.</word>
-  <word key="email_paymethod_account" js="0">Аккаунт</word>
-  <word key="emailtpl_package_customemail" js="0">Настраиваемое письмо продукта</word>
-  <word key="email_expire_warning_can_cancel" js="0">Обновите ваши настройки продления</word>
-  <word key="block_latestProducts" js="0">Последние продукты</word>
-  <word key="block_latestProducts_desc" js="0">Отображает список новых продуктов</word>
-  <word key="block_bestSellers" js="0">Лучшие продавцы</word>
-  <word key="block_bestSellers_desc" js="0">Отображает список лучших продавцов продуктов</word>
-  <word key="block_recentCommerceReviews" js="0">Последние отзывы на продукты</word>
-  <word key="block_recentCommerceReviews_desc" js="0">Отображает последние отзывы на продукты</word>
-  <word key="block_featuredProduct" js="0">Рекомендованные продукты</word>
-  <word key="block_featuredProduct_desc" js="0">Отображает список рекомендованных продуктов</word>
-  <word key="widget_group" js="0">Категория</word>
-  <word key="nexus_sub_change_no_charge" js="0">Вы уверены в том, что хотите переместиться на эту подписку?</word>
+  <word key="upgrade_fix_missing_addresses" js="0">Установка отсутствующих адресов в счетах</word>
   <word key="recounting_total_spend" js="0">Перерасчёт потраченных клиентом средств</word>
   <word key="acp_notification_Transaction" js="0">Транзакция требует ручного действия</word>
   <word key="acpNotification_nexusTransaction_hold" js="0">{# [*1:транзакция ожидает][*2:транзакции ожидают][*3:транзакции ожидают][*4:транзакции ожидают][*11:транзакций ожидают][*12:транзакций ожидают][*13:транзакций ожидают][*14:транзакций ожидают][?:транзакций ожидают]} утверждения</word>
@@ -3439,22 +3439,6 @@
   <word key="acpNotification_nexusAdvertisements" js="0">{# [*1:ожидающая реклама][*2:ожидающей рекламы][*3:ожидающей рекламы][*4:ожидающей рекламы][*11:ожидающих реклам][*12:ожидающих реклам][*13:ожидающих реклам][*14:ожидающих реклам][?:ожидающих реклам]}</word>
   <word key="mailsub__nexus_acp_notification_Advertisement" js="0">Куплена реклама, которая ожидает утверждения</word>
   <word key="email_ad_needs_approval" js="0">Куплена реклама, которая должна быть вручную утверждена администратором, прежде чем она начнёт отображаться в сообществе.</word>
-  <word key="cardDetailsInvalid" js="1">Данные вашей карты являются некорректными.</word>
-  <word key="cardNumberInvalid" js="1">Это недействительный номер карты.</word>
-  <word key="expiryDateInvalid" js="1">Этот срок действия недействителен или уже прошел.</word>
-  <word key="securityCodeInvalid" js="1">Предоставленный код проверки является некорректным. Он должен состоять из последних 3 цифр на обратной стороне карты или 4 цифр на передней стороне у American Express.</word>
-  <word key="securityCodeInvalid3" js="1">Код проверки недействителен. Он должен состоять из последних 3 цифр на полосе подписи на обратной стороне карты.</word>
-  <word key="securityCodeInvalid4" js="1">Код проверки недействителен. Он должен состоять из последних 4 цифр в верхнем-правом углу на передней стороне карты.</word>
-  <word key="braintreeSaving" js="1">Проверка информации в Braintree. Пожалуйста, подождите - это может занять до 1 минуты...</word>
-  <word key="braintreeError" js="1">Произошла ошибка при </word>
-  <word key="product_delete_blurb" js="0">Есть существующие покупки этого продукта. Если вы удалите его, с пользователей всё ещё будут взимать плату, но большинство вещей, которые происходят при истечении или реактивации (например, изменение группы) происходить не будут.</word>
-  <word key="subscription_delete_blurb" js="0">Есть существующие подписчики этого плана. Если вы удалите его, с пользователей всё ещё будут взимать плату, но они не переместятся в первоначальную группу при истечении подписки.</word>
-  <word key="product_delete_confirm" js="0">Удалить</word>
-  <word key="product_delete_hide" js="0">Скрыть из магазина, но не удалять</word>
-  <word key="package_not_in_store" js="0">Не в магазине</word>
-  <word key="authorizenet_signature_key" js="0">Ключ подписи</word>
-  <word key="authorizenet_signature_key_desc" js="0"><![CDATA[<a href='{external.authorizenet_keys}' target='_blank' rel='noopener'>Получить свой ключ подписи</a>]]></word>
-  <word key="authorizenet_hash_desc" js="0">Authorize.Net больше не рекомендует использовать хэширования MD5. Введите свой ключ подписи выше, чтобы перейти к его использованию.</word>
   <word key="emailstats__transactionWaiting" js="0">Транзакция ожидает утверждения</word>
   <word key="emailstats__transactionRefunded" js="0">Транзакция была возвращена</word>
   <word key="emailstats__transactionHeld" js="0">Эта транзакция была отправлена на проверку</word>
@@ -3497,18 +3481,34 @@
   <word key="emailtpl_acp_notification_Advertisement" js="0">Уведомление администратору о рекламе, ожидающей утверждения</word>
   <word key="emailtpl_acp_notification_Shipment" js="0">Уведомление администратора об ожидающей отгрузке</word>
   <word key="emailtpl_acp_notification_Withdrawal" js="0">Уведомление администратора о запросе на вывод средств</word>
-  <word key="cm_store_view_grid" js="0">Сетка</word>
-  <word key="cm_store_view_list" js="0">Список</word>
-  <word key="account_Cpanel_control_panel" js="0">CPanel</word>
-  <word key="sp_renew_upgrade" js="0">Повышение/Понижение</word>
-  <word key="sp_renew_upgrade_desc" js="0">Так как у этого пакета не настроено продление, выберите как другие пакеты с настроенным продлением могут повышаться до или понижаться с этого пакета.</word>
-  <word key="sp_renew_upgrade_none" js="0">Не позволять клиентам повыситься до этого пакета.</word>
-  <word key="sp_renew_upgrade_full" js="0">Списывать полную стоимость пакета.</word>
-  <word key="sp_renew_upgrade_full_desc" js="0">Это спишет с клиента полную стоимость этого пакета, вне зависимости от его текущего пакета.</word>
-  <word key="sp_renew_upgrade_partial" js="0">Списывать разницу между стоимостью.</word>
-  <word key="sp_renew_upgrade_partial_desc" js="0">Например, если этот продукт стоит $20, и у клиента приобретён пакет за $10, то с него спишется $10.</word>
-  <word key="cart_subtotal" js="0">Сумма</word>
-  <word key="upgrade_fix_missing_addresses" js="0">Установка отсутствующих адресов в счетах</word>
-  <word key="email_transaction_refunded_canc" js="0">Ваш заказ был отменён и никакие дальнейшие действия не требуются.</word>
+  <word key="payment_error" js="1">Возникла ошибка при обработке платежа. Пожалуйста, попробуйте другой способ оплаты или свяжитесь с нами для получения помощи.</word>
+  <word key="support_ajax_error" js="1">Возникла ошибка. Ваша сессия истекла. Обновите страницу и попробуйте ещё раз.</word>
+  <word key="click_to_show_url" js="1">Нажмите для отображения реальной ссылки</word>
+  <word key="add_to_cart_js" js="1">Добавить в корзину</word>
+  <word key="out_of_stock" js="1">Нет в наличии</word>
+  <word key="cartReview" js="1">Обзор корзины</word>
+  <word key="confirmRemoveItem" js="1">Вы уверены, что хотите удалить этот товар из вашей корзины?</word>
+  <word key="changeShippingAddress" js="1">Изменить адрес доставки</word>
+  <word key="makePrimaryProductImage" js="1">Сделать изображение основным</word>
+  <word key="removeProductImage" js="1">Удалить это изображение</word>
+  <word key="store_currency_change_warning" js="1">Если вы измените валюту, то вы потеряете все товары в вашей корзине.</word>
+  <word key="cmd_and_enter" js="1">⌘⏎</word>
+  <word key="ctrl_and_enter" js="1">Ctrl+Enter</word>
+  <word key="cardDetailsInvalid" js="1">Данные вашей карты являются некорректными.</word>
+  <word key="cardNumberInvalid" js="1">Это недействительный номер карты.</word>
+  <word key="expiryDateInvalid" js="1">Этот срок действия недействителен или уже прошел.</word>
+  <word key="securityCodeInvalid" js="1">Предоставленный код проверки является некорректным. Он должен состоять из последних 3 цифр на обратной стороне карты или 4 цифр на передней стороне у American Express.</word>
+  <word key="securityCodeInvalid3" js="1">Код проверки недействителен. Он должен состоять из последних 3 цифр на полосе подписи на обратной стороне карты.</word>
+  <word key="securityCodeInvalid4" js="1">Код проверки недействителен. Он должен состоять из последних 4 цифр в верхнем-правом углу на передней стороне карты.</word>
+  <word key="braintreeSaving" js="1">Проверка информации в Braintree. Пожалуйста, подождите - это может занять до 1 минуты...</word>
+  <word key="braintreeError" js="1">Произошла ошибка при </word>
+  <word key="manage_credit_cards" js="0">Управление банковскими картами</word>
+  <word key="manage_billing_agreements" js="0">Управление регулярными платежами</word>
+  <word key="manage_contacts" js="0">Управление контактами</word>
+  <word key="manage_referrals" js="0">Управление приглашениями</word>
+  <word key="see_all_purchases" js="0">{!# [1:Одна покупка][?:Все покупки]}</word>
+  <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
+  <word key="menu__nexus_store_packages_add_child" js="0">Создать продукт в этой группе</word>
+  <word key="mailsub__nexus_hostingError" js="0">Неудачная связь с сервером</word>
  </app>
 </language>

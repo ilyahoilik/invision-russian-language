@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="104026">
+ <app key="cms" version="104027">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -14,8 +14,13 @@
   <word key="rebuilding_cms_database_reciprocal_map" js="0">Перестроения карты взаимных связей в %s (ID поля - %s)</word>
   <word key="rebuilding_cms_database_records" js="0">Перестроение записей: %s</word>
   <word key="rebuilding_cms_database_sync_topics" js="0">Перестроение синхронизированных тем: %s</word>
+  <word key="cms_page" js="0">Страница</word>
+  <word key="cms_pages_pageitem_pl" js="0">Страницы</word>
+  <word key="cms_page_pl_lc" js="0">страницы</word>
+  <word key="cms_page_pl" js="0">Страницы</word>
   <word key="module_no_permission" js="0">Нет прав</word>
   <word key="converting_pages_34x" js="0">Конвертация BBCode-страниц в HTML</word>
+  <word key="content_theme_dev_cannot_write_template" js="0">Невозможно записать файл %s</word>
   <word key="sitemap_cms_Databases" js="0">Записи базы данных</word>
   <word key="sitemap_cms_Pages" js="0">Страницы</word>
   <word key="sitemap_databases_count" js="0">Количество включаемых записей</word>
@@ -223,8 +228,10 @@
   <word key="template_title_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название должно начинаться с буквы или подчёркивания.</word>
   <word key="template_reserved_word" js="0">Имя шаблона не может быть любым из этого списка: %s</word>
   <word key="cms_theme_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование стиля через АЦ, так как у вас включен режим дизайнера.<br><a href='%s'>Отключите режим дизайнера.</a>]]></word>
+  <word key="cms_media_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование медиа через АЦ, так как у вас включен режим дизайнера. <br /><a href='%s'>Выключите режим дизайнера.</a>]]></word>
   <word key="cms_templates_export_title" js="0">Скачать шаблоны</word>
   <word key="cms_templates_export_description" js="0">Выберите шаблоны для экспорта из списка ниже. Эти шаблоны будут добавлены в XML-файл, который может быть импортирован на другом сайте, работающем на Invision Community.</word>
+  <word key="cms_templates_export_return" js="0">Вернуться к редактору шаблона</word>
   <word key="templates_block" js="0">Блоки</word>
   <word key="templates_database" js="0">База данных</word>
   <word key="templates_page" js="0">Страницы</word>
@@ -632,6 +639,7 @@
   <word key="database_field__approved" js="0">Утверждено</word>
   <word key="database_field__comments" js="0">Комментарии</word>
   <word key="database_field__locked" js="0">Закрыто</word>
+  <word key="database_field__last_comment" js="0">Дата последнего комментария</word>
   <word key="database_sort_asc" js="0">По возрастанию (0-9)</word>
   <word key="database_sort_desc" js="0">По убыванию (9-0)</word>
   <word key="content_database_form_options_forums" js="0">Форум</word>
@@ -739,6 +747,7 @@
   <word key="cms_search_media" js="0">Поиск медиа...</word>
   <word key="media_folders" js="0">Папки</word>
   <word key="media_file_overview" js="0">Обзор файла</word>
+  <word key="replace_media_file" js="0">Заменить файл...</word>
   <word key="media_root_folder" js="0">Приложение Страницы</word>
   <word key="media_tag_title" js="0">Медиа-тег</word>
   <word key="media_tag_desc" js="0">Вставьте этот тег в ваши страницы/шаблоны для вставки этого медиа.</word>
@@ -789,6 +798,8 @@
   <word key="content_locked_records" js="0">Закрыто</word>
   <word key="content_locked_record" js="0">Запись закрыта</word>
   <word key="content_record_last_comment" js="0">Дата последнего комментария</word>
+  <word key="sort_record_updated" js="0">Последнее обновление</word>
+  <word key="content_record_last_updated" js="0">Последнее обновление</word>
   <word key="content_record_comments" js="0">Количество комментариев</word>
   <word key="content_record_views" js="0">Количество просмотров</word>
   <word key="content_record_title" js="0">Заголовок</word>
@@ -806,6 +817,7 @@
   <word key="content_conflict_use_this_record" js="0">Оставить текущую версию</word>
   <word key="content_revision_restore" js="0">Восстановить</word>
   <word key="modlog__cms_revision_restored" js="0">Восстановлена запись '%s' версии #%s</word>
+  <word key="content_revision_restored" js="0">Версия восстановлена</word>
   <word key="content_view_record" js="0">Просмотреть полную %s</word>
   <word key="cms_mark_read" js="0">Отметить прочитанным</word>
   <word key="cms_add_new_record_button" js="0">Добавить %s</word>
@@ -915,6 +927,7 @@
   <word key="content_err_page_500" js="0">Эта страница не может быть отображена в данный момент. Пожалуйста, попробуйте позже.</word>
   <word key="content_err_page_500_admin" js="0">Возникла ошибка парсинга на этой странице.</word>
   <word key="cms_delete_linked_topic" js="0">Эта тема используется для комментариев к %s и не может быть удалена</word>
+  <word key="cms_forum_used" js="0"><![CDATA[Этот раздел используется приложением Страницы для хранения комментариев базы данных и не может быть удален.<br>Пожалуйста, удалите связь с базы данных %s для продолжения]]></word>
   <word key="digest_area_cms_cms" js="0">%s</word>
   <word key="x_created_cms_in" js="0">%s опубликовал %s в %s</word>
   <word key="x_created_cms_in_embed" js="0">%s опубликовал %s в %s</word>
@@ -951,6 +964,10 @@
   <word key="copy_author" js="0">Использовать оригинального автора</word>
   <word key="copy_author_desc" js="0">Если вы выбираете &quot;Да&quot;, то автором новой %s станет автор темы. В противном случае, будет использоваться ваш аккаунт.</word>
   <word key="copying_comments" js="0">Копирование комментариев...</word>
+  <word key="comments_show_message" js="0">Отображать примечание?</word>
+  <word key="comments_meta_message" js="0">Примечание</word>
+  <word key="comments_meta_color" js="0">Цвет примечания</word>
+  <word key="default_copyposts_message" js="0">Обратите внимание, что эти комментарии были скопированы из другого источника и что дата и время, указанные у каждого комментария, могут быть неточными.</word>
   <word key="cms_download_db" js="1">Скачать базу данных</word>
   <word key="cms_download_db_explain" js="1"><![CDATA[Скачать файл базы данных с её настройками, шаблонами, полями и категориями.<br>Записи <em>не</em> будут включены.]]></word>
   <word key="index_as_categories" js="1">Показать категории</word>
@@ -962,24 +979,7 @@
   <word key="mediaErrorDeleting" js="1">Возникла ошибка при удалении {!# [1:этого файла][?:этих файлов]}</word>
   <word key="mediaNoResults" js="1">Нет файлов, соответствующих вашему поисковому запросу</word>
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
-  <word key="cms_page" js="0">Страница</word>
-  <word key="cms_pages_pageitem_pl" js="0">Страницы</word>
-  <word key="cms_page_pl_lc" js="0">страницы</word>
-  <word key="cms_page_pl" js="0">Страницы</word>
-  <word key="replace_media_file" js="0">Заменить файл...</word>
-  <word key="cms_forum_used" js="0"><![CDATA[Этот раздел используется приложением Страницы для хранения комментариев базы данных и не может быть удален.<br>Пожалуйста, удалите связь с базы данных %s для продолжения]]></word>
   <word key="replaceMediaFile" js="1">Заменить файл</word>
   <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
-  <word key="comments_show_message" js="0">Отображать примечание?</word>
-  <word key="comments_meta_message" js="0">Примечание</word>
-  <word key="comments_meta_color" js="0">Цвет примечания</word>
-  <word key="default_copyposts_message" js="0">Обратите внимание, что эти комментарии были скопированы из другого источника и что дата и время, указанные у каждого комментария, могут быть неточными.</word>
-  <word key="content_theme_dev_cannot_write_template" js="0">Невозможно записать файл %s</word>
-  <word key="database_field__last_comment" js="0">Дата последнего комментария</word>
-  <word key="sort_record_updated" js="0">Последнее обновление</word>
-  <word key="cms_media_designer_mode_warning" js="0"><![CDATA[В данный момент недоступно редактирование медиа через АЦ, так как у вас включен режим дизайнера. <br /><a href='%s'>Выключите режим дизайнера.</a>]]></word>
-  <word key="cms_templates_export_return" js="0">Вернуться к редактору шаблона</word>
-  <word key="content_record_last_updated" js="0">Последнее обновление</word>
-  <word key="content_revision_restored" js="0">Версия восстановлена</word>
  </app>
 </language>

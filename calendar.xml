@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="104026">
+ <app key="calendar" version="104027">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -48,6 +48,9 @@
   <word key="calendar_rss_feed" js="0">Включить RSS-ленту ближайших событий</word>
   <word key="calendar_rss_feed_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
   <word key="calendar_rss_feed_days" js="0">Количество ближайших событий в ленте</word>
+  <word key="calendar_rss_feed_order" js="0">Сортировать ленту по</word>
+  <word key="calendar_rss_feed_order_date" js="0">Дата события</word>
+  <word key="calendar_rss_feed_order_publish" js="0">Дата публикации</word>
   <word key="acplogs__calendar_settings" js="0">Обновлены настройки календаря</word>
   <word key="calendar_default_view" js="0">Основная разметка</word>
   <word key="calendar_default_view_desc" js="0">Эта настройка позволяет вам контролировать основную разметку главной страницы календаря. Пользователи могут изменять основную разметку по своему желанию.</word>
@@ -66,6 +69,8 @@
   <word key="calendar_date_format_custom" js="0">Пользовательский формат даты</word>
   <word key="calendar_date_format_custom_desc" js="0"><![CDATA[Вы можете использовать любые параметры <a href='{external.php-strftime}' target='_blank' rel='noopener'>PHP strftime</a> для указания пользовательских форматов дат в календаре]]></word>
   <word key="calendar_no_date_format" js="0">Вы должны выбрать определенный формат даты или задать пользовательский</word>
+  <word key="calendar_block_past_changes" js="0">Запретить изменение прошедших событий</word>
+  <word key="calendar_block_past_changes_desc" js="0">Если включено, пользователи не смогут принять приглашение на прошедшие события или изменять прошедшие события.</word>
   <word key="calendars" js="0">Календари</word>
   <word key="calendars_sg" js="0">Календарь</word>
   <word key="calendar_settings" js="0">Настройки</word>
@@ -203,6 +208,7 @@
   <word key="event_rsvp_desc" js="0">Требовать у пользователя подтверждение участия. Список подтвердивших участие будет доступен всем участникам. Для повторяющихся событий применяется к каждому из них.</word>
   <word key="event_to" js="0">в</word>
   <word key="event_all_day" js="0">Весь день</word>
+  <word key="no_end_time" js="0">Нет времени завершения</word>
   <word key="event_repeat" js="0">Повторять</word>
   <word key="change_timezone" js="0">Изменить часовой пояс</word>
   <word key="event_timezone" js="0">Часовой пояс</word>
@@ -246,7 +252,9 @@
   <word key="events_happening_today" js="0">События в этот день</word>
   <word key="day_view_all_day" js="0"><![CDATA[ВСЕ<br>ДНИ]]></word>
   <word key="you_are_going" js="0">Вы придёте</word>
+  <word key="you_were_going" js="0">Вы пришли</word>
   <word key="you_arent_going" js="0">Вы не идёте</word>
+  <word key="you_werent_going" js="0">Вы не пришли</word>
   <word key="you_are_going_to_this" js="0">Вы придёте на это событие</word>
   <word key="you_are_not_going_to_this" js="0">Вы не придёте на это событие</word>
   <word key="rsvp_change" js="0">Изменить ответ</word>
@@ -255,6 +263,7 @@
   <word key="end_date_before_start" js="0">Пожалуйста, выберите дату окончания события</word>
   <word key="invalid_start_date" js="0">Указанная дата начала недействительна</word>
   <word key="invalid_end_date" js="0">Указанная дата окончания недействительна</word>
+  <word key="invalid_recurrence" js="0">Событие не может так часто повторяться. Каждое событие должно закончиться прежде, чем начнется новое.</word>
   <word key="event__save" js="0">Сохранить</word>
   <word key="calendar_delete_title" js="0">Удалить событие</word>
   <word key="blurb_date_with_time" js="0">%s %s</word>
@@ -280,6 +289,9 @@
   <word key="rsvp_maybe_event" js="0">Возможно</word>
   <word key="rsvp_notgoing_event" js="0">Не приду</word>
   <word key="rsvp_attendees" js="0">Придут</word>
+  <word key="rsvp_attendees_past" js="0">Пришёл</word>
+  <word key="rsvp_attended_past_event" js="0">Пришёл</word>
+  <word key="rsvp_notattended_past_event" js="0">Не смог прийти</word>
   <word key="rsvp_maybe_attendees" js="0">Возможно</word>
   <word key="rsvp_notgoing_attendees" js="0">Не придут</word>
   <word key="event_address" js="0">Адрес события</word>
@@ -287,7 +299,11 @@
   <word key="no_rsvps_yet" js="0">Ещё никто не сказал, что придёт.</word>
   <word key="no_decline_rsvps_yet" js="0">Ещё никто не сказал, что не придёт.</word>
   <word key="no_maybe_rsvps_yet" js="0">Ещё никто не сказал, что возможно придёт.</word>
+  <word key="no_rsvps_past" js="0">Никто не пришёл на это событие.</word>
+  <word key="no_maybe_rsvps_past" js="0">Никто не сказал, что возможно придёт.</word>
+  <word key="no_decline_rsvps_past" js="0">Никто не отказался.</word>
   <word key="rsvp_limit_reached" js="0">Достигнут лимит участников</word>
+  <word key="no_rsvp_past_event" js="0">Событие уже прошло</word>
   <word key="rsvp_error" js="0">У вас нет прав для участия в этом событии</word>
   <word key="rsvp_not_going" js="0">Вы удалены из списка участников этого события</word>
   <word key="rsvp_selection_yes" js="0">Вы добавлены в список участников этого события</word>
@@ -340,6 +356,7 @@
   <word key="event_remind_days_before" js="0">дней до этого события</word>
   <word key="event_reminder_removed" js="0">Напоминание удалено</word>
   <word key="event_reminder_added" js="0">Напоминание сохранено</word>
+  <word key="no_edit_past_event" js="0">У вас нет прав на изменение прошедших событий</word>
   <word key="block_upcomingEvents" js="0">Ближайшие события</word>
   <word key="block_upcomingEvents_desc" js="0">Отображает ближайшие события календаря</word>
   <word key="auto_hide" js="0">Автоматически скрывать блок</word>
@@ -416,6 +433,7 @@
   <word key="__api_calendar_comments" js="0">Комментарии</word>
   <word key="__api_calendar_reviews" js="0">Отзывы</word>
   <word key="__api_calendar_calendars" js="0">Календари</word>
+  <word key="__api_calendar_venues" js="0">Места</word>
   <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s идёт на <a href='%s'>%s</a>]]></word>
   <word key="all_activity_calendar_streamitems" js="0">Когда пользователь принимает приглашение на событие</word>
   <word key="notifications__calendar_Events" js="0">Календарь</word>
@@ -466,30 +484,12 @@
   <word key="week_string" js="1">{{week}} {{days}}</word>
   <word key="doesnt_repeat" js="1">Не повторяется</word>
   <word key="single_not_allday" js="1"><![CDATA[<strong>{{startDate}}</strong>, с <strong>{{startTime}}</strong> до <strong>{{endTime}}</strong>]]></word>
+  <word key="single_not_allday_noendtime" js="1"><![CDATA[<strong>{{startDate}}</strong>, в <strong>{{startTime}}</strong>]]></word>
   <word key="single_allday" js="1"><![CDATA[<strong>{{startDate}}</strong> (весь день)]]></word>
   <word key="not_single_not_allday" js="1"><![CDATA[С <strong>{{startDate}}</strong> в <strong>{{startTime}}</strong> до <strong>{{endDate}}</strong> в <strong>{{endTime}}</strong>]]></word>
   <word key="not_single_allday" js="1"><![CDATA[С <strong>{{startDate}}</strong> до <strong>{{endDate}}</strong>]]></word>
   <word key="select_time" js="1">(выберите время)</word>
   <word key="event_reminder_removed" js="1">Напоминание удалено</word>
   <word key="event_reminder_added" js="1">Напоминание сохранено</word>
-  <word key="no_end_time" js="0">Нет времени завершения</word>
-  <word key="single_not_allday_noendtime" js="1"><![CDATA[<strong>{{startDate}}</strong>, в <strong>{{startTime}}</strong>]]></word>
-  <word key="calendar_rss_feed_order" js="0">Сортировать ленту по</word>
-  <word key="calendar_rss_feed_order_date" js="0">Дата события</word>
-  <word key="calendar_rss_feed_order_publish" js="0">Дата публикации</word>
-  <word key="invalid_recurrence" js="0">Событие не может так часто повторяться. Каждое событие должно закончиться прежде, чем начнется новое.</word>
-  <word key="__api_calendar_venues" js="0">Места</word>
-  <word key="calendar_block_past_changes" js="0">Запретить изменение прошедших событий</word>
-  <word key="calendar_block_past_changes_desc" js="0">Если включено, пользователи не смогут принять приглашение на прошедшие события или изменять прошедшие события.</word>
-  <word key="you_were_going" js="0">Вы пришли</word>
-  <word key="you_werent_going" js="0">Вы не пришли</word>
-  <word key="rsvp_attendees_past" js="0">Пришёл</word>
-  <word key="rsvp_attended_past_event" js="0">Пришёл</word>
-  <word key="rsvp_notattended_past_event" js="0">Не смог прийти</word>
-  <word key="no_rsvps_past" js="0">Никто не пришёл на это событие.</word>
-  <word key="no_maybe_rsvps_past" js="0">Никто не сказал, что возможно придёт.</word>
-  <word key="no_decline_rsvps_past" js="0">Никто не отказался.</word>
-  <word key="no_rsvp_past_event" js="0">Событие уже прошло</word>
-  <word key="no_edit_past_event" js="0">У вас нет прав на изменение прошедших событий</word>
  </app>
 </language>

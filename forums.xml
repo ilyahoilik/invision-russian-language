@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="forums" version="104026">
+ <app key="forums" version="104027">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -376,6 +376,7 @@
   <word key="vote_answer_down" js="0">Голосовать против ответа</word>
   <word key="vote_question_up" js="0">Голосовать за вопрос</word>
   <word key="vote_question_down" js="0">Голосовать против вопроса</word>
+  <word key="remove_your_vote" js="0">Удалить свой голос</word>
   <word key="best_answers" js="0">Лучшие ответы</word>
   <word key="set_as_best_answer" js="0">Отметить как лучший ответ</word>
   <word key="unset_as_best_answer" js="0">Отозвать как лучший ответ</word>
@@ -497,6 +498,7 @@
   <word key="topic_unlocks_at_short" js="0">Открытие: %s</word>
   <word key="topic_locks_at" js="0">Тема будет автоматически закрыта %s в %s</word>
   <word key="topic_locks_at_short" js="0">Закрытие: %s</word>
+  <word key="club_node_forums" js="0">Форум клуба</word>
   <word key="saved_actions" js="0">Сохранённые действия</word>
   <word key="saved_actions_sg" js="0">Сохранённые действия</word>
   <word key="mm_title" js="0">Название</word>
@@ -558,8 +560,14 @@
   <word key="ad_fluid_index_view_repeat_suffix" js="0">раз</word>
   <word key="stats_new_topics" js="0">Новые темы</word>
   <word key="stats_new_posts" js="0">Новые сообщения</word>
+  <word key="stats_topics_tab_total" js="0">Все новые темы</word>
+  <word key="stats_topics_tab_byforum" js="0">Новые темы по разделам</word>
   <word key="stats_topics_title" js="0">Новые темы за период</word>
+  <word key="stats_topics_title_byforum" js="0">Новые темы по разделам</word>
+  <word key="stats_posts_tab_total" js="0">Все новые сообщения</word>
+  <word key="stats_posts_tab_byforum" js="0">Новые сообщения по разделам</word>
   <word key="stats_posts_title" js="0">Новые сообщения за период</word>
+  <word key="stats_posts_title_byforum" js="0">Новые сообщения по разделам</word>
   <word key="widget_feed_container_topic" js="0">Форумы</word>
   <word key="block_topicFeed_title" js="0">Темы</word>
   <word key="block_postFeed_title" js="0">Сообщения</word>
@@ -569,6 +577,7 @@
   <word key="widget_poll_tid" js="0">Тема</word>
   <word key="widget_poll_tid_desc" js="0">Начните вводить название темы</word>
   <word key="poll_view_topic" js="0">Просмотреть тему</word>
+  <word key="poll_widget_no_poll" js="0">В выбранной теме нет активного опроса.</word>
   <word key="__api_forums_posts" js="0">Сообщения</word>
   <word key="__api_forums_topics" js="0">Темы</word>
   <word key="__api_forums_forums" js="0">Категории</word>
@@ -592,15 +601,6 @@
   <word key="topicsFromAllForums" js="1">Отображаются темы со всех разделов</word>
   <word key="topicsFromXForums" js="1">Отображаются темы с {# [*1:раздела][*11:разделов][*12:разделов][*13:разделов][*14:разделов][?:разделов]}</word>
   <word key="markForumAsReadConfirm" js="1">Вы уверены, что хотите отметить все темы в этом разделе прочитанными?</word>
-  <word key="club_node_forums" js="0">Форум клуба</word>
-  <word key="stats_topics_tab_total" js="0">Все новые темы</word>
-  <word key="stats_topics_tab_byforum" js="0">Новые темы по разделам</word>
-  <word key="stats_topics_title_byforum" js="0">Новые темы по разделам</word>
-  <word key="stats_posts_tab_total" js="0">Все новые сообщения</word>
-  <word key="stats_posts_tab_byforum" js="0">Новые сообщения по разделам</word>
-  <word key="stats_posts_title_byforum" js="0">Новые сообщения по разделам</word>
-  <word key="remove_your_vote" js="0">Удалить свой голос</word>
-  <word key="poll_widget_no_poll" js="0">В выбранной теме нет активного опроса.</word>
   <word key="js_vote_answer_up" js="1">Проголосовать за ответ</word>
   <word key="js_vote_answer_down" js="1">Проголосовать против ответа</word>
   <word key="js_remove_your_vote" js="1">Удалить свой голос</word>
