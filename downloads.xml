@@ -543,3 +543,4 @@
   <word key="downloadsScreenshotsWatermarkNo" js="1">Нет</word>
   <word key="modlog__action_purchasestatus" js="0"><![CDATA[Изменён статус покупки файла: <a href='%s'>%s</a>]]></word>
  </app>
+</language>

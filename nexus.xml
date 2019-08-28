@@ -3515,3 +3515,4 @@
   <word key="stripe_3ds_pass_version" js="0"><![CDATA[Проверка 3DSecure пройдена <small>(v%s)</small>]]></word>
   <word key="stripe_3ds_fail_version" js="0"><![CDATA[Проверка 3DSecure не пройдена <small>(v%s)</small>]]></word>
  </app>
+</language>
