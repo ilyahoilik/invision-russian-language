@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104027">
+ <app key="nexus" version="104034">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -283,7 +283,7 @@
   <word key="braintree_dispute_status_disputed_r" js="0">Вы ответили на этот спор и теперь он ожидает решения банка клиента. На данном этапе платеж не был отменен, но если банк не примет решение в вашу пользу, то это может произойти, поэтому преимущества, предоставленные клиенту от этой покупки, были отозваны до разрешения спора.</word>
   <word key="braintree_dispute_error" js="0">Невозможно получить с Braintree более подробную информацию об этом споре. Для подробной информации произведите поиск по ссылке платежа в вашей панели Braintree.</word>
   <word key="braintree_3ds_pass" js="0">Проверка 3DSecure пройдена</word>
-  <word key="braintree_3ds_fail" js="0">3DSecure не аутентифицирован</word>
+  <word key="braintree_3ds_fail" js="0">Проверка 3DSecure не пройдена</word>
   <word key="braintree_3ds_not_checked" js="0">Система 3DSecure не используется</word>
   <word key="braintree_3ds_unsupported_card" js="0">неподдерживаемая карта</word>
   <word key="braintree_3ds_lookup_error" js="0">ошибки</word>
@@ -2199,7 +2199,7 @@
   <word key="p_upsell_desc" js="0">Если включено, когда клиент добавляет один из выбранных продуктов в корзину, этот продут будет предложен как связанный.</word>
   <word key="package_notify" js="0">Уведомления</word>
   <word key="p_notify" js="0">Уведомления о покупке</word>
-  <word key="p_notify_desc" js="0">Email-письмо будет отправлено на указанные email-адреса, когда этот продукт будет куплен и платёж будет утвержден.</word>
+  <word key="p_notify_desc" js="0">На указанные email-адреса будет отправлено email-письмо для каждой позиции, когда этот продукт будет куплен и платёж будет утвержден.</word>
   <word key="mailsub__nexus_purchaseNotify" js="0"><![CDATA[Покупка {$purchase->name|raw}]]></word>
   <word key="p_reviewable" js="0">Клиенты могут отправлять отзывы</word>
   <word key="p_review_moderate" js="0">Отзывы должны быть утверждены перед отображением</word>
@@ -3510,5 +3510,9 @@
   <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
   <word key="menu__nexus_store_packages_add_child" js="0">Создать продукт в этой группе</word>
   <word key="mailsub__nexus_hostingError" js="0">Неудачная связь с сервером</word>
+  <word key="search_contextual_item_product_groups" js="0">Эта группа продуктов</word>
+  <word key="search_contextual_item_product" js="0">Этот продукт</word>
+  <word key="stripe_3ds_pass_version" js="0"><![CDATA[Проверка 3DSecure пройдена <small>(v%s)</small>]]></word>
+  <word key="stripe_3ds_fail_version" js="0"><![CDATA[Проверка 3DSecure не пройдена <small>(v%s)</small>]]></word>
  </app>
 </language>
