@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="104027">
+ <app key="cms" version="104034">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -981,5 +981,16 @@
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
   <word key="replaceMediaFile" js="1">Заменить файл</word>
   <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
+  <word key="sitemap_databases_include" js="0">Включить в карту сайта</word>
+  <word key="sitemap_pages_include" js="0">Включить в карту сайта</word>
+  <word key="cms_template_group_exists" js="0">Эта группа шаблонов уже существует.</word>
+  <word key="content_database_form_seo" js="0">SEO</word>
+  <word key="database_canonical_header" js="0">Тег canonical</word>
+  <word key="database_canonical_flag" js="0">Сильно намекнуть поисковикам, что</word>
+  <word key="database_canonical_flag_0" js="0">Все страницы должны рассматриваться как одинаковые</word>
+  <word key="database_canonical_flag_0_desc" js="0">Примером может служить база данных, которая будет использоваться для публикации длинных статей, которые богаты контентом, которые получают большое количество страниц с комментариями и отзывами. В этом примере тег canonical всегда будет установлен на первую страницу, поскольку исходная публикация является более важной.</word>
+  <word key="database_canonical_flag_1" js="0">Все страницы должны рассматриваться как разные</word>
+  <word key="database_canonical_flag_1_desc" js="0">Примером может служить база данных, в которой вы размещаете ссылку или видео для просмотра, которая получает большое количество страниц с комментариями и отзывами. В этом примере тег canonical будет установлен на текущую страницу, поскольку страница с публикациями пользователей является более важной.</word>
+  <word key="cms_record_i_started_sprintf" js="0">Отображать только мои %s</word>
+  <word key="content_field_cms_record_i_started_on" js="0">В</word>
  </app>
-</language>

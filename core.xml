@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104027">
+ <app key="core" version="104034">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -483,16 +483,16 @@
   <word key="cover_photo_reposition" js="0">Переместить обложку</word>
   <word key="see_all_count" js="0">Просмотреть все %d</word>
   <word key="err_password_length" js="0">Пароль должен содержать не менее 3 символов</word>
-  <word key="mod_confirm_pin" js="0">Закреплено</word>
-  <word key="mod_confirm_unpin" js="0">Откреплено</word>
-  <word key="mod_confirm_lock" js="0">Закрыто</word>
-  <word key="mod_confirm_unlock" js="0">Открыто</word>
-  <word key="mod_confirm_hide" js="0">Скрыто</word>
-  <word key="mod_confirm_unhide" js="0">Отображено</word>
-  <word key="mod_confirm_feature" js="0">Рекомендованная</word>
-  <word key="mod_confirm_unfeature" js="0">Обычная</word>
-  <word key="mod_confirm_restore" js="0">Восстановлено</word>
-  <word key="mod_confirm_restoreAsHidden" js="0">Восстановлено (скрыто)</word>
+  <word key="mod_confirm_pin" js="0">Закреплённые</word>
+  <word key="mod_confirm_unpin" js="0">Откреплённые</word>
+  <word key="mod_confirm_lock" js="0">Закрытые</word>
+  <word key="mod_confirm_unlock" js="0">Открытые</word>
+  <word key="mod_confirm_hide" js="0">Скрытые</word>
+  <word key="mod_confirm_unhide" js="0">Отображаемые</word>
+  <word key="mod_confirm_feature" js="0">Рекомендованные</word>
+  <word key="mod_confirm_unfeature" js="0">Обычные</word>
+  <word key="mod_confirm_restore" js="0">Восстановленные</word>
+  <word key="mod_confirm_restoreAsHidden" js="0">Восстановленные (скрытые)</word>
   <word key="mod_error_invalid_action" js="0">Возникла ошибка при выполнении этого действия</word>
   <word key="mod_error_invalid_action_admin" js="0">Действие, которое вы пытались выполнить, является некорректным</word>
   <word key="default" js="0">(По умолчанию)</word>
@@ -674,7 +674,7 @@
   <word key="content_future_date_blurb" js="0">Будет опубликовано: %s %s</word>
   <word key="publish_now" js="0">Опубликовать сейчас</word>
   <word key="publish" js="0">Опубликовать</word>
-  <word key="mod_confirm_publish" js="0">Опубликовано</word>
+  <word key="mod_confirm_publish" js="0">Опубликованнные</word>
   <word key="hidden_no_reason" js="0">Причина не указана</word>
   <word key="unapproved" js="0">Не утверждённые</word>
   <word key="pending_approval" js="0">Ожидает утверждения</word>
@@ -730,7 +730,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.4">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.5">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="acp_version_number_raw" js="0">%s</word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
@@ -1275,7 +1275,7 @@
   <word key="no_results" js="0">Нет результатов для отображения.</word>
   <word key="no_comments" js="0">Нет комментариев для отображения</word>
   <word key="no_reviews" js="0">Нет отзывов для отображения.</word>
-  <word key="form_date_bad" js="0">Эта дата не соответствует требуемому формату</word>
+  <word key="form_date_bad" js="0">Эта дата не соответствует требуемому формату.</word>
   <word key="form_date_min" js="0">Дата должна быть позже %s.</word>
   <word key="form_date_max" js="0">Дата должна быть раньше %s.</word>
   <word key="form_email_bad" js="0">Этот email-адрес недействителен</word>
@@ -1925,8 +1925,8 @@
   <word key="login_sync_password_changes_no" js="0">Не делать ничего</word>
   <word key="login_sync_password_changes_no_desc" js="0">Если это единственный метод входа, используемый пользователем, то возможность изменения пароль отображаться не будет.</word>
   <word key="handler_forgot_password_url" js="0">Ссылка на восстановление пароля</word>
-  <word key="handler_forgot_password_url_desc_normal" js="0">Если указана ссылка, то пользователь будет перенаправлен на неё, если он в форме восстановления пароля указал email-адрес, который отсутствует в локальной базе, но присутствует в удаленной базе.</word>
-  <word key="handler_forgot_password_url_desc_handler" js="0">Если указана ссылка, то пользователь будет перенаправлен на неё, если он указал email-адрес, который присутствует в удаленной базе.</word>
+  <word key="handler_forgot_password_url_desc_normal" js="0">Если указана ссылка, то пользователь будет перенаправлен на неё, если он в форме восстановления пароля указал email-адрес, который отсутствует в локальной базе, но присутствует в удалённой базе.</word>
+  <word key="handler_forgot_password_url_desc_handler" js="0">Если указана ссылка, то пользователь будет перенаправлен на неё, если он указал email-адрес, который присутствует в удалённой базе.</word>
   <word key="login_update_email_changes" js="0">Когда изменяется удаленный email-адрес</word>
   <word key="login_update_name_changes" js="0">Когда изменяется удаленное имя пользователя</word>
   <word key="login_update_changes_yes" js="0">Обновить локальную базу</word>
@@ -2314,7 +2314,7 @@
   <word key="new_device_email_footer" js="0">Если это были вы, пожалуйста, проигнорируйте это email-письмо. В противном случае, вам следует незамедлительно защитить свой аккаунт.</word>
   <word key="new_device_email_action_1" js="0">Просмотрите активность и защитите аккаунт</word>
   <word key="new_device_email_action_2" js="0">Защитите аккаунт</word>
-  <word key="device_list_secure_account" js="0">Видите что-то незнакомое?</word>
+  <word key="device_list_secure_account" js="0">Видите что-нибудь незнакомое?</word>
   <word key="secure_account" js="0">Защитить аккаунт</word>
   <word key="secure_account_blurb" js="0">Если вы заметили подозрительную активность на вашем аккаунте, вы можете совершить действия, описанные здесь, для защиты вашего аккаунта.</word>
   <word key="secure_account_change_password" js="0">Если кто-либо ещё смог войти в ваш аккаунт, значит он смог угадать или узнать ваш пароль. Не забывайте выбирать пароль, который сложно разгадать, и никогда не используйте один пароль на нескольких сайтах. Изменив пароль, вы автоматически выйдете со всех других устройств.</word>
@@ -3116,7 +3116,7 @@
   <word key="whitelist_content" js="0">Публикаций</word>
   <word key="sitemap_blurb" js="0">Карта сайта - это автоматически сгенерированная страница, используемая поисковыми системами для более лучшей индексации сайта.</word>
   <word key="sitemap_core_Profiles" js="0">Профили</word>
-  <word key="sitemap_dont_include" js="0">Не включать</word>
+  <word key="sitemap_dont_include" js="0">Не включать значение приоритета в карту сайта</word>
   <word key="sitemap_profiles_count" js="0">Количество профилей</word>
   <word key="sitemap_profiles_count_desc" js="0">Введите 0, чтобы не включать профили в карту сайта. Изменение данной настройки повлияет только на новые профили.</word>
   <word key="sitemap_profiles_priority" js="0">Приоритет</word>
@@ -3135,7 +3135,7 @@
   <word key="sitemap_priority_container" js="0">Приоритет родительского контейнера</word>
   <word key="sitemap_priority_generic_desc" js="0">Приоритет помогает указать поисковым системам важность индексации той или иной страницы.</word>
   <word key="sitemap_number_generic" js="0">Количество включаемых публикаций</word>
-  <word key="sitemap_do_not_include" js="0">Не включать</word>
+  <word key="sitemap_do_not_include" js="0">Не включать значение приоритета в карту сайта</word>
   <word key="sitemap_default_priority" js="0">Стандартный приоритет</word>
   <word key="rebuild_sitemap" js="0">Перестроить карту сайта</word>
   <word key="rebuild_sitemap_initialized" js="0">Фоновая задача запущена</word>
@@ -4001,7 +4001,7 @@
   <word key="license_expired" js="0">Лицензионный ключ истёк</word>
   <word key="license_expired_email" js="0">Ваша лицензия на Invision Community истекла!</word>
   <word key="license_benefits_info" js="0">Активная лицензия открывает доступ к большому количеству услуг и предложений, включая доступ к Spam Defense, технической поддержке и обновлениям.</word>
-  <word key="license_not_recognised" js="0"><![CDATA[Ваша лицензия не распознана. Вы можете <a href='{internal.app=core&module=settings&controller=licensekey&do=refresh}'>попробовать перезагрузить данные лицензии</a> или <a href='{internal.app=core&module=settings&controller=licensekey&do=settings}'>ввести новый ключ</a>.Если вы не можете решить проблему самостоятельно, свяжитесь с технической поддержкой для помощи.]]></word>
+  <word key="license_not_recognised" js="0"><![CDATA[Ваша лицензия не распознана. Вы можете <a href='{internal.app=core&module=settings&controller=licensekey&do=refresh}'>попробовать обновить данные вашей лицензии</a> или <a href='{internal.app=core&module=settings&controller=licensekey&do=settings}'>ввести новый ключ</a>.Если вы не можете решить проблему самостоятельно, пожалуйста, свяжитесь с технической поддержкой для получения помощи.]]></word>
   <word key="license_renew_now" js="0">Продлить лицензию</word>
   <word key="license_check_again" js="0">Проверить снова</word>
   <word key="license_dismiss" js="0">Скрыть это сообщение</word>
@@ -5520,7 +5520,7 @@
   <word key="posts_add_nofollow" js="0">Добавлять rel=&quot;nofollow&quot; к ссылкам</word>
   <word key="posts_add_nofollow_desc" js="0">Добавить rel='nofollow' к публикуемым внешним ссылкам. Рекомендуется сделать это, чтобы поисковые системы не связывали ваш сайт с сайтами, ссылки на которые публикуют пользователи.</word>
   <word key="posts_add_nofollow_exclude" js="0">Домены, на которые должны переходить поисковые системы.</word>
-  <word key="posts_add_nofollow_exclude_desc" js="0">rel='nofollow' не будет добавляться к ссылкам на доменные имена, которые указаны здесь. Добавьте любые домены, с которыми связан ваш сайт или которые он контролирует.</word>
+  <word key="posts_add_nofollow_exclude_desc" js="0">rel='nofollow' не будет добавляться к ссылкам на доменные имена, которые указаны здесь. Добавьте любые домены, с которыми связан ваш сайт, которые он контролирует или с которыми у вас есть рекламный контракт, который обязует вас разрешать контроль за переходом по ссылкам. Введите только доменной имя, а не полный адрес, например &quot;site.com&quot;, а не &quot;https://site.com&quot;.</word>
   <word key="acplogs__url_filter_settings" js="0">Изменены настройки фильтра ссылок</word>
   <word key="acplogs__posting_general_settings" js="0">Изменены настройки публикации</word>
   <word key="posting_attachments" js="0">Вложения</word>
@@ -5981,7 +5981,7 @@
   <word key="messenger_disabled_msg" js="0">Личные сообщения отключены. Вы хотите включить их?</word>
   <word key="messenger_enabled" js="0">Личные сообщения включены</word>
   <word key="disable_messenger" js="0">Отключить личные сообщения</word>
-  <word key="messenger_filtering" js="0">Результаты отфильтрованы по &quot;%s&quot;</word>
+  <word key="messenger_filtering" js="0">Результаты отфильтрованы по &quot;%s&quot;.</word>
   <word key="messenger_deleted_member" js="0">Пользователь удалён</word>
   <word key="messenger_message_count" js="0">{# [*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][*11:сообщений][*12:сообщений][*13:сообщений][*14:сообщений][?:сообщений]}</word>
   <word key="no_results_messages" js="0">Нет сообщений для отображения</word>
@@ -6742,7 +6742,7 @@
   <word key="report_no_title_available" js="0">Заголовок жалобы недоступен</word>
   <word key="viewing_deleted_content" js="0">Просматривает удалённую публикацию: %s</word>
   <word key="date_deleted" js="0">Удалена %s</word>
-  <word key="deleted_by_with_date" js="0">Удалена пользователем %s %s, будет удалена %s</word>
+  <word key="deleted_by_with_date" js="0">Удалена пользователем %s %s, будет окончательно удалена %s</word>
   <word key="date_posted" js="0">Опубликована %s</word>
   <word key="delete_immediately" js="0">Удалить незамедлительно</word>
   <word key="delete_immediately_desc" js="0">Удалить эту публикацию незамедлительно?</word>
@@ -11591,5 +11591,35 @@
   <word key="emoji-mother_christmas" js="1">Mother Christmas</word>
   <word key="post_before_register_followup_header" js="0">Ваше сообщение ещё не было отправлено</word>
   <word key="new_user_completed_registration" js="0">Новый пользователь: %s</word>
+  <word key="deletion_blurb_no_member" js="0">Будет окончательно удалено %s</word>
+  <word key="mod_confirm_unpublish" js="0">Не опубликованные</word>
+  <word key="cic_upgrade_confirm" js="0"><![CDATA[Вы уверены, что хотите продолжить? <strong>Примечание:</strong> Это действие не сможет быть отменено, если вы продолжите.]]></word>
+  <word key="acplogs__cic_upgrade" js="0">Сообщество обновлено</word>
+  <word key="upgrade_confirm_cic" js="0">Подтвердить обновление</word>
+  <word key="upgrade_apply_cic" js="0">Применить файлы</word>
+  <word key="modlog__item_follow_removed" js="0">Удалены подписчики из %s/%s ID: %s</word>
+  <word key="modlog__poll_opened" js="0"><![CDATA[Опрос открыт: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__poll_closed" js="0"><![CDATA[Опрос закрыт: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__poll_autoclose" js="0">Автозакрытие опроса: #%s закроется %s</word>
+  <word key="sitemap_include_generic_desc" js="0">Включить в карту сайта</word>
+  <word key="sitemap_profiles_include" js="0">Включить в карту сайта</word>
+  <word key="block_core_MemberStats" js="0">Статистика пользователей</word>
+  <word key="memberStatsDashboard_optin" js="0">Согласились на рекламную рассылку</word>
+  <word key="memberStatsDashboard_optout" js="0">Отказались от рекламной рассылки</word>
+  <word key="chart_email_marketing_type" js="0">Тип согласия</word>
+  <word key="memberStatsDashboard_title" js="0">Всего %s {!# [*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][*11:пользователей][*12:пользователей][*13:пользователей][*14:пользователей][?:пользователей]}</word>
+  <word key="onlineUsersDashboard_title" js="0">%s в сети</word>
+  <word key="deleted_without_by_with_date" js="0">Будет окончательно удалена %s</word>
+  <word key="widget_feed_status_published" js="0">Опубликовано</word>
+  <word key="mod_confirm_all" js="0">Все</word>
+  <word key="mod_confirm_all_desc" js="0">Будут отображаться все публикации, который может просматривать текущий пользователь</word>
+  <word key="mod_confirm_visible_desc" js="0">Будут отображаться только не скрытые и не ожидающие утверждения публикации, даже если пользователь имеет права на просмотр скрытых публикаций</word>
+  <word key="mod_confirm_pendapp" js="0">Ожидающие утверждения</word>
+  <word key="mod_confirm_pendapp_desc" js="0">Будут отображаться только публикации, ожидающие утверждения, и только в случае, если пользователь имеет права на просмотр публикаций, ожидающих утверждения</word>
+  <word key="mod_confirm_hidden_desc" js="0">Будут отображаться только скрытые модераторами публикации, и только в случае, если пользователь имеет права на просмотр скрытых публикаций.</word>
+  <word key="mod_confirm_hideboth" js="0">Не отображаемые</word>
+  <word key="mod_confirm_hideboth_desc" js="0">Будут отображаться скрытые публикации и публикации, ожидающие утверждения, и только в случае, если пользователь имеет права на просмотр скрытых публикаций</word>
+  <word key="oauth_authorize_switch" js="0">Использовать другой аккаунт</word>
+  <word key="api_blocked_self" js="0"><![CDATA[Сервер был заблокирован в связи со слишком большим количеством неудачных запросов с неверным ключом. Удалите IP-адреса сервера из списка в <a href='{internal.app=core&module=membersettings&controller=ban}'>настройках бана</a>. Также рекомендуется проверить все интеграции, чтобы убедиться, что используется корректный ключ.]]></word>
+  <word key="promote_cant_promote_admin" js="0">Выбранная публикация не может быть продвинута</word>
  </app>
-</language>

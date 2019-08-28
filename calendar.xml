@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="calendar" version="104027">
+ <app key="calendar" version="104034">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -260,7 +260,7 @@
   <word key="rsvp_change" js="0">Изменить ответ</word>
   <word key="confirm_attendance" js="0">Подтвердить участие</word>
   <word key="featured_events" js="0">Рекомендованные события</word>
-  <word key="end_date_before_start" js="0">Пожалуйста, выберите дату окончания события</word>
+  <word key="end_date_before_start" js="0">Событие должно заканчиваться после того, как начнётся</word>
   <word key="invalid_start_date" js="0">Указанная дата начала недействительна</word>
   <word key="invalid_end_date" js="0">Указанная дата окончания недействительна</word>
   <word key="invalid_recurrence" js="0">Событие не может так часто повторяться. Каждое событие должно закончиться прежде, чем начнется новое.</word>
@@ -492,4 +492,3 @@
   <word key="event_reminder_removed" js="1">Напоминание удалено</word>
   <word key="event_reminder_added" js="1">Напоминание сохранено</word>
  </app>
-</language>
