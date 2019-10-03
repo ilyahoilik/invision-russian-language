@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104039">
+ <app key="nexus" version="104044">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -3515,5 +3515,10 @@
   <word key="stripe_3ds_pass_version" js="0"><![CDATA[Проверка 3DSecure пройдена <small>(v%s)</small>]]></word>
   <word key="stripe_3ds_fail_version" js="0"><![CDATA[Проверка 3DSecure не пройдена <small>(v%s)</small>]]></word>
   <word key="transaction_approve_from_dispute" js="0">Все покупки будут пересозданы с новым сроком продления, если это применимо. Вы можете просмотреть их.</word>
+  <word key="err_no_billaddress" js="0">Этот счёт не может быть помечен оплаченным, так как он не имеет платёжного адреса. Вы можете изменить счёт и добавить платёжный адрес, либо клиенту будет предложено сделать это при оплате.</word>
+  <word key="billing_address_req" js="0">Для пометки счёта оплаченным требуется наличие платёжного адреса.</word>
+  <word key="altcontact_member_admin_self" js="0">Вы не можете добавить пользователя в качестве альтернативного контакта в его собственный аккаунт.</word>
+  <word key="support_history_same" js="0">Такое же, как и %s за 30 дней до этого</word>
+  <word key="altcontact_email_self" js="0">Вы не можете добавить самого себя в качестве альтернативного контакта.</word>
  </app>
 </language>
