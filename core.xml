@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104039">
+ <app key="core" version="104044">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -730,7 +730,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.6">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.7">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="acp_version_number_raw" js="0">%s</word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
@@ -1371,7 +1371,7 @@
   <word key="delta_upgrade_manual_footer" js="0">Как только вы загрузите файлы, нажмите на кнопку ниже для продолжения.</word>
   <word key="delta_upgrade_mismatch_versions" js="0"><![CDATA[Вы используете версию %s приложения %s, однако у вас установлен Invision Community %s. Для загрузки обновления вам нужно использовать одинаковую версию всех приложений. Если вы больше не используете приложение %s, вы можете удалить его на странице <a href='{internal.app=core&module=applications&controller=applications}' rel='noopener'>Приложения</a>. Вы также можете скачать полный архив, посетив <a href='{external.client_area}' target='_blank' rel='noopener'>область клиента</a>.]]></word>
   <word key="upgrade_method" js="0">Метод обновления</word>
-  <word key="delta_upgrade_fail_cic_head" js="0">Последние файлы были загружены</word>
+  <word key="delta_upgrade_fail_cic_head" js="0">Загружаются актуальные файлы</word>
   <word key="delta_upgrade_fail_cic_desc" js="0">Последние файлы из этого обновления были загружены на ваш сайт.</word>
   <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[Вы можете продолжить <span data-role='counter'>через 5 минут</span>.]]></word>
   <word key="r__upgrade" js="0">Обновление</word>
@@ -1780,7 +1780,7 @@
   <word key="login_facebook_https" js="0"><![CDATA[Для использования входа через Facebook вы должны получить SSL сертификат. Свяжитесь с вашим хостинг-провайдером для получения подробной информации. Если у вас уже есть сертификат, убедитесь в том, что он <a href='{internal.app=core&module=settings&controller=login&do=httpsCheck}' data-ipsDialog>настроен корректно</a>.]]></word>
   <word key="login_facebook_https_cic" js="0"><![CDATA[Для использования входа через Facebook вы должны получить SSL сертификат. <a href='{external.client_area}' target='_blank' rel='noopener'>Свяжитесь с нами для получения подробной информации</a>]]></word>
   <word key="login_generic_allow_status_import" js="0">Разрешить импорт статусов</word>
-  <word key="login_ldap_err" js="0"><![CDATA[Для использования LDAP ваш сервер должен иметь установленное <a href='{external.php_ldap}' target='_blank' rel='noopener'>PHP расширение LDAP</a>.]]></word>
+  <word key="login_ldap_err" js="0"><![CDATA[Для использования LDAP на вашем сервере должно быть установлено <a href='{external.php_ldap}' target='_blank' rel='noopener'>расширение PHP LDAP</a>.]]></word>
   <word key="login_ldap_err_connect" js="0">Учетные данные LDAP являются недействительными. Пожалуйста, проверьте настройки LDAP или обратитесь к системному администратору.</word>
   <word key="ldap_header" js="0">Данные сервера LDAP</word>
   <word key="ldap_directory" js="0">Данные директории LDAP</word>
@@ -4559,15 +4559,15 @@
   <word key="ipsgeoip" js="0">Включить GeoIP Service?</word>
   <word key="enhancements__core_GoogleMaps" js="0">Google Maps</word>
   <word key="enhancements__core_GoogleMaps_desc" js="0">Google Maps предоставляет функционал автозаполнения полей адресов и карт для улучшенного отображения данных о местонахождении, например в инструментах IP-адресов.</word>
-  <word key="google_maps_api_key" js="0">Ключ Google Maps API</word>
-  <word key="google_maps_api_key_desc" js="0"><![CDATA[<a href='{external.googlemapsapi}' target='_blank' rel='noopener'>Получить API-ключ</a>]]></word>
+  <word key="google_maps_api_key" js="0">Публичный ключ</word>
+  <word key="google_maps_api_key_desc" js="0"><![CDATA[Рекомендуется: В поле <strong>Application restrictions</strong> выбрать <strong>HTTP referrers (web sites)</strong> и указать вебсайт <strong>%s</strong><br>Необязательно: В поле <strong>API restrictions</strong> выбрать <strong>Maps Javascript API</strong>, <strong>Maps Static API</strong> и <strong>Places API</strong>.]]></word>
   <word key="google_maps_api_key_req" js="0">Требуется указать API-ключ Google Maps.</word>
-  <word key="google_maps_api_key_invalid" js="0">Этот API-ключ недействителен или для него не включены модули Google Maps JavaScript API и/или Google Static Maps API и/или Google Maps Geocoding API. Убедитесь, что вы сделали все действия, описанные в инструкции. Возможно, вам стоит подождать несколько минут перед включением API для получения корректного результата.</word>
+  <word key="google_maps_api_key_invalid" js="0">Этот API-ключ недействителен или для него не включены требуемые модули API. Убедитесь, что вы сделали все действия, описанные в инструкции. Возможно, вам стоит подождать несколько минут перед включением API для получения корректного результата.</word>
   <word key="google_maps_api_error" js="0">Произошла ошибка при соединении с сервером лицензий Google API. Пожалуйста, попробуйте позднее или свяжитесь с технической поддержкой для получения помощи</word>
-  <word key="googlemaps" js="0">Включить интеграцию с Google Maps?</word>
-  <word key="googlemaps_desc" js="0">Использовать Google Maps для отображения картографических данных.</word>
-  <word key="googleplacesautocomplete" js="0">Включить автозаполнение адресов?</word>
-  <word key="googleplacesautocomplete_desc" js="0">Автоматически предлагать варианты адресов при их вводе на сайте.</word>
+  <word key="googlemaps" js="0">Отображать Google Карты?</word>
+  <word key="googlemaps_desc" js="0"><![CDATA[Карты будут отображаться для местоположения клубов, событий в календаре, местоположения  из данных об изображении в галерее, местоположения транзакции, при просмотре информации об IP-адресе и в других местах.<br>Требуемые API: <a href='{external.googlemaps_jsapi}' target='_blank' rel='noopener'>Maps Javascript API</a>, <a href='{external.googlemaps_jsapi}' target='_blank' rel='noopener'>Maps Static API</a> и <a href='{external.googlemaps_geocodeapi}' target='_blank' rel='noopener'>Geocoding API</a>.]]></word>
+  <word key="googleplacesautocomplete" js="0">Автоматически заполнять адреса?</word>
+  <word key="googleplacesautocomplete_desc" js="0"><![CDATA[Включает автозаполнение при вводе адреса (для местоположения клубов, событий в календаре, при оплате и так далее).<br>Требуемые API: <a href='{external.googlemaps_places}' target='_blank' rel='noopener'>Places API</a>.]]></word>
   <word key="acplog__enhancements_enable" js="0">Расширение %s включено</word>
   <word key="acplog__enhancements_disable" js="0">Расширение %s выключено</word>
   <word key="acplog__enhancements_edited" js="0">Расширение %s изменено</word>
@@ -5520,7 +5520,7 @@
   <word key="posts_add_nofollow" js="0">Добавлять rel=&quot;nofollow&quot; к ссылкам</word>
   <word key="posts_add_nofollow_desc" js="0">Добавить rel='nofollow' к публикуемым внешним ссылкам. Рекомендуется сделать это, чтобы поисковые системы не связывали ваш сайт с сайтами, ссылки на которые публикуют пользователи.</word>
   <word key="posts_add_nofollow_exclude" js="0">Домены, на которые должны переходить поисковые системы.</word>
-  <word key="posts_add_nofollow_exclude_desc" js="0">rel='nofollow' не будет добавляться к ссылкам на доменные имена, которые указаны здесь. Добавьте любые домены, с которыми связан ваш сайт, которые он контролирует или с которыми у вас есть рекламный контракт, который обязует вас разрешать контроль за переходом по ссылкам. Введите только доменной имя, а не полный адрес, например &quot;site.com&quot;, а не &quot;https://site.com&quot;.</word>
+  <word key="posts_add_nofollow_exclude_desc" js="0">rel='nofollow' не будет добавляться к ссылкам на доменные имена, которые указаны здесь. Добавьте любые домены, с которыми связан ваш сайт, которые он контролирует или с которыми у вас есть рекламный контракт, который обязует вас разрешать контроль за переходом по ссылкам. Введите только доменное имя, а не полный адрес, например &quot;site.com&quot;, а не &quot;https://site.com&quot;.</word>
   <word key="acplogs__url_filter_settings" js="0">Изменены настройки фильтра ссылок</word>
   <word key="acplogs__posting_general_settings" js="0">Изменены настройки публикации</word>
   <word key="posting_attachments" js="0">Вложения</word>
@@ -5953,7 +5953,7 @@
   <word key="messenger_started_by" js="0">Создана %s, %s</word>
   <word key="messenger_last_reply" js="0">Последний ответ от %s, %s</word>
   <word key="messenger_quota_short" js="0"><![CDATA[Использовано <span data-role='quotaValue'>%d</span>%% лимита сообщений]]></word>
-  <word key="messenger_quota" js="0">Хранится +# [*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][*11:сообщений][*12:сообщений][*13:сообщений][*14:сообщений][?:сообщений]} (%d максимум)</word>
+  <word key="messenger_quota" js="0">Хранится {# [*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][*11:сообщений][*12:сообщений][*13:сообщений][*14:сообщений][?:сообщений]} (%d максимум)</word>
   <word key="messenger__comment_placeholder" js="0">Ответить в беседу...</word>
   <word key="messenger_search" js="0">Поиск сообщений в этой папке...</word>
   <word key="message_send" js="0">Сообщение</word>
@@ -9119,7 +9119,7 @@
   <word key="cookies_change_header" js="0">Как я могу изменить свои настройки cookies?</word>
   <word key="cookies_change_text" js="0"><![CDATA[Большинство веб-браузеров позволяют контролировать большинство cookies через свои настройки. Чтобы подробнее узнать о том, что такое cookies, какие cookies были установлены, как управлять ими и удалять их, посетите <a href='http://www.aboutcookies.org' rel='noopener nofollow' target='_blank'>www.aboutcookies.org</a> или <a href='http://www.allaboutcookies.org' rel='noopener nofollow' target='_blank'>www.allaboutcookies.org</a>.<br>Чтобы отказаться от отслеживания Google Analytics на всех веб-сайтах, посетите <a href='http://tools.google.com/dlpage/gaoptout' rel='noopener nofollow' target='_blank'>http://tools.google.com/dlpage/gaoptout</a>.]]></word>
   <word key="cookie_session_front" js="0">Данная cookie содержит информацию о вашей текущей сессии.</word>
-  <word key="cookie_member_id" js="0">Ваш идентификатор пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
+  <word key="cookie_member_id" js="0">Ваш идентификатор пользователя. Используется для определения, авторизованы ли вы.</word>
   <word key="cookie_login_key" js="0">Уникальный ключ для аутентификации вашего идентификатора пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
   <word key="cookies_third_party" js="0">Сторонние Cookies</word>
   <word key="cookies_third_party_desc" js="0">Владелец сайта может установить иные cookies в дополнение к стандартным cookies выше. Эти cookies часто используются сайтом для отслеживания его использования или устанавливаются при просмотре встроенной публикации из других сервисов, таких как YouTube, Vimeo и так далее.</word>
@@ -11592,7 +11592,7 @@
   <word key="post_before_register_followup_header" js="0">Ваше сообщение ещё не было отправлено</word>
   <word key="new_user_completed_registration" js="0">Новый пользователь: %s</word>
   <word key="deletion_blurb_no_member" js="0">Будет окончательно удалено %s</word>
-  <word key="mod_confirm_unpublish" js="0">Не опубликованные</word>
+  <word key="mod_confirm_unpublish" js="0">Неопубликованные</word>
   <word key="cic_upgrade_confirm" js="0"><![CDATA[Вы уверены, что хотите продолжить? <strong>Примечание:</strong> Это действие не сможет быть отменено, если вы продолжите.]]></word>
   <word key="acplogs__cic_upgrade" js="0">Сообщество обновлено</word>
   <word key="upgrade_confirm_cic" js="0">Подтвердить обновление</word>
@@ -11612,7 +11612,7 @@
   <word key="deleted_without_by_with_date" js="0">Будет окончательно удалена %s</word>
   <word key="widget_feed_status_published" js="0">Опубликовано</word>
   <word key="mod_confirm_all" js="0">Все</word>
-  <word key="mod_confirm_all_desc" js="0">Будут отображаться все публикации, который может просматривать текущий пользователь</word>
+  <word key="mod_confirm_all_desc" js="0">Будут отображаться все публикации, которые может просматривать текущий пользователь</word>
   <word key="mod_confirm_visible_desc" js="0">Будут отображаться только не скрытые и не ожидающие утверждения публикации, даже если пользователь имеет права на просмотр скрытых публикаций</word>
   <word key="mod_confirm_pendapp" js="0">Ожидающие утверждения</word>
   <word key="mod_confirm_pendapp_desc" js="0">Будут отображаться только публикации, ожидающие утверждения, и только в случае, если пользователь имеет права на просмотр публикаций, ожидающих утверждения</word>
@@ -11622,5 +11622,17 @@
   <word key="oauth_authorize_switch" js="0">Использовать другой аккаунт</word>
   <word key="api_blocked_self" js="0"><![CDATA[Сервер был заблокирован в связи со слишком большим количеством неудачных запросов с неверным ключом. Удалите IP-адреса сервера из списка в <a href='{internal.app=core&module=membersettings&controller=ban}'>настройках бана</a>. Также рекомендуется проверить все интеграции, чтобы убедиться, что используется корректный ключ.]]></word>
   <word key="promote_cant_promote_admin" js="0">Выбранная публикация не может быть продвинута</word>
+  <word key="app_cannot_be_default" js="0">Невозможно сделать это приложение приложением по умолчанию.</word>
+  <word key="delta_upgrade_applycic" js="0"><![CDATA[Загружаются актуальные файлы. Этот процесс может занять некоторое время.<br>Пожалуйста, потерпите и не обновляйте страницу.]]></word>
+  <word key="google_maps_features_header" js="0">Функции Google Карт</word>
+  <word key="google_maps_keys_header" js="0">Ключи API</word>
+  <word key="google_maps_keys_header_desc" js="0"><![CDATA[После этого <a href='{external.googlemaps_credentials}' target='_blank' rel='noopener'>создайте два API-ключа</a> в Google Developers Console с включёнными API, указанными выше, и ограничьте их, как описано ниже.]]></word>
+  <word key="google_maps_api_key_secret" js="0">Секретный ключ</word>
+  <word key="google_maps_api_key_desc_noip" js="0"><![CDATA[Этот ключ не будет раскрыт, поэтому вам не нужно устанавливать ограничения приложения.<br>(Необязательно) В поле <strong>API restrictions</strong> выберите <strong>Geocoding API</strong>.]]></word>
+  <word key="google_maps_api_key_desc_ip" js="0"><![CDATA[Необязательно: В поле <strong>Application Restrictions</strong> выберите <strong>IP Addresses (web servers, cron jobs, etc.)</strong> и укажите IP-адрес <strong>%s</strong>, наряду с любыми другими IP-адресами, которые может использовать ваш сервер (ваш хостинг провайдер или системный администратор сможет предоставить вам их).<br>Необязательно: В поле <strong>API restrictions</strong> установите <strong>Geocoding API</strong>.]]></word>
+  <word key="view_support_account" js="0">Просмотреть аккаунт</word>
+  <word key="api_blocked_file" js="0"><![CDATA[API не работает из-за конфликта путей. Пожалуйста, удалите или переименуйте файл или папку, расположенную в <strong>%s/api/core</strong> и попробуйте ещё раз.]]></word>
+  <word key="cookie_loggedIn" js="0">Данная cookie устанавливается после входа, она используется механизмом кэширования для определения, авторизованы ли вы.</word>
+  <word key="cookie_device_key" js="0">Данная cookie устанавливается после входа с отмеченной галочкой &quot;Запомнить меня&quot;, позволяя вам в будущем входить в аккаунт автоматически. Она также используется для повышения безопасности аккаунта.</word>
  </app>
 </language>
