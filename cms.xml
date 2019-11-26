@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="104044">
+ <app key="cms" version="104047">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -21,6 +21,8 @@
   <word key="module_no_permission" js="0">Нет прав</word>
   <word key="converting_pages_34x" js="0">Конвертация BBCode-страниц в HTML</word>
   <word key="content_theme_dev_cannot_write_template" js="0">Невозможно записать файл %s</word>
+  <word key="sitemap_databases_include" js="0">Включить в карту сайта</word>
+  <word key="sitemap_pages_include" js="0">Включить в карту сайта</word>
   <word key="sitemap_cms_Databases" js="0">Записи базы данных</word>
   <word key="sitemap_cms_Pages" js="0">Страницы</word>
   <word key="sitemap_databases_count" js="0">Количество включаемых записей</word>
@@ -243,6 +245,7 @@
   <word key="cms_database_group_name" js="0">Название группы</word>
   <word key="cms_database_group_name_desc" js="0">Пожалуйста, используйте только символы a-z и 0-9 без пробелов. Название группы должно начинаться с буквы или подчёркивания. Вы можете использовать нижнее подчёркивание, которое будет отображаться как пробел при просмотре шаблонов.</word>
   <word key="cms_database_template_used_in" js="0">Этот шаблон используется в: %s</word>
+  <word key="cms_template_group_exists" js="0">Эта группа шаблонов уже существует.</word>
   <word key="page_database_display" js="0">База данных: %s</word>
   <word key="content_edit_folder" js="0">Изменить папку</word>
   <word key="content_add_folder" js="0">Добавить папку</word>
@@ -330,6 +333,13 @@
   <word key="cms_move_to_root" js="0">Переместить страницы в корень (без папки)</word>
   <word key="cms_move_pages" js="0">Переместить страницы и папки в</word>
   <word key="folder" js="0">Папка</word>
+  <word key="content_database_form_seo" js="0">SEO</word>
+  <word key="database_canonical_header" js="0">Тег canonical</word>
+  <word key="database_canonical_flag" js="0">Сильно намекнуть поисковикам, что</word>
+  <word key="database_canonical_flag_0" js="0">Все страницы должны рассматриваться как одинаковые</word>
+  <word key="database_canonical_flag_0_desc" js="0">Примером может служить база данных, которая будет использоваться для публикации длинных статей, которые богаты контентом, которые получают большое количество страниц с комментариями и отзывами. В этом примере тег canonical всегда будет установлен на первую страницу, поскольку исходная публикация является более важной.</word>
+  <word key="database_canonical_flag_1" js="0">Все страницы должны рассматриваться как разные</word>
+  <word key="database_canonical_flag_1_desc" js="0">Примером может служить база данных, в которой вы размещаете ссылку или видео для просмотра, которая получает большое количество страниц с комментариями и отзывами. В этом примере тег canonical будет установлен на текущую страницу, поскольку страница с публикациями пользователей является более важной.</word>
   <word key="menu_content_page" js="0">Страница</word>
   <word key="content_page_form_tab__menu" js="0">Меню</word>
   <word key="page_add_to_menu" js="0">Добавить меню</word>
@@ -918,6 +928,8 @@
   <word key="block_rss_import_cache" js="0">Кэшировать</word>
   <word key="block_rss_import_cache_suffix" js="0">минут</word>
   <word key="widget_feed_container_cms" js="0">Категории</word>
+  <word key="cms_record_i_started_sprintf" js="0">Отображать только мои %s</word>
+  <word key="content_field_cms_record_i_started_on" js="0">В</word>
   <word key="loc_cms_viewing_page" js="0">Просматривает %s</word>
   <word key="loc_cms_viewing_db_cat" js="0">Просматривает категорию %s в %s</word>
   <word key="loc_cms_viewing_db_record" js="0">Просматривает %s в категории %s: %s</word>
@@ -981,17 +993,5 @@
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
   <word key="replaceMediaFile" js="1">Заменить файл</word>
   <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
-  <word key="sitemap_databases_include" js="0">Включить в карту сайта</word>
-  <word key="sitemap_pages_include" js="0">Включить в карту сайта</word>
-  <word key="cms_template_group_exists" js="0">Эта группа шаблонов уже существует.</word>
-  <word key="content_database_form_seo" js="0">SEO</word>
-  <word key="database_canonical_header" js="0">Тег canonical</word>
-  <word key="database_canonical_flag" js="0">Сильно намекнуть поисковикам, что</word>
-  <word key="database_canonical_flag_0" js="0">Все страницы должны рассматриваться как одинаковые</word>
-  <word key="database_canonical_flag_0_desc" js="0">Примером может служить база данных, которая будет использоваться для публикации длинных статей, которые богаты контентом, которые получают большое количество страниц с комментариями и отзывами. В этом примере тег canonical всегда будет установлен на первую страницу, поскольку исходная публикация является более важной.</word>
-  <word key="database_canonical_flag_1" js="0">Все страницы должны рассматриваться как разные</word>
-  <word key="database_canonical_flag_1_desc" js="0">Примером может служить база данных, в которой вы размещаете ссылку или видео для просмотра, которая получает большое количество страниц с комментариями и отзывами. В этом примере тег canonical будет установлен на текущую страницу, поскольку страница с публикациями пользователей является более важной.</word>
-  <word key="cms_record_i_started_sprintf" js="0">Отображать только мои %s</word>
-  <word key="content_field_cms_record_i_started_on" js="0">В</word>
  </app>
 </language>
