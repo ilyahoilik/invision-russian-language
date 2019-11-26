@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104044">
+ <app key="nexus" version="104047">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -38,6 +38,8 @@
   <word key="product_pl" js="0">Продукты</word>
   <word key="product_pl_lc" js="0">продукты</word>
   <word key="product_groups" js="0">Группы продуктов</word>
+  <word key="search_contextual_item_product_groups" js="0">Эта группа продуктов</word>
+  <word key="search_contextual_item_product" js="0">Этот продукт</word>
   <word key="paid" js="0">оплаченные</word>
   <word key="editor__nexus_Admin" js="0">Настройки коммерции</word>
   <word key="editor__nexus_Customer" js="0">Поля клиентов</word>
@@ -137,10 +139,6 @@
   <word key="stripe_keys" js="0">Ключи</word>
   <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank' rel='noopener'>раздела API вашего аккаунта в Stripe</a>.]]></word>
   <word key="stripe_type_desc" js="0">Чтобы предоставить пользователю выбор, настройте несколько способов оплаты Stripe.</word>
-  <word key="stripe_3d_secure" js="0">Система 3D Secure</word>
-  <word key="stripe_3d_secure_yes" js="0">Все карты, которые поддерживают её</word>
-  <word key="stripe_3d_secure_no" js="0">Только карты, которые требуют её</word>
-  <word key="stripe_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.]]></word>
   <word key="stripe_cards" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="stripe_cards_desc" js="0">Данные банковской карты хранятся на серверах Stripe, не на ваших. Обратите внимание, что 3D Secure не используется при использовании сохраненной карты.</word>
   <word key="stripe_risk_level" js="0">Оценка риска Stripe: %s</word>
@@ -162,6 +160,8 @@
   <word key="stripe_address_zip_check_fail" js="0">Проверка индекса не удалась</word>
   <word key="stripe_3ds_pass" js="0">Проверка 3DSecure пройдена</word>
   <word key="stripe_3ds_fail" js="0">Проверка 3DSecure не пройдена</word>
+  <word key="stripe_3ds_pass_version" js="0"><![CDATA[Проверка 3DSecure пройдена <small>(v%s)</small>]]></word>
+  <word key="stripe_3ds_fail_version" js="0"><![CDATA[Проверка 3DSecure не пройдена <small>(v%s)</small>]]></word>
   <word key="stripe_3ds_not_supported" js="0">Система 3DSecure не поддерживается этой картой</word>
   <word key="stripe_3ds_not_checked" js="0">Система 3DSecure не используется</word>
   <word key="stripe_tokenization_apple_pay" js="0">Apple Pay</word>
@@ -354,6 +354,7 @@
   <word key="tstatus_dspd_inquiry_set" js="0">Расследуется банком</word>
   <word key="transaction_number" js="0">Транзакция № %d</word>
   <word key="transaction_approve" js="0">Утвердить</word>
+  <word key="transaction_approve_from_dispute" js="0">Все покупки будут пересозданы с новым сроком продления, если это применимо. Вы можете просмотреть их.</word>
   <word key="transaction_capture" js="0">Получить и утвердить</word>
   <word key="transaction_capture_err" js="0">Платёжный шлюз не смог получить платёж. Вам необходимо аннулировать транзакцию и попросить клиента произвести оплату ещё раз.</word>
   <word key="transaction_status_err" js="0">Требуемое действие не может быть выполнено на данной транзакции.</word>
@@ -570,6 +571,8 @@
   <word key="istatus_canc" js="0">Отменён</word>
   <word key="istatus_canc_desc" js="0">Отменён</word>
   <word key="billing_address" js="0">Платёжный адрес</word>
+  <word key="err_no_billaddress" js="0">Этот счёт не может быть помечен оплаченным, так как он не имеет платёжного адреса. Вы можете изменить счёт и добавить платёжный адрес, либо клиенту будет предложено сделать это при оплате.</word>
+  <word key="billing_address_req" js="0">Для пометки счёта оплаченным требуется наличие платёжного адреса.</word>
   <word key="shipping_address" js="0">Адрес доставки</word>
   <word key="invoice_billedto" js="0">Направлен по адресу</word>
   <word key="invoice_date" js="0">Дата счёта</word>
@@ -1072,6 +1075,7 @@
   <word key="altcontactTable_support" js="0">Имеет доступ ко всем запросам в поддержку</word>
   <word key="altcontact_member_admin" js="0">Альтернативный контакт</word>
   <word key="altcontact_member_admin_desc" js="0"><![CDATA[Если у пользователя ещё нет аккаунта, вам сперва необходимо <a href='{internal.app=core&module=system&controller=register}'>зарегистрировать его</a>.]]></word>
+  <word key="altcontact_member_admin_self" js="0">Вы не можете добавить пользователя в качестве альтернативного контакта в его собственный аккаунт.</word>
   <word key="altcontact_purchases_admin" js="0">Покупки</word>
   <word key="altcontact_purchases_admin_desc" js="0">Пользователь сможет просматривать выбранные покупки и запросы в поддержку, связанные с ними. Он также сможет связываться с поддержкой с этого аккаунта по проблемам, относящимся к выбранным покупкам.</word>
   <word key="altcontact_billing_admin" js="0">Также разрешить этому контакту просматривать и оплачивать счета</word>
@@ -1898,6 +1902,7 @@
   <word key="support_history_resolved" js="0">Решённых вопросов</word>
   <word key="support_history_up" js="0">Увеличилось, 30 дней назад было %s</word>
   <word key="support_history_down" js="0">Уменьшилось, 30 дней назад было %s</word>
+  <word key="support_history_same" js="0">Такое же, как и %s за 30 дней до этого</word>
   <word key="support_history_daily_review" js="0">Дневной обзор за %s</word>
   <word key="support_history_to_req" js="0">на запрос #%d</word>
   <word key="support_history_assigned_1" js="0">Назначил</word>
@@ -2495,6 +2500,7 @@
   <word key="altcontact_email" js="0">Email-адрес</word>
   <word key="altcontact_email_desc" js="0"><![CDATA[Если у пользователя ещё нет аккаунта, ему сперва необходимо <a href='{internal.app=core&module=system&controller=register}'>зарегистрировать его</a>.]]></word>
   <word key="altcontact_email_error" js="0">Аккаунта с данным email-адресом не существует.</word>
+  <word key="altcontact_email_self" js="0">Вы не можете добавить самого себя в качестве альтернативного контакта.</word>
   <word key="altcontact_already_exists" js="0">Этот пользователь уже является вашим альтернативным контактом.</word>
   <word key="altcontact_purchases" js="0">Покупки</word>
   <word key="altcontact_purchases_desc" js="0">Пользователь сможет просматривать выбранные покупки и запросы в поддержку, связанные с ними. Он также сможет связываться с поддержкой с этого аккаунта по проблемам, относящимися к выбранным покупкам.</word>
@@ -3502,6 +3508,10 @@
   <word key="securityCodeInvalid4" js="1">Код проверки недействителен. Он должен состоять из последних 4 цифр в верхнем-правом углу на передней стороне карты.</word>
   <word key="braintreeSaving" js="1">Проверка информации в Braintree. Пожалуйста, подождите - это может занять до 1 минуты...</word>
   <word key="braintreeError" js="1">Произошла ошибка при </word>
+  <word key="stripe_3d_secure" js="0">Система 3D Secure</word>
+  <word key="stripe_3d_secure_yes" js="0">Все карты, которые поддерживают её</word>
+  <word key="stripe_3d_secure_no" js="0">Только карты, которые требуют её</word>
+  <word key="stripe_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.]]></word>
   <word key="manage_credit_cards" js="0">Управление банковскими картами</word>
   <word key="manage_billing_agreements" js="0">Управление регулярными платежами</word>
   <word key="manage_contacts" js="0">Управление контактами</word>
@@ -3510,15 +3520,5 @@
   <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
   <word key="menu__nexus_store_packages_add_child" js="0">Создать продукт в этой группе</word>
   <word key="mailsub__nexus_hostingError" js="0">Неудачная связь с сервером</word>
-  <word key="search_contextual_item_product_groups" js="0">Эта группа продуктов</word>
-  <word key="search_contextual_item_product" js="0">Этот продукт</word>
-  <word key="stripe_3ds_pass_version" js="0"><![CDATA[Проверка 3DSecure пройдена <small>(v%s)</small>]]></word>
-  <word key="stripe_3ds_fail_version" js="0"><![CDATA[Проверка 3DSecure не пройдена <small>(v%s)</small>]]></word>
-  <word key="transaction_approve_from_dispute" js="0">Все покупки будут пересозданы с новым сроком продления, если это применимо. Вы можете просмотреть их.</word>
-  <word key="err_no_billaddress" js="0">Этот счёт не может быть помечен оплаченным, так как он не имеет платёжного адреса. Вы можете изменить счёт и добавить платёжный адрес, либо клиенту будет предложено сделать это при оплате.</word>
-  <word key="billing_address_req" js="0">Для пометки счёта оплаченным требуется наличие платёжного адреса.</word>
-  <word key="altcontact_member_admin_self" js="0">Вы не можете добавить пользователя в качестве альтернативного контакта в его собственный аккаунт.</word>
-  <word key="support_history_same" js="0">Такое же, как и %s за 30 дней до этого</word>
-  <word key="altcontact_email_self" js="0">Вы не можете добавить самого себя в качестве альтернативного контакта.</word>
  </app>
 </language>

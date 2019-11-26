@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104044">
+ <app key="core" version="104047">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -521,7 +521,7 @@
   <word key="files" js="0">Файлы</word>
   <word key="embed_no_perm_title" js="0">Нет прав</word>
   <word key="embed_no_perm_desc" js="0">Извините, мы не можем отобразить эту публикацию т.к. у вас нет прав для её просмотра.</word>
-  <word key="embed_no_perm_desc_log_in" js="0"><![CDATA[Извините, мы не может отобразить вам эту публикацию так как у вас нет прав для её просмотра. Вы сможете просмотреть её, если <a href='{internal.front.app=core&module=system&controller=login}'>войдёте на сайт</a>.]]></word>
+  <word key="embed_no_perm_desc_log_in" js="0"><![CDATA[Извините, мы не может отобразить вам эту публикацию так как у вас нет прав для её просмотра. Вы сможете просмотреть её, если <a href='{internal.front.app=core&module=system&controller=login.login}'>войдёте на сайт</a>.]]></word>
   <word key="embed_unavailable_title" js="0">Недоступно</word>
   <word key="embed_unavailable_desc" js="0">Извините, эта публикация больше недоступна</word>
   <word key="read_more_about" js="0">Подробнее о %s</word>
@@ -671,10 +671,12 @@
   <word key="hidden_blurb" js="0">Скрыто %s, %s - %s</word>
   <word key="hidden_blurb_no_member" js="0">Скрыто %s - %s</word>
   <word key="deletion_blurb" js="0">Удалено пользователем %s %s - будет окончательно удалено %s</word>
+  <word key="deletion_blurb_no_member" js="0">Будет окончательно удалено %s</word>
   <word key="content_future_date_blurb" js="0">Будет опубликовано: %s %s</word>
   <word key="publish_now" js="0">Опубликовать сейчас</word>
   <word key="publish" js="0">Опубликовать</word>
   <word key="mod_confirm_publish" js="0">Опубликованнные</word>
+  <word key="mod_confirm_unpublish" js="0">Неопубликованные</word>
   <word key="hidden_no_reason" js="0">Причина не указана</word>
   <word key="unapproved" js="0">Не утверждённые</word>
   <word key="pending_approval" js="0">Ожидает утверждения</word>
@@ -730,7 +732,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.7">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.8">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="acp_version_number_raw" js="0">%s</word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
@@ -876,7 +878,7 @@
   <word key="from" js="0">Отправитель</word>
   <word key="to" js="0">Получатель</word>
   <word key="subject" js="0">Тема письма</word>
-  <word key="message" js="0">Примечание</word>
+  <word key="message" js="0">Сообщение</word>
   <word key="ipb_reg_number" js="0">Лицензионный ключ</word>
   <word key="learn_more" js="0">Подробнее</word>
   <word key="help" js="0">Справка</word>
@@ -972,8 +974,8 @@
   <word key="guest_post_header" js="0">Присоединяйтесь к обсуждению</word>
   <word key="guest_post_pbr_blurb" js="0">Вы можете опубликовать сообщение сейчас, а зарегистрироваться позже.</word>
   <word key="guest_post_normal_blurb" js="0">Вы оставляете комментарий в качестве гостя.</word>
-  <word key="guest_post_sign_in" js="0"><![CDATA[Если у вас есть аккаунт, <a href='{internal.front.app=core&module=system&controller=login}' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-title='Войти сейчас'>войдите в него</a> для написания от своего имени.]]></word>
-  <word key="commenting_as_guest" js="0"><![CDATA[Вы оставляете комментарий в качестве гостя. Если у вас есть аккаунт, пожалуйста, <a href='{internal.front.app=core&module=system&controller=login}'>войдите в него</a>.]]></word>
+  <word key="guest_post_sign_in" js="0"><![CDATA[Если у вас есть аккаунт, <a href='{internal.front.app=core&module=system&controller=login.login}' data-ipsDialog data-ipsDialog-size='medium' data-ipsDialog-title='Войти сейчас'>войдите в него</a> для написания от своего имени.]]></word>
+  <word key="commenting_as_guest" js="0"><![CDATA[Вы оставляете комментарий в качестве гостя. Если у вас есть аккаунт, пожалуйста, <a href='{internal.front.app=core&module=system&controller=login.login}'>войдите в него</a>.]]></word>
   <word key="item_locked_can_comment" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="item_locked_can_review" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые отзывы.</word>
   <word key="item_locked_cannot_comment" js="0">Эта публикация закрыта для комментирования.</word>
@@ -1080,10 +1082,10 @@
   <word key="follow_guest_unfollow_thing" js="0">Остановить email-уведомления о &quot;%s&quot;</word>
   <word key="follow_guest_unfollow_thing_desc" js="0">Вы всё ещё подписаны на публикацию, но не будете получать о ней email-уведомлений.</word>
   <word key="follow_guest_unfollow_all" js="0">Остановить email-уведомления от {!# [1:публикации, на которую][?:всех # публикаций, на которые]} вы подписаны</word>
-  <word key="follow_guest_unfollow_all_desc" js="0"><![CDATA[<a href='{internal.app=core&module=system&controller=login&ref=%s}'>Войти</a> для выбора публикаций, от которых не нужно получать email-уведомлений.]]></word>
+  <word key="follow_guest_unfollow_all_desc" js="0"><![CDATA[<a href='{internal.front.app=core&module=system&controller=login&ref=%s.login}'>Войти</a> для выбора публикаций, от которых не нужно получать email-уведомлений.]]></word>
   <word key="follow_guest_unfollowed_thing" js="0">Вы отписались от email-уведомлений &quot;%s&quot;</word>
   <word key="follow_guest_unfollowed_all" js="0">Вы отписались от всех email-уведомлений</word>
-  <word key="follow_guest_followed_by" js="0"><![CDATA[Подписан как %s. Вы не %s? <a href='{internal.app=core&module=system&controller=login}'>Войти</a>]]></word>
+  <word key="follow_guest_followed_by" js="0"><![CDATA[Подписан как %s. Вы не %s? <a href='{internal.front.app=core&module=system&controller=login.login}'>Войти</a>]]></word>
   <word key="follow_guest_not_notified" js="0">Вы не получаете email-уведомлений об этой публикации</word>
   <word key="who_follows_this" js="0">Кто подписан на это</word>
   <word key="unfollow" js="0">Отписаться</word>
@@ -1181,6 +1183,7 @@
   <word key="no_attachment_permission" js="0">Это вложение недоступно. Оно могло быть удалено или пользователь, который поделился им, может не иметь прав на это в этой области.</word>
   <word key="invalid_guestgroup_admin" js="0">Ваша настройка группы Гости некорректна. Пожалуйста, проверьте ваш файл conf_global.php и убедитесь в том, что идентификатор группы корректен.</word>
   <word key="demo_mode_function_blocked" js="0">Этот функционал недоступен в демо-режиме.</word>
+  <word key="app_cannot_be_default" js="0">Невозможно сделать это приложение приложением по умолчанию.</word>
   <word key="login_err_no_account" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз (убедитесь, что Caps Lock выключен).</word>
   <word key="login_err_bad_password" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз (убедитесь, что Caps Lock выключен).</word>
   <word key="login_bad_username_or_password" js="0">Имя пользователя или пароль некорректны. Пожалуйста, попробуйте еще раз (убедитесь, что Caps Lock выключен).</word>
@@ -1352,6 +1355,8 @@
   <word key="acp_indev_on_blurb" js="0">В настоящий момент активирован режим разработчика (IN_DEV). Этот режим позволяет вам разрабатывать приложения и плагины для Invision Community и предназначен для продвинутых пользователей.</word>
   <word key="acp_designersmode_on_blurb" js="0">В настоящий момент активирован режим дизайнера. Он позволяет создавать и редактировать стили для Invision Community в среде разработчика.</word>
   <word key="acp_not_production_tho" js="0"><![CDATA[<strong>Никогда не следует включать этот режим на работающем сайте.</strong>]]></word>
+  <word key="cic_upgrade_confirm" js="0"><![CDATA[Вы уверены, что хотите продолжить? <strong>Примечание:</strong> Это действие не сможет быть отменено, если вы продолжите.]]></word>
+  <word key="acplogs__cic_upgrade" js="0">Сообщество обновлено</word>
   <word key="ips_suite_upgrade" js="0">Обновить Invision Community</word>
   <word key="ips_email_address" js="0">Email-адрес аккаунта Invision Community</word>
   <word key="ips_password" js="0">Пароль от аккаунта Invision Community</word>
@@ -1381,9 +1386,12 @@
   <word key="upgrade_ftp_details" js="0">Параметры FTP</word>
   <word key="upgrade_extract_update" js="0">Обновление</word>
   <word key="upgrade_upgrade" js="0">Завершение</word>
+  <word key="upgrade_confirm_cic" js="0">Подтвердить обновление</word>
+  <word key="upgrade_apply_cic" js="0">Применить файлы</word>
   <word key="delta_upgrade_downloading" js="0">Скачивание</word>
   <word key="delta_upgrade_processing" js="0">Обработка</word>
   <word key="delta_upgrade_extracting" js="0">Извлечение</word>
+  <word key="delta_upgrade_applycic" js="0"><![CDATA[Загружаются актуальные файлы. Этот процесс может занять некоторое время.<br>Пожалуйста, потерпите и не обновляйте страницу.]]></word>
   <word key="delta_upgrade_upgradeTemplates" js="0">Обновление стилей</word>
   <word key="delta_upgrade_ftp_instructions" js="0"><![CDATA[Для загрузки обновления вы должны предоставить данные вашего FTP-сервера. Если ваш сервере не имеет доступа по FTP, <a href='%s'>нажмите здесь</a> для загрузки обновления вручную.]]></word>
   <word key="delta_upgrade_ftp_details" js="0">Параметры FTP</word>
@@ -2431,6 +2439,10 @@
   <word key="modlog__reaction_delete" js="0"><![CDATA[Удалена реакция <a href='%s'>%s</a> из %s: <a href='%s'>%s</a>]]></word>
   <word key="modlog__comment_reaction_delete" js="0"><![CDATA[Удалена реакция <a href='%s'>%s</a> на <a href='%s'>комментарий</a> в %s: <a href='%s'>%s</a>]]></word>
   <word key="modlog__widget_configured" js="0">Изменены настройки блока %s в %s</word>
+  <word key="modlog__item_follow_removed" js="0">Удалены подписчики из %s/%s ID: %s</word>
+  <word key="modlog__poll_opened" js="0"><![CDATA[Опрос открыт: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__poll_closed" js="0"><![CDATA[Опрос закрыт: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__poll_autoclose" js="0">Автозакрытие опроса: #%s закроется %s</word>
   <word key="ip_address_bad" js="0">Данный IP-адрес недействителен.</word>
   <word key="ip_data" js="0">Данные об IP-адресе</word>
   <word key="ipAddresses__core_Registration" js="0">Регистрации</word>
@@ -2509,7 +2521,7 @@
   <word key="auto_track_comments" js="0">Автоматически подписываться на публикации, в которых я участвовал</word>
   <word key="auto_track_content" js="0">Автоматически подписываться на публикации, созданные мной</word>
   <word key="auto_track_type" js="0">Метод уведомления для автоматических подписок</word>
-  <word key="auto_track_type_desc" js="0"><![CDATA[Изменение этого параметра не затронет <a href='{internal.front.app=core&module=system&controller=followed}' target='_blank'>существующие подписки на публикации</a>.]]></word>
+  <word key="auto_track_type_desc" js="0"><![CDATA[Изменение этого параметра не затронет <a href='{internal.front.app=core&module=system&controller=followed.followed_content}' target='_blank'>существующие подписки на публикации</a>.]]></word>
   <word key="auto_follow" js="0">Уведомлять меня о новых комментариях</word>
   <word key="notification_prefs" js="0">Настройки уведомлений</word>
   <word key="notifications__core_Content" js="0">Общие</word>
@@ -2880,7 +2892,7 @@
   <word key="smtpmail_tls_fail" js="0">Связь SMTP TLS не удалась (STARTTLS)</word>
   <word key="no_write_email_debug" js="0">Файл отладки email не может быть записан в: %s</word>
   <word key="no_path_email_debug" js="0">Путь для отладки email не существует: %s</word>
-  <word key="no_user_to_unsubscribe" js="0"><![CDATA[Мы не смогли найти ваш аккаунт для того, чтобы отписать его от получения рассылок. Если вы недавно изменяли ваш email-адрес или пароль, то ссылка на отписку от рассылок может быть устаревшей. Вы можете изменить свои настройки уведомлений в <a href='{internal.front.app=core&module=system&controller=notifications&do=options}'>настройках аккаунта</a>.]]></word>
+  <word key="no_user_to_unsubscribe" js="0"><![CDATA[Мы не смогли найти ваш аккаунт для того, чтобы отписать его от получения рассылок. Если вы недавно изменяли ваш email-адрес или пароль, то ссылка на отписку от рассылок может быть устаревшей. Вы можете изменить свои настройки уведомлений в <a href='{internal.front.app=core&module=system&controller=notifications&do=options.notifications_options}'>настройках аккаунта</a>.]]></word>
   <word key="unsubscribed" js="0">Подписка успешно отменена</word>
   <word key="unsubscribed_desc" js="0">Вы успешно отписались от будущих рассылок с этого сайта. Вы все равно будете получать инициированные вами email-письма, такие как запросы восстановления пароля, но больше не будет получать массовые рассылки и уведомления с этого сайта. Вы можете изменить эту настройку в любое время, посетив настройки уведомлений и повторно включив опцию, чтобы получать массовые рассылки.</word>
   <word key="bmtag_member_posts" js="0">Количество сообщений получателя почты</word>
@@ -3115,6 +3127,8 @@
   <word key="whitelist_domain_email_detected" js="0">Введенное значение является email-адресом. Это значение должно быть именем домена, например mycompany.com</word>
   <word key="whitelist_content" js="0">Публикаций</word>
   <word key="sitemap_blurb" js="0">Карта сайта - это автоматически сгенерированная страница, используемая поисковыми системами для более лучшей индексации сайта.</word>
+  <word key="sitemap_include_generic_desc" js="0">Включить в карту сайта</word>
+  <word key="sitemap_profiles_include" js="0">Включить в карту сайта</word>
   <word key="sitemap_core_Profiles" js="0">Профили</word>
   <word key="sitemap_dont_include" js="0">Не включать значение приоритета в карту сайта</word>
   <word key="sitemap_profiles_count" js="0">Количество профилей</word>
@@ -4559,8 +4573,14 @@
   <word key="ipsgeoip" js="0">Включить GeoIP Service?</word>
   <word key="enhancements__core_GoogleMaps" js="0">Google Maps</word>
   <word key="enhancements__core_GoogleMaps_desc" js="0">Google Maps предоставляет функционал автозаполнения полей адресов и карт для улучшенного отображения данных о местонахождении, например в инструментах IP-адресов.</word>
+  <word key="google_maps_features_header" js="0">Функции Google Карт</word>
+  <word key="google_maps_keys_header" js="0">Ключи API</word>
+  <word key="google_maps_keys_header_desc" js="0"><![CDATA[После этого <a href='{external.googlemaps_credentials}' target='_blank' rel='noopener'>создайте два API-ключа</a> в Google Developers Console с включёнными API, указанными выше, и ограничьте их, как описано ниже.]]></word>
   <word key="google_maps_api_key" js="0">Публичный ключ</word>
   <word key="google_maps_api_key_desc" js="0"><![CDATA[Рекомендуется: В поле <strong>Application restrictions</strong> выбрать <strong>HTTP referrers (web sites)</strong> и указать вебсайт <strong>%s</strong><br>Необязательно: В поле <strong>API restrictions</strong> выбрать <strong>Maps Javascript API</strong>, <strong>Maps Static API</strong> и <strong>Places API</strong>.]]></word>
+  <word key="google_maps_api_key_secret" js="0">Секретный ключ</word>
+  <word key="google_maps_api_key_desc_noip" js="0"><![CDATA[Этот ключ не будет раскрыт, поэтому вам не нужно устанавливать ограничения приложения.<br>(Необязательно) В поле <strong>API restrictions</strong> выберите <strong>Geocoding API</strong>.]]></word>
+  <word key="google_maps_api_key_desc_ip" js="0"><![CDATA[Необязательно: В поле <strong>Application Restrictions</strong> выберите <strong>IP Addresses (web servers, cron jobs, etc.)</strong> и укажите IP-адрес <strong>%s</strong>, наряду с любыми другими IP-адресами, которые может использовать ваш сервер (ваш хостинг провайдер или системный администратор сможет предоставить вам их).<br>Необязательно: В поле <strong>API restrictions</strong> установите <strong>Geocoding API</strong>.]]></word>
   <word key="google_maps_api_key_req" js="0">Требуется указать API-ключ Google Maps.</word>
   <word key="google_maps_api_key_invalid" js="0">Этот API-ключ недействителен или для него не включены требуемые модули API. Убедитесь, что вы сделали все действия, описанные в инструкции. Возможно, вам стоит подождать несколько минут перед включением API для получения корректного результата.</word>
   <word key="google_maps_api_error" js="0">Произошла ошибка при соединении с сервером лицензий Google API. Пожалуйста, попробуйте позднее или свяжитесь с технической поддержкой для получения помощи</word>
@@ -5594,7 +5614,7 @@
   <word key="task_use_cron" js="0">Метод запуска задач</word>
   <word key="task_use_cron_desc" js="0"><![CDATA[Плановые задачи по обслуживанию должны выполняться на регулярной основе. <a href='{internal.app=core&module=settings&controller=advanced&do=tasks}'>Просмотреть задачи</a>]]></word>
   <word key="task_method_normal" js="0">Запускать автоматически при посещении (по умолчанию)</word>
-  <word key="task_method_ips" js="0">Использовать Cron</word>
+  <word key="task_method_ips" js="0">Community in the Cloud</word>
   <word key="task_method_ips_desc" js="0">Invision Community in the Cloud контролирует запускаемые задачи автоматически.</word>
   <word key="task_method_cron" js="0">Использовать Cron (рекомендуется)</word>
   <word key="task_method_web" js="0">Использовать веб-сервис</word>
@@ -5803,6 +5823,7 @@
   <word key="regular_update" js="0">Была выпущена %s</word>
   <word key="dashboard_support_account" js="0">Существует аккаунт технической поддержки</word>
   <word key="dashboard_support_account_desc" js="0">Вы недавно связывались с технической поддержкой Invision Community и для её команды был создан аккаунт с доступом в Админцентр. Если проблема решена, вам следует удалить его.</word>
+  <word key="view_support_account" js="0">Просмотреть аккаунт</word>
   <word key="acpmemberprofile_support_account" js="0">Аккаунт поддержки</word>
   <word key="acpmemberprofile_support_account_desc" js="0">Этот аккаунт был создан для технической поддержкой Invision Community, когда вы недавно связывались с её командой. Если проблема решена, вам следует удалить его.</word>
   <word key="block_core_BackgroundQueue" js="0">Фоновые процессы</word>
@@ -5867,6 +5888,12 @@
   <word key="facebook_https_warning_desc_cic" js="0"><![CDATA[Facebook <a href='{external.facebook_https}' target='_blank' rel='noopener'>недавно объявил</a> о том, что с <strong>6 октября 2018 года</strong> все сайты, использующие вход через Facebook, должны использовать HTTPs. Для продолжения использования входа через Facebook вы должны получить SSL сертификат. <a href='{external.client_area}' target='_blank' rel='noopener'>Свяжитесь с нами для получения подробной информации</a>. Если вы не сделаете этого, то вход через Facebook перестанет работать 6 октября 2018 года.]]></word>
   <word key="personal_conversation_pl" js="0">Личные беседы</word>
   <word key="personal_conversation_pl_lc" js="0">личные беседы</word>
+  <word key="block_core_MemberStats" js="0">Статистика пользователей</word>
+  <word key="memberStatsDashboard_optin" js="0">Согласились на рекламную рассылку</word>
+  <word key="memberStatsDashboard_optout" js="0">Отказались от рекламной рассылки</word>
+  <word key="chart_email_marketing_type" js="0">Тип согласия</word>
+  <word key="memberStatsDashboard_title" js="0">Всего %s {!# [*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][*11:пользователей][*12:пользователей][*13:пользователей][*14:пользователей][?:пользователей]}</word>
+  <word key="onlineUsersDashboard_title" js="0">%s в сети</word>
   <word key="change_details" js="0">Изменить мои данные</word>
   <word key="change_email_button" js="0">Изменить email-адрес</word>
   <word key="change_password_button" js="0">Изменить пароль</word>
@@ -6743,6 +6770,7 @@
   <word key="viewing_deleted_content" js="0">Просматривает удалённую публикацию: %s</word>
   <word key="date_deleted" js="0">Удалена %s</word>
   <word key="deleted_by_with_date" js="0">Удалена пользователем %s %s, будет окончательно удалена %s</word>
+  <word key="deleted_without_by_with_date" js="0">Будет окончательно удалена %s</word>
   <word key="date_posted" js="0">Опубликована %s</word>
   <word key="delete_immediately" js="0">Удалить незамедлительно</word>
   <word key="delete_immediately_desc" js="0">Удалить эту публикацию незамедлительно?</word>
@@ -7307,7 +7335,7 @@
   <word key="widget_feed_item_status_locked" js="0">%s - Статус</word>
   <word key="widget_feed_item_status_pinned" js="0">%s - Закреплено</word>
   <word key="widget_feed_item_status_featured" js="0">%s - Рекомендованная</word>
-  <word key="widget_feed_comment_status_visible" js="0">Видимость комментариев</word>
+  <word key="widget_feed_comment_status_visible" js="0">Видимость</word>
   <word key="widget_feed_item_author" js="0">%s - Автор</word>
   <word key="widget_feed_item_min_posts" js="0">%s - Минимум сообщений</word>
   <word key="widget_feed_item_min_comments" js="0">%s - Минимум комментариев</word>
@@ -7315,6 +7343,7 @@
   <word key="widget_feed_item_min_rating" js="0">%s - Минимальный рейтинг</word>
   <word key="widget_feed_restrict_days" js="0">За последние</word>
   <word key="widget_feed_restrict_days_suffix" js="0">дней</word>
+  <word key="widget_feed_status_published" js="0">Опубликовано</word>
   <word key="mod_confirm_visible" js="0">Видимые</word>
   <word key="mod_confirm_hidden" js="0">Скрытые</word>
   <word key="status_feed" js="0">Лента статусов</word>
@@ -8042,6 +8071,7 @@
   <word key="oauth_prompt_login" js="0">Всегда, требует явного входа</word>
   <word key="oauth_prompt_login_desc" js="0"><![CDATA[Пользователи всегда должны будут войти на сайт, после чего увидят страницу авторизации.<br>Для разработчиков: Если обычно используется менее строгий параметр, то вы можете включить данный для конкретного случая, передав <code>&prompt=login</code> в ссылке.]]></word>
   <word key="oauth_authorize_approve" js="0">Продолжить как %s</word>
+  <word key="oauth_authorize_switch" js="0">Использовать другой аккаунт</word>
   <word key="oauth_authorization_screen" js="0">Авторизация</word>
   <word key="oauth_choose_scopes" js="0">Разрешить пользователю выбрать области</word>
   <word key="oauth_choose_scopes_desc" js="0"><![CDATA[Если включено, то пользователь увидит список флажков, которые позволят ему выбрать к каким областям предоставить клиенту доступ, или, если отключено, увидит список областей к которым предоставится доступ.<br>Это применяется только к запросам авторизации, которые содержат области, в противном случае не будет иметь эффекта.]]></word>
@@ -8102,6 +8132,8 @@
   <word key="oauth_clients_blurb" js="0">OAuth-клиенты позволяют пользователям вашего сообщества авторизовываться на других сайтах и приложениях, поддерживающих OAuth. После этого эти приложения могут использовать ключ доступа OAuth (OAuth Access Token) для доступа к REST API в качестве авторизованного пользователя. Клиенты OAuth также могут предоставлять учетные данные (Client Credentials Access Tokens) для доступа к REST API без авторизации из-под конкретного пользователя.</word>
   <word key="api_keys_blurb" js="0">Ключи API предоставляют упрощенную альтернативу OAuth для получения доступа к REST API без авторизации из-под конкретного пользователя.</word>
   <word key="api_endpoint_phpdoc_error" js="0">Конечная точка %s не содержит корректной документации в шапке.</word>
+  <word key="api_blocked_self" js="0"><![CDATA[Сервер был заблокирован в связи со слишком большим количеством неудачных запросов с неверным ключом. Удалите IP-адреса сервера из списка в <a href='{internal.app=core&module=membersettings&controller=ban}'>настройках бана</a>. Также рекомендуется проверить все интеграции, чтобы убедиться, что используется корректный ключ.]]></word>
+  <word key="api_blocked_file" js="0"><![CDATA[API не работает из-за конфликта путей. Пожалуйста, удалите или переименуйте файл или папку, расположенную в <strong>%s/api/core</strong> и попробуйте ещё раз.]]></word>
   <word key="menu__core_settings_contactus" js="0">Обратная связь</word>
   <word key="r__contactus" js="0">Обратная связь</word>
   <word key="r__contactus_manage" js="0">Может управлять формой обратной связи</word>
@@ -8514,7 +8546,7 @@
   <word key="promote_scheduling_header" js="0">Планируется</word>
   <word key="promote_scheduled_future" js="0">Эта публикация будет отправлена %s</word>
   <word key="promote_scheduled_now" js="0">Эта публикация будет отправлена в течение нескольких минут</word>
-  <word key="promote_flash_msg" js="0"><![CDATA[Это продвижение было сохранено. <a href='{internal.app=core&module=promote&controller=promote&do=view}'>Просмотреть запланированные продвижения.</a>]]></word>
+  <word key="promote_flash_msg" js="0"><![CDATA[Это продвижение было сохранено. <a href='{internal.front.app=core&module=promote&controller=promote&do=view.promote_manage}'>Просмотреть запланированные продвижения.</a>]]></word>
   <word key="promote_manage_link" js="0">Продвижение публикаций</word>
   <word key="promote_no_permission" js="0">У вас нет прав для продвижения публикаций</word>
   <word key="promote_table_header" js="0">Наш выбор</word>
@@ -8541,11 +8573,11 @@
   <word key="promote_twitter_done_text" js="0">Вы привязали ваш аккаунт, теперь вы можете закрыть это окно и вернуться в Админцентр.</word>
   <word key="promote_service_failed" js="0">Этот сервис вернул ошибку</word>
   <word key="promote_dialog_used" js="0">Уже запланировано</word>
-  <word key="promote_dialog_used_desc" js="0"><![CDATA[Эта публикация уже запланирована на %s. <a href='{internal.app=core&module=promote&controller=promote&do=view}'>Просмотреть запланированные продвижения</a>]]></word>
+  <word key="promote_dialog_used_desc" js="0"><![CDATA[Эта публикация уже запланирована на %s. <a href='{internal.front.app=core&module=promote&controller=promote&do=view.promote_manage}'>Просмотреть запланированные продвижения</a>]]></word>
   <word key="promote_dialog_not_all_view" js="0">Не все люди будут иметь права на просмотр этой публикации, но увидят некоторые данные.</word>
   <word key="promote_dialog_not_all_view_desc" js="0"><![CDATA[Пользователям в группах %s будет отображено сообщение об ошибке с запросов на вход или регистрацию при попытке загрузить эту ссылку. Пользователи, у которых нет прав на просмотр этой публикации <strong><em>увидят</em></strong> её заголовок и текст, указанный при продвижении.]]></word>
   <word key="promote_dialog_sent" js="0">Уже продвинуто</word>
-  <word key="promote_dialog_sent_desc" js="0"><![CDATA[Эта публикация была отправлена %s. <a href='{internal.app=core&module=promote&controller=promote&do=view}'>Просмотреть запланированные продвижения</a>]]></word>
+  <word key="promote_dialog_sent_desc" js="0"><![CDATA[Эта публикация была отправлена %s. <a href='{internal.front.app=core&module=promote&controller=promote&do=view.promote_manage}'>Просмотреть запланированные продвижения</a>]]></word>
   <word key="promote_logs_unsuccessful" js="0">Не удалось</word>
   <word key="promote_logs_success" js="0">Успешно</word>
   <word key="promote_service_success" js="0">Успешно отправлено в %s</word>
@@ -8866,6 +8898,7 @@
   <word key="promote_custom_schedule__desc" js="0">Укажите время в часовом поясе %s.</word>
   <word key="promote_social_content_twitter_duplicate_tweet" js="0">Если публикация не была изменена, то Twitter будет рассматривать её как дубликат и не опубликует её.</word>
   <word key="no_promote_permission" js="0">У вас нет прав для продвижения публикаций</word>
+  <word key="promote_cant_promote_admin" js="0">Выбранная публикация не может быть продвинута</word>
   <word key="promote_promoted_on" js="0">Продвинуто %s</word>
   <word key="block_promoted" js="0">Наш выбор</word>
   <word key="block_promoted_desc" js="0">Отображает актуальный список публикаций, выбранных при продвижении в соцсети.</word>
@@ -9120,7 +9153,9 @@
   <word key="cookies_change_text" js="0"><![CDATA[Большинство веб-браузеров позволяют контролировать большинство cookies через свои настройки. Чтобы подробнее узнать о том, что такое cookies, какие cookies были установлены, как управлять ими и удалять их, посетите <a href='http://www.aboutcookies.org' rel='noopener nofollow' target='_blank'>www.aboutcookies.org</a> или <a href='http://www.allaboutcookies.org' rel='noopener nofollow' target='_blank'>www.allaboutcookies.org</a>.<br>Чтобы отказаться от отслеживания Google Analytics на всех веб-сайтах, посетите <a href='http://tools.google.com/dlpage/gaoptout' rel='noopener nofollow' target='_blank'>http://tools.google.com/dlpage/gaoptout</a>.]]></word>
   <word key="cookie_session_front" js="0">Данная cookie содержит информацию о вашей текущей сессии.</word>
   <word key="cookie_member_id" js="0">Ваш идентификатор пользователя. Используется для определения, авторизованы ли вы.</word>
+  <word key="cookie_loggedIn" js="0">Данная cookie устанавливается после входа, она используется механизмом кэширования для определения, авторизованы ли вы.</word>
   <word key="cookie_login_key" js="0">Уникальный ключ для аутентификации вашего идентификатора пользователя. Данная cookie устанавливается при входе на сайт с включенной функцией &quot;Запомнить меня&quot;, чтобы в дальнейшем вы автоматически входили в свой аккаунт.</word>
+  <word key="cookie_device_key" js="0">Данная cookie устанавливается после входа с отмеченной галочкой &quot;Запомнить меня&quot;, позволяя вам в будущем входить в аккаунт автоматически. Она также используется для повышения безопасности аккаунта.</word>
   <word key="cookies_third_party" js="0">Сторонние Cookies</word>
   <word key="cookies_third_party_desc" js="0">Владелец сайта может установить иные cookies в дополнение к стандартным cookies выше. Эти cookies часто используются сайтом для отслеживания его использования или устанавливаются при просмотре встроенной публикации из других сервисов, таких как YouTube, Vimeo и так далее.</word>
   <word key="cookies_standard" js="0">Стандартные Cookies</word>
@@ -11591,26 +11626,6 @@
   <word key="emoji-mother_christmas" js="1">Mother Christmas</word>
   <word key="post_before_register_followup_header" js="0">Ваше сообщение ещё не было отправлено</word>
   <word key="new_user_completed_registration" js="0">Новый пользователь: %s</word>
-  <word key="deletion_blurb_no_member" js="0">Будет окончательно удалено %s</word>
-  <word key="mod_confirm_unpublish" js="0">Неопубликованные</word>
-  <word key="cic_upgrade_confirm" js="0"><![CDATA[Вы уверены, что хотите продолжить? <strong>Примечание:</strong> Это действие не сможет быть отменено, если вы продолжите.]]></word>
-  <word key="acplogs__cic_upgrade" js="0">Сообщество обновлено</word>
-  <word key="upgrade_confirm_cic" js="0">Подтвердить обновление</word>
-  <word key="upgrade_apply_cic" js="0">Применить файлы</word>
-  <word key="modlog__item_follow_removed" js="0">Удалены подписчики из %s/%s ID: %s</word>
-  <word key="modlog__poll_opened" js="0"><![CDATA[Опрос открыт: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__poll_closed" js="0"><![CDATA[Опрос закрыт: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__poll_autoclose" js="0">Автозакрытие опроса: #%s закроется %s</word>
-  <word key="sitemap_include_generic_desc" js="0">Включить в карту сайта</word>
-  <word key="sitemap_profiles_include" js="0">Включить в карту сайта</word>
-  <word key="block_core_MemberStats" js="0">Статистика пользователей</word>
-  <word key="memberStatsDashboard_optin" js="0">Согласились на рекламную рассылку</word>
-  <word key="memberStatsDashboard_optout" js="0">Отказались от рекламной рассылки</word>
-  <word key="chart_email_marketing_type" js="0">Тип согласия</word>
-  <word key="memberStatsDashboard_title" js="0">Всего %s {!# [*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][*11:пользователей][*12:пользователей][*13:пользователей][*14:пользователей][?:пользователей]}</word>
-  <word key="onlineUsersDashboard_title" js="0">%s в сети</word>
-  <word key="deleted_without_by_with_date" js="0">Будет окончательно удалена %s</word>
-  <word key="widget_feed_status_published" js="0">Опубликовано</word>
   <word key="mod_confirm_all" js="0">Все</word>
   <word key="mod_confirm_all_desc" js="0">Будут отображаться все публикации, которые может просматривать текущий пользователь</word>
   <word key="mod_confirm_visible_desc" js="0">Будут отображаться только не скрытые и не ожидающие утверждения публикации, даже если пользователь имеет права на просмотр скрытых публикаций</word>
@@ -11619,20 +11634,7 @@
   <word key="mod_confirm_hidden_desc" js="0">Будут отображаться только скрытые модераторами публикации, и только в случае, если пользователь имеет права на просмотр скрытых публикаций.</word>
   <word key="mod_confirm_hideboth" js="0">Не отображаемые</word>
   <word key="mod_confirm_hideboth_desc" js="0">Будут отображаться скрытые публикации и публикации, ожидающие утверждения, и только в случае, если пользователь имеет права на просмотр скрытых публикаций</word>
-  <word key="oauth_authorize_switch" js="0">Использовать другой аккаунт</word>
-  <word key="api_blocked_self" js="0"><![CDATA[Сервер был заблокирован в связи со слишком большим количеством неудачных запросов с неверным ключом. Удалите IP-адреса сервера из списка в <a href='{internal.app=core&module=membersettings&controller=ban}'>настройках бана</a>. Также рекомендуется проверить все интеграции, чтобы убедиться, что используется корректный ключ.]]></word>
-  <word key="promote_cant_promote_admin" js="0">Выбранная публикация не может быть продвинута</word>
-  <word key="app_cannot_be_default" js="0">Невозможно сделать это приложение приложением по умолчанию.</word>
-  <word key="delta_upgrade_applycic" js="0"><![CDATA[Загружаются актуальные файлы. Этот процесс может занять некоторое время.<br>Пожалуйста, потерпите и не обновляйте страницу.]]></word>
-  <word key="google_maps_features_header" js="0">Функции Google Карт</word>
-  <word key="google_maps_keys_header" js="0">Ключи API</word>
-  <word key="google_maps_keys_header_desc" js="0"><![CDATA[После этого <a href='{external.googlemaps_credentials}' target='_blank' rel='noopener'>создайте два API-ключа</a> в Google Developers Console с включёнными API, указанными выше, и ограничьте их, как описано ниже.]]></word>
-  <word key="google_maps_api_key_secret" js="0">Секретный ключ</word>
-  <word key="google_maps_api_key_desc_noip" js="0"><![CDATA[Этот ключ не будет раскрыт, поэтому вам не нужно устанавливать ограничения приложения.<br>(Необязательно) В поле <strong>API restrictions</strong> выберите <strong>Geocoding API</strong>.]]></word>
-  <word key="google_maps_api_key_desc_ip" js="0"><![CDATA[Необязательно: В поле <strong>Application Restrictions</strong> выберите <strong>IP Addresses (web servers, cron jobs, etc.)</strong> и укажите IP-адрес <strong>%s</strong>, наряду с любыми другими IP-адресами, которые может использовать ваш сервер (ваш хостинг провайдер или системный администратор сможет предоставить вам их).<br>Необязательно: В поле <strong>API restrictions</strong> установите <strong>Geocoding API</strong>.]]></word>
-  <word key="view_support_account" js="0">Просмотреть аккаунт</word>
-  <word key="api_blocked_file" js="0"><![CDATA[API не работает из-за конфликта путей. Пожалуйста, удалите или переименуйте файл или папку, расположенную в <strong>%s/api/core</strong> и попробуйте ещё раз.]]></word>
-  <word key="cookie_loggedIn" js="0">Данная cookie устанавливается после входа, она используется механизмом кэширования для определения, авторизованы ли вы.</word>
-  <word key="cookie_device_key" js="0">Данная cookie устанавливается после входа с отмеченной галочкой &quot;Запомнить меня&quot;, позволяя вам в будущем входить в аккаунт автоматически. Она также используется для повышения безопасности аккаунта.</word>
+  <word key="reg_email_already_validated_admin" js="0">Вы уже подтвердили свой email-адрес, однако администратор должен утвердить ваш аккаунт.</word>
+  <word key="acplog__upgrade_started" js="0">Запущен процесс обновления сообщества</word>
  </app>
 </language>

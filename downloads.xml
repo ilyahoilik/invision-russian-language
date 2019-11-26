@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="downloads" version="104044">
+ <app key="downloads" version="104047">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -26,6 +26,7 @@
   <word key="modlog__action_restorebackup" js="0"><![CDATA[Восстановлена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_visibilitybackup" js="0"><![CDATA[Изменена видимость предыдущей версии файла: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_deletebackup" js="0"><![CDATA[Удалена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_purchasestatus" js="0"><![CDATA[Изменён статус покупки файла: <a href='%s'>%s</a>]]></word>
   <word key="mark_category_read" js="0">Отметить категорию прочитанной</word>
   <word key="mark_category_read_title" js="0">Отметить эту категорию прочитанной</word>
   <word key="editor__downloads_Categories" js="0">Категории файлов</word>
@@ -541,6 +542,5 @@
   <word key="downloadsScreenshotsWatermarkBlurb" js="1">Перестроение существующих скриншотов обновит их и наложит ваш новый водяной знак.</word>
   <word key="downloadsScreenshotsWatermarkYes" js="1">Да, перестроить</word>
   <word key="downloadsScreenshotsWatermarkNo" js="1">Нет</word>
-  <word key="modlog__action_purchasestatus" js="0"><![CDATA[Изменён статус покупки файла: <a href='%s'>%s</a>]]></word>
  </app>
 </language>
