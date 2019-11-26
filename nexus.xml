@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104047">
+ <app key="nexus" version="104049">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -93,11 +93,11 @@
   <word key="paypal_type_card" js="0">Карта</word>
   <word key="paypal_type_card_desc" js="0"><![CDATA[Пользователи введут данные своей банковской карты непосредственно на странице оформления заказа. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Прямым платежам.]]></word>
   <word key="paypal_billing_agreements" js="0">Регулярные платежи</word>
-  <word key="paypal_billing_agreements_req" js="0">Обязательно: Всегда использовать регулярные платежи для покупок с периодом продления.</word>
+  <word key="paypal_billing_agreements_req" js="0">Обязательно: Всегда использовать регулярные платежи для покупок с периодом продления</word>
   <word key="paypal_billing_agreements_req_desc" js="0">Учтите, что регулярные платежи могут использоваться только при заказе товаров с единым периодом продления. Если, например, клиент покупает продукт с ежемесячным продлением, в то же время как другой покупаемый продукт имеет ежегодное продление, регулярный платёж создан не будет.</word>
-  <word key="paypal_billing_agreements_opt" js="0">По желанию: Разрешить клиентам выбирать между регулярными платежами и выставлением счёта.</word>
-  <word key="paypal_billing_agreements_dis" js="0">Отключено: Не использовать регулярные платежи (рекомендуется)</word>
-  <word key="paypal_billing_agreements_desc" js="0"><![CDATA[Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Подпискам.]]></word>
+  <word key="paypal_billing_agreements_opt" js="0">По желанию: Разрешить клиентам выбирать, хотят они использовать регулярные платежи или выставление счетов.</word>
+  <word key="paypal_billing_agreements_dis" js="0">Отключено: Не использовать регулярные платежи</word>
+  <word key="paypal_billing_agreements_desc" js="0"><![CDATA[Этот параметр <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а ваш аккаунт PayPal <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Подпискам.]]></word>
   <word key="paypal_vault" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="paypal_vault_desc" js="0">Данные банковской карты хранятся на серверах PayPal, не на ваших.</word>
   <word key="paypal_client_id" js="0">ID клиента</word>
@@ -3520,5 +3520,12 @@
   <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
   <word key="menu__nexus_store_packages_add_child" js="0">Создать продукт в этой группе</word>
   <word key="mailsub__nexus_hostingError" js="0">Неудачная связь с сервером</word>
+  <word key="paypal_billing_agreements_https" js="0">Этот параметр требует наличия HTTPS.</word>
+  <word key="paypal_billing_agreement_allowed_fails" js="0">Автоматически выключать регулярный платёж</word>
+  <word key="paypal_billing_agreement_allowed_fails_prefix" js="0">После</word>
+  <word key="paypal_billing_agreement_allowed_fails_suffix" js="0">неудачных попыток оплаты</word>
+  <word key="paypal_billing_agreement_allowed_fails_desc" js="0">Неудачные платежи могут происходить, если банковская карта клиента истекла и на счёте PayPal нет средств. Вы можете ограничить количество попыток, которое будет производить PayPal для совершения платежа, чтобы предотвратить более позднее взимание платы с клиентов, чем ожидалось изначально.</word>
+  <word key="acp_notification_nexus_config_error_paymethod" js="0">Настройки способа оплаты нуждаются в обновлении</word>
+  <word key="acp_notification_nexus_config_error_paymethod_desc" js="0">Необходимо проверить настройки способа оплаты %s. Пока это не будет сделано, могут возникать проблемы с платежами.</word>
  </app>
 </language>
