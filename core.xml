@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104047">
+ <app key="core" version="104049">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -732,7 +732,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.8">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.9">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="acp_version_number_raw" js="0">%s</word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
@@ -11636,5 +11636,10 @@
   <word key="mod_confirm_hideboth_desc" js="0">Будут отображаться скрытые публикации и публикации, ожидающие утверждения, и только в случае, если пользователь имеет права на просмотр скрытых публикаций</word>
   <word key="reg_email_already_validated_admin" js="0">Вы уже подтвердили свой email-адрес, однако администратор должен утвердить ваш аккаунт.</word>
   <word key="acplog__upgrade_started" js="0">Запущен процесс обновления сообщества</word>
+  <word key="warningPunishment_mq" js="1">поставлен на модерацию всех публикаций</word>
+  <word key="warningPunishment_rpa" js="1">ограничен в отправке публикаций</word>
+  <word key="warningPunishment_suspend" js="1">заблокирован</word>
+  <word key="warningPunishmentIndefinitely" js="1">Пользователь будет {{type}} навсегда</word>
+  <word key="warningPunishmentDate" js="1">Пользователь будет {{type}} до {{date}}</word>
  </app>
 </language>
