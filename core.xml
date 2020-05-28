@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="core" version="104049">
+ <app key="core" version="104066">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
   <word key="__indefart_personal_conversation_message" js="0">сообщение в личной беседе</word>
@@ -177,7 +177,7 @@
   <word key="activity_member_followed" js="0">%s подписался на %s</word>
   <word key="activity_member_updated_photo" js="0">%s изменил свой аватар</word>
   <word key="activity_member_liked" js="0">%s понравилось %s: %s</word>
-  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src="<fileStore.core_Reaction>/%s" width='20' height='20' data-ipsTooltip title="%s">&nbsp; %s отреагировал на %s: %s]]></word>
+  <word key="activity_member_reacted" js="0"><![CDATA[&nbsp;<img src="<fileStore.core_Reaction>/%s" width='20' height='20' data-ipsTooltip title="%s" alt=''>&nbsp; %s отреагировал на %s: %s]]></word>
   <word key="activity_club" js="0">%s создал клуб: %s</word>
   <word key="stream_auto_updates" js="0">Эта лента обновляется автоматически</word>
   <word key="load_more_activity" js="0">Загрузить больше активности</word>
@@ -732,7 +732,7 @@
   <word key="sign_out" js="0">Выход</word>
   <word key="switch_to_account" js="0">Вернуться в аккаунт %s</word>
   <word key="site" js="0">Перейти на сайт</word>
-  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.9">Русификация от Ilya Hoilik</a></span>]]></word>
+  <word key="acp_version_number" js="0"><![CDATA[%s <span class="ipsType_light ipsType_blendLinks"> · <a href="https://ilyahoilik.com" target="_blank" rel="noopener" data-ipsTooltip _title="Версия 4.4.10">Русификация от Ilya Hoilik</a></span>]]></word>
   <word key="acp_version_number_raw" js="0">%s</word>
   <word key="redirecting" js="0">Переадресация...</word>
   <word key="redirecting_wait" js="0">Пожалуйста, подождите, пока мы перенаправляем вас...</word>
@@ -871,7 +871,7 @@
   <word key="acplogs__datastore_updated" js="0">Обновлены настройки кэширования</word>
   <word key="acplogs__datastore_settings_updated" js="0">Обновлены настройки кэширования</word>
   <word key="cache_guest_page" js="0">Кэшировать страницы для гостей</word>
-  <word key="cache_guest_page_desc" js="0"><![CDATA[При включении все страницы сайта будут кэшироваться, так что если более одного гостя просматривает сайт, каждая страница будет генерироваться только один раз, что позволить сократить использование ресурсов сервера, если у вас много гостей на сайте одновременно.<br>Чем дольше время жизни кэша, тем реже будет генерироваться страницы (затрата ресурсов сервера будет меньше), но обновление содержимого страницы для гостей будет происходить с задержкой.<br>Если на вашем сайте редко находится большое количество гостей, то рекомендуется выключить эту функцию.<br>Если у вас есть настроенный метод кэширования, то он будет использоваться. В противном случае кэш будет храниться в базе данных.]]></word>
+  <word key="cache_guest_page_desc" js="0"><![CDATA[При включении все страницы сайта будут кэшироваться, так что если более одного гостя просматривает сайт, каждая страница будет генерироваться только один раз, что позволит сократить использование ресурсов сервера, если у вас много гостей на сайте одновременно.<br>Чем дольше время жизни кэша, тем реже будет генерироваться страницы (затрата ресурсов сервера будет меньше), но обновление содержимого страницы для гостей будет происходить с задержкой.<br>Если на вашем сайте редко находится большое количество гостей, то рекомендуется выключить эту функцию.<br>Если у вас есть настроенный метод кэширования, то он будет использоваться. В противном случае кэш будет храниться в базе данных.]]></word>
   <word key="widget_cache_ttl" js="0">Кэшировать блоки сайта</word>
   <word key="widget_cache_ttl_desc" js="0"><![CDATA[Постоянная генерация содержимого некоторых блоков может влиять на производительность сайта. Это настройка позволяет генерировать содержимое с определённым интервалом времени.<br>Это означает, что содержимое блока будет изменяться с задержкой - например, если вы установите 5 минут и у вас есть блок, отображающий последние темы, то может пройти до 5 минут прежде чем новая тема появится в нём.]]></word>
   <word key="acplogs__general_settings" js="0">Обновлены общие настройки</word>
@@ -1138,7 +1138,7 @@
   <word key="item_followers" js="0">Кто подписан на %s</word>
   <word key="never_allow" js="0">Никогда не разрешено</word>
   <word key="total_comments" js="0">Всего комментариев</word>
-  <word key="total_reviews" js="0">Просмотров</word>
+  <word key="total_reviews" js="0">Отзывов</word>
   <word key="total_views" js="0">Всего просмотров</word>
   <word key="select_category" js="0">Выберите категорию</word>
   <word key="more_page_options" js="0">Больше настроек</word>
@@ -2396,7 +2396,7 @@
   <word key="members_name_missing_as_reserved" js="0">Без имени</word>
   <word key="members_name_missing_add" js="0"><![CDATA[<em>Без имени</em>]]></word>
   <word key="member_reserved_pending_deletion" js="0">Этот пользователь скоро будет автоматически удалён</word>
-  <word key="members_name_missing_as_reserved_tt" js="0"><![CDATA[Недавно созданные пользователи без имени или email-адреса, которые никогда не посещали сайт, автоматически удаляются.<br>Это может произойти, если они начали процесс регистрации через социальную сеть, но не завершили его. Если они войдут на сайт в ближайшее время, им будет предложено указать недостающую информацию, после чего они смогут использовать свой аккаунт в обычном режиме. В противном случае, их аккаунты будут вскорости удалены.]]></word>
+  <word key="members_name_missing_as_reserved_tt" js="0"><![CDATA[Недавно созданные пользователи без имени или email-адреса, которые никогда не посещали сайт, автоматически удаляются.<br>Это может произойти, если они начали процесс регистрации через социальную сеть, но не завершили его. Если они войдут на сайт в ближайшее время, им будет предложено указать недостающую информацию, после чего они смогут использовать свой аккаунт в обычном режиме. В противном случае, их учетные записи будут вскоре удалены.]]></word>
   <word key="member_reserved_external_email" js="0">У этого пользователя не указан email-адрес</word>
   <word key="member_reserved_external_name" js="0">У этого пользователя не указано имя</word>
   <word key="member_reserved_external_both" js="0">У этого пользователя не указано имя или email-адрес</word>
@@ -5870,7 +5870,6 @@
   <word key="dashboard_tasksrun_broken_desc" js="0">Важные плановые задачи по обслуживанию не выполняются. Если эта проблема не будет решена, то она может причинить значительный ущерб вашему сообществу.</word>
   <word key="dashboard_tasks_cron_broken_desc_1" js="0"><![CDATA[В вашем сообществе настроено выполнение плановых задач по обслуживанию с помощью cron, но похоже, что они не выполняются. Если эта проблема не будет решена, то она может причинить значительный ущерб вашему сообществу. Проверьте, что cron настроен правильно или переключитесь на вариант <strong>Запускать автоматически при посещении</strong>. Если вы не знаете как настроить cron, свяжитесь с вашим хостинг провайдером или системным администратором для получения помощи.]]></word>
   <word key="dashboard_tasks_cron_broken_desc_2" js="0">Cron на вашем сервере должен быть настроен на выполнение этой команды каждую минуту:</word>
-  <word key="dashboard_tasks_cron_broken_desc_cic" js="0">В вашем сообществе настроено выполнение плановых задач по обслуживанию с помощью cron, но похоже, что они не выполняются. Если эта проблема не будет решена, то она может причинить значительный ущерб вашему сообществу. Пожалуйста, запустите инструменты поддержки и отправьте запрос в техническую поддержку, если это не помогло.</word>
   <word key="dashboard_tasks_web_broken_desc_1" js="0"><![CDATA[В вашем сообществе настроено выполнение плановых задач по обслуживанию с помощью веб-сервиса, но похоже, что он работает некорректно. Если эта проблема не будет решена, то она может причинить значительный ущерб вашему сообществу. Проверьте, что сервис настроен правильно или переключитесь на вариант <strong>Запускать автоматически при посещении</strong>.]]></word>
   <word key="dashboard_tasks_web_broken_desc_2" js="0">Веб-сервис должен быть настроен на вызов этой ссылки каждую минуту (или как можно чаще):</word>
   <word key="dashboard_tasks_not_enough_desc" js="0">Плановые задачи по обслуживанию выполняются в то время, как пользователи посещают ваш сайт, но похоже, что трафик на сообществе недостаточен для их регулярного выполнения. Если эта проблема не будет решена, то она может причинить значительный ущерб вашему сообществу. Рекомендуем вам настроить cron или веб-сервис, чтобы эти задачи могли выполняться даже при отсутствии трафика на вашем сообществе.</word>
@@ -11641,5 +11640,115 @@
   <word key="warningPunishment_suspend" js="1">заблокирован</word>
   <word key="warningPunishmentIndefinitely" js="1">Пользователь будет {{type}} навсегда</word>
   <word key="warningPunishmentDate" js="1">Пользователь будет {{type}} до {{date}}</word>
+  <word key="emoji-category-smileys_emotion" js="1">Смайлики и эмоции</word>
+  <word key="emoji-category-people_body" js="1">Люди и части тела</word>
+  <word key="emoji-diving_mask" js="1">Diving Mask</word>
+  <word key="emoji-yo-yo" js="1">Yo Yo</word>
+  <word key="emoji-kite" js="1">Kite</word>
+  <word key="emoji-safety_vest" js="1">Ringed Planet</word>
+  <word key="emoji-sari" js="1">Sari</word>
+  <word key="emoji-one-piece_swimsuit" js="1">One Piece Swimsuit</word>
+  <word key="emoji-briefs" js="1">Briefs</word>
+  <word key="emoji-shorts" js="1">Shorts</word>
+  <word key="emoji-ballet_shoes" js="1">Ballet Shoes</word>
+  <word key="emoji-banjo" js="1">Banjo</word>
+  <word key="emoji-diya_lamp" js="1">Diya Lamp</word>
+  <word key="emoji-axe" js="1">Axe</word>
+  <word key="emoji-probing_cane" js="1">Probing Cane</word>
+  <word key="emoji-drop_of_blood" js="1">Drop Of Blood</word>
+  <word key="emoji-adhesive_bandage" js="1">Adhesive Bandage</word>
+  <word key="emoji-stethoscope" js="1">Stethoscope</word>
+  <word key="emoji-chair" js="1">Chair</word>
+  <word key="emoji-razor" js="1">Razor</word>
+  <word key="emoji-large_orange_circle" js="1">Large Orange Circle</word>
+  <word key="emoji-large_yellow_circle" js="1">Large Yellow Circle</word>
+  <word key="emoji-large_green_circle" js="1">Large Green Circle</word>
+  <word key="emoji-large_purple_circle" js="1">Large Purple Circle</word>
+  <word key="emoji-large_brown_circle" js="1">Large Brown Circle</word>
+  <word key="emoji-large_red_square" js="1">Large Red Square</word>
+  <word key="emoji-large_orange_square" js="1">Large Orange Square</word>
+  <word key="emoji-large_yellow_square" js="1">Large Yellow Square</word>
+  <word key="emoji-large_green_square" js="1">Large Green Square</word>
+  <word key="emoji-large_blue_square" js="1">Large Blue Square</word>
+  <word key="emoji-large_purple_square" js="1">Large Purple Square</word>
+  <word key="emoji-large_brown_square" js="1">Large Brown Square</word>
+  <word key="emoji-hindu_temple" js="1">Hindu Temple</word>
+  <word key="emoji-auto_rickshaw" js="1">Auto Rickshaw</word>
+  <word key="emoji-motorized_wheelchair" js="1">Motorized Wheelchair</word>
+  <word key="emoji-manual_wheelchair" js="1">Manual Wheelchair</word>
+  <word key="emoji-parachute" js="1">Parachute</word>
+  <word key="emoji-ringed_planet" js="1">Ringed Planet</word>
+  <word key="emoji-oyster" js="1">Oyster</word>
+  <word key="emoji-beverage_box" js="1">Beverage Box</word>
+  <word key="emoji-garlic" js="1">Garlic</word>
+  <word key="emoji-onion" js="1">Onion</word>
+  <word key="emoji-falafel" js="1">Falafel</word>
+  <word key="emoji-waffle" js="1">Waffle</word>
+  <word key="emoji-butter" js="1">Butter</word>
+  <word key="emoji-mate_drink" js="1">Mate Drink</word>
+  <word key="emoji-ice_cube" js="1">Ice Cube</word>
+  <word key="emoji-service_dog" js="1">Service Dog</word>
+  <word key="emoji-sloth" js="1">Sloth</word>
+  <word key="emoji-otter" js="1">Otter</word>
+  <word key="emoji-orangutan" js="1">Orangutan</word>
+  <word key="emoji-skunk" js="1">Skunk</word>
+  <word key="emoji-flamingo" js="1">Flamingo</word>
+  <word key="emoji-guide_dog" js="1">Guide Dog</word>
+  <word key="emoji-man_with_probing_cane" js="1">Man With Probing Cane</word>
+  <word key="emoji-red_haired_man" js="1">Red Haired Man</word>
+  <word key="emoji-curly_haired_man" js="1">Curly Haired Man</word>
+  <word key="emoji-bald_man" js="1">Bald Man</word>
+  <word key="emoji-white_haired_man" js="1">White Haired Man</word>
+  <word key="emoji-man_in_motorized_wheelchair" js="1">Man In Motorized Wheelchair</word>
+  <word key="emoji-man_in_manual_wheelchair" js="1">Man In Manual Wheelchair</word>
+  <word key="emoji-woman_with_probing_cane" js="1">Woman With Probing Cane</word>
+  <word key="emoji-red_haired_woman" js="1">Red Haired Woman</word>
+  <word key="emoji-curly_haired_woman" js="1">Curly Haired Woman</word>
+  <word key="emoji-bald_woman" js="1">Bald Woman</word>
+  <word key="emoji-white_haired_woman" js="1">White Haired Woman</word>
+  <word key="emoji-woman_in_motorized_wheelchair" js="1">Woman In Motorized Wheelchair</word>
+  <word key="emoji-woman_in_manual_wheelchair" js="1">Woman In Manual Wheelchair</word>
+  <word key="emoji-pinching_hand" js="1">Pinching Hand</word>
+  <word key="emoji-superhero" js="1">Superhero</word>
+  <word key="emoji-supervillain" js="1">Supervillain</word>
+  <word key="emoji-ear_with_hearing_aid" js="1">Ear With Hearing Aid</word>
+  <word key="emoji-mechanical_arm" js="1">Mechanical Arm</word>
+  <word key="emoji-mechanical_leg" js="1">Mechanical Leg</word>
+  <word key="emoji-woman_standing" js="1">Woman Standing</word>
+  <word key="emoji-man_standing" js="1">Man Standing</word>
+  <word key="emoji-standing_person" js="1">Standing Person</word>
+  <word key="emoji-woman_kneeling" js="1">Woman Kneeling</word>
+  <word key="emoji-man_kneeling" js="1">Man Kneeling</word>
+  <word key="emoji-kneeling_person" js="1">Kneeling Person</word>
+  <word key="emoji-deaf_woman" js="1">Deaf Woman</word>
+  <word key="emoji-deaf_man" js="1">Deaf Man</word>
+  <word key="emoji-deaf_person" js="1">Deaf Person</word>
+  <word key="emoji-farmer" js="1">Farmer</word>
+  <word key="emoji-cook" js="1">Cook</word>
+  <word key="emoji-student" js="1">Student</word>
+  <word key="emoji-singer" js="1">Singer</word>
+  <word key="emoji-artist" js="1">Artist</word>
+  <word key="emoji-teacher" js="1">Teacher</word>
+  <word key="emoji-factory_worker" js="1">Factory Worker</word>
+  <word key="emoji-technologist" js="1">Technologist</word>
+  <word key="emoji-office_worker" js="1">Office Worker</word>
+  <word key="emoji-mechanic" js="1">Mechanic</word>
+  <word key="emoji-scientist" js="1">Scientist</word>
+  <word key="emoji-astronaut" js="1">Astronaut</word>
+  <word key="emoji-firefighter" js="1">Firefighter</word>
+  <word key="emoji-people_holding_hands" js="1">People Holding Hands</word>
+  <word key="emoji-person_with_probing_cane" js="1">Person With Probing Cane</word>
+  <word key="emoji-red_haired_person" js="1">Red Haired Person</word>
+  <word key="emoji-curly_haired_person" js="1">Curly Haired Person</word>
+  <word key="emoji-bald_person" js="1">Bald Person</word>
+  <word key="emoji-white_haired_person" js="1">White Haired Person</word>
+  <word key="emoji-person_in_motorized_wheelchair" js="1">Person In Motorized Wheelchair</word>
+  <word key="emoji-person_in_manual_wheelchair" js="1">Person In Manual Wheelchair</word>
+  <word key="emoji-health_worker" js="1">Health Worker</word>
+  <word key="emoji-judge" js="1">Judge</word>
+  <word key="emoji-pilot" js="1">Pilot</word>
+  <word key="emoji-white_heart" js="1">Heart</word>
+  <word key="emoji-brown_heart" js="1">Brown Heart</word>
+  <word key="emoji-yawning_face" js="1">Yawning Face</word>
  </app>
 </language>

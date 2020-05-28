@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104049">
+ <app key="nexus" version="104066">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -131,10 +131,10 @@
   <word key="stripe_type_ideal_desc" js="0"><![CDATA[Популярный способ оплаты в Нидерландах. Пользователи будут перенаправлены на сайт iDEAL для завершения оплаты. <a href='{external.ideal}' target='_blank' rel='noopener'>Подробнее о iDEAL</a>]]></word>
   <word key="stripe_type_sofort" js="0">SOFORT</word>
   <word key="stripe_type_sofort_desc" js="0"><![CDATA[Популярный способ оплаты в Европе. Пользователи будут перенаправлены на сайт SOFORT для завершения оплаты. <a href='{external.sofort}' target='_blank' rel='noopener'>Подробнее о SOFORT</a>]]></word>
-  <word key="stripe_webhook" js="0">Webhook</word>
-  <word key="stripe_webhook_blurb" js="0"><![CDATA[Вы должны <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>создать webhook</a> oв своем аккаунте Stripe, указав эту ссылку в качестве конечной точки:<br><pre class='ipsCode'>%s</pre>]]></word>
-  <word key="stripe_webhook_secret" js="0">Секретная подпись для Webhook</word>
-  <word key="stripe_webhook_secret_desc" js="0">При просмотре webhook в вашем аккаунте Stripe, вы увидите кнопку для показа секретной подписи. Значение не будет проверено, поэтому убедитесь в том, что вы ввели его правильно.</word>
+  <word key="stripe_webhook" js="0">Вебхук</word>
+  <word key="stripe_webhook_blurb" js="0"><![CDATA[Вы должны <a href='{external.stripe_webhooks}' target='_blank' rel='noopener'>создать вебхук</a> в своем аккаунте Stripe, указав эту ссылку в качестве конечной точки:<br><pre class='ipsCode'>%s</pre>]]></word>
+  <word key="stripe_webhook_secret" js="0">Секретная подпись для вебхука</word>
+  <word key="stripe_webhook_secret_desc" js="0">При просмотре вебхука в вашем аккаунте Stripe, вы увидите кнопку для показа секретной подписи. Значение не будет проверено, поэтому убедитесь в том, что вы ввели его правильно.</word>
   <word key="stripe_basic_settings" js="0">Основные настройки</word>
   <word key="stripe_keys" js="0">Ключи</word>
   <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank' rel='noopener'>раздела API вашего аккаунта в Stripe</a>.]]></word>
@@ -672,7 +672,7 @@
   <word key="invoice_flow_visualise" js="0"><![CDATA[<a href='{internal.app=nexus&module=payments&controller=invoiceTimeline}' data-ipsDialog data-ipsDialog-title='График жизни счёта'>Просмотреть график жизни счетов</a>]]></word>
   <word key="payment" js="0">Платёж</word>
   <word key="secure_payment" js="0">Безопасный платёж</word>
-  <word key="secure_page" js="0">Это страница безопасна</word>
+  <word key="secure_page" js="0">Эта страница безопасна</word>
   <word key="renewal_invoices" js="0">Счета на продление</word>
   <word key="acplogs__invoice_settings" js="0">Обновлены настройки счетов</word>
   <word key="invoice_layout" js="0">Макет</word>
@@ -3142,8 +3142,8 @@
   <word key="email_gift_card" js="0">Подарочная карта</word>
   <word key="email_giftcard_to" js="0">Для %s</word>
   <word key="email_giftcard_from" js="0">От %s</word>
-  <word key="email_redeem_blurb" js="0"><![CDATA[Для активации вашей подарочной карты, нажмите кнопку Активировать выше или <a href='{internal.front.app=nexus&module=store&controller=gifts&do=redeem}'>нажмите сюда</a> и введите код <strong>%s</strong>. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
-  <word key="email_redeem_blurb_plain" js="0"><![CDATA[Для активации вашей подарочной карты, посетите {internal.front.app=nexus&module=store&controller=gifts&do=redeem} и введите код, указанный ниже. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
+  <word key="email_redeem_blurb" js="0"><![CDATA[Для активации вашей подарочной карты, нажмите кнопку Активировать выше или <a href='{internal.front.app=nexus&module=store&controller=gifts&do=redeem.store_giftvouchers_redeem}'>нажмите сюда</a> и введите код <strong>%s</strong>. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
+  <word key="email_redeem_blurb_plain" js="0"><![CDATA[Для активации вашей подарочной карты, посетите {internal.front.app=nexus&module=store&controller=gifts&do=redeem.store_giftvouchers_redeem} и введите код, указанный ниже. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
   <word key="email_gift_amount" js="0">Сумма</word>
   <word key="email_gift_code" js="0">Код</word>
   <word key="email_commission_product" js="0"><![CDATA[Клиент купил %s, вы заработали <strong>%s</strong>, которые были зачислены на ваш аккаунт.]]></word>
@@ -3527,5 +3527,16 @@
   <word key="paypal_billing_agreement_allowed_fails_desc" js="0">Неудачные платежи могут происходить, если банковская карта клиента истекла и на счёте PayPal нет средств. Вы можете ограничить количество попыток, которое будет производить PayPal для совершения платежа, чтобы предотвратить более позднее взимание платы с клиентов, чем ожидалось изначально.</word>
   <word key="acp_notification_nexus_config_error_paymethod" js="0">Настройки способа оплаты нуждаются в обновлении</word>
   <word key="acp_notification_nexus_config_error_paymethod_desc" js="0">Необходимо проверить настройки способа оплаты %s. Пока это не будет сделано, могут возникать проблемы с платежами.</word>
+  <word key="stripe_webhook_invalid" js="0">Вебхук не настроен или в нем не включены все типы событий.</word>
+  <word key="gateway_ba_delete_blurb" js="0">У этого способа оплаты есть связанные регулярные платежи. Удаление способа оплаты приведет к тому, что эти регулярные платежи будут аннулированы, и автоматическое продление производиться не будет. Все пользователи с покупками, которые требуют продления, получат счёт на продление, когда срок их покупки истечет, и в этот момент этим пользователям нужно будет выбрать новый способ оплаты. Это действие не может быть отменено. Вы можете отключить этот способ оплаты вместо того, чтобы удалить его, отключив его доступность для всех стран или всех продуктов. Это позволит продолжить обработку регулярных платежей, но отключит этот способ оплаты для новых покупок.</word>
+  <word key="delete_gateway_with_bas" js="0">Удаление регулярных платежей</word>
+  <word key="processing_your_payment" js="0">Обработка вашего плтежа...</word>
+  <word key="processing_the_payment" js="0">Обработка платежа...</word>
+  <word key="webhook_not_received" js="0">Запрос на вебхук не получен. Возможно, это задержка на стороне платёжного шлюза. Подождите несколько минут, после чего, если платёж не обработается, проверьте, корректно ли настроен способ оплаты.</word>
+  <word key="delete_address_confirm_billing" js="0"><![CDATA[Вы уверены, что хотите удалить этот адрес?<br><br>Обратите внимание, что основной платёжный адрес необходим для проведения автоматических платежей за продление. Если вы не установите другой адрес в качестве основного платежного адреса, то вам потребуется сделать это, прежде чем вы сможете оплачивать будущие счета на продление.]]></word>
+  <word key="nexus_subs_paid_flash_msg" js="0">Спасибо за оплату, всё готово!</word>
+  <word key="acpNotification_nexusTransaction_wait" js="0">{# [*1:транзакция ожидает][*2:транзакции ожидают][*3:транзакции ожидают][*4:транзакции ожидают][*11:транзакций ожидают][*12:транзакций ожидают][*13:транзакций ожидают][*14:транзакций ожидают][?:транзакций ожидают]} оплаты</word>
+  <word key="acpNotification_nexusBACancelErrors" js="0">{# [*1:ошибка][*2:ошибки][*3:ошибки][*4:ошибки][*11:ошибок][*12:ошибок][*13:ошибок][*14:ошибок][?:ошибок]} отмены регулярных платежей</word>
+  <word key="acp_notification_nexus_bacancelerror_desc" js="0">Недавно был удален способ оплаты с активными регулярными платежами, что требует отмены этих регулярных платежей, однако при попытке отменить некоторые или все регулярные платежи произошла ошибка. Администратору необходимо будет войти в панель платежного шлюза и вручную отменить эти регулярные платежи. Невыполнение этого требования приведет к тому, что с пользователя по-прежнему будут списываться средства, однако ваше сообщество не сможет обработать эти платежи и не предоставит пользователям никаких товаров или услуг.</word>
  </app>
 </language>
