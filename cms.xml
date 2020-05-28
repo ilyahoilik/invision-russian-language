@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language name="Русский (RU)" rtl="0">
- <app key="cms" version="104049">
+ <app key="cms" version="104066">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -993,5 +993,6 @@
   <word key="mediaUploadedCount" js="1">{!# [1:Файл добавлен][*1:# файл добавлен][?:# файлов добавлено]} в эту папку</word>
   <word key="replaceMediaFile" js="1">Заменить файл</word>
   <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
+  <word key="database_page_permissions_restrict" js="0"><![CDATA[Только группы. правами на просмотр этой страницу смогут увидеть содержание этой базы данных, независимо от настроек, установленных здесь. Возможно, вам также нужно изменить <a href='{internal.app=cms&module=pages&controller=pages&do=permissions&subnode=1&id=}%s'>права доступа к странице</a>, если вы изменяете права  доступа к базе.]]></word>
  </app>
 </language>
