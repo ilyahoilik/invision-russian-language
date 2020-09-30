@@ -33,7 +33,7 @@
   <word key="sitemap_pages_priority_desc" js="0">Приоритета в карте сайта подсказывает поисковым роботам, какие страницы на вашем сайте более важные, а какие менее важные.</word>
   <word key="can_pin_record" js="0">Может закреплять %s?</word>
   <word key="can_unpin_record" js="0">Может откреплять %s?</word>
-  <word key="can_feature_record" js="0">Может отмечать %s рекомендованными</word>
+  <word key="can_feature_record" js="0">Может отмечать %s важной</word>
   <word key="can_unfeature_record" js="0">Может отмечать %s обычными</word>
   <word key="can_edit_record" js="0">Может редактировать %s?</word>
   <word key="can_hide_record" js="0">Может скрывать %s?</word>
@@ -48,18 +48,18 @@
   <word key="can_split_merge_record" js="0">Может разделять и объединять %s?</word>
   <word key="can_future_publish_record" js="0">Может использовать отложенную публикацию %s?</word>
   <word key="can_view_future_record" js="0">Может просматривать %s с отложенной публикацией?</word>
-  <word key="can_edit_rcomment" js="0">Может редактировать комментарии к %s?</word>
+  <word key="can_edit_rcomment" js="0">Может изменять комментарии к %s?</word>
   <word key="can_hide_rcomment" js="0">Может скрывать комментарии к %s?</word>
   <word key="can_unhide_rcomment" js="0">Может показывать комментарии к %s</word>
   <word key="can_view_hidden_rcomment" js="0">Может просматривать скрытые комментарии к %s?</word>
   <word key="can_delete_rcomment" js="0">Может удалять комментарии к %s?</word>
-  <word key="can_edit_rreview" js="0">Может редактировать отзывы к %s</word>
-  <word key="can_hide_rreview" js="0">Может скрывать отзывы к %s</word>
-  <word key="can_unhide_rreview" js="0">Может показывать отзывы к %s</word>
-  <word key="can_view_hidden_rreview" js="0">Может просматривать скрытые отзывы к %s</word>
-  <word key="can_delete_rreview" js="0">Может удалять отзывы к %s</word>
-  <word key="can_feature_comments_record" js="0">Может рекомендовать комментарии к %s</word>
-  <word key="can_unfeature_comments_record" js="0">Может удалять рекомендации комментариев к %s</word>
+  <word key="can_edit_rreview" js="0">Может изменять отзывы о %s</word>
+  <word key="can_hide_rreview" js="0">Может скрывать отзывы о %s</word>
+  <word key="can_unhide_rreview" js="0">Может показывать отзывы о %s</word>
+  <word key="can_view_hidden_rreview" js="0">Может просматривать скрытые отзывы о %s</word>
+  <word key="can_delete_rreview" js="0">Может удалять отзывы о %s</word>
+  <word key="can_feature_comments_record" js="0">Может отмечать рекомендуемыми комментарии к %s</word>
+  <word key="can_unfeature_comments_record" js="0">Может снимать рекомендацию с комментариев к %s</word>
   <word key="can_add_item_message_record" js="0">Может добавлять примечания к %s</word>
   <word key="can_edit_item_message_record" js="0">Может изменять примечания к %s</word>
   <word key="can_delete_item_message_record" js="0">Может удалять примечания к %s</word>
@@ -117,7 +117,7 @@
   <word key="menu__cms_pages_menu" js="0">Меню</word>
   <word key="menu__cms_pages_blocks" js="0">Блоки</word>
   <word key="menu__cms_pages_templates" js="0">Шаблоны</word>
-  <word key="menu__cms_databases" js="0">Содержимое</word>
+  <word key="menu__cms_databases" js="0">Публикации</word>
   <word key="menu__cms_databases_databases" js="0">Базы данных</word>
   <word key="menu__cms_records" js="0">Записи</word>
   <word key="menu__cms_categories" js="0">Категории</word>
@@ -184,7 +184,7 @@
   <word key="content_template_type_page" js="0">Шаблоны страниц</word>
   <word key="content_template_type_css" js="0">Страница CSS</word>
   <word key="content_template_type_js" js="0">Страница JS</word>
-  <word key="content_template_type_database" js="0">Шаблоны баз данных</word>
+  <word key="content_template_type_database" js="0">Шаблоны базы данных</word>
   <word key="content_template_load_file" js="0">Выберите шаблон для загрузки</word>
   <word key="content_template_editor_fields_params" js="0">Переменные</word>
   <word key="content_template_editor_fields_desc" js="0">Описание</word>
@@ -198,7 +198,7 @@
   <word key="content_template_add_template_js" js="0"><![CDATA[Добавить <strong>JavaScript</strong> файл]]></word>
   <word key="content_template_add_template_block_title" js="0">Добавить шаблон блока</word>
   <word key="content_template_add_template_page_title" js="0">Добавить шаблон страницы</word>
-  <word key="content_template_add_template_database_title" js="0">Добавить шаблон базы</word>
+  <word key="content_template_add_template_database_title" js="0">Добавить шаблон базы данных</word>
   <word key="content_template_add_template_css_title" js="0">Добавить CSS файл</word>
   <word key="content_template_add_template_js_title" js="0">Добавить JavaScript файл</word>
   <word key="template_title" js="0">Название</word>
@@ -213,7 +213,7 @@
   <word key="block_template_theme_import" js="0">Стиль</word>
   <word key="template_database_group" js="0">Тип</word>
   <word key="cms_new_db_template_group_listing" js="0">Список записей (Страница внутри категории)</word>
-  <word key="cms_new_db_template_group_featured" js="0">Рекомендованные записи (первая страница при просмотре базы данных отображает рекомендованные записи)</word>
+  <word key="cms_new_db_template_group_featured" js="0">Важные записи (Первая страница при просмотре базы данных отображает важные записи)</word>
   <word key="cms_new_db_template_group_categories" js="0">Список категорий (Первая страница базы данных)</word>
   <word key="cms_new_db_template_group_display" js="0">Просмотр записи (Содержимое записи и комментарии)</word>
   <word key="cms_new_db_template_group_form" js="0">Форма записи (Форма добавления/изменения записи)</word>
@@ -570,7 +570,7 @@
   <word key="record_edit_show" js="0">Отображать, что сообщение было изменено</word>
   <word key="record_edit_show_desc" js="0">Администрация всё равно сможет видеть это</word>
   <word key="content_edit_view_revisions" js="0">(отображать изменения)</word>
-  <word key="feature_title_record" js="0">Сделать это %s рекомендованным</word>
+  <word key="feature_title_record" js="0">Сделать это %s важным</word>
   <word key="unfeature_title_record" js="0">Сделать это %s обычным</word>
   <word key="pin_title_record" js="0">Закрепить %s</word>
   <word key="unpin_title_record" js="0">Открепить %s</word>
@@ -600,9 +600,9 @@
   <word key="database_use_as_page_title_no" js="0">Использовать заголовок страницы</word>
   <word key="database_name" js="0">Название</word>
   <word key="database_description" js="0">Описание</word>
-  <word key="database_template_categories" js="0">Категория шаблонов</word>
-  <word key="database_template_listing" js="0">Шаблон списка записей</word>
-  <word key="database_template_display" js="0">Шаблон записей</word>
+  <word key="database_template_categories" js="0">Группа шаблонов категории</word>
+  <word key="database_template_listing" js="0">Группа шаблонов списка записей</word>
+  <word key="database_template_display" js="0">Группа шаблонов отображения записи</word>
   <word key="database_lang_sl" js="0">Единственное число, нижний регистр</word>
   <word key="database_lang_sl_desc" js="0">По умолчанию: record</word>
   <word key="database_lang_pl" js="0">Множественное число, нижний регистр</word>
@@ -688,8 +688,8 @@
   <word key="database_display_index_as_categories" js="0"><![CDATA[<span data-lang='index_as_categories'>Список категорий</span>	]]></word>
   <word key="database_display_index_as_articles" js="0">Отображать записи как статьи</word>
   <word key="database_display_index_as_articles_desc" js="0">Отображать записи в формате блога или статей.</word>
-  <word key="database_template_featured" js="0">Шаблоны записей</word>
-  <word key="database_template_form" js="0">Шаблон добавления/изменения</word>
+  <word key="database_template_featured" js="0">Шаблон записей</word>
+  <word key="database_template_form" js="0">Шаблон формы добавления/изменения</word>
   <word key="database_featured_perpage" js="0">Записей для отображения</word>
   <word key="database_featured_pagination" js="0">Разрешить пагинацию</word>
   <word key="database_featured_pagination_desc" js="0">Если записей больше, чем указано в поле &quot;Записей для отображения&quot;, то, если доступно, будет отображаться переключение страниц (пагинация).</word>
@@ -786,22 +786,22 @@
   <word key="content_record_report" js="0">Жалоба</word>
   <word key="content_record_form__comment_placeholder" js="0">Добавить комментарий...</word>
   <word key="content_record_form_submit_comment" js="0">Добавить комментарий</word>
-  <word key="content_record_comment_on_this" js="0">Комментарий на %s</word>
+  <word key="content_record_comment_on_this" js="0">Комментарий к %s</word>
   <word key="content_record_form_auto_follow_suffix" js="0">Уведомлять о новых ответах</word>
   <word key="content_create_new_button" js="0">Добавить %s</word>
   <word key="create_record_state" js="0">После публикации...</word>
   <word key="create_record_locked" js="0">Закрыть запись</word>
   <word key="create_record_pinned" js="0">Закрепить запись</word>
   <word key="create_record_hidden" js="0">Скрыть запись</word>
-  <word key="create_record_featured" js="0">Сделать рекомендованной</word>
+  <word key="create_record_featured" js="0">Сделать важной</word>
   <word key="content_record_form_save" js="0">Сохранить</word>
   <word key="content_record_form_new_record" js="0">Добавить %s</word>
   <word key="content_record_comment_title" js="0">Комментарий к %s</word>
   <word key="content_record_comments_title" js="0">Комментарии к %s</word>
   <word key="content_record_comments_title_lc" js="0">комментарии к %s</word>
-  <word key="content_record_review_title" js="0">Отзыв к %s</word>
+  <word key="content_record_review_title" js="0">Отзыв о %s</word>
   <word key="content_record_reviews_title" js="0">%s отзывов</word>
-  <word key="content_record_reviews_title_lc" js="0">отзывы к %s</word>
+  <word key="content_record_reviews_title_lc" js="0">отзывы о %s</word>
   <word key="record_type" js="0">Тип</word>
   <word key="content_all_records" js="0">Всё</word>
   <word key="content_open_records" js="0">Открыть</word>
@@ -881,8 +881,8 @@
   <word key="cms_rf_open_status_notpinned" js="0">Не закреплена</word>
   <word key="cms_rf_open_status_visible" js="0">Видима</word>
   <word key="cms_rf_open_status_hidden" js="0">Скрыта</word>
-  <word key="cms_rf_open_status_featured" js="0">Рекомендованная</word>
-  <word key="cms_rf_open_status_notfeatured" js="0">Не рекомендованная</word>
+  <word key="cms_rf_open_status_featured" js="0">Важная</word>
+  <word key="cms_rf_open_status_notfeatured" js="0">Обычная</word>
   <word key="cms_rf_author" js="0">Запись написана</word>
   <word key="cms_rf_min_posts" js="0">Минимум комментариев к записи</word>
   <word key="cms_rf_min_posts_any" js="0">любой</word>
@@ -943,8 +943,8 @@
   <word key="digest_area_cms_cms" js="0">%s</word>
   <word key="x_created_cms_in" js="0">%s опубликовал %s в %s</word>
   <word key="x_created_cms_in_embed" js="0">%s опубликовал %s в %s</word>
-  <word key="x_commented_cms" js="0">%s оставил комментарий на %s</word>
-  <word key="x_commented_cms_embed" js="0">%s оставил комментарий к %s</word>
+  <word key="x_commented_cms" js="0">%s прокомментировал %s</word>
+  <word key="x_commented_cms_embed" js="0">%s прокомментировал %s</word>
   <word key="x_reviewed_cms_embed" js="0">%s оставил отзыв к %s</word>
   <word key="acplogs__cms_added_database" js="0">Добавлена база данных: %s</word>
   <word key="acplogs__cms_edited_database" js="0">Изменена база данных: %s</word>
@@ -994,7 +994,7 @@
   <word key="replaceMediaFile" js="1">Заменить файл</word>
   <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
   <word key="database_page_permissions_restrict" js="0"><![CDATA[Только группы. правами на просмотр этой страницу смогут увидеть содержание этой базы данных, независимо от настроек, установленных здесь. Возможно, вам также нужно изменить <a href='{internal.app=cms&module=pages&controller=pages&do=permissions&subnode=1&id=}%s'>права доступа к странице</a>, если вы изменяете права  доступа к базе.]]></word>
-  <word key="moving_database_comments" js="0">Перемещение %s комментариев</word>
+  <word key="moving_database_comments" js="0">Перемещение комментариев %s</word>
   <word key="moving_database_comments_single" js="0"><![CDATA[Перемещение <a href='%s' target='_blank'>%s</a> комментариев]]></word>
   <word key="rebuilding_cms_comment_attachments" js="0">Перестроение карты вложений в комментариях</word>
   <word key="content_templates_inherit" js="0">Унаследованный</word>

@@ -3,7 +3,6 @@
  <app key="nexus" version="">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
-  <word key="menutab__nexus_icon" js="0">usd</word>
   <word key="menu__nexus_stock" js="0">Настройки магазина</word>
   <word key="menu__nexus_payments" js="0">Платежи</word>
   <word key="task__capture" js="0">Получает платежи, приближающиеся к крайним срокам разрешения</word>
@@ -27,9 +26,9 @@
   <word key="nexus_package_review" js="0">Отзывы на продукт</word>
   <word key="__indefart_support_request" js="0">запрос в поддержку</word>
   <word key="__indefart_product" js="0">продукт</word>
-  <word key="__indefart_product_reviews" js="0">отзыв к продукту</word>
+  <word key="__indefart_product_reviews" js="0">отзыв о продукте</word>
   <word key="__defart_support_request" js="0">запрос в поддержку</word>
-  <word key="__defart_product_reviews" js="0">отзыв к продукту</word>
+  <word key="__defart_product_reviews" js="0">отзыв о продукте</word>
   <word key="__defart_product" js="0">продукт</word>
   <word key="plus_tax_rate" js="0">+ %s</word>
   <word key="complete_profile_app__nexus_CustomerFields" js="0">Поля клиента</word>
@@ -113,15 +112,15 @@
   <word key="stripe_type_header" js="0">Способ оплаты</word>
   <word key="stripe_type" js="0">Оплатить через:</word>
   <word key="stripe_type_card" js="0">Карта</word>
-  <word key="stripe_type_card_desc" js="0">Пользователи должны будут ввести данные своей карты непосредственно на странице оформления заказа.</word>
-  <word key="stripe_type_native" js="0">Функционал браузера (Apple Pay / Google Pay)</word>
-  <word key="stripe_type_native_desc" js="0"><![CDATA[Пользователи с поддерживаемыми устройствами / браузерами смогут использовать встроеный функционал браузера для оплаты (например, Apple Pay или Google Pay).<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а для Apple Pay вы также должны <a href='{external.stripe_applepay_register}' target='_blank' rel='noopener'>зарегистрировать свой домен</a>.]]></word>
+  <word key="stripe_type_card_desc" js="0">Пользователи вводят данные своей карты непосредственно на странице оформления заказа.</word>
+  <word key="stripe_type_native" js="0">Функциональность браузера (Apple Pay / Google Pay)</word>
+  <word key="stripe_type_native_desc" js="0"><![CDATA[Пользователи с поддерживаемыми устройствами / браузерами смогут использовать для оплаты встроенные возможности браузера (например, Apple Pay или Google Pay).<br>Этот вариант <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а для Apple Pay вы также должны <a href='{external.stripe_applepay_register}' target='_blank' rel='noopener'>зарегистрировать свой домен</a>.]]></word>
   <word key="stripe_type_amex" js="0">Amex Express Checkout</word>
   <word key="stripe_type_amex_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт Amex Express Checkout для завершения оплаты. <a href='{external.stripe_amex_express}' target='_blank' rel='noopener'>Подробнее о Amex Express Checkout</a>]]></word>
   <word key="stripe_amex_client_id" js="0">Amex Express Checkout Client ID</word>
   <word key="stripe_amex_client_id_gen" js="0"><![CDATA[<a href='{external.amex_client_id}' target='_blank' rel='noopener'>Сгенерировать</a>]]></word>
   <word key="stripe_type_alipay" js="0">Alipay</word>
-  <word key="stripe_type_alipay_desc" js="0"><![CDATA[Популярный способ оплаты в Китае. Пользователи будут перенаправлены на сайт Alipay для завершения оплаты. <a href='{external.alipay}' target='_blank' rel='noopener'>Подробнее о Alipay</a>]]></word>
+  <word key="stripe_type_alipay_desc" js="0"><![CDATA[Популярный способ оплаты в Китае. Пользователи будут перенаправлены на сайт Alipay для завершения оплаты. <a href='{external.alipay}' target='_blank' rel='noopener'>Подробнее об Alipay</a>]]></word>
   <word key="stripe_type_bancontact" js="0">Bancontact</word>
   <word key="stripe_type_bancontact_desc" js="0"><![CDATA[Популярный способ оплаты в Бельгии. Пользователи будут перенаправлены на сайт Bancontact для завершения оплаты. <a href='{external.bancontact}' target='_blank' rel='noopener'>Подробнее о Bancontact</a>]]></word>
   <word key="stripe_type_giropay" js="0">Giropay</word>
@@ -137,7 +136,7 @@
   <word key="stripe_basic_settings" js="0">Основные настройки</word>
   <word key="stripe_keys" js="0">Ключи</word>
   <word key="stripe_keys_blurb" js="0"><![CDATA[Укажите стандартные API-ключи из <a href='{external.stripe_keys}' target='_blank' rel='noopener'>раздела API вашего аккаунта в Stripe</a>.]]></word>
-  <word key="stripe_type_desc" js="0">Чтобы предоставить пользователю выбор, настройте несколько способов оплаты Stripe.</word>
+  <word key="stripe_type_desc" js="0">Настройте несколько способов оплаты Stripe, чтобы предоставить пользователю возможность выбора.</word>
   <word key="stripe_cards" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="stripe_cards_desc" js="0">Данные банковской карты хранятся на серверах Stripe, не на ваших. Обратите внимание, что 3D Secure не используется при использовании сохраненной карты.</word>
   <word key="stripe_risk_level" js="0">Оценка риска Stripe: %s</word>
@@ -499,7 +498,7 @@
   <word key="currency_code" js="0">Код валюты</word>
   <word key="currency_code_invalid" js="0">%s не является кодом валюты.</word>
   <word key="currency_default" js="0">По умолчанию</word>
-  <word key="acplogs__currencies" js="0">Обновлён список валют</word>
+  <word key="acplogs__currencies" js="0">Обновлены валюты</word>
   <word key="checkout_settings" js="0">Оформление заказа</word>
   <word key="nexus_split_payments_on" js="0">Разрешить разделять платежи</word>
   <word key="nexus_split_payments_on_desc" js="0">Разделение платежей позволит клиентам оплачивать заказ более чем одним способом оплаты. Например, оплатить заказ двумя банковскими картами.</word>
@@ -680,16 +679,16 @@
   <word key="nexus_invoice_header_placeholder" js="0">Нажмите для добавления верхнего колонтитула...</word>
   <word key="nexus_invoice_footer" js="0">Нижний колонтитул</word>
   <word key="nexus_invoice_footer_placeholder" js="0">Нажмите для добавления нижнего колонтитула...</word>
-  <word key="invoice_timeline_warning_time" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} до генерации счёта</word>
+  <word key="invoice_timeline_warning_time" js="0">За {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} до создания счёта</word>
   <word key="invoice_timeline_warning_event" js="0">Если у клиента есть деньги на балансе аккаунта или прикреплена карта, ему будет отправлено email-письмо с предупреждением о скором автоматическом платёже.</word>
-  <word key="invoice_timeline_generate_time" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} до даты окончания</word>
+  <word key="invoice_timeline_generate_time" js="0">За {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} до даты истечения</word>
   <word key="invoice_timeline_generate_event" js="0"><![CDATA[Счёт был создан. Если у клиента есть деньги на балансе аккаунта или привязана карта, будет произведён автоматический платёж.<br>Если клиент оплатит счёт сейчас, <strong>текущая</strong> дата окончания срока действия будет продлена на один период продления.<br>Счёт на продление создан не будет, если у покупки имеется связанная подписка PayPal для автоматической оплаты.]]></word>
   <word key="invoice_timeline_ba_warn_event" js="0">Если с покупкой связана подписка PayPal, будет отправлено email-уведомление о том, что платёж скоро будет произведён автоматически.</word>
   <word key="invoice_timeline_grace_time" js="0">Дата истечения покупки</word>
   <word key="invoice_timeline_grace_event" js="0"><![CDATA[Если с покупкой связана подписка PayPal, платёж будет произведён.<br>Если покупка не была продлена, начинается период отсрочки, когда срок её действия закончился, но она всё еще считается активной. Продолжительность периода отсрочки можно задать в настройках продукта.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия будет продлена на один период продления.]]></word>
   <word key="invoice_timeline_expire_time" js="0">После периода отсрочки</word>
   <word key="invoice_timeline_expire_event" js="0"><![CDATA[Покупка истекает, и любые привилегии, предоставляемые ей, отменяются.<br>Если у продукта настроено email-письмо, отправляемое при скором истечении покупки, то это письмо отправляется.<br>Если клиент оплатит счет сейчас, то покупка возобновится и будет установлена <strong>новая</strong> дата окончания срока действия, равная периоду продления с текущей даты.]]></word>
-  <word key="invoice_timeline_invoice_exp_time" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} после создания счёта</word>
+  <word key="invoice_timeline_invoice_exp_time" js="0">Через {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} после создания счёта</word>
   <word key="invoice_timeline_invoice_exp_event" js="0">Если счет не будет оплачен, он истечёт и больше не сможет быть оплачен. Чтобы совершить продление, необходимо вручную создать счёт через Админцентр.</word>
   <word key="invoice_timeline_credit" js="0"><![CDATA[Если у продукта настроено email-письмо, отправляемое при скором истечении покупки, то это письмо отправляется.<br>В противном случае, если у клиента есть средства на балансе аккаунта или привязана карта, то отправляется письмо с предупреждением о том, что в ближайшее время платеж будет произведен автоматически.]]></word>
   <word key="ba_gw_id" js="0">Идентификатор подписки</word>
@@ -2189,7 +2188,7 @@
   <word key="p_support_department_desc" js="0">Это отдел будет выбран при использовании кнопки &quot;Создать запрос в поддержку&quot;. Клиент сможет изменить его перед отправкой запроса в поддержку.</word>
   <word key="p_support_severity" js="0">Уровни поддержки</word>
   <word key="p_support_severity_desc" js="0">Если клиент отправит запрос в поддержку, связанный с покупкой (дочерней или родительской) этого продукта и установит уровень по умолчанию, то этот уровень будет использоваться вместо него, даже если клиент не имеет прав на его использование. Вы можете использовать это для создания высокого приоритета для премиум-продуктов.</word>
-  <word key="p_featured" js="0">Отображать рекомендованные на главной магазина</word>
+  <word key="p_featured" js="0">Отображать важные на главной магазина</word>
   <word key="p_featured_desc" js="0">Может быть отображено до 10 рекомендованных продуктов. Порядок отображения продуктов меняется при каждом просмотре магазина.</word>
   <word key="p_upsell" js="0">Увеличить продажи в магазине</word>
   <word key="p_upsell_desc" js="0">Если включено, когда клиент добавляет один из выбранных продуктов в корзину, этот продут будет предложен как связанный.</word>
@@ -2338,7 +2337,7 @@
   <word key="size" js="0">Размер</word>
   <word key="weight" js="0">Вес</word>
   <word key="store" js="0">Магазин</word>
-  <word key="featured_products" js="0">Рекомендованные продукты</word>
+  <word key="featured_products" js="0">Важные продукты</word>
   <word key="new_products" js="0">Новые продукты</word>
   <word key="popular_products" js="0">Популярно у других клиентов</word>
   <word key="product_added_to_cart" js="0">Добавлено в корзину</word>
@@ -2896,8 +2895,8 @@
   <word key="mailsub__nexus_monitoring_eom" js="0">Ошибка ожидаемого результата мониторинга</word>
   <word key="acplogs__host_mon_settings" js="0">Обновлены настройки мониторинга хостинга</word>
   <word key="acplogs__hosting_settings" js="0">Обновлены настройки хостинга</word>
-  <word key="acplogs__deleted_request" js="0">Удалён запрос в поддержку #%d</word>
-  <word key="acplogs__deleted_reply" js="0">Удалён ответ в запрос в поддержку #%d</word>
+  <word key="acplogs__deleted_request" js="0">Удалён запрос в поддержку # %d</word>
+  <word key="acplogs__deleted_reply" js="0">Удалён ответ на запрос в поддержку # %d</word>
   <word key="hosting_err_public" js="0">Тарифные планы хостинга в данный момент недоступны. Пожалуйста, попробуйте позже или свяжитесь с нами для получения помощи.</word>
   <word key="hosting_err_no_queue" js="0">Этот продукт не имеет действительной группы серверов.</word>
   <word key="hosting_err_no_server" js="0">Группа серверов не содержит серверов или все серверы заполнены.</word>
@@ -3002,8 +3001,8 @@
   <word key="network_status_potential_issue" js="0">Мы обнаружили потенциальную проблему и работает над её изучением.</word>
   <word key="network_status_normal" js="0">Работает нормально.</word>
   <word key="network_status_no_issues" js="0">Все сервера включены</word>
-  <word key="hosting_cancel_warning" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настроек</a>, после истечения покупки более чем на {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}, она автоматически приостанавливается)]]></word>
-  <word key="hosting_cancel_warning_nt" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настроек</a>, после истечения покупки более чем на {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}, она автоматически приостанавливается)]]></word>
+  <word key="hosting_cancel_warning" js="0"><![CDATA[Если вы отмените покупку, то хостинг-аккаунт на сервере будет немедленно отключён. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что согласно вашим <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настройкам</a>, через {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} с момента истечения покупки она автоматически приостанавливается)]]></word>
+  <word key="hosting_cancel_warning_nt" js="0"><![CDATA[Если вы отмените покупку, то хостинг-аккаунт на сервере будет немедленно отключён. Если вы хотите приостановить действие аккаунта, то измените покупку так, чтобы дата истечения была в прошлом (помните, что согласно вашим <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настройкам</a>, через {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} с момента истечения покупки она автоматически приостанавливается)]]></word>
   <word key="hosting_cancel_warning_at" js="0"><![CDATA[Если вы отмените эту покупку, то хостинг-аккаунт на сервере будет немедленно приостановлен. Исходя из ваших <a href='{internal.app=nexus&module=hosting&controller=settings}' target='_blank' rel='noopener'>настроек</a>, нет возможности приостановить действие аккаунта.]]></word>
   <word key="p_type_Ad" js="0">Реклама</word>
   <word key="p_type_Ad_desc" js="0"><![CDATA[Продавайте рекламные места на вашем сайте, которые будут отображаться вместе с <a href='{internal.app=core&module=promotion&controller=advertisements}'>вашей собственной рекламой</a>.]]></word>
@@ -3207,17 +3206,17 @@
   <word key="block_latestProducts_desc" js="0">Отображает список новых продуктов</word>
   <word key="block_bestSellers" js="0">Лучшие продавцы</word>
   <word key="block_bestSellers_desc" js="0">Отображает список лучших продавцов продуктов</word>
-  <word key="block_recentCommerceReviews" js="0">Последние отзывы на продукты</word>
-  <word key="block_recentCommerceReviews_desc" js="0">Отображает последние отзывы на продукты</word>
-  <word key="block_featuredProduct" js="0">Рекомендуемые продукты</word>
+  <word key="block_recentCommerceReviews" js="0">Последние отзывы о продуктах</word>
+  <word key="block_recentCommerceReviews_desc" js="0">Отображает последние отзывы о продуктах</word>
+  <word key="block_featuredProduct" js="0">Важные продукты</word>
   <word key="block_featuredProduct_desc" js="0">Отображает список рекомендуемых продуктов</word>
   <word key="widget_group" js="0">Категория</word>
   <word key="modperms__core_Content_nexus_Package_Review" js="0">Отзывы на продукты</word>
-  <word key="can_edit_product_reviews" js="0">Может изменять отзывы на продукт</word>
-  <word key="can_delete_product_reviews" js="0">Может удалять отзывы на продукт</word>
-  <word key="can_hide_product_reviews" js="0">Может скрывать отзывы на продукт</word>
-  <word key="can_unhide_product_reviews" js="0">Может отменять скрытие отзывов на продукт</word>
-  <word key="can_view_hidden_product_reviews" js="0">Может просматривать скрытые отзывы на продукт</word>
+  <word key="can_edit_product_reviews" js="0">Может изменять отзывы о продуктах</word>
+  <word key="can_delete_product_reviews" js="0">Может удалять отзывы о продуктах</word>
+  <word key="can_hide_product_reviews" js="0">Может скрывать отзывы о продуктах</word>
+  <word key="can_unhide_product_reviews" js="0">Может отменять скрытие отзывов о продуктах</word>
+  <word key="can_view_hidden_product_reviews" js="0">Может просматривать скрытые отзывы о продуктах</word>
   <word key="frontnavigation_support" js="0">Поддержка</word>
   <word key="__api_nexus_invoices" js="0">Счета</word>
   <word key="__api_nexus_transactions" js="0">Транзакции</word>
@@ -3280,7 +3279,7 @@
   <word key="sp_secondary_group" js="0">Добавить клиента во второстепенные группы</word>
   <word key="sp_return_primary" js="0">Сбросить группы при истечении или отмене подписки?</word>
   <word key="sp_return_primary_desc" js="0">Эта настройка сбросит основную и второстепенные группы обратно к тем, которые были у клиента до покупки подписки.</word>
-  <word key="sp_featured" js="0">Сделать рекомендованной</word>
+  <word key="sp_featured" js="0">Сделать важной</word>
   <word key="sp_featured_desc" js="0">Рекомендованные подписки будут выделяться на странице всех подписок</word>
   <word key="sp_desc" js="0">Описание</word>
   <word key="sp_renew_upgrade" js="0">Обновить/Откатить</word>
@@ -3487,7 +3486,7 @@
   <word key="paypal_billing_agreement_allowed_fails_suffix" js="0">неудачных попыток оплаты</word>
   <word key="paypal_billing_agreement_allowed_fails_desc" js="0">Неудачные платежи могут происходить, если банковская карта клиента истекла и на счёте PayPal нет средств. Вы можете ограничить количество попыток, которое будет производить PayPal для совершения платежа, чтобы предотвратить более позднее взимание платы с клиентов, чем ожидалось изначально.</word>
   <word key="acp_notification_nexus_config_error_paymethod" js="0">Настройки способа оплаты нуждаются в обновлении</word>
-  <word key="acp_notification_nexus_config_error_paymethod_desc" js="0">Необходимо проверить настройки способа оплаты %s. Пока это не будет сделано, могут возникать проблемы с платежами.</word>
+  <word key="acp_notification_nexus_config_error_paymethod_desc" js="0">Необходимо проверить настройки %s. Пока это не будет сделано, могут возникать проблемы с платежами.</word>
   <word key="stripe_webhook_invalid" js="0">Вебхук не настроен или в нем не включены все типы событий.</word>
   <word key="gateway_ba_delete_blurb" js="0">Имеются активные подписки PayPal. Удаление способа оплаты приведёт к тому, что они будут отменены. Все пользователи с покупками, которые требуют продления, получат счёт на продление, когда срок их покупки истечет, и в этот момент этим пользователям нужно будет выбрать новый способ оплаты. Это действие не может быть отменено. Вместо удаления вы можете отключить этот способ оплаты, отключив его доступность для всех стран или всех продуктов. Это позволит продолжить обработку подписок, но отключит этот способ оплаты для новых покупок.</word>
   <word key="delete_gateway_with_bas" js="0">Отмена подписок PayPal</word>

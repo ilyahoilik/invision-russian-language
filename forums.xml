@@ -49,7 +49,7 @@
   <word key="modperms__core_Content_forums_Topic" js="0">Форум</word>
   <word key="can_pin_topic" js="0">Может закреплять темы/вопросы</word>
   <word key="can_unpin_topic" js="0">Может откреплять темы/вопросы</word>
-  <word key="can_feature_topic" js="0">Может отмечать темы/вопросы рекомендованными</word>
+  <word key="can_feature_topic" js="0">Может отмечать темы/вопросы важными</word>
   <word key="can_unfeature_topic" js="0">Может отмечать темы/вопросы обычными</word>
   <word key="can_edit_topic" js="0">Может изменять темы/вопросы</word>
   <word key="can_hide_topic" js="0">Может скрывать темы/вопросы</word>
@@ -70,8 +70,8 @@
   <word key="can_read_all_topics" js="0">Может просматривать все темы/вопросы</word>
   <word key="can_read_all_topics_desc" js="0">Некоторые разделы настроены на отображение только своих тем/вопросов.</word>
   <word key="can_set_best_answer" js="0">Может отмечать лучший ответ в вопросах</word>
-  <word key="can_feature_comments_topic" js="0">Может рекомендовать сообщениям в темах</word>
-  <word key="can_unfeature_comments_topic" js="0">Может удалять рекомендации сообщений в темах</word>
+  <word key="can_feature_comments_topic" js="0">Может отмечать рекомендуемыми сообщения в темах</word>
+  <word key="can_unfeature_comments_topic" js="0">Может снимать рекомендацию с сообщений в темах</word>
   <word key="can_add_item_message_topic" js="0">Может добавлять примечания к темам</word>
   <word key="can_edit_item_message_topic" js="0">Может изменять примечания к темам</word>
   <word key="can_delete_item_message_topic" js="0">Может удалять примечания к темам</word>
@@ -165,9 +165,9 @@
   <word key="add_forum" js="0">Добавить раздел</word>
   <word key="edit_forum" js="0">Изменение раздела</word>
   <word key="node_no_parentf" js="0">Отсутствует</word>
-  <word key="forum_use_feature_color" js="0">Использовать выделение цветом</word>
-  <word key="forum_use_feature_color_desc" js="0">Выделение цветом отображается в виде бейджа рядом с заголовком раздела.</word>
-  <word key="forum_feature_color" js="0">Выделение цветом</word>
+  <word key="forum_use_feature_color" js="0">Использовать особый цвет</word>
+  <word key="forum_use_feature_color_desc" js="0">Особый цвет используется в описании раздела в качестве бейджа.</word>
+  <word key="forum_feature_color" js="0">Особый цвет</word>
   <word key="rebuilding_starter_ids" js="0">Перестроение идентификаторов автором тем</word>
   <word key="forums_topic_post" js="0">Сообщения в разделе</word>
   <word key="forums_topic" js="0">Темы в разделе</word>
@@ -206,7 +206,7 @@
   <word key="archive_topic_forums" js="0">В разделах</word>
   <word key="archive_topic_not_forums" js="0">В разделах</word>
   <word key="archive_topic_pinned" js="0">Закреплённые/Откреплённые</word>
-  <word key="archive_topic_featured" js="0">Рекомендованные/Обычные</word>
+  <word key="archive_topic_featured" js="0">Важные/Обычные</word>
   <word key="archive_topic_state" js="0">Закрытые/Открытые</word>
   <word key="unlocked" js="0">Открыто</word>
   <word key="archive_topic_approved" js="0">Скрытые/Не скрытые</word>
@@ -341,7 +341,7 @@
   <word key="since_last_visit" js="0">Мой последний вход (%s)</word>
   <word key="forum_home" js="0">Главная форума</word>
   <word key="all_questions" js="0">Все вопросы в этом разделе</word>
-  <word key="featured_question" js="0">Рекомендованный вопрос</word>
+  <word key="featured_question" js="0">Важные вопрос</word>
   <word key="most_popular_questions" js="0">Самые популярные вопросы</word>
   <word key="from_the_past_30_days" js="0">За последние 30 дней</word>
   <word key="explore_questions_title" js="0">Просмотр вопросов</word>
@@ -393,11 +393,11 @@
   <word key="topic_locked" js="0">Эта тема закрыта</word>
   <word key="topic_pinned" js="0">Это тема закреплена</word>
   <word key="topic_hidden" js="0">Эта тема скрыта</word>
-  <word key="topic_featured" js="0">Это рекомендованная тема</word>
+  <word key="topic_featured" js="0">Эта тема важная</word>
   <word key="create_topic_locked" js="0">Закрыть тему</word>
   <word key="create_topic_pinned" js="0">Закрепить тему</word>
   <word key="create_topic_hidden" js="0">Скрыть тему</word>
-  <word key="create_topic_featured" js="0">Сделать рекомендованной</word>
+  <word key="create_topic_featured" js="0">Сделать важным</word>
   <word key="mark_topic_read" js="0">Отметить тему прочитанной</word>
   <word key="answered" js="0">Есть лучший ответ</word>
   <word key="awaiting_answer" js="0">Ожидает лучшего ответа</word>
@@ -413,10 +413,10 @@
   <word key="reply_to_topic" js="0">Ответить в тему</word>
   <word key="link_to_post" js="0">Ссылка на сообщение</word>
   <word key="share_externally" js="0">Поделиться на других сайтах</word>
-  <word key="featured_topics" js="0">Рекомендованные темы</word>
+  <word key="featured_topics" js="0">Важные темы</word>
   <word key="no_new_posts" js="0">Нет новых сообщений в теме</word>
   <word key="new_posts" js="0">Новые сообщения в этой теме</word>
-  <word key="featured_topic" js="0">Рекомендованная тема</word>
+  <word key="featured_topic" js="0">Важная тема</word>
   <word key="next_question" js="0">Следующий вопрос</word>
   <word key="next_topic" js="0">Следующая тема</word>
   <word key="prev_question" js="0">Предыдущий вопрос</word>
@@ -525,7 +525,7 @@
   <word key="view_this_topic" js="0">Просмотреть тему %s</word>
   <word key="block_hotTopics" js="0">Сейчас популярно</word>
   <word key="block_hotTopics_desc" js="0">Отображает популярные темы на сайте</word>
-  <word key="block_featuredTopics" js="0">Рекомендованные темы</word>
+  <word key="block_featuredTopics" js="0">Важные темы</word>
   <word key="block_featuredTopics_desc" js="0">Отображает рекомендованные темы на сайте</word>
   <word key="block_topicFeed" js="0">Лента тем</word>
   <word key="block_topicFeed_desc" js="0">Отображает ленту тем согласно заданным критериям</word>
@@ -656,9 +656,9 @@
   <word key="topic_summary_settings" js="0">Настройки смежной темы</word>
   <word key="forums_topic_activity_features" js="0">Содержание</word>
   <word key="forums_topic_activity_features_popularDays" js="0">Популярные дни</word>
-  <word key="forums_topic_activity_features_popularDays_desc" js="0">Список за 4 дня, в которых было больше всего постов</word>
+  <word key="forums_topic_activity_features_popularDays_desc" js="0">Список из четырёх дней с наибольшим количеством сообщений</word>
   <word key="forums_topic_activity_features_topPost" js="0">Топ сообщений</word>
-  <word key="forums_topic_activity_features_topPost_desc" js="0">Список из 3 постов с самыми положительными реакциями</word>
+  <word key="forums_topic_activity_features_topPost_desc" js="0">Список из 3 сообщений с самыми положительными реакциями</word>
   <word key="forums_topic_activity_features_uploads" js="0">Опубликованные изображения</word>
   <word key="forums_topics_show_meta" js="0">Показывать</word>
   <word key="forums_topic_show_meta_time" js="0">Большие промежутки времени между постами</word>
@@ -702,7 +702,7 @@
   <word key="app_topic_unacknowledged_warning_cannot_post" js="0">Вы получили предупреждение, с которым должны ознакомиться перед тем, как отправлять сообщения.</word>
   <word key="app_topic_member_exceeded_posts_per_day" js="0">Вы достигли максимального количества постов за день.</word>
   <word key="topic_snippet_last_reply" js="0"><![CDATA[Последний ответ от %s, <a href='%s' title='Перейти к последнему сообщению'>%s</a>]]></word>
-  <word key="archiving_blurb_cloud" js="0"><![CDATA[Архивирование старых <strong>незакрепленных</strong> и <strong>не рекомендованных</strong> тем обеспечивает бесперебойную работу Вашего сообщества. Архивированные темы нельзя публиковать или редактировать, и они не будут отображаться в результатах поиска. Вы всегда сможете разархивировать темы, если передумаете.]]></word>
+  <word key="archiving_blurb_cloud" js="0"><![CDATA[Архивирование старых <strong>незакрепленных</strong> и <strong>неважных</strong> тем обеспечивает бесперебойную работу вашего сообщества. В архивированные темы нельзя отвечать, их нельзя изменять и они не будут отображаться в результатах поиска. Если передумаете, вы сможете разархивировать темы после их архивации.]]></word>
   <word key="archive_last_post_cloud" js="0">Последний пост</word>
   <word key="archive_last_post_suffix" js="0">много лет назад</word>
   <word key="archive_settings_cloud" js="0">Архив где...</word>

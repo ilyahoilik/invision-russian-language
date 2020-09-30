@@ -5,10 +5,10 @@
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
   <word key="__indefart_downloads_file" js="0">файл</word>
-  <word key="__indefart_downloads_file_review" js="0">отзыв к файлу</word>
+  <word key="__indefart_downloads_file_review" js="0">отзыв о файле</word>
   <word key="__defart_downloads_file_comment" js="0">комментарий к файлу</word>
   <word key="__defart_downloads_file" js="0">файл</word>
-  <word key="__defart_downloads_file_review" js="0">отзыв к файлу</word>
+  <word key="__defart_downloads_file_review" js="0">отзыв о файле</word>
   <word key="menu__downloads_downloads" js="0">Файлы</word>
   <word key="module__downloads_downloads" js="0">Файлы</word>
   <word key="menu__downloads_stats" js="0">Файлы</word>
@@ -121,7 +121,7 @@
   <word key="download_categories" js="0">Категории</word>
   <word key="can_pin_downloads_file" js="0">Может закреплять файлы</word>
   <word key="can_unpin_downloads_file" js="0">Может откреплять файлы</word>
-  <word key="can_feature_downloads_file" js="0">Может отмечать файлы рекомендованными</word>
+  <word key="can_feature_downloads_file" js="0">Может отмечать файлы важными</word>
   <word key="can_unfeature_downloads_file" js="0">Может отмечать файлы обычными</word>
   <word key="can_move_downloads_file" js="0">Может перемещать файлы</word>
   <word key="can_move_downloads_file_desc" js="0">Сможет перемещать файлы только между категориями, в которых он может создавать новые публикации.</word>
@@ -133,7 +133,6 @@
   <word key="can_unhide_downloads_file" js="0">Может отменять скрытие файлов</word>
   <word key="can_view_hidden_downloads_file" js="0">Может просматривать скрытые файлы</word>
   <word key="can_delete_downloads_file" js="0">Может удалять файлы</word>
-  <word key="can_edit_downloads_file_comment" js="0">Может изменять комментарии</word>
   <word key="can_hide_downloads_file_comment" js="0">Может скрывать комментарии</word>
   <word key="can_unhide_downloads_file_comment" js="0">Может отменять скрытие комментариев</word>
   <word key="can_view_hidden_downloads_file_comment" js="0">Может просматривать скрытые комментарии</word>
@@ -143,8 +142,8 @@
   <word key="can_unhide_downloads_file_review" js="0">Может отменять скрытие отзывов</word>
   <word key="can_view_hidden_downloads_file_review" js="0">Может просматривать скрытые отзывы</word>
   <word key="can_delete_downloads_file_review" js="0">Может удалять отзывы</word>
-  <word key="can_feature_comments_downloads_file" js="0">Может рекомендовать комментарии к файлам</word>
-  <word key="can_unfeature_comments_downloads_file" js="0">Может удалять рекомендации комментариев к файлам</word>
+  <word key="can_feature_comments_downloads_file" js="0">Может отмечать рекомендуемыми комментарии к файлам</word>
+  <word key="can_unfeature_comments_downloads_file" js="0">Может снимать рекомендацию с комментариев к файлам</word>
   <word key="can_add_item_message_downloads_file" js="0">Может добавлять примечания к файлам</word>
   <word key="can_edit_item_message_downloads_file" js="0">Может изменять примечания к файлам</word>
   <word key="can_delete_item_message_downloads_file" js="0">Может удалять примечания к файлам</word>
@@ -323,7 +322,7 @@
   <word key="change_author_title" js="0">Изменить автора файла</word>
   <word key="err_submissions_blocked" js="0">Вам была заблокирована возможность загружать файлы.</word>
   <word key="upload_new_version_title" js="0">Загрузить новую версию файла</word>
-  <word key="feature_title_file" js="0">Сделать этот файл рекомендованным</word>
+  <word key="feature_title_file" js="0">Сделать этот файл важным</word>
   <word key="unfeature_title_file" js="0">Сделать этот файл обычным</word>
   <word key="pin_title_file" js="0">Закрепить этот файл</word>
   <word key="unpin_title_file" js="0">Открепить этот файл</word>
@@ -345,7 +344,7 @@
   <word key="no_downloaded_files__month" js="0">Скачанных файлов за месяц ещё нет.</word>
   <word key="no_downloaded_files__year" js="0">Скачанных файлов за год ещё нет.</word>
   <word key="no_downloaded_files" js="0">Скачанных файлов ещё нет.</word>
-  <word key="no_download_review" js="0">Вы можете оставить отзыв к файлу только после его скачивания.</word>
+  <word key="no_download_review" js="0">Вы можете оставить отзыв о файле только после его скачивания.</word>
   <word key="index_discover" js="0">Файлы</word>
   <word key="index_explore" js="0">Категории</word>
   <word key="browse_categories_d" js="0">Все категории</word>
@@ -365,14 +364,14 @@
   <word key="submit_bulk_information" js="0">Введите информацию о файле</word>
   <word key="bulk_upload_button" js="0">Я хочу добавить несколько записей за раз</word>
   <word key="upload_more_files" js="0">Добавить ещё файл</word>
-  <word key="featured_downloads" js="0">Рекомендованные файлы</word>
+  <word key="featured_downloads" js="0">Важные файлы</word>
   <word key="next_file" js="0">Следующий файл</word>
   <word key="prev_file" js="0">Предыдущий файл</word>
   <word key="downloads_category_id" js="0">Категория</word>
   <word key="announce_download_categories" js="0">Категории</word>
   <word key="view_this_file" js="0">Просмотреть файл %s</word>
   <word key="file_locked_can_comment" js="0">Этот файл закрыт, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
-  <word key="file_locked_cannot_comment" js="0">Этот файл закрыт для комментирования.</word>
+  <word key="file_locked_cannot_comment" js="0">Этот файл закрыт для дальнейших комментариев.</word>
   <word key="file__save" js="0">Сохранить</word>
   <word key="downloads_no_file" js="0">Файл не найден</word>
   <word key="download_teaser" js="0">Создайте аккаунт или войдите в него для скачивания файла</word>
@@ -465,7 +464,7 @@
   <word key="digest_area_downloads_category" js="0">Файлы</word>
   <word key="digest_area_downloads_file" js="0">Файл</word>
   <word key="x_created_file_in" js="0">%s загрузил новый файл в %s</word>
-  <word key="x_commented_file" js="0">%s оставил комментарий на файл</word>
+  <word key="x_commented_file" js="0">%s прокомментировал файл</word>
   <word key="x_reviewed_file" js="0">%s оставил отзыв к файлу</word>
   <word key="paid_file_settings" js="0">Настройки платных файлов</word>
   <word key="idm_nexus_on" js="0">Включить платные файлы</word>
@@ -516,15 +515,14 @@
   <word key="emailstats__notification_new_file_version" js="0">Уведомление о новой версии файла</word>
   <word key="block_downloadsCommentFeed" js="0">Комментарии на файлы</word>
   <word key="block_downloadsCommentFeed_desc" js="0">Отображает ленту комментариев</word>
-  <word key="block_downloadsReviewFeed" js="0">Отзывы к файлам</word>
-  <word key="block_downloadsReviewFeed_desc" js="0">Отображает ленту отзывов</word>
+  <word key="block_downloadsReviewFeed" js="0">Отзывы о файлах</word>
+  <word key="block_downloadsReviewFeed_desc" js="0">Отображает ленту отзывов о файлах</word>
   <word key="__api_downloads_files" js="0">Файлы</word>
   <word key="__api_downloads_comments" js="0">Комментарии</word>
   <word key="__api_downloads_reviews" js="0">Отзывы</word>
-  <word key="__api_downloads_categories" js="0">Категории</word>
   <word key="idm_landing_page" js="0">Главная страница</word>
   <word key="idm_show_featured" js="0">Отображать блок &quot;Рекомендованные файлы&quot;</word>
-  <word key="idm_featured_count" js="0">Количество отображаемых рекомендованных файлов</word>
+  <word key="idm_featured_count" js="0">Количество отображаемых важных файлов</word>
   <word key="idm_show_newest" js="0">Отображать блок &quot;Последние файлы&quot;</word>
   <word key="idm_newest_categories" js="0">Категории</word>
   <word key="idm_show_highest_rated" js="0">Отображать блок &quot;С наивысшим рейтингом&quot;</word>

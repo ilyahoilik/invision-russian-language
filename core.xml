@@ -352,8 +352,8 @@
   <word key="image_alt_desc" js="0">Используется в качестве описания изображения</word>
   <word key="editor_advanced_config" js="0">Расширенная конфигурация</word>
   <word key="editor_allowed_classes" js="0">Разрешённые CSS-классы</word>
-  <word key="editor_allowed_classes_desc" js="0">По умолчанию, все CSS-классы, кроме таких как цитаты и блоки с кодом, удаляются.</word>
-  <word key="editor_allowed_classes_warn" js="0">В некоторых случаях CSS-классы могут позволить обмануть пользователей, которые находятся на странице, где эти классы используются. Вы должны применять только те CSS-классы, эффект которых вы понимаете.</word>
+  <word key="editor_allowed_classes_desc" js="0">По умолчанию удаляются все CSS-классы, за исключением использующихся в определённых местах (таких как цитаты и блоки с кодом).</word>
+  <word key="editor_allowed_classes_warn" js="0">Иногда CSS-классы позволяют стилизовать публикацию таким образом, чтобы обмануть пользователей при просмотре страницы, на которой использовался этот класс. Вы должны указывать CSS-классы только в тех случаях, когда их эффект понятен.</word>
   <word key="editor_allowed_datacontrollers" js="0">Разрешённые JavaScript-контроллеры</word>
   <word key="editor_allowed_datacontrollers_desc" js="0">Атрибут &quot;data-controller&quot; по умолчанию имеет специальное назначение, поэтому все его значения удаляются.</word>
   <word key="editor_allowed_datacontrollers_warn" js="0">Некоторые JavaScript-классы может включить в публикуемое содержимое нежелательный функционал. Вы должны применять только те JavaScript-классы, эффект которых вы понимаете и в необходимости которых вы уверены.</word>
@@ -482,7 +482,7 @@
   <word key="mod_confirm_unlock" js="0">Открытые</word>
   <word key="mod_confirm_hide" js="0">Скрытые</word>
   <word key="mod_confirm_unhide" js="0">Отображаемые</word>
-  <word key="mod_confirm_feature" js="0">Рекомендованные</word>
+  <word key="mod_confirm_feature" js="0">Важные</word>
   <word key="mod_confirm_unfeature" js="0">Обычные</word>
   <word key="mod_confirm_restore" js="0">Восстановленные</word>
   <word key="mod_confirm_restoreAsHidden" js="0">Восстановленные (скрытые)</word>
@@ -676,9 +676,9 @@
   <word key="pinned" js="0">Закреплено</word>
   <word key="read" js="0">Прочитанные</word>
   <word key="unread" js="0">Непрочитанные</word>
-  <word key="feature" js="0">Рекомендовать</word>
-  <word key="unfeature" js="0">Не рекомендовать</word>
-  <word key="featured" js="0">Рекомендуем</word>
+  <word key="feature" js="0">Важное</word>
+  <word key="unfeature" js="0">Обычное</word>
+  <word key="featured" js="0">Важное</word>
   <word key="open" js="0">Открыто</word>
   <word key="split" js="0">Переместить</word>
   <word key="split_to_new" js="0">Разделить в разные %s</word>
@@ -941,7 +941,7 @@
   <word key="unsubscribe" js="0">Отписаться здесь</word>
   <word key="adjust_notification_prefs" js="0">Настройка уведомлений</word>
   <word key="adjust_digest_prefs" js="0">Изменены ваши настройки дайджеста</word>
-  <word key="dashboard" js="0">Админцентр</word>
+  <word key="dashboard" js="0">Главная панель</word>
   <word key="whats_new_link" js="0">Что нового</word>
   <word key="processing" js="0">Обработка...</word>
   <word key="step_finish" js="0">Завершить</word>
@@ -968,14 +968,14 @@
   <word key="commenting_as_guest" js="0"><![CDATA[Вы оставляете комментарий в качестве гостя. Если у вас есть аккаунт, пожалуйста, <a href='{internal.front.app=core&module=system&controller=login.login}'>войдите в него</a>.]]></word>
   <word key="item_locked_can_comment" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="item_locked_can_review" js="0">Эта публикация закрыта, но ваши права доступа позволяют вам добавлять новые отзывы.</word>
-  <word key="item_locked_cannot_comment" js="0">Эта публикация закрыта для комментирования.</word>
+  <word key="item_locked_cannot_comment" js="0">Эта публикация закрыта для дальнейших комментариев.</word>
   <word key="item_locked_cannot_review" js="0">Эта публикация закрыта для отзывов.</word>
   <word key="already_reviewed" js="0">Спасибо за оставленный отзыв.</word>
   <word key="restricted_cannot_comment" js="0">Вам сейчас запрещена отправка публикаций.</word>
   <word key="restricted_cannot_comment_temp" js="0">Вам сейчас запрещена отправка публикаций до %s.</word>
   <word key="member_exceeded_posts_per_day" js="0">Вы достигли ограничения максимального количества сообщений, которые вы можете делать за день.</word>
   <word key="comment_awaiting_approval" js="0">Этот комментарий ожидает утверждения модератором</word>
-  <word key="comment_find_header" js="0">%s ответил в %s</word>
+  <word key="comment_find_header" js="0">%s прокомментировал %s</word>
   <word key="teaser_title_reg" js="0">Создайте аккаунт или войдите в него для комментирования</word>
   <word key="teaser_desc_reg" js="0">Вы должны быть пользователем, чтобы оставить комментарий</word>
   <word key="teaser_review_title_reg" js="0">Создайте аккаунт или войдите в него для публикации отзыва</word>
@@ -1132,7 +1132,7 @@
   <word key="select_category" js="0">Выберите категорию</word>
   <word key="more_page_options" js="0">Больше настроек</word>
   <word key="fewer_page_options" js="0">Меньше вариантов</word>
-  <word key="featured_replies" js="0">Рекомендованные ответы</word>
+  <word key="featured_replies" js="0">Важные ответы</word>
   <word key="recommended_by" js="0">Рекомендовано %s</word>
   <word key="go_to_this_comment" js="0">Перейти к %s</word>
   <word key="add_message" js="0">Добавить примечание</word>
@@ -1200,14 +1200,14 @@
   <word key="node_reorder_error" js="0">Вы выбрали одинаковое положение для более чем одного элемента.</word>
   <word key="acplog__node_created" js="0">Создан %s - %s</word>
   <word key="acplog__node_edited" js="0">Изменён %s - %s</word>
-  <word key="acplog__node_disabled" js="0">Отключен %s - %s</word>
-  <word key="acplog__node_enabled" js="0">Включен %s - %s</word>
-  <word key="acplog__node_copied" js="0">Скопирован %s - %s</word>
-  <word key="acplog__node_copied_c" js="0">Скопирован %s - %s и все дочерние</word>
+  <word key="acplog__node_disabled" js="0">Отключён %s - %s</word>
+  <word key="acplog__node_enabled" js="0">Включён %s - %s</word>
+  <word key="acplog__node_copied" js="0">Создана копия %s - %s</word>
+  <word key="acplog__node_copied_c" js="0">Создана копия %s - %s и всего дочернего</word>
   <word key="acplog__node_reorder" js="0">Изменён порядок %s</word>
   <word key="acplog__node_deleted" js="0">Удалён %s - %s</word>
-  <word key="acplog__node_deleted_c" js="0">Удалён %s - %s и все дочерние</word>
-  <word key="acplog__node_deleted_m" js="0">Удалён %s - %s и все дочерние перемещены в %s</word>
+  <word key="acplog__node_deleted_c" js="0">Удалён %s - %s и всё дочернее</word>
+  <word key="acplog__node_deleted_m" js="0">Удалён %s - %s и всё дочернее перемещено в %s</word>
   <word key="node_error_no_perm" js="0">У вас нет прав для просмотра этой публикации.</word>
   <word key="node_mass_move_delete_if" js="0">Публикации, которые соответствуют всем указанным условиям...</word>
   <word key="node_mass_move_delete_then" js="0">Переместить / Удалить</word>
@@ -1226,8 +1226,8 @@
   <word key="node_move_state" js="0">Закрыто/Открыто</word>
   <word key="node_move_pinned" js="0">Закреплено/Откреплено</word>
   <word key="node_move_pinned_not_pinned" js="0">Не закреплено</word>
-  <word key="node_move_featured" js="0">Рекомендовано/Не рекомендовано</word>
-  <word key="node_move_pinned_not_featured" js="0">Не рекомендовано</word>
+  <word key="node_move_featured" js="0">Важное/Обычное</word>
+  <word key="node_move_pinned_not_featured" js="0">Обычное</word>
   <word key="node_move_delete" js="0">Вы не можете перемещать элементы в элемент, который удаляется.</word>
   <word key="node_move_invalid" js="0">Вы не можете переместить это сюда.</word>
   <word key="permissions_adjusted_node" js="0">Права доступа для %s изменены</word>
@@ -1259,11 +1259,11 @@
   <word key="form_interval_min_s" js="0">Значение должно быть больше {# [*1:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]}.</word>
   <word key="form_interval_min_i" js="0">Значение должно быть больше {# [*1:минуты][*11:минут][*12:минут][*13:минут][*14:минут][?:минут]}.</word>
   <word key="form_interval_min_h" js="0">Значение должно быть больше {# [*1:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]}.</word>
-  <word key="form_interval_min_d" js="0">Значение должно быть больше {# [*1:дня][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}.</word>
+  <word key="form_interval_min_d" js="0">Значение должно быть больше {# [*1:дня][*11:дней][?:дней]}.</word>
   <word key="form_interval_max_s" js="0">Значение должно быть меньше {# [*1:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]}.</word>
   <word key="form_interval_max_i" js="0">Значение должно быть меньше {# [*1:минуты][*11:минут][*12:минут][*13:минут][*14:минут][?:минут]}.</word>
   <word key="form_interval_max_h" js="0">Значение должно быть меньше {# [*1:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]}.</word>
-  <word key="form_interval_max_d" js="0">Значение должно быть меньше {# [*1:дня][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}.</word>
+  <word key="form_interval_max_d" js="0">Значение должно быть меньше {# [*1:дня][*11:дней][?:дней]}.</word>
   <word key="no_results" js="0">Нет результатов для отображения.</word>
   <word key="no_comments" js="0">Нет комментариев для отображения</word>
   <word key="no_reviews" js="0">Нет отзывов для отображения.</word>
@@ -1675,7 +1675,7 @@
   <word key="ext__GroupLimits" js="0">Указать, как настройки групп должны обрабатываться для второстепенных групп.</word>
   <word key="ext__IncomingEmail" js="0">Обработать входящие email-письма.</word>
   <word key="ext__IpAddresses" js="0">Указать области приложения, в которых записываются IP-адреса.</word>
-  <word key="ext__LiveSearch" js="0">Добавить функцию живого поиска Админцентра.</word>
+  <word key="ext__LiveSearch" js="0">Добавить возможность живого поиска в Админцентре.</word>
   <word key="ext__MemberForm" js="0">Добавить настройки в форму изменения пользователя в Админцентре.</word>
   <word key="ext__MemberACPProfileTabs" js="0">Добавить вкладку на страницу просмотра пользователя в Админцентре.</word>
   <word key="ext__MemberACPProfileBlocks" js="0">Добавить блок на страницу просмотра пользователя в Админцентре.</word>
@@ -1818,7 +1818,7 @@
   <word key="login_linkedin_secret" js="0">Секретный ключ</word>
   <word key="login_linkedin" js="0">Войти через LinkedIn</word>
   <word key="force_all_logout" js="0">Сбросить авторизацию</word>
-  <word key="acplogs__logout_force" js="0">Все пользователи вышли из системы</word>
+  <word key="acplogs__logout_force" js="0">Сброшена авторизация всех пользователей</word>
   <word key="logged_out_force" js="0">Все пользователи вышли из системы</word>
   <word key="login_settings" js="0">Авторизация</word>
   <word key="registration_settings" js="0">Регистрация</word>
@@ -2080,14 +2080,14 @@
   <word key="member_ban_until" js="0">Бан до</word>
   <word key="member_ban_group" js="0">Переместить в</word>
   <word key="member_ban_ips" js="0">Забанить IP-адреса</word>
-  <word key="acplog__members_created" js="0">Создан пользователь %s</word>
-  <word key="acplog__members_edited" js="0">Изменён пользователь %s</word>
+  <word key="acplog__members_created" js="0">Создан пользователь: %s</word>
+  <word key="acplog__members_edited" js="0">Изменён пользователь: %s</word>
   <word key="acplog__members_edited_prefs" js="0">Изменены настройки пользователя: %s</word>
   <word key="acplog__members_edited_profile" js="0">Изменены данные профиля пользователя: %s</word>
-  <word key="acplog__members_edited_content" js="0">Изменен счетчик публикаций пользователя: %s</word>
-  <word key="acplog__members_edited_rep" js="0">Изменен уровень репутации пользователя: %s</word>
-  <word key="acplog__members_edited_password" js="0">Изменен пароль пользователя: %s</word>
-  <word key="acplog__members_edited_email" js="0">Изменен email-адрес пользователя: %s</word>
+  <word key="acplog__members_edited_content" js="0">Изменён счетчик публикаций пользователя: %s</word>
+  <word key="acplog__members_edited_rep" js="0">Изменён уровень репутации пользователя: %s</word>
+  <word key="acplog__members_edited_password" js="0">Изменён пароль пользователя: %s</word>
+  <word key="acplog__members_edited_email" js="0">Изменён email-адрес пользователя: %s</word>
   <word key="acplog__members_edited_name" js="0">Изменено имя пользователя: %s</word>
   <word key="acplog__members_edited_groups" js="0">Изменены группы пользователя: %s</word>
   <word key="acplog__members_edited_mfa" js="0">Изменены настройки двухфакторной аутентификации пользователя: %s</word>
@@ -2096,16 +2096,16 @@
   <word key="acplog__members_edited_cover_photo" js="0">Изменена обложка профиля пользователя: %s</word>
   <word key="acplog__members_edited_login" js="0">Изменены настройки синхронизации пользователя: %s</word>
   <word key="acplog__members_edited_login_unlink" js="0">Отвязан социальный профиль пользователя: %s</word>
-  <word key="acplog__members_disabled_autologin" js="0">Отключен автоматический вход с устройства пользователя: %s</word>
-  <word key="acplog__members_deleted" js="0">Удалён пользователь %s</word>
+  <word key="acplog__members_disabled_autologin" js="0">Отключён автоматический вход с устройства пользователя: %s</word>
+  <word key="acplog__members_deleted" js="0">Удалён пользователь: %s</word>
   <word key="acplog__members_merge" js="0">Объединены пользователи %s и %s</word>
   <word key="acplog__members_unlocked" js="0">Разблокирован пользователь: %s</word>
-  <word key="acplog__members_approved" js="0">Утверждён пользователь %s</word>
-  <word key="acplog__members_deletecontent" js="0">Удалена публикация пользователя: %s</word>
-  <word key="acplog__members_hidecontent" js="0">Скрыта публикация пользователя: %s</word>
-  <word key="acplog__members_mass_delete" js="0">Массово удалены пользователи</word>
-  <word key="acplog__members_mass_move" js="0">Массово перемещены пользователи</word>
-  <word key="acplog__members_mass_unsub" js="0">Массово отписаны пользователи</word>
+  <word key="acplog__members_approved" js="0">Утверждён пользователь: %s</word>
+  <word key="acplog__members_deletecontent" js="0">Удалены публикации пользователя: %s</word>
+  <word key="acplog__members_hidecontent" js="0">Скрыты публикации пользователя: %s</word>
+  <word key="acplog__members_mass_delete" js="0">Пользователи массово удалены</word>
+  <word key="acplog__members_mass_move" js="0">Пользователи массово перемещены</word>
+  <word key="acplog__members_mass_unsub" js="0">Пользователи массово отписаны</word>
   <word key="pp_cover_photo" js="0">Обложка профиля</word>
   <word key="account_unlocked" js="0">Аккаунт разблокирован.</word>
   <word key="account_flagged" js="0">Помечен спамером.</word>
@@ -2124,7 +2124,7 @@
   <word key="stats_messages_title" js="0">Отправленные сообщения за период</word>
   <word key="menu__core_messengerstats_pmstats" js="0">Личные сообщения</word>
   <word key="stats_onlineusers_title" js="0">Онлайн пользователей за период</word>
-  <word key="acplog__statsonlineusers_settings" js="0">Изменены настройки очистки статистики посещений</word>
+  <word key="acplog__statsonlineusers_settings" js="0">Изменены настройки очистки статистики пользователей онлайн</word>
   <word key="stats_online_users_prune" js="0">Очистить журналы</word>
   <word key="acplog__statskeywords_settings" js="0">Изменены настройки отслеживания ключевых слов</word>
   <word key="previous_day_stats" js="0">Предыдущий день</word>
@@ -2145,7 +2145,7 @@
   <word key="member_recount_each_reputation" js="0">Репутация каждого пользователя</word>
   <word key="member_search_results" js="0">Результаты поиска</word>
   <word key="member_view_full_list" js="0">Весь список</word>
-  <word key="acplog__members_loginas" js="0">Выполнен вход: %s</word>
+  <word key="acplog__members_loginas" js="0">Выполнен вход как: %s</word>
   <word key="editing_profile" js="0">Изменение профиля: %s</word>
   <word key="pruning_members" js="0">Очистка пользователей</word>
   <word key="unsubscribing_members" js="0">Отписывание участников</word>
@@ -2392,7 +2392,7 @@
   <word key="modlog__action_unhide" js="0"><![CDATA[Показано: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_pin" js="0"><![CDATA[Закреплено: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unpin" js="0"><![CDATA[Откреплено: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_feature" js="0"><![CDATA[Сделано рекомендованным: %s <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_feature" js="0"><![CDATA[Отмечено важным: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unfeature" js="0"><![CDATA[Сделано обычным: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_lock" js="0"><![CDATA[Закрыто: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unlock" js="0"><![CDATA[Открыто: %s <a href='%s'>%s</a>]]></word>
@@ -2512,13 +2512,13 @@
   <word key="notifications__core_Moderation" js="0">Модерация</word>
   <word key="notifications__warning" js="0">Я получил предупреждение</word>
   <word key="acplog__notifications_edited" js="0">Изменены уведомления</word>
-  <word key="notification_options" js="0">Настройки</word>
+  <word key="notification_options" js="0">Настройки уведомлений</word>
   <word key="notification_options_blurb" js="0">Какие уведомления вы хотели бы получать?</word>
   <word key="notifications_rss_desc" js="0">Уведомления %s %s</word>
   <word key="options" js="0">Настройки</word>
   <word key="notification__new_content" js="0">%s опубликовал %s в %s: %s</word>
-  <word key="notification__new_comment" js="0">%s {!# [1:оставил комментарий][?:оставили комментарии]} в %s</word>
-  <word key="notification__new_review" js="0">{!#[?:%s опубликовал отзыв к]} %s</word>
+  <word key="notification__new_comment" js="0">{!#[1:%s прокомментировал][?:%s прокомментировали]} %s</word>
+  <word key="notification__new_review" js="0">{!#[1:%s оставил][?:%s оставили]} отзыв о %s</word>
   <word key="notification__new_mention" js="0">{!#[?:%s упомянул вас в]} %s: %s</word>
   <word key="notification__new_quote" js="0">{!#[?:%s процитировал вас в]} %s: %s</word>
   <word key="notification__new_embed" js="0">%s {!#[1:опубликовал][*1:опубликовал][?:опубликовали]} ссылку на вашу публикацию в %s: %s</word>
@@ -2554,7 +2554,6 @@
   <word key="mailsub__core_notification_profile_comment" js="0">Новый комментарий в ленте ваших статусов</word>
   <word key="mailsub__core_notification_profile_reply" js="0">Ответ на комментарий в ленте ваших статусов</word>
   <word key="mailsub__core_notification_new_status" js="0"><![CDATA[{$comment->author()->name|raw} опубликовал новый статус]]></word>
-  <word key="mailsub__core_notification_quote" js="0"><![CDATA[{$comment->author()->name|raw} процитировал ваше сообщение]]></word>
   <word key="mailsub__core_notification_warning_mods" js="0">Пользователь предупреждён</word>
   <word key="mailsub__core_registration_complete" js="0">Ваша регистрация завершена!</word>
   <word key="mailsub__core_registration_validate" js="0">Вы должны подтвердить свой аккаунт перед продолжением</word>
@@ -2839,7 +2838,7 @@
   <word key="bmtag_busy_time" js="0">Время, когда было наибольшее количество пользователей онлайн</word>
   <word key="acplogs__bulkmail_edited" js="0">Изменена массовая рассылка: %s</word>
   <word key="acplogs__bulkmail_added" js="0">Добавлена массовая рассылка: %s</word>
-  <word key="acplogs__bulkmail_sent" js="0">Отправлена массовая рассылка: %s</word>
+  <word key="acplogs__bulkmail_sent" js="0">Отправлена или переотправлена массовая рассылка: %s</word>
   <word key="bulkmail_send_info" js="0">Помните, что объемные письма отправляются в пакетном режиме.</word>
   <word key="couldnt_find_bulkmail" js="0">Мы не может найти массовую рассылку для отправки.</word>
   <word key="must_supply_bm_details" js="0">Вы должны ввести тему и содержимое email-письма</word>
@@ -2935,26 +2934,25 @@
   <word key="email_replied" js="0">%s ответил:</word>
   <word key="email_posted_in" js="0">Опубликовано в %s</word>
   <word key="email_mentioned" js="0">Вы были упомянуты %s в %s, %s</word>
-  <word key="email_new_comment" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал комментарий в %s,]]></word>
-  <word key="email_new_comment_guest" js="0">%s (Гость) опубликовал комментарий в %s,</word>
-  <word key="email_new_comment_plain" js="0">%s опубликовал комментарий в %s,</word>
-  <word key="email_new_review" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал отзыв к %s,]]></word>
-  <word key="email_new_review_guest" js="0">%s (Гость) опубликовал отзыв к %s,</word>
-  <word key="email_new_review_plain" js="0">%s опубликовал отзыв к %s,</word>
+  <word key="email_new_comment" js="0"><![CDATA[<a href='%s'>%s</a> оставил комментарий к %s,]]></word>
+  <word key="email_new_comment_guest" js="0">%s (Гость) оставил комментарий к %s,</word>
+  <word key="email_new_comment_plain" js="0">%s оставил комментарий к %s,</word>
+  <word key="email_new_review" js="0"><![CDATA[<a href='%s'>%s</a> оставил отзыв о %s,]]></word>
+  <word key="email_new_review_guest" js="0">%s (Гость) оставил отзыв о %s,</word>
+  <word key="email_new_review_plain" js="0">%s оставил отзыв о %s,</word>
   <word key="email_new_content" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s,]]></word>
-  <word key="email_new_content_guest" js="0">%s (Гость) опубликовал %s,</word>
   <word key="email_new_content_plain" js="0">%s опубликовал %s,</word>
   <word key="email_new_content_bulk" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s,]]></word>
   <word key="email_new_content_bulk_guest" js="0">%s (Гость) опубликовал %s,</word>
   <word key="email_new_content_bulk_plain" js="0">%s опубликовал %s,</word>
   <word key="email_new_content_unapproved" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s (ожидает утверждения),]]></word>
-  <word key="email_new_content_unapproved_guest" js="0">%s (гость) опубликовал %s (ожидает утверждения),</word>
+  <word key="email_new_content_unapproved_guest" js="0">%s (Гость) опубликовал %s (ожидает утверждения),</word>
   <word key="email_new_content_unapproved_plain" js="0">%s опубликовал %s (ожидает утверждения),</word>
   <word key="email_new_content_unapproved_bulk" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s (ожидает утверждения),]]></word>
-  <word key="email_new_content_unapproved_bulk_guest" js="0">%s (гость) опубликовал %s (ожидает утверждения),</word>
+  <word key="email_new_content_unapproved_bulk_guest" js="0">%s (Гость) опубликовал %s (ожидает утверждения),</word>
   <word key="email_new_content_unapproved_bulk_plain" js="0">%s опубликовал %s (ожидает утверждения),</word>
-  <word key="email_new_profile_comment" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал сообщение в вашей ленте.]]></word>
-  <word key="email_new_profile_comment_plain" js="0">%s опубликовал сообщение в вашей ленте.</word>
+  <word key="email_new_profile_comment" js="0"><![CDATA[<a href='%s'>%s</a> оставил сообщение в вашем профиле.]]></word>
+  <word key="email_new_profile_comment_plain" js="0">%s оставил сообщение в вашем профиле.</word>
   <word key="email_new_status" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал новый статус.]]></word>
   <word key="email_new_status_plain" js="0">%s опубликовал новый статус.</word>
   <word key="email_new_profile_reply" js="0"><![CDATA[<a href='%s'>%s</a> ответил на комментарий в профиле.]]></word>
@@ -3493,9 +3491,9 @@
   <word key="acprestrictions_name" js="0">Администратор</word>
   <word key="acprestrictions_row_updated" js="0">Последнее обновление</word>
   <word key="acprestrictions_app" js="0">Предоставить полный доступ к %s</word>
-  <word key="acplog__acpr_created" js="0">Пользователь %s повышен до администратора</word>
+  <word key="acplog__acpr_created" js="0">Сделал %s администратором</word>
   <word key="acplog__acpr_edited" js="0">Изменены права администратора %s</word>
-  <word key="acplog__acpr_deleted" js="0">Пользователь %s понижен с администратора</word>
+  <word key="acplog__acpr_deleted" js="0">Разжаловал %s с позиции администратора</word>
   <word key="admin_allperm_warning" js="0">Этот администратор имеет полные права доступа и также получит их при установке новых приложений. Если вы измените параметры ниже, вы должны будете произвести установку прав доступа для новых приложений.</word>
   <word key="deleted_group" js="0">Удалить группу</word>
   <word key="module__core_messaging" js="0">Сообщения</word>
@@ -3513,7 +3511,7 @@
   <word key="module__core_membersettings" js="0">Настройки пользователя</word>
   <word key="module__core_modcp" js="0">Панель модератора</word>
   <word key="module__core_contact" js="0">Обратная связь</word>
-  <word key="module__core_dashboard" js="0">Админцентр</word>
+  <word key="module__core_dashboard" js="0">Главная панель</word>
   <word key="module__core_overview" js="0">Обзор</word>
   <word key="module__core_customization" js="0">Внешний вид</word>
   <word key="module__core_languages" js="0">Языки</word>
@@ -3523,7 +3521,7 @@
   <word key="module__core_promotion" js="0">Продвижение</word>
   <word key="module__core_stats" js="0">Статистика</word>
   <word key="module__core_support" js="0">Поддержка</word>
-  <word key="module__core_logsettings" js="0">Настройки журналирования</word>
+  <word key="module__core_logsettings" js="0">Настройки журналов</word>
   <word key="module__core_diagnostics" js="0">Диагностика</word>
   <word key="board_name" js="0">Название сайта</word>
   <word key="site_online" js="0">Сайт включен и доступен</word>
@@ -3566,8 +3564,6 @@
   <word key="site_twitter_id_desc" js="0"><![CDATA[@username аккаунта сайта в Twitter, которое используется в <a href='{external.twitter-card}' rel='noopener'>Twitter Cards</a>.]]></word>
   <word key="site_twitter_id_placeholder" js="0">@twitteruserid</word>
   <word key="menutab__core_icon" js="0">cogs</word>
-  <word key="menutab__members_icon" js="0">user</word>
-  <word key="menutab__customization_icon" js="0">paint-brush</word>
   <word key="menutab__support_icon" js="0">life-ring</word>
   <word key="menutab__core" js="0">Система</word>
   <word key="menu__core_applications" js="0">Возможности</word>
@@ -3580,9 +3576,9 @@
   <word key="menu__core_discovery_search" js="0">Настройки поиска</word>
   <word key="menutab__members" js="0">Пользователи</word>
   <word key="menu__core_members" js="0">Пользователи</word>
-  <word key="menu__core_members_members" js="0">Список пользователей</word>
-  <word key="menu__core_members_groups" js="0">Группы пользователей</word>
-  <word key="menu__core_members_promotions" js="0">Продвижение из групп</word>
+  <word key="menu__core_members_members" js="0">Пользователи</word>
+  <word key="menu__core_members_groups" js="0">Группы</word>
+  <word key="menu__core_members_promotions" js="0">Продвижение в группы</word>
   <word key="menu__core_membersettings" js="0">Настройки</word>
   <word key="menu__core_membersettings_reputation" js="0">Репутация и реакции</word>
   <word key="menu__core_staff" js="0">Администрация</word>
@@ -3616,8 +3612,6 @@
   <word key="menu__core_logs" js="0">Журналы</word>
   <word key="menutab__community" js="0">Сообщество</word>
   <word key="menutab__community_icon" js="0">comments</word>
-  <word key="menutab__stats" js="0">Статистика</word>
-  <word key="menutab__stats_icon" js="0">line-chart</word>
   <word key="menu__core_overview" js="0">Обзор</word>
   <word key="menu__core_members_registrationstats" js="0">Статистика регистраций</word>
   <word key="menu__core_members_pmstats" js="0">Статистика ЛС</word>
@@ -4012,8 +4006,8 @@
   <word key="triggered_guest" js="0">Ошибка зафиксирована у гостя</word>
   <word key="prune_log_system" js="0">Очищать журнал системы</word>
   <word key="log_backtrace" js="0">Трассировка</word>
-  <word key="acplog__log_delete" js="0">Удалёна запись %s из журнала %s</word>
-  <word key="acplog__log_delete_uncategorised" js="0">Удалёна запись из журнала %s</word>
+  <word key="acplog__log_delete" js="0">Из журнала %s удалена запись от %s</word>
+  <word key="acplog__log_delete_uncategorised" js="0">Удалена запись журнала от %s</word>
   <word key="log_view_file_logs" js="0">Просмотреть файлы журналов</word>
   <word key="log_view_file_logs_info" js="0"><![CDATA[Если журналы должны записываться, но запись в базу не работает, будет производиться запись в файлы вместо этого. Например, это может возникнуть, если база данных полностью недоступна. Журналы в настоящий момент записываются в директорию <code>%s</code> <a class='ipsType_small' href='{external.log_directory}' target='_blank' rel='noopener'>(изменить)</a>.]]></word>
   <word key="log_file_could_not_delete" js="0">Файл не может быть удалён</word>
@@ -4324,7 +4318,7 @@
   <word key="theme_template_export_version" js="0">Версия</word>
   <word key="theme_template_export_long_version" js="0">ID версии</word>
   <word key="theme_template_export_author_name" js="0">Имя разработчика</word>
-  <word key="theme_template_export_author_url" js="0">Сайт разработчика</word>
+  <word key="theme_template_export_author_url" js="0">Ссылка на автора</word>
   <word key="theme_set_import" js="0">Загрузить новую версию</word>
   <word key="theme_set_add_button" js="0">Добавить стиль</word>
   <word key="theme_set_export_button" js="0">Скачать</word>
@@ -4468,7 +4462,7 @@
   <word key="themesetting_headline_font_desc" js="0">По желанию, выберите шрифт Google Web Font для использования для заголовка сайта. По умолчанию, используется шрифт, определяемый в таблице стилей данного стиля.</word>
   <word key="themesetting_comment_count" js="0">Фон счётчика комментариев</word>
   <word key="themesetting_comment_count_font" js="0">Шрифт счётчика комментариев</word>
-  <word key="themesetting_featured_color" js="0">Цвет рекомендованного</word>
+  <word key="themesetting_featured_color" js="0">Цвет важного/рекомендуемого</word>
   <word key="themesetting_subscription_active" js="0">Цвет активной подписки</word>
   <word key="themesetting_js_position_head" js="0"><![CDATA[Внутри тега &lt;head&gt;]]></word>
   <word key="themesetting_js_position_body" js="0"><![CDATA[Перед тегом &lt;/body&gt; ]]></word>
@@ -4532,9 +4526,9 @@
   <word key="googlemaps_desc" js="0"><![CDATA[Карты будут отображаться для местоположения клубов, событий в календаре, местоположения  из данных об изображении в галерее, местоположения транзакции, при просмотре информации об IP-адресе и в других местах.<br>Требуемые API: <a href='{external.googlemaps_jsapi}' target='_blank' rel='noopener'>Maps Javascript API</a>, <a href='{external.googlemaps_jsapi}' target='_blank' rel='noopener'>Maps Static API</a> и <a href='{external.googlemaps_geocodeapi}' target='_blank' rel='noopener'>Geocoding API</a>.]]></word>
   <word key="googleplacesautocomplete" js="0">Автоматически заполнять адреса?</word>
   <word key="googleplacesautocomplete_desc" js="0"><![CDATA[Включает автозаполнение при вводе адреса (для местоположения клубов, событий в календаре, при оплате и так далее).<br>Требуемые API: <a href='{external.googlemaps_places}' target='_blank' rel='noopener'>Places API</a>.]]></word>
-  <word key="acplog__enhancements_enable" js="0">Расширение %s включено</word>
-  <word key="acplog__enhancements_disable" js="0">Расширение %s выключено</word>
-  <word key="acplog__enhancements_edited" js="0">Расширение %s изменено</word>
+  <word key="acplog__enhancements_enable" js="0">Включено расширение сообщества: %s</word>
+  <word key="acplog__enhancements_disable" js="0">Выключено расширение сообщества: %s</word>
+  <word key="acplog__enhancements_edited" js="0">Изменено расширение сообщества: %s</word>
   <word key="enhancements__core_GoogleAnalytics" js="0">Google Analytics</word>
   <word key="acplog__analytics_edited" js="0">Изменены настройки аналитики</word>
   <word key="ipbseo_ga_provider" js="0">Сервис аналитики</word>
@@ -4626,7 +4620,7 @@
   <word key="notificationsettings_disabled" js="0">Отключённые способы уведомления</word>
   <word key="notificationsettings_editable" js="0">Пользователь может изменять?</word>
   <word key="acplog__notification_settings" js="0">Изменены настройки уведомлений</word>
-  <word key="acplog__notification_settings_existing" js="0">Обновлены настройки уведомлений существующих пользователей</word>
+  <word key="acplog__notification_settings_existing" js="0">Обновлены настройки уведомлений у существующих пользователей</word>
   <word key="notification_pruning" js="0">Очистка</word>
   <word key="prune_notifications" js="0">Удалять уведомления</word>
   <word key="admin_notification_disabled" js="0">Администратор запретил изменение этого параметра.</word>
@@ -4654,9 +4648,9 @@
   <word key="wa_rpa" js="0">Только чтение</word>
   <word key="wa_suspend" js="0">Бан</word>
   <word key="wa_override" js="0">Модераторы могут переопределить вышеуказанные настройки?</word>
-  <word key="acplog__wa_created" js="0">Создано наказание для %s баллов</word>
-  <word key="acplog__wa_edited" js="0">Изменено наказание для %s баллов</word>
-  <word key="acplog__wa_deleted" js="0">Удалено наказание для %s баллов</word>
+  <word key="acplog__wa_created" js="0">Создано наказание за %s баллов</word>
+  <word key="acplog__wa_edited" js="0">Изменено наказание за %s баллов</word>
+  <word key="acplog__wa_deleted" js="0">Удалено наказание за %s баллов</word>
   <word key="warning_settings" js="0">Настройки предупреждений</word>
   <word key="acplog__warn_settings" js="0">Изменены настройки предупреждений</word>
   <word key="warn_on" js="0">Включить систему предупреждений</word>
@@ -4743,13 +4737,13 @@
   <word key="warning_custom_noaction_desc" js="0">Если включено, и модератор выбирает причину предупреждения, которая даёт пользователю количество баллов, меньшее, чем для любого наказания, модератор сможет установить нарушение пользователю. Если нет, будет выдано устное предупреждение.</word>
   <word key="warnings_enable_other" js="0">Может использовать другую причину для предупреждений</word>
   <word key="warn_mod_day" js="0">Допустимая частота выдача предупреждений</word>
-  <word key="acplog__moderator_created" js="0">Пользователь %s повышен до модератора</word>
+  <word key="acplog__moderator_created" js="0">Сделал %s модератором</word>
   <word key="acplog__moderator_edited" js="0">Изменены права модератора %s</word>
-  <word key="acplog__moderator_deleted" js="0">Пользователь %s понижен с модератора</word>
+  <word key="acplog__moderator_deleted" js="0">Разжаловал %s с позиции модератора</word>
   <word key="modperms__core_Content" js="0">Содержимое</word>
   <word key="can_pin_content" js="0">Может закреплять публикации</word>
   <word key="can_unpin_content" js="0">Может откреплять публикации</word>
-  <word key="can_feature_content" js="0">Может отмечать публикации рекомендованными</word>
+  <word key="can_feature_content" js="0">Может отмечать публикации важными</word>
   <word key="can_unfeature_content" js="0">Может отмечать все публикации обычными</word>
   <word key="can_edit_content" js="0">Может изменять публикации</word>
   <word key="can_hide_content" js="0">Может скрывать публикации</word>
@@ -4767,8 +4761,8 @@
   <word key="can_modify_profiles" js="0">Может изменять профили пользователей</word>
   <word key="can_unban" js="0">Может разбанивать пользователей?</word>
   <word key="can_remove_followers" js="0">Может удалять подписчиков</word>
-  <word key="can_feature_comments" js="0">Может рекомендовать все комментарии</word>
-  <word key="can_unfeature_comments" js="0">Может удалять рекомендацию со всех комментариев</word>
+  <word key="can_feature_comments" js="0">Может отмечать рекомендуемыми все комментарии</word>
+  <word key="can_unfeature_comments" js="0">Может снимать рекомендацию со всех комментариев</word>
   <word key="can_add_item_message" js="0">Может добавлять примечания к публикациям</word>
   <word key="can_add_item_message_desc" js="0">Примечания отображаются в верхней части публикации перед комментариями, и могут быть использованы модераторами для отображения какой-либо информации или правил.</word>
   <word key="can_edit_item_message" js="0">Может изменять примечания</word>
@@ -4792,7 +4786,7 @@
   <word key="can_close_polls" js="0">Может закрывать опросы</word>
   <word key="can_close_polls_desc" js="0">Позволяет закрывать опросы, но оставлять темы открытыми.</word>
   <word key="can_remove_reactions" js="0">Может удалять реакции</word>
-  <word key="can_feature_comments_content" js="0">Может отмечать комментарии рекомендованными</word>
+  <word key="can_feature_comments_content" js="0">Может отмечать комментарии важными</word>
   <word key="can_unfeature_comments_content" js="0">Может отмечать комментарии обычными</word>
   <word key="can_add_item_message_content" js="0">Может добавлять примечания</word>
   <word key="can_edit_item_message_content" js="0">Может изменять примечания</word>
@@ -4954,7 +4948,7 @@
   <word key="dir_not_provided" js="0">Не указана директория. Пожалуйста, проверьте настройки конфигурации хранения.</word>
   <word key="allowed_attachment_types" js="0">Разрешённые типы вложений</word>
   <word key="filelog_settings" js="0">Настройка журнала файлов</word>
-  <word key="acplog__filelog_settings" js="0">Настройки файла журналов обновлены</word>
+  <word key="acplog__filelog_settings" js="0">Обновлены настройки журнала файлов</word>
   <word key="file_log_pruning" js="0">Очистить файл журналов</word>
   <word key="atype_extension" js="0">Расширение</word>
   <word key="atype_mimetype" js="0">MIME-тип</word>
@@ -4976,7 +4970,7 @@
   <word key="r__files_settings" js="0">Может изменять настройки хранения</word>
   <word key="r__orphaned_files" js="0">Может удалять потерянные файлы</word>
   <word key="acplogs__file_deleted" js="0">Удалён загруженный файл: %s</word>
-  <word key="acplogs__files_config_moved" js="0">Файлы перемещены в новое место хранения</word>
+  <word key="acplogs__files_config_moved" js="0">Файлы перемещены в новый метод хранения</word>
   <word key="acplogs__files_config_added" js="0">Добавлен метод хранения</word>
   <word key="acplogs__files_config_changed" js="0">Изменён метод хранения</word>
   <word key="acplogs__files_config_removed" js="0">Удалён метод хранения</word>
@@ -5027,7 +5021,7 @@
   <word key="orphaned_files_tasks_added" js="0">Фоновая задача удаления потерянных файлов была добавлена.</word>
   <word key="finding_orphaned_files" js="0">Поиск потерянных файлов в %s</word>
   <word key="deleting_orphaned_files" js="0">Удаление потерянных файлов в %s</word>
-  <word key="acplogs__orphaned_files_tool" js="0">%s потерянных файлов удалено</word>
+  <word key="acplogs__orphaned_files_tool" js="0">Удалено %s потерянных файлов</word>
   <word key="removing_orphaned_files" js="0">Удаление потерянных файлов...</word>
   <word key="rebuilding_stuff" js="0">Перестроение: %s</word>
   <word key="rebuilding_sitemap_stuff" js="0">Перестроение карты сайта: %s</word>
@@ -5083,7 +5077,7 @@
   <word key="acplogs__profanity_filter_edited" js="0">Изменён фильтр слов</word>
   <word key="profanity_bypass_groups" js="0"><![CDATA[%s может обходить фильтры слов. <a href='{internal.app=core&module=members&controller=groups&searchResult=g_bypass_badwords}'>Настроить</a>.]]></word>
   <word key="profanity_no_bypass_groups" js="0"><![CDATA[Вы можете позволить некоторым группам пользователей обходить фильтры слов в <a href='{internal.app=core&module=members&controller=groups&searchResult=g_bypass_badwords}'>настройках групп</a>.]]></word>
-  <word key="menu__core_promotion" js="0">Продвижение</word>
+  <word key="menu__core_promotion" js="0">Продвижение сайта</word>
   <word key="menu__core_promotion_seo" js="0">Поисковая оптимизация</word>
   <word key="button_link_seo" js="0">Настройки SEO оптимизации</word>
   <word key="r__seo" js="0">SEO оптимизация</word>
@@ -5299,10 +5293,10 @@
   <word key="new_username" js="0">Новое имя пользователя</word>
   <word key="username_changed" js="0">Имя пользователя изменено</word>
   <word key="username_err_nochange" js="0">Вы не можете изменить имя пользователя.</word>
-  <word key="username_err_days" js="0">Вы не можете изменить имя пользователя в данный момент т.к. это разрешено только пользователям, которые зарегистрированы как минимум {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} назад. Вы сможете изменить имя пользователя %s.</word>
+  <word key="username_err_days" js="0">Сейчас вы не можете изменить своё имя, так как своё имя могут изменять только пользователи, зарегистрированные более {# [*1:дня][*11:дней][?:дней]} назад. Вы сможете изменить своё имя пользователя %s.</word>
   <word key="username_err_posts" js="0">Вы не можете изменить имя пользователя в данный момент т.к. вам необходимо иметь более {# [*1:утверждённого сообщения, комментария][*11:утверждённых сообщений, комментариев][*12:утверждённых сообщений, комментариев][*13:утверждённых сообщений, комментариев][*14:утверждённых сообщений, комментариев][?:утверждённых сообщений, комментариев]} и так далее для изменения имени пользователя. Вам осталось ещё %d.</word>
   <word key="username_err_limit" js="0">Вы не можете изменить имя пользователя т.к. вы недавно меняли его. Разрешено производить не более {# [*1:изменения][*11:изменений][*12:изменений][*13:изменений][*14:изменений][?:изменений]} за %d дней.</word>
-  <word key="sig_err_days" js="0">Свои подписи могут изменять только пользователи, у которых с момента регистрации прошло {!# [*1:прошёл # день][*2:прошло # дня][*3:прошло # дня][*4:прошло # дня][*11:прошло # дней][*12:прошло # дней][*13:прошло # дней][*14:прошло # дней][1:прошёл день][?:прошло # дней]}. Вы сможете изменить свою подпись %s.</word>
+  <word key="sig_err_days" js="0">Свои подписи могут изменять только пользователи, зарегистрированные более {# [*1:дня][*11:дней][?:дней]} назад. Вы сможете изменить свою подпись %s.</word>
   <word key="sig_err_posts" js="0">Свои подписи могут изменять только пользователи, имеющие {# [*1:опубликованное сообщение, комментарий][*2:опубликованных сообщения, комментария][*3:опубликованных сообщения, комментария][*4:опубликованных сообщения, комментария][*11:опубликованных сообщений, комментариев][*12:опубликованных сообщений, комментариев][*13:опубликованных сообщений, комментариев][*14:опубликованных сообщений, комментариев][?:опубликованных сообщений, комментариев]}. Вам необходимо опубликовать ещё %d.</word>
   <word key="signature_changed" js="0">Подпись изменена</word>
   <word key="settings_handler_err" js="0">Ваш аккаунт не может быть обновлён. Пожалуйста, свяжитесь с нами для получения помощи.</word>
@@ -5476,7 +5470,7 @@
   <word key="posts_add_nofollow_exclude" js="0">Домены, на которые должны переходить поисковые системы.</word>
   <word key="posts_add_nofollow_exclude_desc" js="0">rel='nofollow' не будет добавляться к ссылкам на доменные имена, которые указаны здесь. Добавьте любые домены, с которыми связан ваш сайт, которые он контролирует или с которыми у вас есть рекламный контракт, который обязует вас разрешать контроль за переходом по ссылкам. Введите только доменное имя, а не полный адрес, например &quot;site.com&quot;, а не &quot;https://site.com&quot;.</word>
   <word key="acplogs__url_filter_settings" js="0">Изменены настройки фильтра ссылок</word>
-  <word key="acplogs__posting_general_settings" js="0">Изменены настройки публикации</word>
+  <word key="acplogs__posting_general_settings" js="0">Изменены общие настройки публикации</word>
   <word key="posting_attachments" js="0">Вложения</word>
   <word key="attach_allowed_types" js="0">Разрешённые типы файлов</word>
   <word key="attach_allowed_types_all" js="0">Все файлы</word>
@@ -5844,7 +5838,7 @@
   <word key="system_check_recommended_footer" js="0">Вам следует связаться с вашим хостинг-провайдером или системным администратором и попросить его решить эти проблемы.</word>
   <word key="system_check_recommended_email" js="0">Войдите в Админцентр для просмотра подробной информации по поводу этих рекомендаций.</word>
   <word key="acplogs__security_settings" js="0">Обновлены настройки безопасности</word>
-  <word key="acplogs__security_conf" js="0">Конфигурационный файл (conf_global.php) сделан только для чтения</word>
+  <word key="acplogs__security_conf" js="0">Конфигурационный файл (conf_global.php) сделан доступным только для чтения</word>
   <word key="security_header_ips" js="0">Безопасность</word>
   <word key="security_header_accounts" js="0">Безопасность аккаунта</word>
   <word key="device_management" js="0">Разрешить пользователям видеть и управлять авторизованными устройствами?</word>
@@ -6724,7 +6718,7 @@
   <word key="report_status_2" js="0">Проверяется</word>
   <word key="report_status_3" js="0">Завершена</word>
   <word key="report_from" js="0">От %s %s</word>
-  <word key="report__comment_placeholder" js="0">Комментарий к жалобе...</word>
+  <word key="report__comment_placeholder" js="0">Оставить комментарий к жалобе...</word>
   <word key="report_submit_comment" js="0">Добавить комментарий</word>
   <word key="report_center_link" js="0">Все жалобы</word>
   <word key="change_report_status" js="0">Изменить статус</word>
@@ -7142,7 +7136,6 @@
   <word key="content_top" js="0">Над содержимым страницы</word>
   <word key="sidebar" js="0">В боковом блоке</word>
   <word key="announce_color" js="0">Цветовой стиль</word>
-  <word key="menutab__support" js="0">Поддержка</word>
   <word key="menu__core_diagnostics" js="0">Средства диагностики</word>
   <word key="menu__core_diagnostics_errorLogs" js="0">Журналы ошибок</word>
   <word key="support" js="0">Поддержка</word>
@@ -7171,7 +7164,7 @@
   <word key="you_rated_x_stars" js="0">Вы оценили это в %s/%s. Средний рейтинг сообщества %s.</word>
   <word key="review_text" js="0">Ваш отзыв</word>
   <word key="_review_placeholder" js="0">Добавить отзыв...</word>
-  <word key="add_review" js="0">Добавить отзыв</word>
+  <word key="add_review" js="0">Оставить отзыв</word>
   <word key="write_a_review" js="0">Написать отзыв</word>
   <word key="most_helpful" js="0">Наиболее полезные</word>
   <word key="newest" js="0">Новые</word>
@@ -7189,7 +7182,7 @@
   <word key="no_reviews_yet" js="0">Ещё нет отзывов</word>
   <word key="num_comments" js="0">{# [*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
   <word key="num_comments_uc" js="0">{# [*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
-  <word key="comments" js="0">{!# [*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
+  <word key="comments" js="0">{!#[*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
   <word key="num_replies" js="0">{# [*1:ответ][*2:ответа][*3:ответа][*4:ответа][*11:ответов][*12:ответов][*13:ответов][*14:ответов][?:ответов]}</word>
   <word key="user_feedback" js="0">Отзывы пользователей</word>
   <word key="login_to_comment" js="0">Пожалуйста, войдите, используя форму ниже, чтобы оставить комментарий на этой странице</word>
@@ -7201,8 +7194,8 @@
   <word key="edit_review" js="0">Изменить отзыв</word>
   <word key="no_edit_history" js="0">Здесь нет истории для отображения или этот комментарий был изменён модератором</word>
   <word key="feature_mod_note" js="0">Примечание модератора</word>
-  <word key="feature_mod_note_desc" js="0">Краткое примечание об этой публикации, которое будет отображаться пользователям.</word>
-  <word key="this_is_a_featured_post" js="0">Рекомендованный комментарий</word>
+  <word key="feature_mod_note_desc" js="0">Краткое примечание к этой публикации, которое будет отображаться пользователям.</word>
+  <word key="this_is_a_featured_post" js="0">Важный комментарий</word>
   <word key="recommended" js="0">Рекомендовано</word>
   <word key="recommended_replies" js="0">Рекомендованные комментарии</word>
   <word key="recommend_content" js="0">Порекомендовать</word>
@@ -7245,7 +7238,7 @@
   <word key="widget_feed_status" js="0">Фильтры</word>
   <word key="widget_feed_status_locked" js="0">Статус</word>
   <word key="widget_feed_status_pinned" js="0">Закреплена</word>
-  <word key="widget_feed_status_featured" js="0">Рекомендованная</word>
+  <word key="widget_feed_status_featured" js="0">Важное</word>
   <word key="mod_confirm_either" js="0">Неважно</word>
   <word key="widget_feed_author" js="0">Авторы</word>
   <word key="widget_feed_author_desc" js="0">Если задано, то будут отображаться публикации только от выбранных пользователей.</word>
@@ -7261,7 +7254,7 @@
   <word key="widget_feed_tags_desc" js="0">При вводе нескольких тегов, если несколько тегов совпадает, то отобразится публикация.</word>
   <word key="widget_feed_item_status_locked" js="0">%s - Статус</word>
   <word key="widget_feed_item_status_pinned" js="0">%s - Закреплено</word>
-  <word key="widget_feed_item_status_featured" js="0">%s - Рекомендованная</word>
+  <word key="widget_feed_item_status_featured" js="0">%s важная</word>
   <word key="widget_feed_comment_status_visible" js="0">Видимость</word>
   <word key="widget_feed_item_author" js="0">%s - Автор</word>
   <word key="widget_feed_item_min_posts" js="0">%s - Минимум сообщений</word>
@@ -7283,7 +7276,7 @@
   <word key="notification__profile_comment" js="0">%s оставил комментарий в вашей ленте</word>
   <word key="notification__profile_reply" js="0">%s ответил на статус.</word>
   <word key="notification__new_status" js="0">%s опубликовал новый статус.</word>
-  <word key="show_prev_comments" js="0">Показать предыдущий комментарий</word>
+  <word key="show_prev_comments" js="0">Показать предыдущие комментарии</word>
   <word key="show_next_comments" js="0">Показать следующий комментарий</word>
   <word key="x_more" js="0">ещё {!# [?:один][?:#]}</word>
   <word key="status_reply" js="0">Ответ</word>
@@ -7734,7 +7727,7 @@
   <word key="utf8mb4_converter_conf_2b" js="0">Или так:</word>
   <word key="utf8mb4_converter_conf_3" js="0"><![CDATA[Измените <code>false</code> на <code>true</code>. Если ни одной строки не существует, то добавьте вторую версию кода в конец файла и измените <code>false</code> на <code>true</code>. Не изменяйте больше ничего, включая запятую или точку с запятой после <code>false</code>.]]></word>
   <word key="utf8mb4_converter_finished" js="0">Конвертация базы данных завершена.</word>
-  <word key="acplog__ran_utf8mb4_converter" js="0">Запущена конвертер UTF8MB4</word>
+  <word key="acplog__ran_utf8mb4_converter" js="0">Запущен конвертер UTF8MB4</word>
   <word key="recovery_mode" js="0">Режим восстановления</word>
   <word key="recovery_mode_disabled" js="0">Режим восстановления в данный момент выключен</word>
   <word key="recovery_mode_remove_constant" js="0"><![CDATA[Перед тем, как вы сможете использовать Админцентр, вы должны изменить файл "constants.php" и удалить следующую строку:<br><pre>define( 'RECOVERY_MODE', TRUE );</pre>]]></word>
@@ -7831,7 +7824,7 @@
   <word key="rss_import_auto_follow" js="0">Автоматически подписывать автора на созданную им тему.</word>
   <word key="rss_run" js="0">Проверить обновления</word>
   <word key="rss_run_error" js="0">Лента не может быть обновлена. Повторите попытку позже.</word>
-  <word key="acplog__rss_ran" js="0">Запущен импорт ленты: %s</word>
+  <word key="acplog__rss_ran" js="0">Запущен импорт ленты - %s</word>
   <word key="menu__core_applications_api" js="0">REST и OAuth</word>
   <word key="api_keys" js="0">Ключи API</word>
   <word key="api_id" js="0">Ключ API</word>
@@ -7879,7 +7872,7 @@
   <word key="api_log_blurb" js="0">Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после %d дней.</word>
   <word key="api_log_blurb_change" js="0"><![CDATA[Запрос API журналируется, если в настройках ключа включено журналирование запрашиваемой конечной точки, или если используется некорректный ключ. Журналы автоматически очищаются после <a href='{internal.app=core&module=applications&controller=apiLogs&do=settings}' data-ipsDialog data-ipsDialog-title='Журналы API'>%s дней</a>.]]></word>
   <word key="api_https_warning" js="0">Настоятельно рекомендуется использовать https вместо http при получении доступа к API. Использование http приведет к возможной утечке чувствительных данных в открытую сеть.</word>
-  <word key="acplogs__api_log_settings" js="0">Обновлены настройки очистки журналов API.</word>
+  <word key="acplogs__api_log_settings" js="0">Обновлены настройки очистки журналов API</word>
   <word key="api_log_prune" js="0">Очистить журналы API</word>
   <word key="r__api" js="0">REST и OAuth</word>
   <word key="r__api_manage" js="0">Может просматривать ключи API</word>
@@ -7890,7 +7883,7 @@
   <word key="r__api_logs" js="0">Может просматривать журналы API</word>
   <word key="r__api_logs_settings" js="0">Может изменять настройки очистки журналов API</word>
   <word key="r__api_logs_delete" js="0">Может удалять журналы API</word>
-  <word key="acplog__api_log_deleted" js="0">Удалён журнал API №%d</word>
+  <word key="acplog__api_log_deleted" js="0">Удалён журнал API № %d</word>
   <word key="__api_core_members" js="0">Пользователи</word>
   <word key="__api_core_messages" js="0">Личные сообщения</word>
   <word key="__api_core_search" js="0">Поиск</word>
@@ -8058,7 +8051,7 @@
   <word key="contact_redirect" js="0">Перенаправить по ссылке</word>
   <word key="ext__ContactUs" js="0">Добавить дополнительное поле в форму обратной связи и предоставить контроль над тем, куда должно быть направлено сообщение из отправленной формы</word>
   <word key="acplogs__contactus_settings" js="0">Обновлены настройки Обратной связи</word>
-  <word key="menu__core_settings_mfa" js="0">Аутентификация</word>
+  <word key="menu__core_settings_mfa" js="0">Аутентификация 2FA</word>
   <word key="mfa_handlers" js="0">Способы</word>
   <word key="mfa_settings" js="0">Настройки</word>
   <word key="mfa_blurb" js="0"><![CDATA[Двухфакторная аутентификация позволяет пользователям вашего сообщества защищать свои аккаунты дополнительным способом, наряду с обычным именем пользователя и паролем. Разные <strong>методы</strong> предлагают разные способы защиты аккаунтов. Пользователям не будет предложено ни одного варианта двухфакторной аутентификации до тех пор, пока не будет включен хотя бы один из этих методов.]]></word>
@@ -8412,7 +8405,7 @@
   <word key="promote_facebook_page_prefix" js="0">%s</word>
   <word key="promote_facebook_group_prefix" js="0"><![CDATA[<i class='fa fa-users' aria-hidden='true'></i> %s]]></word>
   <word key="promotes_no_facebook_properties" js="0">Вы не выбрали страницы или группы Facebook</word>
-  <word key="acplogs__promote_save" js="0">Настройки продвижения обновлены - %s</word>
+  <word key="acplogs__promote_save" js="0">Обновлены настройки продвижения - %s</word>
   <word key="acplogs__promote_changed_links" js="0">настройки ссылки</word>
   <word key="acplogs__promote_changed_twitter" js="0">Настройки Twitter</word>
   <word key="acplogs__promote_changed_facebook" js="0">Настройки Facebook</word>
@@ -8645,7 +8638,7 @@
   <word key="club_modperm_reply_to_locked" js="0">Отвечать в закрытые публикации</word>
   <word key="club_modperm_delete" js="0">Удалять публикации</word>
   <word key="club_modperm_split_merge" js="0">Объединять и разделять публикации</word>
-  <word key="acplog__club_settings" js="0">Изменены настройки клуба</word>
+  <word key="acplog__club_settings" js="0">Изменены настройки клубов</word>
   <word key="club_created" js="0">Дата создания</word>
   <word key="acplog__node_edited_club" js="0">Изменён %s - %s в клубе %s</word>
   <word key="acplog__node_deleted_club" js="0">Удалён %s - %s в клубе %s</word>
@@ -8676,7 +8669,7 @@
   <word key="clubs_locations_desc" js="0"><![CDATA[Если также настроена интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_GoogleMaps}' target='_blank' rel='noopener'>Google Maps</a> или <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=core_Mapbox}' target='_blank' rel='noopener'>Mapbox</a>, то на главной странице клубов будет отображаться карта, показывающая местоположение всех клубов.]]></word>
   <word key="club_location" js="0">Местоположение</word>
   <word key="modperms__core_Clubs" js="0">Клубы</word>
-  <word key="can_manage_featured_clubs" js="0">Может отмечать клубы рекомендованными/обычными</word>
+  <word key="can_manage_featured_clubs" js="0">Может отмечать клубы важными/обычными</word>
   <word key="featured_clubs" js="0">Наши рекомендованные клубы</word>
   <word key="clubs_activity_joined" js="0">%s вступил в клуб</word>
   <word key="club_about" js="0">Описание</word>
@@ -8688,7 +8681,7 @@
   <word key="clubs_sort_name" js="0">Название</word>
   <word key="task__clubrebuild" js="0">Пересчитывает данные в клубах для сортировки.</word>
   <word key="club_home" js="0">Обзор</word>
-  <word key="club_feature" js="0">Сделать этот клуб рекомендованным</word>
+  <word key="club_feature" js="0">Сделать этот клуб важным</word>
   <word key="club_unfeature" js="0">Сделать этот клуб обычным</word>
   <word key="club_youre_invited" js="0">Вы были приглашены!</word>
   <word key="club_youre_invited_desc" js="0">%s является участником этого клуба и пригласил вас вступить в него.</word>
@@ -9072,7 +9065,7 @@
   <word key="cookies_third_party" js="0">Сторонние Cookies</word>
   <word key="cookies_third_party_desc" js="0">Владелец сайта может установить иные cookies в дополнение к стандартным cookies выше. Эти cookies часто используются сайтом для отслеживания его использования или устанавливаются при просмотре встроенной публикации из других сервисов, таких как YouTube, Vimeo и так далее.</word>
   <word key="cookies_standard" js="0">Стандартные Cookies</word>
-  <word key="click_here_to_refresh" js="0">Нажмите сюда для обновления страницы для включения некоторых функций</word>
+  <word key="click_here_to_refresh" js="0">Нажмите сюда, чтобы обновить страницу для включения некоторых возможностей</word>
   <word key="files-1" js="0">%s не может быть открыт.</word>
   <word key="files-2" js="0">%s не существует.</word>
   <word key="files-4" js="0">Файл %s не может быть скопирован.</word>
@@ -9097,7 +9090,7 @@
   <word key="pp_third_parties" js="0">Сторонние сервисы</word>
   <word key="pp_privacy_policy" js="0">Политика конфиденциальности</word>
   <word key="pp_desc_captcha" js="0">Этот сайт использует CAPTCHA, что позволяет убедиться в том, что определённые действия совершаются людьми. Провайдер CAPTCHA может устанавливать cookie и получать информацию о вашем интернет-браузере и устройстве, с которого вы посещаете этот веб-сайте.</word>
-  <word key="acp_notifications" js="0">Уведомления администратора</word>
+  <word key="acp_notifications" js="0">Уведомления</word>
   <word key="acp_notification_dismiss_perm" js="0">Скрыть это уведомление</word>
   <word key="acp_notification_dismiss_recur" js="0">Скрыть это уведомление</word>
   <word key="acp_notification_dismiss_temp" js="0">Скрыть это уведомление до завтра</word>
@@ -9271,7 +9264,7 @@
   <word key="beforeX" js="1">Перед {{end}}</word>
   <word key="hidden" js="1">Скрытые</word>
   <word key="pending" js="1">Ожидает утверждения</word>
-  <word key="featured" js="1">Рекомендуем</word>
+  <word key="featured" js="1">Важное</word>
   <word key="pinned" js="1">Закреплено</word>
   <word key="js_login_both" js="1">Убедитесь, что вы вошли в публичную часть сайта и Админцентр, чтобы использовать эту функцию.</word>
   <word key="saved" js="1">Сохранено</word>
@@ -11541,7 +11534,7 @@
   <word key="ext__MobileNavigation" js="0">Добавьте элементы в панель навигации мобильного приложения.</word>
   <word key="ext__RssImport" js="0">Импортировать контент из RSS-канала</word>
   <word key="app_ips_only" js="0">Эта функция доступна только для официальных приложений Invision Community.</word>
-  <word key="dev_features" js="0">Функционал подсветок</word>
+  <word key="dev_features" js="0">Обзор нововведений</word>
   <word key="feature_title" js="0">Заголовок</word>
   <word key="feature_version_added" js="0">Добавлена версия</word>
   <word key="add_feature_highlight" js="0">Добавить обзор нововведений</word>
@@ -11556,7 +11549,7 @@
   <word key="r__rss_run" js="0">Может запускать импортируемые ленты?</word>
   <word key="rssimport_task_error" js="0">Попытка импортировать ленту не удалась со следующим сообщением:% s</word>
   <word key="task__rssimport" js="0">Проверить RSS/Atom каналы для новых статей и импортировать их.</word>
-  <word key="menu__core_applications_rss" js="0">Импорт RSS</word>
+  <word key="menu__core_applications_rss" js="0">Импорт RSS-лент</word>
   <word key="login_handler_Apple" js="0">Apple</word>
   <word key="login_apple" js="0">Войти через Apple</word>
   <word key="login_handler_apple_settings" js="0">Настройки Apple</word>
@@ -11689,7 +11682,7 @@
   <word key="r__search_stats" js="0">Статистика по поиску</word>
   <word key="r__search_stats_manage" js="0">Может просматривать статистику по поиску?</word>
   <word key="manage_searchstats" js="0">Управление настройками отслеживания поиска</word>
-  <word key="menu__core_activitystats_search" js="0">Поиски</word>
+  <word key="menu__core_activitystats_search" js="0">Поиск</word>
   <word key="searchstats_time" js="0">Дата</word>
   <word key="searchstats_value_2" js="0">Результаты</word>
   <word key="searchstats_value_4" js="0">Поисковый запрос</word>
@@ -11700,7 +11693,7 @@
   <word key="r__overview" js="0">Обзор</word>
   <word key="r__overview_manage" js="0">Может просматривать обзор статистики?</word>
   <word key="ext__OverviewStatistics" js="0">Добавить блок на страницу статистики пользователя или обзора активности</word>
-  <word key="stats_overview_prune" js="0">Данные удалятся через {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
+  <word key="stats_overview_prune" js="0">Данные удаляются через {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
   <word key="stats_overview_registrations" js="0">Новые регистрации</word>
   <word key="stats_overview_devices" js="0">Использование устройства</word>
   <word key="stats_overview_online" js="0">Пользователи онлайн</word>
@@ -11814,7 +11807,7 @@
   <word key="mod_show_badge" js="0">Показать иконку?</word>
   <word key="mod_show_badge_desc" js="0">При просмотре сообщений и комментариев модераторы идентифицируются значком</word>
   <word key="moderator_tools" js="0">Настройки модератора</word>
-  <word key="filestorage__core_Feature" js="0">Избранные изображения</word>
+  <word key="filestorage__core_Feature" js="0">Изображения из обзора нововведений</word>
   <word key="filestorage__core_ReferralBanners" js="0">Реферальные баннеры</word>
   <word key="ad_nocontent_page_output" js="0">Показывать на страницах без публикаций</word>
   <word key="ad_nocontent_page_output_desc" js="0">Некоторые рекламные сервисы, такие как Google Ads, запрещают показ рекламы на страницах без публикаций (например, страницах авторизации и регистрации). Если это объявление использует такой сервис, вы можете использовать эту опцию, чтобы избежать показа объявлений на страницах, которые не содержат публикаций.</word>
@@ -11834,7 +11827,7 @@
   <word key="word_type_acronym_desc" js="0">Введенный Вами текст будет отображаться, когда пользователь наводит курсор на слово. Это может быть полезно для аббревиатур, которые пользователи могут не понимать. Пример использования: если пользователь отправляет сообщение «ЧСВ», то при наведении курсором будет показывать «чувство собственной важности».</word>
   <word key="word_type_link" js="0">Ссылка</word>
   <word key="word_type_link_desc" js="0">Текст будет автоматически превращён в ссылку. Например, Вы можете сделать так, что если пользователь публикует слово «Википедия», то оно автоматически превращается в ссылку на wikipedia.org.</word>
-  <word key="edit_log_prune_notice" js="0">Обратите внимание, что редакции старше {# [1:day][?:days]} удаляются и больше не будут отображаться здесь.</word>
+  <word key="edit_log_prune_notice" js="0">Обратите внимание, что версии старше {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} удаляются и больше не отображаются здесь.</word>
   <word key="task__chunkcleanup" js="0">Удалить незаконченные временные загрузки</word>
   <word key="task__webhooks" js="0">Отправляет запросы на вебхуки API</word>
   <word key="datastore_method_deprecated" js="0"><![CDATA[<div class='ipsMessage ipsMessage_warning'>Использование %s в качестве метода кэширования устарело и будет удалено в следующей версии. Пожалуйста, переключитесь на вариант 'Без кэширования' или 'Redis' как можно скорее.</div>]]></word>
@@ -12047,7 +12040,7 @@
   <word key="clubs_visibility" js="0">Видимость</word>
   <word key="without_clubs" js="0">Везде кроме клубов</word>
   <word key="only_clubs" js="0">Только в клубах</word>
-  <word key="menu__core_clubs_stats" js="0">Активность клубов</word>
+  <word key="menu__core_clubs_stats" js="0">Активность в клубах</word>
   <word key="r__stats_manage" js="0">Может смотреть статистику?</word>
   <word key="stats_club_activity" js="0">Вся активность клубов</word>
   <word key="stats_club_club_activity" js="0">Активность клуба</word>
@@ -12125,14 +12118,14 @@
   <word key="comment_meta_moderation_modlog__comment_edit_title" js="0"><![CDATA[%2$s изменил заголовок на <em>%1$s</em>]]></word>
   <word key="comment_meta_moderation_modlog__action_pin" js="0">%2$s закрепил это %1$s</word>
   <word key="comment_meta_moderation_modlog__action_unpin" js="0">%2$s открепил %1$s</word>
-  <word key="comment_meta_moderation_modlog__action_feature" js="0">%2$s рекомендовал это %1$s</word>
-  <word key="comment_meta_moderation_modlog__action_unfeature" js="0">%2$s перестал рекомендовать это %1$s</word>
+  <word key="comment_meta_moderation_modlog__action_feature" js="0">%2$s сделал эту %1$s важной</word>
+  <word key="comment_meta_moderation_modlog__action_unfeature" js="0">%2$s сделал эту %1$s обычной</word>
   <word key="comment_meta_moderation_modlog__action_lock" js="0">%2$s закрыл это %1$s</word>
   <word key="comment_meta_moderation_modlog__action_unlock" js="0">%2$s разблокировал %1$s</word>
   <word key="comment_meta_moderation_modlog__action_pin_short" js="0">закреплено</word>
   <word key="comment_meta_moderation_modlog__action_unpin_short" js="0">откреплено</word>
-  <word key="comment_meta_moderation_modlog__action_feature_short" js="0">рекомендуемое</word>
-  <word key="comment_meta_moderation_modlog__action_unfeature_short" js="0">не рекомендуемое</word>
+  <word key="comment_meta_moderation_modlog__action_feature_short" js="0">важное</word>
+  <word key="comment_meta_moderation_modlog__action_unfeature_short" js="0">обычное</word>
   <word key="comment_meta_moderation_modlog__action_lock_short" js="0">закрыто</word>
   <word key="comment_meta_moderation_modlog__action_unlock_short" js="0">разблокировано</word>
   <word key="comment_meta_moderation_modlog__action_group" js="0">%2$s %3$s это %1$s</word>
@@ -12177,7 +12170,7 @@
   <word key="app_x_guests_online" js="0">{# [*1:гость][*2:гостя][*3:гостя][*4:гостя][*11:гостей][*12:гостей][*13:гостей][*14:гостей][?:гостей]} в сети</word>
   <word key="app_activity_replied" js="0">{{user}} ответил в {{article}}</word>
   <word key="app_activity_commented" js="0">{{user}} прокомментировал {{article}}</word>
-  <word key="app_activity_reviewed" js="0">{{user}} оставил отзыв на {{article}}</word>
+  <word key="app_activity_reviewed" js="0">{{user}} оставил отзыв о {{article}}</word>
   <word key="app_activity_posted_item" js="0">{{user}} опубликовал {{article}}</word>
   <word key="app_activity_generic" js="0">Пользователь опубликовал</word>
   <word key="app_login_prompt" js="0">Зарегистрируйтесь, чтобы получить максимум от {{siteName}}!</word>
@@ -12291,7 +12284,7 @@
   <word key="app_status_unapproved" js="0">Ожидает</word>
   <word key="app_status_unapproved_desc" js="0">Это сообщение ожидает одобрения модератором</word>
   <word key="app_status_hot" js="0">Популярно</word>
-  <word key="app_status_featured" js="0">Рекомендованное</word>
+  <word key="app_status_featured" js="0">Важное</word>
   <word key="app_status_locked" js="0">Закрыто</word>
   <word key="app_status_archived" js="0">Архивировано</word>
   <word key="app_share" js="0">Рассказать</word>
@@ -12452,7 +12445,7 @@
   <word key="app_notifications__unapproved_club" js="0">Клубы, которые созданы</word>
   <word key="app_notifications__new_content" js="0">Новые обновления в отслеживаемом</word>
   <word key="app_notifications__new_comment" js="0">Комментарии к содержанию, за которым я следую</word>
-  <word key="app_notifications__new_review" js="0">Отзывы о содержании, за которым я следую</word>
+  <word key="app_notifications__new_review" js="0">Отзывы о публикациях, на которые я подписан</word>
   <word key="app_notifications__follower_content" js="0">Новый контент пользователей, на которых я подписан</word>
   <word key="app_notifications__quote" js="0">Содержимое, которое я процитировал</word>
   <word key="app_notifications__mention" js="0">Контент, в котором меня упоминали</word>
@@ -12474,7 +12467,7 @@
   <word key="app_legal_guidelines" js="0">Правила пользования сайтом</word>
   <word key="app_third_party_licenses" js="0">Лицензии третьих лиц</word>
   <word key="app_legal_app_privacy" js="0">Политика конфиденциальности мобильного приложения</word>
-  <word key="menu__core_mobile" js="0">Мобильное приложение</word>
+  <word key="menu__core_mobile" js="0">Приложение</word>
   <word key="menu__core_mobile_menu" js="0">Управление меню</word>
   <word key="menu__core_mobile_mobile" js="0">Настройки</word>
   <word key="r__mobile" js="0">Мобильное приложение</word>
@@ -12619,9 +12612,7 @@
   <word key="mobile_app_play_id_desc" js="0">Он будет в конце URL-адреса Play Store после «id».</word>
   <word key="mobile_app_play_url" js="0">Play Store URL</word>
   <word key="module__core_marketplace" js="0">Marketplace</word>
-  <word key="menutab__marketplace_icon" js="0">shopping-basket</word>
   <word key="menu__core_marketplace" js="0">Marketplace</word>
-  <word key="menutab__marketplace" js="0">Marketplace</word>
   <word key="menu__core_marketplace_marketplace" js="0">Главная панель</word>
   <word key="marketplace_signin" js="0">Войти в Marketplace</word>
   <word key="marketplace_signedin_as" js="0"><![CDATA[Вы вошли в Marketplace как <strong>%s</strong>]]></word>

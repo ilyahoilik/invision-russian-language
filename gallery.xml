@@ -12,10 +12,10 @@
   <word key="__indefart_gallery_album" js="0">альбом в галерее</word>
   <word key="__defart_gallery_album_comment" js="0">комментарий к альбому в галерее</word>
   <word key="__defart_gallery_album" js="0">альбом в галерее</word>
-  <word key="__indefart_gallery_image_review" js="0">отзыв к изображению в галерее</word>
-  <word key="__defart_gallery_image_review" js="0">отзыв к изображению в галерее</word>
-  <word key="__indefart_gallery_album_review" js="0">отзыв к альбому в галерее</word>
-  <word key="__defart_gallery_album_review" js="0">отзыв к альбому в галерее</word>
+  <word key="__indefart_gallery_image_review" js="0">отзыв об изображении в галерее</word>
+  <word key="__defart_gallery_image_review" js="0">отзыв об изображении в галерее</word>
+  <word key="__indefart_gallery_album_review" js="0">отзыв об альбоме в галерее</word>
+  <word key="__defart_gallery_album_review" js="0">отзыв об альбоме в галерее</word>
   <word key="module__gallery_stats" js="0">Статистика</word>
   <word key="search_contextual_item_gallery_image" js="0">В этом изображении</word>
   <word key="album_user_own_activity_item" js="0">%2$s добавил изображения в %1$s в</word>
@@ -125,8 +125,8 @@
   <word key="node_delete_children_cats" js="0">Удалить вложенные категории</word>
   <word key="node_delete_children_albums" js="0">Удалить альбом</word>
   <word key="delete_or_move_pick_one" js="0">Если вы выберите не удалять изображения, вы должны выбрать новую категорию или альбом, чтобы переместить изображения туда</word>
-  <word key="acplog__catalbum_mass_move" js="0">Массовое перемещение альбомов %s из %s в %s</word>
-  <word key="acplog__catalbum_mass_delete" js="0">Массовое удаление альбомов %s из %s</word>
+  <word key="acplog__catalbum_mass_move" js="0">Массово перемещены альбомы %s из %s в %s</word>
+  <word key="acplog__catalbum_mass_delete" js="0">Массово удалены альбомы %s из %s</word>
   <word key="galnode_mass_content_move_blurb" js="0"><![CDATA[<strong>Альбомы %s</strong> будут перемещены в %s.]]></word>
   <word key="galnode_mass_content_delete_blurb" js="0"><![CDATA[<strong>Альбомы %s</strong> будут <strong>удалены</strong>.]]></word>
   <word key="error_messages" js="0">Сообщения об ошибках</word>
@@ -147,9 +147,9 @@
   <word key="album_comments_and_ratings" js="0">Комментарии и рейтинг</word>
   <word key="album_allow_comments" js="0">Разрешить комментарии к изображениям</word>
   <word key="album_allow_rating" js="0">Разрешить рейтинг</word>
-  <word key="album_allow_reviews" js="0">Разрешить отзывы к изображениям</word>
+  <word key="album_allow_reviews" js="0">Разрешить отзывы об изображениях</word>
   <word key="album_use_comments" js="0">Разрешить комментарии к этому альбому</word>
-  <word key="album_use_reviews" js="0">Разрешить отзывы к этому альбому</word>
+  <word key="album_use_reviews" js="0">Разрешить отзывы об этом альбоме</word>
   <word key="album_type" js="0">Конфиденциальность</word>
   <word key="album_public" js="0">Все могут видеть этот альбом</word>
   <word key="album_private" js="0">Только я могу видеть этот альбом</word>
@@ -175,13 +175,12 @@
   <word key="gallery_categories" js="0">Категории</word>
   <word key="can_pin_gallery_image" js="0">Может закреплять изображения</word>
   <word key="can_unpin_gallery_image" js="0">Может откреплять изображения</word>
-  <word key="can_feature_gallery_image" js="0">Может отмечать изображения рекомендованными</word>
+  <word key="can_feature_gallery_image" js="0">Может отмечать изображения важными</word>
   <word key="can_unfeature_gallery_image" js="0">Может отмечать изображения обычными</word>
   <word key="can_move_gallery_image" js="0">Может перемещать изображения</word>
   <word key="can_move_gallery_image_desc" js="0">Сможет перемещать изображения только между категориями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_gallery_image" js="0">Может закрывать изображения</word>
   <word key="can_unlock_gallery_image" js="0">Может открывать изображения</word>
-  <word key="can_reply_to_locked_gallery_image" js="0">Может комментировать закрытые изображения</word>
   <word key="can_edit_gallery_image" js="0">Может изменять изображения</word>
   <word key="can_hide_gallery_image" js="0">Может скрывать изображения</word>
   <word key="can_unhide_gallery_image" js="0">Может отменять скрытие изображений</word>
@@ -192,7 +191,7 @@
   <word key="can_unhide_gallery_image_comment" js="0">Может отменять скрытие комментариев</word>
   <word key="can_view_hidden_gallery_image_comment" js="0">Может просматривать скрытые комментарии</word>
   <word key="can_delete_gallery_image_comment" js="0">Может удалять комментарии</word>
-  <word key="can_feature_gallery_album" js="0">Может отмечать альбомы рекомендованными</word>
+  <word key="can_feature_gallery_album" js="0">Может отмечать альбомы важными</word>
   <word key="can_unfeature_gallery_album" js="0">Может отмечать альбомы обычными</word>
   <word key="can_edit_gallery_album" js="0">Может изменять альбомы</word>
   <word key="can_hide_gallery_album" js="0">Может скрывать альбомы</word>
@@ -207,23 +206,22 @@
   <word key="can_edit_item_message_gallery_album" js="0">Может изменять примечания к альбомам</word>
   <word key="can_delete_item_message_gallery_album" js="0">Может удалять примечания из альбомов</word>
   <word key="can_delete_gallery_album" js="0">Может удалять альбомы</word>
-  <word key="can_edit_gallery_album_comment" js="0">Может изменять комментарии к альбомам</word>
   <word key="can_hide_gallery_album_comment" js="0">Может скрывать комментарии к альбомам</word>
   <word key="can_unhide_gallery_album_comment" js="0">Может отменять скрытие комментариев к альбомам</word>
   <word key="can_view_hidden_gallery_album_comment" js="0">Может просматривать скрытые комментарии к альбомам</word>
   <word key="can_delete_gallery_album_comment" js="0">Может удалять комментарии к альбомам</word>
-  <word key="can_edit_gallery_album_review" js="0">Может изменять отзывы к альбомам</word>
-  <word key="can_hide_gallery_album_review" js="0">Может скрывать отзывы к альбомам</word>
-  <word key="can_unhide_gallery_album_review" js="0">Может отменять скрытие отзывов к альбомам</word>
-  <word key="can_view_hidden_gallery_album_review" js="0">Может просматривать скрытые отзывы к альбомам</word>
-  <word key="can_delete_gallery_album_review" js="0">Может удалять отзывы к альбомам</word>
+  <word key="can_edit_gallery_album_review" js="0">Может изменять отзывы об альбомах</word>
+  <word key="can_hide_gallery_album_review" js="0">Может скрывать отзывы об альбомах</word>
+  <word key="can_unhide_gallery_album_review" js="0">Может отменять скрытие отзывов об альбомах</word>
+  <word key="can_view_hidden_gallery_album_review" js="0">Может просматривать скрытые отзывы об альбомах</word>
+  <word key="can_delete_gallery_album_review" js="0">Может удалять отзывы об альбомах</word>
   <word key="can_edit_gallery_image_review" js="0">Может изменять отзывы</word>
   <word key="can_hide_gallery_image_review" js="0">Может скрывать отзывы</word>
   <word key="can_unhide_gallery_image_review" js="0">Может отменять скрытие отзывов</word>
   <word key="can_view_hidden_gallery_image_review" js="0">Может просматривать скрытые отзывы</word>
   <word key="can_delete_gallery_image_review" js="0">Может удалять отзывы</word>
-  <word key="can_feature_comments_gallery_image" js="0">Может рекомендовать комментарии к изображениям</word>
-  <word key="can_unfeature_comments_gallery_image" js="0">Может удалять рекомендации комментариев к изображениям</word>
+  <word key="can_feature_comments_gallery_image" js="0">Может отмечать рекомендуемыми комментарии к изображениям</word>
+  <word key="can_unfeature_comments_gallery_image" js="0">Может снимать рекомендацию с комментариев к изображениям</word>
   <word key="can_add_item_message_gallery_image" js="0">Может добавлять примечания к изображениям</word>
   <word key="can_edit_item_message_gallery_image" js="0">Может изменять примечания к изображениям</word>
   <word key="can_delete_item_message_gallery_image" js="0">Может удалять примечания к изображениям</word>
@@ -325,7 +323,7 @@
   <word key="set_image_as" js="0">Установить как</word>
   <word key="loc_gallery_browsing" js="0">Просматривает галерею</word>
   <word key="loc_gallery_browsing_categories" js="0">Просматривает категории галереи</word>
-  <word key="featured_images" js="0">Рекомендованные изображения</word>
+  <word key="featured_images" js="0">Важные изображения</word>
   <word key="new_images" js="0">Новые изображения</word>
   <word key="new_image_comments_notification" js="0">Уведомлять меня о комментариях на это изображение</word>
   <word key="images_no_number" js="0">{!# [*1:изображение][*2:изображения][*3:изображения][*4:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]}</word>
@@ -404,7 +402,7 @@
   <word key="in_album" js="0">В альбоме:</word>
   <word key="image__save" js="0">Сохранить изображение</word>
   <word key="gallery_move_title" js="0">Переместить это изображение</word>
-  <word key="feature_title_image" js="0">Сделать это изображение рекомендованным</word>
+  <word key="feature_title_image" js="0">Сделать это изображение важным</word>
   <word key="unfeature_title_image" js="0">Сделать это изображение обычным</word>
   <word key="pin_title_image" js="0">Закрепить это изображение</word>
   <word key="unpin_title_image" js="0">Открепить это изображение</word>
@@ -415,7 +413,7 @@
   <word key="approve_title_image" js="0">Утвердить изображение</word>
   <word key="delete_title_image" js="0">Удалить это </word>
   <word key="galleryalbum_move_title" js="0">Переместить этот альбом</word>
-  <word key="feature_title_album" js="0">Сделать этот альбом рекомендованным</word>
+  <word key="feature_title_album" js="0">Сделать этот альбом важным</word>
   <word key="unfeature_title_album" js="0">Сделать этот альбом обычным</word>
   <word key="hide_title_album" js="0">Скрыть этот альбом</word>
   <word key="unhide_title_album" js="0">Отменить скрытие этого альбома</word>
@@ -468,9 +466,9 @@
   <word key="gallery_album_review_pl" js="0">Отзывы к альбому</word>
   <word key="gallery_album_review_pl_lc" js="0">отзывы к альбому</word>
   <word key="image_locked_can_comment" js="0">Это изображение закрыто, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
-  <word key="image_locked_cannot_comment" js="0">Это изображение закрыто для комментирования.</word>
+  <word key="image_locked_cannot_comment" js="0">Это изображение закрыто для дальнейших комментариев.</word>
   <word key="album_locked_can_comment" js="0">Этот альбом закрыт, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
-  <word key="album_locked_cannot_comment" js="0">Этот альбом закрыт для комментирования.</word>
+  <word key="album_locked_cannot_comment" js="0">Этот альбом закрыт для дальнейших комментариев.</word>
   <word key="gallery_edit_details" js="0">Изменить описание</word>
   <word key="gallery_edit_details_title" js="0">Редактировать данные этого изображения</word>
   <word key="image_rating_value" js="0">Ваша оценка</word>
@@ -485,13 +483,13 @@
   <word key="block_recentComments_desc" js="0">Отображает последние комментарии</word>
   <word key="total_images_front_h" js="0">{!# [*1:Изображения][*11:Изображений][*12:Изображений][*13:Изображений][*14:Изображений][?:Изображений]}</word>
   <word key="total_images_front_v" js="0">{!# [*1:Изображения][*11:Изображений][*12:Изображений][*13:Изображений][*14:Изображений][?:Изображений]}</word>
-  <word key="stats_total_comments_v" js="0">{!# [*1:Комментарий][*2:Комментария][*3:Комментария][*4:Комментария][*11:Комментариев][*12:Комментариев][*13:Комментариев][*14:Комментариев][?:Комментариев]}</word>
-  <word key="stats_total_comments_h" js="0">{!# [*1:Комментарий][*2:Комментария][*3:Комментария][*4:Комментария][*11:Комментариев][*12:Комментариев][*13:Комментариев][*14:Комментариев][?:Комментариев]}</word>
+  <word key="stats_total_comments_v" js="0">{!#[*1:Комментарий][*2:Комментария][*3:Комментария][*4:Комментария][*11:Комментариев][*12:Комментариев][*13:Комментариев][*14:Комментариев][?:Комментариев]}</word>
+  <word key="stats_total_comments_h" js="0">{!#[*1:Комментарий][*2:Комментария][*3:Комментария][*4:Комментария][*11:Комментариев][*12:Комментариев][*13:Комментариев][*14:Комментариев][?:Комментариев]}</word>
   <word key="total_albums_h" js="0">{!# [*1:альбом][*2:альбома][*3:альбома][*4:альбома][*11:альбомов][*12:альбомов][*13:альбомов][*14:альбомов][?:альбомов]}</word>
   <word key="total_albums_v" js="0">{!# [*1:Альбом][*2:Альбома][*3:Альбома][*4:Альбома][*11:Альбомов][*12:Альбомов][*13:Альбомов][*14:Альбомов][?:Альбомов]}</word>
   <word key="latest_image" js="0">Последнее изображение</word>
-  <word key="block_recentImageReviews" js="0">Отзывы к изображениям</word>
-  <word key="block_recentImageReviews_desc" js="0">Отображает последние отзывы к изображениям</word>
+  <word key="block_recentImageReviews" js="0">Отзывы об изображениях</word>
+  <word key="block_recentImageReviews_desc" js="0">Отображает последние отзывы об изображениях</word>
   <word key="block_recentImages" js="0">Последние изображения</word>
   <word key="block_recentImages_desc" js="0">Отображает новые изображения</word>
   <word key="block_albums" js="0">Лента альбомов</word>
@@ -759,7 +757,7 @@
   <word key="x_added_album_in" js="0">%s создал альбом в %s</word>
   <word key="x_commented_photo" js="0">%s прокомментировал фото</word>
   <word key="x_reviewed_photo" js="0">%s оставил отзыв к фотографии</word>
-  <word key="x_commented_album" js="0">%s оставил комментарий к альбому</word>
+  <word key="x_commented_album" js="0">%s прокомментировал альбом</word>
   <word key="x_reviewed_album" js="0">%s оставил отзыв к альбому</word>
   <word key="__api_gallery_albums" js="0">Альбомы</word>
   <word key="__api_gallery_images" js="0">Изображения</word>
