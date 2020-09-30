@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.1" long_version="45001" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="calendar" version="">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
@@ -437,7 +437,6 @@
   <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s идёт на <a href='%s'>%s</a>]]></word>
   <word key="all_activity_calendar_streamitems" js="0">Когда пользователь принимает приглашение на событие</word>
   <word key="notifications__calendar_Events" js="0">Напоминания о событиях</word>
-  <word key="notifications__event_reminder" js="0">Напоминания о событии</word>
   <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[Напоминание о событии {$content->mapped("title")|raw}]]></word>
   <word key="email_event_reminder" js="0"><![CDATA[Осталось менее %s до <a href='%s'>%s</a>.]]></word>
   <word key="email_event_reminder_plain" js="0">Осталось менее %s до %s</word>

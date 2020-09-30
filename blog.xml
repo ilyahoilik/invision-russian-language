@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.1" long_version="45001" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="blog" version="">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>

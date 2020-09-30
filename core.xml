@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.1" long_version="45001" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="core" version="">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
@@ -4238,7 +4238,7 @@
   <word key="theme_designers_mode_title" js="0">Режим дизайнера</word>
   <word key="theme_designers_mode" js="0">Включить режим дизайнера</word>
   <word key="theme_designers_mode_disable" js="0">Отключить режим дизайнера</word>
-  <word key="theme_designers_mode_explain" js="0"><![CDATA[<strong>Режим дизайнера является передовым способом изменения стилей.</strong><br>После включения вы сможете изменять HTML и CSS-код, а также изображения в директории <span class='ipsType_monospace'>%s/theme/</span>.<br>Каждый стиль имеет собственную директорию, имя которой совпадает с его ID.<br>Вы можете изменять файлы <span class='ipsType_monospace'>.phtml</span> и <span class='ipsType_monospace'>.css</span> напрямую и изменения будут применены сразу же после перезагрузки страницы.<br> После окончания изменения стиля вы должны отключить режим дизайнера для синхронизации изменений с базой.<br><strong>Этот режим не должен включаться на рабочем форуме в связи с дополнительным расходом ресурсов сервера.</strong><br><br>Подробную информацию вы найдёте в <a href="%s" target='_blank' rel='noopener'>документации</a>.]]></word>
+  <word key="theme_designers_mode_explain" js="0"><![CDATA[<strong>Режим дизайнера является передовым способом изменения стилей.</strong><br>После включения вы сможете изменять HTML и CSS-код, а также изображения в директории <span class='ipsType_monospace'>%s/themes/</span>.<br>Каждый стиль имеет собственную директорию, имя которой совпадает с его ID.<br>Вы можете изменять файлы <span class='ipsType_monospace'>.phtml</span> и <span class='ipsType_monospace'>.css</span> напрямую и изменения будут применены сразу же после перезагрузки страницы.<br> После окончания изменения стиля вы должны отключить режим дизайнера для синхронизации изменений с базой.<br><strong>Этот режим не должен включаться на рабочем форуме в связи с дополнительным расходом ресурсов сервера.</strong><br><br>Подробную информацию вы найдёте в <a href="%s" target='_blank' rel='noopener'>документации</a>.]]></word>
   <word key="theme_designers_mode_explain_turn_off" js="0">Включен режим дизайнера</word>
   <word key="theme_designers_mode_sync" js="0">Синхронизировать изменения</word>
   <word key="theme_designers_mode_sync_desc" js="0">Это синхронизирует ваши изменения, сделанные в HTML, CSS-файлах и изображениях с базой данных. Если вы не сделаете это, все ваши изменения будут потеряны при выключении режима дизайнера.</word>
@@ -9761,7 +9761,6 @@
   <word key="imageLazyLoadRebuildBlurbEnable" js="1">По желанию, вы можете обновить существующие публикации для включения ленивой загрузки медиа. Это запустит фоновую задачу, выполнение которой может занять некоторое время.</word>
   <word key="imageLazyLoadRebuildBlurbDisable" js="1">По желанию, вы можете удалить ленивую загрузку с существующих публикаций. Это запустит фоновую задачу, выполнение которой может занять некоторое время.</word>
   <word key="emoji" js="1">Эмодзи</word>
-  <word key="emoji-category-smileys_people" js="1">Смайлики и люди</word>
   <word key="emoji-category-animals_nature" js="1">Природа и животные</word>
   <word key="emoji-category-food_drink" js="1">Еда и напитки</word>
   <word key="emoji-category-activities" js="1">Занятия</word>
@@ -11019,10 +11018,6 @@
   <word key="emoji-male-scientist" js="1">Male Scientist</word>
   <word key="emoji-male-astronaut" js="1">Male Astronaut</word>
   <word key="emoji-male-firefighter" js="1">Male Firefighter</word>
-  <word key="emoji-male_red_haired" js="1">Male Red Haired</word>
-  <word key="emoji-male_curly_haired" js="1">Male Curly Haired</word>
-  <word key="emoji-male_bald" js="1">Male Bald</word>
-  <word key="emoji-male_white_haired" js="1">Male White Haired</word>
   <word key="emoji-male-doctor" js="1">Male Doctor</word>
   <word key="emoji-male-judge" js="1">Male Judge</word>
   <word key="emoji-male-pilot" js="1">Male Pilot</word>
@@ -11052,10 +11047,6 @@
   <word key="emoji-female-scientist" js="1">Female Scientist</word>
   <word key="emoji-female-astronaut" js="1">Female Astronaut</word>
   <word key="emoji-female-firefighter" js="1">Female Firefighter</word>
-  <word key="emoji-female_red_haired" js="1">Female Red Haired</word>
-  <word key="emoji-female_curly_haired" js="1">Female Curly Haired</word>
-  <word key="emoji-female_bald" js="1">Female Bald</word>
-  <word key="emoji-female_white_haired" js="1">Female White Haired</word>
   <word key="emoji-female-doctor" js="1">Female Doctor</word>
   <word key="emoji-female-judge" js="1">Female Judge</word>
   <word key="emoji-female-pilot" js="1">Female Pilot</word>
@@ -12565,6 +12556,7 @@
   <word key="vseColorizer_invert" js="1">Инвертировать все цвета</word>
   <word key="default_menu_item_1" js="0">Просмотр</word>
   <word key="default_menu_item_2" js="0">Активность</word>
+  <word key="reg_complete_2fa_title" js="0">Настроить двухфакторную аутентификацию</word>
   <word key="logged_in_as_headline" js="0">Вы вошли как</word>
   <word key="applications_blurb" js="0"><![CDATA[Вся функциональность вашего сообщества реализована с помощью приложений, некоторые из которых имеют несколько модулей. Вы можете изменить права доступа любого приложения или модуля, чтобы контролировать, какие группы могут получить доступ к областям вашего сообщества. Вы можете устанавливать новые приложения из <a href='{internal.app=core&module=marketplace&controller=marketplace}'>Marketplace</a> или с помощью <a href='{internal.app=core&module=applications&controller=applications&do=upload}' data-ipsDialog data-ipsDialog-title='Установить приложение'>ручной загрузки</a>.]]></word>
   <word key="applications_manual_install_warning" js="0"><![CDATA[Лучшее место, где можно получить новые приложения для вашего сообщества – это <a href='{internal.app=core&module=marketplace&controller=marketplace}'>Marketplace</a>, в котором все файлы проверяются командой Invision Community. Если у вас есть стороннее приложение, недоступное в Marketplace, вы можете установить его здесь, но помните, что приложения могут выполнять любой код: устанавливайте сторонние приложения только из источников, которым доверяете.]]></word>
@@ -12592,6 +12584,7 @@
   <word key="support_third_party_theme_count" js="0">Не стандартная тема</word>
   <word key="support_third_party_editor_count" js="0">Индивидуальный редактор</word>
   <word key="support_third_party_ads_count" js="0">{# [*1:объявление][*2:объявления][*3:объявления][*4:объявления][*11:объявлений][*12:объявлений][*13:объявлений][*14:объявлений][?:объявлений]}</word>
+  <word key="oauth_status_revoked" js="0">Отозван</word>
   <word key="history_new_device_no_mfa" js="0">Произведен вход с нового устройства, но не завершена двухфакторная аутентификация: %s.</word>
   <word key="ref_member_id" js="0">Участник</word>
   <word key="rb_upload" js="0">Тип</word>
