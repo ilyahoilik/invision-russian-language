@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="nexus" version="">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
@@ -2837,7 +2837,7 @@
   <word key="monitor_respond_acknowleged" js="0">Подтверждено. Как только проблема будет исправлена, вам придётся перезагрузить сервер.</word>
   <word key="monitor_respond_reset" js="0">Перезагрузка завершена. Штатный мониторинг продолжается.</word>
   <word key="dedicated_server" js="0">Выделенный сервер</word>
-  <word key="mb_per_month" js="0">МБ/месяц</word>
+  <word key="mb_per_month" js="0">Мб/месяц</word>
   <word key="p_queue" js="0">Группа серверов</word>
   <word key="p_queue_desc" js="0"><![CDATA[Это контролирует, на каких серверах могут быть созданы аккаунты. <a href='{internal.app=nexus&module=hosting&controller=queues}'>Управление группами серверов</a>]]></word>
   <word key="p_quota" js="0">Дисковое пространство</word>
@@ -3508,8 +3508,8 @@
   <word key="tstatus_okay_deleted" js="0">Оплачено удалённым способом оплаты</word>
   <word key="invoice_unpaid_unassociate" js="0">что также приведет к тому, что покупки не будут связаны:</word>
   <word key="cm_invoice_generate_desc" js="0"><![CDATA[Счёт будет принят, если у клиента есть банковский счёт, в противном случае клиенту будет отправлено электронное письмо с инструкциями по оплате. <br>Обычно лучше установить это значение относительно даты истечения срока действия, чтобы не взимать плату раньше, чем ожидает клиент. Однако, если Вы продаёте продукты, где прерывание обслуживания будет проблематичным, Вы должны либо установить срок достаточно долгим, чтобы у клиента всегда было время для отправки платежа до истечения срока действия, либо использовать настройку льготного периода для каждого продукта, чтобы клиент имел некоторое дополнительное время для оплаты.]]></word>
-  <word key="invoice_timeline_warning_time_h" js="0">{# [1:hour][?:hours]} до выставления счёта</word>
-  <word key="invoice_timeline_generate_time_h" js="0">{# [1:hour][?:hours]} до истечения срока годности</word>
+  <word key="invoice_timeline_warning_time_h" js="0">{# [*1:час][*2:часа][*3:часа][*4:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]} до выставления счёта</word>
+  <word key="invoice_timeline_generate_time_h" js="0">{# [*1:час][*2:часа][*3:часа][*4:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]} до истечения срока годности</word>
   <word key="tax_rate_explain" js="0">Ставка</word>
   <word key="tax_rate_consumer" js="0">Потребительская ставка</word>
   <word key="tax_rate_business" js="0">Бизнес ставка</word>
@@ -3569,9 +3569,9 @@
   <word key="product_count_purchases" js="0">{# [*1:покупка][*2:покупки][*3:покупки][*4:покупки][*11:покупок][*12:покупок][*13:покупок][*14:покупок][?:покупок]}</word>
   <word key="product_count_active" js="0">{# [*1:активный][*2:активных][*3:активных][*4:активных][*11:активных][*12:активных][*13:активных][*14:активных][?:активных]}</word>
   <word key="product_count_expired" js="0">{# [*1:истёкшая][*2:истёкших][*3:истёкших][*4:истёкших][*11:истёкших][*12:истёкших][*13:истёкших][*14:истёкших][?:истёкших]}</word>
-  <word key="product_count_expired_split" js="0">{0# [?:Expired which can be renewed]} + {1# [?:Expired which cannot be renewed]}</word>
+  <word key="product_count_expired_split" js="0">{0# [?:Истекли, можно продлить]} + {1# [?:Истекли, нельзя продлить]}</word>
   <word key="product_count_canceled" js="0">{# [*1:отменённый][*2:отменённых][*3:отменённых][*4:отменённых][*11:отменённых][*12:отменённых][*13:отменённых][*14:отменённых][?:отменённых]}</word>
-  <word key="product_count_canceled_split" js="0">{0# [?:Canceled which can be reactivated]} + {1# [?:Canceled which cannot be reactivated]}</word>
+  <word key="product_count_canceled_split" js="0">{0# [?:Отменено, можно активировать снова]} + {1# [?:Отменено, нельзя активировать снова]}</word>
   <word key="product_purchasable" js="0">Продаётся</word>
   <word key="product_not_purchasable" js="0">Не приобретается</word>
   <word key="product_upgradeable" js="0">Обновляется</word>

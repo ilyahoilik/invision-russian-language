@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="gallery" version="">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
@@ -66,9 +66,9 @@
   <word key="g_max_upload" js="0">Максимальный размер изображений</word>
   <word key="g_max_transfer" js="0">Максимальный потребляемый трафик</word>
   <word key="g_max_views" js="0">Максимальное количество просмотров изображений и видео</word>
-  <word key="gallery_suffix_kb" js="0">КБ</word>
+  <word key="gallery_suffix_kb" js="0">Кб</word>
   <word key="gallery_suffix_day" js="0">в день</word>
-  <word key="gallery_suffix_kb_day" js="0">КБ/день</word>
+  <word key="gallery_suffix_kb_day" js="0">Кб/день</word>
   <word key="gallery_requires_log" js="0">Эта настройка зависит от журнала использования трафика, который может быть отключён в настройках галереи или периодически очищаться. Если включено, рекомендуется включить журнал использования трафика и очищать его не чаще одного раза в 48 часов. В противном случае могут возникнуть проблемы.</word>
   <word key="g_download_original" js="0">Может скачивать оригинальное изображение?</word>
   <word key="g_download_original_desc" js="0">Пользователи по-прежнему смогут скачать полные версии изображений через свой браузер</word>

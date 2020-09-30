@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="cms" version="">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
@@ -312,9 +312,21 @@
   <word key="page_wrapper_template_desc" js="0">Шаблон оболочки для этой страницы</word>
   <word key="cms_page_wrapper_template_none" js="0">Отсутствует</word>
   <word key="cms_page_error_bad_syntax" js="0">Синтаксис HTML-тегов или HTML-логики имеет ошибки.</word>
+  <word key="cms_pages_settings" js="0">Расширенные настройки</word>
+  <word key="cms_use_different_gateway" js="0">Использовать шлюз в корне сайта</word>
+  <word key="cms_use_different_gateway_desc" js="0"><![CDATA[Включите это, если сайт установлен в поддиректорию и вы хотите, чтобы приложение Страницы работало в корне сайта. <a href='{external.devdocs-pages_different_root}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="cms_root_page_url" js="0">Ссылка к файлу шлюза</word>
+  <word key="pages_gateway_url_not_exist" js="0">Невозможно найти данный адрес.</word>
+  <word key="cms_pages_different_gateway_impossible" js="0">Ваш Invision Community уже установлен в корневую директорию домена.</word>
+  <word key="pages_different_gateway_load_error" js="0">Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файл &quot;index.php&quot;?</word>
+  <word key="pages_different_gateway_load_error_rewrite" js="0"><![CDATA[Невозможно загрузить Страницы в этом расположении. Вы уверены, что загрузили файлы "index.php" и ".htaccess"? <a href='{external.devdocs-pages_different_root}' target='_blank' rel='noopener'>Подробнее</a>]]></word>
+  <word key="cms_root_page_url_rewrite_desc" js="0"><![CDATA[Для включения поддержки этой функции вы должны <a href='{internal.app=cms&module=pages&controller=pages&do=htaccess}'><strong><u>скачать этот файл</u></strong></a>, переименовать его в ".htaccess" (без расширения файла) и загрузить его рядом с файлом "index.php" приложения Страницы. Если файл .htaccess уже существует, добавьте содержимое этого файла в существующий.<br>Если вы не уверены в том, как сделать это, свяжитесь с технической поддержкой для получения помощи.]]></word>
   <word key="cms_tag_blocks" js="0">Блоки</word>
   <word key="cms_tag_databases" js="0">Базы данных</word>
   <word key="cms_tag_pages" js="0">Страницы</word>
+  <word key="cms_error_page" js="0">Страница ошибки</word>
+  <word key="cms_error_page_desc" js="0">Настраиваемая страница ошибки будет отображаться, когда возникает ошибка. Страницы, созданные с помощью конструктора, не могут быть страницами ошибок.</word>
+  <word key="cms_error_page_none" js="0">Не использовать страницу ошибки</word>
   <word key="cms_error_page_message" js="0">Сообщение об ошибке</word>
   <word key="cms_error_page_code" js="0">Страница ошибки</word>
   <word key="cms_articles_homepage_form" js="0">Настройки главной страницы</word>

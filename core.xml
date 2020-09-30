@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="core" version="">
   <word key="__app_core" js="0">Система</word>
   <word key="__indefart_personal_conversation" js="0">личную беседу</word>
@@ -302,7 +302,7 @@
   <word key="embed__fail_5" js="0">ссылка</word>
   <word key="editor_used_global_space" js="0">Вы использовали всё доступное для вас место под вложения.</word>
   <word key="editor_used_post_space" js="0">Вы использовали всё доступное для вас место под вложения в одном сообщении.</word>
-  <word key="manage_attachments" js="0">Управление вложениями для освобождения места</word>
+  <word key="manage_attachments" js="0">Управляйте своими вложениями, чтобы освободить место</word>
   <word key="editorMedia_core_Attachment" js="0">Прикреплённые файлы</word>
   <word key="insert_as_link" js="0">Вставить как ссылку</word>
   <word key="files_uploaded" js="0">%s загружено</word>
@@ -1011,9 +1011,9 @@
   <word key="_date_this_year_long" js="0">{0#} {!1#[1:января][2:февраля][3:марта][4:апреля][5:мая][6:июня][7:июля][8:августа][9:сентября][10:октября][11:ноября][12:декабря]}</word>
   <word key="_date_last_year_short" js="0">{0#} {!1#[1:янв][2:фев][3:мар][4:апр][5:мая][6:июн][7:июл][8:авг][9:сен][10:окт][11:ноя][12:дек]}, %s</word>
   <word key="_date_last_year_long" js="0">{0#} {!1#[1:января][2:февраля][3:марта][4:апреля][5:мая][6:июня][7:июля][8:августа][9:сентября][10:октября][11:ноября][12:декабря]} %s</word>
-  <word key="_date_format_yyyy" js="0">YYYY</word>
-  <word key="_date_format_mm" js="0">MM</word>
-  <word key="_date_format_dd" js="0">DD</word>
+  <word key="_date_format_yyyy" js="0">ГГГГ</word>
+  <word key="_date_format_mm" js="0">ММ</word>
+  <word key="_date_format_dd" js="0">ДД</word>
   <word key="_time_format_hhmm" js="0">HH:MM</word>
   <word key="mark_as" js="0">Отметить как</word>
   <word key="byline" js="0">Автор: %s, </word>
@@ -2665,7 +2665,7 @@
   <word key="g_attach" js="0">Может загружать вложения</word>
   <word key="g_attach_max" js="0">Максимальный размер хранилища</word>
   <word key="g_attach_per_post" js="0">Максимальный размер хранилища для одной публикации</word>
-  <word key="g_attach_per_post_suffix" js="0">КБ на публикацию (сообщение, комментарий и т.д.)</word>
+  <word key="g_attach_per_post_suffix" js="0">Кб на публикацию (сообщение, комментарий и т.д.)</word>
   <word key="g_attach_per_post_desc" js="0">Например, если установлено значение 1000 КБ, то пользователь может загрузить одно вложение весом 1000 КБ или два вложения весом 500 КБ в каждом своём сообщении, при условии, что он не превысит свой максимально разрешенный размер хранилища.</word>
   <word key="gbw_delete_attachments" js="0">Может удалять вложения</word>
   <word key="gbw_delete_attachments_desc" js="0"><![CDATA[Вложения автоматически удаляются, если публикация, к которой они привязаны, была удалена или вложение удалено из нее.<br>Если включено, пользователи в этой группе смогут удалять вложения со страницы Мои вложения. После такого удаления, везде, где эти вложения были привязаны, будет отображаться битая ссылка или изображение.]]></word>
@@ -7798,16 +7798,16 @@
   <word key="widget_member_joined_date" js="0">Зарегистрирован: %s</word>
   <word key="widget_member_last_active_date" js="0">Последняя активность: %s</word>
   <word key="widget_member_secondary_groups" js="0">Проверить второстепенные группы</word>
-  <word key="filesize_Y" js="0">%s YB</word>
-  <word key="filesize_Z" js="0">%s ZB</word>
-  <word key="filesize_E" js="0">%s EB</word>
-  <word key="filesize_P" js="0">%s PB</word>
-  <word key="filesize_T" js="0">%s TB</word>
-  <word key="filesize_G" js="0">%s GB</word>
-  <word key="filesize_M" js="0">%s MB</word>
-  <word key="filesize_k" js="0">%s kB</word>
-  <word key="filesize_raw_k" js="0">kB</word>
-  <word key="filesize_b" js="0">%s B</word>
+  <word key="filesize_Y" js="0">%s Иб</word>
+  <word key="filesize_Z" js="0">%s Зб</word>
+  <word key="filesize_E" js="0">%s Эб</word>
+  <word key="filesize_P" js="0">%s Пб</word>
+  <word key="filesize_T" js="0">%s Тб</word>
+  <word key="filesize_G" js="0">%s Гб</word>
+  <word key="filesize_M" js="0">%s Мб</word>
+  <word key="filesize_k" js="0">%s Кб</word>
+  <word key="filesize_raw_k" js="0">Кб</word>
+  <word key="filesize_b" js="0">%s Б</word>
   <word key="remote_images" js="0">Сторонние изображения</word>
   <word key="allow_remote_images" js="0">Разрешить сторонние изображения</word>
   <word key="rss_import" js="0">Импорт RSS/Atom</word>
@@ -9380,8 +9380,8 @@
   <word key="uploadSizeErr" js="1">{# [*1:файл превышает][*2:файла превышают][*3:файла превышают][*4:файла превышают][*11:файлов превышают][*12:файлов превышают][*13:файлов превышают][*14:файлов превышают][?:файлов превышают]} максимально допустимый размер в {{max_file_size}} {{size_suffix}} и {!# [1:не был загружен][?:не были загружены]} </word>
   <word key="uploadMaxFilesErr" js="1">Вы можете загрузить только {# [*1:файл][*2:файла][*3:файла][*4:файла][*11:файлов][*12:файлов][*13:файлов][*14:файлов][?:файлов]}</word>
   <word key="pluploaderr_-600" js="1">Файл должен быть меньше {{max_file_size}}{{size_suffix}}.</word>
-  <word key="size_kb" js="1">КБ</word>
-  <word key="size_mb" js="1">МБ</word>
+  <word key="size_kb" js="1">Кб</word>
+  <word key="size_mb" js="1">Мб</word>
   <word key="pluploaderr_-601" js="1">Разрешённые типы файлов: {{allowed_extensions}}</word>
   <word key="pluploaderr_nomulti" js="1">Вы можете загрузить только один файл.</word>
   <word key="pluploaderr_SECURITY_EXCEPTION_RAISED" js="1">{{server_error_code}}</word>
@@ -9761,6 +9761,7 @@
   <word key="imageLazyLoadRebuildBlurbEnable" js="1">По желанию, вы можете обновить существующие публикации для включения ленивой загрузки медиа. Это запустит фоновую задачу, выполнение которой может занять некоторое время.</word>
   <word key="imageLazyLoadRebuildBlurbDisable" js="1">По желанию, вы можете удалить ленивую загрузку с существующих публикаций. Это запустит фоновую задачу, выполнение которой может занять некоторое время.</word>
   <word key="emoji" js="1">Эмодзи</word>
+  <word key="emoji-category-smileys_people" js="1">Смайлики и люди</word>
   <word key="emoji-category-animals_nature" js="1">Природа и животные</word>
   <word key="emoji-category-food_drink" js="1">Еда и напитки</word>
   <word key="emoji-category-activities" js="1">Занятия</word>
@@ -11018,6 +11019,10 @@
   <word key="emoji-male-scientist" js="1">Male Scientist</word>
   <word key="emoji-male-astronaut" js="1">Male Astronaut</word>
   <word key="emoji-male-firefighter" js="1">Male Firefighter</word>
+  <word key="emoji-male_red_haired" js="1">Male Red Haired</word>
+  <word key="emoji-male_curly_haired" js="1">Male Curly Haired</word>
+  <word key="emoji-male_bald" js="1">Male Bald</word>
+  <word key="emoji-male_white_haired" js="1">Male White Haired</word>
   <word key="emoji-male-doctor" js="1">Male Doctor</word>
   <word key="emoji-male-judge" js="1">Male Judge</word>
   <word key="emoji-male-pilot" js="1">Male Pilot</word>
@@ -11047,6 +11052,10 @@
   <word key="emoji-female-scientist" js="1">Female Scientist</word>
   <word key="emoji-female-astronaut" js="1">Female Astronaut</word>
   <word key="emoji-female-firefighter" js="1">Female Firefighter</word>
+  <word key="emoji-female_red_haired" js="1">Female Red Haired</word>
+  <word key="emoji-female_curly_haired" js="1">Female Curly Haired</word>
+  <word key="emoji-female_bald" js="1">Female Bald</word>
+  <word key="emoji-female_white_haired" js="1">Female White Haired</word>
   <word key="emoji-female-doctor" js="1">Female Doctor</word>
   <word key="emoji-female-judge" js="1">Female Judge</word>
   <word key="emoji-female-pilot" js="1">Female Pilot</word>
@@ -11631,9 +11640,9 @@
   <word key="email_best_answer" js="0">Ваш пост был отмечен как лучший ответ:</word>
   <word key="emailstats__notification_best_answer" js="0">Лучший ответ</word>
   <word key="emailtpl__notification_best_answer" js="0">Лучший ответ</word>
-  <word key="group_allow_anon_logins" js="0">Принято</word>
+  <word key="group_allow_anon_logins" js="0">Разрешено</word>
   <word key="group_force_anon_logins" js="0">Принудительно</word>
-  <word key="group_disallow_anon_logins" js="0">Отклонено</word>
+  <word key="group_disallow_anon_logins" js="0">Запрещено</word>
   <word key="edit_reason" js="0">Причина изменения</word>
   <word key="log_edit" js="0">Показывать, что сообщение было отредактировано</word>
   <word key="log_edit_desc" js="0">Персонал всё ещё может видеть это</word>
@@ -11691,7 +11700,7 @@
   <word key="r__overview" js="0">Обзор</word>
   <word key="r__overview_manage" js="0">Может просматривать обзор статистики?</word>
   <word key="ext__OverviewStatistics" js="0">Добавить блок на страницу статистики пользователя или обзора активности</word>
-  <word key="stats_overview_prune" js="0">Данные удалятся через {# [1:day][?:days]}</word>
+  <word key="stats_overview_prune" js="0">Данные удалятся через {# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
   <word key="stats_overview_registrations" js="0">Новые регистрации</word>
   <word key="stats_overview_devices" js="0">Использование устройства</word>
   <word key="stats_overview_online" js="0">Пользователи онлайн</word>
@@ -12109,9 +12118,9 @@
   <word key="top_solved_empty__month" js="0">Нет решённых тем в этом месяце.</word>
   <word key="top_solved_empty__year" js="0">Нет решённых тем в этом году.</word>
   <word key="top_solved_empty__all" js="0">Нет решённых тем.</word>
-  <word key="comment_meta_date_years_later" js="0">{# [1:year][?:years]} спустя</word>
-  <word key="comment_meta_date_months_later" js="0">{# [1:month][?:months]} спустя</word>
-  <word key="comment_meta_date_weeks_later" js="0">{# [1:week][?:weeks]} спустя</word>
+  <word key="comment_meta_date_years_later" js="0">{# [*1:год][*2:года][*3:года][*4:года][*11:лет][*12:лет][*13:лет][*14:лет][?:лет]} спустя</word>
+  <word key="comment_meta_date_months_later" js="0">{# [*1:месяц][*2:месяца][*3:месяца][*4:месяца][*11:месяцев][*12:месяцев][*13:месяцев][*14:месяцев][?:месяцев]} спустя</word>
+  <word key="comment_meta_date_weeks_later" js="0">{# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]} спустя</word>
   <word key="comment_meta_moderation_modlog__item_edit" js="0"><![CDATA[%2$s изменил заголовок на <em>%1$s</em>]]></word>
   <word key="comment_meta_moderation_modlog__comment_edit_title" js="0"><![CDATA[%2$s изменил заголовок на <em>%1$s</em>]]></word>
   <word key="comment_meta_moderation_modlog__action_pin" js="0">%2$s закрепил это %1$s</word>
@@ -12571,6 +12580,8 @@
   <word key="core_theme_set_logo_height" js="0">Высота логотипа</word>
   <word key="core_theme_set_logo_height_desc" js="0">Высота изображения логотипа относительно строки заголовка, в процентах</word>
   <word key="themesetting_tag_font" js="0">Теги</word>
+  <word key="pixabay_safesearch" js="0">Безопасный поиск</word>
+  <word key="pixabay_safesearch_desc" js="0">Отображать только подходящие для всех возрастов изображения.</word>
   <word key="file_storage_test_chunk_mismatch" js="0">Загрузки в '%s' будут ограничены %s. Чтобы увеличить это значение, обратитесь к своему хостинг-провайдеру или системному администратору и попросите увеличить следующие параметры PHP до значения выше %s (они не должны быть выше этого значения, поскольку указанные выше файлы могут быть загружены по частям): %s.</word>
   <word key="file_storage_test_chunk_mismatch_value" js="0">%s (сейчас %s)</word>
   <word key="languages_create_blurb" js="0"><![CDATA[При создании нового языка будет создана копия языкового пакета по умолчанию, который можно настроить. Вы также можете добавить готовые языковые пакеты из <a href='{internal.app=core&module=marketplace&controller=marketplace}'>магазина</a> или с помощью <a href='{internal.app=core&module=languages&controller=languages&do=upload}'>загрузки вручную</a>.]]></word>

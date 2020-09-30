@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.2" long_version="45002" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="downloads" version="">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
@@ -175,7 +175,7 @@
   <word key="idm_view_downloads" js="0">Может просматривать, кто скачивал файл</word>
   <word key="idm_view_downloads_desc" js="0">Журнал скачиваний может быть отключен для конкретной категории или автоматически очищаться.</word>
   <word key="idm_throttling" js="0">Максимальная скорость скачивания</word>
-  <word key="idm_throttling_suffix" js="0">КБ/секунду</word>
+  <word key="idm_throttling_suffix" js="0">Кб/секунду</word>
   <word key="idm_throttling_desc" js="0">Максимальная скорость отдачи файлов пользователю. Слишком низкое значение может привезти к таймауту соединения и обрыву сессии.</word>
   <word key="idm_throttling_unlimited" js="0">Без ограничений</word>
   <word key="idm_wait_period" js="0">Время ожидания перед скачиванием</word>
@@ -186,9 +186,9 @@
   <word key="daily_bw" js="0">Максимальный трафик за день</word>
   <word key="weekly_bw" js="0">Максимальный трафик за неделю</word>
   <word key="monthly_bw" js="0">Максимальный трафик за месяц</word>
-  <word key="kb_per_day" js="0">КБ/день</word>
-  <word key="kb_per_week" js="0">КБ/неделю</word>
-  <word key="kb_per_month" js="0">КБ/месяц</word>
+  <word key="kb_per_day" js="0">Кб/день</word>
+  <word key="kb_per_week" js="0">Кб/неделю</word>
+  <word key="kb_per_month" js="0">Кб/месяц</word>
   <word key="daily_dl" js="0">Максимум скачиваний за день</word>
   <word key="weekly_dl" js="0">Максимум скачиваний за неделю</word>
   <word key="monthly_dl" js="0">Максимум скачиваний за месяц</word>
@@ -506,6 +506,7 @@
   <word key="file_no_price_for_currency" js="0">Данный файл в настоящий момент недоступен в выбранной вами валюте.</word>
   <word key="nexus_file_no_longer_available" js="0">Этот файл больше недоступен для скачивания, пожалуйста, свяжитесь с его автором для дополнительной информации.</word>
   <word key="notifications__downloads_Files" js="0">Обновления файлов</word>
+  <word key="notifications__new_file_version" js="0">Вышла новая версия файла, на который я подписан</word>
   <word key="email_new_file_version_plain" js="0">%s загрузил новую версию %s,</word>
   <word key="email_new_file_version" js="0"><![CDATA[<a href='%s'>%s</a> загрузил новую версию %s,]]></word>
   <word key="email_new_file_version_guest" js="0">%s (Гость) загрузил новую версию %s,</word>
@@ -594,7 +595,7 @@
   <word key="downloads_field_paid_desc" js="0">Если этот параметр включен, содержимое этого поля будет показано только участникам, которые приобрели файл. Этот параметр не влияет на бесплатные файлы.</word>
   <word key="idm_max_size" js="0">Максимальный размер файлов</word>
   <word key="idm_max_size_desc" js="0">У категорий также может быть максимальный размер файлов. Обычный файлы будут ограничены наименьшим максимальным размеров файлов группы или максимальным размером файлов категории, в то время как файлы клубов будут ограничены этим значением.</word>
-  <word key="idm_maxsize_suffix" js="0">kB</word>
+  <word key="idm_maxsize_suffix" js="0">Кб</word>
   <word key="download_purchase_terms" js="0">Условия и положения</word>
   <word key="download_purchase_terms_desc" js="0">Перед покупкой необходимо согласиться со следующими условиями:</word>
   <word key="agree_and_purchase" js="0">Согласиться и купить</word>
