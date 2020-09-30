@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="gallery" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.0" long_version="45000" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="gallery" version="">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
   <word key="gallery_title" js="0">Галерея</word>
@@ -245,7 +245,6 @@
   <word key="gallery_bandwidth_period" js="0">Количество часов хранения журналов трафика</word>
   <word key="gallery_options" js="0">Основные настройки</word>
   <word key="gallery_rss_enabled" js="0">Включить RSS-ленту последних изображений</word>
-  <word key="gallery_rss_enabled_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
   <word key="gallery_rebuildimages" js="0">Перестроение изображений</word>
   <word key="rebuilding_gallery_images" js="0">Перестроение изображений галереи</word>
   <word key="cleaning_up_gallery_images" js="0">Очистка изображений галереи</word>
@@ -304,7 +303,7 @@
   <word key="image_title" js="0">Заголовок</word>
   <word key="image_ipaddress" js="0">IP-адрес</word>
   <word key="image_tags" js="0">Теги</word>
-  <word key="image_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
+  <word key="image_auto_follow_suffix" js="0">Подписаться на изображение</word>
   <word key="image_description" js="0">Описание</word>
   <word key="image_credit_info" js="0">Авторское право</word>
   <word key="image_credit_info_desc" js="0">Если источник изображение должен быть указан, введите его в это поле</word>
@@ -796,20 +795,15 @@
   <word key="chooseAlbum" js="1">Выберите альбом</word>
   <word key="imageUploadErrors" js="1">У {# [*1:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]} присутствуют ошибки</word>
   <word key="imageUploadErrorsDesc" js="1">Исправьте ошибки в {# [*1:отмеченном изображении][*11:отмеченных изображениях][*12:отмеченных изображениях][*13:отмеченных изображениях][*14:отмеченных изображениях][?:отмеченных изображениях]} и отправьте еще раз.</word>
-  <word key="g_delete_own_albums" js="0">Может удалять свои альбомы</word>
-  <word key="gallery_medium_dims" js="0">Размеры среднего изображения</word>
-  <word key="gallery_thumb_dims" js="0">Разрешение превью</word>
-  <word key="gallery_watermark_medium" js="0">Средние изображения</word>
-  <word key="gallery_watermark_thumb" js="0">Миниатюры</word>
-  <word key="view_all_sizes" js="0">Другие размеры</word>
-  <word key="slider_text" js="0"><![CDATA[Другие изображения в <strong>%s</strong>]]></word>
-  <word key="upload_percn_help" js="0">Вы можете использовать %n в названии изображения, и оно будет заменено на порядковый номер этого изображения в текущем наборе изображений (например, &quot;изображение %n&quot; станет &quot;изображение 1&quot;, &quot;изображение 2&quot;, &quot;изображение 3&quot; и так далее). Это полезно в случаях, когда вы хотите скопировать данные на все изображения в наборе. Вы ДОЛЖНЫ убедиться в том, что нажали кнопку Копировать описание для применения этого шаблона ко всем изображениям.</word>
-  <word key="image_info_finishcopy" js="0">Копировать данные во все изображения</word>
-  <word key="all_image_sizes" js="0">Все размеры %s</word>
-  <word key="back_to_image_page" js="0">Назад к странице изображений</word>
-  <word key="size_thumb" js="0">Превью</word>
-  <word key="size_small" js="0">Маленькое</word>
-  <word key="size_medium" js="0">Среднее</word>
-  <word key="size_large" js="0">Большое / Оригинальное</word>
+  <word key="category_preset_tags_desc" js="0">При использовании закрытой системы тегов, пользователям придётся выбирать их из этого списка. При использовании открытой системы тегов, они будут отображены как рекомендации.</word>
+  <word key="loc_gallery_adding_image_action" js="0">%s загружает изображение</word>
+  <word key="loc_gallery_browsing_action" js="0">%s просматривает галерею</word>
+  <word key="loc_gallery_browsing_categories_action" js="0">%s просматривает категории галереи</word>
+  <word key="loc_gallery_viewing_image_action" js="0">%s просматривает изображение</word>
+  <word key="loc_gallery_viewing_category_action" js="0">%s просматривает категорию галереи</word>
+  <word key="loc_gallery_viewing_album_action" js="0">%s просматривает альбом</word>
+  <word key="__api_gallery_categories" js="0">Категории</word>
+  <word key="category_allow_albums_desc" js="0"><![CDATA[Вы можете указать, каким группам разрешено создавать альбомы через <a href='{internal.app=core&module=members&controller=groups}'>Настройки групп</a>. Если Вам требуются альбомы, но у пользователя нет разрешения на создание альбомов, он не сможет публиковать в эту категорию.]]></word>
+  <word key="map_enabled_lightbox" js="0">Показать карту?</word>
  </app>
 </language>

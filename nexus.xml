@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="nexus" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.0" long_version="45000" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="nexus" version="">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
   <word key="menutab__nexus_icon" js="0">usd</word>
@@ -10,7 +10,7 @@
   <word key="currency" js="0">Валюта</word>
   <word key="security" js="0">Безопасный</word>
   <word key="renew_title" js="0">Продление: %s</word>
-  <word key="renew_option" js="0">%s за %s</word>
+  <word key="renew_option" js="0">%s/%s</word>
   <word key="order" js="0">Заказ</word>
   <word key="cm" js="0">см</word>
   <word key="inches" js="0">дюймов</word>
@@ -49,7 +49,6 @@
   <word key="filestorage__nexus_Products" js="0">Изображения продукта</word>
   <word key="filestorage__nexus_Ads" js="0">Реклама, загруженная клиентом</word>
   <word key="filestorage__nexus_Customer" js="0">Поля клиентов</word>
-  <word key="filestorage__nexus_ReferralBanners" js="0">Баннеры для приглашений</word>
   <word key="filestorage__nexus_PackageGroups" js="0">Группы продукта</word>
   <word key="filestorage__nexus_PackageFields" js="0">Поля продукта</word>
   <word key="filestorage__nexus_PurchaseFields" js="0">Поля покупки</word>
@@ -92,11 +91,11 @@
   <word key="paypal_type_paypal_desc" js="0"><![CDATA[Пользователи будут перенаправлены на сайт PayPal для оплаты с помощью аккаунта PayPal или банковской карты. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Платежам PayPal.]]></word>
   <word key="paypal_type_card" js="0">Карта</word>
   <word key="paypal_type_card_desc" js="0"><![CDATA[Пользователи введут данные своей банковской карты непосредственно на странице оформления заказа. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Прямым платежам.]]></word>
-  <word key="paypal_billing_agreements" js="0">Регулярные платежи</word>
-  <word key="paypal_billing_agreements_req" js="0">Обязательно: Всегда использовать регулярные платежи для покупок с периодом продления</word>
-  <word key="paypal_billing_agreements_req_desc" js="0">Учтите, что регулярные платежи могут использоваться только при заказе товаров с единым периодом продления. Если, например, клиент покупает продукт с ежемесячным продлением, в то же время как другой покупаемый продукт имеет ежегодное продление, регулярный платёж создан не будет.</word>
-  <word key="paypal_billing_agreements_opt" js="0">По желанию: Разрешить клиентам выбирать, хотят они использовать регулярные платежи или выставление счетов.</word>
-  <word key="paypal_billing_agreements_dis" js="0">Отключено: Не использовать регулярные платежи</word>
+  <word key="paypal_billing_agreements" js="0">Подписки (автоматические регулярные платежи)</word>
+  <word key="paypal_billing_agreements_req" js="0">Обязательно: Всегда использовать подписки для покупок с периодом продления</word>
+  <word key="paypal_billing_agreements_req_desc" js="0">Учтите, что подписки могут использоваться только при покупке товаров с единым периодом продления. Если, например, клиент покупает продукт с ежемесячным продлением, в то время как другой покупаемый продукт имеет ежегодное продление, подписка создана не будет.</word>
+  <word key="paypal_billing_agreements_opt" js="0">По желанию: Разрешить клиентам выбирать, хотят они использовать подписки или выставление счетов.</word>
+  <word key="paypal_billing_agreements_dis" js="0">Отключено: Не использовать подписки</word>
   <word key="paypal_billing_agreements_desc" js="0"><![CDATA[Этот параметр <a href='{external.https}' target='_blank' rel='noopener'>требует наличия HTTPS</a>, а ваш аккаунт PayPal <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен иметь доступ</a> к Подпискам.]]></word>
   <word key="paypal_vault" js="0">Разрешить пользователям сохранять данные банковской карты</word>
   <word key="paypal_vault_desc" js="0">Данные банковской карты хранятся на серверах PayPal, не на ваших.</word>
@@ -398,8 +397,8 @@
   <word key="refund_time_limit" js="0">Платёжный шлюз не смог обработать возврат т.к. прошло слишком много времени с момента оплаты. Вам нужно вернуться назад и вернуть средства на баланс аккаунта.</word>
   <word key="refund_already_processed" js="0">Платёжный шлюз сообщает, что транзакция уже была возвращена. Вам нужно вернуться назад и отметить транзакцию отказанной.</word>
   <word key="refund_failed" js="0">Платёжный шлюз не смог обработать возврат. Это могло произойти, если прошло слишком много времени с момента совершения платежа или недостаточно средств на вашем аккаунте для совершения возврата. Вы можете вернуться назад и вернуть средства на баланс аккаунта или связаться с платёжным шлюзом для ручного возврата и последующей отмены транзакции.</word>
-  <word key="refund_cancel_billing_agreement" js="0">Отменить регулярный платёж?</word>
-  <word key="refund_cancel_billing_agreement_desc" js="0">Эта транзакция была создана регулярным платежом. Если регулярный платёж не будет отменён, то он продолжит автоматически совершаться.</word>
+  <word key="refund_cancel_billing_agreement" js="0">Отменить подписку PayPal?</word>
+  <word key="refund_cancel_billing_agreement_desc" js="0">Эта транзакция была создана подпиской PayPal. Если подписка также не будет отменена, то будущие платежи продолжат совершаться  автоматически.</word>
   <word key="refund_cancel_billing_agreement_warning" js="0">Невозможность отменить регулярный платёж будет означать, что платежи продолжат совершаться даже если нет привязанных покупок для продления.</word>
   <word key="address_invalid" js="0">Платёжный шлюз сообщил, что платёжный адрес или адрес доставки являются недействительными. Пожалуйста, проверьте корректность введённых адресов.</word>
   <word key="invoice_addresses" js="0">Адреса счёта</word>
@@ -463,7 +462,7 @@
   <word key="maxmind_card_issuer" js="0">Информация об эмитенте карты</word>
   <word key="maxmind_binMatch_y" js="0">Банковская карта находится в стране, указанной в платежном адресе</word>
   <word key="maxmind_binMatch_n" js="0">Банковская карта не находится в стране, указанной в платежном адресе</word>
-  <word key="maxmind_prepaid_n" js="0">Нет предоплаты или подарочной карты</word>
+  <word key="maxmind_prepaid_n" js="0">Не предоплаченная или подарочная карта</word>
   <word key="maxmind_customer_information" js="0">Информация о клиенте</word>
   <word key="maxmind_custPhoneInBillingLoc_y" js="0">Номер телефона соответствует почтовому индексу</word>
   <word key="maxmind_custPhoneInBillingLoc_n" js="0">Номер телефона не соответствует почтовому индексу</word>
@@ -505,15 +504,15 @@
   <word key="nexus_split_payments_on" js="0">Разрешить разделять платежи</word>
   <word key="nexus_split_payments_on_desc" js="0">Разделение платежей позволит клиентам оплачивать заказ более чем одним способом оплаты. Например, оплатить заказ двумя банковскими картами.</word>
   <word key="nexus_split_payments" js="0">Минимальная сумма для разделения платежей</word>
-  <word key="nexus_require_billing" js="0">Требовать реальное имя клиента и платёжный адрес при</word>
-  <word key="nexus_require_billing_package" js="0">Покупки цифровых товаров</word>
-  <word key="nexus_require_billing_package_desc" js="0">При покупке физических товаров всегда требуется оказывать реальное имя пользователя, а также платёжный адрес и адрес доставки.</word>
-  <word key="nexus_require_billing_gift" js="0">Покупке подарочных карт</word>
-  <word key="nexus_require_billing_donation" js="0">Совершении пожертвования</word>
-  <word key="nexus_require_billing_domain" js="0">Покупке доменных имён</word>
-  <word key="nexus_require_billing_other" js="0">Оплате других счетов</word>
-  <word key="nexus_require_billing_other_desc" js="0">Например, пополнение баланса аккаунта, платные запросы в поддержку, оплата повышения продуктов, а также все расходы по созданным вручную счетам.</word>
-  <word key="nexus_require_billing_desc" js="0"><![CDATA[При отключении какого-либо из этих вариантов помните, что без платёжного адреса:<ul><li>Некоторые <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank' rel='noopener'>методы оплаты</a> будут недоступны для использования, включая платежи через PayPal с использованием банковских карт, регулярные платежи PayPal, 2CheckOut и некоторые способы Authorize.Net. Все методы оплаты, которые настроены на работу только в определённых странах, будут недоступны.</li><li>Если какая-либо из <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=tax}' target='_blank' rel='noopener'>налоговых ставок</a> зависит от месторасположения клиента, то будет использоваться стандартная налоговая ставка.</li><li>Все <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=fraud}' target='_blank' rel='noopener'>правила по борьбе с мошенничеством</a>, которые используют платёжный адрес, будут считать, что клиент находится не в той стране, которую он указал.</li><li>Если интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=nexus_MaxMind}' target='_blank' rel='noopener'>MaxMind</a> включена, то возможность определения мошеннических транзакций будет затруднена.</li></ul>Если вы используете какой-либо функционал, описанный выше, рекомендуется оставить все флажки отмеченными, чтобы клиентам всегда предлагалось заполнить платёжный адрес.]]></word>
+  <word key="nexus_require_billing" js="0">Требовать имя клиента и платёжный адрес</word>
+  <word key="nexus_require_billing_package" js="0">При покупке цифровых товаров</word>
+  <word key="nexus_require_billing_package_desc" js="0">Покупка физических товаров всегда требуется наличия полного имени пользователя, платёжного адреса и адрес доставки.</word>
+  <word key="nexus_require_billing_gift" js="0">При покупке подарочных карт</word>
+  <word key="nexus_require_billing_donation" js="0">При совершении пожертвования</word>
+  <word key="nexus_require_billing_domain" js="0">При покупке доменных имён</word>
+  <word key="nexus_require_billing_other" js="0">При оплате других счетов</word>
+  <word key="nexus_require_billing_other_desc" js="0">Включает в себя пополнение баланса аккаунта, платные запросы в поддержку, оплата повышения продуктов, а также все расходы по созданным вручную счетам.</word>
+  <word key="nexus_require_billing_desc" js="0"><![CDATA[При отключении какого-либо из этих вариантов помните, что без платёжного адреса:<ul><li>Некоторые <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=gateways}' target='_blank' rel='noopener'>методы оплаты</a> будут недоступны для использования, включая платежи через PayPal с использованием банковских карт, подписки PayPal, 2CheckOut и некоторые способы Authorize.Net. Все методы оплаты, которые настроены на работу только в определённых странах, будут недоступны.</li><li>Если какая-либо из <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=tax}' target='_blank' rel='noopener'>налоговых ставок</a> зависит от месторасположения клиента, то будет использоваться стандартная налоговая ставка.</li><li>Все <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=fraud}' target='_blank' rel='noopener'>правила по борьбе с мошенничеством</a>, которые используют платёжный адрес, будут считать, что клиент находится не в той стране, которую он указал.</li><li>Если интеграция с <a href='{internal.app=core&module=applications&controller=enhancements&do=edit&id=nexus_MaxMind}' target='_blank' rel='noopener'>MaxMind</a> включена, то возможность определения мошеннических транзакций будет затруднена.</li></ul>Если вы используете какой-либо функционал, описанный выше, рекомендуется оставить все флажки отмеченными, чтобы клиентам всегда предлагалось заполнить платёжный адрес.]]></word>
   <word key="nexus_minimum_order" js="0">Минимальная сумма заказа</word>
   <word key="nexus_tac" js="0">Правила и условия</word>
   <word key="nexus_tac_none" js="0">Не отображать</word>
@@ -684,45 +683,45 @@
   <word key="invoice_timeline_warning_time" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} до генерации счёта</word>
   <word key="invoice_timeline_warning_event" js="0">Если у клиента есть деньги на балансе аккаунта или прикреплена карта, ему будет отправлено email-письмо с предупреждением о скором автоматическом платёже.</word>
   <word key="invoice_timeline_generate_time" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} до даты окончания</word>
-  <word key="invoice_timeline_generate_event" js="0"><![CDATA[Счёт был создан. Если у клиента есть деньги на балансе аккаунта или привязана карта, будет произведён автоматический платёж.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия заказа будет продлена на один период продления.<br>Если покупка связана с регулярным платежом, то счёт на продление создан не будет.]]></word>
-  <word key="invoice_timeline_ba_warn_event" js="0">Если покупка содержит связанный регулярный платёж, будет отправлено email-уведомление о том, что платёж скоро будет совершён автоматически.</word>
+  <word key="invoice_timeline_generate_event" js="0"><![CDATA[Счёт был создан. Если у клиента есть деньги на балансе аккаунта или привязана карта, будет произведён автоматический платёж.<br>Если клиент оплатит счёт сейчас, <strong>текущая</strong> дата окончания срока действия будет продлена на один период продления.<br>Счёт на продление создан не будет, если у покупки имеется связанная подписка PayPal для автоматической оплаты.]]></word>
+  <word key="invoice_timeline_ba_warn_event" js="0">Если с покупкой связана подписка PayPal, будет отправлено email-уведомление о том, что платёж скоро будет произведён автоматически.</word>
   <word key="invoice_timeline_grace_time" js="0">Дата истечения покупки</word>
-  <word key="invoice_timeline_grace_event" js="0"><![CDATA[Если покупка связана с регулярным платежом, платёж будет совершён.<br>Покупка в периоде отсрочки будет оставаться активной, хотя её срок действия уже истёк. Длительность периода отсрочки устанавливается в настройках продукта.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия заказа будет продлена на один период продления.]]></word>
+  <word key="invoice_timeline_grace_event" js="0"><![CDATA[Если с покупкой связана подписка PayPal, платёж будет произведён.<br>Если покупка не была продлена, начинается период отсрочки, когда срок её действия закончился, но она всё еще считается активной. Продолжительность периода отсрочки можно задать в настройках продукта.<br>Если клиент оплатит счет сейчас, <strong>текущая</strong> дата окончания срока действия будет продлена на один период продления.]]></word>
   <word key="invoice_timeline_expire_time" js="0">После периода отсрочки</word>
   <word key="invoice_timeline_expire_event" js="0"><![CDATA[Покупка истекает, и любые привилегии, предоставляемые ей, отменяются.<br>Если у продукта настроено email-письмо, отправляемое при скором истечении покупки, то это письмо отправляется.<br>Если клиент оплатит счет сейчас, то покупка возобновится и будет установлена <strong>новая</strong> дата окончания срока действия, равная периоду продления с текущей даты.]]></word>
   <word key="invoice_timeline_invoice_exp_time" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]} после создания счёта</word>
   <word key="invoice_timeline_invoice_exp_event" js="0">Если счет не будет оплачен, он истечёт и больше не сможет быть оплачен. Чтобы совершить продление, необходимо вручную создать счёт через Админцентр.</word>
   <word key="invoice_timeline_credit" js="0"><![CDATA[Если у продукта настроено email-письмо, отправляемое при скором истечении покупки, то это письмо отправляется.<br>В противном случае, если у клиента есть средства на балансе аккаунта или привязана карта, то отправляется письмо с предупреждением о том, что в ближайшее время платеж будет произведен автоматически.]]></word>
-  <word key="ba_gw_id" js="0">Идентификатор регулярного платёжа</word>
+  <word key="ba_gw_id" js="0">Идентификатор подписки</word>
   <word key="ba_started" js="0">Дата создания</word>
   <word key="ba_next_cycle" js="0">Следующая оплата</word>
-  <word key="billing_agreement_id" js="0">Регулярный платёж №%s</word>
-  <word key="billing_agreement_details" js="0">Описание регулярного платёжа</word>
+  <word key="billing_agreement_id" js="0">Подписка PayPal %s</word>
+  <word key="billing_agreement_details" js="0">Описание платежа</word>
   <word key="billing_agreement_transactions" js="0">Связанные транзакции</word>
-  <word key="billing_agreement_no_member" js="0">Клиент, связанный с этим регулярным платежом, больше не существует.</word>
+  <word key="billing_agreement_no_member" js="0">Клиент, связанный с этой подпиской, больше не существует.</word>
   <word key="billing_agreement_purchases" js="0">Связанные покупки</word>
   <word key="billing_agreement_active" js="0">Активно</word>
   <word key="billing_agreement_suspended" js="0">Приостановлено</word>
   <word key="billing_agreement_canceled" js="0">Отменено</word>
   <word key="billing_agreement_unknown" js="0">Статус неизвестен</word>
-  <word key="billing_agreement_error" js="0">Возникла проблема при обращении к платёжному шлюзу для получения информации о регулярном платеже.</word>
-  <word key="billing_agreement_cancel_error" js="0">Возникла проблема при обращении к платёжному шлюзу для отмены регулярного платежа. Платеж не был отменен. Необходимо отменить регулярный платёж в платёжном шлюзе, а затем повторить попытку с отключенной опцией отмены регулярного платежа.</word>
+  <word key="billing_agreement_error" js="0">Возникла проблема при взаимодействии с PayPal для получения информации о подписке.</word>
+  <word key="billing_agreement_cancel_error" js="0">Возникла проблема при взаимодействии с PayPal для отмены подписки. Платеж не был отменён. Вам следует отменить подписку в вашем аккаунте PayPal, после чего повторить попытку с отключенной опцией отмены подписки.</word>
   <word key="billing_agreement_error_public" js="0">Запрашиваемое действие не может быть выполнено. Пожалуйста, свяжитесь с нами для дополнительной информации.</word>
   <word key="billing_agreement_term" js="0">Условие</word>
   <word key="billing_agreement_next_payment" js="0">Следующий платёж</word>
-  <word key="task__billingAgreements" js="0">Обновляет регулярные платежи.</word>
+  <word key="task__billingAgreements" js="0">Обновляет информацию о подписках PayPal.</word>
   <word key="billing_agreement_run_failed" js="0"><![CDATA[Последняя попытка получить платёжные реквизиты завершилась неудачно и этот регулярный платёж больше не будет обновляться автоматически. Проверьте, что сумма покупок, связанных с регулярным платежом, соответствует отправленным данным о платеже, а после <a href='%s'>нажмите здесь для перезапуска</a>.]]></word>
   <word key="billing_agreement_suspend" js="0">Приостановить</word>
   <word key="billing_agreement_suspend_confirm" js="0">Автоматическое получение платежей будет приостановлено. Если регулярный платёж не будет возобновлён до даты истечение покупки, они истекут без автоматического создания счета на продление.</word>
   <word key="billing_agreement_reactivate" js="0">Возобновить</word>
   <word key="billing_agreement_cancel" js="0">Отменить</word>
-  <word key="r__billingagreements" js="0">Регулярные платежи</word>
-  <word key="r__billingagreements_view" js="0">Может просматривать регулярные платежи</word>
-  <word key="r__billingagreements_manage" js="0">Может приостанавливать, возобновлять и отменять регулярные платежи</word>
-  <word key="history_billingagreement_suspend" js="0"><![CDATA[Регулярный платёж <a href='{internal.app=nexus&module=payments&controller=billingagreements&id=}%s'>%s</a> приостановлен%s.]]></word>
-  <word key="history_billingagreement_reactivate" js="0"><![CDATA[Регулярный платёж <a href='{internal.app=nexus&module=payments&controller=billingagreements&id=}%s'>%s</a> возобновлён%s.]]></word>
-  <word key="history_billingagreement_cancel" js="0"><![CDATA[Регулярный платёж <a href='{internal.app=nexus&module=payments&controller=billingagreements&id=}%s'>%s</a> отменён%s.]]></word>
-  <word key="billing_agreement_purchase_info" js="0"><![CDATA[Эта покупка имеет <a href='%s'>привязанный регулярный платёж</a> и не может быть изменена, отменена или перемещена до тех пор, пока регулярный платёж не будет отменён.]]></word>
+  <word key="r__billingagreements" js="0">Подписки PayPal</word>
+  <word key="r__billingagreements_view" js="0">Может просматривать подписки PayPal?</word>
+  <word key="r__billingagreements_manage" js="0">Может отключать, возобновлять и отменять подписки PayPal?</word>
+  <word key="history_billingagreement_suspend" js="0"><![CDATA[Подписка PayPal <a href='{internal.app=nexus&module=payments&controller=billingagreements&id=}%s'>%s</a> приостановлена%s.]]></word>
+  <word key="history_billingagreement_reactivate" js="0"><![CDATA[Подписка PayPal <a href='{internal.app=nexus&module=payments&controller=billingagreements&id=}%s'>%s</a> возобновлена%s.]]></word>
+  <word key="history_billingagreement_cancel" js="0"><![CDATA[Подписка PayPal <a href='{internal.app=nexus&module=payments&controller=billingagreements&id=}%s'>%s</a> отменена%s.]]></word>
+  <word key="billing_agreement_purchase_info" js="0"><![CDATA[С этой покупкой <a href='%s'>связана подписка PayPal</a> и она не может быть изменена, отменена или передана до тех пор, пока подписка PayPal не будет отменена.]]></word>
   <word key="address" js="0">Адрес</word>
   <word key="add_address" js="0">Добавить адрес</word>
   <word key="edit_address" js="0">Изменить адрес</word>
@@ -1047,7 +1046,7 @@
   <word key="f_blurb_ip" js="0">IP-адрес %s %s</word>
   <word key="f_invalid_regex" js="0"><![CDATA[Регулярное выражения является некорректным. Вы также должны включить в него разделители и флаги, например <code>/^[A-Z]+$/i</code>]]></word>
   <word key="fraud_customer_account" js="0">Аккаунт</word>
-  <word key="fraud_customer_fields" js="0">Настраиваемые поля</word>
+  <word key="fraud_customer_fields" js="0">Дополнительные поля</word>
   <word key="fraud_customer_prevtrans" js="0">Предыдущие транзакции</word>
   <word key="f_blurb_custom_bool_y" js="0">%s - да</word>
   <word key="f_blurb_custom_bool_n" js="0">%s - нет</word>
@@ -1097,7 +1096,7 @@
   <word key="edit_note" js="0">Изменить примечание</word>
   <word key="void_account" js="0">Аннулировать аккаунт</word>
   <word key="void_refund_transactions" js="0">Вернуть все транзакции</word>
-  <word key="void_cancel_billing_agreements" js="0">Отменить все регулярные платежи?</word>
+  <word key="void_cancel_billing_agreements" js="0">Отменить все подписки PayPal?</word>
   <word key="void_cancel_purchases" js="0">Отменить все покупки</word>
   <word key="void_cancel_invoices" js="0">Отменить все неоплаченные счета?</word>
   <word key="void_resolve_support" js="0">Пометить все запросы в поддержку решёнными?</word>
@@ -1109,9 +1108,8 @@
   <word key="above_average" js="0">Выше среднего</word>
   <word key="below_average" js="0">Ниже среднего</word>
   <word key="num_credit_card" js="0">{# [*1:сохранённый способ][*2:сохранённых способа][*3:сохранённых способа][*4:сохранённых способа][*11:сохранённых способов][*12:сохранённых способов][*13:сохранённых способов][*14:сохранённых способов][?:сохранённых способов]} оплаты</word>
-  <word key="num_billing_agreements" js="0">{# [*1:регулярный платёж][*2:регулярных платежа][*3:регулярных платежа][*4:регулярных платежа][*11:регулярных платежей][*12:регулярных платежей][*13:регулярных платежей][*14:регулярных платежей][?:регулярных платежей]}</word>
+  <word key="num_billing_agreements" js="0">{# [*1:подписка][*2:подписки][*3:подписки][*4:подписки][*11:подписок][*12:подписок][*13:подписок][*14:подписок][?:подписок]} PayPal</word>
   <word key="num_alternate_contacts" js="0">{# [*1:альтернативный контакт][*2:альтернативных контакта][*3:альтернативных контакта][*4:альтернативных контакта][*11:альтернативных контактов][*12:альтернативных контактов][*13:альтернативных контактов][*14:альтернативных контактов][?:альтернативных контактов]}</word>
-  <word key="num_refer_count" js="0">{# [*1:приглашённый][*11:приглашённых][*12:приглашённых][*13:приглашённых][*14:приглашённых][?:приглашённых]}</word>
   <word key="edit_credit" js="0">Изменить баланс аккаунта</word>
   <word key="customer_new_request" js="0">Новый запрос в поддержку</word>
   <word key="account_items" js="0">Товары на аккаунте</word>
@@ -1123,19 +1121,17 @@
   <word key="customer_since" js="0">Клиент с %s</word>
   <word key="manage_notes" js="0">Управление примечаниями</word>
   <word key="customer_manage_cards" js="0">Управление кредитными картами</word>
-  <word key="customer_manage_paypal" js="0">Управление регулярными платежами</word>
-  <word key="billing_agreements" js="0">Регулярные платежи</word>
+  <word key="customer_manage_paypal" js="0">Управление подписками PayPal</word>
+  <word key="billing_agreements" js="0">Подписки PayPal</word>
   <word key="customer_manage_alts" js="0">Управление контактами</word>
-  <word key="customer_manage_referrers" js="0">Управление приглашениями</word>
   <word key="recent_account_activity" js="0">Последняя активность аккаунта</word>
   <word key="view_account" js="0">Просмотр аккаунта</word>
   <word key="no_alternate_contacts" js="0">Нет альтернативных контактов.</word>
   <word key="no_addresses" js="0">Нет адресов.</word>
   <word key="no_credit_cards" js="0">Нет банковских карт.</word>
-  <word key="no_billing_agreements" js="0">Нет регулярных платежей</word>
+  <word key="no_billing_agreements" js="0">Нет подписок PayPal</word>
   <word key="no_billing_agreement_history" js="0">Нет истории платежей.</word>
   <word key="no_customer_notes" js="0">Нет примечания клиента.</word>
-  <word key="no_referrals" js="0">Нет приглашённых клиентов.</word>
   <word key="see_all_support" js="0">{!# [1:Один запрос][?:Все запросы]}</word>
   <word key="see_all_invoices" js="0">{!# [1:Один счёт][?:Все счета]}</word>
   <word key="no_support_requests" js="0">Нет запросов в поддержку для отображения.</word>
@@ -1143,7 +1139,6 @@
   <word key="no_invoices" js="0">У этого клиента нет счетов</word>
   <word key="avg_short" js="0">средн.</word>
   <word key="alt_contact_for" js="0">Альтернативный контакт для</word>
-  <word key="referred_by" js="0">Пригласил</word>
   <word key="history_added_note" js="0">Добавлена заметка %s</word>
   <word key="history_edited_note" js="0">Изменена заметка %s</word>
   <word key="history_deleted_note" js="0">Удалена заметка %s</word>
@@ -1151,15 +1146,14 @@
   <word key="loading_customer_stats" js="0">Статистика клиента загружается...</word>
   <word key="customer_tab_overview" js="0">Информация</word>
   <word key="customer_tab_cards" js="0">Сохранённые способы оплаты</word>
-  <word key="customer_tab_paypal" js="0">Регулярные платежи PayPal</word>
+  <word key="customer_tab_paypal" js="0">Подписки PayPal</word>
   <word key="customer_tab_alts" js="0">Альтернативные контакты</word>
-  <word key="customer_tab_referrers" js="0">Приглашённые пользователи</word>
   <word key="revenue_past_12_months" js="0">Доход за последние 12 месяцев</word>
   <word key="memberACPProfileTitle_nexus_Main" js="0">Клиент</word>
   <word key="purchase_tab_active" js="0">Активные</word>
   <word key="purchase_tab_expired" js="0">Истёкшие</word>
   <word key="purchase_tab_canceled" js="0">Отменённые</word>
-  <word key="menu__nexus_customers_fields" js="0">Настраиваемые поля</word>
+  <word key="menu__nexus_customers_fields" js="0">Дополнительные поля</word>
   <word key="nexus_customer_fields" js="0">Поля клиентов</word>
   <word key="customer_field_registration" js="0">Регистрация</word>
   <word key="f_reg_show" js="0">Отображать при регистрации</word>
@@ -1252,7 +1246,7 @@
   <word key="ps_expire" js="0">Истекает</word>
   <word key="does_not_expire" js="0">Не истекает</word>
   <word key="ps_renewals" js="0">Период продления</word>
-  <word key="ps_billing_agreement" js="0">Регулярный платеж</word>
+  <word key="ps_billing_agreement" js="0">Подписка PayPal</word>
   <word key="ps_grace_period" js="0">Период отсрочки</word>
   <word key="ps_grace_period_desc" js="0">Покупка останется активной в течение указанного времени после истечения срока её действия прежде чем любые привилегии, предоставленные покупкой, будут отменены. Если клиент оплатит счёт в течение этого срока, текущая дата окончания срока действия покупки будет продлена на один период продления вместо создания новой даты окончания.</word>
   <word key="ps_parent" js="0">Родительский</word>
@@ -1261,11 +1255,11 @@
   <word key="reactivate" js="0">Возобновить</word>
   <word key="ps_member" js="0">Владелец</word>
   <word key="generate_renewal_invoice" js="0">Создать счёт на продление</word>
-  <word key="change_package" js="0">Обновить/откатить</word>
+  <word key="change_package" js="0">Обновить/Откатить</word>
   <word key="change_package_upgrade" js="0">Обновить</word>
   <word key="change_package_downgrade" js="0">Откатить</word>
   <word key="change_package_ship_charges" js="0">Переопределить стоимость</word>
-  <word key="change_package_ship_charges_desc" js="0">Если выбрано, изменение будет сделано без оплаты со стороны клиента (при повышении) или возврата средств на баланс аккаунта (при понижении).</word>
+  <word key="change_package_ship_charges_desc" js="0">Если выбрано, изменение будет сделано без оплаты со стороны клиента (при обновлении) или возврата средств на баланс аккаунта (при откате).</word>
   <word key="warn_renew_invoice_pending" js="0"><![CDATA[Уже существует счёт на продление покупки. Вам нужно отменить сначала этот счёт для предотвращения возможности двойного продления. Или вы можете пересоздать существующий счёт. <a href='%s'>Просмотреть существующий счёт</a>]]></word>
   <word key="info_renew_invoice_pending" js="0"><![CDATA[Последний созданный счёт на продление не был оплачен. Вам нужно пересоздать существующий счёт вместо создания нового. <a href='%s'>Просмотреть существующий счёт</a>]]></word>
   <word key="renew_cycles" js="0">Циклы продления</word>
@@ -1298,7 +1292,7 @@
   <word key="grouperr_currencies_dont_match" js="0">При продлении этой и родительской покупок используются разные валюты.</word>
   <word key="grouperr_no_parent" js="0">Нет родительской группы для объединения.</word>
   <word key="not_with_grouped" js="0">Вы не можете совершить это действие для сгруппированной покупки. Измените родительскую покупку или сперва отъедините её.</word>
-  <word key="not_with_billing_agreement" js="0">Вы не можете выполнять это действие над покупкой, которая имеет регулярный платёж. Сначала отмените его.</word>
+  <word key="not_with_billing_agreement" js="0">Вы не можете выполнить это действие над покупкой, с которой связана подписка PayPal. Сперва отмените подписку PayPal.</word>
   <word key="purchase_number" js="0">Покупка № %d</word>
   <word key="purchase_customer_info" js="0">Информация о клиенте</word>
   <word key="printable_version" js="0">Версия для печати</word>
@@ -1427,7 +1421,7 @@
   <word key="r__reports_manage" js="0">Может просматривать отчёты о производительности поддержки (включая просмотр ответов в отделах без соответствующих прав)</word>
   <word key="r__severities_manage" js="0">Может управлять уровнями</word>
   <word key="r__stockactions_manage" js="0">Может управлять действиями по умолчанию</word>
-  <word key="r__scfields_manage" js="0">Может управлять настраиваемыми полями</word>
+  <word key="r__scfields_manage" js="0">Может управлять дополнительными полями</word>
   <word key="r__autoresolve_manage" js="0">Может управлять настройками автозакрытия</word>
   <word key="r__customerfeedback_manage" js="0">Может управлять настройкой отзывов клиентов</word>
   <word key="r__outgoingemail_manage" js="0">Может управлять настройками исходящей почты</word>
@@ -1450,10 +1444,7 @@
   <word key="r__customers_edit_credit" js="0">Может изменять баланс аккаунтов</word>
   <word key="r__customers_edit_cards" js="0">Может просматривать и управлять номерами банковских карт (полный номер карт никогда не отображается)</word>
   <word key="r__customers_void" js="0">Может аннулировать аккаунты</word>
-  <word key="r__referrals" js="0">Приглашения</word>
-  <word key="r__referrals_manage" js="0">Может управлять настройками приглашений</word>
   <word key="r__referrals_commission_rules" js="0">Может управлять правилами комиссии</word>
-  <word key="r__referrals_banners" js="0">Может управлять баннерами для приглашений</word>
   <word key="r__errors" js="0">Ошибки</word>
   <word key="r__errors_manage" js="0">Может просматривать, повторять и удалять ошибки связи и сервером</word>
   <word key="r__transaction_review_settings" js="0">Может управлять настройками проверки транзакций</word>
@@ -1479,12 +1470,12 @@
   <word key="r__coupons_add" js="0">Может создавать новые купоны</word>
   <word key="r__coupons_edit" js="0">Может изменять купоны</word>
   <word key="r__coupons_delete" js="0">Может удалять купоны</word>
-  <word key="r__customer_fields" js="0">Настраиваемые поля</word>
+  <word key="r__customer_fields" js="0">Дополнительные поля</word>
   <word key="r__customer_fields_manage" js="0">Может просматривать поля</word>
   <word key="r__customer_fields_add" js="0">Может создавать новые поля</word>
   <word key="r__customer_fields_edit" js="0">Может изменять поля</word>
   <word key="r__customer_fields_delete" js="0">Может удалять поля</word>
-  <word key="r__package_fields" js="0">Настраиваемые поля</word>
+  <word key="r__package_fields" js="0">Дополнительные поля</word>
   <word key="r__package_fields_manage" js="0">Может просматривать поля</word>
   <word key="r__package_fields_add" js="0">Может создавать новые поля</word>
   <word key="r__package_fields_edit" js="0">Может изменять поля</word>
@@ -1695,11 +1686,11 @@
   <word key="action_message_on" js="0">Добавить ответ</word>
   <word key="action_message" js="0">Ответ</word>
   <word key="action_show_in" js="0">Отображать в отделах</word>
-  <word key="custom_support_fields" js="0">Настраиваемые поля</word>
-  <word key="custom_support_fields_blurb" js="0">Вы можете создать настраиваемые поля для отображения на странице отправки запроса в поддержку для получения от клиентов дополнительной информации.</word>
+  <word key="custom_support_fields" js="0">Дополнительные поля</word>
+  <word key="custom_support_fields_blurb" js="0">Вы можете создать дополнительные поля для отображения на странице отправки запроса в поддержку для получения от клиентов дополнительной информации.</word>
   <word key="sf_departments" js="0">Отделы</word>
   <word key="sf_departments_desc" js="0">Клиентам будут предложено заполнить это поле при создании запроса в поддержку в выбранных отделах.</word>
-  <word key="filestorage__nexus_Support" js="0">Настраиваемые поля запросов в поддержку</word>
+  <word key="filestorage__nexus_Support" js="0">Дополнительные поля запросов в поддержку</word>
   <word key="sf_type_UserPass" js="0">Имя пользователя и пароль</word>
   <word key="sf_type_Ftp" js="0">Данные FTP</word>
   <word key="sf_validate_ftp" js="0">Проверять данные FTP</word>
@@ -2046,8 +2037,8 @@
   <word key="p_type_Product_desc" js="0">Продавайте физические (товары, которые требуют доставки) и цифровые (лицензии на ПО или премиум-подписки) продукты.</word>
   <word key="p_name" js="0">Название</word>
   <word key="p_group" js="0">Группа</word>
-  <word key="p_custom_fields" js="0">Настраиваемые поля</word>
-  <word key="p_custom_fields_desc" js="0"><![CDATA[Вы можете создать дополнительные настройки в <a href='{internal.app=nexus&module=store&controller=fields}'>настраиваемых полях</a>.]]></word>
+  <word key="p_custom_fields" js="0">Дополнительные поля</word>
+  <word key="p_custom_fields_desc" js="0"><![CDATA[Вы можете создать дополнительные настройки в <a href='{internal.app=nexus&module=store&controller=fields}'>дополнительных полях</a>.]]></word>
   <word key="package_pricing" js="0">Цены</word>
   <word key="p_base_price" js="0">Цена</word>
   <word key="p_renews" js="0">Включить продление?</word>
@@ -2080,25 +2071,25 @@
   <word key="p_assoc_error" js="0">Сообщение о невозможности связать продукты</word>
   <word key="p_assoc_error_desc" js="0">Это сообщение отобразится, если пользователь попробует купить продукт, но не имеет других покупок, которые могут быть связаны с данным продуктом.</word>
   <word key="p_assoc_error_placeholder" js="0">Для покупки этого продукта вы должны купить...</word>
-  <word key="package_upgrade_downgrade" js="0">Повышение и понижение</word>
-  <word key="package_upgrade_downgrade_desc" js="0">Если у вас есть несколько продуктов, которые образуют различные планы для конкретной услуги, вы можете позволить клиентам повышаться и понижаться между ними. Все выбираемые продукты должны находиться в одной группе. Рекомендуется установить всем продуктам одинаковые настройки продления.</word>
+  <word key="package_upgrade_downgrade" js="0">Обновления и откаты</word>
+  <word key="package_upgrade_downgrade_desc" js="0">Если у Вас есть несколько продуктов, которые образуют различные планы для конкретной услуги, Вы можете позволить клиентам обновляться и откатываться между ними. Все выбираемые продукты должны находиться в одной группе. Рекомендуется установить всем продуктам одинаковые настройки продления.</word>
   <word key="p_allow_upgrading" js="0">Клиенты могут повыситься с этого продукта</word>
-  <word key="p_allow_upgrading_desc" js="0">Все продукты в этой группе, которые стоят дороже этого продукта, будут предоставлены в качестве варианта.</word>
+  <word key="p_allow_upgrading_desc" js="0">Все продукты в этой группе, которые стоят дороже этого продукта, будут предоставлены в качестве варианта, включая скрытые из магазина продукты или продукты, которые не отображаются некоторым группам.</word>
   <word key="p_upgrade_charge" js="0">Стоимость повышения</word>
   <word key="p_upgrade_charge_none" js="0">Бесплатно</word>
   <word key="p_upgrade_charge_full" js="0">Разница между ценой покупки.</word>
   <word key="p_upgrade_charge_full_desc" js="0">К примеру, если продукт стоит $10 и клиент обновится до продукта стоимостью $15, он заплатит $5.</word>
   <word key="p_upgrade_charge_prorate" js="0">Пропорциональная разница между ценой продления.</word>
   <word key="p_upgrade_charge_prorate_desc" js="0">Например, если продление этого продукта стоит $10 за месяц, у клиента был этот продукт в течение половины месяца и он повышает его до продукта со стоимостью продления в $20 за месяц, он должен будет заплатить разницу ($10) за оставшуюся половину месяца, $5.</word>
-  <word key="p_allow_downgrading" js="0">Клиенты могут понизиться с этого продукта</word>
-  <word key="p_allow_downgrading_desc" js="0">Все продукты в этой группе, которые стоят дешевле этого продукта, будут предоставлены в качестве варианта.</word>
-  <word key="p_downgrade_refund" js="0">Возмещение понижения</word>
+  <word key="p_allow_downgrading" js="0">Клиенты могут откатиться с этого продукта</word>
+  <word key="p_allow_downgrading_desc" js="0">Все продукты в этой группе, которые стоят дешевле этого продукта, будут предоставлены в качестве варианта, включая скрытые из магазина продукты или продукты, которые не отображаются некоторым группам.</word>
+  <word key="p_downgrade_refund" js="0">Возмещение отката</word>
   <word key="p_downgrade_refund_desc" js="0">Средства будут возвращены на баланс аккаунта клиента.</word>
   <word key="p_downgrade_refund_none" js="0">Не возмещать</word>
   <word key="p_downgrade_refund_full" js="0">Разница между ценой покупки.</word>
-  <word key="p_downgrade_refund_full_desc" js="0">К примеру, если продукт стоит $20 и клиент понизится до продукта стоимостью $15, ему будет уплачено $5.</word>
+  <word key="p_downgrade_refund_full_desc" js="0">К примеру, если продукт стоит $20 и клиент откатится до продукта стоимостью $15, ему будет уплачено $5.</word>
   <word key="p_downgrade_refund_prorate" js="0">Пропорциональная разница между ценой продления.</word>
-  <word key="p_downgrade_refund_prorate_desc" js="0">Например, если продление этого продукта стоит $20 за месяц, у клиента был этот продукт в течение половины месяца и он понижает его до продукта со стоимостью продления в $10 за месяц, ему будет возвращена разница ($10) за оставшуюся половину месяца, то есть $5.</word>
+  <word key="p_downgrade_refund_prorate_desc" js="0">Например, если продление этого продукта стоит $20 за месяц, у клиента был этот продукт в течение половины месяца и он откатывает его до продукта со стоимостью продления в $10 за месяц, ему будет возвращена разница ($10) за оставшуюся половину месяца, то есть $5.</word>
   <word key="package_custom_emails" js="0">Email-письма</word>
   <word key="package_custom_emails_blurb" js="0">Email-письма, настроенные здесь, будут отправлены для каждой покупки, поэтому, если клиент покупает несколько копий этого продукта, то он получит письмо для каждой копии.</word>
   <word key="p_email_purchase_type" js="0">Отправлять email-письмо после покупки?</word>
@@ -2111,7 +2102,7 @@
   <word key="p_email_purchase_html" js="0">Содержание email-письма после покупки</word>
   <word key="p_email_purchase_wysiwyg" js="0">Содержание email-письма после покупки</word>
   <word key="p_email_expire_soon_type" js="0">Отправлять email-письмо при скором истечении покупки?</word>
-  <word key="p_email_expire_soon_type_desc" js="0"><![CDATA[Оно будет отправлено <em>вместо</em> <a href='{internal.app=nexus&module=payments&controller=invoices&do=settings&searchResult=cm_invoice_warning}' target='_blank' rel='noopener'>email-уведомления об автоматическом платеже</a>, поэтому лучше сообщать клиенту о том, что если у клиента есть средства на балансе аккаунта, привязана карта или активен регулярный платеж, то платеж будет произведен автоматически.]]></word>
+  <word key="p_email_expire_soon_type_desc" js="0"><![CDATA[Оно будет отправлено <em>вместо</em> <a href='{internal.app=nexus&module=payments&controller=invoices&do=settings&searchResult=cm_invoice_warning}' target='_blank' rel='noopener'>email-уведомления об автоматическом платеже</a>, поэтому лучше сообщать клиенту о том, что если у него есть средства на балансе аккаунта, привязана карта или активна подписка, то платёж будет произведен автоматически.]]></word>
   <word key="p_email_expire_soon_subject" js="0">Тема email-письма при скором истечении покупки</word>
   <word key="p_email_expire_soon_html" js="0">Содержание email-письма при скором истечении покупки</word>
   <word key="p_email_expire_soon_wysiwyg" js="0">Содержание email-письма при скором истечении покупки</word>
@@ -2121,7 +2112,7 @@
   <word key="p_email_expire_wysiwyg" js="0">Содержание email-письма при истечении покупки</word>
   <word key="p_email_preview_example" js="0">Пример</word>
   <word key="p_email_tag_expire" js="0">Дата истечения</word>
-  <word key="p_email_tag_field" js="0">Значение настраиваемого поля (замените 1 на ID поля)</word>
+  <word key="p_email_tag_field" js="0">Значение дополнительного поля (замените 1 на ID поля)</word>
   <word key="p_email_tag_url" js="0">Ссылка на область клиента</word>
   <word key="package_benefits" js="0">Привилегии покупки</word>
   <word key="p_primary_group" js="0">Переместить клиента в группу</word>
@@ -2151,12 +2142,12 @@
   <word key="lkey_identifier_username" js="0">Имя пользователя</word>
   <word key="package_stock_adjustments" js="0">Наличие и цены</word>
   <word key="p_stock_price_type" js="0">Наличие и цены</word>
-  <word key="p_stock_price_static" js="0">Одинаковое наличие и цены, независимо от значений настраиваемых полей.</word>
-  <word key="p_stock_price_dynamic" js="0">Разное наличие и цены, в зависимости от значений настраиваемых полей.</word>
-  <word key="p_stock_price_dynamic_desc" js="0"><![CDATA[Для использования этого варианта вы должны создать как минимум один выпадающий список или кнопку выбора в <a href='{internal.app=nexus&module=store&controller=fields}'>настраиваемых полях</a>.]]></word>
+  <word key="p_stock_price_static" js="0">Одинаковое наличие и цены, независимо от значений дополнительных полей.</word>
+  <word key="p_stock_price_dynamic" js="0">Разное наличие и цены, в зависимости от значений дополнительных полей.</word>
+  <word key="p_stock_price_dynamic_desc" js="0"><![CDATA[Для использования этого варианта вы должны создать как минимум один выпадающий список или радиокнопку в <a href='{internal.app=nexus&module=store&controller=fields}'>настройке дополнительных полей</a>.]]></word>
   <word key="p_stock" js="0">Всего в наличии</word>
   <word key="p_stock_dynamic_fields" js="0">Включаемые поля</word>
-  <word key="p_stock_dynamic_fields_desc" js="0"><![CDATA[Вы можете создать дополнительные варианты в <a href='{internal.app=nexus&module=store&controller=fields}'>настраиваемых полях</a> - типом должен быть список выбора (только одно значение) или радио-кнопка. Если вы изменили настраиваемые поля для этого продукта, вам нужно сохранить эти изменения для их отображения.]]></word>
+  <word key="p_stock_dynamic_fields_desc" js="0"><![CDATA[Вы можете создать дополнительные варианты в <a href='{internal.app=nexus&module=store&controller=fields}'>дополнительных полях</a> - вариантом может быть выпадающий список (только одно значение) или радиокнопка. Если вы изменили дополнительные поля для этого продукта, вам нужно сохранить эти изменения для их отображения.]]></word>
   <word key="p_stock_dynamic_fields_noscript" js="0">Включите JavaScript для динамического управления корзиной и настройками цены.</word>
   <word key="base_price_adjustment" js="0">Корректировка цены</word>
   <word key="base_price_adjustment_desc" js="0">Будет добавлено к цене</word>
@@ -2235,9 +2226,9 @@
   <word key="customers_currently_paying" js="0">Клиенты, оплачивающие в данный момент...</word>
   <word key="now_pay" js="0">Оплатить сейчас...</word>
   <word key="any_other_amount" js="0">Любая другая сумма</word>
-  <word key="change_renew_ba_blurb" js="0">Некоторые покупки имеют активные регулярные платежи. Условия регулярного платежа не могут быть изменены. Как вы хотите обработать эти покупки?</word>
-  <word key="change_renew_ba_skip" js="0">Пропустить покупки с регулярным платежом</word>
-  <word key="change_renew_ba_cancel" js="0">Отменить регулярный платёж</word>
+  <word key="change_renew_ba_blurb" js="0">У некоторых покупок активны подписки PayPal. Подписки PayPal не могут быть изменены. Что вы хотите сделать с этими покупками?</word>
+  <word key="change_renew_ba_skip" js="0">Пропустить покупки с подписками PayPal</word>
+  <word key="change_renew_ba_cancel" js="0">Отменить подписки PayPal</word>
   <word key="change_renew_ba_go_back" js="0">Вернуться и изменить настройки</word>
   <word key="p_set_discounts" js="0">Настроить скидки</word>
   <word key="menu__nexus_store_filters" js="0">Фильтры продуктов</word>
@@ -2255,14 +2246,14 @@
   <word key="product_delete_blurb" js="0">Есть существующие покупки этого продукта. Если вы удалите его, с пользователей всё ещё будут взимать плату, но большинство вещей, которые происходят при истечении или реактивации (например, изменение группы) происходить не будут.</word>
   <word key="subscription_delete_blurb" js="0">Есть существующие подписчики этого плана. Если вы удалите его, с пользователей всё ещё будут взимать плату, но они не переместятся в первоначальную группу при истечении подписки.</word>
   <word key="product_delete_confirm" js="0">Удалить</word>
-  <word key="product_delete_hide" js="0">Скрыть из магазина, но не удалять</word>
+  <word key="product_delete_hide" js="0">Альтернативный вариант: скрыть из магазина, но не удалять</word>
   <word key="package_not_in_store" js="0">Не в магазине</word>
-  <word key="menu__nexus_store_fields" js="0">Настраиваемые поля</word>
+  <word key="menu__nexus_store_fields" js="0">Дополнительные поля</word>
   <word key="cf_packages" js="0">Продукты</word>
   <word key="cf_sticky" js="0">Использовать для идентификации покупки</word>
   <word key="cf_sticky_desc" js="0">Если включено, значение будет отображаться рядом с названием покупки.</word>
   <word key="cf_allow_attachments" js="0">Разрешить вложения?</word>
-  <word key="custom_package_fields" js="0">Настраиваемые поля</word>
+  <word key="custom_package_fields" js="0">Дополнительные поля</word>
   <word key="custom_package_fields_blurb" js="0"><![CDATA[Если вы создадите поле множественного выбора или радиокнопок, вы сможете задать индивидуальную цену в зависимости от выбранных настроек <a href='{internal.app=nexus&module=store&controller=packages}'>продуктов</a>.]]></word>
   <word key="cf_purchase" js="0">Отображать при заказе</word>
   <word key="cf_editable" js="0">Может быть изменено в области клиента</word>
@@ -2289,7 +2280,7 @@
   <word key="gift_voucher_recipient" js="0">Имя получателя</word>
   <word key="gift_voucher_sender" js="0">Ваше имя</word>
   <word key="gift_voucher_message" js="0">Ваше сообщение</word>
-  <word key="gift_vouchers" js="0">Подарочная карта</word>
+  <word key="gift_vouchers" js="0">Подарочные карты</word>
   <word key="gift_voucher" js="0">Подарочная карта</word>
   <word key="gift_voucher_personalize" js="0">Персонализация</word>
   <word key="gift_voucher_personalize_desc" js="0">Выберите цвет и введите сообщение</word>
@@ -2301,10 +2292,10 @@
   <word key="redemption_code" js="0">Код для активации</word>
   <word key="to_redeem_visit" js="0">Чтобы активировать, посетите</word>
   <word key="gift_voucher_pending_email" js="0">Это подарочная карта была отправлена получателю по электронной почте.</word>
-  <word key="gift_voucher_pending_print" js="0">Вы выбрали печать подарочной карты для получателя.</word>
+  <word key="gift_voucher_pending_print" js="0">Вы решили распечатать эту подарочную карту для получателя.</word>
   <word key="print_giftvoucher" js="0">Печать подарочной карты</word>
   <word key="redeem_gift_voucher" js="0">Активировать подарочную карту</word>
-  <word key="redeem_must_be_logged_in" js="0">Вы должны войти в систему для того, чтобы активировать подарочную карту.</word>
+  <word key="redeem_must_be_logged_in" js="0">Вы должны быть авторизованы, чтобы активировать подарочную карту.</word>
   <word key="redeem_gift_voucher_error" js="0">Этот код недействителен или уже был активирован. Пожалуйста, проверьте введённый код и попробуйте ещё раз.</word>
   <word key="mailsub__nexus_giftVoucher" js="0">Подарочная карта</word>
   <word key="x_in_stock" js="0">{# [?:на складе]}</word>
@@ -2400,7 +2391,7 @@
   <word key="store_settings" js="0">Настройки магазина</word>
   <word key="nexus_gift_vouchers" js="0">Подарочные карты</word>
   <word key="nexus_gift_vouchers_desc" js="0">Введите суммы доступных подарочных карт. К примеру, вы можете создать подарочные карты на $5, $10, $20 и т.д.</word>
-  <word key="nexus_gift_vouchers_free" js="0">Пользователи могут купить подарочную карту на любую сумму.</word>
+  <word key="nexus_gift_vouchers_free" js="0">Пользователи могут купить подарочную карту на любую сумму?</word>
   <word key="nexus_store_prices" js="0">Цены</word>
   <word key="nexus_show_tax" js="0">Включить налог в цены, отображаемые в магазине</word>
   <word key="nexus_store_display" js="0">Отображение магазина</word>
@@ -2431,9 +2422,7 @@
   <word key="manage" js="0">Управление</word>
   <word key="client_purchases" js="0">Покупки</word>
   <word key="client_area_my_details" js="0">Мои данные</word>
-  <word key="referrals" js="0">Приглашения</word>
   <word key="referrals_title" js="0">Зарабатываемая комиссия</word>
-  <word key="referrals_desc" js="0">Вы можете заработать комиссию, приглашая новых клиентов на наш сайт.</word>
   <word key="you_cannot_renew" js="0">Вы не можете продлевать эту покупку.</word>
   <word key="you_cannot_cancel" js="0">Вы не можете отменять эту покупку.</word>
   <word key="renew_for" js="0">Продление</word>
@@ -2449,9 +2438,9 @@
   <word key="reactivate_package" js="0">Возобновить</word>
   <word key="client_addresses" js="0">Адресная книга</word>
   <word key="upgrade_cost" js="0">Стоимость повышения %s.</word>
-  <word key="downgrade_refund" js="0">%s за понижение.</word>
+  <word key="downgrade_refund" js="0">%s за откат.</word>
   <word key="upgrade_cost_and_renew" js="0">Стоимость повышения %s, а далее %s.</word>
-  <word key="downgrade_refund_and_renew" js="0">%s за понижение, а после %s.</word>
+  <word key="downgrade_refund_and_renew" js="0">%s за откат, а после %s.</word>
   <word key="upgrade_charge_item" js="0">Повысить с %s до %s</word>
   <word key="upgrade_charge" js="0">Оплатить повышение</word>
   <word key="hosting_usage" js="0">Использование</word>
@@ -2586,14 +2575,14 @@
   <word key="print_gift_card" js="0">Печать подарочной карты</word>
   <word key="product_options_price_error" js="0">Возникла ошибка корректировки цены с выбранными вами параметрами. Пожалуйста, свяжитесь с нами для получения помощи.</word>
   <word key="product_options_price_error_admin" js="0">Пожалуйста, проверьте вкладку &quot;Наличие и цены&quot; этого продукта в Админцентре и убедитесь в целесообразности выделенных полей.</word>
-  <word key="client_billing_agreements" js="0">Регулярные платежи</word>
-  <word key="billing_agreements_title" js="0">Ваши регулярные платежи</word>
-  <word key="billing_agreements_info" js="0">Регулярные платежи используются для автоматической оплаты счетов на продление.</word>
-  <word key="billing_agreements_none" js="0">У вас нет настроенных регулярных платежей. Вы можете создать его при совершении покупки, которая имеет период продления.</word>
+  <word key="client_billing_agreements" js="0">Подписки PayPal</word>
+  <word key="billing_agreements_title" js="0">Ваши подписки PayPal</word>
+  <word key="billing_agreements_info" js="0">Подписки PayPal используются для автоматической оплаты счетов на продление.</word>
+  <word key="billing_agreements_none" js="0">У вас нет настроенных подписок PayPal. Вы можете создать её при совершении покупки, которая имеет период продления.</word>
   <word key="billing_agreement_view" js="0">Просмотреть описание</word>
-  <word key="billing_agreement" js="0">Регулярный платёж %s</word>
+  <word key="billing_agreement" js="0">Подписка PayPal %s</word>
   <word key="billing_agreement_payments" js="0">История платежей</word>
-  <word key="view_billing_agreement" js="0">Просмотреть регулярный платёж</word>
+  <word key="view_billing_agreement" js="0">Просмотреть подписку PayPal</word>
   <word key="menu__nexus_store_coupons" js="0">Купоны</word>
   <word key="coupon" js="0">Купон</word>
   <word key="coupon_basic_settings" js="0">Настройки купона</word>
@@ -3049,9 +3038,8 @@
   <word key="nexus_report_income_by_member" js="0">Топ клиентов по %s</word>
   <word key="performance_rated_by" js="0">%s оценил ответ %s</word>
   <word key="module__nexus_promotion" js="0">Приглашения</word>
-  <word key="menu__nexus_customers_referrals" js="0">Приглашения</word>
+  <word key="menu__nexus_customers_referrals" js="0">Рефералы</word>
   <word key="commission_rules" js="0">Правила комиссии</word>
-  <word key="commission_rules_blurb" js="0">Правила комиссии определяют, сколько комиссии пользователь получит с покупок, сделанных приглашёнными клиентами.</word>
   <word key="rrule_name" js="0">Название</word>
   <word key="rrule_name_desc" js="0">Предназначено для вас и не будет отображено клиентам</word>
   <word key="rrule_referrer" js="0">Если клиент, который приглашает другого...</word>
@@ -3077,10 +3065,7 @@
   <word key="rrule_purchase_package_limit_yes" js="0">Стоимости указанных продуктов</word>
   <word key="rrule_commission_limit" js="0">С максимальной суммой</word>
   <word key="client_referrals" js="0">Приглашения</word>
-  <word key="ref_member_id" js="0">Пользователь</word>
   <word key="ref_amount" js="0">Заработана комиссия</word>
-  <word key="cm_ref_on" js="0">Включить приглашения</word>
-  <word key="cm_ref_on_desc" js="0">Если включено, пользователи смогут получить специальную ссылку и зарабатывать комиссию от продаж, сделанных приглашёнными клиентами.</word>
   <word key="nexus_com_rules" js="0">Разрешить пользователям видеть правила комиссии</word>
   <word key="nexus_com_rules_desc" js="0">Если ваши правила являются сложными, то будет проще отключить их и указать свой собственный текст для отображения.</word>
   <word key="nexus_com_rules_alt" js="0">Описание комиссии</word>
@@ -3099,17 +3084,6 @@
   <word key="ref_comm_limit_yes" js="0">из этих продуктов</word>
   <word key="ref_comm_limit_no" js="0">от всей покупки</word>
   <word key="ref_comm_limit" js="0">максимум до %s</word>
-  <word key="referral_banners" js="0">Баннеры для приглашений</word>
-  <word key="referral_banners_blurb" js="0">Вы можете предоставить свои баннеры и изображения для приглашений, которые клиенты смогут использовать для приглашения других клиентов.</word>
-  <word key="rb_upload" js="0">Тип</word>
-  <word key="rb_upload_yes" js="0">Я загружу изображение баннера.</word>
-  <word key="rb_upload_no" js="0">Я укажу ссылку на изображение баннера.</word>
-  <word key="rb_url_upload" js="0">Изображение</word>
-  <word key="rb_url_url" js="0">Ссылка на изображение</word>
-  <word key="referral_link" js="0">Ссылка</word>
-  <word key="referral_directlink" js="0">Прямая ссылка</word>
-  <word key="referral_html" js="0">HTML-код (для вашего сайта)</word>
-  <word key="referral_bbcode" js="0">BBCode (для форумов)</word>
   <word key="block_nexus_PendingActions" js="0">Статистика коммерции</word>
   <word key="pendingActions_stuff" js="0">Товары для отображения</word>
   <word key="pending_transactions" js="0">Транзакций для проверки</word>
@@ -3142,8 +3116,8 @@
   <word key="email_gift_card" js="0">Подарочная карта</word>
   <word key="email_giftcard_to" js="0">Для %s</word>
   <word key="email_giftcard_from" js="0">От %s</word>
-  <word key="email_redeem_blurb" js="0"><![CDATA[Для активации вашей подарочной карты, нажмите кнопку Активировать выше или <a href='{internal.front.app=nexus&module=store&controller=gifts&do=redeem.store_giftvouchers_redeem}'>нажмите сюда</a> и введите код <strong>%s</strong>. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
-  <word key="email_redeem_blurb_plain" js="0"><![CDATA[Для активации вашей подарочной карты, посетите {internal.front.app=nexus&module=store&controller=gifts&do=redeem.store_giftvouchers_redeem} и введите код, указанный ниже. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
+  <word key="email_redeem_blurb" js="0"><![CDATA[Чтобы активировать свою подарочную карту, нажмите кнопку Активировать выше или <a href='{internal.front.app=nexus&module=store&controller=gifts&do=redeem.store_giftvouchers_redeem}'>нажмите сюда</a> и введите код <strong>%s</strong>. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
+  <word key="email_redeem_blurb_plain" js="0"><![CDATA[Чтобы активировать свою подарочную карту, посетите {internal.front.app=nexus&module=store&controller=gifts&do=redeem.store_giftvouchers_redeem} и введите код, указанный ниже. После активации карты на ваш аккаунт будет зачислено %s, которые вы сможете использовать для приобретения продуктов в нашем магазине.]]></word>
   <word key="email_gift_amount" js="0">Сумма</word>
   <word key="email_gift_code" js="0">Код</word>
   <word key="email_commission_product" js="0"><![CDATA[Клиент купил %s, вы заработали <strong>%s</strong>, которые были зачислены на ваш аккаунт.]]></word>
@@ -3176,7 +3150,7 @@
   <word key="email_update_payment" js="0">Обновить платёжные данные</word>
   <word key="email_new_invoice" js="0">Для вас был создан новый счёт.</word>
   <word key="email_expire_warning" js="0">Мы хотели бы сообщить вам, что одна или несколько покупок на вашем аккаунте вскоре завершатся.</word>
-  <word key="email_expire_warning_billing_agreement" js="0">Так как у вас сохранён регулярный платёж, мы попытаемся произвести оплату %s автоматически.</word>
+  <word key="email_expire_warning_billing_agreement" js="0">Так как у вас есть подписка PayPal, платёж будет проведён %s автоматически.</word>
   <word key="email_expire_warning_credit" js="0">Так как у вас есть средства на балансе аккаунта (%s), мы будем использовать их для оплаты %s. Если их будет недостаточно, мы отправим вам счёт на оставшуюся сумму.</word>
   <word key="email_expire_warning_card" js="0">Так как у вас имеется сохранённый способ оплаты, мы попытаемся произвести автоматическую оплату %s.</word>
   <word key="email_expire_warning_card_and_credit" js="0">Так как у вас есть средства на балансе аккаунта (%s), мы будем использовать их для оплаты %s. Если их будет недостаточно, мы попытаемся использовать сохранённую банковскую карту для продления.</word>
@@ -3217,7 +3191,7 @@
   <word key="emailtpl_invoiceWarning" js="0">Предупреждение о счёте</word>
   <word key="emailtpl_invoiceMarkedPaid" js="0">Счёт помечен оплаченным</word>
   <word key="emailtpl_hostingError" js="0">Ошибка хостинга</word>
-  <word key="emailtpl_giftVoucher" js="0">Подарочный сертификат</word>
+  <word key="emailtpl_giftVoucher" js="0">Подарочная карта отправлена по электронной почте</word>
   <word key="emailtpl_commissionEarned" js="0">Заработана комиссия</word>
   <word key="emailtpl_commissionRevoked" js="0">Возвращена комиссия</word>
   <word key="emailtpl_autoresolveWarning" js="0">Предупреждение об автозакрытии запроса в поддержку</word>
@@ -3235,8 +3209,8 @@
   <word key="block_bestSellers_desc" js="0">Отображает список лучших продавцов продуктов</word>
   <word key="block_recentCommerceReviews" js="0">Последние отзывы на продукты</word>
   <word key="block_recentCommerceReviews_desc" js="0">Отображает последние отзывы на продукты</word>
-  <word key="block_featuredProduct" js="0">Рекомендованные продукты</word>
-  <word key="block_featuredProduct_desc" js="0">Отображает список рекомендованных продуктов</word>
+  <word key="block_featuredProduct" js="0">Рекомендуемые продукты</word>
+  <word key="block_featuredProduct_desc" js="0">Отображает список рекомендуемых продуктов</word>
   <word key="widget_group" js="0">Категория</word>
   <word key="modperms__core_Content_nexus_Package_Review" js="0">Отзывы на продукты</word>
   <word key="can_edit_product_reviews" js="0">Может изменять отзывы на продукт</word>
@@ -3259,7 +3233,7 @@
   <word key="MFA_nexus_AccountCredit" js="0">Просматривает баланс аккаунта, пополняет или выводит средства</word>
   <word key="MFA_nexus_Addresses" js="0">Управляет адресами</word>
   <word key="MFA_nexus_Alternatives" js="0">Управляет альтернативными контактами</word>
-  <word key="MFA_nexus_BillingAgreements" js="0">Управляет регулярными платежами PayPal</word>
+  <word key="MFA_nexus_BillingAgreements" js="0">Управляет подписками PayPal</word>
   <word key="MFA_nexus_BillingInfo" js="0">Изменяет платёжную информацию</word>
   <word key="MFA_nexus_Cards" js="0">Управляет платёжными картами</word>
   <word key="memberlog_app_nexus" js="0">Действия клиента</word>
@@ -3268,7 +3242,7 @@
   <word key="log_type_title_shipping" js="0">Создана/Изменена отгрузка</word>
   <word key="log_type_title_purchase" js="0">Создана/Изменена покупка</word>
   <word key="log_type_title_comission" js="0">Изменения баланса аккаунта</word>
-  <word key="log_type_title_giftvoucher" js="0">Использование подарочных сертификатов</word>
+  <word key="log_type_title_giftvoucher" js="0">Активирована подарочная карта</word>
   <word key="log_type_title_info" js="0">Изменения информации клиента</word>
   <word key="log_type_title_address" js="0">Изменения адреса</word>
   <word key="log_type_title_card" js="0">Добавление/изменение кредитных карт</word>
@@ -3277,7 +3251,7 @@
   <word key="log_type_title_lkey" js="0">Активация/Сброс лицензионных ключей</word>
   <word key="log_type_title_download" js="0">Скачанные файлы</word>
   <word key="log_type_title_support" js="0">Созданы запросы в поддержку</word>
-  <word key="log_type_title_billingagreement" js="0">Создания/изменения регулярных платежей</word>
+  <word key="log_type_title_billingagreement" js="0">Создания/изменения подписок PayPal</word>
   <word key="log_type_title_note" js="0">Создано/Изменено примечание</word>
   <word key="log_type_title_custom" js="0">Остальное</word>
   <word key="log_type_title_subscription" js="0">Подписки</word>
@@ -3296,7 +3270,7 @@
   <word key="r__subscribers_manage" js="0">Может управлять подписчиками?</word>
   <word key="nexus_subscriptions" js="0">Подписки</word>
   <word key="sp_name" js="0">Название</word>
-  <word key="sp_enabled" js="0">Включено</word>
+  <word key="sp_enabled" js="0">Включить покупки?</word>
   <word key="sp_price" js="0">Базовая цена</word>
   <word key="sp_tax" js="0">Налог</word>
   <word key="sp_gateways" js="0">Способы оплаты</word>
@@ -3309,8 +3283,7 @@
   <word key="sp_featured" js="0">Сделать рекомендованной</word>
   <word key="sp_featured_desc" js="0">Рекомендованные подписки будут выделяться на странице всех подписок</word>
   <word key="sp_desc" js="0">Описание</word>
-  <word key="sp_renew_upgrade" js="0">Повышение/Понижение</word>
-  <word key="sp_renew_upgrade_desc" js="0">Так как у этого пакета не настроено продление, выберите как другие пакеты с настроенным продлением могут повышаться до или понижаться с этого пакета.</word>
+  <word key="sp_renew_upgrade" js="0">Обновить/Откатить</word>
   <word key="nexus_subs_display" js="0">Отображение</word>
   <word key="nexus_subs_groups" js="0">Преимущества</word>
   <word key="nexus_subs_renewals" js="0">Продления</word>
@@ -3326,9 +3299,9 @@
   <word key="nexus_subs_enabled" js="0">Включить подписки?</word>
   <word key="nexus_no_subs" js="0">Подписки недоступны</word>
   <word key="nexus_subs_upgrade_toggle" js="0">Клиенты могут повысить подписку</word>
-  <word key="nexus_subs_downgrade_toggle" js="0">Клиенты могут понизить подписку</word>
+  <word key="nexus_subs_downgrade_toggle" js="0">Клиенты могут откатить подписку</word>
   <word key="nexus_subs_upgrade" js="0">Стоимость повышения</word>
-  <word key="nexus_subs_downgrade" js="0">Возмещение понижения</word>
+  <word key="nexus_subs_downgrade" js="0">Возмещение отката</word>
   <word key="nexus_subs_exclude_groups" js="0">Защищённые группы</word>
   <word key="nexus_subs_exclude_groups_desc" js="0">Пользователи в выбранных группах не будут перемещены в другую группу даже при покупке подписки. К примеру, вы можете выбрать группы сотрудников, которые не потеряют собственные права. Группа администраторов всегда защищена.</word>
   <word key="nexus_history_cancelrenewals" js="0">Продление подписки отменено %s</word>
@@ -3354,7 +3327,7 @@
   <word key="nexus_sub_member_added" js="0">Подписка добавлена</word>
   <word key="nexus_subs_delete_member" js="0">Удалить вручную созданных пользователей</word>
   <word key="nexus_sub_member_removed" js="0">Удалить пользователей из подписки</word>
-  <word key="nexus_subs_off_text" js="0"><![CDATA[Подписки являются простым способом оплатить перемещение в другую группу<br><br>Каждый пользователь может иметь только одну активную подписку, но может повышаться и понижаться между различными планами, которые вы настроите.]]></word>
+  <word key="nexus_subs_off_text" js="0"><![CDATA[Подписки являются простым способом оплатить перемещение в другую группу<br><br>Каждый пользователь может иметь только одну активную подписку, но может обновляться и откатываться между различными планами, которые вы настроите.]]></word>
   <word key="nexus_sub_package" js="0">Продукт</word>
   <word key="nexus_subs_show_public" js="0">Показывать подписки в профиле?</word>
   <word key="nexus_subs_show_public_desc" js="0">Разрешить другим пользователям видеть, на какой план подписан пользователь.</word>
@@ -3388,7 +3361,7 @@
   <word key="module__nexus_subscriptions" js="0">Подписки</word>
   <word key="nexus_front_subscriptions" js="0">Подписки</word>
   <word key="nexus_sub_cost_unavailable" js="0">Цена недоступна</word>
-  <word key="nexus_sub_cost_plus_renewal" js="0">%s + %s</word>
+  <word key="nexus_sub_cost_plus_renewal" js="0">%s за первые %s, далее %s</word>
   <word key="nexus_member_subscription" js="0">Подписка пользователя</word>
   <word key="nexus_manage_subscriptions" js="0">Управление подписками</word>
   <word key="nexus_subs_buy" js="0">Купить подписку</word>
@@ -3397,7 +3370,7 @@
   <word key="nexus_subs_subscribed_with_expire" js="0">Ваша текущая подписка продлится %s</word>
   <word key="nexus_subs_cancel" js="0">Отменить подписку</word>
   <word key="nexus_subs_upgrade_button" js="0">Повысить</word>
-  <word key="nexus_subs_downgrade_button" js="0">Понизить</word>
+  <word key="nexus_subs_downgrade_button" js="0">Откатить</word>
   <word key="nexus_sub_cancel_type" js="0">Отменить</word>
   <word key="nexus_sub_cancel_type_renewal" js="0">Продления</word>
   <word key="nexus_sub_cancel_type_renewal__desc" js="0">Отмена продления означает, что ваша подписка останется активная до %s и вам не будет создан новый счет</word>
@@ -3406,7 +3379,7 @@
   <word key="nexus_sub_cancel_now" js="0">Отменить незамедлительно</word>
   <word key="nexus_sub_cancel_now_desc" js="0">Незамедлительная отмена завершит вашу подписку прямо сейчас и вам не будет создан новый счет</word>
   <word key="nexus_sub_change_confirm_upgrade" js="0">Повышение с %s до %s будет стоить %s.</word>
-  <word key="nexus_sub_change_confirm_downgrade" js="0">Понижение с %s до %s вернет вам %s.</word>
+  <word key="nexus_sub_change_confirm_downgrade" js="0">Откат с %s до %s вернет вам %s.</word>
   <word key="nexus_sub_change_no_charge" js="0">Вы уверены в том, что хотите переместиться на эту подписку?</word>
   <word key="nexus_sub_sign_up_title" js="0">Регистрация: выберите подписку</word>
   <word key="nexus_sub_sign_up_desc" js="0">Пожалуйста, выберите одну из следующих подписок к покупке для продолжения</word>
@@ -3472,7 +3445,7 @@
   <word key="emailstats__invoiceWarning" js="0">Напоминание пользователю о предстоящем продлении покупки</word>
   <word key="emailstats__invoiceMarkedPaid" js="0">Счёт был помечен оплаченным</word>
   <word key="emailstats__hostingError" js="0">Ошибка хостинга</word>
-  <word key="emailstats__giftVoucher" js="0">Использован подарочный сертификат</word>
+  <word key="emailstats__giftVoucher" js="0">Подарочная карта отправлена по электронной почте</word>
   <word key="emailstats__commissionEarned" js="0">Была заработана комиссия</word>
   <word key="emailstats__commissionRevoked" js="0">Комиссия была возвращена</word>
   <word key="emailstats__autoresolveWarning" js="0">Запрос в поддержку был автоматически закрыт</word>
@@ -3508,35 +3481,128 @@
   <word key="securityCodeInvalid4" js="1">Код проверки недействителен. Он должен состоять из последних 4 цифр в верхнем-правом углу на передней стороне карты.</word>
   <word key="braintreeSaving" js="1">Проверка информации в Braintree. Пожалуйста, подождите - это может занять до 1 минуты...</word>
   <word key="braintreeError" js="1">Произошла ошибка при </word>
-  <word key="stripe_3d_secure" js="0">Система 3D Secure</word>
-  <word key="stripe_3d_secure_yes" js="0">Все карты, которые поддерживают её</word>
-  <word key="stripe_3d_secure_no" js="0">Только карты, которые требуют её</word>
-  <word key="stripe_3d_secure_desc" js="0"><![CDATA[Система 3D Secure, также известная под названиями Verified by Visa, Mastercard SecureCode и другими, является системой, которая используется для проверки личности пользователя перед совершением покупки и, в случае возникновения споров, перекладывает ответственность за убытки от мошенничества с продавца на банк-держатель карты.<br>В то время как 3D Secure защищает вас от мошеннических операций, ей может потребоваться  выполнение дополнительных действий пользователем при оплате заказа.]]></word>
-  <word key="manage_credit_cards" js="0">Управление банковскими картами</word>
-  <word key="manage_billing_agreements" js="0">Управление регулярными платежами</word>
-  <word key="manage_contacts" js="0">Управление контактами</word>
-  <word key="manage_referrals" js="0">Управление приглашениями</word>
-  <word key="see_all_purchases" js="0">{!# [1:Одна покупка][?:Все покупки]}</word>
-  <word key="history_transaction_refunded_gateway" js="0">платёжным шлюзом</word>
-  <word key="menu__nexus_store_packages_add_child" js="0">Создать продукт в этой группе</word>
-  <word key="mailsub__nexus_hostingError" js="0">Неудачная связь с сервером</word>
   <word key="paypal_billing_agreements_https" js="0">Этот параметр требует наличия HTTPS.</word>
-  <word key="paypal_billing_agreement_allowed_fails" js="0">Автоматически выключать регулярный платёж</word>
+  <word key="paypal_billing_agreement_allowed_fails" js="0">Автоматически отключать подписки</word>
   <word key="paypal_billing_agreement_allowed_fails_prefix" js="0">После</word>
   <word key="paypal_billing_agreement_allowed_fails_suffix" js="0">неудачных попыток оплаты</word>
   <word key="paypal_billing_agreement_allowed_fails_desc" js="0">Неудачные платежи могут происходить, если банковская карта клиента истекла и на счёте PayPal нет средств. Вы можете ограничить количество попыток, которое будет производить PayPal для совершения платежа, чтобы предотвратить более позднее взимание платы с клиентов, чем ожидалось изначально.</word>
   <word key="acp_notification_nexus_config_error_paymethod" js="0">Настройки способа оплаты нуждаются в обновлении</word>
   <word key="acp_notification_nexus_config_error_paymethod_desc" js="0">Необходимо проверить настройки способа оплаты %s. Пока это не будет сделано, могут возникать проблемы с платежами.</word>
   <word key="stripe_webhook_invalid" js="0">Вебхук не настроен или в нем не включены все типы событий.</word>
-  <word key="gateway_ba_delete_blurb" js="0">У этого способа оплаты есть связанные регулярные платежи. Удаление способа оплаты приведет к тому, что эти регулярные платежи будут аннулированы, и автоматическое продление производиться не будет. Все пользователи с покупками, которые требуют продления, получат счёт на продление, когда срок их покупки истечет, и в этот момент этим пользователям нужно будет выбрать новый способ оплаты. Это действие не может быть отменено. Вы можете отключить этот способ оплаты вместо того, чтобы удалить его, отключив его доступность для всех стран или всех продуктов. Это позволит продолжить обработку регулярных платежей, но отключит этот способ оплаты для новых покупок.</word>
-  <word key="delete_gateway_with_bas" js="0">Удаление регулярных платежей</word>
+  <word key="gateway_ba_delete_blurb" js="0">Имеются активные подписки PayPal. Удаление способа оплаты приведёт к тому, что они будут отменены. Все пользователи с покупками, которые требуют продления, получат счёт на продление, когда срок их покупки истечет, и в этот момент этим пользователям нужно будет выбрать новый способ оплаты. Это действие не может быть отменено. Вместо удаления вы можете отключить этот способ оплаты, отключив его доступность для всех стран или всех продуктов. Это позволит продолжить обработку подписок, но отключит этот способ оплаты для новых покупок.</word>
+  <word key="delete_gateway_with_bas" js="0">Отмена подписок PayPal</word>
   <word key="processing_your_payment" js="0">Обработка вашего плтежа...</word>
   <word key="processing_the_payment" js="0">Обработка платежа...</word>
   <word key="webhook_not_received" js="0">Запрос на вебхук не получен. Возможно, это задержка на стороне платёжного шлюза. Подождите несколько минут, после чего, если платёж не обработается, проверьте, корректно ли настроен способ оплаты.</word>
   <word key="delete_address_confirm_billing" js="0"><![CDATA[Вы уверены, что хотите удалить этот адрес?<br><br>Обратите внимание, что основной платёжный адрес необходим для проведения автоматических платежей за продление. Если вы не установите другой адрес в качестве основного платежного адреса, то вам потребуется сделать это, прежде чем вы сможете оплачивать будущие счета на продление.]]></word>
   <word key="nexus_subs_paid_flash_msg" js="0">Спасибо за оплату, всё готово!</word>
   <word key="acpNotification_nexusTransaction_wait" js="0">{# [*1:транзакция ожидает][*2:транзакции ожидают][*3:транзакции ожидают][*4:транзакции ожидают][*11:транзакций ожидают][*12:транзакций ожидают][*13:транзакций ожидают][*14:транзакций ожидают][?:транзакций ожидают]} оплаты</word>
-  <word key="acpNotification_nexusBACancelErrors" js="0">{# [*1:ошибка][*2:ошибки][*3:ошибки][*4:ошибки][*11:ошибок][*12:ошибок][*13:ошибок][*14:ошибок][?:ошибок]} отмены регулярных платежей</word>
-  <word key="acp_notification_nexus_bacancelerror_desc" js="0">Недавно был удален способ оплаты с активными регулярными платежами, что требует отмены этих регулярных платежей, однако при попытке отменить некоторые или все регулярные платежи произошла ошибка. Администратору необходимо будет войти в панель платежного шлюза и вручную отменить эти регулярные платежи. Невыполнение этого требования приведет к тому, что с пользователя по-прежнему будут списываться средства, однако ваше сообщество не сможет обработать эти платежи и не предоставит пользователям никаких товаров или услуг.</word>
+  <word key="acpNotification_nexusBACancelErrors" js="0">{# [*1:ошибка][*2:ошибки][*3:ошибки][*4:ошибки][*11:ошибок][*12:ошибок][*13:ошибок][*14:ошибок][?:ошибок]} подписок PayPal</word>
+  <word key="acp_notification_nexus_bacancelerror_desc" js="0">Недавно был удалён способ оплаты PayPal, что требует отмены подписок PayPal. Однако, при попытке отменить некоторые или все подписки, произошла ошибка. Администратору необходимо будет войти в аккаунт PayPal и вручную отменить указанные подписки. Невыполнение этого приведет к тому, что с пользователя по-прежнему будут списываться средства, однако ваше сообщество не сможет обработать эти платежи и не предоставит ему никаких товаров или услуг.</word>
+  <word key="renew_weeks" js="0">{!# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]}</word>
+  <word key="mass_manage_productgroups" js="0">Переместить / Удалить продукты</word>
+  <word key="node_move_products" js="0">Переместить продукты в</word>
+  <word key="products_delete_content" js="0">Удалить продукты</word>
+  <word key="gateway_deleted" js="0">Удалённый шлюз</word>
+  <word key="gateway_deprecated" js="0">Способ оплаты %s устарел и будет удалён в следующей версии. Пожалуйста, планируйте перейти на альтернативный способ оплаты.</word>
+  <word key="tstatus_okay_deleted" js="0">Оплачено удалённым способом оплаты</word>
+  <word key="invoice_unpaid_unassociate" js="0">что также приведет к тому, что покупки не будут связаны:</word>
+  <word key="cm_invoice_generate_desc" js="0"><![CDATA[Счёт будет принят, если у клиента есть банковский счёт, в противном случае клиенту будет отправлено электронное письмо с инструкциями по оплате. <br>Обычно лучше установить это значение относительно даты истечения срока действия, чтобы не взимать плату раньше, чем ожидает клиент. Однако, если Вы продаёте продукты, где прерывание обслуживания будет проблематичным, Вы должны либо установить срок достаточно долгим, чтобы у клиента всегда было время для отправки платежа до истечения срока действия, либо использовать настройку льготного периода для каждого продукта, чтобы клиент имел некоторое дополнительное время для оплаты.]]></word>
+  <word key="invoice_timeline_warning_time_h" js="0">{# [1:hour][?:hours]} до выставления счёта</word>
+  <word key="invoice_timeline_generate_time_h" js="0">{# [1:hour][?:hours]} до истечения срока годности</word>
+  <word key="tax_rate_explain" js="0">Ставка</word>
+  <word key="tax_rate_consumer" js="0">Потребительская ставка</word>
+  <word key="tax_rate_business" js="0">Бизнес ставка</word>
+  <word key="tax_rate_eu" js="0">НДС бизнес ставки</word>
+  <word key="tax_rate_type" js="0">Тип ставки</word>
+  <word key="tax_rate_type_single" js="0">Единая ставка</word>
+  <word key="tax_rate_type_single_desc" js="0">Стоимость может варьироваться в зависимости от платёжного адреса клиента, но отсутствуют отдельные тарифы для потребителей и бизнеса.</word>
+  <word key="tax_rate_type_business" js="0">Раздельные потребительские и бизнес ставки</word>
+  <word key="tax_rate_type_business_desc" js="0">Вы предоставите два тарифа: для потребителей и для предприятий. Система спросит клиента, какой из них следует использовать (проверка не производится).</word>
+  <word key="tax_rate_type_eu" js="0">Ставки НДС Европейского Союза</word>
+  <word key="tax_rate_type_eu_desc" js="0">Вы предоставите три тарифа: 1. Для потребителей; 2. Для предприятий, которые не зарегистрированы в ЕС с учетом НДС (проверка этого статуса не проводится); 3. Для предприятий, которые зарегистрированы в ЕС с НДС (клиент должен будет предоставить действительный номер НДС, который будет проверен Европейской комиссией).</word>
+  <word key="tax_basic_settings" js="0">Основные настройки</word>
+  <word key="tax_default_single" js="0">Ставка по умолчанию</word>
+  <word key="tax_default_consumer" js="0">Потребительская ставка по умолчанию</word>
+  <word key="tax_default_business" js="0">Бизнес-ставка по умолчанию</word>
+  <word key="tax_default_eu" js="0">НДС бизнес ставки по умолчанию</word>
+  <word key="confirm_and_no_pay" js="0">Разместить заказ</word>
+  <word key="cm_address_business" js="0">Бизнес</word>
+  <word key="cm_business_name" js="0">Наименование предприятия</word>
+  <word key="cm_business_name_required" js="0">Название компании обязательно.</word>
+  <word key="cm_address_consumer" js="0">Клиент</word>
+  <word key="cm_checkout_vat_number" js="0">НДС номер</word>
+  <word key="cm_checkout_vat_invalid" js="0">Указанный номер НДС недействителен.</word>
+  <word key="cm_checkout_vat_wrong_country" js="0">НДС номер должен быть для предприятия в той же стране, что и адрес для выставления счёта.</word>
+  <word key="cm_checkout_vat_error" js="0">При проверке номера НДС произошла ошибка. Пожалуйста, попробуйте позже или свяжитесь с нами для помощи.</word>
+  <word key="mass_change_all_purchases" js="0">Изменить / отменить покупки</word>
+  <word key="mass_change_purchases_explain" js="0"><![CDATA[Это позволяет изменить или отменить <strong>все покупки</strong> данного продукта. Это может быть использовано, если Вы хотите удалить продукт. Как только Вы подтвердите действие, изменения будут обработаны в фоновом режиме: Вы сможете увидеть прогресс на панели администратора. Остановить этот процесс после его начала или обратить вспять последствия невозможно.]]></word>
+  <word key="mass_change_purchases_type" js="0">Что требуется сделать?</word>
+  <word key="mass_change_purchases_change" js="0">Обновить / Откатить</word>
+  <word key="mass_change_purchases_expire" js="0">Удалить обновления</word>
+  <word key="mass_change_purchases_expire_desc" js="0">Все покупки будут оставаться активными до истечения срока их действия, а по истечению клиент не получит счёт за продление.</word>
+  <word key="mass_change_purchases_cancel" js="0">Отменить</word>
+  <word key="mass_change_purchases_cancel_desc" js="0">Все покупки будут немедленно отменены, включая любые привилегии, полученные от приобретения.</word>
+  <word key="mass_change_purchases_to" js="0">Новый продукт</word>
+  <word key="mass_change_purchases_to_desc" js="0">Все покупки будут настроены на использование условий продления выбранного пакета. Если срок действия каких-либо покупок истёк или условия продления были изменены вручную, эти изменения будут потеряны.</word>
+  <word key="mass_change_purchases_terms" js="0">Условия продления</word>
+  <word key="mass_change_purchases_terms_keep" js="0">Покупки сохраняют свои текущие условия продления</word>
+  <word key="mass_change_purchases_terms_change" js="0">Все покупки изменяются на условиях продления нового продукта</word>
+  <word key="mass_change_purchases_no_renewals" js="0">Нет продлений</word>
+  <word key="mass_change_purchases_override" js="0">Отменить расходы?</word>
+  <word key="mass_change_purchases_override_desc" js="0">Если флажок установлен, изменения будут внесены без взимания с клиентов платы (если это обновление) или присуждения какого-либо баланса (если это откат). Если флажок снят и выполняется обновление, изменения не будут внесены немедленно, а всем клиентам будет отправлен счет для обновления.</word>
+  <word key="mass_change_purchases_confirm" js="0">Начать массовые обновления</word>
+  <word key="mass_change_purchases_in_progress" js="0">Изменить / отменить покупки в процессе</word>
+  <word key="mass_change_purchases_in_progress_text" js="0">Внести изменения в покупки %s</word>
+  <word key="p_initial_term" js="0">Первоначальное значение</word>
+  <word key="p_initial_term_desc" js="0">Вы можете указать разные начальные значения и условия продления для создания пробных версий. Например, если начальный срок составляет 0$ в течение 1 месяца, а срок продления 10$ в течение 1 года, пользователи получат первый месяц бесплатно, а затем будут платить 10$ в год.</word>
+  <word key="p_store_desc" js="0">Даже если скрыт в магазине, это всё равно будет отображаться в форме регистрации. Если этот параметр включён, пользователи, которые ранее приобрели продукт, всё еще могут обновляться, а пользователи, которые приобрели другие продукты в той же группе, всё еще могут обновить / откатывать до этого продукта.</word>
+  <word key="product_delete_review" js="0">Рекомендуемое действие: изменить / отменить существующие покупки</word>
+  <word key="product_delete_review_desc" js="0">Если Вы хотите полностью отказаться от этого продукта, Вы можете либо изменить все существующие покупки на другой продукт (как если бы клиенты обновили / откатили его), либо отменить покупки, чтобы клиенты не могли быть обновить их. После этого Вы можете безопасно удалить продукт. Примечание: выбор удаления обновлений будет недостаточным для удаления продукта, пока не истечет срок действия всех текущих покупок.</word>
+  <word key="product_delete_review_complete" js="0">После завершения процесса изменения или отмены покупок, Вы сможете удалить продукт. Убедитесь, что Вы вернулись, чтобы выполнить этот шаг, или выполните шаги, описанные ниже, чтобы продукт нельзя было купить снова.</word>
+  <word key="product_delete_hide_desc" js="0">Вместо удаления продукта, Вы можете запретить его покупку. Это позволит клиентам, которые уже приобрели, продолжать получать его преимущества, но не позволит другим покупать его. Вам необходимо убедиться, что:</word>
+  <word key="product_delete_hide_1" js="0">Не показывать в магазине</word>
+  <word key="product_delete_hide_2" js="0">Не показывать в регистрации</word>
+  <word key="product_delete_hide_3" js="0">Не показывать вместе с продуктами, которые могут быть до него обновлены или откатиться</word>
+  <word key="product_delete_edit" js="0">Изменить настройки продукта</word>
+  <word key="product_ba_warning_tax" js="0"><![CDATA[Выбранная Вами ставка налога имеет разные ставки для разных мест и/или типов клиентов, однако Вы установили параметр <a href='{internal.app=nexus&module=payments&controller=paymentsettings&tab=checkoutsettings&searchResult=form_nexus_require_billing}' target='_blank'>не запрашивать у клиентов адрес для выставления счетов при покупке не физических продуктов</a>. Это означает, что с клиентов будет взиматься только стандартная ставка налога.]]></word>
+  <word key="product_count_purchases" js="0">{# [*1:покупка][*2:покупки][*3:покупки][*4:покупки][*11:покупок][*12:покупок][*13:покупок][*14:покупок][?:покупок]}</word>
+  <word key="product_count_active" js="0">{# [*1:активный][*2:активных][*3:активных][*4:активных][*11:активных][*12:активных][*13:активных][*14:активных][?:активных]}</word>
+  <word key="product_count_expired" js="0">{# [*1:истёкшая][*2:истёкших][*3:истёкших][*4:истёкших][*11:истёкших][*12:истёкших][*13:истёкших][*14:истёкших][?:истёкших]}</word>
+  <word key="product_count_expired_split" js="0">{0# [?:Expired which can be renewed]} + {1# [?:Expired which cannot be renewed]}</word>
+  <word key="product_count_canceled" js="0">{# [*1:отменённый][*2:отменённых][*3:отменённых][*4:отменённых][*11:отменённых][*12:отменённых][*13:отменённых][*14:отменённых][?:отменённых]}</word>
+  <word key="product_count_canceled_split" js="0">{0# [?:Canceled which can be reactivated]} + {1# [?:Canceled which cannot be reactivated]}</word>
+  <word key="product_purchasable" js="0">Продаётся</word>
+  <word key="product_not_purchasable" js="0">Не приобретается</word>
+  <word key="product_upgradeable" js="0">Обновляется</word>
+  <word key="product_downgradeable" js="0">Откатывается</word>
+  <word key="product_not_upgradeable" js="0">Не повышается</word>
+  <word key="term_no_renewals" js="0">Пожизненная (без продлений)</word>
+  <word key="term_same_as_initial" js="0">Аналогично первоначальному</word>
+  <word key="term_same_as_renewal" js="0">Аналогично выбранному варианту продления</word>
+  <word key="then_renewal" js="0">тогда %s</word>
+  <word key="package_initial_term" js="0">для первого %s</word>
+  <word key="package_initial_term_title" js="0">Первый %s</word>
+  <word key="package_subsequent_term" js="0">обновление</word>
+  <word key="package_subsequent_term_title" js="0">Обновление</word>
+  <word key="nexus_hosting_deprecated" js="0">Поддержка веб-хостинга и доменных имён устарели в Invision Community 4.5 и будут удалены в следующей версии. Пожалуйста, сделайте альтернативные планы, если Вы используете этот функционал.</word>
+  <word key="referral_commission" js="0">Правила комиссии</word>
+  <word key="ref_no_cond" js="0">Покупки приглашённого не ограничены</word>
+  <word key="sp_enabled_desc" js="0">Даже если они отключены, пользователи, которые уже приобрели этот план, будут по-прежнему пользоваться всеми преимуществами, предоставляемыми им при покупке, и будут иметь возможность продления, однако пользователи, которые приобрели другие планы подписки, не смогут обновить или откатить этот план.</word>
+  <word key="sp_renew_options_desc" js="0">Вы можете указать разные начальные условия и условия продления для создания пробных версий. Например, если начальный срок составляет 0$ в течение 1 месяца, а срок продления - 10$ в течение 1 года, пользователи получат первый месяц бесплатно, а затем будут платить 10$ в год.</word>
+  <word key="acplog__subscription_settings" js="0">Включены подписки</word>
+  <word key="stats_overview_products" js="0">Приобретённые продукты</word>
+  <word key="stats_overview_subscriptions" js="0">Приобретения подписки</word>
+  <word key="stats_overview_subs_head" js="0">Подписаться</word>
+  <word key="stats_overview_products_head" js="0">Продукт</word>
+  <word key="nexus_sub_cost_free" js="0">Бесплатно</word>
+  <word key="no_invoice_view" js="0">Не удалось найти счёт, который Вы пытались оплатить.</word>
+  <word key="no_invoice_view_guest" js="0">Вы должны войти в систему, чтобы оплатить этот счет.</word>
+  <word key="cancel_type_change_no_siblings" js="0">Вы можете Обновить / Откатить покупки только для продукта в той же группе. В этой группе нет других продуктов.</word>
+  <word key="custom_price_filter" js="0">Пользовательское</word>
+  <word key="nexus_no_price_info" js="0">Цена недоступна</word>
+  <word key="nexus_no_price_info_desc" js="0">Недоступно в Вашей валюте</word>
+  <word key="nexus_subs_subscribed_with_expire_no_renewal" js="0">Срок действия Вашей текущей подписки истекает %s</word>
+  <word key="nexus_subs_subscribed_expired" js="0">Срок действия Вашей подписки истек.</word>
  </app>
 </language>

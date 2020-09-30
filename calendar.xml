@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="calendar" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.0" long_version="45000" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="calendar" version="">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
   <word key="__indefart_calendar_event_comment" js="0">комментарий к событию в календаре</word>
@@ -13,7 +13,7 @@
   <word key="menu__calendar_calendars" js="0">Календарь</word>
   <word key="menu__calendar_calendars_calendars" js="0">Календари</word>
   <word key="menu__calendar_calendars_ical" js="0">Ленты iCalendar</word>
-  <word key="menu__calendar_calendars_settings" js="0">Настройки календаря</word>
+  <word key="menu__calendar_calendars_settings" js="0">Настройки</word>
   <word key="module__calendar_calendar" js="0">Календарь</word>
   <word key="module__calendar_calendars" js="0">Календари</word>
   <word key="module__calendar_events" js="0">События</word>
@@ -229,7 +229,7 @@
   <word key="event_rpm_ends_afterx" js="0">После</word>
   <word key="event_rpm_ends_occurrencesx" js="0">повторений</word>
   <word key="event_rpm_ends_date" js="0">До</word>
-  <word key="event_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
+  <word key="event_auto_follow_suffix" js="0">Подписаться на событие</word>
   <word key="event_rsvp_limit" js="0">Лимит участников</word>
   <word key="event_rsvp_limit_desc" js="0">После достижения лимита, возможность подтверждения участия будет закрыта.</word>
   <word key="event_cover_photo" js="0">Обложка события</word>
@@ -311,16 +311,16 @@
   <word key="rsvp_selection_maybe" js="0">Вы добавлены в список возможных участников этого события</word>
   <word key="rsvp_download" js="0">Скачать список участников</word>
   <word key="event_rsvp_attendees_other" js="0">Другие ответы</word>
-  <word key="recur_human_yearly" js="0">Это событие повторяется %s каждый год</word>
-  <word key="recur_human_yearly_multi" js="0">Это событие повторяется %s {!# [*1:каждый # год][*2:каждые # года][*3:каждые # года][*4:каждые # года][*11:каждые # лет][*12:каждые # лет][*13:каждые # лет][*14:каждые # лет][1:каждый год][?:каждые # лет]}</word>
-  <word key="recur_human_monthly" js="0">Это событие повторяется %s каждый месяц</word>
-  <word key="recur_human_monthly_multi" js="0">Это событие повторяется %s {!# [*1:каждый # месяц][*2:каждые # месяца][*3:каждые # месяца][*4:каждые # месяца][*11:каждые # месяцев][*12:каждые # месяцев][*13:каждые # месяцев][*14:каждые # месяцев] [1:каждый месяц][?:каждые # месяцев]}</word>
-  <word key="recur_human_weekly" js="0">Это событие повторяется %s каждую неделю</word>
-  <word key="recur_human_weekly_multi" js="0">Это событие повторяется %s {!# [*1:каждую # неделю][*2:каждые # недели][*3:каждые # недели][*4:каждые # недели][*11:каждые # недель][*12:каждые # недель][*13:каждые # недель][*14:каждые # недель][1:каждую неделю][?:каждые # недель]}</word>
-  <word key="recur_human_weekly_days" js="0">Это событие повторяется каждую неделю в %s %s</word>
-  <word key="recur_human_weekly_multi_days" js="0">Это событие повторяется {!# [*1:каждую # неделю][*2:каждые # недели][*3:каждые # недели][*4:каждые # недели][*11:каждые # недель][*12:каждые # недель][*13:каждые # недель][*14:каждые # недель][1:каждую неделю][?:каждые # недель]} в %s %s</word>
-  <word key="recur_human_daily" js="0">Это событие повторяется %s каждый день</word>
-  <word key="recur_human_daily_multi" js="0">Это событие повторяется %s {!# [*1:каждый # день][*2:каждые # дня][*3:каждые # дня][*4:каждые # дня][*11:каждые # дней][*12:каждые # дней][*13:каждые # дней][*14:каждые # дней][1:каждый день][?:каждые # дней]}</word>
+  <word key="recur_human_yearly" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every year %s</word>
+  <word key="recur_human_yearly_multi" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every %s %s</word>
+  <word key="recur_human_monthly" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every month %s</word>
+  <word key="recur_human_monthly_multi" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every %s %s</word>
+  <word key="recur_human_weekly" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every week %s</word>
+  <word key="recur_human_weekly_multi" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every %s %s</word>
+  <word key="recur_human_weekly_days" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every week on %s %s</word>
+  <word key="recur_human_weekly_multi_days" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every %s on %s %s</word>
+  <word key="recur_human_daily" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every day %s</word>
+  <word key="recur_human_daily_multi" js="0">Это событие {!#[1:началось][2:начинается]} %s and repeats every %s %s</word>
   <word key="recur_human__forever" js="0">постоянно</word>
   <word key="recur_human__occurrences" js="0">до {# [*1:раза][*11:раз][*12:раз][*13:раз][*14:раз][?:раз]}</word>
   <word key="recur_human__until" js="0">до %s</word>
@@ -436,7 +436,7 @@
   <word key="__api_calendar_venues" js="0">Места</word>
   <word key="calendar_activity_stream_rsvp" js="0"><![CDATA[%s идёт на <a href='%s'>%s</a>]]></word>
   <word key="all_activity_calendar_streamitems" js="0">Когда пользователь принимает приглашение на событие</word>
-  <word key="notifications__calendar_Events" js="0">Календарь</word>
+  <word key="notifications__calendar_Events" js="0">Напоминания о событиях</word>
   <word key="notifications__event_reminder" js="0">Напоминания о событии</word>
   <word key="mailsub__calendar_notification_event_reminder" js="0"><![CDATA[Напоминание о событии {$content->mapped("title")|raw}]]></word>
   <word key="email_event_reminder" js="0"><![CDATA[Осталось менее %s до <a href='%s'>%s</a>.]]></word>
@@ -491,5 +491,13 @@
   <word key="select_time" js="1">(выберите время)</word>
   <word key="event_reminder_removed" js="1">Напоминание удалено</word>
   <word key="event_reminder_added" js="1">Напоминание сохранено</word>
+  <word key="loc_calendar_viewing_calendar_action" js="0">%s просматривает календарь</word>
+  <word key="loc_calendar_viewing_calendar_all_action" js="0">%s просматривает календарь</word>
+  <word key="loc_calendar_viewing_event_action" js="0">%s просматривает событие</word>
+  <word key="recur_human__xyearly" js="0">{# [*1:год][*2:года][*3:года][*4:года][*11:лет][*12:лет][*13:лет][*14:лет][?:лет]}</word>
+  <word key="recur_human__xmonthly" js="0">{# [*1:месяц][*2:месяца][*3:месяца][*4:месяца][*11:месяцев][*12:месяцев][*13:месяцев][*14:месяцев][?:месяцев]}</word>
+  <word key="recur_human__xweekly" js="0">{# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]}</word>
+  <word key="recur_human__xdaily" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
+  <word key="notifications__calendar_Events_desc" js="0">Эти уведомления будут отправлены при наступлении события, о котором вы просили напомнить.</word>
  </app>
 </language>

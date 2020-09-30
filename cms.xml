@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="cms" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.0" long_version="45000" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="cms" version="">
   <word key="__app_cms" js="0">Страницы</word>
   <word key="menutab__cms" js="0">Страницы</word>
   <word key="menutab__cms_icon" js="0">files-o</word>
@@ -113,7 +113,7 @@
   <word key="can_content_view_others_records_desc" js="0">Отображать записи в категориях, которые настроены на отображение записей только их авторам.</word>
   <word key="cms" js="0">Категории</word>
   <word key="menu__cms_pages" js="0">Страницы</word>
-  <word key="menu__cms_pages_pages" js="0">Менеджер страниц</word>
+  <word key="menu__cms_pages_pages" js="0">Страницы</word>
   <word key="menu__cms_pages_menu" js="0">Меню</word>
   <word key="menu__cms_pages_blocks" js="0">Блоки</word>
   <word key="menu__cms_pages_templates" js="0">Шаблоны</word>
@@ -424,7 +424,7 @@
   <word key="field_no_value_entered" js="0"><![CDATA[<em>Нет значения</em>]]></word>
   <word key="cms_set_field_as_title" js="0">Установить как поле заголовка</word>
   <word key="cms_set_field_as_content" js="0">Установить как поле содержимого</word>
-  <word key="cms_cannot_find_field" js="0">Не удалось найти это настраиваемое поле</word>
+  <word key="cms_cannot_find_field" js="0">Не удалось найти это дополнительное поле</word>
   <word key="cms_badge_label" js="0">Поле</word>
   <word key="cms_badge_value" js="0">Значение</word>
   <word key="field_display_display_json_badge" js="0">Форматирование</word>
@@ -461,9 +461,9 @@
   <word key="field_image_size" js="0">Максимальные размеры изображения</word>
   <word key="field_image_size_desc" js="0">Любое изображение больше этих размеров будет автоматически сжато</word>
   <word key="field_upload_is_image" js="0">Тип файлов</word>
-  <word key="cms_field_no_type_warning" js="0">Данный тип поля %s не существует. Пожалуйста, укажите действительный тип.</word>
-  <word key="field_display_opts_title" js="0"><![CDATA[Это поле установлено в качестве заголовка записи. Заголовок не включается в список настраиваемых полей при отображении на стандартном шаблоне. Вы можете настроить его отображение при использовании этого кода <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('title_key', ['display|listing'])|raw}</span>. При использовании <span class='ipsType_monospace'>$record->_title</span> всегда будет использоваться отформатированный заголовок.]]></word>
-  <word key="field_display_opts_content" js="0"><![CDATA[Это поле установлено в качестве содержимого записи. Содержимое записи не включается в список настраиваемых полей при отображении на стандартном шаблоне. Вы можете настроить его отображение при использовании этого кода <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('content_key', ['display|listing'])|raw}</span>. При использовании <span class='ipsType_monospace'>$record->_content</span> всегда будет использоваться отформатированное содержимое.]]></word>
+  <word key="cms_field_no_type_warning" js="0">Тип поля %s не существует, пожалуйста, выберите допустимый тип поля.</word>
+  <word key="field_display_opts_title" js="0"><![CDATA[Это поле задано в качестве заголовка записи. Поле с заголовком не включает в список дополнительных полей при отображении в стандартных шаблонах. Здесь вы можете настроить вариант отображения при использовании <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('title_key', ['display|listing'])|raw}</span>. Использование <span class='ipsType_monospace'>$record->_title</span> всегда вернёт отформатированное содержание записи.]]></word>
+  <word key="field_display_opts_content" js="0"><![CDATA[Это поле задано в качестве содержания записи. Поле с содержанием не включает в список дополнительных полей при отображении в стандартных шаблонах. Здесь вы можете настроить вариант отображения при использовании <span class='ipsType_monospace'>{$record->customFieldDisplayByKey('content_key', ['display|listing'])|raw}</span>. Использование <span class='ipsType_monospace'>$record->_content</span> всегда вернёт отформатированное содержание записи.]]></word>
   <word key="field_date_time_override" js="0">Часовой пояс</word>
   <word key="field_date_time_time" js="0">Включить поле времени</word>
   <word key="field_date_timezone" js="0">Часовой пояс</word>
@@ -696,7 +696,7 @@
   <word key="database_featured_sort" js="0">Сортировка по</word>
   <word key="database_featured_direction" js="0">Порядок сортировки</word>
   <word key="cms_download_db" js="0">Скачать базу данных</word>
-  <word key="cms_download_db_explain" js="0"><![CDATA[Скачать файл базы данных с её настройками, шаблонами, полями и категориями.<br>Записи <em>не</em> будут включены.]]></word>
+  <word key="cms_download_db_explain" js="0"><![CDATA[Это действие скачает файл с настройками базы данных, её шаблонами, дополнительными полями и категориями, который может быть загружен на другое сообщество.<br>Записи <em>не</em> будут включены.]]></word>
   <word key="cms_database_add" js="0">Добавить базу данных</word>
   <word key="cms_database_add_new" js="0">Новая</word>
   <word key="cms_database_add_upload" js="0">Существующая</word>
@@ -981,7 +981,7 @@
   <word key="comments_meta_color" js="0">Цвет примечания</word>
   <word key="default_copyposts_message" js="0">Обратите внимание, что эти комментарии были скопированы из другого источника и что дата и время, указанные у каждого комментария, могут быть неточными.</word>
   <word key="cms_download_db" js="1">Скачать базу данных</word>
-  <word key="cms_download_db_explain" js="1"><![CDATA[Скачать файл базы данных с её настройками, шаблонами, полями и категориями.<br>Записи <em>не</em> будут включены.]]></word>
+  <word key="cms_download_db_explain" js="1"><![CDATA[Это действие скачает файл с настройками базы данных, её шаблонами, дополнительными полями и категориями, который может быть загружен на другое сообщество.<br>Записи <em>не</em> будут включены.]]></word>
   <word key="index_as_categories" js="1">Показать категории</word>
   <word key="index_as_records" js="1">Показать список записей</word>
   <word key="mediaNoneSelected" js="1">Нет выбранных медиа</word>
@@ -994,5 +994,49 @@
   <word key="replaceMediaFile" js="1">Заменить файл</word>
   <word key="mediaUploadedReplace" js="1">Файл был обновлен</word>
   <word key="database_page_permissions_restrict" js="0"><![CDATA[Только группы. правами на просмотр этой страницу смогут увидеть содержание этой базы данных, независимо от настроек, установленных здесь. Возможно, вам также нужно изменить <a href='{internal.app=cms&module=pages&controller=pages&do=permissions&subnode=1&id=}%s'>права доступа к странице</a>, если вы изменяете права  доступа к базе.]]></word>
+  <word key="moving_database_comments" js="0">Перемещение %s комментариев</word>
+  <word key="moving_database_comments_single" js="0"><![CDATA[Перемещение <a href='%s' target='_blank'>%s</a> комментариев]]></word>
+  <word key="rebuilding_cms_comment_attachments" js="0">Перестроение карты вложений в комментариях</word>
+  <word key="content_templates_inherit" js="0">Унаследованный</word>
+  <word key="cms_templates_export_description_app" js="0">Выберите шаблоны для экспорта из списка ниже. Эти шаблоны будут включены при создании Вашего приложения / плагина.</word>
+  <word key="cms_template_title_exists" js="0">Этот заголовок шаблона уже существует.</word>
+  <word key="database_form_template_link" js="0">Редактировать шаблоны</word>
+  <word key="cms_block_list_key" js="0">{block=&quot;%s&quot;}</word>
+  <word key="cms_theme_template_custom" js="0">Пользовательские шаблоны</word>
+  <word key="cms_theme_template_default" js="0">Стандартные шаблоны</word>
+  <word key="content_default_error_page" js="0">Сделать страницу ошибок по умолчанию</word>
+  <word key="content_remove_error_page" js="0">Удалить как страницу ошибок по умолчанию</word>
+  <word key="cms_tag_lang" js="0">Фразы</word>
+  <word key="add_word_reason_pages" js="0">Фразы, которые создаются здесь, могут использоваться в пользовательских HTML-страницах и шаблонах стилей для отображения контента на разных языках.</word>
+  <word key="rss_import_record_open" js="0">Запись открыта/закрыта?</word>
+  <word key="rss_import_record_hide" js="0">Запись скрыта/не скрыта?</word>
+  <word key="loc_cms_viewing_page_action" js="0">%s просматривает %s</word>
+  <word key="loc_cms_viewing_db_cat_action" js="0">%s просматривает %s</word>
+  <word key="loc_cms_viewing_db_record_action" js="0">%s просматривает %s</word>
+  <word key="loc_cms_viewing_db_record_no_cats_action" js="0">%s просматривает %s</word>
+  <word key="__api_cms_databases" js="0">Базы данных</word>
+  <word key="__api_cms_categories" js="0">Категории базы данных</word>
+  <word key="block_pagebuildertext" js="0">Конструктор страницы: Текст</word>
+  <word key="block_pagebuildertext_desc" js="0">Добавляет простой текст на страницу</word>
+  <word key="block_pagebuilderoembed" js="0">Конструктор страницы: Встраивания (Media Embed)</word>
+  <word key="block_pagebuilderoembed_desc" js="0">Позволяет встраивать внешний контент, такой как YouTube, Vimeo, GIPHY и другие</word>
+  <word key="block_pagebuilderupload" js="0">Конструктор страницы: Загрузка изображений</word>
+  <word key="block_pagebuilderupload_desc" js="0">Добавляет одиночное изображение или карусель из изображений</word>
+  <word key="pagebuilderupload_upload" js="0">Загрузка</word>
+  <word key="pagebuilder_text" js="0">Текст</word>
+  <word key="video_url" js="0">Ссылка</word>
+  <word key="video_cannot_embed" js="0">Этот контент не может быть встроен.</word>
+  <word key="block_testimonials" js="0">Отзывы</word>
+  <word key="block_testimonials_desc" js="0">Показать подборку отзывов, отображаемых в случайном порядке.</word>
+  <word key="widget_testimonials_name" js="0">Название</word>
+  <word key="widget_testimonials_content" js="0">Контент</word>
+  <word key="testimonials" js="0">Отзывы</word>
+  <word key="pagebuilderupload_slideshow" js="0">Автозапуск слайдшоу?</word>
+  <word key="pagebuilderupload_captions" js="0">Описания</word>
+  <word key="pagebuilderupload_captions_desc" js="0">Должны быть упорядочены также, как и загруженные фото</word>
+  <word key="pagebuilderupload_urls" js="0">Ссылки</word>
+  <word key="pagebuilderupload_urls_desc" js="0">Должны быть упорядочены также, как и загруженные фото</word>
+  <word key="pagebuilderupload_height" js="0">Высота блока</word>
+  <word key="cms_number_none" js="0">Нет</word>
  </app>
 </language>

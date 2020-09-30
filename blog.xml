@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="blog" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.0" long_version="45000" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="blog" version="">
   <word key="__app_blog" js="0">Блоги</word>
   <word key="frontnavigation_blogs" js="0">Блоги</word>
   <word key="__indefart_blog_entry_comment" js="0">комментарий к записи в блоге</word>
@@ -33,7 +33,6 @@
   <word key="blog_settings_rss" js="0">Настройки RSS-лент</word>
   <word key="blog_allow_rssimport" js="0">Включить RSS-импорт</word>
   <word key="blog_allow_rss" js="0">Включить RSS-экспорт</word>
-  <word key="blog_allow_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
   <word key="blog_allow_grid" js="0">Включить вид сеткой</word>
   <word key="blog_allow_grid_desc" js="0">Вид сеткой отображает записи в блоге в виде карточек с пространством для основной фотографии</word>
   <word key="blog_view_mode" js="0">Стандартный вид</word>
@@ -89,7 +88,7 @@
   <word key="submit_entry" js="0">Создать новую запись</word>
   <word key="blog_entry_title" js="0">Заголовок</word>
   <word key="blog_entry_tags" js="0">Теги</word>
-  <word key="blog_entry_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
+  <word key="blog_entry_auto_follow_suffix" js="0">Подписаться на запись</word>
   <word key="blog_entry_content" js="0">Публикация</word>
   <word key="blog_entry_date" js="0">Время публикации</word>
   <word key="blog_entry_publish" js="0">Опубликовать запись</word>
@@ -162,8 +161,8 @@
   <word key="no_entries" js="0">В этом блоге ещё нет записей</word>
   <word key="pin_blog" js="0">Закрепить</word>
   <word key="unpin_blog" js="0">Открепить</word>
-  <word key="blog_by" js="0">Блог пользователя: %s</word>
-  <word key="group_blog_by" js="0">Блог группы: %s</word>
+  <word key="blog_by" js="0">Блог пользователя %s в %s</word>
+  <word key="group_blog_by" js="0">Блог группы %s в %s</word>
   <word key="club_blog_for" js="0">Блог клуба %s</word>
   <word key="contributors_to_this" js="0">Авторы блога:</word>
   <word key="num_contributors_to_this" js="0">{# [*1:автор][*2:автора][*3:автора][*4:автора][*11:авторов][*12:авторов][*13:авторов][*14:авторов][?:авторов]} в этом блоге</word>
@@ -210,7 +209,7 @@
   <word key="loc_blog_viewing_blog" js="0">Просматривает блог: %s</word>
   <word key="loc_blog_adding_entry" js="0">Добавляется запись в блог: %s</word>
   <word key="loc_blog_viewing_entry" js="0">Просматривает запись: %s</word>
-  <word key="modperms__core_Content_blog_Entry" js="0">Блоги</word>
+  <word key="modperms__core_Content_blog_Entry" js="0">Записи блога</word>
   <word key="can_pin_blog_entry" js="0">Может закреплять записи</word>
   <word key="can_unpin_blog_entry" js="0">Может откреплять записи</word>
   <word key="can_feature_blog_entry" js="0">Может отмечать записи рекомендованными</word>
@@ -267,5 +266,48 @@
   <word key="blog_bm_filters" js="0">Блог</word>
   <word key="mf_has_blog" js="0">У пользователя есть блог?</word>
   <word key="blog_entry_cover_photo" js="0">Основная фотография</word>
+  <word key="blog_allow_rssimport_desc" js="0"><![CDATA[Разрешение пользователям импортировать RSS-каналы сделает Ваш сайт восприимчивым к <a href='https://owasp.org/www-community/attacks/Server_Side_Request_Forgery' target='_blank' rel='noopener'>SSRF attacks</a>. Особенно, если всем пользователям разрешено создавать свои блоги. Импортируйте только RSS-каналы из проверенных источников, которым доверяете, и которые не позволяют включать в каналы контент, представленный пользователями.]]></word>
+  <word key="entry_category_choice" js="0">Категория записи</word>
+  <word key="entry_category_choice_new" js="0">Создать новую категорию записи</word>
+  <word key="entry_category_choice_existing" js="0">Использовать существующую категорию записи</word>
+  <word key="stats_overview_blogs" js="0">Блоги</word>
+  <word key="stats_overview_blogs_desc" js="0">Дата создания блога не отслеживается, поэтому это общее количество и не ограничено никакими применимыми ограничениями по диапазону дат</word>
+  <word key="entry_posted_with_cat" js="0">Запись опубликована от %s в %s</word>
+  <word key="entry_future_posted_with_cat" js="0">Запись от %s в %s публикуется на</word>
+  <word key="entry_name_with_cat" js="0">%s в %s</word>
+  <word key="blog_category_viewing" js="0">Просмотр категории %s</word>
+  <word key="blog_category_select" js="0">Посмотреть категорию</word>
+  <word key="loc_blog_viewing_index_action" js="0">%s просматривает блоги</word>
+  <word key="loc_blog_creating_action" js="0">%s создаёт блог</word>
+  <word key="loc_blog_viewing_blog_action" js="0">%s просматривает блог</word>
+  <word key="loc_blog_adding_entry_action" js="0">%s добавляет запись в блоге</word>
+  <word key="loc_blog_viewing_entry_action" js="0">%s читает в блоге запись</word>
+  <word key="modperms__blog_Blogs" js="0">Блоги</word>
+  <word key="can_mod_blogs" js="0">Может перемещать блоги?</word>
+  <word key="menu__blog_blogs_categories" js="0">Блоги</word>
+  <word key="blog_categories" js="0">Блоги</word>
+  <word key="blog_create_category" js="0">Создать новую категорию</word>
+  <word key="blog_categories_add_child" js="0">Добавить блог</word>
+  <word key="blog_category_id" js="0">Категория</word>
+  <word key="category_basic_settings" js="0">Основные настройкки</word>
+  <word key="blog_category_desc" js="0">Описание</word>
+  <word key="category_parent" js="0">Родительская категория</word>
+  <word key="category_desc_placeholder" js="0">Добавить описание...</word>
+  <word key="__api_blog_categories" js="0">Категории</word>
+  <word key="entry_category_id" js="0">Выбрать категорию записи</word>
+  <word key="blog_entry_new_category" js="0">Введите название категории</word>
+  <word key="blog_entry_category_new" js="0">- Выбрать новую -</word>
+  <word key="blog_category_heading" js="0">Просмотр записей в %s</word>
+  <word key="blog_manage_entry_categories" js="0">Управление категориями</word>
+  <word key="blog_entry_categories" js="0">Категории записей</word>
+  <word key="blog_error_missing_name" js="0">Вам необходимо ввести имя для этой категории</word>
+  <word key="blog_error_not_find_category" js="0">Не удалось найти эту категорию</word>
+  <word key="blog_categories_all" js="0">Показать все</word>
+  <word key="no_entries_in_cat" js="0">В этой категории нет записей</word>
+  <word key="__api_blog_entrycategories" js="0">Категории записей</word>
+  <word key="blog_category_confirm_delete" js="1">Вы уверены, что хотите удалить эту категорию?</word>
+  <word key="blog_category_confirm_delete_desc" js="1">Существующие записи в этой категории будут обновлены и больше не будут принадлежать ей.</word>
+  <word key="manage_cats_new_row" js="1">Добавить новую категорию</word>
+  <word key="entry_cat_order_saved" js="1">Порядок категорий сохранен</word>
  </app>
 </language>
