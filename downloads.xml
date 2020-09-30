@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="downloads" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="downloads" version="">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
   <word key="__indefart_downloads_file_comment" js="0">комментарий к файлу</word>
@@ -20,7 +20,7 @@
   <word key="downloads_categories" js="0">Категории файлов</word>
   <word key="filestorage__downloads_Files" js="0">Файлы в приложении Файлы</word>
   <word key="filestorage__downloads_Screenshots" js="0">Скриншоты в приложении Файлы</word>
-  <word key="filestorage__downloads_FileField" js="0">Поля в приложении Файлы</word>
+  <word key="filestorage__downloads_FileField" js="0">Дополнительные поля в приложении Файлы</word>
   <word key="downloads_files" js="0">Загрузка файлов</word>
   <word key="downloads_file" js="0">Файл</word>
   <word key="modlog__action_restorebackup" js="0"><![CDATA[Восстановлена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
@@ -76,7 +76,7 @@
   <word key="perm_file_perm__reply" js="0">Комментирование</word>
   <word key="perm_file_perm__review" js="0">Добавление отзывов</word>
   <word key="cbitoptions_moderation" js="0">Файлы должны быть утверждены</word>
-  <word key="cbitoptions_moderation_edits" js="0">Новые версии должны быть утверждены</word>
+  <word key="cbitoptions_moderation_edits" js="0">Новые версии должны быть утверждены?</word>
   <word key="cbitoptions_show_approver" js="0">Отображать, кто утвердил файл</word>
   <word key="cbitoptions_show_approver_desc" js="0">Администрация всегда будет видеть эту информацию.</word>
   <word key="cbitoptions_comment_moderation" js="0">Комментарии должны быть утверждены</word>
@@ -162,7 +162,6 @@
   <word key="acplogs__downloads_settings" js="0">Обновлены настройки файлов</word>
   <word key="group__downloads_Downloads" js="0">Файлы</word>
   <word key="idm_rss" js="0">Включить RSS-ленту последних файлов</word>
-  <word key="idm_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
   <word key="idm_link_blacklist" js="0">Чёрный список ссылок</word>
   <word key="idm_link_blacklist_desc" js="0">Пользователи, которым разрешено указывать ссылки на файлы, не смогут указывать ссылки с этих доменов.</word>
   <word key="idm_antileech" js="0">Запретить прямые ссылки</word>
@@ -176,7 +175,7 @@
   <word key="idm_view_downloads" js="0">Может просматривать, кто скачивал файл</word>
   <word key="idm_view_downloads_desc" js="0">Журнал скачиваний может быть отключен для конкретной категории или автоматически очищаться.</word>
   <word key="idm_throttling" js="0">Максимальная скорость скачивания</word>
-  <word key="idm_throttling_suffix" js="0">КБ/секунду</word>
+  <word key="idm_throttling_suffix" js="0">Кб/секунду</word>
   <word key="idm_throttling_desc" js="0">Максимальная скорость отдачи файлов пользователю. Слишком низкое значение может привезти к таймауту соединения и обрыву сессии.</word>
   <word key="idm_throttling_unlimited" js="0">Без ограничений</word>
   <word key="idm_wait_period" js="0">Время ожидания перед скачиванием</word>
@@ -187,9 +186,9 @@
   <word key="daily_bw" js="0">Максимальный трафик за день</word>
   <word key="weekly_bw" js="0">Максимальный трафик за неделю</word>
   <word key="monthly_bw" js="0">Максимальный трафик за месяц</word>
-  <word key="kb_per_day" js="0">КБ/день</word>
-  <word key="kb_per_week" js="0">КБ/неделю</word>
-  <word key="kb_per_month" js="0">КБ/месяц</word>
+  <word key="kb_per_day" js="0">Кб/день</word>
+  <word key="kb_per_week" js="0">Кб/неделю</word>
+  <word key="kb_per_month" js="0">Кб/месяц</word>
   <word key="daily_dl" js="0">Максимум скачиваний за день</word>
   <word key="weekly_dl" js="0">Максимум скачиваний за неделю</word>
   <word key="monthly_dl" js="0">Максимум скачиваний за месяц</word>
@@ -205,7 +204,7 @@
   <word key="idm_linked_files" js="0">Может создавать файлы по ссылкам</word>
   <word key="idm_import_files" js="0">Может импортировать файлы из файловой системы</word>
   <word key="idm_import_files_desc" js="0">Если включено, пользователи смогут импортировать файлы, расположенные в директории на вашем сервере. Вы должны включать это только для администрации, где все пользователи являются доверенными.</word>
-  <word key="idm_bulk_submit" js="0">Может создавать несколько файлов за раз</word>
+  <word key="idm_bulk_submit" js="0">Может создавать несколько файлов за раз?</word>
   <word key="idm_paid_restrictions" js="0">Ограничения применяются к купленным файлам?</word>
   <word key="idm_paid_restrictions_desc" js="0">Если включено, все ограничения, установленные ниже, также будут применяться и к файлам, которые приобрёл пользователь.</word>
   <word key="idm_screenshot_for" js="0">Скриншоты %s</word>
@@ -216,9 +215,8 @@
   <word key="submit_multiple_files" js="0">Добавить несколько файлов</word>
   <word key="submit_first_file" js="0">Загрузить первый файл</word>
   <word key="write_review" js="0">Написать отзыв</word>
-  <word key="file_auto_follow_suffix" js="0">Уведомлять о новых комментариях</word>
+  <word key="file_auto_follow_suffix" js="0">Подписаться на файл</word>
   <word key="file" js="0">Файл</word>
-  <word key="upload_files" js="0">Загрузить ваши файлы</word>
   <word key="dl_get_support" js="0">Поддержка</word>
   <word key="dl_get_support_title" js="0">Получить поддержку по файлу</word>
   <word key="file_information" js="0">Информация о файле</word>
@@ -507,8 +505,8 @@
   <word key="choose_file_nexus_title" js="0">Выберите пакет</word>
   <word key="file_no_price_for_currency" js="0">Данный файл в настоящий момент недоступен в выбранной вами валюте.</word>
   <word key="nexus_file_no_longer_available" js="0">Этот файл больше недоступен для скачивания, пожалуйста, свяжитесь с его автором для дополнительной информации.</word>
-  <word key="notifications__downloads_Files" js="0">Файлы</word>
-  <word key="notifications__new_file_version" js="0">Файл, на который я подписан, был обновлён до новой версии</word>
+  <word key="notifications__downloads_Files" js="0">Обновления файлов</word>
+  <word key="notifications__new_file_version" js="0">Вышла новая версия файла, на который я подписан</word>
   <word key="email_new_file_version_plain" js="0">%s загрузил новую версию %s,</word>
   <word key="email_new_file_version" js="0"><![CDATA[<a href='%s'>%s</a> загрузил новую версию %s,]]></word>
   <word key="email_new_file_version_guest" js="0">%s (Гость) загрузил новую версию %s,</word>
@@ -542,5 +540,65 @@
   <word key="downloadsScreenshotsWatermarkBlurb" js="1">Перестроение существующих скриншотов обновит их и наложит ваш новый водяной знак.</word>
   <word key="downloadsScreenshotsWatermarkYes" js="1">Да, перестроить</word>
   <word key="downloadsScreenshotsWatermarkNo" js="1">Нет</word>
+  <word key="__indefart_downloads_file_pending" js="0">новая версия</word>
+  <word key="cmultiple_files" js="0">Разрешить несколько файлов</word>
+  <word key="cmultiple_files_desc" js="0">Если включено, автор файла может загружать несколько файлов одновременно при создании/обновлении записи файла.</word>
+  <word key="downloads_file_pending" js="0">Новая версия</word>
+  <word key="downloads_file_pending_pl" js="0">Новые версии файла</word>
+  <word key="downloads_file_pending_pl_lc" js="0">новые версии файла</word>
+  <word key="file_pending_approval_version" js="0">Новая версия этого файла ожидает одобрения.</word>
+  <word key="file_pending_version_button" js="0">Обзор новой версии</word>
+  <word key="err_too_many_files" js="0">Вы можете загрузить или прикрепить ссылку не более одного файла.</word>
+  <word key="upload_new_version_pending" js="0">Новая версия ожидает одобрения</word>
+  <word key="select_your_file" js="0">Выберите свой файл</word>
+  <word key="save_and_submit_file" js="0">Сохранить и опубликовать файл</word>
+  <word key="save_and_submit_new_version" js="0">Сохранить и опубликовать новую версию</word>
+  <word key="downloads_single_upload" js="0">Эта категория позволяет загружать один файл. Чтобы загрузить новый файл, удалите существующий файл, затем загрузите новый файл.</word>
+  <word key="stats_overview_downloads" js="0">Загрузка файлов</word>
+  <word key="stats_overview_downloads_desc" js="0">Журнал загрузок и срок хранения логов могут быть скорректированы для каждой категории</word>
+  <word key="loc_downloads_viewing_file_action" js="0">%s просматривает файл</word>
+  <word key="loc_downloads_viewing_category_action" js="0">%s просматривает загрузки</word>
+  <word key="loc_downloads_browsing_categories_action" js="0">%s просматривает файлы</word>
+  <word key="loc_downloads_adding_file_action" js="0">%s добавляет файл</word>
+  <word key="loc_downloads_browsing_action" js="0">%s просматривает загрузки</word>
+  <word key="notifications__downloads_Files_desc" js="0">Эти уведомления будут отправлены каждый раз, когда публикуются новые версии файлов, у которых вы включили получение этих уведомлений.</word>
+  <word key="notification__new_file_version_with" js="0">%s загрузил версию %s для %s</word>
+  <word key="backgroundQueue_new_version" js="0">Отправляются оповещения о новой версии для %s</word>
+  <word key="file_subscribe" js="0">Отправлять мне обновлённые версии</word>
+  <word key="file_unsubscribe" js="0">Отключить обновления версий</word>
+  <word key="file_subscribed" js="0">Новые обновления версии включены</word>
+  <word key="file_unsubscribed" js="0">Новые обновления версии отключены</word>
+  <word key="file_notify_heading" js="0">Новые обновления версий</word>
+  <word key="file_notify_current" js="0">В настоящее время Вы получаете эти оповещения %s</word>
+  <word key="file_notify_none" js="0">У Вас нет настроенных способов для оповещений</word>
+  <word key="file_version_pending_approval" js="0">Новая версия этого файла еще не утверждена и видна только администрации. Предыдущая версия файла остается видимой для участников.</word>
+  <word key="pending_no_new_files" js="0">Эта версия не имеет обновленных файлов.</word>
+  <word key="pending_no_changelog" js="0">Автор не предоставил журнал изменений для этой версии.</word>
+  <word key="pending_version" js="0">Версия на проверку</word>
+  <word key="pending_version_reject" js="0">Отклонить</word>
+  <word key="pending_version_reject_title" js="0">Отклонить эту версию?</word>
+  <word key="pending_version_reject_desc" js="0">Это удалит предлагаемую версию и оставит текущую версию файла видимой</word>
+  <word key="file_subscribe" js="1">Отправлять мне обновлённые версии</word>
+  <word key="file_unsubscribe" js="1">Отписаться от обновлённых версий</word>
+  <word key="files_optional" js="1">Ограничить типы файлов</word>
+  <word key="idm_nexus_mincost" js="0">Минимальная стоимость</word>
+  <word key="idm_nexus_mincost_desc" js="0">Минимальная стоимость для платных файлов. Не распространяется на бесплатные файлы.</word>
+  <word key="file_cost_desc_minimum" js="0">Минимальная стоимость: %s</word>
+  <word key="file_cost_too_low" js="0">Введенная стоимость меньше минимального требования.</word>
+  <word key="modlog__action_newversion_reject" js="0"><![CDATA[Отклонена новая версия для файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_newversion_approved" js="0"><![CDATA[Утверждена новая версия для файла: <a href='%s'>%s</a>]]></word>
+  <word key="cdisclaimer_location" js="0">Показать условия загрузки</word>
+  <word key="cdisclaimer_purchase" js="0">Перед покупкой</word>
+  <word key="cdisclaimer_download" js="0">Перед загрузкой</word>
+  <word key="cdisclaimer_both" js="0">Перед покупкой и загрузкой</word>
+  <word key="downloads_field_paid" js="0">Покупка обязательна?</word>
+  <word key="downloads_field_paid_desc" js="0">Если этот параметр включен, содержимое этого поля будет показано только участникам, которые приобрели файл. Этот параметр не влияет на бесплатные файлы.</word>
+  <word key="idm_max_size" js="0">Максимальный размер файлов</word>
+  <word key="idm_max_size_desc" js="0">У категорий также может быть максимальный размер файлов. Обычный файлы будут ограничены наименьшим максимальным размеров файлов группы или максимальным размером файлов категории, в то время как файлы клубов будут ограничены этим значением.</word>
+  <word key="idm_maxsize_suffix" js="0">Кб</word>
+  <word key="download_purchase_terms" js="0">Условия и положения</word>
+  <word key="download_purchase_terms_desc" js="0">Перед покупкой необходимо согласиться со следующими условиями:</word>
+  <word key="agree_and_purchase" js="0">Согласиться и купить</word>
+  <word key="file_new_version_date" js="0">Опубликована новая версия: %s</word>
  </app>
 </language>

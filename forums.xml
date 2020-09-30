@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0">
- <app key="forums" version="104066">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.3" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="forums" version="">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
   <word key="__indefart_post" js="0">сообщение в теме</word>
@@ -24,7 +24,6 @@
   <word key="menu__forums_forums" js="0">Форум</word>
   <word key="menu__forums_forums_forums" js="0">Категории и разделы</word>
   <word key="menu__forums_forums_savedActions" js="0">Сохранённые действия</word>
-  <word key="menu__forums_forums_rss" js="0">Ленты RSS/Atom</word>
   <word key="menu__forums_stats" js="0">Форум</word>
   <word key="menu__forums_stats_topics" js="0">Новые темы</word>
   <word key="menu__forums_stats_posts" js="0">Новые сообщения</word>
@@ -38,12 +37,6 @@
   <word key="r__archive_manage" js="0">Может изменять настройки архивирования</word>
   <word key="r__settings_access" js="0">Имеет доступ к настройкам</word>
   <word key="r__forum_settings" js="0">Может изменять настройки разделов</word>
-  <word key="r__rss" js="0">Ленты</word>
-  <word key="r__rss_manage" js="0">Может просматривать импортируемые ленты</word>
-  <word key="r__rss_add" js="0">Может создавать импортируемые ленты</word>
-  <word key="r__rss_edit" js="0">Может изменять импортируемые ленты</word>
-  <word key="r__rss_delete" js="0">Может удалять импортируемые ленты</word>
-  <word key="r__rss_run" js="0">Может запускать импорт лент</word>
   <word key="r__savedActions" js="0">Сохранённые действия</word>
   <word key="r__savedActions_manage" js="0">Может просматривать сохранённые действия</word>
   <word key="r__savedActions_add" js="0">Может создавать сохранённые действия</word>
@@ -179,7 +172,7 @@
   <word key="forums_topic_post" js="0">Сообщения в разделе</word>
   <word key="forums_topic" js="0">Темы в разделе</word>
   <word key="forums_topic_pl" js="0">Темы</word>
-  <word key="menu__forums_forums_settings" js="0">Настройки форума</word>
+  <word key="menu__forums_forums_settings" js="0">Настройки</word>
   <word key="forums_popular_now" js="0">Тема становится популярной при</word>
   <word key="forums_popular_now_desc" js="0">Популярные темы выделяются в общем списке.</word>
   <word key="posts_in_the_last" js="0">сообщениях за последние</word>
@@ -195,7 +188,6 @@
   <word key="forums_new_questions_best" js="0">Вопросы, где не был выбран лучший ответ.</word>
   <word key="forums_new_questions_any" js="0">Вопросы, которые не получили никаких ответов.</word>
   <word key="forums_rss" js="0">Включить RSS-ленту</word>
-  <word key="forums_rss_desc" js="0"><![CDATA[Будут отображаться только публикации, доступные для просмотра гостям. Для дополнительной настройки создайте <a href='{internal.app=core&module=discovery&controller=rss}'>свою RSS-ленту</a>]]></word>
   <word key="forums_topics_per_page" js="0">Количество тем на страницу</word>
   <word key="forums_default_view" js="0">Стандартный вид форума</word>
   <word key="forums_default_view_table" js="0">Таблица: Традиционная таблица разделов</word>
@@ -240,7 +232,6 @@
   <word key="archive_storage_location_remote" js="0">В удалённую таблицу</word>
   <word key="greater_than" js="0">Более чем</word>
   <word key="less_than" js="0">Менее чем</word>
-  <word key="any_time" js="0">Все время</word>
   <word key="archive_rules_effects" js="0">Количество тем, которые будут архивированы</word>
   <word key="forum_sort_key" js="0">Сортировка по умолчанию</word>
   <word key="forum_sort_key_qa" js="0">Сортировка по умолчанию</word>
@@ -316,7 +307,7 @@
   <word key="question_title" js="0">Вопрос</word>
   <word key="topic_title" js="0">Заголовок</word>
   <word key="topic_tags" js="0">Теги</word>
-  <word key="topic_auto_follow_suffix" js="0">Уведомлять о новых ответах</word>
+  <word key="topic_auto_follow_suffix" js="0">Подписаться на тему</word>
   <word key="topic_pollTab" js="0">Опрос</word>
   <word key="topic_open_time" js="0">Время открытия</word>
   <word key="topic_close_time" js="0">Время закрытия</word>
@@ -468,7 +459,7 @@
   <word key="embed_topic" js="0">Тема раздела</word>
   <word key="questions_with_best_answers" js="0">Вопросы с лучшим ответом</word>
   <word key="questions_without_best_answers" js="0">Вопросы без лучшего ответа</word>
-  <word key="this_is_a_popular_post" js="0">Это популярное сообщение.</word>
+  <word key="this_is_a_popular_post" js="0">Популярное сообщение</word>
   <word key="rate_this_topic" js="0">Оцените эту тему</word>
   <word key="rate_this_question" js="0">Оцените этот вопрос</word>
   <word key="sign_in_rate_question" js="0">Войдите, чтобы оценить этот вопрос</word>
@@ -521,7 +512,6 @@
   <word key="modlog__saved_action" js="0"><![CDATA[Запущено сохранённое действие "%s" в теме: <a href='%s'>%s</a>]]></word>
   <word key="modlog__unarchived_topic" js="0"><![CDATA[Разархивирована тема: <a href='%s'>%s</a>]]></word>
   <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Удалена пометка "исключить из архива" с темы: <a href='%s'>%s</a>]]></word>
-  <word key="task__rssimport" js="0">Проверяет RSS/Atom-ленты на наличие новых статей и импортирует их в Форум.</word>
   <word key="queue_deleting_legacy_topics" js="0">Удаление устаревших данных о темах</word>
   <word key="queue_deleting_legacy_posts" js="0">Удаление устаревших данных о сообщениях</word>
   <word key="queue_fixing_hidden_first_post" js="0">Обновление некорректно скрытых тем</word>
@@ -571,7 +561,6 @@
   <word key="widget_feed_container_topic" js="0">Форумы</word>
   <word key="block_topicFeed_title" js="0">Темы</word>
   <word key="block_postFeed_title" js="0">Сообщения</word>
-  <word key="rssimport_task_error" js="0">Попытка импортировать ленту не удалась: %s</word>
   <word key="block_poll" js="0">Опрос</word>
   <word key="block_poll_desc" js="0">Создаёт блок с опросом из темы</word>
   <word key="widget_poll_tid" js="0">Тема</word>
@@ -604,5 +593,120 @@
   <word key="js_vote_answer_up" js="1">Проголосовать за ответ</word>
   <word key="js_vote_answer_down" js="1">Проголосовать против ответа</word>
   <word key="js_remove_your_vote" js="1">Удалить свой голос</word>
+  <word key="filestorage__forums_Cards" js="0">Forum Cards</word>
+  <word key="answer" js="0">Ответ</word>
+  <word key="answer_lc" js="0">ответ</word>
+  <word key="can_toggle_item_moderation_topic" js="0">Может включить / отключить модерацию в темах?</word>
+  <word key="all_public" js="0">Все публичные</word>
+  <word key="forum_can_view_others_club" js="0">Пользователи могут видеть темы, опубликованные другими пользователями?</word>
+  <word key="forum_can_view_others_club_desc" js="0">Вы и любые другие модераторы или лидеры этого клуба смогут видеть все темы. Вы можете использовать этот параметр, чтобы создать форум, где пользователи могут общаться в частном порядке с модераторами клуба.</word>
+  <word key="forum_card_image" js="0">Сетка</word>
+  <word key="forum_card_image_desc" js="0">При просмотре форумов в виде сетки выбранное изображение будет отображаться в качестве фона.</word>
+  <word key="bw_enable_answers_moderator" js="0">Включить решения?</word>
+  <word key="bw_enable_answers_moderator_desc" js="0">Модераторы смогут помечать сообщения как решение.</word>
+  <word key="bw_enable_answers__member" js="0">Разрешить автору темы помечать как решение?</word>
+  <word key="bw_enable_answers__member_desc" js="0">По желанию разрешить автору темы самостоятельно отмечать сообщения как решение.</word>
+  <word key="topic_meta_unread" js="0">Непрочитанные ответы</word>
+  <word key="forum_follower_count" js="0">{# [*1:подписчик][*2:подписчика][*3:подписчика][*4:подписчика][*11:подписчиков][*12:подписчиков][*13:подписчиков][*14:подписчиков][?:подписчиков]}</word>
+  <word key="topic_follower_count" js="0">{# [*1:подписчик][*2:подписчика][*3:подписчика][*4:подписчика][*11:подписчиков][*12:подписчиков][*13:подписчиков][*14:подписчиков][?:подписчиков]}</word>
+  <word key="forums_topic_list_snippet" js="0">Расширенный просмотр: Показать темы с предварительным просмотром сообщения</word>
+  <word key="forums_topic_list_list" js="0">Сжатый вид: Показать темы в виде списка</word>
+  <word key="queue_rebuilding_solved_posts" js="0">Восстановление решённых вопросов</word>
+  <word key="loc_forums_viewing_topic_action" js="0">%s читает тему</word>
+  <word key="loc_forums_viewing_forum_action" js="0">%s просматривает форум</word>
+  <word key="loc_forums_creating_topic_action" js="0">%s создаёт тему</word>
+  <word key="loc_forums_index_action" js="0">%s просматривает форумы</word>
+  <word key="enable_topic_moderation" js="0">Включить модерацию</word>
+  <word key="disable_topic_moderation" js="0">Отключить модерацию</word>
+  <word key="topic_moderation_enabled" js="0">Сообщение одобрено</word>
+  <word key="enable_topic_moderation_confirm" js="0">Если включено, все новые комментарии должны быть одобрены модератором, прежде чем они будут отображаться в этой теме.</word>
+  <word key="disable_topic_moderation_confirm" js="0">Если отключено, новые комментарии больше не будут требовать одобрения модератора.</word>
+  <word key="unsolve_content" js="0">Отменить как решение</word>
+  <word key="solve_content" js="0">Отметить как решение</word>
+  <word key="this_is_a_solved_post" js="0">Решение</word>
+  <word key="solved_and_go" js="0">Перейти к решению</word>
+  <word key="this_is_solved" js="0">Решено</word>
+  <word key="unsolved_topics" js="0">Открытые темы</word>
+  <word key="solved_topics" js="0">Решённые темы</word>
+  <word key="widget_feed_status_solved" js="0">Решено</word>
+  <word key="solved_either" js="0">Решено и не решено</word>
+  <word key="solved_solved" js="0">Решено</word>
+  <word key="solved_unsolved" js="0">Не решено</word>
+  <word key="solved_byline" js="0">Решение от %s</word>
+  <word key="forums_view_list_method" js="0">Список тем по умолчанию</word>
+  <word key="forums_view_list_choose" js="0">Участники могут выбрать?</word>
+  <word key="forums_view_list_choose_desc" js="0">Позволить участникам переключаться между видами отображения. Если «Нет», то участники всегда будут использовать представление списка тем по умолчанию.</word>
+  <word key="topicactivity_created" js="0">Создано</word>
+  <word key="topicactivity_topposters" js="0">Лучшие авторы в этой теме</word>
+  <word key="topicactivity_topposters_qa" js="0">Лучшие авторы в этом вопросе</word>
+  <word key="topicactivity_popularposts" js="0">Популярные публикации</word>
+  <word key="topicactivity_populardays" js="0">Популярные дни</word>
+  <word key="topicactivity_images" js="0">Опубликованные изображения</word>
+  <word key="topicactivity_number_posts" js="0">{# [*1:публикация][*2:публикации][*3:публикации][*4:публикации][*11:публикаций][*12:публикаций][*13:публикаций][*14:публикаций][?:публикаций]}</word>
+  <word key="forums_topic_activity" js="0">Устройства</word>
+  <word key="forums_topic_activity_desktop_on" js="0">Персональные компьютеры / планшеты</word>
+  <word key="forums_topic_activity_mobile_on" js="0">Мобильные устройства</word>
+  <word key="forums_topic_activity_mobile_on_desc" js="0">Это всегда будет отображаться под первым постом для мобильных устройств</word>
+  <word key="forums_topic_activity_desktop" js="0">Положение на персональном компьютере / планшете</word>
+  <word key="forums_topic_activity_desktop_sidebar" js="0">Боковая панель</word>
+  <word key="forums_topic_activity_desktop_post" js="0">Под первым постом</word>
+  <word key="forums_topics_activity_pages_show_unlimited" js="0">Показывать всегда</word>
+  <word key="forums_topics_activity_pages_show" js="0">Критерии</word>
+  <word key="forums_topics_activity_pages_show_prefix" js="0">Когда количество страниц по крайней мере</word>
+  <word key="topic_summary_settings" js="0">Настройки смежной темы</word>
+  <word key="forums_topic_activity_features" js="0">Содержание</word>
+  <word key="forums_topic_activity_features_popularDays" js="0">Популярные дни</word>
+  <word key="forums_topic_activity_features_popularDays_desc" js="0">Список за 4 дня, в которых было больше всего постов</word>
+  <word key="forums_topic_activity_features_topPost" js="0">Топ сообщений</word>
+  <word key="forums_topic_activity_features_topPost_desc" js="0">Список из 3 постов с самыми положительными реакциями</word>
+  <word key="forums_topic_activity_features_uploads" js="0">Опубликованные изображения</word>
+  <word key="forums_topics_show_meta" js="0">Показывать</word>
+  <word key="forums_topic_show_meta_time" js="0">Большие промежутки времени между постами</word>
+  <word key="forums_topic_show_meta_moderation" js="0">Модерация событий между постами</word>
+  <word key="mobilenavigation_Topics" js="0">Все темы</word>
+  <word key="mobilenavigation_Forums" js="0">Форумы</word>
+  <word key="app_forums" js="0">Форумы</word>
+  <word key="app_create_new_topic" js="0">Создать новую тему</word>
+  <word key="app_topics_title" js="0">Темы</word>
+  <word key="app_subforums_title" js="0">Подфорумы</word>
+  <word key="app_no_forum" js="0">Форум не существует.</word>
+  <word key="app_no_topic" js="0">Тема не существует.</word>
+  <word key="app_incorrect_forum_password" js="0">Пароль к этому форуму не был предоставлен</word>
+  <word key="app_no_post" js="0">Пост не существует.</word>
+  <word key="app_invalid_topic" js="0">Тема не может быть загружена.</word>
+  <word key="app_not_question" js="0">За эту тему нельзя проголосовать.</word>
+  <word key="app_cannot_vote" js="0">Вы не можете голосовать в этом вопросе.</word>
+  <word key="app_error_voting_question" js="0">Возникла проблема при попытке проголосовать в вопросе.</word>
+  <word key="app_replace_best_answer_title" js="0">Подтвердить</word>
+  <word key="app_replace_best_answer_text" js="0">Вы уверены, что хотите заменить текущий лучший ответ на этот?</word>
+  <word key="app_question_asked_by" js="0">Автор вопроса: {{name}}</word>
+  <word key="app_this_is_best_answer" js="0">Лучший ответ на этот вопрос</word>
+  <word key="app_all_topics" js="0">Все темы</word>
+  <word key="app_all_topics_desc" js="0">Отображение всех тем со всех форумов</word>
+  <word key="app_create_topic" js="0">Создать тему</word>
+  <word key="app_confirm_discard_topic" js="0">Вы уверены, что хотите не публиковать эту тему?</word>
+  <word key="app_confirm_discard_post" js="0">Вы уверены, что хотите не публиковать этот ответ?</word>
+  <word key="app_title_required" js="0">Название обязательно</word>
+  <word key="app_title_required_desc" js="0">Вы должны ввести название темы.</word>
+  <word key="app_post_required" js="0">Сообщение обязательно</word>
+  <word key="app_post_required_desc" js="0">Вы должны ввести сообщение.</word>
+  <word key="app_error_posting_topic" js="0">Извините, при публикации этой темы произошла ошибка.</word>
+  <word key="app_error_posting_post" js="0">Извините, произошла ошибка при публикации этого ответа.</word>
+  <word key="app_topic_title" js="0">Название темы</word>
+  <word key="app_post_title" js="0">Сообщение</word>
+  <word key="app_topic_cannot_reply" js="0">Невозможно ответить</word>
+  <word key="app_topic_locked_can_comment" js="0">Закрыто, но Вы можете ответить...</word>
+  <word key="app_topic_poll_can_comment" js="0">Только опрос, но Вы можете ответить...</word>
+  <word key="app_topic_locked_cannot_comment" js="0">Тема закрыта, у Вас нет разрешения на ответ.</word>
+  <word key="app_topic_restricted_cannot_comment" js="0">Ваша учетная запись в настоящее время ограничена для публикаций.</word>
+  <word key="app_topic_unacknowledged_warning_cannot_post" js="0">Вы получили предупреждение, с которым должны ознакомиться перед тем, как отправлять сообщения.</word>
+  <word key="app_topic_member_exceeded_posts_per_day" js="0">Вы достигли максимального количества постов за день.</word>
+  <word key="topic_snippet_last_reply" js="0"><![CDATA[Последний ответ от %s, <a href='%s' title='Перейти к последнему сообщению'>%s</a>]]></word>
+  <word key="archiving_blurb_cloud" js="0"><![CDATA[Архивирование старых <strong>незакрепленных</strong> и <strong>не рекомендованных</strong> тем обеспечивает бесперебойную работу Вашего сообщества. Архивированные темы нельзя публиковать или редактировать, и они не будут отображаться в результатах поиска. Вы всегда сможете разархивировать темы, если передумаете.]]></word>
+  <word key="archive_last_post_cloud" js="0">Последний пост</word>
+  <word key="archive_last_post_suffix" js="0">много лет назад</word>
+  <word key="archive_settings_cloud" js="0">Архив где...</word>
+  <word key="archived_topic_missing_posts" js="0">Сообщения этой темы в настоящее время недоступны. Пожалуйста, повторите попытку через несколько минут.</word>
+  <word key="archived_topic_missing_posts_admin" js="0">Информация об ошибке (отображается только для администраторов)</word>
  </app>
 </language>
