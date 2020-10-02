@@ -3360,7 +3360,7 @@
   <word key="module__nexus_subscriptions" js="0">Подписки</word>
   <word key="nexus_front_subscriptions" js="0">Подписки</word>
   <word key="nexus_sub_cost_unavailable" js="0">Цена недоступна</word>
-  <word key="nexus_sub_cost_plus_renewal" js="0">%s за первые %s, далее %s</word>
+  <word key="nexus_sub_cost_plus_renewal" js="0">%s за %s, далее %s</word>
   <word key="nexus_member_subscription" js="0">Подписка пользователя</word>
   <word key="nexus_manage_subscriptions" js="0">Управление подписками</word>
   <word key="nexus_subs_buy" js="0">Купить подписку</word>
