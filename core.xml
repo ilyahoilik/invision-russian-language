@@ -195,7 +195,7 @@
   <word key="stream_blurb_following_items" js="0">Я подписан</word>
   <word key="stream_blurb_following_members" js="0">опубликовано пользователями, на которых я подписан</word>
   <word key="stream_blurb_since_last_visit" js="0">опубликовано с момента моего последнего визита</word>
-  <word key="stream_blurb_relative" js="0">опубликованные в последние %d дней</word>
+  <word key="stream_blurb_relative" js="0">в которых отвечали в последние %s дней</word>
   <word key="stream_blurb_date_between" js="0">опубликовано между %s и %s</word>
   <word key="stream_blurb_date_after" js="0">опубликовано после %s</word>
   <word key="stream_blurb_date_before" js="0">опубликовано до %s</word>
