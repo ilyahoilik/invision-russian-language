@@ -83,7 +83,7 @@
   <word key="blog_privacy_private" js="0">Только пользователи, которых я выберу, смогут читать этот блог</word>
   <word key="blog_social_group" js="0">Пользователи, которым разрешено читать этот блог</word>
   <word key="no_blog_author_selected" js="0">Автор блога не выбран</word>
-  <word key="modlog__action_delete_blog" js="0">Удалён блог %s</word>
+  <word key="modlog__action_delete_blog" js="0">Удалил блог %s</word>
   <word key="delete_blog_confirm" js="0">Вы уверены в том, что хотите удалить этот блог?</word>
   <word key="submit_entry" js="0">Создать новую запись в блоге</word>
   <word key="blog_entry_title" js="0">Заголовок</word>

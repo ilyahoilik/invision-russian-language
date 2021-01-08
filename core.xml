@@ -2397,8 +2397,8 @@
   <word key="modlog__action_lock" js="0"><![CDATA[Закрыто: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_unlock" js="0"><![CDATA[Открыто: %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_publish" js="0"><![CDATA[Опубликовано: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_changeauthor" js="0"><![CDATA[Автор %s изменён на: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_delete" js="0">Удалено: %s %s</word>
+  <word key="modlog__action_changeauthor" js="0"><![CDATA[Изменил автора %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_delete" js="0">Удалил %s: %s</word>
   <word key="modlog__action_delete_perm" js="0">Полностью удалена %s: %s</word>
   <word key="modlog__action_restore" js="0">Восстановлена %s: %s</word>
   <word key="modlog__action_restore_hidden" js="0">Восстановлена %s как скрытая: %s</word>
@@ -2408,8 +2408,8 @@
   <word key="modlog__comment_edit" js="0"><![CDATA[Изменён <a href='%s'>комментарий</a> в %s <a href='%s'>%s</a>]]></word>
   <word key="modlog__comment_edit_title" js="0"><![CDATA[Переименовано %3$s в <a href='%1$s'>%2$s</a>]]></word>
   <word key="modlog__comment_delete" js="0"><![CDATA[Удалён комментарий из %s: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_announceactive" js="0"><![CDATA[Активно: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_announceinactive" js="0"><![CDATA[Выключить %s <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_announceactive" js="0"><![CDATA[Сделал %s <a href='%s'>%s</a> активным]]></word>
+  <word key="modlog__action_announceinactive" js="0"><![CDATA[Сделал %s <a href='%s'>%s</a> неактивным]]></word>
   <word key="modlog__action_merge" js="0"><![CDATA[Объединено %s и <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_merge_comments" js="0"><![CDATA[Объединено %s и <a href='%s'>%s</a>]]></word>
   <word key="modlog__item_edit" js="0"><![CDATA[Изменён %s: <a href='%s'>%s</a>]]></word>
