@@ -639,7 +639,7 @@
   <word key="topicactivity_created" js="0">Создано</word>
   <word key="topicactivity_topposters" js="0">Лучшие авторы в этой теме</word>
   <word key="topicactivity_topposters_qa" js="0">Лучшие авторы в этом вопросе</word>
-  <word key="topicactivity_popularposts" js="0">Популярные публикации</word>
+  <word key="topicactivity_popularposts" js="0">Популярные сообщения</word>
   <word key="topicactivity_populardays" js="0">Популярные дни</word>
   <word key="topicactivity_images" js="0">Опубликованные изображения</word>
   <word key="topicactivity_number_posts" js="0">{# [*1:публикация][*2:публикации][*3:публикации][*4:публикации][*11:публикаций][*12:публикаций][*13:публикаций][*14:публикаций][?:публикаций]}</word>
