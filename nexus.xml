@@ -10,7 +10,7 @@
   <word key="currency" js="0">Валюта</word>
   <word key="security" js="0">Безопасный</word>
   <word key="renew_title" js="0">Продление: %s</word>
-  <word key="renew_option" js="0">%s/%s</word>
+  <word key="renew_option" js="0">%s за %s</word>
   <word key="order" js="0">Заказ</word>
   <word key="cm" js="0">см</word>
   <word key="inches" js="0">дюймов</word>
@@ -3361,7 +3361,7 @@
   <word key="module__nexus_subscriptions" js="0">Подписки</word>
   <word key="nexus_front_subscriptions" js="0">Подписки</word>
   <word key="nexus_sub_cost_unavailable" js="0">Цена недоступна</word>
-  <word key="nexus_sub_cost_plus_renewal" js="0">%s за %s, далее %s</word>
+  <word key="nexus_sub_cost_plus_renewal" js="0">%s за %s, затем %s</word>
   <word key="nexus_member_subscription" js="0">Подписка пользователя</word>
   <word key="nexus_manage_subscriptions" js="0">Управление подписками</word>
   <word key="nexus_subs_buy" js="0">Купить подписку</word>
@@ -3499,7 +3499,7 @@
   <word key="acpNotification_nexusTransaction_wait" js="0">{# [*1:транзакция ожидает][*2:транзакции ожидают][*3:транзакции ожидают][*4:транзакции ожидают][*11:транзакций ожидают][*12:транзакций ожидают][*13:транзакций ожидают][*14:транзакций ожидают][?:транзакций ожидают]} оплаты</word>
   <word key="acpNotification_nexusBACancelErrors" js="0">{# [*1:ошибка][*2:ошибки][*3:ошибки][*4:ошибки][*11:ошибок][*12:ошибок][*13:ошибок][*14:ошибок][?:ошибок]} подписок PayPal</word>
   <word key="acp_notification_nexus_bacancelerror_desc" js="0">Недавно был удалён способ оплаты PayPal, что требует отмены подписок PayPal. Однако, при попытке отменить некоторые или все подписки, произошла ошибка. Администратору необходимо будет войти в аккаунт PayPal и вручную отменить указанные подписки. Невыполнение этого приведет к тому, что с пользователя по-прежнему будут списываться средства, однако ваше сообщество не сможет обработать эти платежи и не предоставит ему никаких товаров или услуг.</word>
-  <word key="renew_weeks" js="0">{!# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]}</word>
+  <word key="renew_weeks" js="0">{!# [*1:# неделя][*2:# недели][*3:# недели][*4:# недели][*11:# недель][*12:# недель][*13:# недель][*14:# недель][1:неделю][?:# недель]}</word>
   <word key="mass_manage_productgroups" js="0">Переместить / Удалить продукты</word>
   <word key="node_move_products" js="0">Переместить продукты в</word>
   <word key="products_delete_content" js="0">Удалить продукты</word>
