@@ -992,9 +992,9 @@
   <word key="queued_comments_badge" js="0">{# [*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]} в очереди</word>
   <word key="core_Modcp" js="0">Панель модератора</word>
   <word key="member_deletion_keep_name" js="0">Авторство сделанных публикаций</word>
-  <word key="keep_name" js="0">Отображать как %s</word>
-  <word key="remove_name" js="0">Сделать анонимным</word>
-  <word key="remove_name_desc" js="0">Отобразить &quot;Гость&quot; в качестве автора публикаций и удалить все сохраненные IP-адреса.</word>
+  <word key="keep_name" js="0">Оставить как %s</word>
+  <word key="remove_name" js="0">Сделать анонимными</word>
+  <word key="remove_name_desc" js="0">Этот вариант сделаем гостя автором публикаций, и удалит все сохраненные IP-адреса. Рекомендуется в случаях, когда действуют локальные законодательные нормы, например GDPR.</word>
   <word key="dismiss" js="0">Отклонить</word>
   <word key="dismiss_lc" js="0">отклонить</word>
   <word key="nothing_to_show" js="0">Нет данных для отображения</word>
@@ -11493,12 +11493,12 @@
   <word key="forcing_password_resets" js="0">Принудительный сброс пароля</word>
   <word key="title" js="0">Заголовок</word>
   <word key="visibility" js="0">Видимость</word>
-  <word key="member_deletion_content" js="0">Что должно произойти с содержимым участника после его удаления?</word>
+  <word key="member_deletion_content" js="0">Что должно произойти с публикациями пользователя после его удаления?</word>
   <word key="delete_content" js="0">Удалить</word>
   <word key="hide_content" js="0">Скрыть</word>
-  <word key="leave_content" js="0">Покинуть</word>
+  <word key="leave_content" js="0">Оставить</word>
   <word key="delete_member" js="0">Удалить %s</word>
-  <word key="delete_member_warn" js="0">Это немедленно удалит аккаунт. Не будет никакого способа отменить это действие.</word>
+  <word key="delete_member_warn" js="0">Это действие немедленно удалит этот аккаунт. Не будет никакого способа отменить его.</word>
   <word key="content_delete_pending" js="0">Содержание было удалено и будет окончательно удалено на %s</word>
   <word key="num_short_billion" js="0">%s млрд.</word>
   <word key="num_short_million" js="0">%s млн.</word>
