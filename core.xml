@@ -1044,7 +1044,7 @@
   <word key="restricted" js="0">Ограничен</word>
   <word key="unrestricted" js="0">Без ограничений</word>
   <word key="level_number" js="0">Уровень %d</word>
-  <word key="expand" js="0">Развернуть</word>
+  <word key="expand" js="0">Раскрыть</word>
   <word key="collapse" js="0">Свернуть</word>
   <word key="ascending" js="0">По возрастанию (А-Я)</word>
   <word key="descending" js="0">По убыванию (Я-А)</word>
