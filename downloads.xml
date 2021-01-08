@@ -556,10 +556,10 @@
   <word key="stats_overview_downloads" js="0">Загрузка файлов</word>
   <word key="stats_overview_downloads_desc" js="0">Журнал загрузок и срок хранения логов могут быть скорректированы для каждой категории</word>
   <word key="loc_downloads_viewing_file_action" js="0">%s просматривает файл</word>
-  <word key="loc_downloads_viewing_category_action" js="0">%s просматривает загрузки</word>
+  <word key="loc_downloads_viewing_category_action" js="0">%s просматривает файлы</word>
   <word key="loc_downloads_browsing_categories_action" js="0">%s просматривает файлы</word>
   <word key="loc_downloads_adding_file_action" js="0">%s добавляет файл</word>
-  <word key="loc_downloads_browsing_action" js="0">%s просматривает загрузки</word>
+  <word key="loc_downloads_browsing_action" js="0">%s просматривает файлы</word>
   <word key="notifications__downloads_Files_desc" js="0">Эти уведомления будут отправлены каждый раз, когда публикуются новые версии файлов, у которых вы включили получение этих уведомлений.</word>
   <word key="notification__new_file_version_with" js="0">%s загрузил версию %s для %s</word>
   <word key="backgroundQueue_new_version" js="0">Отправляются оповещения о новой версии для %s</word>

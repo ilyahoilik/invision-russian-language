@@ -537,10 +537,10 @@
   <word key="x_asked_new_question" js="0">%s ответил на вопрос в %s</word>
   <word key="x_replied_to_a_topic" js="0">%s ответил в тему</word>
   <word key="x_answered_a_question" js="0">%s ответил на вопрос</word>
-  <word key="loc_forums_viewing_topic" js="0">Тема %s</word>
-  <word key="loc_forums_viewing_forum" js="0">Раздел %s</word>
-  <word key="loc_forums_creating_topic" js="0">Создание темы в %s</word>
-  <word key="loc_forums_index" js="0">Главная страница</word>
+  <word key="loc_forums_viewing_topic" js="0">Просматривает тему: %s</word>
+  <word key="loc_forums_viewing_forum" js="0">Просматривает раздел: %s</word>
+  <word key="loc_forums_creating_topic" js="0">Создаёт тему в: %s</word>
+  <word key="loc_forums_index" js="0">Просматривает главную форума</word>
   <word key="ad_forum_listing" js="0">После первой темы в каждом разделе</word>
   <word key="ad_topic_view" js="0">После первого сообщения в каждой теме</word>
   <word key="ad_fluid_index_view" js="0">Динамический вид списка тем, между темами</word>
@@ -613,9 +613,9 @@
   <word key="forums_topic_list_list" js="0">Сжатый вид: Показать темы в виде списка</word>
   <word key="queue_rebuilding_solved_posts" js="0">Восстановление решённых вопросов</word>
   <word key="loc_forums_viewing_topic_action" js="0">%s читает тему</word>
-  <word key="loc_forums_viewing_forum_action" js="0">%s просматривает форум</word>
+  <word key="loc_forums_viewing_forum_action" js="0">%s просматривает раздел</word>
   <word key="loc_forums_creating_topic_action" js="0">%s создаёт тему</word>
-  <word key="loc_forums_index_action" js="0">%s просматривает форумы</word>
+  <word key="loc_forums_index_action" js="0">%s просматривает список разделов</word>
   <word key="enable_topic_moderation" js="0">Включить модерацию</word>
   <word key="disable_topic_moderation" js="0">Отключить модерацию</word>
   <word key="topic_moderation_enabled" js="0">Сообщение одобрено</word>

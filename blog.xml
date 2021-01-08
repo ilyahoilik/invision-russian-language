@@ -208,7 +208,7 @@
   <word key="loc_blog_creating" js="0">Создаёт блог</word>
   <word key="loc_blog_viewing_blog" js="0">Просматривает блог: %s</word>
   <word key="loc_blog_adding_entry" js="0">Добавляет запись в блог: %s</word>
-  <word key="loc_blog_viewing_entry" js="0">Просматривает запись: %s</word>
+  <word key="loc_blog_viewing_entry" js="0">Просматривает запись в блоге: %s</word>
   <word key="modperms__core_Content_blog_Entry" js="0">Записи в блоге</word>
   <word key="can_pin_blog_entry" js="0">Может закреплять записи</word>
   <word key="can_unpin_blog_entry" js="0">Может откреплять записи</word>

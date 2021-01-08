@@ -931,7 +931,7 @@
   <word key="cms_record_i_started_sprintf" js="0">Отображать только мои %s</word>
   <word key="content_field_cms_record_i_started_on" js="0">В</word>
   <word key="loc_cms_viewing_page" js="0">Просматривает %s</word>
-  <word key="loc_cms_viewing_db_cat" js="0">Просматривает категорию %s в %s</word>
+  <word key="loc_cms_viewing_db_cat" js="0">Просматривает категорию %2$s в %1$s</word>
   <word key="loc_cms_viewing_db_record" js="0">Просматривает %s в категории %s: %s</word>
   <word key="loc_cms_viewing_db_record_no_cats" js="0">Просматривает %s в %s</word>
   <word key="content_err_page_404" js="0">Невозможно найти запрашиваемую страницу</word>

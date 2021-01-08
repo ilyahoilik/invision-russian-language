@@ -38,9 +38,9 @@
   <word key="r__calendar_feeds_add" js="0">Может добавлять импортируемые ленты iCalendar</word>
   <word key="r__calendar_feeds_edit" js="0">Может изменять импортируемые ленты iCalendar</word>
   <word key="r__calendar_feeds_delete" js="0">Может удалять импортируемые ленты iCalendar</word>
-  <word key="loc_calendar_viewing_calendar" js="0">Календарь %s</word>
-  <word key="loc_calendar_viewing_calendar_all" js="0">Календарь</word>
-  <word key="loc_calendar_viewing_event" js="0">Событие %s</word>
+  <word key="loc_calendar_viewing_calendar" js="0">Просматривает календарь: %s</word>
+  <word key="loc_calendar_viewing_calendar_all" js="0">Просматривает календарь</word>
+  <word key="loc_calendar_viewing_event" js="0">Просматривает событие: %s</word>
   <word key="show_bday_calendar" js="0">Дни рождения в календаре</word>
   <word key="show_bday_calendar_desc" js="0">Если включено, календарь будет отображать количество пользователей, у которых сегодня день рождения и список этих пользователей при просмотре даты.</word>
   <word key="ipb_calendar_mon" js="0">Начинать неделю с понедельника</word>

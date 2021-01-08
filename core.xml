@@ -444,7 +444,7 @@
   <word key="guidelines_set_to_none_admin" js="0">Правила поведения отключены в Админцентре</word>
   <word key="privacy_set_to_none_acp" js="0">Политика конфиденциальности отключена в Админцентре</word>
   <word key="search_placeholder" js="0">Поиск...</word>
-  <word key="loc_logging_in" js="0">Вход на сайт</word>
+  <word key="loc_logging_in" js="0">Входит на сайт</word>
   <word key="ignoring_content" js="0">Вы игнорируете сообщения %s.</word>
   <word key="ignoring_signatures" js="0">Вы игнорируете подписи %s.</word>
   <word key="front_logged_in_as" js="0"><![CDATA[%s <strong>как</strong>]]></word>
@@ -595,7 +595,7 @@
   <word key="coppa_consent_required" js="0">Согласие обязательно</word>
   <word key="coppa_consent_required_desc" js="0"><![CDATA[Для того чтобы продолжить мы должны получить разрешение от вашего родителя или опекуна.<br>Пожалуйста, распечатайте и заполните форму ниже, а после отправьте её нам.]]></word>
   <word key="coppa_print_form" js="0">Распечатать форму согласия</word>
-  <word key="loc_registering" js="0">Регистрация</word>
+  <word key="loc_registering" js="0">Регистрируется</word>
   <word key="reg_disabled" js="0">Регистрация в настоящее время отключена</word>
   <word key="reg_not_allowed_by_login" js="0"><![CDATA[Вы не входили ранее. Пожалуйста, сначала <a href='{internal.front.app=core&module=system&controller=register.register}'>создайте аккаунт</a>.]]></word>
   <word key="email_registration_validate" js="0">Спасибо за регистрацию. Нажмите на кнопку ниже, чтобы подтвердить свой аккаунт.</word>
@@ -1990,7 +1990,7 @@
   <word key="members_member_last_post" js="0">Последний ответ</word>
   <word key="members_last_visit" js="0">Посещение</word>
   <word key="members_last_activity" js="0">Последняя активность</word>
-  <word key="members_member_posts" js="0">Публикации</word>
+  <word key="members_member_posts" js="0">Публикаций</word>
   <word key="members_allow_admin_emails" js="0">Разрешить массовую рассылку?</word>
   <word key="allow_admin_emails_any" js="0">Оба варианта</word>
   <word key="member_search_unsub" js="0">Отписать от массовой рассылки найденных участников</word>
@@ -2294,7 +2294,7 @@
   <word key="ucp_devices" js="0">Используемые устройства</word>
   <word key="MFA_core_DeviceManagement" js="0">Управление авторизованными устройствами</word>
   <word key="current_device" js="0">Текущее устройство</word>
-  <word key="device_last_loggedin" js="0">Последний вход в %s</word>
+  <word key="device_last_loggedin" js="0">Последний вход %s</word>
   <word key="device_management_info" js="0">Устройства, которые использовались для входа в ваш аккаунт за последние 90 дней.</word>
   <word key="device_last_locations" js="0">Последнее местоположение</word>
   <word key="device_last_logins" js="0">Последний вход</word>
@@ -5264,16 +5264,16 @@
   <word key="automaticmod_types_title" js="0">Заголовок типа</word>
   <word key="automaticmod_types" js="0">Типы жалоб</word>
   <word key="automoderation_report_type_filter" js="0">Тип жалобы</word>
-  <word key="settings_blurb" js="0">Настройка вашего аккаунта и его интеграция с социальными сетями.</word>
+  <word key="settings_blurb" js="0">Управляйте настройками вашего аккаунта и интеграцией с социальными сетями.</word>
   <word key="change_email_address" js="0">Изменить email-адрес</word>
   <word key="change_email_explain_1" js="0">Вам придется повторно активировать свой аккаунт после изменения email-адреса.</word>
   <word key="change_email_explain_2" js="0">Письмо с инструкцией  по активации будет отправлено на email-адрес, который вы укажете ниже.</word>
-  <word key="change_password_admin_1" js="0">В целях безопасности вы не можете изменить свой пароль, т.к. вы являетесь администратором сайта. Вы можете изменить пароль, выполнив эти действия:</word>
+  <word key="change_password_admin_1" js="0">В целях безопасности вы не можете изменить здесь свой пароль, так как вы являетесь администратором этого сайта. Вы можете изменить свой пароль, выполнив следующие шаги:</word>
   <word key="change_password_admin_2" js="0">Войдите в Админцентр</word>
   <word key="change_password_admin_3" js="0">Нажмите &quot;Вы вошли как %s&quot; в верхнем меню</word>
   <word key="change_password_admin_4" js="0">Выберите &quot;Изменить мои данные&quot;</word>
   <word key="change_password_admin_5" js="0">Нажмите &quot;Изменить&quot; в строке пароля</word>
-  <word key="change_email_admin_1" js="0">В целях безопасности вы не можете изменить свой email-адрес, т.к. вы являетесь администратором сайта. Вы можете изменить email-адрес, выполнив эти действия:</word>
+  <word key="change_email_admin_1" js="0">В целях безопасности вы не можете изменить здесь свой email-адрес, так как вы являетесь администратором этого сайта. Вы можете изменить свой email-адрес, выполнив следующие шаги:</word>
   <word key="change_email_admin_2" js="0">Войдите в Админцентр</word>
   <word key="change_email_admin_3" js="0">Нажмите &quot;Вы вошли как %s&quot; в верхнем меню</word>
   <word key="change_email_admin_4" js="0">Выберите &quot;Изменить мои данные&quot;</word>
@@ -5393,9 +5393,9 @@
   <word key="guest_terms_title" js="0">Важная информация</word>
   <word key="guest_terms_close" js="0">Я принимаю</word>
   <word key="acplogs__terms_edited" js="0">Изменены условия регистрации, политика конфиденциальности и руководства</word>
-  <word key="loc_viewing_privacy_policy" js="0">Конфиденциальность</word>
-  <word key="loc_viewing_guidelines" js="0">Правила поведения</word>
-  <word key="loc_viewing_reg_terms" js="0">Условия регистрации</word>
+  <word key="loc_viewing_privacy_policy" js="0">Просматривает политику конфиденциальности</word>
+  <word key="loc_viewing_guidelines" js="0">Просматривает правила поведения</word>
+  <word key="loc_viewing_reg_terms" js="0">Просматривает условия регистрации</word>
   <word key="reg_terms" js="0">Условия регистрации</word>
   <word key="admin_reconfirm_blurb" js="0">Вы обновили условия регистрации или политику конфиденциальности. Вы можете запросить у пользователей соглашение с новой политикой при их следующем входе на сайт.</word>
   <word key="admin_reconfirm_reg_terms" js="0">Обязать пользователей принять новые условия регистрации</word>
@@ -5926,7 +5926,7 @@
   <word key="invite_a_member" js="0">Пригласить пользователя</word>
   <word key="invite" js="0">Пригласить</word>
   <word key="messenger_invite_placeholder" js="0">Введите имя пользователя</word>
-  <word key="loc_using_messenger" js="0">Личные сообщения</word>
+  <word key="loc_using_messenger" js="0">Использует личные сообщения</word>
   <word key="move_message_to" js="0">Переместить в</word>
   <word key="messenger_disabled_can_enable" js="0"><![CDATA[Личные сообщения отключены. <a href='%s'>Нажмите для включения.</a>]]></word>
   <word key="messenger_disabled" js="0">Личные сообщения отключены</word>
@@ -6756,7 +6756,7 @@
   <word key="warn_rpa" js="0">Только чтение</word>
   <word key="warn_suspend" js="0">Заблокировать доступ к сайту</word>
   <word key="wan_action_points" js="0">{#[0:баллов][1:балл][2:балла][3:балла][4:балла][11:баллов][12:баллов][13:баллов][14:баллов][*1:балл][*2:балла][*3:балла][*4:балла][?:баллов]}</word>
-  <word key="member_warn_level" js="0">{# [*1:балл][*2:балла][*3:балла][*4:балла][*11:баллов][*12:баллов][*13:баллов][*14:баллов][?:баллов]} предупреждений</word>
+  <word key="member_warn_level" js="0">{# [*1:балл][*2:балла][*3:балла][*4:балла][*11:баллов][*12:баллов][*13:баллов][*14:баллов][?:баллов]}</word>
   <word key="warn_points_blurb" js="0">Штраф будет установлен автоматически в соответствием с количеством выданных баллов.</word>
   <word key="no_punishment" js="0">Нет наказаний</word>
   <word key="warn_member" js="0">Предупредить %s</word>
@@ -6892,30 +6892,30 @@
   <word key="remove_restrict_post" js="0">Снять ограничения на публикацию?</word>
   <word key="remove_ban" js="0">Снять текущий бан?</word>
   <word key="no_permission_edit_profile" js="0">Вы не можете изменять этот профиль</word>
-  <word key="loc_viewing_profile" js="0">Профиль %s</word>
-  <word key="loc_editing_profile" js="0">Изменение профиля %s</word>
+  <word key="loc_viewing_profile" js="0">Просматривает профиль: %s</word>
+  <word key="loc_editing_profile" js="0">Изменяет профиль: %s</word>
   <word key="profile_recent_visitors" js="0">Посетители профиля</word>
   <word key="see_recent_warnings" js="0">Просмотр последних предупреждений</word>
   <word key="email_this_user" js="0">Отправить email-письмо</word>
   <word key="see_all_warnings" js="0">Все предупреждения пользователя</word>
   <word key="no_recent_warnings" js="0">Нет последних предупреждений для отображения</word>
-  <word key="no_restrictions_applied" js="0">Никакие ограничения не применяются</word>
+  <word key="no_restrictions_applied" js="0">Ограничения не применяются</word>
   <word key="restrictions_applied" js="0">Применены следующие ограничения:</word>
   <word key="profile_browse_content" js="0">Активность</word>
   <word key="profile_browse_my_content" js="0">Активность</word>
-  <word key="users_activity_feed" js="0">Лента активности</word>
+  <word key="users_activity_feed" js="0">Активность</word>
   <word key="users_activity_feed_title" js="0">Активность %s</word>
   <word key="no_recent_activity" js="0">Нет активности %s для отображения</word>
   <word key="all_activity" js="0">Вся активность</word>
   <word key="userbar_my_content" js="0">Мои публикации</word>
-  <word key="profile_view_profile" js="0">Просмотреть профиль</word>
+  <word key="profile_view_profile" js="0">Профиль</word>
   <word key="all_content_by_user" js="0">Все публикации пользователя %s</word>
   <word key="content_by_user" js="0">%s, опубликованные пользователем %s</word>
   <word key="online_now" js="0">%s сейчас в сети</word>
   <word key="online_now_anon" js="0">%s в сети анонимно</word>
   <word key="hide_recent_visitors" js="0">Отключить этот блок</word>
   <word key="no_recent_visitors" js="0">Нет последних посетителей для отображения</word>
-  <word key="disabled_recent_visitors" js="0">Блок посетителей профиля отключен и не будет отображаться другим пользователям</word>
+  <word key="disabled_recent_visitors" js="0">Блок последних посетителей выключен и не отображается другим пользователям.</word>
   <word key="enable_recent_visitors" js="0">Включить</word>
   <word key="hide_status_updates" js="0">Отключить статусы</word>
   <word key="enable_status_updates" js="0">Включить статусы</word>
@@ -6925,7 +6925,7 @@
   <word key="see_all_followers" js="0">Все подписчики</word>
   <word key="follow_this_member" js="0">Подписаться на пользователя</word>
   <word key="following_this_member" js="0">Подписан на этого пользователя</word>
-  <word key="profile_email_addresses" js="0">Только администрация может видеть email-адреса.</word>
+  <word key="profile_email_addresses" js="0">Только администрация видит email-адреса.</word>
   <word key="users_clubs" js="0">Клубы</word>
   <word key="member_no_clubs" js="0">%s не состоит в каких-либо клубах</word>
   <word key="profile_crop_title" js="0">Измените обрезку аватары</word>
@@ -6934,7 +6934,7 @@
   <word key="users_followers" js="0">Кто подписан на %s</word>
   <word key="allow_follow" js="0">Разрешить подписываться на меня</word>
   <word key="disallow_follow" js="0">Запретить подписываться на меня</word>
-  <word key="follow_setting_desc" js="0">Пользователи, подписанные на вас, будут получать уведомления о ваших новых публикациях</word>
+  <word key="follow_setting_desc" js="0">Подписанные на вас пользователи получат уведомление, когда вы опубликуете что-либо</word>
   <word key="follow_saved" js="0">Ваша подписка была обновлена</word>
   <word key="members_profile" js="0">Профиль %s</word>
   <word key="members_content" js="0">Публикации %s</word>
@@ -6997,7 +6997,7 @@
   <word key="online_users_member_name" js="0">По имени пользователя</word>
   <word key="online_users_location_lang" js="0">Активность</word>
   <word key="online_users_running_time" js="0">По последней активности</word>
-  <word key="loc_viewing_online_users" js="0">Пользователи в сети</word>
+  <word key="loc_viewing_online_users" js="0">Просматривает пользователей онлайн</word>
   <word key="no_permission_online_users" js="0">У вас нет прав для просмотра списка пользователей в сети</word>
   <word key="online_guests" js="0">{# [*1:гость][*2:гостя][*3:гостя][*4:гостя][*11:гостей][*12:гостей][*13:гостей][*14:гостей][?:гостей]} (в сети)</word>
   <word key="online_user_count" js="0">{# [*1:пользователь][*2:пользователя][*3:пользователя][*4:пользователя][*11:пользователей][*12:пользователей][*13:пользователей][*14:пользователей][?:пользователей]} в сети</word>
@@ -7078,23 +7078,23 @@
   <word key="edit_ignore_for" js="0">Игнорирование %s</word>
   <word key="ignored_users_blurb" js="0">Игнорирование пользователя позволяет скрыть от вас некоторые или все его публикации. Пользователи не уведомляются о том, что вы их игнорируете.</word>
   <word key="ignored_users_add" js="0">Добавить пользователя в игнорируемые</word>
-  <word key="ignored_users_add_desc" js="0">Введите имя пользователя для выбора вариантов игнорирования</word>
+  <word key="ignored_users_add_desc" js="0">Введите имя пользователя для указания настроек игнорирования</word>
   <word key="ignore_placeholder" js="0">Поиск пользователя для игнорирования...</word>
   <word key="ignored_users_ignore" js="0">Игнорировать:</word>
-  <word key="ignore_topics" js="0">Сообщения в темах</word>
+  <word key="ignore_topics" js="0">Сообщения</word>
   <word key="ignore_signatures" js="0">Подпись</word>
   <word key="ignore_messages" js="0">Личные сообщения</word>
   <word key="ignore_mentions" js="0">Упоминания</word>
   <word key="ignore_submit" js="0">Добавить пользователя</word>
   <word key="ignore_edit" js="0">Обновить настройки</word>
   <word key="ignored_users_all" js="0">Показать всех</word>
-  <word key="stop_ignoring_user" js="0">Не игнорировать пользователя</word>
+  <word key="stop_ignoring_user" js="0">Перестать игнорировать пользователя</word>
   <word key="change_ignored_content" js="0">Изменить игнорируемые публикации</word>
   <word key="ignored_users_current" js="0">Игнорируемые пользователи</word>
   <word key="see_post_ignore_options" js="0">Просмотр настроек игнорирования</word>
   <word key="show_this_post" js="0">Показать это сообщение</word>
   <word key="show_this_comment" js="0">Показать этот комментарий</word>
-  <word key="stop_ignoring_posts_by" js="0">Не игнорировать сообщения от %s</word>
+  <word key="stop_ignoring_posts_by" js="0">Перестать игнорировать сообщения %s</word>
   <word key="change_ignore_preferences" js="0">Изменить настройки игнорирования</word>
   <word key="cannot_ignore_self" js="0">Вы не можете игнорировать себя.</word>
   <word key="cannot_ignore_no_user" js="0">Пользователь с данным именем не найден.</word>
@@ -7119,7 +7119,7 @@
   <word key="announce_other_areas" js="0">Другие страницы</word>
   <word key="add_announcement" js="0">Добавить объявление</word>
   <word key="edit_announcement" js="0">Изменить объявление</word>
-  <word key="loc_viewing_announcement" js="0">Объявление %s</word>
+  <word key="loc_viewing_announcement" js="0">Просматривает объявление: %s</word>
   <word key="block_announcements" js="0">Объявления</word>
   <word key="block_announcements_desc" js="0">Отображает объявления на сайте</word>
   <word key="announce_mark_active" js="0">Сделать активным</word>
@@ -8106,7 +8106,7 @@
   <word key="mfa_locked_out_end_time" js="0">Вы допустили ошибку при аутентификации слишком много раз. Вы сможете попробовать ещё раз %s.</word>
   <word key="member__core_SecurityAnswers" js="0">Двухфакторная аутентификация</word>
   <word key="mfa_opt_out_admin" js="0">Отказаться от двухфакторной аутентификации</word>
-  <word key="ucp_mfa" js="0">Безопасность и приватность</word>
+  <word key="ucp_mfa" js="0">Безопасность</word>
   <word key="mfa_ucp_blurb" js="0">Для защиты безопасности вашего аккаунта, мы можем иногда производить проверку вашей личности. Это позволит обезопасить ваш аккаунт даже в случае, если кто-либо узнает ваш пароль.</word>
   <word key="MFA_core_AuthenticateAdmin" js="0">Вход в Админцентр</word>
   <word key="MFA_core_AuthenticateFront" js="0">Вход в публичную часть сайта с нового устройства</word>
@@ -9229,8 +9229,8 @@
   <word key="date_picker_week" js="1">Неделя</word>
   <word key="embed_error_message_admin" js="1">Ссылка не может быть встроена из-за неожиданной ошибки: {{error}}.</word>
   <word key="delta_upgrade_confirm" js="1">Прежде чем продолжить, убедитесь, что вы загрузили все файлы на сервер, следуя инструкциям. Не продолжайте, пока все файлы не закончили загрузку.</word>
-  <word key="confirm_unignore" js="1">Вы уверены, что хотите прекратить игнорировать этого пользователя?</word>
-  <word key="confirm_unignore_desc" js="1">Вы можете начать игнорировать его снова, посетив эту страницу.</word>
+  <word key="confirm_unignore" js="1">Вы уверены, что хотите перестать игнорировать этого пользователя?</word>
+  <word key="confirm_unignore_desc" js="1">Вы можете снова начать игнорировать его на этой странице.</word>
   <word key="editedIgnore" js="1">Настройки игнорирования обновлены</word>
   <word key="embeddedFail" js="1"><![CDATA[<i class='fa fa-warning'></i> Возникла проблема при загрузке этого содержимого]]></word>
   <word key="followerSettingToggled" js="1">Ваша подписка была обновлена</word>
@@ -9389,7 +9389,7 @@
   <word key="pluploaderr_SERVER_CONFIGURATION" js="1">Извините, возникла неизвестная ошибка сервера при загрузке этого файла.</word>
   <word key="errorMarkingRead" js="1">Возникла ошибка при отметке этого элемента прочитанным</word>
   <word key="enlargeImage" js="1">Увеличить изображение</word>
-  <word key="ignoreRemoveConfirm" js="1">Вы уверены, что хотите удалить этого пользователя из игнорируемых?</word>
+  <word key="ignoreRemoveConfirm" js="1">Вы уверены, что хотите перестать игнорировать этого пользователя?</word>
   <word key="ignoreRemoveDone" js="1">Вы больше не игнорируете %s</word>
   <word key="signatures_hidden" js="1">Подписи скрыты. Эта настройка изменяется в настройках профиля.</word>
   <word key="signatures_error" js="1">Возникла проблема при скрытии подписей. Пожалуйста, попробуйте скрыть их вручную на странице редактирования вашего профиля.</word>
@@ -11486,8 +11486,8 @@
   <word key="editor__core_ClubPage" js="0">Пользовательская страница клуба</word>
   <word key="enable_bbcode" js="0">Включить BBCode</word>
   <word key="enable_bbcode_desc" js="0">BBCode - это унаследованный язык разметки, изначально разработанный для того, чтобы пользователи могли представлять расширенный контент до появления редакторов WYSIWYG. Поддержка BBCode устарела и может быть удалена в будущем выпуске. Мы рекомендуем оставить эту опцию отключенной для большей производительности и надёжности, если только Ваше сообщество не использует синтаксический анализ BBCode для форматирования сообщений.</word>
-  <word key="loc_logging_in_action" js="0">%s авторизовался в</word>
-  <word key="loc_registering_action" js="0">%s зарегистрировался</word>
+  <word key="loc_logging_in_action" js="0">%s входит на сайт</word>
+  <word key="loc_registering_action" js="0">%s регистрируется</word>
   <word key="password_reset_required" js="0">В целях безопасности администратор рекомендует, чтобы пароль был сброшен.</word>
   <word key="mailsub__core_password_reset_forced" js="0">Требуется сброс пароля</word>
   <word key="forcing_password_resets" js="0">Принудительный сброс пароля</word>
@@ -11611,7 +11611,7 @@
   <word key="notifications__core_Profile_follow_desc" js="0">Эти уведомления будут отправлены каждый раз, когда кто-либо подписывается на вас.</word>
   <word key="notifications__core_Moderation_report_center" js="0">Жалобы</word>
   <word key="notifications__core_Moderation_report_center_desc" js="0">Эти уведомления будут отправлены каждый раз, когда пользователь отправляет жалобу на что-либо, что вы можете модерировать.</word>
-  <word key="report_count" js="0">Количество открытых жалоб</word>
+  <word key="report_count" js="0">Счётчик жалоб</word>
   <word key="report_count_desc" js="0">Если есть открытые жалобы, в шапке страницы будет иконка с их количеством.</word>
   <word key="report_count_lc" js="0">иконка жалоб</word>
   <word key="notifications__core_Moderation_unapproved_content" js="0">Утверждение модератором</word>
@@ -11674,10 +11674,10 @@
   <word key="link_default" js="0">Когда участник кликает на элемент с ссылкой</word>
   <word key="link_default_desc" js="0">Участники могут изменить это в настройках своей учетной записи.</word>
   <word key="profile_settings_cvb_unread" js="0">Перейти к непрочитанным комментариям</word>
-  <word key="profile_settings_cvb_first" js="0">Открыть обычно</word>
+  <word key="profile_settings_cvb_first" js="0">Перейти в самое начало</word>
   <word key="profile_settings_cvb_last" js="0">Перейти к последнему комментарию</word>
-  <word key="link_pref" js="0">При открытии контента...</word>
-  <word key="profile_settings_cvb" js="0">Режим просмотра содержимого</word>
+  <word key="link_pref" js="0">При открытии публикации...</word>
+  <word key="profile_settings_cvb" js="0">Просмотр публикаций</word>
   <word key="backgroundQueue_pruning_table" js="0">Очистка большой таблицы: %s</word>
   <word key="prunetable_prune_item_markers" js="0">маркировки элементов</word>
   <word key="prunetable_prune_known_ips" js="0">IP-адреса пользователя</word>
@@ -11816,7 +11816,7 @@
   <word key="ad_nocontent_page_output_desc" js="0">Некоторые рекламные сервисы, такие как Google Ads, запрещают показ рекламы на страницах без публикаций (например, страницах авторизации и регистрации). Если это объявление использует такой сервис, вы можете использовать эту опцию, чтобы избежать показа объявлений на страницах, которые не содержат публикаций.</word>
   <word key="profilesync_signed_in" js="0">Зарегистрирован.</word>
   <word key="loc_viewing_privacy_policy_action" js="0">%s читает политику конфиденциальности</word>
-  <word key="loc_viewing_guidelines_action" js="0">%s читает рекомендации</word>
+  <word key="loc_viewing_guidelines_action" js="0">%s читает правила поведения</word>
   <word key="loc_viewing_reg_terms_action" js="0">%s читает условия регистрации</word>
   <word key="share" js="0">Рассказать</word>
   <word key="word_expansion" js="0">Расширение слова</word>
@@ -11916,7 +11916,7 @@
   <word key="notifications__core_Moderation_automatic_moderation_desc" js="0">Эти уведомления будут отправлены, когда на что-либо будет отправлено достаточное количество жалоб для автоматического скрытия.</word>
   <word key="plugin_step_cmsTemplates" js="0">Шаблоны страниц</word>
   <word key="loc_viewing_profile_action" js="0">%s просматривает профиль</word>
-  <word key="loc_editing_profile_action" js="0">%s редактирует профиль</word>
+  <word key="loc_editing_profile_action" js="0">%s изменяет профиль</word>
   <word key="loc_viewing_online_users_action" js="0">%s просматривает пользователей онлайн</word>
   <word key="stats_date_range_c" js="0">Диапазон дат:</word>
   <word key="stats_show_c" js="0">Показать:</word>
@@ -12010,10 +12010,10 @@
   <word key="oauth_authorization_auth_user_agent" js="0">Войти через</word>
   <word key="oauth_authorization_issue_user_agent" js="0">Информация о клиенте</word>
   <word key="settings_privacy_title" js="0">Конфиденциальность</word>
-  <word key="online_visibility" js="0">Онлайн</word>
-  <word key="online_visibility_desc" js="0"><![CDATA[Если Ваш статус в сети <strong>видимый</strong>, другие пользователи могут видеть Вас в списках пользователей онлайн, а также на странице, которую Вы будете просматривать.]]></word>
-  <word key="hide_online_status" js="0">Скрывать мой статус онлайн</word>
-  <word key="show_online_status" js="0">Показывать мой статус онлайн</word>
+  <word key="online_visibility" js="0">Статус в сети</word>
+  <word key="online_visibility_desc" js="0"><![CDATA[Если ваш статус в сети <strong>видимый</strong>, то другие пользователи увидят вас в списке пользователей в сети, а также увидят страницу, которую вы просматриваете в данный момент на сайте.]]></word>
+  <word key="hide_online_status" js="0">Скрыть мой статус в сети</word>
+  <word key="show_online_status" js="0">Показать мой статус в сети</word>
   <word key="online_status_visible" js="0">Видимый</word>
   <word key="online_status_hidden" js="0">Невидимый</word>
   <word key="notifications__core_Clubs_invites" js="0">Приглашения в клуб</word>
@@ -12064,7 +12064,7 @@
   <word key="clubs_rules_accept_msg" js="0">Прежде чем вступить в этот клуб, Вы должны принять правила и рекомендации.</word>
   <word key="history_password_changed_forced" js="0">Пароль обязали изменить.</word>
   <word key="history_oauth_token_issued_no_details" js="0">Вошли в %s.</word>
-  <word key="loc_viewing_cookie_policy_action" js="0">%s читает политику использования файлов cookie</word>
+  <word key="loc_viewing_cookie_policy_action" js="0">%s читает страницу политики cookies</word>
   <word key="block_invite" js="0">Рассказать другу</word>
   <word key="block_invite_desc" js="0">Отображает способы поделиться ссылкой на сообщество</word>
   <word key="block_invite_text" js="0">Любите %s? Расскажите другу!</word>
@@ -12085,11 +12085,11 @@
   <word key="referral_banners" js="0">Реферальные баннеры</word>
   <word key="referral_banners_blurb" js="0">Вы можете предоставить свои собственные рекламные баннеры и изображения, которые рефереалы смогут использовать в дополнение к уникальной прямой ссылке для приглашения других клиентов.</word>
   <word key="referral_link" js="0">Ссылка</word>
-  <word key="referral_directlink" js="0">Ваша уникальная ссылка</word>
+  <word key="referral_directlink" js="0">Ваша персональная ссылка</word>
   <word key="referral_html_banner" js="0">Код баннера</word>
   <word key="mf_referrals" js="0">Рефералы</word>
   <word key="referrals_yours" js="0">Ваши рефералы</word>
-  <word key="referral_no_referrals" js="0">Вы не пригласили ни одного участника.</word>
+  <word key="referral_no_referrals" js="0">Вы не пригласили ни одного пользователя.</word>
   <word key="referrals_disabled" js="0">Рефералы выключены</word>
   <word key="customer_tab_referrers" js="0">Рефералы</word>
   <word key="customer_manage_referrers" js="0">Посмотреть все</word>
@@ -12119,19 +12119,19 @@
   <word key="comment_meta_date_weeks_later" js="0">{# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]} спустя</word>
   <word key="comment_meta_moderation_modlog__item_edit" js="0"><![CDATA[%2$s изменил заголовок на <em>%1$s</em>]]></word>
   <word key="comment_meta_moderation_modlog__comment_edit_title" js="0"><![CDATA[%2$s изменил заголовок на <em>%1$s</em>]]></word>
-  <word key="comment_meta_moderation_modlog__action_pin" js="0">%2$s закрепил это %1$s</word>
+  <word key="comment_meta_moderation_modlog__action_pin" js="0">%2$s закрепил %1$s</word>
   <word key="comment_meta_moderation_modlog__action_unpin" js="0">%2$s открепил %1$s</word>
-  <word key="comment_meta_moderation_modlog__action_feature" js="0">%2$s сделал эту %1$s важной</word>
-  <word key="comment_meta_moderation_modlog__action_unfeature" js="0">%2$s сделал эту %1$s обычной</word>
-  <word key="comment_meta_moderation_modlog__action_lock" js="0">%2$s закрыл это %1$s</word>
+  <word key="comment_meta_moderation_modlog__action_feature" js="0">%2$s сделал %1$s важной</word>
+  <word key="comment_meta_moderation_modlog__action_unfeature" js="0">%2$s сделал %1$s обычной</word>
+  <word key="comment_meta_moderation_modlog__action_lock" js="0">%2$s закрыл %1$s</word>
   <word key="comment_meta_moderation_modlog__action_unlock" js="0">%2$s разблокировал %1$s</word>
-  <word key="comment_meta_moderation_modlog__action_pin_short" js="0">закреплено</word>
-  <word key="comment_meta_moderation_modlog__action_unpin_short" js="0">откреплено</word>
-  <word key="comment_meta_moderation_modlog__action_feature_short" js="0">важное</word>
-  <word key="comment_meta_moderation_modlog__action_unfeature_short" js="0">обычное</word>
-  <word key="comment_meta_moderation_modlog__action_lock_short" js="0">закрыто</word>
-  <word key="comment_meta_moderation_modlog__action_unlock_short" js="0">разблокировано</word>
-  <word key="comment_meta_moderation_modlog__action_group" js="0">%2$s %3$s это %1$s</word>
+  <word key="comment_meta_moderation_modlog__action_pin_short" js="0">закрепил</word>
+  <word key="comment_meta_moderation_modlog__action_unpin_short" js="0">открепил</word>
+  <word key="comment_meta_moderation_modlog__action_feature_short" js="0">сделал важной</word>
+  <word key="comment_meta_moderation_modlog__action_unfeature_short" js="0">сделал обычной</word>
+  <word key="comment_meta_moderation_modlog__action_lock_short" js="0">закрыл</word>
+  <word key="comment_meta_moderation_modlog__action_unlock_short" js="0">разблокировал</word>
+  <word key="comment_meta_moderation_modlog__action_group" js="0">%2$s %3$s %1$s</word>
   <word key="member_is_new_badge" js="0">%s недавно присоединился</word>
   <word key="member_is_moderator" js="0">%s модератор</word>
   <word key="app_posts" js="0">{# [*1:публикация][*2:публикации][*3:публикации][*4:публикации][*11:публикаций][*12:публикаций][*13:публикаций][*14:публикаций][?:публикаций]}</word>
@@ -12528,7 +12528,7 @@
   <word key="js_num_reviews" js="1">{# [*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]}</word>
   <word key="delta_upgrade_run_manual_query_fail_title" js="1">Время для исполнения запроса закончилось</word>
   <word key="delta_upgrade_run_manual_query_fail_desc" js="1">Проверьте свою базу данных, чтобы увидеть, было ли внесено изменение: даже если время ожидания истекло, изменение всё равно могло быть выполнено. Если это не так, выполните запрос вручную через командную строку на сервере MySQL.</word>
-  <word key="expand_quote" js="1">Расширить</word>
+  <word key="expand_quote" js="1">Раскрыть</word>
   <word key="mem_optional" js="1">Выбрать пользователя(ей)</word>
   <word key="tags_optional" js="1">Добавить теги</word>
   <word key="uploadSizeTotalErr" js="1">{# [1:file][?:files]} превышает общий допустимый размер {{max_file_size}}{{size_suffix}}, и {!# [1:was][?:were]} пропущены</word>
