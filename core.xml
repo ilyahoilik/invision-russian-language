@@ -12065,12 +12065,12 @@
   <word key="history_password_changed_forced" js="0">Пароль обязали изменить.</word>
   <word key="history_oauth_token_issued_no_details" js="0">Вошли в %s.</word>
   <word key="loc_viewing_cookie_policy_action" js="0">%s читает страницу политики cookies</word>
-  <word key="block_invite" js="0">Рассказать другу</word>
+  <word key="block_invite" js="0">Рассказать друзьям</word>
   <word key="block_invite_desc" js="0">Отображает способы поделиться ссылкой на сообщество</word>
-  <word key="block_invite_text" js="0">Любите %s? Расскажите другу!</word>
-  <word key="block_invite_subject" js="0">Проверьте %s</word>
+  <word key="block_invite_text" js="0">Нравится %s? Расскажите друзьям!</word>
+  <word key="block_invite_subject" js="0">Зацените %s!</word>
   <word key="block_invite_button" js="0">Email</word>
-  <word key="block_invite_share" js="0">Рассказать</word>
+  <word key="block_invite_share" js="0">Поделиться</word>
   <word key="link_to_site" js="0">Ссылка</word>
   <word key="menu__core_membersettings_referrals" js="0">Рефералы</word>
   <word key="num_refer_count" js="0">{# [*1:реферал][*2:реферала][*3:реферала][*4:реферала][*11:рефералов][*12:рефералов][*13:рефералов][*14:рефералов][?:рефералов]}</word>
