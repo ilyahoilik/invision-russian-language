@@ -520,6 +520,7 @@
   <word key="__api_downloads_files" js="0">Файлы</word>
   <word key="__api_downloads_comments" js="0">Комментарии</word>
   <word key="__api_downloads_reviews" js="0">Отзывы</word>
+  <word key="__api_downloads_categories" js="0">Категории</word>
   <word key="idm_landing_page" js="0">Главная страница</word>
   <word key="idm_show_featured" js="0">Отображать блок &quot;Рекомендованные файлы&quot;</word>
   <word key="idm_featured_count" js="0">Количество отображаемых важных файлов</word>

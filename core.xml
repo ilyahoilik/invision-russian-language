@@ -107,7 +107,7 @@
   <word key="stream_include_comments" js="0">Отображать</word>
   <word key="stream_include_comments_1" js="0">Публикации, комментарии и отзывы</word>
   <word key="stream_include_comments_0" js="0">Только публикации</word>
-  <word key="stream_classes_type" js="0">Тип публикаций</word>
+  <word key="stream_classes_type" js="0">Типы публикаций</word>
   <word key="stream_classes_type_all" js="0">Все публикации</word>
   <word key="stream_classes_type_custom" js="0">Я выберу, какие публикации включать</word>
   <word key="stream_club_select" js="0">Фильтры клубов</word>
@@ -124,36 +124,36 @@
   <word key="stream_ownership" js="0">Авторство</word>
   <word key="stream_ownership_all" js="0">Все публикации</word>
   <word key="stream_ownership_started" js="0">Публикации, созданные мной</word>
-  <word key="stream_ownership_postedin" js="0">Публикации, в которых я участвовал</word>
+  <word key="stream_ownership_postedin" js="0">Публикации, в которых я отвечал</word>
   <word key="stream_ownership_custom" js="0">Публикации от определённых пользователей</word>
   <word key="stream_custom_members" js="0">Авторы</word>
-  <word key="stream_read" js="0">Статус прочтённости</word>
+  <word key="stream_read" js="0">Прочитанность</word>
   <word key="stream_read_all" js="0">Все публикации</word>
   <word key="stream_read_unread" js="0">Непрочитанные публикации</word>
-  <word key="stream_read_unread_desc" js="0">В лентах непрочитанных публикаций можно отображать &quot;Только публикации&quot;</word>
-  <word key="stream_follow" js="0">Статус подписки</word>
+  <word key="stream_read_unread_desc" js="0">В таких лентах отображаются только публикации</word>
+  <word key="stream_follow" js="0">Подписка</word>
   <word key="stream_follow_all" js="0">Все публикации</word>
   <word key="stream_follow_followed" js="0">Публикации, на которые я подписан</word>
   <word key="stream_followed_types" js="0">Фильтры подписки</word>
-  <word key="stream_followed_types_areas" js="0">Публикации в местах, на которые я подписан</word>
+  <word key="stream_followed_types_areas" js="0">Публикации в областях, на которые я подписан</word>
   <word key="stream_followed_types_items" js="0">Публикации, на которые я подписан</word>
   <word key="stream_followed_types_members" js="0">Публикации от пользователей, на которых я подписан</word>
   <word key="stream_date_type" js="0">Период времени</word>
   <word key="stream_date_type_all" js="0">За всё время</word>
   <word key="stream_date_type_last_visit" js="0">С момента моего последнего визита</word>
   <word key="stream_date_type_relative" js="0">За указанный период</word>
-  <word key="stream_date_type_custom" js="0">За указанный период времени</word>
+  <word key="stream_date_type_custom" js="0">За указанный диапазон дат</word>
   <word key="stream_date_range" js="0">Диапазон дат</word>
   <word key="stream_date_relative_days" js="0">Диапазон дат</word>
   <word key="stream_date_relative_days_prefix" js="0">За последние</word>
   <word key="stream_sort" js="0">Сортировка</word>
-  <word key="stream_sort_newest" js="0">Сначала новая активность</word>
-  <word key="stream_sort_oldest" js="0">Сначала старая активность</word>
+  <word key="stream_sort_newest" js="0">Сначала новые</word>
+  <word key="stream_sort_oldest" js="0">Сначала старые</word>
   <word key="stream_title_1" js="0">Непрочитанное</word>
   <word key="stream_title_2" js="0">Мои публикации</word>
-  <word key="stream_title_3" js="0">Публикации, на которые я подписан</word>
-  <word key="stream_title_4" js="0">Пользователи, на которых я подписан</word>
-  <word key="stream_title_5" js="0">Публикации, в которых я участвовал</word>
+  <word key="stream_title_3" js="0">Отслеживаемые публикации</word>
+  <word key="stream_title_4" js="0">Отслеживаемые пользователи</word>
+  <word key="stream_title_5" js="0">Публикации, в которые я отвечал</word>
   <word key="activity" js="0">Активность</word>
   <word key="all_activity_stream_settings" js="0">Настройки лент активности</word>
   <word key="restore_default_streams" js="0">Восстановить стандартные ленты</word>
@@ -179,24 +179,24 @@
   <word key="custom_streams" js="0">Пользовательские ленты</word>
   <word key="create_new_stream" js="0">Создать новую ленту</word>
   <word key="steam_blurb_no_terms" js="0">Отображаются %s.</word>
-  <word key="steam_blurb_with_terms" js="0">Отображаются %s %s.</word>
+  <word key="steam_blurb_with_terms" js="0">Отображаются %s, %s.</word>
   <word key="stream_blurb_all" js="0">все публикации</word>
   <word key="stream_blurb_in_containers" js="0">%s в %s</word>
   <word key="stream_blurb_no_clubs" js="0">не в клубах</word>
   <word key="stream_blurb_in_clubs" js="0">в %s</word>
   <word key="icon_blurb_in_containers" js="0">%s в %s</word>
   <word key="stream_blurb_i_started" js="0">созданные мной</word>
-  <word key="stream_blurb_i_posted_in" js="0">в которые я отвечал</word>
+  <word key="stream_blurb_i_posted_in" js="0">в которых я отвечал</word>
   <word key="stream_blurb_by_followees" js="0">опубликовано пользователем, на которого я подписан</word>
-  <word key="stream_blurb_by_members" js="0">опубликовано %s</word>
-  <word key="stream_includes_tags" js="0">с тегами %s</word>
-  <word key="stream_blurb_unread" js="0">Не прочитано</word>
-  <word key="stream_blurb_following_containers" js="0">опубликовано в местах, на которые я подписан</word>
-  <word key="stream_blurb_following_items" js="0">Я подписан</word>
-  <word key="stream_blurb_following_members" js="0">опубликовано пользователями, на которых я подписан</word>
-  <word key="stream_blurb_since_last_visit" js="0">опубликовано с момента моего последнего визита</word>
-  <word key="stream_blurb_relative" js="0">в которых отвечали в последние %s дней</word>
-  <word key="stream_blurb_date_between" js="0">опубликовано между %s и %s</word>
+  <word key="stream_blurb_by_members" js="0">опубликованные %s</word>
+  <word key="stream_includes_tags" js="0">имеющие теги %s</word>
+  <word key="stream_blurb_unread" js="0">которые не прочитаны мной</word>
+  <word key="stream_blurb_following_containers" js="0">опубликованные в областях, на которые я подписан</word>
+  <word key="stream_blurb_following_items" js="0">на которые я подписан</word>
+  <word key="stream_blurb_following_members" js="0">созданные пользователями, на которых я подписан</word>
+  <word key="stream_blurb_since_last_visit" js="0">опубликованные с момента моего последнего посещения</word>
+  <word key="stream_blurb_relative" js="0">в которых отвечали за последние %s</word>
+  <word key="stream_blurb_date_between" js="0">опубликованные между %s и %s</word>
   <word key="stream_blurb_date_after" js="0">опубликовано после %s</word>
   <word key="stream_blurb_date_before" js="0">опубликовано до %s</word>
   <word key="stream_rss_title" js="0">%s - %s</word>
@@ -3564,6 +3564,8 @@
   <word key="site_twitter_id_desc" js="0"><![CDATA[@username аккаунта сайта в Twitter, которое используется в <a href='{external.twitter-card}' rel='noopener'>Twitter Cards</a>.]]></word>
   <word key="site_twitter_id_placeholder" js="0">@twitteruserid</word>
   <word key="menutab__core_icon" js="0">cogs</word>
+  <word key="menutab__members_icon" js="0">user</word>
+  <word key="menutab__customization_icon" js="0">paint-brush</word>
   <word key="menutab__support_icon" js="0">life-ring</word>
   <word key="menutab__core" js="0">Система</word>
   <word key="menu__core_applications" js="0">Возможности</word>
@@ -3612,6 +3614,8 @@
   <word key="menu__core_logs" js="0">Журналы</word>
   <word key="menutab__community" js="0">Сообщество</word>
   <word key="menutab__community_icon" js="0">comments</word>
+  <word key="menutab__stats" js="0">Статистика</word>
+  <word key="menutab__stats_icon" js="0">line-chart</word>
   <word key="menu__core_overview" js="0">Обзор</word>
   <word key="menu__core_members_registrationstats" js="0">Статистика регистраций</word>
   <word key="menu__core_members_pmstats" js="0">Статистика ЛС</word>
@@ -5590,9 +5594,9 @@
   <word key="furls_customize" js="0">Изменить ЧПУ</word>
   <word key="furl_warning" js="0">Изменять эти настройки рекомендуется только продвинутым пользователям. Пользовательские ссылки не являются обратно совместимыми с ссылками по умолчанию и поэтому любые изменения будут отрицательно влиять на ваш рейтинг в поисковых системах.</word>
   <word key="furl_friendly" js="0">ЧПУ</word>
-  <word key="furl_friendly_desc" js="0"><![CDATA[Заключите переменные в {фигурные скобки}, содержащие символ # (для чисел) или @ (для текста), затем название параметра, который будет отображаться в ссылке. Например, {#showtopic} соответствует параметру "showtopic" в реальном адресе.<br>{?} отмечайте местоположение переменных, которые не должны быть указаны в ссылке. Например, название темы.]]></word>
+  <word key="furl_friendly_desc" js="0"><![CDATA[Заключите переменные в {фигурные скобки}, содержащие либо символ # (для чисел), либо @ (для текста), после которого следует название параметра, который совпадает с параметром в реальной ссылке. Например, {#showtopic} соответствует параметру "showtopic" в реальной ссылке.<br>{?} отмечает положение переменных, которые не отображаются в реальной ссылке, например заголовок темы.]]></word>
   <word key="furl_real" js="0">Реальная ссылка</word>
-  <word key="furl_real_desc" js="0">Вам не нужно включать любые параметры, которые указаны в качестве переменных, в ЧПУ.</word>
+  <word key="furl_real_desc" js="0">Не нужно включать какие-либо параметры, которые указаны в ЧПУ в качестве переменных.</word>
   <word key="furl_revert" js="0">Отменить все изменения</word>
   <word key="furl_in_dev" js="0">Вы не можете использовать ЧПУ в режиме разработчика, пока не измените значение константы \IPS\DEV_USE_FURL_CACHE на true.</word>
   <word key="furl_too_greedy" js="0">ЧПУ должен быть уникален, введенное значение конфликтует с другим ЧПУ</word>
@@ -7136,6 +7140,7 @@
   <word key="content_top" js="0">Над содержимым страницы</word>
   <word key="sidebar" js="0">В боковом блоке</word>
   <word key="announce_color" js="0">Цветовой стиль</word>
+  <word key="menutab__support" js="0">Поддержка</word>
   <word key="menu__core_diagnostics" js="0">Средства диагностики</word>
   <word key="menu__core_diagnostics_errorLogs" js="0">Журналы ошибок</word>
   <word key="support" js="0">Поддержка</word>
@@ -7393,7 +7398,7 @@
   <word key="search_index_timeframe" js="0">Отрезок времени</word>
   <word key="search_index_timeframe_prefix" js="0">Исключить публикации, созданные до</word>
   <word key="search_index_timeframe_suffix" js="0">дней назад</word>
-  <word key="search_index_timeframe_desc" js="0">Ограничение результатов может сделать поиск более быстрым, особенно на больших сайтах, однако публикации, созданные ранее, не будут отображаться в результатах поиска, потоках активности или панели модератора. Новые публикации имеют больший вес при отображении результатов.</word>
+  <word key="search_index_timeframe_desc" js="0">Ограничение результатов может сделать поиск более быстрым, особенно на больших сайтах, однако публикации, созданные ранее, не будут отображаться в результатах поиска, лентах активности или панели модератора. Новые публикации имеют больший вес при отображении результатов.</word>
   <word key="search_index_maxresults" js="0">Максимум результатов</word>
   <word key="search_index_maxresults_desc" js="0">Чем глубже в результате поиска вы находитесь (т.е. чем выше номер страницы), тем больше памяти и времени требуется для получения результатов. Этот параметр ограничивает максимальное количество возвращаемых результатов, что ограничивает объем используемой памяти. Обратите внимание, это относится не только к результатам поиска, но и к лентам активности, в том числе в профилях пользователей.</word>
   <word key="search_index_timeframe_unlimited" js="0">Не исключать никаких публикаций</word>
@@ -9710,12 +9715,12 @@
   <word key="streamFilter_stream_follow_items" js="1">Публикации</word>
   <word key="streamFilter_stream_follow_members" js="1">Пользователи</word>
   <word key="streamFilter_stream_follow_containers" js="1">Области</word>
-  <word key="streamFilter_stream_date_type_all" js="1"><![CDATA[<em>За любое время</em>]]></word>
+  <word key="streamFilter_stream_date_type_all" js="1"><![CDATA[<em>За всё время</em>]]></word>
   <word key="streamFilter_stream_date_type_last_visit" js="1">Последнее посещение</word>
   <word key="streamFilter_stream_date_type_relative" js="1">За {!# [*1:последний # день][*2:последние # дня][*3:последние # дня][*4:последние # дня][*11:последние # дней][*12:последние # дней][*13:последние # дней][*14:последние # дней][1:последний день][?:последние # дней]}</word>
   <word key="streamFilter_stream_date_type_start" js="1">Начиная с {{start}}</word>
   <word key="streamFilter_stream_date_type_end" js="1">До {{end}}</word>
-  <word key="streamFilter_stream_date_type_range" js="1">От {{start}} до {{end}}</word>
+  <word key="streamFilter_stream_date_type_range" js="1">С {{start}} до {{end}}</word>
   <word key="streamFilter_stream_classes_all" js="1"><![CDATA[<em>Все публикации</em>]]></word>
   <word key="streamFilter_stream_classes_no_clubs" js="1"><![CDATA[<em>Все публикации сообщества</em>]]></word>
   <word key="toggleFiltersHidden" js="1"><![CDATA[Показать фильтры <i class='fa fa-caret-down'></i>]]></word>
@@ -11472,12 +11477,12 @@
   <word key="emoji-yawning_face" js="1">Yawning Face</word>
   <word key="_defart_from_date" js="0"><![CDATA[<a href='%s'>%s</a> от %s]]></word>
   <word key="restore_default_streams_confirm" js="0">Вы уверены? Это действие не может быть отменено.</word>
-  <word key="block_stream" js="0">Поток активности</word>
-  <word key="block_stream_desc" js="0">Показать поток активности со всего сайта.</word>
+  <word key="block_stream" js="0">Лента активности</word>
+  <word key="block_stream_desc" js="0">Показать ленту активности со всего сайта.</word>
   <word key="activity_stream" js="0">Лента активности</word>
   <word key="max_results" js="0">Максимальные результаты</word>
   <word key="stream_rss" js="0">Подписаться на RSS канал</word>
-  <word key="stream_options" js="0">Настройки потока</word>
+  <word key="stream_options" js="0">Настройки ленты</word>
   <word key="editor__core_ClubPage" js="0">Пользовательская страница клуба</word>
   <word key="enable_bbcode" js="0">Включить BBCode</word>
   <word key="enable_bbcode_desc" js="0">BBCode - это унаследованный язык разметки, изначально разработанный для того, чтобы пользователи могли представлять расширенный контент до появления редакторов WYSIWYG. Поддержка BBCode устарела и может быть удалена в будущем выпуске. Мы рекомендуем оставить эту опцию отключенной для большей производительности и надёжности, если только Ваше сообщество не использует синтаксический анализ BBCode для форматирования сообщений.</word>
@@ -11802,8 +11807,6 @@
   <word key="prune_follows" js="0">Удалить подписки</word>
   <word key="prune_follows_desc" js="0">Удалить подписки на публикации для участников, которые не вошли в систему в течение определённого периода времени. Участник не получит уведомление о появлении новых событий с записью, на которую подписан.</word>
   <word key="member_notifications_allow_admin_mails_newsletter_desc" js="0">Независимо от того, что было выбрано при регистрации, пользователи смогут в дальнейшем изменить в настройках своей учётной записи или с помощью прямой ссылки отказа от подписки из получаемых писем.</word>
-  <word key="can_toggle_item_moderation" js="0">Может включить / отключить модерацию контента?</word>
-  <word key="can_toggle_item_moderation_desc" js="0">Это позволит требовать утверждения для новых комментариев перед публикацией.</word>
   <word key="mod_show_badge" js="0">Показать иконку?</word>
   <word key="mod_show_badge_desc" js="0">При просмотре сообщений и комментариев модераторы идентифицируются значком</word>
   <word key="moderator_tools" js="0">Настройки модератора</word>
@@ -12228,7 +12231,7 @@
   <word key="app_reply_screen" js="0">Ответ</word>
   <word key="app_tab_home" js="0">Главная</word>
   <word key="app_tab_search" js="0">Поиск</word>
-  <word key="app_tab_streams" js="0">Потоки</word>
+  <word key="app_tab_streams" js="0">Ленты</word>
   <word key="app_tab_notifications" js="0">Уведомления</word>
   <word key="app_tab_user" js="0">Вы</word>
   <word key="app_tab_signin" js="0">Вход / Регистрация</word>
@@ -12372,14 +12375,14 @@
   <word key="app_notification_type_inline" js="0">Список уведомлений</word>
   <word key="app_notification_type_none" js="0">Нет</word>
   <word key="app_notification_inline_only" js="0">Показать в списке уведомлений</word>
-  <word key="app_switch_stream" js="0">Сменить поток</word>
+  <word key="app_switch_stream" js="0">Сменить ленту</word>
   <word key="app_past_hour" js="0">Последний час</word>
   <word key="app_yesterday" js="0">Вчера</word>
   <word key="app_today" js="0">Сегодня</word>
   <word key="app_last_week" js="0">Прошлая неделя</word>
   <word key="app_earlier" js="0">Ранее</word>
   <word key="app_all_activity" js="0">Вся активность</word>
-  <word key="app_stream_error" js="0">Ошибка загрузки этого потока</word>
+  <word key="app_stream_error" js="0">Ошибка загрузки этой ленты</word>
   <word key="app_x_follow_this" js="0">{# [*1:пользователь подписан][*2:пользователя подписаны][*3:пользователя подписаны][*4:пользователя подписаны][*11:пользователей подписаны][*12:пользователей подписаны][*13:пользователей подписаны][*14:пользователей подписаны][?:пользователей подписаны]} на это</word>
   <word key="app_follow_immediate" js="0">Уведомление о публикации нового контента</word>
   <word key="app_follow_weekly" js="0">Еженедельное электронное письмо с новым контентом</word>
@@ -12612,7 +12615,9 @@
   <word key="mobile_app_play_id_desc" js="0">Он будет в конце URL-адреса Play Store после «id».</word>
   <word key="mobile_app_play_url" js="0">Play Store URL</word>
   <word key="module__core_marketplace" js="0">Marketplace</word>
+  <word key="menutab__marketplace_icon" js="0">shopping-basket</word>
   <word key="menu__core_marketplace" js="0">Marketplace</word>
+  <word key="menutab__marketplace" js="0">Marketplace</word>
   <word key="menu__core_marketplace_marketplace" js="0">Главная панель</word>
   <word key="marketplace_signin" js="0">Войти в Marketplace</word>
   <word key="marketplace_signedin_as" js="0"><![CDATA[Вы вошли в Marketplace как <strong>%s</strong>]]></word>
