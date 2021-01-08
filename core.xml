@@ -2384,52 +2384,52 @@
   <word key="member_reserved_external_both" js="0">У этого пользователя не указано имя или email-адрес</word>
   <word key="members_name_missing_as_reserved_external" js="0">Это может произойти, если аккаунт был импортирован из CSV-файла или создан через REST API, но эта информация не была предоставлена. Когда пользователь войдёт на сайт, у него будет запрошена недостающая информация, после чего он сможет использовать свой аккаунт в обычном режиме.</word>
   <word key="member_reserved_external" js="0">У этого пользователя не указано имя</word>
-  <word key="modlog__spammer_flagged" js="0">Помечен спамером: %s</word>
-  <word key="modlog__spammer_unflagged" js="0">Пометка спамером снята: %s</word>
-  <word key="modlog__best_answer_set" js="0">Сообщение #%s помечено как лучшее</word>
-  <word key="modlog__best_answer_unset" js="0">Снята пометка лучшего сообщения с #%s</word>
-  <word key="modlog__action_hide" js="0"><![CDATA[Скрыто: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_unhide" js="0"><![CDATA[Показано: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_pin" js="0"><![CDATA[Закреплено: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_unpin" js="0"><![CDATA[Откреплено: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_feature" js="0"><![CDATA[Отмечено важным: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_unfeature" js="0"><![CDATA[Сделано обычным: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_lock" js="0"><![CDATA[Закрыто: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_unlock" js="0"><![CDATA[Открыто: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_publish" js="0"><![CDATA[Опубликовано: %s <a href='%s'>%s</a>]]></word>
+  <word key="modlog__spammer_flagged" js="0">Пометил спамером: %s</word>
+  <word key="modlog__spammer_unflagged" js="0">Снял пометку спамером: %s</word>
+  <word key="modlog__best_answer_set" js="0">Пометил сообщение #%s как лучший ответ</word>
+  <word key="modlog__best_answer_unset" js="0">Снял пометку лучшим ответом с сообщения #%s</word>
+  <word key="modlog__action_hide" js="0"><![CDATA[Скрыл %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_unhide" js="0"><![CDATA[Отобразил %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_pin" js="0"><![CDATA[Закрепил %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_unpin" js="0"><![CDATA[Открепил %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_feature" js="0"><![CDATA[Сделал важным %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_unfeature" js="0"><![CDATA[Сделал обычным %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_lock" js="0"><![CDATA[Закрыл %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_unlock" js="0"><![CDATA[Открыл %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_publish" js="0"><![CDATA[Опубликовал %s: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_changeauthor" js="0"><![CDATA[Изменил автора %s: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_delete" js="0">Удалил %s: %s</word>
-  <word key="modlog__action_delete_perm" js="0">Полностью удалена %s: %s</word>
-  <word key="modlog__action_restore" js="0">Восстановлена %s: %s</word>
-  <word key="modlog__action_restore_hidden" js="0">Восстановлена %s как скрытая: %s</word>
-  <word key="modlog__action_move" js="0"><![CDATA[Перемещено: %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_massmove" js="0"><![CDATA[Переместить все %s: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_split" js="0"><![CDATA[Разделено: %s в <a href='%s'>%s</a> из <a href='%s'>%s</a>]]></word>
-  <word key="modlog__comment_edit" js="0"><![CDATA[Изменён <a href='%s'>комментарий</a> в %s <a href='%s'>%s</a>]]></word>
-  <word key="modlog__comment_edit_title" js="0"><![CDATA[Переименовано %3$s в <a href='%1$s'>%2$s</a>]]></word>
-  <word key="modlog__comment_delete" js="0"><![CDATA[Удалён комментарий из %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_delete_perm" js="0">Полностью удалил %s: %s</word>
+  <word key="modlog__action_restore" js="0">Восстановил %s: %s</word>
+  <word key="modlog__action_restore_hidden" js="0">Восстановил и скрыл %s: %s</word>
+  <word key="modlog__action_move" js="0"><![CDATA[Переместил %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_massmove" js="0"><![CDATA[Переместил все %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_split" js="0"><![CDATA[Отделил %s в <a href='%s'>%s</a> из <a href='%s'>%s</a>]]></word>
+  <word key="modlog__comment_edit" js="0"><![CDATA[Изменил <a href='%s'>комментарий</a> в %s <a href='%s'>%s</a>]]></word>
+  <word key="modlog__comment_edit_title" js="0"><![CDATA[Переименовал %3$s в <a href='%1$s'>%2$s</a>]]></word>
+  <word key="modlog__comment_delete" js="0"><![CDATA[Удалил комментарий из %s: <a href='%s'>%s</a>]]></word>
   <word key="modlog__action_announceactive" js="0"><![CDATA[Сделал %s <a href='%s'>%s</a> активным]]></word>
   <word key="modlog__action_announceinactive" js="0"><![CDATA[Сделал %s <a href='%s'>%s</a> неактивным]]></word>
-  <word key="modlog__action_merge" js="0"><![CDATA[Объединено %s и <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_merge_comments" js="0"><![CDATA[Объединено %s и <a href='%s'>%s</a>]]></word>
-  <word key="modlog__item_edit" js="0"><![CDATA[Изменён %s: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__message_add" js="0"><![CDATA[Добавлено примечание: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__message_edit" js="0"><![CDATA[Изменено примечание: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__message_delete" js="0"><![CDATA[Удалено примечание: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__featured_comment" js="0"><![CDATA[Комментарий порекомендован: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__unfeatured_comment" js="0"><![CDATA[Рекомендация комментария удалена: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__reaction_delete" js="0"><![CDATA[Удалена реакция <a href='%s'>%s</a> из %s: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__comment_reaction_delete" js="0"><![CDATA[Удалена реакция <a href='%s'>%s</a> на <a href='%s'>комментарий</a> в %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_merge" js="0"><![CDATA[Объединил %s в <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_merge_comments" js="0"><![CDATA[Объединил %s в <a href='%s'>#%s</a>]]></word>
+  <word key="modlog__item_edit" js="0"><![CDATA[Изменил %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__message_add" js="0"><![CDATA[Добавил примечание: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__message_edit" js="0"><![CDATA[Изменил примечание: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__message_delete" js="0"><![CDATA[Удалил примечание: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__featured_comment" js="0"><![CDATA[Порекомендовал комментарий: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__unfeatured_comment" js="0"><![CDATA[Удалил рекомендацию с комментария: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__reaction_delete" js="0"><![CDATA[Удалил реакцию <a href='%s'>%s</a> с %s: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__comment_reaction_delete" js="0"><![CDATA[Удалил реакцию <a href='%s'>%s</a> на <a href='%s'>комментарий</a> в %s: <a href='%s'>%s</a>]]></word>
   <word key="modlog__widget_configured" js="0">Изменены настройки блока %s в %s</word>
-  <word key="modlog__item_follow_removed" js="0">Удалены подписчики из %s/%s ID: %s</word>
-  <word key="modlog__poll_opened" js="0"><![CDATA[Опрос открыт: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__poll_closed" js="0"><![CDATA[Опрос закрыт: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__poll_autoclose" js="0">Автозакрытие опроса: #%s закроется %s</word>
+  <word key="modlog__item_follow_removed" js="0">Удалил подписчиков подписчики из %s/%s ID: %s</word>
+  <word key="modlog__poll_opened" js="0"><![CDATA[Открыл опрос: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__poll_closed" js="0"><![CDATA[Закрыл опрос: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__poll_autoclose" js="0">Включил автозакрытие опроса: #%s закроется %s</word>
   <word key="ip_address_bad" js="0">Данный IP-адрес недействителен.</word>
   <word key="ip_data" js="0">Данные об IP-адресе</word>
   <word key="ipAddresses__core_Registration" js="0">Регистрации</word>
   <word key="ipAddresses__core_Votes" js="0">Голосование в опросах</word>
-  <word key="ipAddresses__core_ModeratorLogs" js="0">Журналы модераторов</word>
+  <word key="ipAddresses__core_ModeratorLogs" js="0">Журнал модераторов</word>
   <word key="ipAddresses__core_AdminLogs" js="0">Журналы администраторов</word>
   <word key="ipAddresses__core_Messages" js="0">Личные сообщения</word>
   <word key="ipAddresses__core_AdminLoginLogs" js="0">Журналы входа в Админцентр</word>
@@ -3057,7 +3057,7 @@
   <word key="modlogs_module" js="0">Модуль</word>
   <word key="modlog__adminlog_settings" js="0">Изменены настройки очистка журнала модераторов</word>
   <word key="moderatorlogssettings" js="0">Настройки</word>
-  <word key="prune_log_moderator" js="0">Очищать журнал модерации</word>
+  <word key="prune_log_moderator" js="0">Очищать журнал модераторов</word>
   <word key="spamlogs" js="0">Журнал Spam Defense</word>
   <word key="spamlogs_log_date" js="0">Дата</word>
   <word key="spamlogs_log_code" js="0">Ответ сервера</word>
@@ -9505,7 +9505,7 @@
   <word key="editCommentError" js="1">Этот комментарий не может быть изменён. Возможно он был перемещён или удалён, или прошло слишком много времени с момента его написания.</word>
   <word key="commentApproved" js="1">Комментарий был утверждён</word>
   <word key="commentApproving" js="1">Утверждение...</word>
-  <word key="commentUnrecommended" js="1">Рекомендация комментария была удалена</word>
+  <word key="commentUnrecommended" js="1">Рекомендация с комментария была удалена</word>
   <word key="flagAsSpammer" js="1">Пометить спамером</word>
   <word key="unflagAsSpammer" js="1">Не спамер</word>
   <word key="confirmFlagAsSpammer" js="1">Вы уверены, что хотите пометить пользователя спамером?</word>
@@ -11589,7 +11589,7 @@
   <word key="reset_password_pl" js="0">Сбросить пароли</word>
   <word key="members_force_password_reset_acp_header" js="0">Сбросить пароли для участников:</word>
   <word key="members_member_rank_id" js="0">Ранг</word>
-  <word key="modlog__item_moderation_toggled" js="0">Комментарий при утверждении: %s</word>
+  <word key="modlog__item_moderation_toggled" js="0">Включил премодерацию: %s</word>
   <word key="ip_short" js="0">IP</word>
   <word key="more_about_ip_address" js="0">Подробнее об этом IP-адресе</word>
   <word key="notifications__core_Messenger_desc" js="0">Эти уведомления будут отправлены каждый раз, когда вы получаете личное сообщение.</word>

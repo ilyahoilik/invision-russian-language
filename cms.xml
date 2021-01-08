@@ -826,7 +826,7 @@
   <word key="content_conflict_use_this_revision" js="0">Восстановить эту версию</word>
   <word key="content_conflict_use_this_record" js="0">Оставить текущую версию</word>
   <word key="content_revision_restore" js="0">Восстановить</word>
-  <word key="modlog__cms_revision_restored" js="0">Восстановлена запись '%s' версии #%s</word>
+  <word key="modlog__cms_revision_restored" js="0">Восстановил запись '%s' версии #%s</word>
   <word key="content_revision_restored" js="0">Версия восстановлена</word>
   <word key="content_view_record" js="0">Просмотреть полную %s</word>
   <word key="cms_mark_read" js="0">Отметить прочитанным</word>

@@ -23,10 +23,10 @@
   <word key="filestorage__downloads_FileField" js="0">Дополнительные поля в приложении Файлы</word>
   <word key="downloads_files" js="0">Загрузка файлов</word>
   <word key="downloads_file" js="0">Файл</word>
-  <word key="modlog__action_restorebackup" js="0"><![CDATA[Восстановлена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_visibilitybackup" js="0"><![CDATA[Изменена видимость предыдущей версии файла: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_deletebackup" js="0"><![CDATA[Удалена предыдущая версия файла: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_purchasestatus" js="0"><![CDATA[Изменён статус покупки файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_restorebackup" js="0"><![CDATA[Восстановил предыдущую версию файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_visibilitybackup" js="0"><![CDATA[Изменил видимость предыдущей версии файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_deletebackup" js="0"><![CDATA[Удалил предыдущую версию файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_purchasestatus" js="0"><![CDATA[Изменил возможность покупки файла: <a href='%s'>%s</a>]]></word>
   <word key="mark_category_read" js="0">Отметить категорию прочитанной</word>
   <word key="mark_category_read_title" js="0">Отметить эту категорию прочитанной</word>
   <word key="editor__downloads_Categories" js="0">Категории файлов</word>
@@ -584,8 +584,8 @@
   <word key="idm_nexus_mincost_desc" js="0">Минимальная стоимость для платных файлов. Не распространяется на бесплатные файлы.</word>
   <word key="file_cost_desc_minimum" js="0">Минимальная стоимость: %s</word>
   <word key="file_cost_too_low" js="0">Введенная стоимость меньше минимального требования.</word>
-  <word key="modlog__action_newversion_reject" js="0"><![CDATA[Отклонена новая версия для файла: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__action_newversion_approved" js="0"><![CDATA[Утверждена новая версия для файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_newversion_reject" js="0"><![CDATA[Отклонил новую версию файла: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__action_newversion_approved" js="0"><![CDATA[Утвердил новую версию файла: <a href='%s'>%s</a>]]></word>
   <word key="cdisclaimer_location" js="0">Показать условия загрузки</word>
   <word key="cdisclaimer_purchase" js="0">Перед покупкой</word>
   <word key="cdisclaimer_download" js="0">Перед загрузкой</word>

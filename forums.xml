@@ -509,9 +509,9 @@
   <word key="topic_reply_content" js="0">Ответ</word>
   <word key="topic_reply_postcount" js="0">Увеличить счётчик сообщений?</word>
   <word key="can_use_saved_actions" js="0">Может использовать сохранённые действия</word>
-  <word key="modlog__saved_action" js="0"><![CDATA[Запущено сохранённое действие "%s" в теме: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__unarchived_topic" js="0"><![CDATA[Разархивирована тема: <a href='%s'>%s</a>]]></word>
-  <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Удалена пометка "исключить из архива" с темы: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__saved_action" js="0"><![CDATA[Запустил сохранённое действие "%s" в теме: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__unarchived_topic" js="0"><![CDATA[Разархивировал тему: <a href='%s'>%s</a>]]></word>
+  <word key="modlog__removed_archive_exclude_topic" js="0"><![CDATA[Удалил пометку "исключить из архива" с темы: <a href='%s'>%s</a>]]></word>
   <word key="queue_deleting_legacy_topics" js="0">Удаление устаревших данных о темах</word>
   <word key="queue_deleting_legacy_posts" js="0">Удаление устаревших данных о сообщениях</word>
   <word key="queue_fixing_hidden_first_post" js="0">Обновление некорректно скрытых тем</word>
