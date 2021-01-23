@@ -5534,7 +5534,7 @@
   <word key="lazy_load_enabled" js="0">Ленивая загрузка содержимого?</word>
   <word key="lazy_load_enabled_desc" js="0">Ленивая загрузка - это метод, при котором изображения, видео и встраиваемое в контент содержимое не загружаются, пока пользователь не прокручивает страницу настолько, чтобы их увидеть. Это может улучшить время загрузки страницы и уменьшить трафик.</word>
   <word key="auto_polling_enabled" js="0">Разрешить автоматический опрос</word>
-  <word key="auto_polling_enabled_desc" js="0">Invision Community будет автоматически отправлять AJAX-запросы на ваш сервер для улучшения мгновенных уведомлений, отображаемых пользователям, когда кто-либо ответил на публикацию и в других случаях. Эти запросы сделаны эффективным способом так, что их количество уменьшается в течении всего времени неактивности пользователя, но вы можете отключить их, если вам нужно уменьшить количество запросов к серверу.</word>
+  <word key="auto_polling_enabled_desc" js="0">Invision Community будет автоматически отправлять AJAX-запросы на ваш сервер для улучшения мгновенных уведомлений, отображаемых пользователям, когда кто-либо ответил на публикацию и в других случаях. Эти запросы сделаны эффективным способом так, что их количество уменьшается в течение всего времени неактивности пользователя, но вы можете отключить их, если вам нужно уменьшить количество запросов к серверу.</word>
   <word key="task_run_error" js="0">Ошибка задачи: %s</word>
   <word key="task_running_error" js="0">Произошла проблема при выполнения этой задачи, пожалуйста, обратитесь к журналу системы для получения дополнительной информации.</word>
   <word key="task_class_not_found" js="0">Задача, которую вы хотите запустить, не найдена.</word>
@@ -7563,7 +7563,7 @@
   <word key="support_request_extra" js="0">Дополнительная информация</word>
   <word key="support_request_admin" js="0">Предоставить доступ в Админцентр</word>
   <word key="support_request_admin_desc" js="0">Будет создан аккаунт и его данные будут отправлены с вашим запросом поддержки. Рекомендуется предоставить доступ т.к. это сэкономит время решения проблемы, если потребуется доступ. Как только проблема решится, вы можете удалить этот аккаунт.</word>
-  <word key="get_support_done" js="0">Мы отправили ваше сообщение команде поддержки. Специалист свяжется с вами по email в течении {# [*1:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]}.</word>
+  <word key="get_support_done" js="0">Мы отправили ваше сообщение команде поддержки. Специалист свяжется с вами по email в течение {# [*1:часа][*11:часов][*12:часов][*13:часов][*14:часов][?:часов]}.</word>
   <word key="support_caches_cleared" js="0">Иногда плохо кэшированные данные могут вызывать проблемы. Мы очистили все кэшированные данные</word>
   <word key="support_database_check_ok" js="0">Структура базы данных в порядке</word>
   <word key="support_database_check_fail" js="0">Возникли проблемы с вашей базой данных</word>
@@ -8855,8 +8855,8 @@
   <word key="log_type_title_login" js="0">Неудачные входы / Блокировки аккаунта</word>
   <word key="history_new_device" js="0">Произведен вход с нового устройства: %s.</word>
   <word key="history_device_logout" js="0">Автоматический вход с устройства %s выключен%s.</word>
-  <word key="history_account_locked" js="0">Аккаунт заблокирован для входа с этого IP-адреса после %d неудачных попыток входа.</word>
-  <word key="history_account_locked_time" js="0">Аккаунт заблокирован для входа с этого IP-адреса до %s после %d неудачных попыток входа.</word>
+  <word key="history_account_locked" js="0">Вход в аккаунт с этого IP-адреса заблокирован после %d неудачных попыток входа.</word>
+  <word key="history_account_locked_time" js="0">Вход в аккаунт с этого IP-адреса заблокирован до %s после %d неудачных попыток входа.</word>
   <word key="history_account_mfa_locked" js="0">Двухфакторная аутентификация аккаунта заблокирована после %d неудачных попыток аутентификации.</word>
   <word key="history_account_mfa_locked_time" js="0">Двухфакторная аутентификация аккаунта заблокирована до %s после %d неудачных попыток аутентификации.</word>
   <word key="history_account_unlocked" js="0">Аккаунт разблокирован вручную%s.</word>
@@ -12124,13 +12124,13 @@
   <word key="comment_meta_moderation_modlog__action_feature" js="0">%2$s сделал %1$s важной</word>
   <word key="comment_meta_moderation_modlog__action_unfeature" js="0">%2$s сделал %1$s обычной</word>
   <word key="comment_meta_moderation_modlog__action_lock" js="0">%2$s закрыл %1$s</word>
-  <word key="comment_meta_moderation_modlog__action_unlock" js="0">%2$s разблокировал %1$s</word>
+  <word key="comment_meta_moderation_modlog__action_unlock" js="0">%2$s открыл %1$s</word>
   <word key="comment_meta_moderation_modlog__action_pin_short" js="0">закрепил</word>
   <word key="comment_meta_moderation_modlog__action_unpin_short" js="0">открепил</word>
   <word key="comment_meta_moderation_modlog__action_feature_short" js="0">сделал важной</word>
   <word key="comment_meta_moderation_modlog__action_unfeature_short" js="0">сделал обычной</word>
   <word key="comment_meta_moderation_modlog__action_lock_short" js="0">закрыл</word>
-  <word key="comment_meta_moderation_modlog__action_unlock_short" js="0">разблокировал</word>
+  <word key="comment_meta_moderation_modlog__action_unlock_short" js="0">открыл</word>
   <word key="comment_meta_moderation_modlog__action_group" js="0">%2$s %3$s %1$s</word>
   <word key="member_is_new_badge" js="0">%s недавно присоединился</word>
   <word key="member_is_moderator" js="0">%s модератор</word>

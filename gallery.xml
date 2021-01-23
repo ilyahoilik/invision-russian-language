@@ -181,6 +181,7 @@
   <word key="can_move_gallery_image_desc" js="0">Сможет перемещать изображения только между категориями, в которых он может создавать новые публикации.</word>
   <word key="can_lock_gallery_image" js="0">Может закрывать изображения</word>
   <word key="can_unlock_gallery_image" js="0">Может открывать изображения</word>
+  <word key="can_reply_to_locked_gallery_image" js="0">Может комментировать закрытые изображения</word>
   <word key="can_edit_gallery_image" js="0">Может изменять изображения</word>
   <word key="can_hide_gallery_image" js="0">Может скрывать изображения</word>
   <word key="can_unhide_gallery_image" js="0">Может отменять скрытие изображений</word>
@@ -239,7 +240,7 @@
   <word key="gallery_watermark_small" js="0">Миниатюры изображений</word>
   <word key="gallery_bandwidth" js="0">Запись трафика</word>
   <word key="gallery_detailed_bandwidth" js="0">Хранить подробные журналы трафика</word>
-  <word key="gallery_detailed_bandwidth_desc" js="0">Если включено, то Галерея будет записывать статистику просмотров изображений. Вы сможете просматривать, сколько трафика было использовано в течении определённого периода времени (в журнале использования трафика) или определённым пользователем (на странице его изменения).</word>
+  <word key="gallery_detailed_bandwidth_desc" js="0">Если включено, то Галерея будет записывать статистику просмотров изображений. Вы сможете просматривать, сколько трафика было использовано в течение определённого периода времени (в журнале использования трафика) или определённым пользователем (на странице его изменения).</word>
   <word key="gallery_bandwidth_period" js="0">Количество часов хранения журналов трафика</word>
   <word key="gallery_options" js="0">Основные настройки</word>
   <word key="gallery_rss_enabled" js="0">Включить RSS-ленту последних изображений</word>
