@@ -6743,6 +6743,11 @@
   <word key="warn_reason" js="0">Причина</word>
   <word key="core_warn_reason_other" js="0">Другая</word>
   <word key="core_warn_reason_0" js="0">Предупреждение</word>
+  <word key="core_warn_reason_1" js="0">Рассылка спама</word>
+  <word key="core_warn_reason_2" js="0">Неприемлемый язык общения</word>
+  <word key="core_warn_reason_3" js="0">Нарушения в подписи</word>
+  <word key="core_warn_reason_4" js="0">Оскорбительное поведение</word>
+  <word key="core_warn_reason_5" js="0">Умышленное продвижение темы или предмета обсуждения</word>
   <word key="warn_points" js="0">Баллы</word>
   <word key="warn_points_desc" js="0">Чем серьёзнее нарушение, тем большее количество баллов должно быть выдано.</word>
   <word key="warn_remove" js="0">Удалить баллы</word>
