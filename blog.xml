@@ -190,8 +190,8 @@
   <word key="view_this_blog" js="0">Просмотреть этот блог</word>
   <word key="user_blogs" js="0">Блоги</word>
   <word key="profile_blog_blog" js="0">Блоги</word>
-  <word key="also_contributes" js="0">Другие авторы:</word>
-  <word key="contributes_to" js="0">Авторы блога:</word>
+  <word key="also_contributes" js="0">Автор:</word>
+  <word key="contributes_to" js="0">Соавтор:</word>
   <word key="most_recent_entry" js="0">Последняя запись</word>
   <word key="blog_byline_nodate" js="0">Блог %s</word>
   <word key="blog_last_entry_date" js="0">Последняя запись опубликована %s</word>
