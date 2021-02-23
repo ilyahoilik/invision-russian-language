@@ -261,7 +261,7 @@
   <word key="form_upload_dad_mini_one" js="0">или переместите ваш файл сюда</word>
   <word key="form_upload_choose" js="0">Выберите файлы...</word>
   <word key="form_upload_choose_one" js="0">Выберите файл...</word>
-  <word key="form_upload_accepted" js="0">Разрешённые типы файлов:</word>
+  <word key="form_upload_accepted" js="0">Разрешённые типы файлов</word>
   <word key="form_upload_max" js="0">Максимальный размер файла</word>
   <word key="form_upload_total_max" js="0">Общий максимальный размер</word>
   <word key="form_upload_insert" js="0">Вставить все в редактор сообщения</word>
