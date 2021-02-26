@@ -2893,7 +2893,7 @@
   <word key="viglink_error" js="0">Мы не может соединиться с VigLink. Пожалуйста, попробуйте позже или свяжитесь с технической поддержкой для дополнительной помощи.</word>
   <word key="unsubscribe_blurb" js="0">Хотите отказаться от получения этих писем?</word>
   <word key="unsubscribe_blurb_follow" js="0">Вы получили это письмо, потому что подписаны на %s &quot;%s&quot;.</word>
-  <word key="unsubscribe_blurb_follow_member" js="0">Вы получили это письмо, потому что подписаны на %s.</word>
+  <word key="unsubscribe_blurb_follow_member" js="0">Вы получили это письмо, потому что подписаны на пользователя &quot;%s&quot;.</word>
   <word key="email_also_interesting" js="0">Вам также может быть интересно...</word>
   <word key="email_greeting_member" js="0">Здравствуйте, %s!</word>
   <word key="email_greeting_no_member" js="0">Здравствуйте!</word>
