@@ -3005,7 +3005,7 @@
   <word key="go_to_this_post" js="0">Перейти к сообщению</word>
   <word key="go_to_this_review" js="0">Перейти к отзыву</word>
   <word key="go_to_this_user" js="0">Перейти к профилю %s</word>
-  <word key="go_to_this_x" js="0">Перейти к %s</word>
+  <word key="go_to_this_x" js="0">Посмотреть</word>
   <word key="email_url_to_message" js="0">Ссылка на сообщение</word>
   <word key="email_registration_notify" js="0">Новый пользователь зарегистрирован в %s.</word>
   <word key="email_registration_notify_validate" js="0">Новый пользователь зарегистрировался и ожидает утверждения администратором.</word>
