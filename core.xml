@@ -11818,7 +11818,7 @@
   <word key="loc_viewing_privacy_policy_action" js="0">%s читает политику конфиденциальности</word>
   <word key="loc_viewing_guidelines_action" js="0">%s читает правила поведения</word>
   <word key="loc_viewing_reg_terms_action" js="0">%s читает условия регистрации</word>
-  <word key="share" js="0">Рассказать</word>
+  <word key="share" js="0">Поделиться</word>
   <word key="word_expansion" js="0">Расширение слова</word>
   <word key="word_add" js="0">Добавить слово</word>
   <word key="word_a_short" js="0">Слово</word>
@@ -12290,10 +12290,10 @@
   <word key="app_status_featured" js="0">Важное</word>
   <word key="app_status_locked" js="0">Закрыто</word>
   <word key="app_status_archived" js="0">Архивировано</word>
-  <word key="app_share" js="0">Рассказать</word>
-  <word key="app_error_sharing_content" js="0">К сожалению, произошла ошибка при попытке рассказать об этом контенте.</word>
+  <word key="app_share" js="0">Поделиться</word>
+  <word key="app_error_sharing_content" js="0">К сожалению, произошла ошибка при попытке поделиться этим контентом.</word>
   <word key="app_share_x_on_x_at_x" js="0">{{name}} {{thing}} в &quot;{{title}}&quot; на {{site}}</word>
-  <word key="app_share_x" js="0">Рассказать {{name}} {{thing}}</word>
+  <word key="app_share_x" js="0">Поделиться {{name}} {{thing}}</word>
   <word key="app_followed_member" js="0">Вы подписаны на {{name}}</word>
   <word key="app_unfollowed_member" js="0">Вы отписались {{name}}</word>
   <word key="app_profile_content_count" js="0">Количество контента</word>
