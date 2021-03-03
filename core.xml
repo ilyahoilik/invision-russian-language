@@ -2893,7 +2893,7 @@
   <word key="viglink_error" js="0">Мы не может соединиться с VigLink. Пожалуйста, попробуйте позже или свяжитесь с технической поддержкой для дополнительной помощи.</word>
   <word key="unsubscribe_blurb" js="0">Хотите отказаться от получения этих писем?</word>
   <word key="unsubscribe_blurb_follow" js="0">Вы получили это письмо, потому что подписаны на уведомления в &quot;%2$s&quot; (%1$s).</word>
-  <word key="unsubscribe_blurb_follow_member" js="0">Вы получили это письмо, потому что подписаны на %s.</word>
+  <word key="unsubscribe_blurb_follow_member" js="0">Вы получили это письмо, потому что подписаны на пользователя &quot;%s&quot;.</word>
   <word key="email_also_interesting" js="0">Вам также может быть интересно...</word>
   <word key="email_greeting_member" js="0">Здравствуйте, %s!</word>
   <word key="email_greeting_no_member" js="0">Здравствуйте!</word>
@@ -3005,7 +3005,7 @@
   <word key="go_to_this_post" js="0">Перейти к сообщению</word>
   <word key="go_to_this_review" js="0">Перейти к отзыву</word>
   <word key="go_to_this_user" js="0">Перейти к профилю %s</word>
-  <word key="go_to_this_x" js="0">Перейти к %s</word>
+  <word key="go_to_this_x" js="0">Посмотреть</word>
   <word key="email_url_to_message" js="0">Ссылка на сообщение</word>
   <word key="email_registration_notify" js="0">Новый пользователь зарегистрирован в %s.</word>
   <word key="email_registration_notify_validate" js="0">Новый пользователь зарегистрировался и ожидает утверждения администратором.</word>
@@ -11818,7 +11818,7 @@
   <word key="loc_viewing_privacy_policy_action" js="0">%s читает политику конфиденциальности</word>
   <word key="loc_viewing_guidelines_action" js="0">%s читает правила поведения</word>
   <word key="loc_viewing_reg_terms_action" js="0">%s читает условия регистрации</word>
-  <word key="share" js="0">Рассказать</word>
+  <word key="share" js="0">Поделиться</word>
   <word key="word_expansion" js="0">Расширение слова</word>
   <word key="word_add" js="0">Добавить слово</word>
   <word key="word_a_short" js="0">Слово</word>
@@ -12290,10 +12290,10 @@
   <word key="app_status_featured" js="0">Важное</word>
   <word key="app_status_locked" js="0">Закрыто</word>
   <word key="app_status_archived" js="0">Архивировано</word>
-  <word key="app_share" js="0">Рассказать</word>
-  <word key="app_error_sharing_content" js="0">К сожалению, произошла ошибка при попытке рассказать об этом контенте.</word>
+  <word key="app_share" js="0">Поделиться</word>
+  <word key="app_error_sharing_content" js="0">К сожалению, произошла ошибка при попытке поделиться этим контентом.</word>
   <word key="app_share_x_on_x_at_x" js="0">{{name}} {{thing}} в &quot;{{title}}&quot; на {{site}}</word>
-  <word key="app_share_x" js="0">Рассказать {{name}} {{thing}}</word>
+  <word key="app_share_x" js="0">Поделиться {{name}} {{thing}}</word>
   <word key="app_followed_member" js="0">Вы подписаны на {{name}}</word>
   <word key="app_unfollowed_member" js="0">Вы отписались {{name}}</word>
   <word key="app_profile_content_count" js="0">Количество контента</word>
