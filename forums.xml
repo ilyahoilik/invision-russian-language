@@ -69,7 +69,7 @@
   <word key="can_delete_post" js="0">Может удалять сообщения/ответы</word>
   <word key="can_read_all_topics" js="0">Может просматривать все темы/вопросы</word>
   <word key="can_read_all_topics_desc" js="0">Некоторые разделы настроены на отображение только своих тем/вопросов.</word>
-  <word key="can_set_best_answer" js="0">Может отмечать лучший ответ в вопросах</word>
+  <word key="can_set_best_answer" js="0">Может отмечать лучший ответ/решение в вопросах и темах</word>
   <word key="can_feature_comments_topic" js="0">Может отмечать рекомендуемыми сообщения в темах</word>
   <word key="can_unfeature_comments_topic" js="0">Может снимать рекомендацию с сообщений в темах</word>
   <word key="can_add_item_message_topic" js="0">Может добавлять примечания к темам</word>
