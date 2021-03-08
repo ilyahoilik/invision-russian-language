@@ -3604,5 +3604,6 @@
   <word key="nexus_no_price_info_desc" js="0">Недоступно в Вашей валюте</word>
   <word key="nexus_subs_subscribed_with_expire_no_renewal" js="0">Срок действия Вашей текущей подписки истекает %s</word>
   <word key="nexus_subs_subscribed_expired" js="0">Срок действия Вашей подписки истек.</word>
+  <word key="billing_agreement_check" js="0">Проверить</word>
  </app>
 </language>

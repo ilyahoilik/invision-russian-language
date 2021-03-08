@@ -309,5 +309,6 @@
   <word key="blog_category_confirm_delete_desc" js="1">Существующие записи в этой категории будут обновлены и больше не будут принадлежать ей.</word>
   <word key="manage_cats_new_row" js="1">Добавить новую категорию</word>
   <word key="entry_cat_order_saved" js="1">Порядок категорий сохранен</word>
+  <word key="blog_subcategories" js="0">Подкатегории</word>
  </app>
 </language>

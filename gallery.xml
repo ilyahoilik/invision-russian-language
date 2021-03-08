@@ -207,6 +207,7 @@
   <word key="can_edit_item_message_gallery_album" js="0">Может изменять примечания к альбомам</word>
   <word key="can_delete_item_message_gallery_album" js="0">Может удалять примечания из альбомов</word>
   <word key="can_delete_gallery_album" js="0">Может удалять альбомы</word>
+  <word key="can_edit_gallery_album_comment" js="0">Может изменять комментарии к альбому</word>
   <word key="can_hide_gallery_album_comment" js="0">Может скрывать комментарии к альбомам</word>
   <word key="can_unhide_gallery_album_comment" js="0">Может отменять скрытие комментариев к альбомам</word>
   <word key="can_view_hidden_gallery_album_comment" js="0">Может просматривать скрытые комментарии к альбомам</word>

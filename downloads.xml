@@ -133,6 +133,7 @@
   <word key="can_unhide_downloads_file" js="0">Может отменять скрытие файлов</word>
   <word key="can_view_hidden_downloads_file" js="0">Может просматривать скрытые файлы</word>
   <word key="can_delete_downloads_file" js="0">Может удалять файлы</word>
+  <word key="can_edit_downloads_file_comment" js="0">Может изменять комментарии</word>
   <word key="can_hide_downloads_file_comment" js="0">Может скрывать комментарии</word>
   <word key="can_unhide_downloads_file_comment" js="0">Может отменять скрытие комментариев</word>
   <word key="can_view_hidden_downloads_file_comment" js="0">Может просматривать скрытые комментарии</word>

@@ -144,6 +144,7 @@
   <word key="acplog__ical_uploaded" js="0">Загружен файл iCalendar (%s событий импортировано и %s событий пропущено)</word>
   <word key="acplog__icalfeed_created" js="0">Добавлена лента iCalendar: %s</word>
   <word key="acplog__icalfeed_updated" js="0">Изменена лента iCalendar: %s</word>
+  <word key="feed_uploaded" js="0">Импортированы события из iCalendar</word>
   <word key="acplog__icalfeed_refreshed" js="0">Обновлена лента iCalendar (%s событий импортировано и %s событий пропущено)</word>
   <word key="feed_refreshed" js="0">Лента iCalendar обновлена</word>
   <word key="feed_file" js="0">Файл iCalendar</word>
@@ -493,6 +494,7 @@
   <word key="loc_calendar_viewing_calendar_action" js="0">%s просматривает календарь</word>
   <word key="loc_calendar_viewing_calendar_all_action" js="0">%s просматривает календарь</word>
   <word key="loc_calendar_viewing_event_action" js="0">%s просматривает событие</word>
+  <word key="recur_human__xyearly" js="0">{# [*1:год][*2:года][*3:года][*4:года][*11:лет][*12:лет][*13:лет][*14:лет][?:лет]}</word>
   <word key="recur_human__xmonthly" js="0">{# [*1:месяц][*2:месяца][*3:месяца][*4:месяца][*11:месяцев][*12:месяцев][*13:месяцев][*14:месяцев][?:месяцев]}</word>
   <word key="recur_human__xweekly" js="0">{# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]}</word>
   <word key="recur_human__xdaily" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>

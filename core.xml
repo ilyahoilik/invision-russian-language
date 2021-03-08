@@ -2554,6 +2554,7 @@
   <word key="mailsub__core_notification_profile_comment" js="0">Новый комментарий в ленте ваших статусов</word>
   <word key="mailsub__core_notification_profile_reply" js="0">Ответ на комментарий в ленте ваших статусов</word>
   <word key="mailsub__core_notification_new_status" js="0"><![CDATA[{$comment->author()->name|raw} опубликовал новый статус]]></word>
+  <word key="mailsub__core_notification_quote" js="0"><![CDATA[{$comment->author()->name|raw} процитировал ваше сообщение]]></word>
   <word key="mailsub__core_notification_warning_mods" js="0">Пользователь предупреждён</word>
   <word key="mailsub__core_registration_complete" js="0">Ваша регистрация завершена!</word>
   <word key="mailsub__core_registration_validate" js="0">Вы должны подтвердить свой аккаунт перед продолжением</word>
@@ -2941,6 +2942,7 @@
   <word key="email_new_review_guest" js="0">%s (Гость) оставил отзыв о %s,</word>
   <word key="email_new_review_plain" js="0">%s оставил отзыв о %s,</word>
   <word key="email_new_content" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s,]]></word>
+  <word key="email_new_content_guest" js="0">%s (Гость) опубликовал %s,</word>
   <word key="email_new_content_plain" js="0">%s опубликовал %s,</word>
   <word key="email_new_content_bulk" js="0"><![CDATA[<a href='%s'>%s</a> опубликовал %s,]]></word>
   <word key="email_new_content_bulk_guest" js="0">%s (Гость) опубликовал %s,</word>
@@ -12696,5 +12698,19 @@
   <word key="marketplace_search" js="1">Поиск в Marketplace</word>
   <word key="marketplace_installing" js="1">Установка...</word>
   <word key="marketplace_updating" js="1">Обновление...</word>
+  <word key="form_interval_min_w" js="0">Значение должно быть больше {# [*1:недель][*2:недель][*3:недель][*4:недель][*11:недель][*12:недель][*13:недель][*14:недель][1:недели][?:недель]}.</word>
+  <word key="form_interval_max_w" js="0">Значение должно быть меньше {# [*1:недель][*2:недель][*3:недель][*4:недель][*11:недель][*12:недель][*13:недель][*14:недель][1:недели][?:недель]}.</word>
+  <word key="applications_blurb_no_upload" js="0">Вся функциональность вашего сообщества состоит из приложений, некоторые из которых имеют несколько модулей. Вы можете изменить права доступа к приложению или модулю, чтобы управлять доступом групп к разным областям вашего сайта.</word>
+  <word key="dev_plugin_not_writable" js="0">Для того, чтобы продолжить, директория /dev этого плагина и все её поддиректории и файлы должны быть доступны для записи.</word>
+  <word key="can_toggle_item_moderation_content" js="0">Может включать/выключать модерацию всех публикаций</word>
+  <word key="can_toggle_item_moderation_content_desc" js="0">Это позволит конкретным публикациям требовать утверждения новых комментариев.</word>
+  <word key="rebuilding_urlrefs_stuff" js="0">Перестроение данных ссылки %s</word>
+  <word key="refurls_rebuilt" js="0">Данные ссылки будут перестроены в фоновом режиме</word>
+  <word key="chart_customfilters_title" js="0">Настроить данные</word>
+  <word key="chart_customfilters_save" js="0">Обновить график</word>
+  <word key="requirements_mysql_format_advice" js="0">У вас имеется одна или более таблица InnoDB, которая использует формат Compact. Это может ограничить количество данных, которые могут храниться в одной таблице. Мы рекомендуем изменить формат на Dynamic. %s Если вы не знаете как это сделать, свяжитесь с вашим хостинг провайдером или системным администратором для получения помощи.</word>
+  <word key="requirements_mysql_ifpt_advice" js="0"><![CDATA[Пожалуйста, убедитесь, что настройка `<a href='https://dev.mysql.com/doc/refman/5.7/en/innodb-parameters.html#sysvar_innodb_file_per_table' target='_blank'>innodb_file_per_table</a>` включена.]]></word>
+  <word key="mobile_app_hide_stats" js="0">Скрыть статистику сообщества в каталоге?</word>
+  <word key="mobile_app_hide_stats_desc" js="0">Приложение показывает приблизительное количество публикаций и пользователей каждого сообщества, чтобы помочь пользователям определиться нужно ли им посещать его. Вы можете скрыть эту статистику, однако в таком случае ваше сообщество будет скрыто при сортировке каталога по количеству публикаций и пользователей.</word>
  </app>
 </language>
