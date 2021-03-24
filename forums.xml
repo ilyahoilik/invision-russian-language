@@ -297,7 +297,7 @@
   <word key="ask_a_question_lc" js="0">задавать вопрос</word>
   <word key="ask_a_question_desc" js="0">Задать вопрос в этом разделе</word>
   <word key="answer_this_question" js="0">Ответить на вопрос</word>
-  <word key="reply_to_this_topic" js="0">Ответить в тему</word>
+  <word key="reply_to_this_topic" js="0">Ответить в теме</word>
   <word key="mark_forum_read" js="0">Отметить раздел прочитанным</word>
   <word key="mark_forum_read_title" js="0">Отметить все темы в этом разделе прочитанными</word>
   <word key="forum_password_bad" js="0">Неверный пароль.</word>
@@ -386,7 +386,7 @@
   <word key="post_pl_lc" js="0">сообщения</word>
   <word key="archivedpost_pl" js="0">Архивированные сообщения</word>
   <word key="archivedpost_pl_lc" js="0">архивированные сообщения</word>
-  <word key="topic__comment_placeholder" js="0">Ответить в тему...</word>
+  <word key="topic__comment_placeholder" js="0">Ответить в теме...</word>
   <word key="question__comment_placeholder" js="0">Ответить на вопрос...</word>
   <word key="moderator_actions" js="0">Модерировать</word>
   <word key="toggle_this_category" js="0">Свернуть/развернуть категорию</word>
@@ -410,7 +410,7 @@
   <word key="subforums" js="0">Подразделы:</word>
   <word key="subforums_header" js="0">Подразделы</word>
   <word key="subforums_header_category" js="0">Разделы</word>
-  <word key="reply_to_topic" js="0">Ответить в тему</word>
+  <word key="reply_to_topic" js="0">Ответить в теме</word>
   <word key="link_to_post" js="0">Ссылка на сообщение</word>
   <word key="share_externally" js="0">Поделиться на других сайтах</word>
   <word key="featured_topics" js="0">Важные темы</word>
