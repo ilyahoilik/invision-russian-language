@@ -607,7 +607,7 @@
   <word key="validation_email_rate_limit" js="0">Письмо было отправлено вам %s. Если вы ещё не получили его, пожалуйста, подождите как минимум 15 минут и проверьте ваши папки со спамом и нежелательной почтой. Если по прошествии 15 минут вы не получили письмо, оно может быть отправлено повторно.</word>
   <word key="reg_required_fields" js="0">Пожалуйста, заполните все требуемые поля</word>
   <word key="reg_is_cancelled" js="0">Вы отменили свою регистрацию. Отменённые регистрации удаляются ежедневно.</word>
-  <word key="registration_validate_heading" js="0">Ты почти у цели, %s!</word>
+  <word key="registration_validate_heading" js="0">Вы почти у цели, %s!</word>
   <word key="registration_validate_explain" js="0">Нажмите на кнопку ниже для подтверждения своего аккаунта и завершении регистрации.</word>
   <word key="lost_password" js="0">Забыли пароль</word>
   <word key="request_password" js="0">Восстановить пароль</word>
@@ -7274,7 +7274,7 @@
   <word key="mod_confirm_visible" js="0">Видимые</word>
   <word key="mod_confirm_hidden" js="0">Скрытые</word>
   <word key="status_feed" js="0">Лента статусов</word>
-  <word key="status_content" js="0">О чем ты думаешь?</word>
+  <word key="status_content" js="0">О чем Вы думаете?</word>
   <word key="status__comment_placeholder" js="0">Ответить на этот статус...</word>
   <word key="status__update_placeholder" js="0"><![CDATA[Написать <em>публичное</em> сообщение в свою ленту...]]></word>
   <word key="status__update_placeholder_other" js="0"><![CDATA[Написать <em>публичное</em> сообщение в ленту пользователя %s...]]></word>
@@ -12167,7 +12167,7 @@
   <word key="app_home" js="0">Главная</word>
   <word key="app_browse" js="0">Обзор</word>
   <word key="app_our_picks" js="0">Наш выбор</word>
-  <word key="app_new_content" js="0">Новое для тебя</word>
+  <word key="app_new_content" js="0">Новое для Вас</word>
   <word key="app_active_users" js="0">В данный момент активны</word>
   <word key="app_popular_contributors" js="0">Топ пользователей этой недели</word>
   <word key="app_x_more" js="0">{!# [?:ещё #]}</word>
@@ -12512,7 +12512,7 @@
   <word key="mobile_app_requires_active_license" js="0"><![CDATA[Чтобы использовать мобильное приложение, Ваша лицензия должна быть активной. <a href='{external.renew_my_license}' target='_blank'>Продлите свою лицензию</a> для использования приложения.]]></word>
   <word key="mobile_app_requires_license" js="0"><![CDATA[Чтобы использовать мобильное приложение, Ваша лицензия должна быть активной. <a href='{internal.app=core&module=settings&controller=licensekey}' target='_blank'>Предоставьте лицензионный ключ</a> для использования приложения.]]></word>
   <word key="mobile_app_home_blocks_order" js="0">Блоки домашней страницы</word>
-  <word key="mobile_app_home_blocks_new_content" js="0">Новое для тебя</word>
+  <word key="mobile_app_home_blocks_new_content" js="0">Новое для Вас</word>
   <word key="mobile_app_home_blocks_active_users" js="0">В данный момент активно</word>
   <word key="mobile_app_home_blocks_our_picks" js="0">Наш выбор</word>
   <word key="mobile_app_home_blocks_popular_contributors" js="0">Топ пользователей этой недели</word>
