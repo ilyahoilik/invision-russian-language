@@ -5528,7 +5528,7 @@
   <word key="reviews_rating_out_of_5" js="0">5 звёзд</word>
   <word key="reviews_rating_out_of_10" js="0">10 звёзд</word>
   <word key="task__postBeforeRegisterFollowup" js="0">Отправляет email-письма гостям, которые опубликовали что-либо, но не завершили регистрацию.</word>
-  <word key="unsubscribe_not_needed" js="0">Если вы не предпримите никаких действий, мы удалим вам email-адрес и не будем связываться с вами. Нет необходимости отписываться.</word>
+  <word key="unsubscribe_not_needed" js="0">Если вы не предпримете никаких действий, мы удалим ваш адрес электронной почты и больше не будем связываться с вами. Отписываться нет необходимости.</word>
   <word key="post_before_register_followup_text" js="0">Спасибо! Прежде чем публикация станет доступна другим пользователям, нам необходимо создать для вас аккаунт.</word>
   <word key="mailsub__core_postBeforeRegisterFollowup" js="0">Вы забыли отправить свою публикацию?</word>
   <word key="finish_this_submission" js="0">Завершить отправку</word>
