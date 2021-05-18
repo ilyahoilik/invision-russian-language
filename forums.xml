@@ -593,7 +593,7 @@
   <word key="js_vote_answer_up" js="1">Проголосовать за ответ</word>
   <word key="js_vote_answer_down" js="1">Проголосовать против ответа</word>
   <word key="js_remove_your_vote" js="1">Удалить свой голос</word>
-  <word key="filestorage__forums_Cards" js="0">Forum Cards</word>
+  <word key="filestorage__forums_Cards" js="0">Карточки разделов</word>
   <word key="answer" js="0">Ответ</word>
   <word key="answer_lc" js="0">ответ</word>
   <word key="can_toggle_item_moderation_topic" js="0">Может включить / отключить модерацию в темах?</word>
