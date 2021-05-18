@@ -8651,7 +8651,7 @@
   <word key="acplog__node_deleted_club" js="0">Удалён %s - %s в клубе %s</word>
   <word key="club_delete_blurb" js="0">Выберите, куда вы хотите переместить публикацию из клуба. Перемещение/удаление обрабатывается в фоновом режиме и это может занять некоторое время.</word>
   <word key="acplog__club_deleted" js="0">Удалён клуб - %s</word>
-  <word key="club_container_title" js="0">%2$s %1$s</word>
+  <word key="club_container_title" js="0">%2$s - %1$s</word>
   <word key="club_node_selector_global" js="0">Сообщество</word>
   <word key="club_node_selector_clubs" js="0">Клубы</word>
   <word key="clubs_enabled_setting" js="0">Включить клубы</word>
