@@ -6781,7 +6781,7 @@
   <word key="warning_revoke_blurb" js="0">Вы хотите отменить все наказания (то есть отменить их и удалить баллы) или просто удалить запись?</word>
   <word key="warning_revoke_undo" js="0">Отменить и удалить</word>
   <word key="this_will_be_moderated" js="0">Из-за того, что вы получили предупреждение, эта публикация будет скрыта до её утверждения модератором.</word>
-  <word key="mod_queue_message" js="0">Ваша публикация будет размещена после проверки модератором</word>
+  <word key="mod_queue_message" js="0">Ваша публикация должна быть проверена модератором</word>
   <word key="guest_post_mod_approval" js="0"><![CDATA[<strong>Примечание:</strong> вашему сообщению потребуется утверждение модератора, прежде чем оно станет доступным.]]></word>
   <word key="view_warning_details" js="0">Информация о предупреждении</word>
   <word key="view_warning_details_title" js="0">Подробная информация о предупреждении</word>
