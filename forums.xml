@@ -618,7 +618,7 @@
   <word key="loc_forums_index_action" js="0">%s просматривает список разделов</word>
   <word key="enable_topic_moderation" js="0">Включить модерацию</word>
   <word key="disable_topic_moderation" js="0">Отключить модерацию</word>
-  <word key="topic_moderation_enabled" js="0">Сообщение одобрено</word>
+  <word key="topic_moderation_enabled" js="0">Включена премодерация</word>
   <word key="enable_topic_moderation_confirm" js="0">Если включено, все новые комментарии должны быть одобрены модератором, прежде чем они будут отображаться в этой теме.</word>
   <word key="disable_topic_moderation_confirm" js="0">Если отключено, новые комментарии больше не будут требовать одобрения модератора.</word>
   <word key="unsolve_content" js="0">Отменить как решение</word>
