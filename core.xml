@@ -5459,7 +5459,7 @@
   <word key="ipb_url_whitelist_desc" js="0">Используйте * в качестве символа подстановки, например, &quot;http://*.example.com/*&quot;</word>
   <word key="ipb_url_blacklist" js="0">Запрещённые ссылки</word>
   <word key="ipb_url_blacklist_desc" js="0">Используйте * в качестве символа подстановки, например, &quot;http://*.example.com/*&quot;</word>
-  <word key="url_filter_action" js="0">Если опубликована запрещённая ссылка</word>
+  <word key="url_filter_action" js="0">При публикации запрещённой ссылки</word>
   <word key="url_filter_block" js="0">Запретить</word>
   <word key="url_filter_block_desc" js="0">Если будет опубликована запрещённая ссылка, то она будет отображена как текст.</word>
   <word key="url_filter_moderate" js="0">Отправить на модерацию</word>
@@ -5470,11 +5470,11 @@
   <word key="url_filter_any_moderate" js="0">Отправить на модерацию</word>
   <word key="url_filter_any_moderate_desc" js="0">Если будет опубликована любая ссылка, то публикация будет задержана для утверждения модератором.</word>
   <word key="links_external" js="0">Открывать ссылки в новой вкладке</word>
-  <word key="links_external_desc" js="0">Если включено, все публикуемые внешние ссылки будут открываться в новой вкладке.</word>
-  <word key="posts_add_nofollow" js="0">Добавлять rel=&quot;nofollow&quot; к ссылкам</word>
-  <word key="posts_add_nofollow_desc" js="0">Добавить rel='nofollow' к публикуемым внешним ссылкам. Рекомендуется сделать это, чтобы поисковые системы не связывали ваш сайт с сайтами, ссылки на которые публикуют пользователи.</word>
-  <word key="posts_add_nofollow_exclude" js="0">Домены, на которые должны переходить поисковые системы.</word>
-  <word key="posts_add_nofollow_exclude_desc" js="0">rel='nofollow' не будет добавляться к ссылкам на доменные имена, которые указаны здесь. Добавьте любые домены, с которыми связан ваш сайт, которые он контролирует или с которыми у вас есть рекламный контракт, который обязует вас разрешать контроль за переходом по ссылкам. Введите только доменное имя, а не полный адрес, например &quot;site.com&quot;, а не &quot;https://site.com&quot;.</word>
+  <word key="links_external_desc" js="0"><![CDATA[Если включено, все публикуемые внешние ссылки будут открываться в новой вкладке.<br>Изменение этой настройки затронет только новые публикации, пока вы не <a data-confirm href='{internal.app=core&module=settings&controller=posting&do=rebuildUrlRels.csrf}'>перестроите существующие публикации</a>.]]></word>
+  <word key="posts_add_nofollow" js="0">Попросить поисковые системы не переходить по размещенным ссылкам?</word>
+  <word key="posts_add_nofollow_desc" js="0"><![CDATA[Добавить rel='nofollow' к публикуемым внешним ссылкам. Рекомендуется сделать это, чтобы поисковые системы понимали, что ваш сайт не связан с сайтами, на которые пользователи публикую ссылки.<br>Изменение этой настройки затронет только новые публикации, пока вы не <a data-confirm href='{internal.app=core&module=settings&controller=posting&do=rebuildUrlRels.csrf}'>перестроите существующие публикации</a>.]]></word>
+  <word key="posts_add_nofollow_exclude" js="0">Домены, на которые поисковым системам стоит переходить</word>
+  <word key="posts_add_nofollow_exclude_desc" js="0"><![CDATA[rel='nofollow' не будет добавляться к ссылкам на указанные здесь доменные имена. Добавьте все домены, с которыми связан ваш сайт, которые он контролирует или с которыми у вас есть рекламное соглашение, которое обязует вас разрешать переход поисковых систем по ссылкам. Введите только доменное имя, а не полный адрес, например "site.com", а не "https://site.com".<br>Изменение этой настройки затронет только новые публикации, пока вы не <a data-confirm href='{internal.app=core&module=settings&controller=posting&do=rebuildUrlRels.csrf}'>перестроите существующие публикации</a>.]]></word>
   <word key="acplogs__url_filter_settings" js="0">Изменены настройки фильтра ссылок</word>
   <word key="acplogs__posting_general_settings" js="0">Изменены общие настройки публикации</word>
   <word key="posting_attachments" js="0">Вложения</word>
