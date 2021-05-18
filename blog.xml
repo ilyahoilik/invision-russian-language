@@ -273,7 +273,7 @@
   <word key="stats_overview_blogs" js="0">Блоги</word>
   <word key="stats_overview_blogs_desc" js="0">Дата создания блога не отслеживается, поэтому это общее количество и не ограничено никакими применимыми ограничениями по диапазону дат</word>
   <word key="entry_posted_with_cat" js="0">Запись опубликована от %s в %s</word>
-  <word key="entry_future_posted_with_cat" js="0">Запись от %s в %s публикуется на</word>
+  <word key="entry_future_posted_with_cat" js="0">Запись пользователя %s в %s опубликуется</word>
   <word key="entry_name_with_cat" js="0">%s в %s</word>
   <word key="blog_category_viewing" js="0">Просмотр категории %s</word>
   <word key="blog_category_select" js="0">Посмотреть категорию</word>
