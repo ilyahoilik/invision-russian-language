@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.4.2" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.6.3-beta.1" long_version="46300" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="forums" version="">
   <word key="__app_forums" js="0">Форум</word>
   <word key="frontnavigation_forums" js="0">Форум</word>
@@ -92,7 +92,7 @@
   <word key="forum_type_redirect" js="0">Cсылка</word>
   <word key="forum_type_redirect_desc" js="0">Можно настроить переход пользователей на другое расположение при клике на неё.</word>
   <word key="forum_password_on" js="0">Защитить паролем?</word>
-  <word key="forum_password_on_desc" js="0">Если активировано, пользователи, имеющие доступ к разделу, должны будут ввести пароль для доступа к нему. Данная функция не распространяется на вложенные разделы.</word>
+  <word key="forum_password_on_desc" js="0"><![CDATA[Когда включено, пользователи, у которых есть права для доступа к разделу, должны будут ввести пароль. У пользователей, у которых недостаточно прав для доступа к разделу, пароль запрашиваться не будет. Пароль устанавливается только на этот раздел. Если в нём есть подразделы, то на них пароль установлен не будет.<br>Темы, опубликованные в закрытом паролем разделе, не будут отображаться в каких-либо блоках в боковой панели, шапке или подвале, а также не будут отправляться уведомления о новых темах и сообщениях.]]></word>
   <word key="forum_password" js="0">Пароль</word>
   <word key="forum_password_override" js="0">Не требовать пароль</word>
   <word key="forum_display" js="0">Отображение</word>
@@ -166,7 +166,7 @@
   <word key="edit_forum" js="0">Изменение раздела</word>
   <word key="node_no_parentf" js="0">Отсутствует</word>
   <word key="forum_use_feature_color" js="0">Использовать особый цвет</word>
-  <word key="forum_use_feature_color_desc" js="0">Особый цвет используется в описании раздела в качестве бейджа.</word>
+  <word key="forum_use_feature_color_desc" js="0">Особый цвет используется в различных местах, таких как заголовок раздела или категории, бейдж раздела и в списке разделов.</word>
   <word key="forum_feature_color" js="0">Особый цвет</word>
   <word key="rebuilding_starter_ids" js="0">Перестроение идентификаторов автором тем</word>
   <word key="forums_topic_post" js="0">Сообщения в разделе</word>
@@ -435,10 +435,8 @@
   <word key="go_to_forum" js="0">Перейти на %s</word>
   <word key="go_back_to_forum" js="0">Перейти к списку тем</word>
   <word key="go_back_to_qa_forum" js="0">Перейти к списку вопросов</word>
-  <word key="first_unread_post" js="0">К первому непрочитанному сообщению</word>
-  <word key="get_last_post" js="0">К последнему сообщению</word>
   <word key="topic_is_archived" js="0">Архивировано</word>
-  <word key="topic_archived_desc" js="0">Эта тема находится в архиве и закрыта для публикации сообщений.</word>
+  <word key="topic_archived_desc" js="0">Эта тема находится в архиве и закрыта для дальнейших сообщений.</word>
   <word key="count_topics_in_forum" js="0">{# [*1:тема][*2:темы][*3:темы][*4:темы][*11:тем][*12:тем][*13:тем][*14:тем][?:тем]} в этом разделе</word>
   <word key="count_questions_in_forum" js="0">{# [*1:вопрос][*2:вопроса][*3:вопроса][*4:вопроса][*11:вопросов][*12:вопросов][*13:вопросов][*14:вопросов][?:вопросов]} в этом разделе</word>
   <word key="view_next_unread" js="0">Следующая непрочитанная тема</word>
@@ -469,9 +467,9 @@
   <word key="submit_first_question" js="0">Создать первый вопрос</word>
   <word key="submit_first_topic" js="0">Создать первую тему</word>
   <word key="topic_pending_approval" js="0">Эта тема ещё не утверждена и отображается только администрации.</word>
-  <word key="topic_locked_can_comment" js="0">Эта тема закрыта, но ваши права доступа позволяют вам добавлять новые сообщения.</word>
-  <word key="topic_poll_can_comment" js="0">Это тема-опрос, но ваши права доступа позволяют вам добавлять новые ответы.</word>
-  <word key="topic_locked_cannot_comment" js="0">Эта тема закрыта для публикации сообщений.</word>
+  <word key="topic_locked_can_comment" js="0">Эта тема закрыта, однако ваши права доступа позволяют вам добавлять новые сообщения.</word>
+  <word key="topic_poll_can_comment" js="0">Это тема-опрос, однако ваши права доступа позволяют вам добавлять новые сообщения.</word>
+  <word key="topic_locked_cannot_comment" js="0">Эта тема закрыта для дальнейших сообщений.</word>
   <word key="ip_prefix" js="0">IP: %s</word>
   <word key="popular_questions_title" js="0">Популярные вопросы за последний месяц</word>
   <word key="no_popular_questions" js="0">Нет популярных вопросов для отображения</word>
@@ -569,7 +567,7 @@
   <word key="poll_widget_no_poll" js="0">В выбранной теме нет активного опроса.</word>
   <word key="__api_forums_posts" js="0">Сообщения</word>
   <word key="__api_forums_topics" js="0">Темы</word>
-  <word key="__api_forums_forums" js="0">Категории</word>
+  <word key="__api_forums_forums" js="0">Разделы</word>
   <word key="recommend_post" js="0">Порекомендовать сообщение</word>
   <word key="recommended_posts" js="0">Рекомендованные сообщения</word>
   <word key="forums_simple_name_with_container" js="0"><![CDATA[От %s в <a href='%s'>%s</a>]]></word>
@@ -697,7 +695,7 @@
   <word key="app_topic_cannot_reply" js="0">Невозможно ответить</word>
   <word key="app_topic_locked_can_comment" js="0">Закрыто, но Вы можете ответить...</word>
   <word key="app_topic_poll_can_comment" js="0">Только опрос, но Вы можете ответить...</word>
-  <word key="app_topic_locked_cannot_comment" js="0">Тема закрыта, у Вас нет разрешения на ответ.</word>
+  <word key="app_topic_locked_cannot_comment" js="0">У вас недостаточно прав для ответа, потому что эта тема закрыта.</word>
   <word key="app_topic_restricted_cannot_comment" js="0">Ваша учетная запись в настоящее время ограничена для публикаций.</word>
   <word key="app_topic_unacknowledged_warning_cannot_post" js="0">Вы получили предупреждение, с которым должны ознакомиться перед тем, как отправлять сообщения.</word>
   <word key="app_topic_member_exceeded_posts_per_day" js="0">Вы достигли максимального количества постов за день.</word>
@@ -711,5 +709,35 @@
   <word key="chart_forums" js="0">Фильтр по разделу</word>
   <word key="archiving_blurb_cloud_notforced" js="0"><![CDATA[Архивация старых <strong>не закреплённых</strong> и <strong>не важных</strong> тем на больших сайтах поможет вашему сообществу работать безотказно. Архивированные темы нельзя изменить и в них нельзя ответить, а также они не отобразятся в результатах поиска. Когда ваше сообщества достигает определённого размера, архивирование старых тем необходимо.]]></word>
   <word key="disable_cloud_archiving" js="0">Отключить архивацию</word>
+  <word key="__defart_post_plural" js="0">{!#[*1:сообщение][*2:сообщения][*3:сообщения][*4:сообщения][*11:сообщений][*12:сообщений][*13:сообщений][*14:сообщений][?:сообщений]} в теме</word>
+  <word key="__defart_topic_plural" js="0">{!#[*1:тема][*2:темы][*3:темы][*4:темы][*11:тем][*12:тем][*13:тем][*14:тем][?:тем]}</word>
+  <word key="__defart_answer_plural" js="0">{!#[*1:ответ][*2:ответа][*3:ответа][*4:ответа][*11:ответов][*12:ответов][*13:ответов][*14:ответов][?:ответов]} на вопрос</word>
+  <word key="__defart_question_plural" js="0">{!#[*1:вопрос][*2:вопроса][*3:вопроса][*4:вопроса][*11:вопросов][*12:вопросов][*13:вопросов][*14:вопросов][?:вопросов]}</word>
+  <word key="topic_posted_in_groups" js="0">Сообщения от %s</word>
+  <word key="filter_hidden_topics" js="0">Скрытые темы</word>
+  <word key="filter_hidden_posts_in_topics" js="0">Темы со скрытыми сообщениями</word>
+  <word key="stats_percentagesolved" js="0">Процент решённых</word>
+  <word key="stats_percentagesolved_desc" js="0">Процент решенных тем по сравнению с общим количеством опубликованных тем</word>
+  <word key="stats_solved_tooltip" js="0">%s из %s тем были отмечены решёнными</word>
+  <word key="stats_solved_tooltip_prev" js="0">%s из %s тем были отмечены решёнными %s%%</word>
+  <word key="stats_averagetimesolved" js="0">Среднее время решения</word>
+  <word key="stats_averagetimesolved_desc" js="0">Среднее время, прошедшее между моментом создания темы и моментом, когда было отмечено решение</word>
+  <word key="forums_topic_show_meta_moderation_desc" js="0"><![CDATA[Вы можете указать какие группы могут видеть события модерации в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>]]></word>
+  <word key="forums_mod_actions_anon" js="0">Показывать имя модератора рядом с событиями модерации</word>
+  <word key="forums_mod_actions_anon_desc" js="0">Если отключено, то имя модератора, который совершил действие, будет скрыто от других пользователей, у которых недостаточно прав для модерации в пределах текущего раздела.</word>
+  <word key="404_forums_topic" js="0">Мы не можем найти эту тему.</word>
+  <word key="403_forums_topic" js="0">У вас недостаточно прав для просмотра этой темы.</word>
+  <word key="AchievementAction__AnswerMarkedBest" js="0">Сообщение помечено как лучший ответ</word>
+  <word key="achievement_filter_AnswerMarkedBest_forum" js="0">Добавить условие по расположению</word>
+  <word key="achievement_filter_AnswerMarkedBest_forum_prefix" js="0">Вопрос находятся в разделе</word>
+  <word key="achievement_filter_AnswerMarkedBest_poster" js="0">Пользователю, который опубликовал ответ</word>
+  <word key="achievement_filter_AnswerMarkedBest_asker" js="0">Пользователю, который задал вопрос</word>
+  <word key="achievement_filter_AnswerMarkedBest_nth" js="0">Добавить условие по количеству</word>
+  <word key="achievement_filter_AnswerMarkedBest_nth_suffix" js="0">й раз, когда сообщение в этом разделе выбрано лучшим ответом</word>
+  <word key="AchievementAction__AnswerMarkedBest_log_subject" js="0">Ответ, данный на %s, был выбран лучшим</word>
+  <word key="AchievementAction__AnswerMarkedBest_log_other" js="0">В вопросе %s выбран лучший ответ</word>
+  <word key="AchievementAction__AnswerMarkedBest_log_deleted" js="0">удалённый вопрос</word>
+  <word key="AchievementAction__AnswerMarkedBest_title" js="0">Ответ выбран лучшим</word>
+  <word key="forums_sg_lc" js="0">раздел</word>
  </app>
 </language>

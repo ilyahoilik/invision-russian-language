@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.6.3-beta.1" long_version="46300" update_check="https://redirect.ipshelp.ru/update/language-ru">
+ <app key="translation" version="">
+  <word key="__app_translation" js="0">Translation</word>
+  <word key="lang_git_init" js="0">Repository: Set Up</word>
+  <word key="lang_git_repo" js="0">Repository URL</word>
+  <word key="lang_git_repo_desc" js="0"><![CDATA[A remote repository URL. For example, <em>git@github.com:ipshelp/russian-language.git</em>	
+]]></word>
+  <word key="lang_git_push" js="0">Repository: Push Changes</word>
+  <word key="lang_git_pull" js="0">Repository: Pull Changes</word>
+ </app>
+</language>

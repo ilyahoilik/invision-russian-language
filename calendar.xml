@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.4.2" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.6.3-beta.1" long_version="46300" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="calendar" version="">
   <word key="__app_calendar" js="0">Календарь</word>
   <word key="frontnavigation_calendar" js="0">Календарь</word>
@@ -203,7 +203,7 @@
   <word key="event_tags" js="0">Теги</word>
   <word key="event_content" js="0">Описание</word>
   <word key="event_dates" js="0">Дата</word>
-  <word key="rsvp" js="0">участник</word>
+  <word key="rsvp" js="0">приглашение</word>
   <word key="event_rsvp" js="0">Подтверждение участия</word>
   <word key="event_rsvp_desc" js="0">Требовать у пользователя подтверждение участия. Список подтвердивших участие будет доступен всем участникам. Для повторяющихся событий применяется к каждому из них.</word>
   <word key="event_to" js="0">в</word>
@@ -304,7 +304,7 @@
   <word key="no_decline_rsvps_past" js="0">Никто не отказался.</word>
   <word key="rsvp_limit_reached" js="0">Достигнут лимит участников</word>
   <word key="no_rsvp_past_event" js="0">Событие уже прошло</word>
-  <word key="rsvp_error" js="0">У вас нет прав для участия в этом событии</word>
+  <word key="rsvp_error" js="0">У вас недостаточно прав для участия в этом событии</word>
   <word key="rsvp_not_going" js="0">Вы удалены из списка участников этого события</word>
   <word key="rsvp_selection_yes" js="0">Вы добавлены в список участников этого события</word>
   <word key="rsvp_selection_no" js="0">Вы отказались от участия в этом событии</word>
@@ -329,13 +329,13 @@
   <word key="event_attendees" js="0">Участники %s</word>
   <word key="rsvp_limit_info" js="0">{# [*1:пользователь подтвердил][*2:пользователя подтвердили][*3:пользователя подтвердили][*4:пользователя подтвердили][*11:пользователей подтвердили][*12:пользователей подтвердили][*13:пользователей подтвердили][*14:пользователей подтвердили][?:пользователей подтвердили]} приглашение на это событие. Всего %s могут ответить.</word>
   <word key="rsvp_limit_nomaybe" js="0">Вы можете только указать, что придёте или не придёте т.к. установлен лимит участников. </word>
-  <word key="no_event_review" js="0">У вас нет прав для публикации отзывов на события</word>
+  <word key="no_event_review" js="0">У вас недостаточно прав для публикации отзывов на события</word>
   <word key="task_BAD_CONTENT" js="0">Формат ленты iCalendar %s не является форматом iCalendar</word>
   <word key="task_NO_CONTENT" js="0">Лента iCalendar %s не вернули никаких событий для обработки</word>
   <word key="subscribe_webcal" js="0">Подписаться на ленту iCalendar</word>
   <word key="download_webcal" js="0">Скачать файл iCalendar</word>
   <word key="calendar_id" js="0">Календарь</word>
-  <word key="event_locked_can_comment" js="0">Это событие закрыто, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="event_locked_can_comment" js="0">Это событие закрыто, однако ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="event_locked_cannot_comment" js="0">Это событие закрыто для дальнейших комментариев.</word>
   <word key="event_images" js="0">Изображения с этого события</word>
   <word key="event_move_title" js="0">Переместить событие</word>
@@ -356,7 +356,7 @@
   <word key="event_remind_days_before" js="0">дней до этого события</word>
   <word key="event_reminder_removed" js="0">Напоминание удалено</word>
   <word key="event_reminder_added" js="0">Напоминание сохранено</word>
-  <word key="no_edit_past_event" js="0">У вас нет прав на изменение прошедших событий</word>
+  <word key="no_edit_past_event" js="0">У вас недостаточно прав для изменения прошедших событий</word>
   <word key="block_upcomingEvents" js="0">Ближайшие события</word>
   <word key="block_upcomingEvents_desc" js="0">Отображает ближайшие события в календаре</word>
   <word key="auto_hide" js="0">Автоматически скрывать блок</word>
@@ -499,5 +499,17 @@
   <word key="recur_human__xweekly" js="0">{# [*1:неделя][*2:недели][*3:недели][*4:недели][*11:недель][*12:недель][*13:недель][*14:недель][?:недель]}</word>
   <word key="recur_human__xdaily" js="0">{# [*1:день][*2:дня][*3:дня][*4:дня][*11:дней][*12:дней][*13:дней][*14:дней][?:дней]}</word>
   <word key="notifications__calendar_Events_desc" js="0">Эти уведомления будут отправлены при наступлении события, о котором вы просили напомнить.</word>
+  <word key="__defart_calendar_event_comment_plural" js="0">{!#[*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]} к событию в календаре</word>
+  <word key="__defart_calendar_event_plural" js="0">{!#[*1:событие][*2:события][*3:события][*4:события][*11:событий][*12:событий][*13:событий][*14:событий][?:событий]} в календаре</word>
+  <word key="__defart_calendar_event_review_plural" js="0">{!#[*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]} о событии в календаре</word>
+  <word key="notification__event_reminder_title" js="0">{!#[1:Предстоящее событие][?:Предстоящие события]}</word>
+  <word key="cal_allow_anonymous" js="0">Разрешить анонимные сообщения?</word>
+  <word key="AchievementAction__Rsvp" js="0">Пользователь принимает приглашение придти на событие</word>
+  <word key="achievement_filter_Rsvp_nth_suffix" js="0">е принятое приглашение</word>
+  <word key="achievement_filter_Rsvp_receiver" js="0">Пользователю, который опубликовал событие</word>
+  <word key="achievement_filter_Rsvp_giver" js="0">Пользователю, который принял приглашение</word>
+  <word key="AchievementAction__Rsvp_log" js="0">Принял приглашение на %s</word>
+  <word key="AchievementAction__Rsvp_title" js="0">Принял приглашение на событие</word>
+  <word key="calendars_sg_lc" js="0">календарь</word>
  </app>
 </language>

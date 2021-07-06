@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.4.2" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.6.3-beta.1" long_version="46300" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="downloads" version="">
   <word key="__app_downloads" js="0">Файлы</word>
   <word key="frontnavigation_downloads" js="0">Файлы</word>
@@ -371,13 +371,13 @@
   <word key="downloads_category_id" js="0">Категория</word>
   <word key="announce_download_categories" js="0">Категории</word>
   <word key="view_this_file" js="0">Просмотреть файл %s</word>
-  <word key="file_locked_can_comment" js="0">Этот файл закрыт, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="file_locked_can_comment" js="0">Этот файл закрыт, однако ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="file_locked_cannot_comment" js="0">Этот файл закрыт для дальнейших комментариев.</word>
   <word key="file__save" js="0">Сохранить</word>
   <word key="downloads_no_file" js="0">Файл не найден</word>
   <word key="download_teaser" js="0">Создайте аккаунт или войдите в него для скачивания файла</word>
-  <word key="download_no_permission" js="0">Извините, вам не разрешено скачивать этот файл.</word>
-  <word key="download_no_permission_guest" js="0">Извините, вам не разрешено скачивать этот файл. Однако, вы сможете скачать его, если войдете на сайт.</word>
+  <word key="download_no_permission" js="0">К сожалению, у вас недостаточно прав для скачивания этого файла.</word>
+  <word key="download_no_permission_guest" js="0">К сожалению, у вас недостаточно прав для скачивания этого файла. Однако, вы сможете скачать его, если войдёте на сайт.</word>
   <word key="downloads_file_info" js="0">Скачивания</word>
   <word key="sort_file_downloads" js="0">Наиболее скачиваемые</word>
   <word key="club_node_downloads" js="0">Файлы клуба</word>
@@ -411,7 +411,7 @@
   <word key="idm_block_submissions" js="0">Разрешить добавлять файлы</word>
   <word key="idm_block_submissions_desc" js="0">Каждая категория имеет права доступа на добавление файлов в неё. Если выключено, пользователи не смогут добавить никаких файлов. Если включено, будут унаследованы настройки родительской категории.</word>
   <word key="history_restrictions_downloads_1" js="0">отключена возможность публиковать файлы</word>
-  <word key="history_restrictions_downloads_0" js="0">отключена возможности публиковать файлы</word>
+  <word key="history_restrictions_downloads_0" js="0">восстановлена возможность публиковать файлы</word>
   <word key="downloads_stats" js="0">Просмотреть статистику скачиваний</word>
   <word key="submissions" js="0">{# [*1:просмотр][*2:просмотра][*3:просмотра][*4:просмотра][*11:просмотров][*12:просмотров][*13:просмотров][*14:просмотров][?:просмотров]}</word>
   <word key="deleted_file" js="0">Удалён файл</word>
@@ -468,8 +468,8 @@
   <word key="x_commented_file" js="0">%s прокомментировал файл</word>
   <word key="x_reviewed_file" js="0">%s оставил отзыв к файлу</word>
   <word key="paid_file_settings" js="0">Настройки платных файлов</word>
-  <word key="idm_nexus_on" js="0">Включить платные файлы</word>
-  <word key="idm_nexus_on_desc" js="0"><![CDATA[Если включено, пользователи, которые имеют соответствующие права, смогут создавать файлы, которые должны быть куплены перед скачиванием.<br>Вы можете контролировать, какие группы могут создавать платные файлы, в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>.<br>Когда кто-либо купит файл, деньги будут зачислены на баланс аккаунта владельца файла. Вы можете контролировать, как пользователи смогут выводить средства, на странице настроек <a href='{internal.app=nexus&module=payments&controller=payouts&do=settings}'>вывода средств</a>.]]></word>
+  <word key="idm_nexus_on" js="0">Включить платные файлы?</word>
+  <word key="idm_nexus_on_desc" js="0"><![CDATA[Если включено, то пользователи с соответствующими правами смогут создавать файлы, которые необходимо купить прежде чем скачать.<br>Вы можете управлять тем, какие группы могут создавать платные файлы, в <a href='{internal.app=core&module=members&controller=groups}'>настройках групп</a>.<br>Когда кто-либо покупает платный файл, средства зачисляются на баланс аккаунта автора этого файла. Вы можете управлять тем, как пользователи могут выводить средства, на странице настроек <a href='{internal.app=nexus&module=payments&controller=payouts&do=settings}'>выплат</a>.]]></word>
   <word key="idm_nexus_tax" js="0">Тип налога для платных файлов</word>
   <word key="idm_nexus_percent" js="0">Комиссия сайта</word>
   <word key="idm_nexus_percent_desc" js="0">Указанный процент будет вычтен из суммы, которую получит владелец файла. Например, если вы установите его в размере 10%, а кто-то купит файл по цене $10, то владелец файла получит $9, а $1 будет сохранён на вашем сайте.</word>
@@ -553,7 +553,6 @@
   <word key="select_your_file" js="0">Выберите свой файл</word>
   <word key="save_and_submit_file" js="0">Сохранить и опубликовать файл</word>
   <word key="save_and_submit_new_version" js="0">Сохранить и опубликовать новую версию</word>
-  <word key="downloads_single_upload" js="0">Эта категория позволяет загружать один файл. Чтобы загрузить новый файл, удалите существующий файл, затем загрузите новый файл.</word>
   <word key="stats_overview_downloads" js="0">Загрузка файлов</word>
   <word key="stats_overview_downloads_desc" js="0">Журнал загрузок и срок хранения логов могут быть скорректированы для каждой категории</word>
   <word key="loc_downloads_viewing_file_action" js="0">%s просматривает файл</word>
@@ -570,7 +569,7 @@
   <word key="file_unsubscribed" js="0">Новые обновления версии отключены</word>
   <word key="file_notify_heading" js="0">Новые обновления версий</word>
   <word key="file_notify_current" js="0">В настоящее время Вы получаете эти оповещения %s</word>
-  <word key="file_notify_none" js="0">У Вас нет настроенных способов для оповещений</word>
+  <word key="file_notify_none" js="0">У вас нет настроенных способов уведомления</word>
   <word key="file_version_pending_approval" js="0">Новая версия этого файла еще не утверждена и видна только администрации. Предыдущая версия файла остается видимой для участников.</word>
   <word key="pending_no_new_files" js="0">Эта версия не имеет обновленных файлов.</word>
   <word key="pending_no_changelog" js="0">Автор не предоставил журнал изменений для этой версии.</word>
@@ -600,5 +599,13 @@
   <word key="download_purchase_terms_desc" js="0">Перед покупкой необходимо согласиться со следующими условиями:</word>
   <word key="agree_and_purchase" js="0">Согласиться и купить</word>
   <word key="file_new_version_date" js="0">Опубликована новая версия: %s</word>
+  <word key="__defart_downloads_file_comment_plural" js="0">{!#[*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]} к файлу</word>
+  <word key="__defart_downloads_file_plural" js="0">{!#[*1:файл][*2:файла][*3:файла][*4:файла][*11:файлов][*12:файлов][*13:файлов][*14:файлов][?:файлов]}</word>
+  <word key="__defart_downloads_file_review_plural" js="0">{!#[*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]} о файле</word>
+  <word key="crequire_changelog" js="0">Требовать историю изменений?</word>
+  <word key="menu__downloads_stats_topdownloads" js="0">Топ файлов</word>
+  <word key="r__topdownloads_manage" js="0">Может просматривать топ файлов?</word>
+  <word key="notification__new_file_version_title" js="0">Файл был обновлён</word>
+  <word key="makePrimary" js="1">Основной</word>
  </app>
 </language>

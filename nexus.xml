@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.4.2" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.6.3-beta.1" long_version="46300" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="nexus" version="">
   <word key="__app_nexus" js="0">Коммерция</word>
   <word key="menutab__nexus" js="0">Коммерция</word>
@@ -54,7 +54,7 @@
   <word key="filestorage__nexus_PurchaseFields" js="0">Поля покупки</word>
   <word key="ipAddresses__nexus_Transactions" js="0">Транзакции</word>
   <word key="ipAddresses__nexus_CustomerHistory" js="0">История клиента</word>
-  <word key="ipAddresses__nexus_Payouts" js="0">Вывод средств</word>
+  <word key="ipAddresses__nexus_Payouts" js="0">Выплаты</word>
   <word key="ipAddresses__nexus_Support" js="0">Запросы в поддержку</word>
   <word key="acp_search_title_nexus_Nexus" js="0">Коммерция</word>
   <word key="view_customer_data" js="0">Данные клиента</word>
@@ -74,7 +74,7 @@
   <word key="contact_nexus_department" js="0">Создать запрос в поддержку</word>
   <word key="contact_nexus" js="0">Отдел</word>
   <word key="contact_nexus_no_departments" js="0">Отправить в отдел Коммерции как запрос в поддержку</word>
-  <word key="contact_nexus_no_departments_desc" js="0"><![CDATA[У вас нет созданных отделов.<br>Создайте <a href='{internal.app=nexus&module=support&controller=settings&tab=departments&do=form}' target='_blank' rel='noopener'>новый отдел</a>]]></word>
+  <word key="contact_nexus_no_departments_desc" js="0"><![CDATA[У вас не создано ни одного отдела.<br>Создайте <a href='{internal.app=nexus&module=support&controller=settings&tab=departments&do=form}' target='_blank' rel='noopener'>новый отдел</a>]]></word>
   <word key="contact_nexus_title" js="0">Запрос в поддержку создан через форму обратной связи</word>
   <word key="nexus_nodeletedept_contactus" js="0"><![CDATA[Отдел, который вы пытаетесь удалить, в данный момент установлен в качестве отдела для получения сообщений из формы обратной связи. Вы должны изменить настройки <a href='{internal.app=core&module=settings&controller=contactus}'>Обратной связи</a> перед тем, как сможете удалить этот отдел.]]></word>
   <word key="menu__nexus_stock_gateways" js="0">Способы оплаты</word>
@@ -1227,11 +1227,11 @@
   <word key="history_altcontact_add" js="0">Добавлен альтернативный контакт %s%s.</word>
   <word key="history_altcontact_edit" js="0">Изменён альтернативный контакт %s%s.</word>
   <word key="history_altcontact_delete" js="0">Удалён альтернативный контакт %s%s.</word>
-  <word key="history_payout_autoprocess" js="0">Выведено %s (обработано автоматически).</word>
-  <word key="history_payout_request" js="0">Средства в размере %s запрошены на вывод</word>
-  <word key="history_payout_cancel" js="0">Запрос на вывод %s отменён%s</word>
-  <word key="history_payout_processed" js="0">Запрос на вывод %s обработан%s</word>
-  <word key="history_payout_dismissed" js="0">Запрос на вывод %s отклонён%s</word>
+  <word key="history_payout_autoprocess" js="0">Выплачено %s (обработано автоматически).</word>
+  <word key="history_payout_request" js="0">Запрошена выплата в размере %s</word>
+  <word key="history_payout_cancel" js="0">Запрос на выплату %s отменён%s</word>
+  <word key="history_payout_processed" js="0">Запрос на выплату %s обработан%s</word>
+  <word key="history_payout_dismissed" js="0">Запрос на выплату %s отклонён%s</word>
   <word key="history_lkey_activated" js="0">Лицензионный ключ на %s активирован.</word>
   <word key="history_lkey_reset" js="0">Лицензионный ключ на %s сброшен%s. Сейчас %s, был %s.</word>
   <word key="history_download_with_purchase" js="0">Загружен %s для %s</word>
@@ -1316,15 +1316,15 @@
   <word key="no_license_key_generated" js="0">Лицензионный ключ не сгенерирован.</word>
   <word key="license_key_uses" js="0">Использование лицензионного ключа</word>
   <word key="see_license_usage" js="0">Просмотреть информацию об использовании</word>
-  <word key="menu__nexus_payments_payouts" js="0">Вывод средств</word>
-  <word key="payout_description" js="0"><![CDATA[Если у вас настроена <a href='{internal.app=nexus&module=promotion&controller=refrules}'>система приглашений</a> или интегрирована оплата в других местах вашего сайта, таких как система файлов, пользователи смогут зарабатывать деньги с помощью вашего сайта.<br>Все заработанные деньги будут зачислены на баланс аккаунта пользователя. Вы можете разрешить вывод средств с сайта, если хотите.]]></word>
+  <word key="menu__nexus_payments_payouts" js="0">Выплаты</word>
+  <word key="payout_description" js="0"><![CDATA[Если у вас настроена <a href='{internal.app=core&module=membersettings&controller=referrals}'>система рефералов</a> или вы используете оплату в других областях вашего сайта, таких как система файлов, пользователи смогут зарабатывать деньги с помощью вашего сообщества.<br>Все заработанные деньги будут зачисляться на балансы аккаунтов. Если вы хотите, вы можете позволить пользователям запрашивать выплаты этих средств.]]></word>
   <word key="account_credit_settings" js="0">Настройки баланса аккаунтов</word>
-  <word key="payout_settings" js="0">Настройки вывода средств</word>
+  <word key="payout_settings" js="0">Настройки выплат</word>
   <word key="commission_settings" js="0">Настройки комиссии</word>
   <word key="nexus_no_commission" js="0">Группы, которые не получают комиссию</word>
   <word key="nexus_no_commission_desc" js="0">Указанные группы никогда не будут получать деньги на баланс аккаунта за приглашённых клиентов или продажу файлов через приложение Файлы. Вы можете указать группы сотрудников сайта, комиссия которых должна перечисляться в адрес сайта.</word>
-  <word key="nexus_payout" js="0">Доступные методы вывода средств</word>
-  <word key="withdrawal_methods" js="0">Методы вывода средств</word>
+  <word key="nexus_payout" js="0">Доступные способы выплаты</word>
+  <word key="withdrawal_methods" js="0">Способы выплаты</word>
   <word key="payout__admin_PayPal" js="0">PayPal</word>
   <word key="payout__admin_PayPal_desc" js="0"><![CDATA[Деньги будут перечислены с вашего аккаунта PayPal на аккаунт PayPal пользователя. Ваш аккаунт <a href='{external.paypal_app_status}' target='_blank' rel='noopener'>должен поддерживать</a> Выплаты.]]></word>
   <word key="paypal_api_email" js="0">Email-адрес PayPal</word>
@@ -1337,10 +1337,10 @@
   <word key="payout__front_PayPal" js="0">PayPal</word>
   <word key="payout__data_PayPal" js="0">Email-адрес PayPal</word>
   <word key="payout__data_Manual" js="0">Описание платежа</word>
-  <word key="nexus_payout_min" js="0">Минимальная сумма для вывода</word>
-  <word key="nexus_payout_maximum" js="0">Максимальная сумма для вывода</word>
-  <word key="max_withdrawl_exceeded" js="0">Вы превысили максимальную сумму вывода средств в этой валюте</word>
-  <word key="nexus_payout_approve" js="0">Вывод средств должен быть утверждён</word>
+  <word key="nexus_payout_min" js="0">Минимальная сумма выплаты</word>
+  <word key="nexus_payout_maximum" js="0">Максимальная сумма выплаты</word>
+  <word key="max_withdrawl_exceeded" js="0">Вы превысили максимальную сумму выплаты в этой валюте</word>
+  <word key="nexus_payout_approve" js="0">Выплаты должны быть утверждены?</word>
   <word key="po_status" js="0">Статус</word>
   <word key="po_id" js="0">ID</word>
   <word key="po_gateway" js="0">Способ оплаты</word>
@@ -1351,34 +1351,34 @@
   <word key="postatus_done" js="0">Завершено</word>
   <word key="postatus_pend" js="0">Ожидает</word>
   <word key="postatus_canc" js="0">Отменён</word>
-  <word key="payout_number" js="0">Вывод средств № %d</word>
+  <word key="payout_number" js="0">Выплата № %d</word>
   <word key="payout_method" js="0">Запрошено через %s</word>
-  <word key="payout_status" js="0">Статус вывода средств</word>
+  <word key="payout_status" js="0">Статус выплаты</word>
   <word key="payout_pending" js="0">Ожидает утверждения</word>
   <word key="payout_processed" js="0">Обработано</word>
   <word key="payout_cancel_confirm" js="0">Вы действительно хотите вернуть средства на баланс аккаунта пользователя?</word>
   <word key="payout_canceled" js="0">Отменён</word>
   <word key="payout__data_Stripe" js="0">Банковские реквизиты</word>
-  <word key="stripe_payout_deprecated" js="0">Stripe прекратил работу сервиса по выплатам пользователям. Отмените этот запрос на вывод средств и попросите пользователя выбрать другой способ вывода средств.</word>
+  <word key="stripe_payout_deprecated" js="0">Stripe отключил возможность выплаты пользователям. Отмените этот запрос на выплату и предоставьте пользователю альтернативный способ выплаты.</word>
   <word key="payout__admin_Manual" js="0">Ручной</word>
-  <word key="payout__admin_Manual_desc" js="0">Вы можете потребовать от пользователя произвольные сведения для обработки вывода средств вручную. Например, вы можете попросить почтовый адрес и отправить пользователю чек на определённую сумму.</word>
+  <word key="payout__admin_Manual_desc" js="0">Вы можете запросить у пользователя произвольные сведения для выполнения ручной выплаты. Например, вы можете запросить почтовый адрес и отправить пользователю чек на определённую сумму.</word>
   <word key="manual_name" js="0">Название ручного метода</word>
-  <word key="manual_name_desc" js="0">Название ручного метода, которое пользователь сможет выбрать из списка доступных методов вывода средств.</word>
+  <word key="manual_name_desc" js="0">Название, которое будет отображаться для ручного способа, когда пользователь выбирает способ выплаты.</word>
   <word key="manual_title" js="0">Заголовок ручного метода</word>
-  <word key="manual_title_desc" js="0">Пользователь увидит поле ввода для указания информации, необходимой для обработки вывода средств. Данный текст будет использоваться в качестве заголовка этого поля.</word>
+  <word key="manual_title_desc" js="0">Пользователь увидит текстовое поле для указания информации, необходимой для обработки выплаты. Введённый здесь текст будет использоваться в качестве заголовка этого поля.</word>
   <word key="payout__front_Manual" js="0">Другой</word>
   <word key="topup_settings" js="0">Настройки пополнения</word>
   <word key="allow_topups" js="0">Разрешить пользователям пополнять баланс аккаунта</word>
   <word key="nexus_min_topup" js="0">Минимальная сумма</word>
   <word key="nexus_max_credit" js="0">Максимальный баланс</word>
-  <word key="err_payout_not_pending" js="0">Этот запрос на вывод средств не находится в ожидании.</word>
-  <word key="acplogs__payout_processed" js="0">Обработан запрос на вывод %d</word>
-  <word key="acplogs__payout_cancelled" js="0">Отменён запрос на вывод %d</word>
-  <word key="acplogs__payout_deleted" js="0">Удалён запрос на вывод %d</word>
+  <word key="err_payout_not_pending" js="0">Этот запрос на выплату не находится в ожидании.</word>
+  <word key="acplogs__payout_processed" js="0">Обработан запрос на выплату %d</word>
+  <word key="acplogs__payout_cancelled" js="0">Отменён запрос на выплату %d</word>
+  <word key="acplogs__payout_deleted" js="0">Удалён запрос на выплату %d</word>
   <word key="acplogs__payout_settings" js="0">Обновлены настройки баланса аккаунтов</word>
-  <word key="account_credit_mass_payout" js="0">Утвердить все %s запросов на вывод средств</word>
-  <word key="payout_view" js="0">Просмотреть вывод средств</word>
-  <word key="payout_details" js="0">Информация о выводе средств</word>
+  <word key="account_credit_mass_payout" js="0">Утвердить все выплаты через %s</word>
+  <word key="payout_view" js="0">Просмотреть выплату</word>
+  <word key="payout_details" js="0">Информация о выплате</word>
   <word key="r__transactions" js="0">Транзакции</word>
   <word key="r__transactions_manage" js="0">Может просматривать транзакции</word>
   <word key="r__transactions_edit" js="0">Может утверждать/аннулировать транзакции</word>
@@ -1426,15 +1426,14 @@
   <word key="r__customerfeedback_manage" js="0">Может управлять настройкой отзывов клиентов</word>
   <word key="r__outgoingemail_manage" js="0">Может управлять настройками исходящей почты</word>
   <word key="r__incomingemail_manage" js="0">Может управлять настройками входящие почты</word>
-  <word key="r__stats" js="0">Статистика</word>
   <word key="r__volume_manage" js="0">Может просматривать статистику новых запросов в поддержку</word>
   <word key="r__requests_merge" js="0">Может объединять запросы в поддержку</word>
   <word key="r__requests_split" js="0">Может объединять запросы в поддержку</word>
   <word key="r__requests_delete" js="0">Может удалять запросы в поддержку</word>
   <word key="r__requests_reply_delete" js="0">Может удалять ответы</word>
   <word key="r__requests_block_sev" js="0">Может отменять/восстанавливать права пользователей на установку уровней запросов</word>
-  <word key="r__requests_ratings" js="0">Может просматривать рейтинг клиентов на ответ поддержки</word>
-  <word key="r__requests_ratings_feedback" js="0">Может просматривать отзыв клиентов на ответ поддержки (требуются права на просмотр рейтинга)</word>
+  <word key="r__requests_ratings" js="0">Может просматривать рейтинг, который клиенты дали ответам поддержки?</word>
+  <word key="r__requests_ratings_feedback" js="0">Может просматривать отзывы, которые клиенты дали ответам поддержки? (Требуются права на просмотр рейтинга)</word>
   <word key="already_rated" js="0">Вы уже оценили этот отзыв</word>
   <word key="r__customers" js="0">Клиенты</word>
   <word key="r__customers_view" js="0">Может просматривать клиентов</word>
@@ -1449,11 +1448,11 @@
   <word key="r__errors_manage" js="0">Может просматривать, повторять и удалять ошибки связи и сервером</word>
   <word key="r__transaction_review_settings" js="0">Может управлять настройками проверки транзакций</word>
   <word key="r__email_copies_settings" js="0">Может управлять настройками копий email-уведомлений</word>
-  <word key="r__payouts" js="0">Вывод средств</word>
-  <word key="r__payouts_manage" js="0">Может просматривать запросы на вывод средств</word>
-  <word key="r__payouts_process" js="0">Может обрабатывать запросы на вывод средств</word>
-  <word key="r__payouts_cancel" js="0">Может отменять запросы на вывод средств</word>
-  <word key="r__payouts_delete" js="0">Может удалять запросы на вывод средств</word>
+  <word key="r__payouts" js="0">Выплаты</word>
+  <word key="r__payouts_manage" js="0">Может просматривать запросы на выплату</word>
+  <word key="r__payouts_process" js="0">Может обрабатывать запросы на выплату</word>
+  <word key="r__payouts_cancel" js="0">Может отменять запросы на выплату</word>
+  <word key="r__payouts_delete" js="0">Может удалять запросы на выплату</word>
   <word key="r__payouts_settings" js="0">Может управлять настройкой баланса аккаунтов</word>
   <word key="r__purchases_manage" js="0">Может просматривать статистику по продажам</word>
   <word key="r__income" js="0">Доход</word>
@@ -2451,17 +2450,17 @@
   <word key="client_alternatives" js="0">Альтернативные контакты</word>
   <word key="client_cards" js="0">Способы оплаты</word>
   <word key="client_credit" js="0">Баланс аккаунта</word>
-  <word key="withdraw_method" js="0">Метод вывода средств</word>
+  <word key="withdraw_method" js="0">Способ выплаты</word>
   <word key="withdraw__Manual" js="0">Другой</word>
   <word key="withdraw__PayPal" js="0">PayPal</word>
   <word key="paypal_email" js="0">Email-адрес аккаунта PayPal</word>
   <word key="withdraw__Stripe" js="0">Банковский счет</word>
   <word key="withdraw_currency" js="0">Валюта</word>
-  <word key="withdraw_amount" js="0">Сумма для вывода</word>
-  <word key="payout_status_pending" js="0">Ваш запрос на вывод средств был получен. Мы вышлем вам письмо, когда он будет обработан.</word>
-  <word key="payout_status_success" js="0">Ваш запрос на вывод средств был обработан и средства были отправлены.</word>
-  <word key="withdraw_credit" js="0">Вывод средств</word>
-  <word key="mailsub__nexus_payoutComplete" js="0">Вывод средств завершён</word>
+  <word key="withdraw_amount" js="0">Сумма выплаты</word>
+  <word key="payout_status_pending" js="0">Ваш запрос на выплату получен. Мы отправим вам письмо, когда он будет обработан.</word>
+  <word key="payout_status_success" js="0">Ваш запрос на выплату был обработан и средства были отправлены.</word>
+  <word key="withdraw_credit" js="0">Выплата</word>
+  <word key="mailsub__nexus_payoutComplete" js="0">Выплата выполнена</word>
   <word key="topup_account" js="0">Аккаунт</word>
   <word key="topup_currency" js="0">Валюта</word>
   <word key="topup_amount" js="0">Сумма</word>
@@ -2517,21 +2516,21 @@
   <word key="credit_add_title" js="0">Пополнить баланс вашего аккаунта</word>
   <word key="credit_withdraw" js="0">Вывести средства</word>
   <word key="credit_withdraw_title" js="0">Вывести средства с вашего аккаунта</word>
-  <word key="credit_withdraw_dialog" js="0">Вывод средств с аккаунта</word>
+  <word key="credit_withdraw_dialog" js="0">Выплата с баланса аккаунта</word>
   <word key="credit_altcontact" js="0">Вы являетесь альтернативным контактом следующих аккаунтов.</word>
-  <word key="credit_withdrawal_history" js="0">История вывода средств</word>
-  <word key="credit_withdraw_complete" js="0">Вывод средств завершён</word>
-  <word key="credit_withdraw_pending" js="0">Этот вывод средств в ожидании</word>
-  <word key="credit_withdraw_cancelled" js="0">Этот вывод средств был отменён</word>
-  <word key="credit_withdraw_cancel_confirm" js="0">Вы уверены, что хотите отменить этот вывод средств?</word>
-  <word key="credit_no_withdrawals" js="0">У вас ещё нет никаких запросов на вывод средств.</word>
+  <word key="credit_withdrawal_history" js="0">История выплат</word>
+  <word key="credit_withdraw_complete" js="0">Выплата выполнена</word>
+  <word key="credit_withdraw_pending" js="0">Эта выплата в ожидании</word>
+  <word key="credit_withdraw_cancelled" js="0">Эта выплата была отменена</word>
+  <word key="credit_withdraw_cancel_confirm" js="0">Вы уверены, что хотите отменить эту выплату?</word>
+  <word key="credit_no_withdrawals" js="0">У вас пока нет никаких выплат.</word>
   <word key="orders_title" js="0">Ваши заказы</word>
   <word key="order_view_details" js="0">Подробнее</word>
   <word key="orders_view_details_title" js="0">Просмотреть информацию о заказе</word>
   <word key="orders_no_items" js="0">Нет товаров в этом заказе</word>
   <word key="orders_cancel" js="0">Отменить счёт</word>
   <word key="orders_cancel_title" js="0">Отменить этот счёт сейчас</word>
-  <word key="orders_none" js="0">У вас нет заказов для отображения</word>
+  <word key="orders_none" js="0">У вас нет никаких заказов</word>
   <word key="order_title" js="0">Заказ</word>
   <word key="order_invoice_print" js="0">Печать счёта</word>
   <word key="order_po_number" js="0">Номер заказа</word>
@@ -2570,7 +2569,7 @@
   <word key="purchases_renewal_price" js="0">Продлить с</word>
   <word key="purchases_manage_purchase" js="0">Управление этой покупкой</word>
   <word key="purchases_info" js="0">Покупки, сделанные вами, которые имеют связанные настройки или данные, могут управляться из этого раздела.</word>
-  <word key="purchases_none" js="0">У вас нет никаких покупок, которыми можно управлять.</word>
+  <word key="purchases_none" js="0">У вас пока нет никаких покупок, которыми можно управлять</word>
   <word key="customerinfo_title" js="0">Информация о клиенте</word>
   <word key="print_gift_card" js="0">Печать подарочной карты</word>
   <word key="product_options_price_error" js="0">Возникла ошибка корректировки цены с выбранными вами параметрами. Пожалуйста, свяжитесь с нами для получения помощи.</word>
@@ -3088,7 +3087,7 @@
   <word key="pendingActions_stuff" js="0">Товары для отображения</word>
   <word key="pending_transactions" js="0">Транзакций для проверки</word>
   <word key="pending_shipments" js="0">Ожидающие отгрузки</word>
-  <word key="pending_widthdrawals" js="0">Запросов на вывод средств</word>
+  <word key="pending_widthdrawals" js="0">Ожидающие выплаты</word>
   <word key="open_support_requests" js="0">Запросов в поддержку</word>
   <word key="pending_advertisements" js="0">Ожидающая реклама</word>
   <word key="hosting_errors" js="0">Ошибок связи с сервером</word>
@@ -3129,7 +3128,7 @@
   <word key="email_commission_rev_no_product" js="0"><![CDATA[Покупка была отменёна и <strong>%s</strong> были сняты с баланса вашего аккаунта.]]></word>
   <word key="email_commission_rev_no_product_plain" js="0">Покупка была отменёна и %s были сняты с баланса вашего аккаунта.</word>
   <word key="email_commission_info_no_payout" js="0">Вы можете использовать эти средства для покупок или продления в нашем магазине.</word>
-  <word key="email_commission_info_payout" js="0">Вы можете использовать эти средства для покупок или продления в нашем магазине, или запросить вывод средств.</word>
+  <word key="email_commission_info_payout" js="0">Вы можете использовать эти средства для покупок или продлений в нашем магазине, либо запросить выплату.</word>
   <word key="email_shipment_done" js="0">Следующие товары с вашего последнего заказа (заказ № %s) были отправлены.</word>
   <word key="email_shipping_method" js="0">Способ доставки</word>
   <word key="email_tracking_number" js="0">Код отслеживания</word>
@@ -3143,7 +3142,7 @@
   <word key="email_invoice_number" js="0">Номер счёта</word>
   <word key="email_purchase_date" js="0">Куплено</word>
   <word key="email_order_total" js="0">Сумма заказа</word>
-  <word key="email_payout_message" js="0">Ваш запрос на вывод %s (размещён %s) успешно обработан %s.</word>
+  <word key="email_payout_message" js="0">Ваш запрос на выплату в размере %s (был размещён %s) успешно обработан %s.</word>
   <word key="email_paid_by" js="0">Оплачен через</word>
   <word key="email_invoice_outstanding" js="0">%s ожидают оплаты.</word>
   <word key="email_payment_unsuccessful" js="0">Мы пробовали оплатить с %s, но попытка была неудачной.</word>
@@ -3221,16 +3220,16 @@
   <word key="frontnavigation_support" js="0">Поддержка</word>
   <word key="__api_nexus_invoices" js="0">Счета</word>
   <word key="__api_nexus_transactions" js="0">Транзакции</word>
-  <word key="__api_nexus_withdrawals" js="0">Выводы средств</word>
+  <word key="__api_nexus_withdrawals" js="0">Выплаты</word>
   <word key="__api_nexus_purchases" js="0">Покупки</word>
   <word key="__api_nexus_shipments" js="0">Отгрузки</word>
   <word key="__api_nexus_supportrequests" js="0">Запросы в поддержку</word>
-  <word key="__api_nexus_supportreplies" js="0">Ответы в поддержку</word>
+  <word key="__api_nexus_supportreplies" js="0">Ответы в поддержке</word>
   <word key="__api_nexus_lkey" js="0">Лицензионные ключи</word>
   <word key="support_request_pl" js="0">Запросы в поддержку</word>
   <word key="support_request_pl_lc" js="0">запросы в поддержку</word>
   <word key="moving_customer_history" js="0">Перемещение истории клиента в историю пользователя</word>
-  <word key="MFA_nexus_AccountCredit" js="0">Просматривает баланс аккаунта, пополняет или выводит средства</word>
+  <word key="MFA_nexus_AccountCredit" js="0">Просматривает, пополняет баланс аккаунта или выводит средства</word>
   <word key="MFA_nexus_Addresses" js="0">Управляет адресами</word>
   <word key="MFA_nexus_Alternatives" js="0">Управляет альтернативными контактами</word>
   <word key="MFA_nexus_BillingAgreements" js="0">Управляет подписками PayPal</word>
@@ -3403,10 +3402,10 @@
   <word key="mailsub__nexus_acp_notification_Transaction" js="0"><![CDATA[Транзакция #{$transaction->name|raw} требует ручного действия]]></word>
   <word key="acp_notification_Support" js="0">Открытые запросы в поддержку</word>
   <word key="acpNotification_nexusSupport" js="0">{# [*1:открытый запрос][*2:открытых запроса][*3:открытых запроса][*4:открытых запроса][*11:открытых запросов][*12:открытых запросов][*13:открытых запросов][*14:открытых запросов][?:открытых запросов]} в поддержку</word>
-  <word key="acp_notification_Withdrawals" js="0">Пользователь запрашивает вывод средств</word>
-  <word key="acpNotification_nexusWithdrawals" js="0">{# [*1:запрос][*2:запроса][*3:запроса][*4:запроса][*11:запросов][*12:запросов][*13:запросов][*14:запросов][?:запросов]} на выводов средств</word>
-  <word key="mailsub__nexus_acp_notification_Withdrawal" js="0"><![CDATA[Запрос на вывод средств #{$transaction->name|raw} ожидает утверждения]]></word>
-  <word key="email_notify_withdrawal" js="0">Пользователь запросил вывод средств со своего баланса аккаунта. Администратор должен утвердить или отклонить этот запрос.</word>
+  <word key="acp_notification_Withdrawals" js="0">Пользователь запрашивает выплату</word>
+  <word key="acpNotification_nexusWithdrawals" js="0">{# [*1:ожидающая выплата][*2:ожидающих выплаты][*3:ожидающих выплаты][*4:ожидающих выплаты][*11:ожидающих выплат][*12:ожидающих выплат][*13:ожидающих выплат][*14:ожидающих выплат][?:ожидающих выплат]} </word>
+  <word key="mailsub__nexus_acp_notification_Withdrawal" js="0"><![CDATA[Выплата #{$transaction->name|raw} ожидает утверждения]]></word>
+  <word key="email_notify_withdrawal" js="0">Пользователь запросил выплату со своего баланса аккаунта. Администратор должен утвердить либо отклонить этот запрос.</word>
   <word key="acp_notification_Shipments" js="0">Отгрузка готова к отправке</word>
   <word key="acpNotification_nexusShipments" js="0">{# [*1:отгрузка, ожидающая][*2:отгрузки, ожидающих][*3:отгрузки, ожидающих][*4:отгрузки, ожидающих][*11:отгрузок, ожидающих][*12:отгрузок, ожидающих][*13:отгрузок, ожидающих][*14:отгрузок, ожидающих][?:отгрузок, ожидающих]} отправки</word>
   <word key="mailsub__nexus_acp_notification_Shipment" js="0"><![CDATA[Отгрузка #{$transaction->name|raw} готова к отправке]]></word>
@@ -3451,7 +3450,7 @@
   <word key="emailstats__autoresolveWarning" js="0">Запрос в поддержку был автоматически закрыт</word>
   <word key="emailstats__package_customemail" js="0">Настраиваемое письмо продукта</word>
   <word key="emailstats__acp_notification_Transaction" js="0">Уведомление администратора о транзакции, требующей утверждения</word>
-  <word key="emailstats__acp_notification_Withdrawal" js="0">Уведомление администратора о запросе на вывод средств, ожидающем утверждения</word>
+  <word key="emailstats__acp_notification_Withdrawal" js="0">Уведомление администратора о запросе на выплату, которая ожидает утверждения</word>
   <word key="emailstats__acp_notification_Shipment" js="0">Уведомление администратора о новой отгрузке, требующей отправки</word>
   <word key="emailstats__acp_notification_HostingError" js="0">Уведомление администратора об ошибке хостинга</word>
   <word key="emailstats__acp_notification_Advertisement" js="0">Уведомление администратору о покупке рекламы, ожидающей утверждения</word>
@@ -3459,7 +3458,7 @@
   <word key="emailtpl_acp_notification_Transaction" js="0">Уведомление администратора о транзакции, ожидающей утверждения</word>
   <word key="emailtpl_acp_notification_Advertisement" js="0">Уведомление администратору о рекламе, ожидающей утверждения</word>
   <word key="emailtpl_acp_notification_Shipment" js="0">Уведомление администратора об ожидающей отгрузке</word>
-  <word key="emailtpl_acp_notification_Withdrawal" js="0">Уведомление администратора о запросе на вывод средств</word>
+  <word key="emailtpl_acp_notification_Withdrawal" js="0">Уведомление администратора о запросе на выплату</word>
   <word key="payment_error" js="1">Возникла ошибка при обработке платежа. Пожалуйста, попробуйте другой способ оплаты или свяжитесь с нами для получения помощи.</word>
   <word key="support_ajax_error" js="1">Возникла ошибка. Ваша сессия истекла. Обновите страницу и попробуйте ещё раз.</word>
   <word key="click_to_show_url" js="1">Нажмите для отображения реальной ссылки</word>
@@ -3605,5 +3604,35 @@
   <word key="nexus_subs_subscribed_with_expire_no_renewal" js="0">Срок действия Вашей текущей подписки истекает %s</word>
   <word key="nexus_subs_subscribed_expired" js="0">Срок действия Вашей подписки истек.</word>
   <word key="billing_agreement_check" js="0">Проверить</word>
+  <word key="__defart_support_request_plural" js="0">{!#[*1:запрос][*2:запроса][*3:запроса][*4:запроса][*11:запросов][*12:запросов][*13:запросов][*14:запросов][?:запросов]} в поддержку</word>
+  <word key="__defart_product_reviews_plural" js="0">{!#[*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]} о продукте</word>
+  <word key="__defart_product_plural" js="0">{!#[*1:продукт][*2:продукта][*3:продукта][*4:продукта][*11:продуктов][*12:продуктов][*13:продуктов][*14:продуктов][?:продуктов]}</word>
+  <word key="product_groups_sg" js="0">Группа продукта</word>
+  <word key="mailsub__nexus_invoiceNotify" js="0">Отслеживаемый отзыв был отмечен оплаченным</word>
+  <word key="invoice_track" js="0">Отслеживать</word>
+  <word key="invoice_untrack" js="0">Не отслеживать</word>
+  <word key="can_not_reactivate" js="0">Эта покупка не может быть активировано снова.</word>
+  <word key="nexus_payout_confirm_title" js="0">Обработать выплаты</word>
+  <word key="nexus_payout_proceed" js="0">Выполнено</word>
+  <word key="nexus_payout_confirm_text" js="0">Вы уверены? Это действие нельзя отменить</word>
+  <word key="nexus_payout_unlimited_times" js="0">Неограниченное количество выплат?</word>
+  <word key="nexus_payout_unlimited_times_desc" js="0">Когда отключено, пользователю потребуется отменить все ожидающие запросы на выплату (в той же валюте) перед созданием нового запроса.</word>
+  <word key="not_enough_in_stock_checkout" js="0">Для исполнения вашего заказа недостаточно запасов. На складе {!#[*1:осталась # штука][*2:осталось # штуки][*3:осталось # штуки][*4:осталось # штуки][*11:осталось # штук][*12:осталось # штук][*13:осталось # штук][*14:осталось # штук][?:осталось # штук]} %s.</word>
+  <word key="email_tracked_invoice_paid" js="0">Счёт, который вы отслеживаете, был отмечен оплаченным</word>
+  <word key="emailtpl_invoiceNotify" js="0">Отслеживаемый счёт отмечен оплаченным</word>
+  <word key="view_this_product" js="0">Просмотреть продукт</word>
+  <word key="not_with_existing_subscription" js="0">Эта покупка не может быть повторно активирована, поскольку у этого клиента уже есть существующая подписка.</word>
+  <word key="achievement_filter_Subscriptions_node_prefix" js="0">Подписки</word>
+  <word key="achievement_filter_Subscriptions_nth" js="0">Добавить условие по количеству</word>
+  <word key="achievement_filter_Subscriptions" js="0">Добавить условие по подписке</word>
+  <word key="achievement_filter_Subscription_nth_suffix" js="0">я подписка</word>
+  <word key="AchievementAction__Subscription" js="0">Пользователь покупает подписку</word>
+  <word key="AchievementAction__Subscription_title" js="0">Пользователь купил</word>
+  <word key="AchievementAction__Subscription_title_generic" js="0">подписку</word>
+  <word key="achievement_filter_Subscriptions_active" js="0">активные подписки</word>
+  <word key="achievements_filter_Subscription_type" js="0">с типом %s</word>
+  <word key="achievements_filter_Subscription_pl" js="0">%s подписки</word>
+  <word key="nexus_no_donations_found" js="0">В настоящее время пожертвований нет</word>
+  <word key="account_credit_remove_commission" js="0">Средства в размере %s будут списаны с %s (реферальная комиссия)</word>
  </app>
 </language>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.5.4.2" long_version="45003" update_check="https://redirect.ipshelp.ru/update/language-ru">
+<language name="Русский (RU)" rtl="0" author_name="Ilya Hoilik" author_url="https://ipshelp.ru" version="4.6.3-beta.1" long_version="46300" update_check="https://redirect.ipshelp.ru/update/language-ru">
  <app key="gallery" version="">
   <word key="__app_gallery" js="0">Галерея</word>
   <word key="frontnavigation_gallery" js="0">Галерея</word>
@@ -29,10 +29,10 @@
   <word key="menu__gallery_stats_bandwidth" js="0">Использование трафика</word>
   <word key="menu__gallery_gallery_settings" js="0">Настройки</word>
   <word key="image" js="0">Изображение</word>
-  <word key="gallery_image" js="0">Изображение галереи</word>
-  <word key="filestorage__gallery_Images" js="0">Изображения в приложении Галерея</word>
+  <word key="gallery_image" js="0">Изображение в галерее</word>
+  <word key="filestorage__gallery_Images" js="0">Изображения в галерее</word>
   <word key="acp_search_title_gallery_Categories" js="0">Категории галереи</word>
-  <word key="acp_search_title_gallery_Albums" js="0">Альбомы галереи</word>
+  <word key="acp_search_title_gallery_Albums" js="0">Альбомы в галерее</word>
   <word key="gallery_images" js="0">Изображения</word>
   <word key="gallery_media" js="0">Видео галереи</word>
   <word key="block_gallery_Overview" js="0">Статистика галереи</word>
@@ -41,15 +41,15 @@
   <word key="total_albums" js="0">Всего альбомов</word>
   <word key="largest_image" js="0">Самое большое изображение</word>
   <word key="most_viewed_image" js="0">Самое просматриваемое изображение</word>
-  <word key="editor__gallery_Albums" js="0">Альбомы галереи</word>
+  <word key="editor__gallery_Albums" js="0">Альбомы в галерее</word>
   <word key="editor__gallery_Categories" js="0">Категории галереи</word>
   <word key="editor__gallery_Gallery" js="0">Комментарии к изображениям</word>
-  <word key="editor__gallery_Images" js="0">Изображения галереи</word>
-  <word key="editorMedia_gallery_Images" js="0">Изображения галереи</word>
-  <word key="member_gallery_image" js="0">Использовать изображение галереи</word>
+  <word key="editor__gallery_Images" js="0">Изображения в галерее</word>
+  <word key="editorMedia_gallery_Images" js="0">Изображения в галерее</word>
+  <word key="member_gallery_image" js="0">Использовать изображение в галерее</word>
   <word key="member_restrictions__gallery_Gallery" js="0">Галерея</word>
   <word key="restriction_no_gallery_access" js="0">Запрещен доступ к галерее</word>
-  <word key="restriction_no_gallery_uploads" js="0">запрещена загрузка изображений в галерею</word>
+  <word key="restriction_no_gallery_uploads" js="0">Запрещена загрузка изображений в галерею</word>
   <word key="content_stats__gallery_Gallery" js="0">Галерея</word>
   <word key="group__gallery_Gallery" js="0">Галерея</word>
   <word key="gallery_album_permissions" js="0">Ограничения альбома</word>
@@ -170,8 +170,8 @@
   <word key="set_album_owner_me" js="0">Этот альбом для меня</word>
   <word key="set_album_owner_other" js="0">Этот альбом для кого-то другого</word>
   <word key="album_sort_caption" js="0">Заголовок</word>
-  <word key="modperms__core_Content_gallery_Image" js="0">Изображения галереи</word>
-  <word key="modperms__core_Content_gallery_Album_Item" js="0">Альбомы галереи</word>
+  <word key="modperms__core_Content_gallery_Image" js="0">Изображения в галерее</word>
+  <word key="modperms__core_Content_gallery_Album_Item" js="0">Альбомы в галерее</word>
   <word key="gallery_categories" js="0">Категории</word>
   <word key="can_pin_gallery_image" js="0">Может закреплять изображения</word>
   <word key="can_unpin_gallery_image" js="0">Может откреплять изображения</word>
@@ -241,13 +241,13 @@
   <word key="gallery_watermark_small" js="0">Миниатюры изображений</word>
   <word key="gallery_bandwidth" js="0">Запись трафика</word>
   <word key="gallery_detailed_bandwidth" js="0">Хранить подробные журналы трафика</word>
-  <word key="gallery_detailed_bandwidth_desc" js="0">Если включено, то Галерея будет записывать статистику просмотров изображений. Вы сможете просматривать, сколько трафика было использовано в течение определённого периода времени (в журнале использования трафика) или определённым пользователем (на странице его изменения).</word>
+  <word key="gallery_detailed_bandwidth_desc" js="0">Включение этой настройки позволит галерее отслеживать статистику просмотров изображений. После этого вы сможете просмотреть в журнале трафика статистику использованного трафика за какой-либо период, а также статистику трафика по конкретному пользователю на странице его изменения.</word>
   <word key="gallery_bandwidth_period" js="0">Количество часов хранения журналов трафика</word>
   <word key="gallery_options" js="0">Основные настройки</word>
   <word key="gallery_rss_enabled" js="0">Включить RSS-ленту последних изображений</word>
   <word key="gallery_rebuildimages" js="0">Перестроение изображений</word>
-  <word key="rebuilding_gallery_images" js="0">Перестроение изображений галереи</word>
-  <word key="cleaning_up_gallery_images" js="0">Очистка изображений галереи</word>
+  <word key="rebuilding_gallery_images" js="0">Перестроение изображений в галерее</word>
+  <word key="cleaning_up_gallery_images" js="0">Очистка изображений в галерее</word>
   <word key="gallery_maps_default" js="0">Включить карты по умолчанию</word>
   <word key="gallery_maps_default_desc" js="0">Пользователи смогут выбрать отображать или нет карту рядом с изображением, в данных которого присутствует геолокация. Этот вариант контролирует отображается ли такая карта по умолчанию или нет, однако пользователи могут изменить этот параметр при публикации своих изображений.</word>
   <word key="member__gallery_Images" js="0">Галерея</word>
@@ -276,9 +276,9 @@
   <word key="gallery_stats_disclaimer" js="0">* Эта статистика берётся из журнала трафика, который может быть отключен или периодически очищен</word>
   <word key="gallery_graph_disclaimer" js="0">Эти данные берутся из журнала трафика, который может быть отключен или периодически очищен.</word>
   <word key="member_images_chart" js="0">Статистика изображений: %s</word>
-  <word key="ad_image_lightbox" js="0">В лайтбоксе изображений галереи</word>
-  <word key="embed_gallery_album" js="0">Альбом галереи пользователя %s</word>
-  <word key="embed_gallery_image" js="0">Изображение галереи пользователя %s</word>
+  <word key="ad_image_lightbox" js="0">В лайтбоксе изображений в галерее</word>
+  <word key="embed_gallery_album" js="0">Альбом в галерее пользователя %s</word>
+  <word key="embed_gallery_image" js="0">Изображение в галерее пользователя %s</word>
   <word key="module__gallery_gallery" js="0">Галерея</word>
   <word key="add_gallery_image" js="0">Добавить изображения</word>
   <word key="add_gallery_image_movies" js="0">Добавить изображения или видео</word>
@@ -427,7 +427,7 @@
   <word key="unread_cat_images" js="0">В этой категории есть новые изображения</word>
   <word key="image_tools" js="0">Инструменты изображения</word>
   <word key="image_share" js="0">Поделиться</word>
-  <word key="cannot_download_original_image" js="0">У вас нет прав на скачивание изображений</word>
+  <word key="cannot_download_original_image" js="0">У вас недостаточно прав для скачивания изображений</word>
   <word key="cat_img_count" js="0">{# [*1:изображение][*2:изображения][*3:изображения][*4:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]}</word>
   <word key="cat_album_count" js="0">{# [*1:альбом][*2:альбома][*3:альбома][*4:альбома][*11:альбомов][*12:альбомов][*13:альбомов][*14:альбомов][?:альбомов]}</word>
   <word key="cat_comment_count" js="0">{# [*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]}</word>
@@ -442,7 +442,7 @@
   <word key="view_in_lightbox" js="0">Просмотреть в лайтбоксе</word>
   <word key="view_entire_album" js="0">Просмотреть весь альбом %s</word>
   <word key="events_in_album" js="0">{!# [1:Событие][?:События]} в этом альбоме</word>
-  <word key="notes_no_permission" js="0">У вас нет прав для изменения заметок к этому изображению</word>
+  <word key="notes_no_permission" js="0">У вас недостаточно прав для изменения заметок к этому изображению</word>
   <word key="view_as_thumbnails" js="0">Отображать превью</word>
   <word key="view_as_large" js="0">Отображать большие превью</word>
   <word key="view_as_list" js="0">Отображать список</word>
@@ -467,9 +467,9 @@
   <word key="gallery_album_review_lc" js="0">отзыв к альбому</word>
   <word key="gallery_album_review_pl" js="0">Отзывы к альбому</word>
   <word key="gallery_album_review_pl_lc" js="0">отзывы к альбому</word>
-  <word key="image_locked_can_comment" js="0">Это изображение закрыто, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="image_locked_can_comment" js="0">Это изображение закрыто, однако ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="image_locked_cannot_comment" js="0">Это изображение закрыто для дальнейших комментариев.</word>
-  <word key="album_locked_can_comment" js="0">Этот альбом закрыт, но ваши права доступа позволяют вам добавлять новые комментарии.</word>
+  <word key="album_locked_can_comment" js="0">Этот альбом закрыт, однако ваши права доступа позволяют вам добавлять новые комментарии.</word>
   <word key="album_locked_cannot_comment" js="0">Этот альбом закрыт для дальнейших комментариев.</word>
   <word key="gallery_edit_details" js="0">Изменить описание</word>
   <word key="gallery_edit_details_title" js="0">Редактировать данные этого изображения</word>
@@ -556,7 +556,7 @@
   <word key="adding_to_category_x" js="0"><![CDATA[Добавление изображений в <strong>%s</strong>]]></word>
   <word key="add_copyright_image" js="0">Добавить копирайт изображения</word>
   <word key="add_credit_image" js="0">Добавить информацию об источнике к изображению</word>
-  <word key="cannot_create_album" js="0">У вас нет прав для создания альбома в этой категории.</word>
+  <word key="cannot_create_album" js="0">К сожалению, у вас недостаточно прав для создания нового альбома в этой категории.</word>
   <word key="used_max_albums" js="0">Вы больше не можете создавать альбомы (максимум %d).</word>
   <word key="no_existing_albums" js="0">У вас нет альбомов для выбора в этой категории</word>
   <word key="use_no_album" js="0">Продолжить без использования альбома</word>
@@ -573,7 +573,7 @@
   <word key="gallery_guest_post_pbr_blurb" js="0">Вы можете отправить ваши изображения сейчас и зарегистрировать аккаунт позднее.</word>
   <word key="gallery_guest_post_mod_approval" js="0"><![CDATA[<strong>Примечание:</strong> вашим изображениям потребуется утверждение модератора после их публикации.]]></word>
   <word key="gallery_this_will_be_moderated" js="0">Из-за полученного предупреждения, ваши изображения будут скрыты до тех пор, пока модератор не проверит их.</word>
-  <word key="emailtpl__imageContent" js="0">Таблица для изображения Галереи</word>
+  <word key="emailtpl__imageContent" js="0">Таблица для изображения в галерее</word>
   <word key="exif_title" js="0">Данные EXIF</word>
   <word key="gallery_focal_length_mm" js="0">%s мм</word>
   <word key="gallery_shutterspeed" js="0">1/%s секунды</word>
@@ -767,7 +767,7 @@
   <word key="__api_gallery_reviews" js="0">Отзывы</word>
   <word key="gallery_bm_filters" js="0">Галерея</word>
   <word key="mf_has_album" js="0">У пользователя есть альбом?</word>
-  <word key="sitemap_gallery_Images" js="0">Изображения галереи</word>
+  <word key="sitemap_gallery_Images" js="0">Изображения в галерее</word>
   <word key="sitemap_gallery_Videos" js="0">Видео галереи</word>
   <word key="delete_note" js="1">Удалить заметку</word>
   <word key="save_note" js="1">Сохранить</word>
@@ -805,5 +805,15 @@
   <word key="__api_gallery_categories" js="0">Категории</word>
   <word key="category_allow_albums_desc" js="0"><![CDATA[Вы можете указать, каким группам разрешено создавать альбомы через <a href='{internal.app=core&module=members&controller=groups}'>Настройки групп</a>. Если Вам требуются альбомы, но у пользователя нет разрешения на создание альбомов, он не сможет публиковать в эту категорию.]]></word>
   <word key="map_enabled_lightbox" js="0">Показать карту?</word>
+  <word key="__defart_gallery_image_comment_plural" js="0">{!#[*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]} к изображению в галерее</word>
+  <word key="__defart_gallery_image_plural" js="0">{!#[*1:изображение][*2:изображения][*3:изображения][*4:изображения][*11:изображений][*12:изображений][*13:изображений][*14:изображений][?:изображений]} в галерее</word>
+  <word key="__defart_gallery_album_comment_plural" js="0">{!#[*1:комментарий][*2:комментария][*3:комментария][*4:комментария][*11:комментариев][*12:комментариев][*13:комментариев][*14:комментариев][?:комментариев]} к альбому в галерее</word>
+  <word key="__defart_gallery_album_plural" js="0">{!#[*1:альбом][*2:альбома][*3:альбома][*4:альбома][*11:альбомов][*12:альбомов][*13:альбомов][*14:альбомов][?:альбомов]} в галерее</word>
+  <word key="__defart_gallery_image_review_plural" js="0">{!#[*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]} об изображении в галерее</word>
+  <word key="__defart_gallery_album_review_plural" js="0">{!#[*1:отзыв][*2:отзыва][*3:отзыва][*4:отзыва][*11:отзывов][*12:отзывов][*13:отзывов][*14:отзывов][?:отзывов]} об альбоме в галерее</word>
+  <word key="gallery_bandwidth_period_desc" js="0">Для повышения производительности подробные журналы трафика, старше этого периода, будут удалены. После очистки журналов трафика различная статистика, которой нужны эти журналы, станет недоступна.</word>
+  <word key="gallery_unset_cover" js="0">Удалить обложку</word>
+  <word key="gallery_unset_cover_error" js="0">У вас недостаточно прав для удаления обложки</word>
+  <word key="gallery_cover_photo_isunset" js="0">Обложка была удалена</word>
  </app>
 </language>
