@@ -8539,7 +8539,7 @@
   <word key="club_requests" js="0">Ожидающие заявки</word>
   <word key="club_remove_member" js="0">Удалить из клуба</word>
   <word key="club_remove_member_confirm" js="0">Он не сможет повторно вступить в клуб до тех пор, пока лидер не пригласит его.</word>
-  <word key="club_remove_invitation" js="0">Отозвать пришлашение</word>
+  <word key="club_remove_invitation" js="0">Отозвать приглашение</word>
   <word key="club_remove_invitation_confirm" js="0">Он мог уже увидеть уведомление о приглашении его в клуб.</word>
   <word key="club_remove_accepted_confirm" js="0">Он мог уже увидеть уведомление об одобрении своего запроса на вступление.</word>
   <word key="club_make_leader" js="0">Сделать лидером</word>
