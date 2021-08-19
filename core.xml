@@ -1364,7 +1364,7 @@
   <word key="delta_upgrade_mismatch_versions" js="0"><![CDATA[Вы используете версию %s приложения %s, однако у вас установлен Invision Community %s. Для загрузки обновления вам нужно использовать одинаковую версию всех приложений. Если вы больше не используете приложение %s, вы можете удалить его на странице <a href='{internal.app=core&module=applications&controller=applications}' rel='noopener'>Приложения</a>. Вы также можете скачать полный архив, посетив <a href='{external.client_area}' target='_blank' rel='noopener'>область клиента</a>.]]></word>
   <word key="upgrade_method" js="0">Метод обновления</word>
   <word key="delta_upgrade_fail_cic_head" js="0">Загружаются актуальные файлы</word>
-  <word key="delta_upgrade_fail_cic_desc" js="0">Последние файлы из этого обновления были загружены на ваш сайт.</word>
+  <word key="delta_upgrade_fail_cic_desc" js="0">Новые файлы из этого обновления были загружены на ваш сайт.</word>
   <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[Вы можете продолжить <span data-role='counter'>через 5 минут</span>.]]></word>
   <word key="r__upgrade" js="0">Обновление</word>
   <word key="r__upgrade_manage" js="0">Может обновлять Invision Community</word>
