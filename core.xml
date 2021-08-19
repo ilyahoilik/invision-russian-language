@@ -11570,9 +11570,9 @@
   <word key="report_count_desc" js="0">Если есть открытые жалобы, в шапке страницы будет иконка с их количеством.</word>
   <word key="report_count_lc" js="0">иконка жалоб</word>
   <word key="notifications__core_Moderation_unapproved_content" js="0">Утверждение модератором</word>
-  <word key="notifications__core_Moderation_unapproved_content_desc_content" js="0">Эти уведомления будут отправлены каждый раз, когда создаётся публикация, которая требует модератора ручного утверждения и вы можете это сделать.</word>
-  <word key="notifications__core_Moderation_unapproved_content_desc_clubs" js="0">Эти уведомления будут отправлены каждый раз, когда создаётся публикация, которая требует модератора ручного утверждения и вы можете это сделать.</word>
-  <word key="notifications__core_Moderation_unapproved_content_desc_both" js="0">Эти уведомления будут отправлены каждый раз, когда создаётся публикация, которая требует модератора ручного утверждения и вы можете это сделать.</word>
+  <word key="notifications__core_Moderation_unapproved_content_desc_content" js="0">Эти уведомления будут отправлены каждый раз, когда публикуется новый контент, который модератор должен утвердить вручную.</word>
+  <word key="notifications__core_Moderation_unapproved_content_desc_clubs" js="0">Эти уведомления будут отправлены каждый раз, когда публикуется новый контент, который модератор должен утвердить вручную.</word>
+  <word key="notifications__core_Moderation_unapproved_content_desc_both" js="0">Эти уведомления будут отправлены каждый раз, когда публикуется новый контент, который модератор должен утвердить вручную.</word>
   <word key="notifications__core_Moderation_warning_mods" js="0">Предупреждения</word>
   <word key="notifications__core_Moderation_warning_mods_desc" js="0">Эти уведомления будут отправлены каждый раз, когда другой модератор выдаёт предупреждение.</word>
   <word key="what_notifications_you_receive" js="0">Ваши уведомления</word>
