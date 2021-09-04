@@ -1364,7 +1364,7 @@
   <word key="delta_upgrade_mismatch_versions" js="0"><![CDATA[Вы используете версию %s приложения %s, однако у вас установлен Invision Community %s. Для загрузки обновления вам нужно использовать одинаковую версию всех приложений. Если вы больше не используете приложение %s, вы можете удалить его на странице <a href='{internal.app=core&module=applications&controller=applications}' rel='noopener'>Приложения</a>. Вы также можете скачать полный архив, посетив <a href='{external.client_area}' target='_blank' rel='noopener'>область клиента</a>.]]></word>
   <word key="upgrade_method" js="0">Метод обновления</word>
   <word key="delta_upgrade_fail_cic_head" js="0">Загружаются актуальные файлы</word>
-  <word key="delta_upgrade_fail_cic_desc" js="0">Последние файлы из этого обновления были загружены на ваш сайт.</word>
+  <word key="delta_upgrade_fail_cic_desc" js="0">Новые файлы из этого обновления были загружены на ваш сайт.</word>
   <word key="delta_upgrade_fail_cic_cont" js="0"><![CDATA[Вы можете продолжить <span data-role='counter'>через 5 минут</span>.]]></word>
   <word key="r__upgrade" js="0">Обновление</word>
   <word key="r__upgrade_manage" js="0">Может обновлять Invision Community</word>
@@ -8539,7 +8539,7 @@
   <word key="club_requests" js="0">Ожидающие заявки</word>
   <word key="club_remove_member" js="0">Удалить из клуба</word>
   <word key="club_remove_member_confirm" js="0">Он не сможет повторно вступить в клуб до тех пор, пока лидер не пригласит его.</word>
-  <word key="club_remove_invitation" js="0">Отозвать пришлашение</word>
+  <word key="club_remove_invitation" js="0">Отозвать приглашение</word>
   <word key="club_remove_invitation_confirm" js="0">Он мог уже увидеть уведомление о приглашении его в клуб.</word>
   <word key="club_remove_accepted_confirm" js="0">Он мог уже увидеть уведомление об одобрении своего запроса на вступление.</word>
   <word key="club_make_leader" js="0">Сделать лидером</word>
@@ -11570,9 +11570,9 @@
   <word key="report_count_desc" js="0">Если есть открытые жалобы, в шапке страницы будет иконка с их количеством.</word>
   <word key="report_count_lc" js="0">иконка жалоб</word>
   <word key="notifications__core_Moderation_unapproved_content" js="0">Утверждение модератором</word>
-  <word key="notifications__core_Moderation_unapproved_content_desc_content" js="0">Эти уведомления будут отправлены каждый раз, когда создаётся публикация, которая требует модератора ручного утверждения и вы можете это сделать.</word>
-  <word key="notifications__core_Moderation_unapproved_content_desc_clubs" js="0">Эти уведомления будут отправлены каждый раз, когда создаётся публикация, которая требует модератора ручного утверждения и вы можете это сделать.</word>
-  <word key="notifications__core_Moderation_unapproved_content_desc_both" js="0">Эти уведомления будут отправлены каждый раз, когда создаётся публикация, которая требует модератора ручного утверждения и вы можете это сделать.</word>
+  <word key="notifications__core_Moderation_unapproved_content_desc_content" js="0">Эти уведомления будут отправлены каждый раз, когда публикуется новый контент, который модератор должен утвердить вручную.</word>
+  <word key="notifications__core_Moderation_unapproved_content_desc_clubs" js="0">Эти уведомления будут отправлены каждый раз, когда публикуется новый контент, который модератор должен утвердить вручную.</word>
+  <word key="notifications__core_Moderation_unapproved_content_desc_both" js="0">Эти уведомления будут отправлены каждый раз, когда публикуется новый контент, который модератор должен утвердить вручную.</word>
   <word key="notifications__core_Moderation_warning_mods" js="0">Предупреждения</word>
   <word key="notifications__core_Moderation_warning_mods_desc" js="0">Эти уведомления будут отправлены каждый раз, когда другой модератор выдаёт предупреждение.</word>
   <word key="what_notifications_you_receive" js="0">Ваши уведомления</word>
@@ -11758,7 +11758,7 @@
   <word key="loc_viewing_guidelines_action" js="0">%s читает правила поведения</word>
   <word key="loc_viewing_reg_terms_action" js="0">%s читает условия регистрации</word>
   <word key="share" js="0">Поделиться</word>
-  <word key="word_expansion" js="0">Расширение слова</word>
+  <word key="word_expansion" js="0">Расширение слов</word>
   <word key="word_add" js="0">Добавить слово</word>
   <word key="word_a_short" js="0">Слово</word>
   <word key="word_a_long" js="0">Расширение</word>
