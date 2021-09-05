@@ -298,7 +298,7 @@
   <word key="version_restore_confirm" js="0">Вы уверены, что хотите восстановить эту версию?</word>
   <word key="version_restore_confirm_desc" js="0">Все версии, начиная с %1$s, будут удалены и файл будет восстановлен до версии %1$s.</word>
   <word key="version_delete_confirm" js="0">Вы уверены, что хотите удалить эту версию?</word>
-  <word key="idm_rss_title" js="0">Последние файлы</word>
+  <word key="idm_rss_title" js="0">Новые файлы</word>
   <word key="wait_x_seconds_noscript" js="0">Подождите {# [*1:секунду][*2:секунды][*3:секунды][*4:секунды][*11:секунд][*12:секунд][*13:секунд][*14:секунд][?:секунд]} и нажмите Скачать ещё раз.</word>
   <word key="download_begins_in" js="0">Скачивание начнётся через</word>
   <word key="file_actions" js="0">Действия</word>
@@ -336,7 +336,7 @@
   <word key="downloads_delete_title" js="0">Удалить файл</word>
   <word key="find_users_files" js="0">Другие файлы автора</word>
   <word key="file_versioning_info_text" js="0">Нажмите здесь, если вы хотите загрузить новую версию файла или скриншот.</word>
-  <word key="browse_whats_new" js="0">Последние файлы</word>
+  <word key="browse_whats_new" js="0">Новые файлы</word>
   <word key="browse_highest_rated" js="0">Наивысший рейтинг</word>
   <word key="browse_most_downloaded" js="0">Самые скачиваемые</word>
   <word key="no_new_files" js="0">Загруженных файлов ещё нет.</word>
@@ -451,8 +451,8 @@
   <word key="block_downloadStats_desc" js="0">Отображать статистику скачиваний</word>
   <word key="block_topDownloads" js="0">Самые скачиваемые</word>
   <word key="block_topDownloads_desc" js="0">Отображать самые скачиваемые файлы</word>
-  <word key="block_recentFiles" js="0">Последние файлы</word>
-  <word key="block_recentFiles_desc" js="0">Отображает последние файлы</word>
+  <word key="block_recentFiles" js="0">Новые файлы</word>
+  <word key="block_recentFiles_desc" js="0">Отображает новые файлы</word>
   <word key="loc_downloads_viewing_file" js="0">Просматривает файл: %s</word>
   <word key="loc_downloads_viewing_category" js="0">Просматривает категорию: %s</word>
   <word key="loc_downloads_browsing_categories" js="0">Просматривает категории файлов</word>
@@ -525,7 +525,7 @@
   <word key="idm_landing_page" js="0">Главная страница</word>
   <word key="idm_show_featured" js="0">Отображать блок &quot;Рекомендованные файлы&quot;</word>
   <word key="idm_featured_count" js="0">Количество отображаемых важных файлов</word>
-  <word key="idm_show_newest" js="0">Отображать блок &quot;Последние файлы&quot;</word>
+  <word key="idm_show_newest" js="0">Отображать блок &quot;Новые файлы&quot;</word>
   <word key="idm_newest_categories" js="0">Категории</word>
   <word key="idm_show_highest_rated" js="0">Отображать блок &quot;С наивысшим рейтингом&quot;</word>
   <word key="idm_show_most_downloaded" js="0">Отображать блок &quot;Самые скачиваемые&quot;</word>

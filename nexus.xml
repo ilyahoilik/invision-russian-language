@@ -3123,8 +3123,8 @@
   <word key="email_commission_product_plain" js="0">Клиент купил %s, вы заработали %s, которые были зачислены на ваш аккаунт.</word>
   <word key="email_commission_no_product" js="0"><![CDATA[Вы заработали <strong>%s</strong>, которые были зачислены на ваш аккаунт.]]></word>
   <word key="email_commission_no_product_plain" js="0">Вы заработали %s, которые были зачислены на ваш аккаунт.</word>
-  <word key="email_commission_rev_product" js="0"><![CDATA[Покупка %s была отменёна, и комиссия в размере <strong>%s</strong> была снята с баланса вашего аккаунта.]]></word>
-  <word key="email_commission_rev_product_plain" js="0">Покупка %s была отменёна, и комиссия в размере %s была снята с баланса вашего аккаунта.</word>
+  <word key="email_commission_rev_product" js="0"><![CDATA[Покупка %s была отменена, и комиссия в размере <strong>%s</strong> была снята с баланса вашего аккаунта.]]></word>
+  <word key="email_commission_rev_product_plain" js="0">Покупка %s была отменена, и комиссия в размере %s была снята с баланса вашего аккаунта.</word>
   <word key="email_commission_rev_no_product" js="0"><![CDATA[Покупка была отменёна и <strong>%s</strong> были сняты с баланса вашего аккаунта.]]></word>
   <word key="email_commission_rev_no_product_plain" js="0">Покупка была отменёна и %s были сняты с баланса вашего аккаунта.</word>
   <word key="email_commission_info_no_payout" js="0">Вы можете использовать эти средства для покупок или продления в нашем магазине.</word>
