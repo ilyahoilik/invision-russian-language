@@ -1,7 +1,9 @@
 /.idea
 /.vscode
+/src/defaults
+/tests/Words.txt
 /vendor
 .DS_Store
+.junit.result.xml
 .phpunit.result.cache
 composer.lock
-phpunit.xml
